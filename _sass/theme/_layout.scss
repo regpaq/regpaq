@@ -1,0 +1,421 @@
+/* --------------------------------------------------------
+   Containers
+   -------------------------------------------------------- */
+
+/* V2 needs to not use a container for all article content in order to allow images that extend beyond column width. dependent on whether I can assign classes to images in markdown */
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: $spacing-unit * 2;
+  padding-left: $spacing-unit * 2;
+
+  @media (min-width: $on-phone-ls) { /* 576px */
+    /* should width auto calulcate based on viewport width and desired margin? */
+    max-width: 100%;
+    }
+
+  @media (min-width: $on-tablet) { /* 768px */
+    padding-right: 0px;
+    padding-left: 0px;
+    /* should width auto calulcate based on viewport width and desired margin? */
+    width: calc(#{$on-tablet} - (#{$spacing-unit} * 8));
+    max-width: 100%;
+    }
+
+  @media (min-width: $on-tablet-big) { /* 1024px */
+    /* should width auto calulcate based on viewport width and desired margin? */
+    width: calc(#{$on-tablet-big} - (#{$spacing-unit} * 8));
+    max-width: 100%;
+    }
+
+  @media (min-width: $on-desktop) { /* 1200px */
+    /* should width auto calulcate based on viewport width and desired margin? */
+    width: calc(#{$on-desktop} - (#{$spacing-unit} * 8));
+    max-width: 100%;
+  }
+}
+
+
+// .content-container {
+  
+//   h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, figure {
+//     position: relative;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-right: $spacing-unit * 2;
+//     padding-left: $spacing-unit * 2;
+//   }
+// }
+
+
+
+/* --------------------------------------------------------
+   Header
+   -------------------------------------------------------- */
+.site-header {
+  min-height: $spacing-unit * 2;
+  position: relative;
+  margin: $spacing-unit * 2 0;
+
+  @media screen and (min-width: 616px) {
+    margin: $spacing-unit * 3 0;
+    font-size: $base-font-size * 1.307;
+  }
+
+  @media screen and (min-width: 920px) {
+    margin: $spacing-unit * 3 0 $spacing-unit * 8 0;
+    font-size: $base-font-size * 1.667;
+  }
+
+  #logo {
+    max-width: 60px;
+
+    @media screen and (min-width: 616px) {
+      max-width: 80px;
+    }
+  }
+
+  .site-nav {
+    padding: $spacing-unit * 4 0 $spacing-unit * 2 0;
+
+    .page-link {
+      color: $brand-color;
+      &:not(:last-child) {
+        margin-right: $spacing-unit * 3;
+      }
+    }
+  }
+
+  .hashtag-nav {
+
+    .page-link {
+      color: $text-color;
+      background-color: $grey-color-light;
+      border-radius: 4px;
+      padding: $spacing-unit * .5;
+      line-height: 30px;
+    }
+  }
+}
+
+
+
+/* --------------------------------------------------------
+   Footer
+   -------------------------------------------------------- */
+.site-footer {
+  margin-bottom: $spacing-unit * 6;
+
+  #footer-cta {
+    margin-top: $spacing-unit * 2;
+
+    svg {
+      fill: $dark-brand-color;
+      background-color: $grey-color;
+      border-radius: 50%;
+      padding: $spacing-unit * 1.7;
+      cursor: pointer;
+      width: $spacing-unit * 3;
+      height: $spacing-unit * 3;
+    }
+  }
+
+  #bottom-foot {
+    margin-top: $spacing-unit * 8;
+    
+    svg {
+      fill: $text-color;
+      width: $spacing-unit * 2;
+      height: $spacing-unit * 2;
+    }
+
+    ul {
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+
+      &:not(:last-child) {
+        margin-right: $spacing-unit;
+      }
+    }
+
+    a {
+      color: $text-color;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+/* --------------------------------------------------------
+   Pages
+   -------------------------------------------------------- */
+.page-content {
+  flex: 1;
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+}
+
+
+
+/* --------------------------------------------------------
+   Articles & Text Styling
+   -------------------------------------------------------- */
+
+.post-header {
+  margin-top: $spacing-unit * 3;
+  margin-bottom: $spacing-unit * 3;
+
+  @media screen and (min-width: $on-tablet) {
+    margin-bottom: $spacing-unit * 8;
+  }
+  
+  .post-title {
+    margin-bottom: $spacing-unit;
+    font-size: $base-font-size * 2;
+
+    @media screen and (min-width: $on-tablet) {
+      font-size: $base-font-size * 4;
+      line-height: $base-font-size * 4.538;
+    }
+
+    @media screen and (min-width: $on-desktop) {
+      font-size: $base-font-size * 4.615;
+      line-height: $base-font-size * 5.231;
+    }
+  }
+
+  p.article-subtitle {
+    font-family: $SansSerif;
+    font-size: $base-font-size * 1.23;
+    margin-bottom: $spacing-unit * 3;
+
+    @media screen and (min-width: $on-tablet) {
+      font-size: $base-font-size * 2.462;
+      line-height: $base-font-size * 3.2;
+      margin-bottom: $spacing-unit * 4;
+    }
+
+    @media screen and (min-width: $on-tablet-big) {      
+      margin-bottom: $spacing-unit * 6;
+    }
+  }
+
+  .post-meta {
+    color: $heading-color;
+    margin-bottom: $spacing-unit * 2;
+    font-size: $base-font-size * .846;
+
+    @media screen and (min-width: $on-tablet) {
+      font-size: $base-font-size * 1.153;
+      margin-bottom: $spacing-unit * 3;
+    }
+
+    @media screen and (min-width: $on-tablet-big) {
+      font-size: $base-font-size * 1.5;
+      margin-bottom: $spacing-unit * 8;
+    }
+
+    .p-author {
+      display: block;
+      margin-bottom: $spacing-unit * .5;
+
+      @media screen and (min-width: $on-tablet) {
+        margin-bottom: $spacing-unit;
+      }
+    }
+
+    svg {
+      fill: $text-color;
+      width: $base-font-size * .846;
+      height: $base-font-size * .846;
+      padding-right: $spacing-unit * .5;
+      vertical-align: baseline;
+      display: inline-flex;
+      align-self: center;
+      top: 2px;
+      position: relative;
+  
+      @media screen and (min-width: $on-tablet) {
+        width: $base-font-size * 1.153;
+        height: $base-font-size * 1.153;
+      }
+  
+      @media screen and (min-width: $on-tablet-big) {
+        width: $base-font-size * 1.5;
+        height: $base-font-size * 1.5;
+        top: 3px;
+      }
+    }
+
+    time.dt-published {
+      display: block;
+      color: $text-color;
+    }
+  }
+}
+
+.feat-img {
+  display: block;
+  margin: 0 auto $spacing-unit * 3 auto;
+  width: 100%;
+  max-width: 2000px;
+
+  @media screen and (min-width: $on-tablet) {
+    margin-bottom: $spacing-unit * 8;
+  }
+}
+
+.post-content {
+
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: $spacing-unit * 2;
+    padding-left: $spacing-unit * 2;
+
+    @media screen and (min-width: 616px) {
+      padding: 0px;
+      width: 600px;
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 920px) {
+      width: 740px;
+    }
+  }
+
+  p, ol, ul {
+    list-style: none;
+
+    @media screen and (min-width: $on-iphonex) {
+      font-size: $base-font-size * 1.153;
+      line-height: $base-font-size * 1.461;
+    }
+
+    @media screen and (min-width: $on-tablet) {
+      font-size: $base-font-size * 1.307;
+      line-height: $base-font-size * 1.615;
+      margin-bottom: $spacing-unit * 3.5;
+    }
+  
+    @media screen and (min-width: $on-tablet-big) {
+      font-size: $base-font-size * 1.692;
+      line-height: $base-font-size * 1.846;
+      margin-bottom: $spacing-unit * 5;
+    }
+  }
+
+  strong, a {
+    background-color: $grey-color-light;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: $spacing-unit * .25 $spacing-unit * .5;
+    font-size: $base-font-size * .846;
+
+    @media screen and (min-width: 321px) {
+      font-size: $base-font-size;
+    }
+
+    @media screen and (min-width: 616px) {
+      font-size: $base-font-size * 1.153;
+    }
+
+    @media screen and (min-width: 920px) {
+      font-size: $base-font-size * 1.5;
+    }
+  }
+
+  strong {
+    color: $bold-text-color;
+  }
+
+  a {
+    color: $brand-color;
+  }
+
+  blockquote {
+    font-family: $SansSerif;
+    margin: $spacing-unit * 4 auto;
+    max-width: 70%;
+
+    @media screen and (min-width: $on-tablet) {
+      max-width: 330px;
+    }
+
+    @media screen and ($on-tablet-big) {
+      max-width: 430px;
+    }
+  }
+
+  blockquote > p {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  ol, ul {
+    counter-reset: counter;
+    
+    li {
+      padding-left: $spacing-unit * 4;
+      margin-bottom: $spacing-unit * 3;
+
+      &::before {
+        content: counter(counter, upper-roman);
+        counter-increment: counter;
+        font-family: $SansSerif;
+        display: block;
+        float: left;
+        font-size: 1em;
+        line-height: 1em;
+        text-align: left;
+        color: #fff;
+        font-weight: bold;
+        margin-left: $spacing-unit * -4;
+
+        @media screen and (min-width: $on-tablet) {
+          margin-left: $spacing-unit * -8;
+        }
+      }
+  
+      @media screen and (min-width: $on-tablet) {
+        padding-left: $spacing-unit * 8;
+        margin-bottom: $spacing-unit * 3.5;
+      }
+    
+      @media screen and (min-width: $on-tablet-big) {
+        margin-bottom: $spacing-unit * 5;
+      }
+    }
+  }
+}

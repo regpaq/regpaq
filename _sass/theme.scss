@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$Monospace: Overpass Mono, monospace;
+$SansSerif: Overpass, sans-serif;
+$base-font-size:   13px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.2 !default;
+
+$spacing-unit:     8px !default;
+
+$brand-color:      #BEA761 !default;
+$dark-brand-color: #302E28 !default;
+$alt-color:        #2FFF9F !default;
+$text-color:       #7F7F7F !default;
+$bold-text-color:  #CECCCC !default;
+$heading-color:    #F7F7F9 !default;
+$dark-background-color: #030419 !default;
+$dark-background-highlight: #181827 !default;
+
+
+$grey-color:       #7F7F7F !default;
+$grey-color-light: #2C2D3B !default;
+$grey-color-dark:  #4a4a4a !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    800px !default;
+$on-phone:         375px !default;
+$on-iphonex:       321px !default;
+$on-phone-ls:      576px !default; /* dedicated margin begins */
+$on-tablet:        768px !default;
+$on-tablet-big:   1024px !default;
+$on-desktop:      1200px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "theme/base",
+  "theme/layout",
+  "theme/subscribe",
+  "theme/category",
+  "theme/syntax-highlighting"
+;

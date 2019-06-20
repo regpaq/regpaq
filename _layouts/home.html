@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+  {{ content }}
+  
+<div class="featured-articles">
+  <div class="container container-overflow">
+    {%- if site.posts.size > 0 -%}
+      <div class="featured-article-header">
+        <h2 class="post-list-heading">Latest Articles</h2>
+        <p class="see-more">MORE {% include /svg/right-arrow.svg %}</p>
+      </div>
+      <div class="article-container">
+        <ul class="post-list">
+              {% assign i = 0 %}{%- for post in site.posts limit:6 -%}
+            <li class="article-{{ i }}">
+              {% assign i = i | plus:1 %}
+              {% if post.featured-image %}{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
+              <div class="article-info">
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                {%- if post.description -%}
+                  <p>{{ post.description }}</p>
+                {%- endif -%}
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
+                <p class="post-meta">{% include /svg/calendar.svg %}{{ post.date | date: date_format }}</p>
+              </div>
+            </li>
+          {%- endfor -%}
+          <li>
+            <div class="article-end-card">
+              <p><a href="{% link all-articles.md %}">See all latest articles</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    {%- endif -%}
+  </div>
+</div>
+
+{%- include subscribe.html -%}
+

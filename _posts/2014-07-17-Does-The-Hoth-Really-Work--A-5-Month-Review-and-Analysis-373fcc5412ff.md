@@ -44,7 +44,7 @@ As you can see, their link building product creates a tree-diagram-like layer of
 
 But the question is, is it good enough to be the only tool you need to build links? Let’s look at the data 5 months after I purchased The Hoth platinum package.
 
-#### Which Package is Right For You?
+## Which Package is Right For You?
 
 The most important factor to look at when deciding which package to purchase is the number of top level blogs/domains created because those links will be the most effective. Here’s a quick breakdown of a package comparison.
 
@@ -58,7 +58,7 @@ You may also notice that the pricing for the platinum, results, and mini package
 
 I have purchased the results package 3 times and the latest two times have been the platinum package. Let’s take a look now at how the last two platinum packages did for me.
 
-### Case Study #1: Consumer Vacuums
+## Case Study #1: Consumer Vacuums
 
 If you have been following along with the blog, you’ll already know about Consumer Vacuums, one of the niche sites I built. I used The Hoth platinum package to build a foundation of base layer links to the new domain I purchased for the site after I bought the website.
 
@@ -70,12 +70,12 @@ After 5 months from ordering, here is what my top level blogs metric’s look li
 
 Now let’s look at the other website.
 
-#### See how I build Amazon Niche Sites:
+### See how I build Amazon Niche Sites:
 
 [**I Made $317 / Mo. From Two Amazon Niche Sites Last Year**  
 _And here’s how I did it._regpaq.com](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59 "https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59")[](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59)
 
-### Case Study #2: A FITvertise Client Site
+## Case Study #2: A FITvertise Client Site
 
 I recently changed the name of my “agency” or client side marketing business to FITvertise (fitness + advertise) where I specialize in helping personal training studios grow their business through marketing.
 
@@ -85,23 +85,23 @@ For one of my clients, I ordered The Hoth platinum package on a domain we used t
 
 A very similar story to the previous results, but I’m disappointed that Ahrefs couldn’t pull up any data for the last domain there. I checked Open Site Explorer using their free trial and they couldn’t pull up any results either for it. However, that being said, the site is live. It has somewhat of a strange URL structure so maybe that’s causing confusion with these tools’ bots, but I have no idea if Google is picking it up.
 
-### Conclusion
+## Conclusion
 
 For $250, The Hoth created a mini private blog network for me that I have access to and can improve if I like. I can add more posts, edit the design, and even build more of my own links to them.
 
-### Was it worth $250?
+## Was it worth $250?
 
 Yes, because to create this on my own would have taken me much more time and probably cost a lot more to get them to these metrics. Hell, just paying a writer for 24 articles would cost me anywhere between $120 to $240.
 
-### Can The Hoth replace all link building?
+## Can The Hoth replace all link building?
 
 No. In theory, you can purchase many more platinum packages, but even buying 5 of them for $1,093.75 (12.5% discount for buying in bulk) wouldn’t amount to great links for the price. That extra money is much better spent in building your own PBN or buying PBN posts from someone else’s network.
 
-### How should you best use The Hoth?
+## How should you best use The Hoth?
 
 Here’s what I and also what Doug Cunnington of Niche Site Project does (you can see [his review here](http://nichesiteproject.com/ordering-the-hoth/)): Because you want to keep your exact anchor text down to a low percentage of your total links, I save the exact match anchors for my high PR links or links from a PBN. For The Hoth, I use it as a foundation of links using generic anchor text (naked URL, business or website name if it’s not an EMD or PMD, name of the site’s persona/author, and generic terms) to increase my number of linking root domains, backlinks, and provides link diversity. This acts as sort of a pillowing technique or compliment to the high PR links. This is the only way I recommend using it, but that doesn’t mean it’s the only way.
 
-### Should you buy it?
+## Should you buy it?
 
 This depends on you. You can see the results and what it gets you, and you have to decide whether it’s worth it for your site considering your competition. For most sites, I think purchasing one platinum package is an excellent start. You can then build more links to your top level blogs/domains to increase it’s usefulness over time. In my opinion, buying more than one platinum package for the same website is not worth it.
 

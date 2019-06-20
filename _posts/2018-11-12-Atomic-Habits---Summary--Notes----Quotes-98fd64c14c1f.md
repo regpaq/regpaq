@@ -10,8 +10,6 @@ featured-image-alt: atomic habits summary review
 author: Reggie Paquette
 ---
 
-![](/assets/images/atomic habits summary review.png)
-
 This book, out of all the books I’ve read so far, would have to be the first book I’d recommend to anyone — [Atomic Habits by James Clear](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74).
 
 Why?
@@ -27,7 +25,7 @@ This is a summary of Atomic Habits (AH) and important lessons you can learn from
 
 For this reason, don’t let yourself think this summary is all you need. Buy the book, read it completely + take your own notes, and use this summary as a reference.
 
-### Atomic Habits Summary — Why Habits Are Important
+## Atomic Habits Summary — Why Habits Are Important
 
 Habits are the small reoccurring things you do everyday or weekly (or sometimes monthly). Habits can be good, bad, or neutral.
 
@@ -47,7 +45,7 @@ While forcing yourself to do and to stop certain things in your day may seem lik
 
 For example, if you don’t have good financial habits, you may find yourself always worrying about money and feeling like you never have enough to do what you want.
 
-#### **_Your habits define who you are_**
+## Your habits define who you are
 
 > “Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. The process of building habits is actually the process of becoming yourself.”
 
@@ -59,7 +57,7 @@ But if you start with your identity, the core of behavior change, it will reflec
 
 > The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.
 
-### The Habit Loop: How Habits Work
+## The Habit Loop: How Habits Work
 
 ![](https://cdn-images-1.medium.com/max/600/1*tsIZHbTPMVV1_K0CZKG6nA@2x.jpeg)
 
@@ -79,7 +77,7 @@ The cue triggers the craving, which motivates a response, which provides a rewar
 
 Below will be more details on each law. Keep in mind you can stack many of these laws together to help you start good habits and to stop bad ones.
 
-### I. Cue — Make it Obvious
+## I. Cue — Make it Obvious
 
 Think about your current habits and what cues (the trigger) set them off. This can be really hard to uncover at first because your bad habits are probably already so automatic and done unconsciously.
 
@@ -91,7 +89,7 @@ In addition to time and location, you can pair it with a current habit (e.g. rig
 
 ![](https://cdn-images-1.medium.com/max/800/1*kUpwACfzQQimcmTf0Ocp3w@2x.jpeg)
 
-#### Set up your environment for success
+### Set up your environment for success
 
 > Most people live in a world others have created for them, but you can alter the spaces where you live and work to increase your exposure to positive cues and reduce your exposure to negative ones.
 
@@ -103,13 +101,13 @@ Because it’s difficult to stop a bad habit in your normal environment, it’s 
 
 Create a separate space for work and relaxation. “One space, one use.”
 
-#### Reversal: make bad habits invisible
+### Reversal: make bad habits invisible
 
 If you can determine what your cues are for bad habits and remove them, you have a really good chance of stopping that bad habit all together.
 
 > Self-control is only a short term strategy. You may be able to resist temptation once or twice, but it’s unlikely you can muster the willpower to override your desires every time. This practice is exhausting and your energy would be better spent optimizing your environment and removing cues for bad behavior.
 
-### II. Craving — Make it Attractive
+## II. Craving — Make it Attractive
 
 If you have a bad shopping habit, this may be why: it’s literally the job of a marketer and advertiser to make their products attractive and make you crave it as much as possible.
 
@@ -123,7 +121,7 @@ So if you’re able to make a new habit you want to start attractive, you’ll b
 
 Eventually you may not need to use temptation bundling for good habits once you find the merit of the habit itself rewarding enough to make it attractive.
 
-#### “Nothing sustains motivation better than belonging to the tribe.”
+### “Nothing sustains motivation better than belonging to the tribe.”
 
 One way to sustain attractiveness for a habit you want to start is to surround yourself with people who have already made it a part of their life and their identity (or want to with you). It will turn “a personal a personal quest into a shared one.”
 
@@ -133,7 +131,7 @@ For example, if you want to start going to the gym, surround yourself with peopl
 
 This obviously takes a lot of work and effort to execute, but the effect it has is enormous. So much so that the reverse is just as effective in the wrong direction. It will be extremely difficult to go to the gym and eat better if the people you spend your most time with don’t subscribe to that lifestyle.
 
-#### Why bad habits are hard to break
+### Why bad habits are hard to break
 
 A craving for something is just a manifestation of a deeper underlying motive.
 
@@ -147,7 +145,7 @@ New apps, things, or video games don’t create a new motivation, they are just 
 
 Think again of your bad habits. Can you tell what your underlying motives might be? If you can, you may be able to find a new and positive habit that can meet the same motive and create the same positive feelings.
 
-#### Reprogram your brain to enjoy hard habits
+### Reprogram your brain to enjoy hard habits
 
 Changing your habits and routines are hard. You most likely have already tried to start new habits before and more than likely failed to keep at least one of them going.
 
@@ -157,7 +155,7 @@ One method AH recommends to make habits less difficult is to reframe your thinki
 
 If you can associate going to the gym as an opportunity to get stronger + look better rather than exercise and hard work, you’ll be more likely to look forward to it and crave it. This isn’t a trick — both mindsets are true + reflect reality. If you have to choose one or the other, why not the one that makes it attractive?
 
-### III. Response — Make it Easy
+## III. Response — Make it Easy
 
 Environment design helps you create cues and can make performing your new habit _easier_ — the 3rd law is all about making it easier to perform the habit you want as the correct response to a cue.
 
@@ -169,7 +167,7 @@ Going back to the gym example, just start getting in the habit of going. Don’t
 
 Just get started. Perfection comes later.
 
-#### Use friction to your advantage
+### Use friction to your advantage
 
 So how can you make just getting started easier? Reduce as much friction as possible. Environment design can again be useful here.
 
@@ -185,7 +183,7 @@ Do you play video games too much? Don’t be afraid to unplug the system and put
 
 ![](https://cdn-images-1.medium.com/max/800/1*NGcUfmlP5grrRAeUiXFE_g@2x.jpeg)
 
-### IV. Reward — Make it Satisfying
+## IV. Reward — Make it Satisfying
 
 We continue to keep our bad habits because they provide some kind of immediate gratification even if we know they have bad consequences down the line.
 
@@ -199,7 +197,7 @@ So to make your habit satisfying, you should try adding a reward at the end of p
 
 You can also reward yourself for _not_ doing a bad a habit. For example, if one habit you’re trying to break is out-of-control spending, you can reward yourself if you spent less than your target amount of money per day with going to Starbucks in the next morning.
 
-#### Tracking and visualizing progress
+### Tracking and visualizing progress
 
 When you [track your habits in a log](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237), you’ll be happy with yourself when you can see how far you’ve come.
 
@@ -217,7 +215,7 @@ I highly recommend you [set up a form of tracking](https://regpaq.com/done-revie
 
 After trying all different ways of habit tracking, I finally settled on tracking habits with an app called “Done” — [read my review here](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237).
 
-#### What to do when you break a habit streak
+### What to do when you break a habit streak
 
 If you break your streak and miss a day, don’t get down on yourself. It’s inevitable. If you haven’t broken a streak yet, accept that you will one day.
 
@@ -229,7 +227,7 @@ If you’re tired, short on time, or feeling unmotivated for whatever reason, do
 
 > This is a distinguishing feature between winners and losers. Anyone can have a bad performance, a bad workout, or a bad day at work. But when successful people fail, they rebound quickly. The breaking of a habit doesn’t matter if the reclaiming of it is fast.
 
-#### Accountability partners can make bad habits unrewarding
+### Accountability partners can make bad habits unrewarding
 
 Make a deal with someone your close with to help keep you accountable to performing your habit.
 
@@ -239,7 +237,7 @@ With an accountability partner, you are less likely to procrastinate or give up 
 
 > Suddenly, you are not only failing to uphold your promise to yourself, but you are failing to uphold your promise to others.
 
-### Advanced Strategies and Tactics
+## Advanced Strategies and Tactics
 
 Remember, the sooner you start your new habits the sooner it will change your life for the better. If you don’t consciously make positive changes to your life, you won’t get far. That’s why this book and implementing what it teaches is crucial to literally everything you do in life from here on out.
 
@@ -247,7 +245,7 @@ The 4 Laws described above is an excellent framework to help you pick up good ha
 
 Reading this summary is not enough. You have to read the whole book to truly understand the concepts, truly believe they can be effective, and truly understand the importance of starting good habits and quitting bad habits now.
 
-### TLDR:
+## TLDR:
 
 [Atomic Habits](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74) is an essential book for anyone who wants to really make a change in their life for the better. The way Clear organizes the strategies and lessons make Atomic Habits easy to understand and extremely practical. I’m not sure how it can be any better so it deserves a 10/10.
 

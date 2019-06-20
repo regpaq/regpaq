@@ -10,8 +10,6 @@ featured-image-alt: done app review
 author: Reggie Paquette
 ---
 
-![](/assets/images/done app review.jpeg)
-
 I’ve always had miserable success with tracking habits until I found an app called [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8). I would always start off strong, then the number of days in a row I would log would taper off until I stopped completely.
 
 I’ve tried spreadsheets, a pen and planner system, and a variety of apps, but I couldn’t stick to any of them (until Done).
@@ -24,14 +22,14 @@ So obviously the most important thing in a habit tracking system is one that you
 
 The other systems and apps didn’t work because they were either too much work to fill out each day (friction) or weren’t fun to use (not rewarding).
 
-### Done Is Everything I Needed In a Habit Tracking App
+## Done Is Everything I Needed In a Habit Tracking App
 
 1.  Great design (I’m _attracted_ to using it)
 2.  Easy to use (there shouldn’t be unnecessary _friction_ to track habits)
 3.  Fun when completing habits (_rewarding_)
 4.  Robust reports to see + feel good about my progress (also _rewarding_)
 
-### Design
+## Design
 
 First, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8) has dark mode. Already a huge winner there.
 
@@ -41,7 +39,7 @@ You can customize the color of your habits, too. If you want to use all the same
 
 I rate the design an 8/10. It’s great, especially compared to competitors. It’s more than good enough to keep me comfortable using it.
 
-### Ease of Use
+## Ease of Use
 
 It took me a few minutes of exploring to get used to how the app worked, but was pretty intuitive once I learned the overall structure.
 
@@ -54,7 +52,7 @@ Examples of new habits — ONE: New habit once per day. TWO: New habit twice
 
 It’s also easy to track bad habits you want to limit or all out quit. For example, you can add a bad habit and set the limit to 3_x_ per week (what I do for video games), or to zero times per day if you want to quit it.The Apple Watch app is also a great way to quickly mark a habit as done while on the go + right in the moment (unlike a spreadsheet or handwritten tracker).
 
-### Done Apple Watch App
+## Done Apple Watch App
 
 Once you set up your habits on the iPhone app, you can use the Watch app to mark habits as done while on the go and at the moment of completing the habit.
 
@@ -68,7 +66,7 @@ As for complications, Done only has the small icon complication for quickly open
 
 It doesn’t do anything else, but it doesn’t really need to either.
 
-### How It Works
+## How It Works
 
 To mark a habit as complete, you tap the habit once on the home screen. The habit will turn from a light gray to the bright color you selected. This small subtle change does feel rewarding in itself. Everyday I want to turn all my habits their bright color.
 
@@ -87,12 +85,12 @@ I also care about how long it’s been since I last completed a habit. This is b
 ![You can customize the big number on the right and the small text below the habit name.](https://cdn-images-1.medium.com/max/1200/1*SZC666I9ct8ckLEjqmv59g@2x.jpeg)
 You can customize the big number on the right and the small text below the habit name.
 
-#### Related:
+### Related:
 
 [**How to Make Your New Habits Stick When Motivation Has Run Out**  
 _My six most helpful tips on building new habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)
 
-### Tracking Progress
+## Tracking Progress
 
 You have both a calendar view of your habits and a chart view so you can see when you did or didn’t do your habits, how many times a habit was completed in any given period, and your current and longest streaks.
 
@@ -105,7 +103,7 @@ Their reporting system makes it super easy to compare how I did week-over-week a
 
 Without [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8), I don’t think I’d be able to keep up my habits, because visually seeing the progress is extremely powerful. I rate their reporting features a 9/10.
 
-### Price
+## Price
 
 Luckily, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8) is not using a subscription model. They have a free tier that lets you track just a few habits and the premium tier for only $5.99 lets you add unlimited habits.
 

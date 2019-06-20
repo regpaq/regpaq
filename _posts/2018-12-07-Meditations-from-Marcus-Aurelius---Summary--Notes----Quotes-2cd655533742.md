@@ -10,9 +10,7 @@ featured-image-alt: meditations marcus aurelius summary
 author: Reggie Paquette
 ---
 
-![](/assets/images/meditations marcus aurelius summary.jpeg)
-
-M[arcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius) was an ancient Roman emperor from the years 161 to 180. And we have access to his personal journals.
+[Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius) was an ancient Roman emperor from the years 161 to 180. And we have access to his personal journals.
 
 Although born into a rich and politically connected family, Marcus wasn’t born to be emperor — he wasn’t the biological son of the emperor he preceded.
 
@@ -22,11 +20,12 @@ The emperor at the time, Hadrian, became very ill. Before his death, he named Au
 
 What did Hadrian see in Marcus? He saw young man with excellent character and without the thirst for power — heavily influenced by philosophy. Marcus was not happy with his new path in life, but grew to accept it and thrive.
 
-### What is Meditations?
+## What is Meditations?
 
 [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404) is a collection of notes Marcus wrote to himself while emperor of which he never intended to be published. These notes span a variety of topics and for Marcus were an exercise to help him think clearly and rationally. His journals were preserved, translated, and curated into a single collection which came to be known as Meditations — obviously not a name Marcus himself chose.
 
 ![[Link to Amazon](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404)](https://cdn-images-1.medium.com/max/600/1*Fka-1TYe9xlD7mP4vOtU2A.jpeg)
+
 [Link to Amazon](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404)
 
 I read the Gregory Hays translation, which also has a very interesting introduction and history lesson that provides helpful context that I think is needed before diving into his Marcus’ actual writing.
@@ -48,7 +47,7 @@ Meditations is divided into several chapters, each without a theme on its own (a
 
 For each theme I’ve identified, I provided a brief summary and a few of my favorite notes on the topic.
 
-### On Daily Attitude
+## On Daily Attitude
 
 There were some universal pieces of wisdom in Meditations that I should always be top of mind, or even read to yourself each morning.
 
@@ -80,7 +79,7 @@ A large majority of events that cause us to grieve, feel anger, or fear are outs
 
 > If you maintain your claim to these epithets — without caring if others apply them to your or not — you’ll become a new person, living a new life. To keep on being the person that you’ve been — to keep being mauled and degraded by the life you’re living — is to be devoid of sense and much too fond of life.
 
-### On Happiness, Purpose, Your Value, Desires
+## On Happiness, Purpose, Your Value, Desires
 
 Marcus found happiness by suppressing desire, ignoring what other people think, appreciating the moment, and accepting what happens as natural.
 
@@ -123,7 +122,7 @@ _Who you’ll become in your future can be answered by your behavior today._regp
 
 A great summation of everything Marcus views as the path to happiness and tranquility.
 
-### On What Other People Think
+## On What Other People Think
 
 I struggle heavily with comparing myself to others and caring too much about what other people think, so I grouped Marcus’s thoughts on the subject into its own theme.
 
@@ -151,7 +150,7 @@ Why make a legacy your ultimate goal in life? No matter who you are, people will
 
 Just accept people are thinking nasty things about you and you won’t be surprised if/when they make it evident. You won’t be affected because you saw that it could come. So don’t be afraid to be yourself and don’t change your opinion to try and fit in with the group.
 
-### On Obstacles and Fate
+## On Obstacles and Fate
 
 One of the most important tenets of Stoicism is the understanding and application of knowing what’s in your control and what is not. If it is not in your control, you should accept it as “what nature demanded” (or fate). And what nature demands is neither good nor bad. It just is.
 
@@ -175,7 +174,7 @@ People (even friends or family) can do or say things that hurt you, bother you, 
 
 > What stands in the way becomes the way.
 
-### On Leadership and How to Treat Others
+## On Leadership and How to Treat Others
 
 Marcus didn’t write about leadership directly, but because he was an emperor, he was a leader to everyone around him. Still, his main focus was to not let people upset him and to gently help set them straight.
 
@@ -195,7 +194,7 @@ A logical way to withhold anger, disappointment, and frustration at other people
 
 Everything people do comes from many different influences. It’s not really them as a person making a decision on their own, even if it seems that way on the surface.
 
-### On Goals and Time
+## On Goals and Time
 
 One of the big tenants of Stoicism is the reflection on the shortness of life (memento mori). Often, Marcus reminds himself that life is short so it’s best to not waste time and get on with it.
 
@@ -221,7 +220,7 @@ How to achieve tranquility.
 
 Step-by-step. Action-by-action. It doesn’t have to be perfect as long as you make progress.
 
-### Anger
+## Anger
 
 > \[11.18.vi\] When you lose your temper, or even feel irritated: that human life is very short. Before long all of us will be laid out side by side.
 
@@ -251,7 +250,7 @@ And harms you more than the event itself that caused it, because it’s hurting 
 
 > That the present is all we have to live in. Or to lose.
 
-### On Death
+## On Death
 
 > \[6.49\] It doesn’t bother you that you weigh only x or y pounds and not three hundred. Why should it bother you have only x or y years to live and not more? You accept the limits placed on our body. Accept those placed on your time.
 
@@ -265,7 +264,7 @@ Marcus wrote a lot on death. I think he feared it a lot and that’s why he wrot
 
 > \[9.17\] A rock thrown in the air. It loses nothing by coming down, gained nothing by going up.
 
-### TLDR:
+## TLDR:
 
 If you took the time to read some of these quotes, you’ll see why this summary is so long. [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404) has been the most influential book on my life. At time where I felt I lack a purpose or satisfaction with my life (of course these feelings and thoughts still occur), Meditations is helping me push through and find tranquility. Easily, Meditations is a 10/10 must read.
 

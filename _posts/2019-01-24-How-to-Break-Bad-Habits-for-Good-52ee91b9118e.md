@@ -10,8 +10,6 @@ featured-image-alt: how to break bad habits
 author: Reggie Paquette
 ---
 
-![](/assets/images/how-to-break-bad-habits.png)
-
 Stopping a bad habit is usually much more difficult than starting a new habit, especially if it’s a bad habit you’ve had for a long time.
 
 The reason bad habits get started in the first place is throughout our day we experience a wide range of feelings and sensations, which can unconsciously trigger an action to fulfill or solve such feeling—all without a second thought.
@@ -33,7 +31,7 @@ They provide instant gratification to solve some kind of feeling (the trigger). 
 
 Here are six tips from [Atomic Habits](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f) that helped me be break my worse habits:
 
-### 1\. Write Down the Bad Habits You Want to Quit and Why
+## 1\. Write Down the Bad Habits You Want to Quit and Why
 
 This will help make your promise to yourself more concrete, almost like a contract between your conscious and unconscious self.
 
@@ -45,7 +43,7 @@ For example: I don’t want to eat a donut for breakfast every morning. Why? Bec
 
 Although this seems like you’re just playing a trick on yourself at first, once it becomes ingrained in you, it’s a powerful resistance to temptation.
 
-### 2\. Remove the Cues That Trigger Your Bad Habits
+## 2\. Remove the Cues That Trigger Your Bad Habits
 
 Although it may be difficult to pin down exactly what causes you to suddenly desire your bad habit, once you’re able to stop the cue (or limit it as much as possible), you’re much more likely to not desire and therefore do your bad habit.
 
@@ -53,7 +51,7 @@ Next time you have a desire to do the bad habit in question, think about why you
 
 For example, if you’re constantly picking up and checking your phone, maybe it was a notification that caused it? Once you’ve identified the cue, you can remove it as best you can. In this case, you can turn on do not disturb mode and stop the notifications from occurring.
 
-### 3\. Increase Friction Between You and Bad Habits
+## 3\. Increase Friction Between You and Bad Habits
 
 For extremely ingrained habits, sometimes removing the cue is not enough so you can go a step further by adding friction.
 
@@ -61,7 +59,7 @@ Not only can you turn off notifications, you can also put your phone in another 
 
 Other examples: throw out the alcohol you have in your home to stop drinking at home after work. Store your video game consoles in the closet so you’d have to take it out each time and set it up just to play. Delete Instagram from your phone so every time you want to check it you have to download the app again.
 
-### 4\. Replace a Bad Habit with a Good Habit
+## 4\. Replace a Bad Habit with a Good Habit
 
 Believing the why, removing the cue, and increasing friction is likely to help you stop most of your habits. But there could still be unfulfilled feelings that leave you feeling empty or deprived.
 
@@ -69,7 +67,7 @@ If this is the case, you may be using too much willpower to stop your bad habits
 
 For example, replace the donut in the morning with a fruit smoothie. Replace the drink after work with a decaf latte. Replace the video games with [a great book](https://regpaq.com/book-notes/home).
 
-### 5\. Record Your Progress in a Habit Tracker
+## 5\. Record Your Progress in a Habit Tracker
 
 Seeing your progress and how far you’ve come can also be a great long term source of motivation. With a good system for tracking your habits, you’ll be able to see the number of days (or weeks) in a row you refrained from a bad habit. As that number increases, you’ll want to break it less and less.
 
@@ -80,7 +78,7 @@ The app I use is called Done. [Check out my review](https://regpaq.com/done-revi
 [**“Done” App Review: My Favorite Habit Tracker**  
 _And one you’ll actually stick to._regpaq.com](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237 "https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237")[](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237)
 
-### 6\. Reward Yourself for Resisting Your Bad Habits
+## 6\. Reward Yourself for Resisting Your Bad Habits
 
 Finally, give yourself a reward for refraining from a bad habit. If you don’t have a donut in the morning for a week, treat yourself to a nice breakfast on Sunday mornings.
 
@@ -90,7 +88,7 @@ Using these strategies, I was able to completely break, or significantly reduce,
 
 What’s your best to tip to break a bad habit?
 
-#### Recommended Reading:
+### Recommended Reading:
 
 [**How to Make Your New Habits Stick When Motivation Has Run Out**  
 _The 6 best tips from Atomic Habits on building habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)

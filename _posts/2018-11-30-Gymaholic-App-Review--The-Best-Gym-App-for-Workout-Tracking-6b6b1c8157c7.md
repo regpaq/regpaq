@@ -10,13 +10,11 @@ featured-image-alt: gymaholic review
 author: Reggie Paquette
 ---
 
-![](/assets/images/gymaholic review.jpeg)
-
 I’ve been using [Gymaholic](https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8) religiously for exactly a year now and have tracked every workout with it. Below is my review.
 
 I’ve been paying for the premium version for about a year now and so the below review doesn’t distinguish between what’s in the free vs. the paid to keep it simple.
 
-### First, Let’s Talk Design
+## First, Let’s Talk Design
 
 Design is just such a big thing to me. I have to love using and being in the app. At first, I hated Gymaholic’s design — I’ll admit it. I even think I deleted it because it was so complex. I tried to get used to it and I just gave up. But when I tried other apps, it made me realize just how good Gymaholic actually is.
 
@@ -35,7 +33,7 @@ AR helps teach proper form and give cues for what muscles to use.
 
 Overall I give Gymaholic’s design a 9/10. Pretty much everything is great, but the reports + charts leave a little to be desired.
 
-### How it Works
+## How it Works
 
 The app has a ton of Exercises you can group together as a Workout. Each exercise has a 3D model to show you how it’s done and what primary and secondary muscles the exercise works. There is also a description to help explain it and help provide the right cues to make sure you do it right. They have all kinds of exercises from dumbbell, barbell, body-weight, machine, kettlebell, and even cardio exercises. If they don’t have an exercise you like, you can add a custom one and enter the data yourself.
 
@@ -72,7 +70,7 @@ I could go on and on about what else this app does, but I’m going to leave it 
 
 In terms of functionality, Gymaholic gets a 10/10 easy.
 
-### Tracking Progress
+## Tracking Progress
 
 In the History tab, you can see a monthly calendar view of all the days you’ve completed at least one workout. Or you can switch to list view and see all your workouts completed from most recent to oldest including the workout name, date, and duration.
 
@@ -83,7 +81,7 @@ At the bottom is a row of prebuilt charts and reports. In terms of habit trackin
 ![ONE: Calendar of completed workouts. TWO: Or a list view. THREE: You can add your favorite charts to your home screen.](https://cdn-images-1.medium.com/max/400/1*xdFrODat8kJ4-4FX1iI05Q.png)
 ONE: Calendar of completed workouts. TWO: Or a list view. THREE: You can add your favorite charts to your home screen.
 
-#### Related:
+### Related:
 
 [**How to Make Your New Habits Stick When Motivation Has Run Out**  
 _My six most helpful tips on building new habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)
@@ -94,11 +92,11 @@ Not only can you track progress of your workouts and strength gains, you can als
 
 There’s so much more in tracking progress and the reports that I could keep going, but this covers the major parts of it. If you’re a real gym rat or data nerd, you’re going to love the details and stats these reports offer. Overall, I give Gymaholic’s tracking and reporting features a 9/10. It tracks a lot, but I wish the charts were a bit more customizable and looked a bit more polished, but for the most part, it gets the job done.
 
-### Price
+## Price
 
 [Gymaholic](https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8) does run on a subscription model, but it’s SO worth it. To get all the features with the premium version, it costs $4.99 per month or $31.99 annually.
 
-### You might also enjoy:
+## You might also enjoy:
 
 [**“Done” App Review: My Favorite Habit Tracker**  
 _And one you’ll actually stick to._regpaq.com](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237 "https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237")[](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237)

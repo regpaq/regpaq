@@ -12,7 +12,8 @@ author: Reggie Paquette
 
 Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).
 
-![[Link to Amazon](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907)](https://cdn-images-1.medium.com/max/600/1*w8hmmbZhIJP2j30uI2_kaw.png)
+![Mastery by Robert Green](https://cdn-images-1.medium.com/max/600/1*w8hmmbZhIJP2j30uI2_kaw.png)
+
 [Link to Amazon](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907)
 
 I personally felt [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907) was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.

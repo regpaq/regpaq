@@ -13,7 +13,7 @@ layout: default
             {% assign i = 0 %}{%- for post in site.categories.marketing -%}
           <li class="article-{{ i }}">
             {% assign i = i | plus:1 %}
-            {% if post.featured-image %}{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
+            {% if post.featured-image %}<a style="display: contents;" href="{{ post.url | relative_url }}">{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}</a>{% endif %}
             <div class="article-info">
               <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">

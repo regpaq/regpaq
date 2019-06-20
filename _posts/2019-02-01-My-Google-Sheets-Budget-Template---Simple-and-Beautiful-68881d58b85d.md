@@ -10,7 +10,6 @@ featured-image-alt: google sheets budget template
 author: Reggie Paquette
 ---
 
-![You can download my template using the link at the bottom of this article.](/assets/images/google-sheets-budget-template.jpeg)
 You can download my template using the link at the bottom of this article.
 
 After I graduated college, I received an inheritance check for $30k. **About a year later it was gone.**
@@ -27,7 +26,7 @@ How did I get my finances back on track? As you can tell by the title, it was fr
 
 > The ultimate goal of a budget is not to see where your money is going, but to create a change in your behavior to spend less money on stupid shit.
 
-### The Reason Doing Your Budget on Google Sheets Will Drive Behavior Change to Spend Less
+## The Reason Doing Your Budget on Google Sheets Will Drive Behavior Change to Spend Less
 
 It forces you to enter your expenses manually. Although seemingly tedious, I found it the most important exercise.
 
@@ -53,7 +52,7 @@ Once you’ve been using it for a few months and get some data in there (or even
 
 ![](https://cdn-images-1.medium.com/max/1200/1*aZZ8Cy_ODIp3pdIlUZBsbw.gif)
 
-### Download My Google Sheets Monthly Budget Template
+## Download My Google Sheets Monthly Budget Template
 
 Click the link below to access a “view only” version of the template. You will need to click File > Make a Copy in order to use it for yourself:
 

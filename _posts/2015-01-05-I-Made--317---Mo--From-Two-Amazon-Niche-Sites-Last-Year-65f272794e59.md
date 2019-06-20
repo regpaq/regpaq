@@ -10,8 +10,6 @@ featured-image-alt: niche site amazon affiliate
 author: Reggie Paquette
 ---
 
-![](/assets/images/niche site amazon affiliate.png)
-
 Towards the end of 2014, I was really sad and maybe even depressed, although I’m hesitant to use the word. Nothing was going right.
 
 I spent a lot of time and money on private blog networks (PBN) and the network I was using was “targeted” by Google and they deindexed nearly all the domains. Looking back, it was foolish to put all my sites (even client sites) into one network, let alone a _public_ network that was advertised (hint) as private.
@@ -24,7 +22,7 @@ The end of 2014 sucked. It halted my progression of my one-man agency that I was
 
 So while my service business stalled, I was thankful that I had built and bought Amazon niche sites to help diversify my income. Even though my niche sites were still hit with the same penalty, they are still making money albeit just a fraction of their total potential.
 
-### My First Full Year as an Active Amazon Associate
+## My First Full Year as an Active Amazon Associate
 
 With my two niche sites that I decided to stop working on, I was still able to get a decent paycheck from them. After seeing the same amount come in every month, I got used to seeing it and maybe I took them for granted.
 
@@ -41,24 +39,24 @@ But reflecting on everything now, $317 extra each month from doing basically not
 
 So while I had always thought these two sites were failures, I think I can change my attitude and call them mild successes. A stepping stone to a better Amazon niche site. If I continue to make more sites, I’m bound to finally hit one out of the park and at the least, create multiple sites of the same success compounding my income.
 
-### A Quick Recap of How I Did It
+## A Quick Recap of How I Did It
 
 If you haven’t started a niche site before, just start one. It’s not very complicated. There aren’t many hidden secrets you must know in order to succeed. All it really takes is some hard and _consistent_ work in the right direction. Just start. If your first site makes just $100/month (easy to do) then great! Keep working on it if you think it has legs and if not use that money to invest in content for your next site.
 
-#### Start a habit of dedicating 1 hour per day to making your site:
+### Start a habit of dedicating 1 hour per day to making your site:
 
 [**Atomic Habits Summary, Notes, + Quotes**  
 _Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
 
 This is going to be a quick guide with links to helpful resources and some of my notes where needed. I’m going to refrain from talking about things that have already been said elsewhere and just link to it.
 
-### Step 1: Topic Selection and Keyword Research
+## Step 1: Topic Selection and Keyword Research
 
 Proper research is very important before you start doing anything and buying a domain. But don’t research too much, only just as much as you need to.
 
 [Tung Tran](https://twitter.com/OfficialTung) has a brilliantly thorough and straight to the point [guide on keyword research](http://www.cloudliving.com/keyword-research/). Looking over his post again, I don’t think you need any other guide on how to do keyword research. He recommends a paid software, Long Tail Pro. I have it, but I don’t think it’s necessary even though it does save time. Just use the free Google Keyword Planner tool.
 
-### Step 2: Buy a Domain and Set Up Hosting
+## Step 2: Buy a Domain and Set Up Hosting
 
 Can’t go too wrong with anything here. Just pick a “brandable” domain and not a spammy sounding name with your keyword in it. When I bought my vacuum niche site, the domain name was bestcanistervacuums.net and I since changed it to consumervacuums.com.
 
@@ -66,7 +64,7 @@ The major benefit of these kinds of domain names is it makes it easy to build li
 
 Also, you’ll want to grab all the social media handles for your site. That means, Facebook, Twitter, Instagram, Pinterest, etc. This doesn’t mean you need to use all the channels. I recommend just using one — the one that you’ve found your target audience uses the most. Be where your target audience is.
 
-### Step 3: Create a Content Calendar
+## Step 3: Create a Content Calendar
 
 Content is the most important thing with building a niche site. Good content will bring you readers, will keep people reading, will convince people to buy the products you use/recommend, and cause people to link to it.
 
@@ -78,7 +76,7 @@ I use Evernote to take notes and the calendar on Basecamp to keep me moving. How
 
 Begin writing the content yourself. At least once a week is something I recommend. If you have the capital, investing in a good content writer (native speaker with considerable knowledge on your topic) is good.
 
-### How To Discover What Content to Create
+## How To Discover What Content to Create
 
 *   Reddit is usually my number one place to see what kind of content my target audience likes. If you can find a subreddit on your exact topic, look at the top posts of all time and make your way down. If there is no subreddit on your exact topic, look for overlapping subreddits. Going back to our cooking topic, find subreddits where cooking is important. r/fitness, r/bodybuilding, r/keto, r/paleo, etc.
 *   Search online for forums or communities around your topic. See what they post about and find common questions
@@ -86,7 +84,7 @@ Begin writing the content yourself. At least once a week is something I recommen
 *   Look at magazines at your grocery store
 *   Look on Pinterest or other social media channels
 
-### Step 4: Make Your Website Look Nice
+## Step 4: Make Your Website Look Nice
 
 Design should not be neglected. A lot of people skip over this, but it’s a big differentiator if your site looks nice and is easy to read when there are many other sites writing on the same topics. Again, high quality pictures (Instagram/Pinterest worthy) is almost a must.
 
@@ -94,7 +92,7 @@ Use a responsive design so it’s nice for mobile users. Use a relatively small 
 
 If you’re using WordPress, check out [themeforest.net](http://themeforest.net) for great themes. Make sure the theme you pick is responsive and makes it easy to use [Google Fonts](http://www.google.com/fonts).
 
-### Step 5: Build an Email List from Day One
+## Step 5: Build an Email List from Day One
 
 Something I wish I did was start creating an email list when I launched my niche sites. I just didn’t think anyone would sign up so I never did it. But now looking back, I wish I did because I’m sure people would have signed up if I had the option available.
 
@@ -102,7 +100,7 @@ An email list will be really beneficial if your content is good. Don’t always 
 
 To help build your list, it’s good to give something away for signing up like a short ebook or a link to a private page. Both need to have excellent content and something readers actually want in order for this to be effective. Always test different optin headlines to see what works. Sometimes no bonus works better.
 
-### Step 6: Get Your Content Noticed
+## Step 6: Get Your Content Noticed
 
 In other words, you will need traffic. There are three main ways to get traffic: organic search, paid search, and social. Big mistake #1: Relying on only one way to get traffic.
 
@@ -110,7 +108,7 @@ The big two are organic and social, while paid may not be cost effective for an 
 
 I made the mistake of relying all on organic traffic, so when my domains got penalized, I was left with a mere trickle of traffic. I will use social more next time, but I haven’t had too much experience with it yet for niche sites.
 
-### Organic Search Tips
+## Organic Search Tips
 
 *   Use [Brian Dean’s guide for on page SEO](http://backlinko.com/on-page-seo) — it’s all you need to know and do.
 *   Do lots of blog comments. I used [Doug Cunnington’s guide on this](http://nichesiteproject.com/blog-commenting/). I outsourced this to my assistant. Also comment on high traffic pages where comments are allowed and link to your better resource. This surprisingly works really well for targeted traffic.
@@ -122,7 +120,7 @@ I made the mistake of relying all on organic traffic, so when my domains got pen
 [**Does The Hoth Really Work? A 5 Month Review and Analysis**  
 _Stop👏 buying👏 links👏._regpaq.com](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff "https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff")[](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff)
 
-### Social Tips
+## Social Tips
 
 Social is great because not only can it get you targeted traffic, but it can also lead to natural links. The more people see it, the more it has a chance to be linked to by a reader who liked it. So social also helps with your organic search traffic over time.
 
@@ -130,14 +128,14 @@ Social is great because not only can it get you targeted traffic, but it can als
 *   Use Pinterest (here is a [short guide](http://www.socialmediaexaminer.com/pinterest-blog-traffic/), but still looking for something better)
 *   Upload videos to YouTube with optimized titles and descriptions. Go on Fiverr to have someone make a transcript to post on there, too.
 
-### Other Content Marketing Tips
+## Other Content Marketing Tips
 
 Requirement: Good content.
 
 *   Brian Dean’s [Skyscraper technique](http://backlinko.com/white-hat-seo)
 *   Brian Dean’s [Guest Posting Guide](http://backlinko.com/the-definitive-guide-to-guest-blogging)
 
-### Step 7: Optimize Your Site for Conversions
+## Step 7: Optimize Your Site for Conversions
 
 With an Amazon niche site, a conversion is someone buying something on Amazon using your affiliate link so you get a commission. This is the number one thing you want people to do on your site. Some people could make the argument that getting someone’s email is more important as you’d be able to make multiple sales over time from the same person. Not saying that is wrong, but I did not do that with my niche sites.
 
@@ -159,9 +157,7 @@ Niche sites are simple, it just takes time for them to “take off.” If this i
 
 I hope this guide was helpful. If you have links to great rescues or would like to ask me a question about building a niche site, please link/ask away in the comments below!
 
-**Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, check it out here:
-
-[http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i\_made\_on\_average\_317month\_in\_passive\_income\_last/](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/)
+**Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, [check it out here:](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/)
 
 ![at the top of reddit on r/entrepreneur](https://cdn-images-1.medium.com/max/800/0*ApKIZspvWQMHqvMo.png)
 

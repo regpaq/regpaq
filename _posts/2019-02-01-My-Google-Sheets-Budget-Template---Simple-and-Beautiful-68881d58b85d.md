@@ -4,10 +4,11 @@ title: My Google Sheets Budget Template — Simple and Beautiful
 description: How I finally got over spending money on stupid shit.
 date: '2019-02-01T15:51:34.385Z'
 categories: [self]
-slug: /@regpaq/google-sheets-monthly-budget-template-68881d58b85d
+slug: /google-sheets-monthly-budget-template
 featured-image: google-sheets-budget-template.jpeg
 featured-image-alt: google sheets budget template
 author: Reggie Paquette
+post-id: 11
 ---
 
 You can download my template using the link at the bottom of this article.
@@ -16,21 +17,24 @@ After I graduated college, I received an inheritance check for $30k. **About a y
 
 I used the money to move out, get a new car, eat out constantly — all while telling myself I’m going to be making $10k a month before I know it as freelance marketer.
 
-Yeah, that didn’t work out ([but didn’t turn out so bad](https://www.reddit.com/r/marketing/comments/9qsktw/i_made_130k_with_year_as_a_b2b_marketer_in_saas/)).
+Yeah, that didn’t work out ([but didn’t turn out so bad](https://www.reddit.com/r/marketing/comments/9qsktw/i_made_130k_with_year_as_a_b2b_marketer_in_saas/){:target="_blank"}).
 
 > Every month I knew I was spending more than I was making, but I was too scared to look at my bank account or my credit card statement. Just click pay.
+{: .big-quote}
 
 **It took me wasting all my money and having only one month left to survive on my own to push me to get a real job and start budgeting.** If you can learn from my mistakes, you won’t need to let it get this bad for you.
 
-How did I get my finances back on track? As you can tell by the title, it was from creating and **_following_** a budget. Sticking to the budget you created is the key — if you can’t do that, your budget is worthless.
+How did I get my finances back on track? As you can tell by the title, it was from creating and **following** a budget. Sticking to the budget you created is the key — if you can’t do that, your budget is worthless.
 
 > The ultimate goal of a budget is not to see where your money is going, but to create a change in your behavior to spend less money on stupid shit.
+{: .big-quote}
 
 ## The Reason Doing Your Budget on Google Sheets Will Drive Behavior Change to Spend Less
 
 It forces you to enter your expenses manually. Although seemingly tedious, I found it the most important exercise.
 
 > Entering expenses manually forces you to review every transaction, to feel the pain of every dollar spent — that is what will drive a change in your spending.
+{: .big-quote}
 
 And something tools like Mint that try and automate everything are terrible at doing.
 
@@ -42,7 +46,7 @@ I’ve been using Google Sheets to manage my finances for four years now. And af
 
 I made the budget template with easy-to-follow orange prompts to make it super simple to get started.
 
-![](https://cdn-images-1.medium.com/max/800/1*L6At585wptj6iGUuzMzZZw.gif)
+![easy to use google sheet buget template](/assets/images/budget1.gif)
 
 Start with entering your income, annual budget, and monthly budget data to get started. Then enter your bank account, other assets, credit cards, loans etc to get your financial picture. All that’s left is entering expense data and that’s it.
 
@@ -50,7 +54,7 @@ Start with entering your income, annual budget, and monthly budget data to get s
 
 Once you’ve been using it for a few months and get some data in there (or even better enter historical data) you can use this chart to see how you’ve been spending vs your budget by each category or in total.
 
-![](https://cdn-images-1.medium.com/max/1200/1*aZZ8Cy_ODIp3pdIlUZBsbw.gif)
+![see a graph of your spending in a google sheet](/assets/images/budget2.gif)
 
 ## Download My Google Sheets Monthly Budget Template
 
@@ -67,8 +71,7 @@ But sometimes that’s still not enough. **There’s definitely been times where
 
 If you believe a budget will help you get control of your spending, read this guide on how to stick to new habits:
 
-[**How to Make Your New Habits Stick When Motivation Has Run Out**  
-_The 6 best tips from Atomic Habits on building habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 Another tip is to use a credit card for all transactions when possible. Using a credit card makes it much easier to keep track of your spending and at the same time protects your bank account from fraud, builds your credit, and you can earn points and rewards.
 
@@ -76,5 +79,4 @@ Let me know what you think of the spreadsheet. If you found some places where I 
 
 ### You might also enjoy:
 
-[**I Made $317 / Mo. From Two Amazon Niche Sites Last Year**  
-_And here’s how I did it._regpaq.com](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59 "https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59")[](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59)
+{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

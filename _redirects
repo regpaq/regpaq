@@ -1,0 +1,18 @@
+# Redirects from what the browser requests to what we serve
+# If duplicate starting URL, only first will fire
+# All redirects are 301 by default
+
+/@regpaq/stop-comparing-yourself-to-others-644e6a82bf48                                                 /stop-comparing-yourself-to-others
+/@regpaq/stoic-journal-topics-eca08e0b60f5                                                              /stoic-journal-topics
+/@regpaq/mastery-summary-quotes-robert-greene-4434cb156e41                                              /mastery-summary-quotes-robert-greene
+/@regpaq/google-sheets-monthly-budget-template-68881d58b85d                                             /google-sheets-monthly-budget-template
+/@regpaq/2018-year-review-fe64daff81a0                                                                  /2018-year-review
+/@regpaq/how-to-break-bad-habits-52ee91b9118e                                                           /how-to-break-bad-habits
+/@regpaq/how-to-make-habits-stick-4a6bf5e57b90                                                          /how-to-make-habits-stick
+/@regpaq/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742                             /meditations-from-marcus-aurelius-summary-notes-quotes
+/@regpaq/gymaholic-app-review-the-best-gym-app-for-workout-tracking-6b6b1c8157c7                        /gymaholic-app-review-the-best-gym-app-for-workout-tracking
+/@regpaq/done-review-of-my-favorite-habit-tracking-app-66e5581bf237                                     /done-review-of-my-favorite-habit-tracking-app
+/@regpaq/atomic-habits-review-notes-lessons-98fd64c14c1f                                                /atomic-habits-review-notes-lessons
+/@regpaq/i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you-90ded51f39e                       /i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you
+/@regpaq/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59 /i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it
+/@regpaq/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff                           /does-the-hoth-really-work-a-5-month-review-and-analysis

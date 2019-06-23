@@ -4,21 +4,22 @@ title: I Made $317 / Mo. From Two Amazon Niche Sites Last Year
 description: And here’s how I did it.
 date: '2015-01-05T18:17:44.000Z'
 categories: [marketing]
-slug: /@regpaq/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59
+slug: /i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it
 featured-image: niche site amazon affiliate.png
 featured-image-alt: niche site amazon affiliate
 author: Reggie Paquette
+post-id: 2
 ---
 
 Towards the end of 2014, I was really sad and maybe even depressed, although I’m hesitant to use the word. Nothing was going right.
 
-I spent a lot of time and money on private blog networks (PBN) and the network I was using was “targeted” by Google and they deindexed nearly all the domains. Looking back, it was foolish to put all my sites (even client sites) into one network, let alone a _public_ network that was advertised (hint) as private.
+I spent a lot of time and money on private blog networks (PBN) and the network I was using was “targeted” by Google and they deindexed nearly all the domains. Looking back, it was foolish to put all my sites (even client sites) into one network, let alone a **public** network that was advertised (hint) as private.
 
 I used it to develop a seamless workflow to rank sites. For the most part, it was working. I spent months finding the right writer, developing standard operating procedures (SOP), and based my whole pricing structure of my “one man” agency on this model.
 
 Then it crashed. My site’s ranking tanked. My clients’ ranks tanked. I had to explain to them that their domains were useless and it was all my fault. It was hard and it took me a while to tell them, because I wanted to have a solution in place. I figured out a solution and thankfully they stayed with me until I moved to an established agency.
 
-The end of 2014 sucked. It halted my progression of my one-man agency that I was so excited to write about. Now I don’t really care to write any more about it. My interest in growing it is gone even though I’m still working _in_ it and still accepting new client projects.
+The end of 2014 sucked. It halted my progression of my one-man agency that I was so excited to write about. Now I don’t really care to write any more about it. My interest in growing it is gone even though I’m still working **in** it and still accepting new client projects.
 
 So while my service business stalled, I was thankful that I had built and bought Amazon niche sites to help diversify my income. Even though my niche sites were still hit with the same penalty, they are still making money albeit just a fraction of their total potential.
 
@@ -26,11 +27,13 @@ So while my service business stalled, I was thankful that I had built and bought
 
 With my two niche sites that I decided to stop working on, I was still able to get a decent paycheck from them. After seeing the same amount come in every month, I got used to seeing it and maybe I took them for granted.
 
-But I took a second look at it, and I’m proud of how much they made. I can’t even remember the last time I worked on them and since they’ve been running on their own for a long time, I’m going to use the word that so many people hate — _passive income_.
+But I took a second look at it, and I’m proud of how much they made. I can’t even remember the last time I worked on them and since they’ve been running on their own for a long time, I’m going to use the word that so many people hate — **passive income**.
 
 Here is a screenshot of 2014 revenue total from Amazon.
 
-![Note: broken down by tracking ID (which I used for different pages) not by month.amazon earnings 2014](https://cdn-images-1.medium.com/max/800/0*EhhAgpy5EBPlrquk.png)
+![Note: broken down by tracking ID (which I used for different pages) not by month.amazon earnings 2014](/assets/images/amazon1.png)
+{: .a-img .lg-img}
+
 Note: broken down by tracking ID (which I used for different pages) not by month.
 
 Averaged over twelve months, $3,809.47 comes to $317/month. I built these sites hoping one of them could make $2,000/month one day so you can see how my expectations disappointed me.
@@ -41,12 +44,11 @@ So while I had always thought these two sites were failures, I think I can chang
 
 ## A Quick Recap of How I Did It
 
-If you haven’t started a niche site before, just start one. It’s not very complicated. There aren’t many hidden secrets you must know in order to succeed. All it really takes is some hard and _consistent_ work in the right direction. Just start. If your first site makes just $100/month (easy to do) then great! Keep working on it if you think it has legs and if not use that money to invest in content for your next site.
+If you haven’t started a niche site before, just start one. It’s not very complicated. There aren’t many hidden secrets you must know in order to succeed. All it really takes is some hard and **consistent** work in the right direction. Just start. If your first site makes just $100/month (easy to do) then great! Keep working on it if you think it has legs and if not use that money to invest in content for your next site.
 
 ### Start a habit of dedicating 1 hour per day to making your site:
 
-[**Atomic Habits Summary, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 This is going to be a quick guide with links to helpful resources and some of my notes where needed. I’m going to refrain from talking about things that have already been said elsewhere and just link to it.
 
@@ -54,7 +56,7 @@ This is going to be a quick guide with links to helpful resources and some of my
 
 Proper research is very important before you start doing anything and buying a domain. But don’t research too much, only just as much as you need to.
 
-[Tung Tran](https://twitter.com/OfficialTung) has a brilliantly thorough and straight to the point [guide on keyword research](http://www.cloudliving.com/keyword-research/). Looking over his post again, I don’t think you need any other guide on how to do keyword research. He recommends a paid software, Long Tail Pro. I have it, but I don’t think it’s necessary even though it does save time. Just use the free Google Keyword Planner tool.
+[Tung Tran](https://twitter.com/OfficialTung) has a brilliantly thorough and straight to the point [guide on keyword research](http://www.cloudliving.com/keyword-research/){:target="_blank"}. Looking over his post again, I don’t think you need any other guide on how to do keyword research. He recommends a paid software, Long Tail Pro. I have it, but I don’t think it’s necessary even though it does save time. Just use the free Google Keyword Planner tool.
 
 ## Step 2: Buy a Domain and Set Up Hosting
 
@@ -68,11 +70,11 @@ Also, you’ll want to grab all the social media handles for your site. That mea
 
 Content is the most important thing with building a niche site. Good content will bring you readers, will keep people reading, will convince people to buy the products you use/recommend, and cause people to link to it.
 
-The niche sites that last a long time will have good content that _people_ _want_ to read. To get help, find online communities where your niche’s target audience is. For example, if you’re niche site is centered around cooking products, your content should be about recipes with great photos. It would help if you actually made the recipes and took the pictures yourself. You could also make YouTube videos and subtly linking to the products you use to make the recipe.
+The niche sites that last a long time will have good content that **people want** to read. To get help, find online communities where your niche’s target audience is. For example, if you’re niche site is centered around cooking products, your content should be about recipes with great photos. It would help if you actually made the recipes and took the pictures yourself. You could also make YouTube videos and subtly linking to the products you use to make the recipe.
 
 When you discover what good content in your niche is, you’ll need to create it. A content calendar helps. A content calendar is simply a calendar of when you’ll be publishing content on your site. Quality is always important, but typically the more the better. More content means you have more chances to be found or linked to.
 
-I use Evernote to take notes and the calendar on Basecamp to keep me moving. However, I know a lot of people use gmail and other Google services so I thought I’d link to this great guide on [how to use Google Calendar to create a content calendar](http://www.amyporterfield.com/2012/10/google-calendar-editorial-calendar/).
+I use Evernote to take notes and the calendar on Basecamp to keep me moving. However, I know a lot of people use gmail and other Google services so I thought I’d link to this great guide on [how to use Google Calendar to create a content calendar](http://www.amyporterfield.com/2012/10/google-calendar-editorial-calendar/){:target="_blank"}.
 
 Begin writing the content yourself. At least once a week is something I recommend. If you have the capital, investing in a good content writer (native speaker with considerable knowledge on your topic) is good.
 
@@ -88,15 +90,15 @@ Begin writing the content yourself. At least once a week is something I recommen
 
 Design should not be neglected. A lot of people skip over this, but it’s a big differentiator if your site looks nice and is easy to read when there are many other sites writing on the same topics. Again, high quality pictures (Instagram/Pinterest worthy) is almost a must.
 
-Use a responsive design so it’s nice for mobile users. Use a relatively small content width (like on this site and [BuzzFeed](http://www.buzzfeed.com)) to make content more inviting to read. Relatively bigger fonts (around 16px) also help. Get a good logo by either using [99 designs](http://99designs.com) or find someone to make you one on [reddit.com/r/forhire](http://www.reddit.com/r/forhire), [r/graphic\_design](http://www.reddit.com/r/graphic_design), or [r/entrepreneur](http://www.reddit.com/r/entrepreneur) (sometimes you will see posts on these last two subreddits offering logo work for or for cheap to help build their portfolio). Also consider [Fiverr](https://www.fiverr.com) if you want to keep costs low.
+Use a responsive design so it’s nice for mobile users. Use a relatively small content width (like on this site and [BuzzFeed](http://www.buzzfeed.com){:target="_blank"}) to make content more inviting to read. Relatively bigger fonts (around 16px) also help. Get a good logo by either using [99 designs](http://99designs.com){:target="_blank"} or find someone to make you one on [reddit.com/r/forhire](http://www.reddit.com/r/forhire){:target="_blank"}, [r/graphic\_design](http://www.reddit.com/r/graphic_design){:target="_blank"}, or [r/entrepreneur](http://www.reddit.com/r/entrepreneur){:target="_blank"} (sometimes you will see posts on these last two subreddits offering logo work for or for cheap to help build their portfolio). Also consider [Fiverr](https://www.fiverr.com){:target="_blank"} if you want to keep costs low.
 
-If you’re using WordPress, check out [themeforest.net](http://themeforest.net) for great themes. Make sure the theme you pick is responsive and makes it easy to use [Google Fonts](http://www.google.com/fonts).
+If you’re using WordPress, check out [themeforest.net](http://themeforest.net){:target="_blank"} for great themes. Make sure the theme you pick is responsive and makes it easy to use [Google Fonts](http://www.google.com/fonts){:target="_blank"}.
 
 ## Step 5: Build an Email List from Day One
 
 Something I wish I did was start creating an email list when I launched my niche sites. I just didn’t think anyone would sign up so I never did it. But now looking back, I wish I did because I’m sure people would have signed up if I had the option available.
 
-An email list will be really beneficial if your content is good. Don’t always think about making a sale from your email list, but more building a brand and a readership. You can put your sign up forms in the sidebar, at the end of posts, or in a popup (I use [OptinMonster](http://optinmonster.com)). For email service providers, I like to use [Campaign Monitor](https://www.campaignmonitor.com).
+An email list will be really beneficial if your content is good. Don’t always think about making a sale from your email list, but more building a brand and a readership. You can put your sign up forms in the sidebar, at the end of posts, or in a popup (I use [OptinMonster](http://optinmonster.com){:target="_blank"}). For email service providers, I like to use [Campaign Monitor](https://www.campaignmonitor.com){:target="_blank"}.
 
 To help build your list, it’s good to give something away for signing up like a short ebook or a link to a private page. Both need to have excellent content and something readers actually want in order for this to be effective. Always test different optin headlines to see what works. Sometimes no bonus works better.
 
@@ -110,30 +112,27 @@ I made the mistake of relying all on organic traffic, so when my domains got pen
 
 ## Organic Search Tips
 
-*   Use [Brian Dean’s guide for on page SEO](http://backlinko.com/on-page-seo) — it’s all you need to know and do.
-*   Do lots of blog comments. I used [Doug Cunnington’s guide on this](http://nichesiteproject.com/blog-commenting/). I outsourced this to my assistant. Also comment on high traffic pages where comments are allowed and link to your better resource. This surprisingly works really well for targeted traffic.
+*   Use [Brian Dean’s guide for on page SEO](http://backlinko.com/on-page-seo){:target="_blank"} — it’s all you need to know and do.
+*   Do lots of blog comments. I used [Doug Cunnington’s guide on this](http://nichesiteproject.com/blog-commenting/){:target="_blank"}. I outsourced this to my assistant. Also comment on high traffic pages where comments are allowed and link to your better resource. This surprisingly works really well for targeted traffic.
 *   Generally, building links manually here and there is typically a waste of time unless you really know what you’re doing and where to build them.
-*   Don’t buy links, unless you _really_ know what you’re doing
+*   Don’t buy links, unless you really know what you’re doing
 
-#### See my review of link building service, [The Hoth](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff):
-
-[**Does The Hoth Really Work? A 5 Month Review and Analysis**  
-_Stop👏 buying👏 links👏._regpaq.com](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff "https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff")[](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff)
+{% assign subpage = site.posts | where: 'post-id', '1' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ## Social Tips
 
 Social is great because not only can it get you targeted traffic, but it can also lead to natural links. The more people see it, the more it has a chance to be linked to by a reader who liked it. So social also helps with your organic search traffic over time.
 
 *   Submit every post to Reddit to the appropriate subreddit. Be careful with this and read the subreddit rules. Sometimes submitting a text only post with the content all there and then just a link to the source (your niche site) works better. Get a feel for the subreddit first and don’t start spamming.
-*   Use Pinterest (here is a [short guide](http://www.socialmediaexaminer.com/pinterest-blog-traffic/), but still looking for something better)
+*   Use Pinterest (here is a [short guide](http://www.socialmediaexaminer.com/pinterest-blog-traffic/){:target="_blank"}, but still looking for something better)
 *   Upload videos to YouTube with optimized titles and descriptions. Go on Fiverr to have someone make a transcript to post on there, too.
 
 ## Other Content Marketing Tips
 
 Requirement: Good content.
 
-*   Brian Dean’s [Skyscraper technique](http://backlinko.com/white-hat-seo)
-*   Brian Dean’s [Guest Posting Guide](http://backlinko.com/the-definitive-guide-to-guest-blogging)
+*   Brian Dean’s [Skyscraper technique](http://backlinko.com/white-hat-seo){:target="_blank"}
+*   Brian Dean’s [Guest Posting Guide](http://backlinko.com/the-definitive-guide-to-guest-blogging){:target="_blank"}
 
 ## Step 7: Optimize Your Site for Conversions
 
@@ -144,8 +143,8 @@ Here are some quick optimization tips:
 *   Create a quick “Top 3 \[Main Amazon Item\],” “\[Main Amazon Item\] Comparison Chart,” etc that is linked in the navigation or sidebar so it’s on every page. I always get the most conversions from these pages.
 *   Use multiple Amazon affiliate tracking codes for the same site. I use different ones on all my main pages so I can get an easier look to see which pages are the big earners. Calculate the conversion rates of these pages (clicks to Amazon/unique visitors AND orders/unique visitors). Use this data to improve low performing pages and link more often to the top performing pages in other pages of your content.
 *   Use product images and link them to the Amazon product (with your affiliate link of course)
-*   Build comparison tables using the WP plugin, [Tablepress](https://wordpress.org/plugins/tablepress/).
-*   Get the plugin [EasyAzon](http://www.regpaq.com/buy/easyazon3) by Chris Guthrie. This plugin is amazing and makes getting your affiliate links AND images super fast.
+*   Build comparison tables using the WP plugin, [Tablepress](https://wordpress.org/plugins/tablepress/){:target="_blank"}.
+*   Get the plugin EazyAzon by Chris Guthrie. This plugin is amazing and makes getting your affiliate links AND images super fast.
 *   Limit (or don’t use at all) any other monetization methods (adsense for example). You don’t want to take away from your main goal, getting people on Amazon. However, you could test multiple methods and see if it earns you more, but I don’t hear much of people having more success by using both Adsense and Amazon.
 *   Reinvest earnings for more content to create more conversion opportunities
 
@@ -157,17 +156,14 @@ Niche sites are simple, it just takes time for them to “take off.” If this i
 
 I hope this guide was helpful. If you have links to great rescues or would like to ask me a question about building a niche site, please link/ask away in the comments below!
 
-**Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, [check it out here:](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/)
+**Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, [check it out here:](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/){:target="_blank"}
 
-![at the top of reddit on r/entrepreneur](https://cdn-images-1.medium.com/max/800/0*ApKIZspvWQMHqvMo.png)
+![at the top of reddit on r/entrepreneur](/assets/images/amazon2.png)
 
 ### You might also enjoy:
 
-[**My Google Sheets Budget Template — Simple and Beautiful**  
-_How I finally got over spending money on stupid shit._regpaq.com](https://regpaq.com/google-sheets-monthly-budget-template-68881d58b85d "https://regpaq.com/google-sheets-monthly-budget-template-68881d58b85d")[](https://regpaq.com/google-sheets-monthly-budget-template-68881d58b85d)
+{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Does The Hoth Really Work? A 5 Month Review and Analysis**  
-_Stop👏 buying👏 links👏._regpaq.com](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff "https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff")[](https://regpaq.com/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff)
+{% assign subpage = site.posts | where: 'post-id', '1' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**I got this from a client: “I was expecting a lot more from you.”**  
-_That’s what a client told me to my face in a meeting._regpaq.com](https://regpaq.com/i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you-90ded51f39e "https://regpaq.com/i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you-90ded51f39e")[](https://regpaq.com/i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you-90ded51f39e)
+{% assign subpage = site.posts | where: 'post-id', '3' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

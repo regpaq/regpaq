@@ -4,13 +4,14 @@ title: 'Meditations from Marcus Aurelius — Summary, Notes, + Quotes'
 description: Lessons on life from an ancient Roman Emperor.
 date: '2018-12-07T05:36:59.794Z'
 categories: [self, booknotes]
-slug: /@regpaq/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742
+slug: /meditations-from-marcus-aurelius-summary-notes-quotes
 featured-image: meditations marcus aurelius summary.jpeg
 featured-image-alt: meditations marcus aurelius summary
 author: Reggie Paquette
+post-id: 7
 ---
 
-[Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius) was an ancient Roman emperor from the years 161 to 180. And we have access to his personal journals.
+[Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius){:target="_blank"} was an ancient Roman emperor from the years 161 to 180. And we have access to his personal journals.
 
 Although born into a rich and politically connected family, Marcus wasn’t born to be emperor — he wasn’t the biological son of the emperor he preceded.
 
@@ -22,11 +23,10 @@ What did Hadrian see in Marcus? He saw young man with excellent character and wi
 
 ## What is Meditations?
 
-[Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404) is a collection of notes Marcus wrote to himself while emperor of which he never intended to be published. These notes span a variety of topics and for Marcus were an exercise to help him think clearly and rationally. His journals were preserved, translated, and curated into a single collection which came to be known as Meditations — obviously not a name Marcus himself chose.
+[Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"} is a collection of notes Marcus wrote to himself while emperor of which he never intended to be published. These notes span a variety of topics and for Marcus were an exercise to help him think clearly and rationally. His journals were preserved, translated, and curated into a single collection which came to be known as Meditations — obviously not a name Marcus himself chose.
 
-![[Link to Amazon](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404)](https://cdn-images-1.medium.com/max/600/1*Fka-1TYe9xlD7mP4vOtU2A.jpeg)
-
-[Link to Amazon](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404)
+[![Link to Amazon](/assets/images/meditations.jpeg)](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"}
+{: .a-img .sml-img}
 
 I read the Gregory Hays translation, which also has a very interesting introduction and history lesson that provides helpful context that I think is needed before diving into his Marcus’ actual writing.
 
@@ -89,10 +89,9 @@ It’s a good exercise to think (or write in your journal) about what you have a
 
 > \[7.3\] Remember that our own worth is measured by what we devote our energy to.
 
-What you think about and what you do every day casts votes for who you are, exactly [what James Clear reminds us in Atomic Habits](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f):
+What you think about and what you do every day casts votes for who you are, exactly [what James Clear reminds us in Atomic Habits](/atomic-habits-review-notes):
 
-[**Atomic Habits Summary, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 > \[6.16\] What is it in ourselves that we should prize?
 
@@ -266,12 +265,10 @@ Marcus wrote a lot on death. I think he feared it a lot and that’s why he wrot
 
 ## TLDR:
 
-If you took the time to read some of these quotes, you’ll see why this summary is so long. [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404) has been the most influential book on my life. At time where I felt I lack a purpose or satisfaction with my life (of course these feelings and thoughts still occur), Meditations is helping me push through and find tranquility. Easily, Meditations is a 10/10 must read.
+If you took the time to read some of these quotes, you’ll see why this summary is so long. [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"} has been the most influential book on my life. At a time where I felt I lack a purpose or satisfaction with my life (of course these feelings and thoughts still occur), Meditations is helping me push through and find tranquility. Easily, Meditations is a 10/10 must read.
 
 ### You might also enjoy:
 
-[**Atomic Habits Review, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Mastery by Robert Greene — Summary, Notes, + Quotes**  
-_The essential book to help you find your purpose._regpaq.com](https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41 "https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41")[](https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41)
+{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

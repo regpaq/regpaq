@@ -4,19 +4,19 @@ title: 'Mastery by Robert Greene — Summary, Notes, + Quotes'
 description: The essential book to help you find your purpose.
 date: '2019-02-06T06:48:39.759Z'
 categories: [self, booknotes]
-slug: /@regpaq/mastery-summary-quotes-robert-greene-4434cb156e41
+slug: /mastery-summary-quotes-robert-greene
 featured-image: mastery-book-summary.jpeg
 featured-image-alt: mastery book summary
 author: Reggie Paquette
+post-id: 12
 ---
+
+[![Mastery by Robert Green](/assets/images/mastery.png)](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"}
+{: .a-img .sml-img}
 
 Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).
 
-![Mastery by Robert Green](https://cdn-images-1.medium.com/max/600/1*w8hmmbZhIJP2j30uI2_kaw.png)
-
-[Link to Amazon](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907)
-
-I personally felt [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907) was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.
+I personally felt [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"} was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.
 
 ## What is Mastery and Why Pursue It?
 
@@ -28,16 +28,13 @@ The pursuit of mastery is the pursuit of purpose, whatever your Life’s Task, a
 
 Because being on the path of mastery requires discipline and a strong work ethic towards a craft you enjoy, you will be working towards something great and something you can be proud of.
 
-Just as [James Clear points out your daily habits define who you are in Atomic Habits](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f), Greene also says pursuing mastery is important because…
+Just as [James Clear points out your daily habits define who you are in Atomic Habits](/atomic-habits-review-notes-lessons), Greene also says pursuing mastery is important because…
 
 > “…people get the mind and quality of brain that they deserve through their actions in life.”
 
-You can read my summary and notes from Atomic Habits here:
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Atomic Habits — Summary, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
-
-**The road to mastery can be defined by three phases and Mastery goes into depth on each phase.**
+The road to mastery can be defined by three phases and Mastery goes into depth on each phase.
 
 1.  Apprenticeship — you’re a student learning from others
 2.  Creative-Active — you’re a practitioner, adding your own creativity and style to your craft
@@ -45,9 +42,9 @@ _Who you’ll become in your future can be answered by your behavior today._regp
 
 > “\[Masters\] excel by their ability to practice harder and move faster through the process, all of this stemming from the intensity of their desire to learn and from the deep connection they feel to their field of study. And at the core of this intensity of effort is in fact a quality that is genetic and inborn — not talent or brilliance, which is something that must be developed, but rather a deep and powerful inclination toward a particular subject.”
 
-> Masters become masters not because they seek fame, money, or an outcome, but because they’re obsessed with their craft. **There are no shortcuts to mastery. It takes time. It takes effort. There will be failures along the way.**
+Masters become masters not because they seek fame, money, or an outcome, but because they’re obsessed with their craft. There are no shortcuts to mastery. It takes time. It takes effort. There will be failures along the way.
 
-**Why most people don’t achieve mastery in their lives**
+### Why Most People Don’t Achieve Mastery in Their Lives
 
 > “A natural response when people feel overwhelmed is to retreat into various forms of passivity… The less we attempt, the less chances of failure. If we can make it look like we are not really responsible for our fate, for what happens to us in life, then our apparent powerlessness is more palatable. For this reason we become attracted to certain narratives: it is genetics that determines much of what we do; we are just products of our times...”
 
@@ -57,7 +54,7 @@ This is the attitude of most people and it can have devastating consequences tow
 
 > This \[attitude\] can diminish your levels of effort and discipline below the point of effectiveness. Conforming to social norms, you will listen more to others than to your own voice. You may choose a career path based on what peers and parents tell you, or on what seems lucrative. If you lose contact with this inner calling, you can have some success in life, but eventually your lack of true desire catches up with you. Your work becomes mechanical. You come to live for leisure and immediate pleasures. In this way you become increasingly passive, and never move past the first phase. You may grow frustrated and depressed, never realizing that the source of it is your alienation from your own creative potential.”
 
-**How do you get past this passive attitude? For one, you must find your Life’s Task — your natural inclination towards a particular field.**
+How do you get past this passive attitude? For one, you must find your Life’s Task — your natural inclination towards a particular field.
 
 > “This intense connection and desire allows them to withstand the pain of the process — the self doubts, the tedious hours of practice and stuffy, the inevitable setbacks, the endless barbs from the envious. They develop a resiliency and confidence that others lack.”
 
@@ -69,7 +66,7 @@ There’s a difference between wishing you were a master at something, and wishi
 
 > “…he didn’t care so much about the finished product; it was the search and process in creating something that had always excited him.”
 
-**You have to love the work. You have to feel a profound connection to it. You must be obsessed.**
+You have to love the work. You have to feel a profound connection to it. You must be obsessed.
 
 > “Work is often seen as a means for making money so we can enjoy that second life that we lead.… This is a depressing attitude, because in the end we spend a substantial part of our waking life at work. If we experience this time as something to get through on the way to real pleasure, then our hours at work represent a tragic waste of the short time we have to live.”
 
@@ -89,11 +86,11 @@ To help you find this inclination, practice journaling and reflecting on your fe
 
 > “If you allow yourself to learn who you really are by paying attention to that voice and force within you, then you can become what you were fated to become — an individual, a Master.”
 
-**There are a two pathways you can take for finding your field. First, find a deep narrow niche in your field.**
+There are a two pathways you can take for finding your field. First, find a deep narrow niche in your field.
 
-“\[once you’ve found a field you like\] …look for side paths that particularly attract you... When it is possible, you make a move to this narrower field. You continue this process until you eventually hit upon a totally unoccupied niche, the narrower the better. In some ways, this niche corresponds to your uniqueness…”
+> “\[once you’ve found a field you like\] …look for side paths that particularly attract you... When it is possible, you make a move to this narrower field. You continue this process until you eventually hit upon a totally unoccupied niche, the narrower the better. In some ways, this niche corresponds to your uniqueness…”
 
-**Or you can combine two entirely different fields into one and create a new category.**
+Or you can combine two entirely different fields into one and create a new category.
 
 > “Once you have mastered your first field, you look for other subjects or skills that you can conquer, on your own time if necessary. You can now combine this added field of knowledge to the original one, perhaps creating a new field, or at least making novel connections between them. You continue this process as long as you wish... Ultimately you create a field that is uniquely your own.”
 
@@ -101,15 +98,15 @@ To help you find this inclination, practice journaling and reflecting on your fe
 
 > “In dealing with your career and its inevitable change, you must think in the following way: You are not tied to a particular position; your loyalty is not to career or a company. You are committed to your Life’s Task, to giving it full expression.”
 
-**Don’t let the field itself to evolve beneath you and leave you behind.**
+Don’t let the field itself to evolve beneath you and leave you behind.
 
 > “…it is up to you to foresee the changes going on right now in your profession. You must adapt your Life’s Task to these circumstances. You do not hold on to past ways of doing things. Because that will ensure you will fall behind and suffer for it. You are flexible and always looking to adapt.”
 
-**Don’t be lured to other paths that seem easier or more lucrative.**
+Don’t be lured to other paths that seem easier or more lucrative.
 
 > “The road to mastery requires patience. You will have to keep your focus on five or ten years down the road, when you will reap the rewards of your efforts… In the end, the money and success that truly last come not to those who focus on such things as goals, but rather to those who focus on mastery and fulfilling their Life’s Task.”
 
-**Take one step at a time.**
+Take one step at a time.
 
 > “…direct yourself toward the small things you are good at. Do not dream or make grand plans for the future, but instead concentrate on becoming proficient at these simple and immediate skills. This will bring you confidence and become a base from which you can expand to other pursuits. Proceeding in this way, step by step, you will hit upon your Life’s Task.”
 
@@ -117,7 +114,7 @@ To help you find this inclination, practice journaling and reflecting on your fe
 
 The apprenticeship phase begins when you’ve identified the particular field you have a deep interest and inclination for. You may not have found exactly your Life’s Task, but you’re on the right path.
 
-**The best kind of apprenticeships**
+### The Best Kind of Apprenticeships
 
 > “…the goal of an apprenticeship is not money, a good position, a title, or a diploma, but rather the transformation of your mind and character — the first transformation on the way to mastery. You enter a career as an outsider.”
 
@@ -131,7 +128,7 @@ Mentors who you can learn from are essential to your career and skill growth.
 
 Don’t be afraid of a challenging job with low pay. Your reward in an apprenticeship is not money — it is in skills and character.
 
-**What you do when you have an apprenticeship**
+### What You Do When You Have an Apprenticeship
 
 When starting an apprenticeship, a good attitude is an essential foundation for success.
 
@@ -151,7 +148,7 @@ By being able to critically observe all aspects of your environment, you will be
 
 Come to accept that apprenticeships will require monotonous and tedious work. This is something you will have to push through and embrace. Even if you don’t think you have anything left to learn, you will learn the power of disciple — the ability to do what you know needs to be done even when your body and mind don’t want you to.
 
-**Discipline and the Resistance Practice**
+### Discipline and the Resistance Practice
 
 > “\[The Resistance Practice means\] you go in the opposite direction of all of your natural tendencies when it comes to practice. First, you resist the temptation to be nice to yourself. You become your own worst critic; you see your work as if through the eyes of others. You recognize your weaknesses, precisely the elements you are not good at.… Second, you resist the lure of easing up on your focus. You train yourself to concentrate in practice with double the intensity, as if it were the real thing times two. In devising your own routines, you become as creative as possible. You invent exercises that work upon your weaknesses. You give yourself arbitrary deadlines to meet certain standards, constantly pushing yourself past perceived limits. In this way you develop your own standards for excellence, generally higher than those of others.”
 
@@ -203,10 +200,9 @@ But don’t go too far in trying to always persuade and figure out what the peop
 
 > “In dealing with fools you must adopt the following philosophy: they are simply a part of life, like rocks or furniture. All of us have foolish sides. Moments in which we lose our heads and think more of our ego or short-term goals. It is human nature. Seeing this foolishness within you, you can then accept it in others. This will allow you to smile at their antics, to tolerate their presence as you would a silly child. And to avoid the madness of trying to change them. It is all part of the human comedy, and it is nothing to get upset about or lose sleep over.”
 
-Marcus Aurelius’s stoic philosophy also teaches this mindset in dealing with other people. Read my summary of Marcus Aurelius’s Meditations here:
+Marcus Aurelius’s stoic philosophy also teaches this mindset in dealing with other people.
 
-[**Meditations from Marcus Aurelius — Summary, Notes, + Quotes**  
-_Lessons on life from an ancient Roman Emperor._regpaq.com](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742 "https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742")[](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742)
+{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ## Phase II. Awaken the Dimensional Mind: The Creative-Active
 
@@ -214,7 +210,7 @@ _Lessons on life from an ancient Roman Emperor._regpaq.com](https://regpaq.com/m
 
 The Dimensional Mind is a concept that combines knowledge and skepticism — having deep knowledge about a particular subject, but not so set in stone in order to be open to new ideas and perspectives.
 
-Here’s how to obtain a Dimensional Mind:
+### Here’s How to Obtain a Dimensional Mind:
 
 > …first, choosing the proper Creative Task, the kind of activity that will maximize our skills and knowledge; second, loosening and opening up the mind through certain Creative Strategies; and third, creating the optimal mental conditions for a Breakthrough or Insight. Finally, throughout the process we must also be aware of the Emotional Pitfalls — complacency, boredom, grandiosity, and the like — that continually threaten to derail or block our progress. If we can move through the steps while avoiding these traps, we cannot fail to unleash powerful creative forces from within.”
 
@@ -254,12 +250,10 @@ The most important thing in mastery is to stay true to who you are.
 
 ## TLDR
 
-Robert Greene is my one my favorite writers because the way he likes to weave historical stories into practical advice. In [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907), Greene helps people find their purpose in life, which he thinks is better called your Life’s Task. Although long and a little disorganized, Mastery was a fun read that revealed a desire for creativity and craft within me for my work. I still think I’m young in my career (apprenticeship phase) and Mastery provided some practical advice on how to make best use of my position and time to move closer to mastery. I wanted a bit more detail with the practical advice, but I still found it quite useful. I rate Mastery an 8/10.
+Robert Greene is my one my favorite writers because the way he likes to weave historical stories into practical advice. In [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"}, Greene helps people find their purpose in life, which he thinks is better called your Life’s Task. Although long and a little disorganized, Mastery was a fun read that revealed a desire for creativity and craft within me for my work. I still think I’m young in my career (apprenticeship phase) and Mastery provided some practical advice on how to make best use of my position and time to move closer to mastery. I wanted a bit more detail with the practical advice, but I still found it quite useful. I rate Mastery an 8/10.
 
 ### You might also enjoy:
 
-[**Meditations from Marcus Aurelius — Summary, Notes, + Quotes**  
-_Lessons on life from an ancient Roman Emperor._regpaq.com](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742 "https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742")[](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742)
+{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Atomic Habits — Summary, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

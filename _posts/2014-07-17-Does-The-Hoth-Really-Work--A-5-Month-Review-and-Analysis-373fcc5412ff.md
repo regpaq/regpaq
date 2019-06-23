@@ -4,13 +4,14 @@ title: Does The Hoth Really Work? A 5 Month Review and Analysis
 description: Stop buying links
 date: 2014-07-17 00:12:27 -0700
 categories: [marketing]
-slug: /@regpaq/does-the-hoth-really-work-a-5-month-review-and-analysis-373fcc5412ff
+slug: /does-the-hoth-really-work-a-5-month-review-and-analysis
 featured-image: the-hoth-review.jpg
 featured-image-alt: the-hoth-review.jpg
 author: Reggie Paquette
+post-id: 1
 ---
 
-#### Nov ’16 Update:
+### Nov ’16 Update:
 
 _I no longer recommend The Hoth. The Hoth has done nothing wrong and I have nothing against it in particular, but I am against the strategy of buying links — it goes against my philosophy of marketing._
 
@@ -24,7 +25,7 @@ Are you were on the fence of deciding to purchase The Hoth? This five month revi
 
 I’ve purchased The Hoth Platinum package twice back in February 2014, nearly 5 months ago, as a tool to help build a solid base layer of links. That was its purpose for me. What does The Hoth advertise itself as?
 
-![the hoth packages and tagline](https://cdn-images-1.medium.com/max/800/0*q2SAlI5FLt-AI1CL.png)
+![the hoth packages and tagline](/assets/images/hoth1.png)
 
 Judging by their tagline (which is absolutely fantastic by the way), they are positioning their product as a full, outsourced solution to link building for SEOs and maybe the above average tech savvy website owner.
 
@@ -32,11 +33,11 @@ When I purchased The Hoth, I never believed it would replace all my link buildin
 
 Before we get to that, let’s take a quick look at how The Hoth works. They provide a very nice page that explains exactly what links they build and how they build them and created this nifty graphic to give you a visual explanation.
 
-![does the both work](https://cdn-images-1.medium.com/max/800/0*K5GPohLLhAtTdcxd.png)
+![does the both work](/assets/images/hoth2.png)
 
 In short, they create free blog accounts called top level blogs/domains and the number they create for you depends on the package you choose. Once these are created, they have their team of writers publish blog posts on them that are either all unique and original or they are spun (articles that are taken and modified through automatic software to appear original to non human readers like Google and other search engines). The articles are either written by native English speakers or by native Filipinos who speak and write English well. Again, this depends on the package you get.
 
-Once the top levels have their content, they build links to them with [web 2.0 articles](http://en.wikipedia.org/wiki/Web_2.0 "what are web 2.0s?"). Then they create [Social Bookmarks](http://en.wikipedia.org/wiki/Social_bookmarking) and profile links that link back to those Web 2.0 articles. And finally they slowly roll out their “volume module,” which consists of either 50 or 200 private network posts. Here’s how The Hoth describes it on their Link Building Strategy Page:
+Once the top levels have their content, they build links to them with [web 2.0 articles](http://en.wikipedia.org/wiki/Web_2.0 "what are web 2.0s?"){:target="_blank"}. Then they create [Social Bookmarks](http://en.wikipedia.org/wiki/Social_bookmarking){:target="_blank"} and profile links that link back to those Web 2.0 articles. And finally they slowly roll out their “volume module,” which consists of either 50 or 200 private network posts. Here’s how The Hoth describes it on their Link Building Strategy Page:
 
 > We slow-drip each article to our own network of PR sites over a period of 3+ weeks. By slow-dripping these articles, we create a steady link velocity. This means you’ll get a natural flow of links over a long period of time, not just all at once.
 
@@ -48,7 +49,7 @@ But the question is, is it good enough to be the only tool you need to build lin
 
 The most important factor to look at when deciding which package to purchase is the number of top level blogs/domains created because those links will be the most effective. Here’s a quick breakdown of a package comparison.
 
-![hoth pricing packages](https://cdn-images-1.medium.com/max/800/0*ufiy-4_NCEGbZxNw.png)
+![hoth pricing packages](/assets/images/hoth3.png)
 
 When broken down, it becomes extremely obvious that the platinum package is the best bang for your buck. The mini is not worth it whatsoever. Even though the mini gets you 3 top level domains, each one will only have one spun article posted to it, and the links pointing to it won’t be as many or as strong. You can buy a permanent PBN post from someone or company for less and get more value.
 
@@ -64,16 +65,13 @@ If you have been following along with the blog, you’ll already know about Cons
 
 Let’s take a look at what Ahrefs, a domain analyzer and back link checking tool, comes up with for the 8 top level blogs/domains.
 
-![results of the both platinum](https://cdn-images-1.medium.com/max/800/0*o3pzZexGg-f9mmuy.png)
+![results of the both platinum](/assets/images/hoth4.png)
 
 After 5 months from ordering, here is what my top level blogs metric’s look like. Remember these metrics are from Ahrefs and their URL rank and domain rank is not the same as open site explorer’s page authority (PA) and domain authority (DA) although they are measuring the same things.
 
 Now let’s look at the other website.
 
-### See how I build Amazon Niche Sites:
-
-[**I Made $317 / Mo. From Two Amazon Niche Sites Last Year**  
-_And here’s how I did it._regpaq.com](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59 "https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59")[](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59)
+{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ## Case Study #2: A FITvertise Client Site
 
@@ -81,7 +79,7 @@ I recently changed the name of my “agency” or client side marketing business
 
 For one of my clients, I ordered The Hoth platinum package on a domain we used to start ranking in their area. Here are the results:
 
-![hoth platinum link package](https://cdn-images-1.medium.com/max/800/0*xcZgxo-wKKyU-adL.png)
+![hoth platinum link package](/assets/images/hoth5.png)
 
 A very similar story to the previous results, but I’m disappointed that Ahrefs couldn’t pull up any data for the last domain there. I checked Open Site Explorer using their free trial and they couldn’t pull up any results either for it. However, that being said, the site is live. It has somewhat of a strange URL structure so maybe that’s causing confusion with these tools’ bots, but I have no idea if Google is picking it up.
 
@@ -99,7 +97,7 @@ No. In theory, you can purchase many more platinum packages, but even buying 5 o
 
 ## How should you best use The Hoth?
 
-Here’s what I and also what Doug Cunnington of Niche Site Project does (you can see [his review here](http://nichesiteproject.com/ordering-the-hoth/)): Because you want to keep your exact anchor text down to a low percentage of your total links, I save the exact match anchors for my high PR links or links from a PBN. For The Hoth, I use it as a foundation of links using generic anchor text (naked URL, business or website name if it’s not an EMD or PMD, name of the site’s persona/author, and generic terms) to increase my number of linking root domains, backlinks, and provides link diversity. This acts as sort of a pillowing technique or compliment to the high PR links. This is the only way I recommend using it, but that doesn’t mean it’s the only way.
+Here’s what I and also what Doug Cunnington of Niche Site Project does (you can see [his review here](http://nichesiteproject.com/ordering-the-hoth/){:target="_blank"}): Because you want to keep your exact anchor text down to a low percentage of your total links, I save the exact match anchors for my high PR links or links from a PBN. For The Hoth, I use it as a foundation of links using generic anchor text (naked URL, business or website name if it’s not an EMD or PMD, name of the site’s persona/author, and generic terms) to increase my number of linking root domains, backlinks, and provides link diversity. This acts as sort of a pillowing technique or compliment to the high PR links. This is the only way I recommend using it, but that doesn’t mean it’s the only way.
 
 ## Should you buy it?
 
@@ -111,5 +109,4 @@ If you have purchased The Hoth or have decided against it, please let me know in
 
 ### You might also enjoy:
 
-[**I Made $317 / Mo. From Two Amazon Niche Sites Last Year**  
-_And here’s how I did it._regpaq.com](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59 "https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59")[](https://regpaq.com/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it-65f272794e59)
+{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

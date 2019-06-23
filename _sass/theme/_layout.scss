@@ -17,8 +17,8 @@
     }
 
   @media (min-width: $on-tablet) { /* 768px */
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
     /* should width auto calulcate based on viewport width and desired margin? */
     width: calc(#{$on-tablet} - (#{$spacing-unit} * 8));
     max-width: 100%;
@@ -37,20 +37,6 @@
   }
 }
 
-
-// .content-container {
-  
-//   h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, figure {
-//     position: relative;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding-right: $spacing-unit * 2;
-//     padding-left: $spacing-unit * 2;
-//   }
-// }
-
-
-
 /* --------------------------------------------------------
    Header
    -------------------------------------------------------- */
@@ -59,12 +45,12 @@
   position: relative;
   margin: $spacing-unit * 2 0;
 
-  @media screen and (min-width: 616px) {
+  @media screen and (min-width: $on-phone-ls) {
     margin: $spacing-unit * 3 0;
     font-size: $base-font-size * 1.307;
   }
 
-  @media screen and (min-width: 920px) {
+  @media screen and (min-width: $on-tablet-big) {
     margin: $spacing-unit * 3 0 $spacing-unit * 8 0;
     font-size: $base-font-size * 1.667;
   }
@@ -72,7 +58,7 @@
   #logo {
     max-width: 60px;
 
-    @media screen and (min-width: 616px) {
+    @media screen and (min-width: $on-phone-ls) {
       max-width: 80px;
     }
   }
@@ -284,40 +270,34 @@
   }
 }
 
-.feat-img {
-  display: block;
-  margin: 0 auto $spacing-unit * 3 auto;
-  width: 100%;
-  max-width: 2000px;
+.post-content {
+  margin-bottom: $spacing-unit * 6;
 
   @media screen and (min-width: $on-tablet) {
-    margin-bottom: $spacing-unit * 8;
+    margin-bottom: $spacing-unit * 25;
   }
-}
-
-.post-content {
 
   h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    /* padding below is for mobile. */
     padding-right: $spacing-unit * 2;
     padding-left: $spacing-unit * 2;
 
-    @media screen and (min-width: 616px) {
-      padding: 0px;
+    @media screen and (min-width: $on-phone-ls) {
+      /* padding zeroed due to defined width for content */
+      padding: 0;
       width: 600px;
       max-width: 100%;
     }
 
-    @media screen and (min-width: 920px) {
+    @media screen and (min-width: $on-tablet-big) {
       width: 740px;
     }
   }
 
   p, ol, ul {
-    list-style: none;
-
     @media screen and (min-width: $on-iphonex) {
       font-size: $base-font-size * 1.153;
       line-height: $base-font-size * 1.461;
@@ -331,61 +311,119 @@
   
     @media screen and (min-width: $on-tablet-big) {
       font-size: $base-font-size * 1.692;
-      line-height: $base-font-size * 1.846;
+      line-height: $base-font-size * 2.077;
       margin-bottom: $spacing-unit * 5;
     }
   }
 
-  strong, a {
-    background-color: $grey-color-light;
+  strong, a {    
     border-radius: 3px;
     font-weight: normal;
     padding: $spacing-unit * .25 $spacing-unit * .5;
     font-size: $base-font-size * .846;
 
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: $on-phone) {
       font-size: $base-font-size;
     }
 
-    @media screen and (min-width: 616px) {
+    @media screen and (min-width: $on-phone-ls) {
       font-size: $base-font-size * 1.153;
     }
 
-    @media screen and (min-width: 920px) {
-      font-size: $base-font-size * 1.5;
+    @media screen and (min-width: $on-tablet-big) {
+      font-size: $base-font-size * 1.385;
+      padding: $spacing-unit * .5 $spacing-unit;
     }
   }
 
   strong {
+    background-color: $grey-color-light;
     color: $bold-text-color;
   }
 
   a {
+    background-color: $dark-brand-faded;
     color: $brand-color;
+
+    &:hover {
+      background-color: $dark-brand-color;
+    }
   }
 
   blockquote {
     font-family: $SansSerif;
+    font-style: italic;
     margin: $spacing-unit * 4 auto;
-    max-width: 70%;
+    max-width: 90%;
+    width: 650px;
+    color: $brand-color;
 
     @media screen and (min-width: $on-tablet) {
-      max-width: 330px;
+      margin: $spacing-unit * 8 auto;
+      width: 90%;
+      max-width: 750px;
     }
 
-    @media screen and ($on-tablet-big) {
-      max-width: 430px;
+    @media screen and (min-width: $on-tablet-big) {
+      max-width: 900px;
+    }
+
+    &:last-child {
+      margin: $spacing-unit 0 0 0;
+      color: #bea76170;
+    }
+
+    &:last-child a {
+      color: #bea76170;
     }
   }
 
-  blockquote > p {
-    margin: 0px !important;
-    padding: 0px !important;
+  blockquote > p, blockquote > a {
+    margin: 0;
+    padding: 0;
+    font-size: $base-font-size;
+    width: 100%;
+
+    @media screen and (min-width: $on-tablet) {
+      font-size: $base-font-size * 1.154;
+    }
+
+    @media screen and (min-width: $on-tablet-big) {
+      font-size: $base-font-size * 1.385;
+    }
   }
 
-  ol, ul {
+  .big-quote {
+    max-width: 80%;
+
+    > p {
+      font-size: 20px;
+      line-height: 24px;
+
+      @media screen and (min-width: $on-tablet) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      @media screen and (min-width: $on-tablet-big) {
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+
+    @media screen and (min-width: $on-tablet) {
+      max-width: 550px;
+    }
+
+    @media screen and (min-width: $on-tablet-big) {
+      max-width: 650px;
+    }
+  }
+
+  ol {
     counter-reset: counter;
-    
+    list-style: none;
+
     li {
       padding-left: $spacing-unit * 4;
       margin-bottom: $spacing-unit * 3;
@@ -417,5 +455,185 @@
         margin-bottom: $spacing-unit * 5;
       }
     }
+  }
+
+  ol.counter-reset {
+    counter-reset: auto;
+  }
+
+  ul {
+    list-style: disc outside;
+    padding-left: $spacing-unit * 4;
+
+    @media screen and (min-width: $on-tablet-big) {
+      width: 700px;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: $spacing-unit * 3;
+    }
+  }
+}
+
+/* --------------------------------------------------------
+   Images
+   -------------------------------------------------------- */
+
+.post-content {
+  
+  .feat-img {
+    display: block;
+    margin: 0 auto $spacing-unit * 3 auto;
+    width: 100%;
+    max-width: 2000px;
+  
+    @media screen and (min-width: $on-tablet) {
+      margin-bottom: $spacing-unit * 8;
+    }
+  }
+
+  img {
+    display: block;
+  }
+
+  .a-img > a {
+    padding: 0;
+  }
+}
+
+/* Small Image that Floats Left - class = sml-img */
+.post-content p.sml-img {
+  width: 900px;
+
+  > a > img, > img { /* will apply whether link or not */
+    max-height: 200px;
+    float: left;
+    margin: 0 auto;
+    padding-right: 32px;
+    padding-bottom: 16px;
+
+    @media screen and (min-width: $on-tablet) {
+      max-height: 300px;
+    }
+  }
+}
+
+/* Three Images - class = img-3 CHANGE TO CSS GRID */
+.post-content p.img-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1032px;
+  width: unset;
+  padding: 0;
+
+  > a > img, > img { /* will apply whether link or not */
+    width: calc(((740px * 1.3946) - 32px) / 3); /* should be redone better */
+    width: -webkit-calc(((740px * 1.3946) - 32px) / 3);
+    min-width: 100px; /* allows responsiveness */
+    margin: 0;
+    padding: 0 $spacing-unit * .5;
+
+    @media screen and (min-width: $on-tablet) {
+      padding: 0 $spacing-unit * 1;
+    }
+
+    &:first-child {
+      padding-right: $spacing-unit * .5;
+      padding-left: 0;
+
+      @media screen and (min-width: $on-tablet) {
+        padding: 0 $spacing-unit * 1;
+      }
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: $spacing-unit * .5;
+
+      @media screen and (min-width: $on-tablet) {
+        padding: 0 $spacing-unit * 1;
+      }
+    }
+  }
+}
+
+/* Three Small Images - class = sml-img-3 CHANGE TO CSS GRID */
+.post-content p.sml-img-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: unset;
+  padding: 0;
+
+  > a > img, > img { /* will apply whether link or not */
+    width: 150px; /* should be redone better */
+    min-width: 30px; /* allows responsiveness */
+    margin: 0;
+    padding: 0 $spacing-unit * .5;
+
+    @media screen and (min-width: $on-tablet) {
+      width: 200px;
+      padding: 0 $spacing-unit * 1;
+    }
+
+    &:first-child {
+      padding-right: $spacing-unit * .5;
+      padding-left: 0;
+
+      @media screen and (min-width: $on-tablet) {
+        padding: 0 $spacing-unit * 1;
+      }
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: $spacing-unit * .5;
+
+      @media screen and (min-width: $on-tablet) {
+        padding: 0 $spacing-unit * 1;
+      }
+    }
+  }
+}
+
+/* Gallery of Four Images - class = med-img-4 */
+.post-content p.med-img-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: $spacing-unit;
+  grid-row-gap: $spacing-unit;
+  padding: 0;
+
+  @media screen and (min-width: $on-tablet) {
+    grid-column-gap: $spacing-unit * 2;
+    grid-row-gap: $spacing-unit * 2;
+  }
+
+  img {
+    margin: 0;
+  }
+}
+
+/* Large Image */
+.post-content p.lg-img {
+  width: unset;
+  max-width: 1200px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Large Portriat Image */
+.post-content p.lg-img-pt {
+  width: unset;
+  max-width: 900px;
+
+  img {
+    max-width: 100%;
   }
 }

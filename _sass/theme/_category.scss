@@ -5,6 +5,12 @@
     margin: 0 0 $spacing-unit * 6 0;
     padding: $spacing-unit * 2 0;
 
+    h3 {
+        font-size: $base-font-size * 1.154;
+        line-height: $base-font-size * 1.385;
+        margin-bottom: $spacing-unit;
+    }
+
     @media (min-width: $on-tablet) {
         margin: 0 0 $spacing-unit * 10 0;
         padding: $spacing-unit * 4 0 $spacing-unit * 6 0;
@@ -12,15 +18,15 @@
 
     /* to keep overflow on small screens */
     .container-overflow {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
         
-        @media (min-width: $on-phone) {
+        @media (min-width: $on-iphonex) {
             padding-left: $spacing-unit * 2;
         }
 
         @media (min-width: $on-tablet) {
-            padding-left: 0px;
+            padding-left: 0;
         }
 
         .featured-article-header {
@@ -29,8 +35,8 @@
             align-items: baseline;
             justify-content: space-between;
 
-            @media (min-width: $on-phone) {
-                padding-left: 0px;
+            @media (min-width: $on-iphonex) {
+                padding-left: 0;
             }
 
             .see-more {
@@ -59,7 +65,7 @@
         scroll-behavior: smooth;
 
         ul {
-            margin: 0px;
+            margin: 0;
             list-style: none;
             position: absolute;
             min-width: calc(7 * 302px); /* calculated based on 6 items + end link card in template loop (7) and 302px for article card + margin */
@@ -82,6 +88,7 @@
                 object-fit: cover;
                 object-position: 50% 40%;
                 margin-bottom: $spacing-unit * 2;
+                margin-top: 0;
             }
 
             .article-info {
@@ -93,7 +100,7 @@
             }
 
             .post-meta {
-                margin: 0px;
+                margin: 0;
             }
 
             p {
@@ -132,7 +139,7 @@
             width: 100%;
 
             > p {
-                margin: 0px;
+                margin: 0;
             }
         }
 
@@ -246,7 +253,7 @@
                 img {
                     width: 65%;
                     height: 100%;
-                    margin: 0px;
+                    margin: 0;
                     border-radius: 5px 0 0 5px; 
                 }
 
@@ -263,7 +270,7 @@
 
                 .article-info {
                     max-width: 35%;
-                    padding: 0px;
+                    padding: 0;
                 }
             }
         
@@ -302,7 +309,7 @@
                 }
 
                 .post-meta {
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                 }
 
                 svg {

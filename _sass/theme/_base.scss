@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
    Basic Styling
    -------------------------------------------------------- */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $Monospace;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $SansSerif;
   color: $text-color;
   background-color: $dark-background-color;
   -webkit-text-size-adjust: 100%;
@@ -45,6 +45,7 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  margin: $spacing-unit * 2 auto;
 }
 
 
@@ -87,7 +88,7 @@ p {
   line-height: $base-font-size * 1.308;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-weight: 900;
   font-family: $SansSerif;
   color: $heading-color;
@@ -103,6 +104,11 @@ h2 {
   font-size: $base-font-size * 1.833;
   line-height: $base-font-size * 2.333;
   margin-bottom: $spacing-unit * 2;
+
+  @media screen and (min-width: $on-tablet) {
+    font-size: $base-font-size * 2.615;
+    line-height: $base-font-size * 3.154;
+  }
 }
 
 h3 {
@@ -111,8 +117,8 @@ h3 {
   margin-bottom: $spacing-unit;
 
   @media screen and (min-width: $on-tablet) {
-    font-size: $base-font-size * 1.154;
-    line-height: $base-font-size * 1.385;
+    font-size: $base-font-size * 1.769;
+    line-height: $base-font-size * 2.462;
   }
 }
 

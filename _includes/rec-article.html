@@ -1,0 +1,13 @@
+<aside class="rec-art" aria-label="Recommended Article">
+    <div class="rec-container">
+        <div class="rec-info">
+            <h5>RECOMMENDED</h5>
+            <a href="{{ post.url | relative_url }}"><h4>{{ post.title }}</h4></a>
+            <p>{{ post.description }}</p>
+        </div>
+        <div class="rec-img">
+            <a href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}/assets/images/{{ post.featured-image }}" alt="{{ post.featured-image-alt }}" /></a>
+        </div>
+    </div>
+</aside>
+

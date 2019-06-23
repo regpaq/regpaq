@@ -16,9 +16,10 @@ layout: default
       </time>
     </p>
   </header>
-  {% if page.featured-image %}{% include featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.featured-image %}{% include featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+
     {{ content }}
   </div>
 

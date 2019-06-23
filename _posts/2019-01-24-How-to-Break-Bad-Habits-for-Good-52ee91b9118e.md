@@ -4,10 +4,11 @@ title: How to Break Bad Habits for Good
 description: The best tips from Atomic Habits on breaking your worse habits
 date: '2019-01-24T23:45:09.504Z'
 categories: [self, productivity]
-slug: /@regpaq/how-to-break-bad-habits-52ee91b9118e
+slug: /how-to-break-bad-habits
 featured-image: how-to-break-bad-habits.png
 featured-image-alt: how to break bad habits
 author: Reggie Paquette
+post-id: 9
 ---
 
 Stopping a bad habit is usually much more difficult than starting a new habit, especially if it’s a bad habit you’ve had for a long time.
@@ -27,9 +28,10 @@ Think of the following examples:
 
 They provide instant gratification to solve some kind of feeling (the trigger). Typically, solutions that provide instant gratification have a long term consequences. But because that instant gratification is so fulfilling and rewarding, it makes it extremely difficult to give up that instant gratification and remove it from your routine.
 
-> Your current habits are not necessarily the best way to solve the problem you face, they are just the methods you learned to use. Once you associate a solution with the problem you need to solve, you keep coming back to it — an explanation for why habits are hard to break. — James Clear, [Atomic Habits](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+> Your current habits are not necessarily the best way to solve the problem you face, they are just the methods you learned to use. Once you associate a solution with the problem you need to solve, you keep coming back to it — an explanation for why habits are hard to break. 
+> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
-Here are six tips from [Atomic Habits](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f) that helped me be break my worse habits:
+Here are six tips from [Atomic Habits](/atomic-habits-review-notes-lessons) that helped me be break my worse habits:
 
 ## 1\. Write Down the Bad Habits You Want to Quit and Why
 
@@ -39,7 +41,8 @@ Just as important, write down why you want to stop each one. Usually this turns 
 
 For example: I don’t want to eat a donut for breakfast every morning. Why? Because I don’t want a sugar rush in the morning with a crash in the afternoon. I don’t want to eat all those calories and it will help me lose some weight. New identity: I live a healthy lifestyle.
 
-> **The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.** — James Clear, Atomic Habits
+> The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.
+> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 Although this seems like you’re just playing a trick on yourself at first, once it becomes ingrained in you, it’s a powerful resistance to temptation.
 
@@ -65,7 +68,7 @@ Believing the why, removing the cue, and increasing friction is likely to help y
 
 If this is the case, you may be using too much willpower to stop your bad habits—and that can only last so long before you give in. Perhaps it’s best to find a different and better solution to solve that feeling, rather than trying to ignore it.
 
-For example, replace the donut in the morning with a fruit smoothie. Replace the drink after work with a decaf latte. Replace the video games with [a great book](https://regpaq.com/book-notes/home).
+For example, replace the donut in the morning with a fruit smoothie. Replace the drink after work with a decaf latte. Replace the video games with [a great book](/book-notes).
 
 ## 5\. Record Your Progress in a Habit Tracker
 
@@ -73,10 +76,9 @@ Seeing your progress and how far you’ve come can also be a great long term sou
 
 You can track habits using pen and paper, a Google Sheet, or an app. After trying a few of these methods, I settled on an app being the easiest to use and because it was the easiest and fastest way to track habits, it was the system I could actually stick to using every day.
 
-The app I use is called Done. [Check out my review](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237).
+The app I use is called Done. [Check out my review](/done-review-of-my-favorite-habit-tracking-app).
 
-[**“Done” App Review: My Favorite Habit Tracker**  
-_And one you’ll actually stick to._regpaq.com](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237 "https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237")[](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237)
+{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ## 6\. Reward Yourself for Resisting Your Bad Habits
 
@@ -90,8 +92,6 @@ What’s your best to tip to break a bad habit?
 
 ### Recommended Reading:
 
-[**How to Make Your New Habits Stick When Motivation Has Run Out**  
-_The 6 best tips from Atomic Habits on building habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Atomic Habits Summary, Notes, + Quotes**  
-_Who you’ll become in your future can be answered by your behavior today._regpaq.com](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f "https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f")[](https://regpaq.com/atomic-habits-review-notes-lessons-98fd64c14c1f)
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

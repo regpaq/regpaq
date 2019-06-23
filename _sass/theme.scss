@@ -12,10 +12,11 @@ $base-line-height: 1.2 !default;
 $spacing-unit:     8px !default;
 
 $brand-color:      #BEA761 !default;
-$dark-brand-color: #302E28 !default;
+$dark-brand-color: #0f0f0d !default;
+$dark-brand-faded: #302e289e !default;
 $alt-color:        #2FFF9F !default;
 $text-color:       #7F7F7F !default;
-$bold-text-color:  #CECCCC !default;
+$bold-text-color:  #BBBBBB !default;
 $heading-color:    #F7F7F9 !default;
 $dark-background-color: #030419 !default;
 $dark-background-highlight: #181827 !default;
@@ -29,8 +30,8 @@ $table-text-align: left !default;
 
 // Width of the content area
 $content-width:    800px !default;
-$on-phone:         375px !default;
-$on-iphonex:       321px !default;
+$on-phone:         321px !default;
+$on-iphonex:       375px !default;
 $on-phone-ls:      576px !default; /* dedicated margin begins */
 $on-tablet:        768px !default;
 $on-tablet-big:   1024px !default;
@@ -59,5 +60,6 @@ $on-desktop:      1200px !default;
   "theme/layout",
   "theme/subscribe",
   "theme/category",
+  "theme/rec-article",
   "theme/syntax-highlighting"
 ;

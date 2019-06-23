@@ -3,16 +3,37 @@
    -------------------------------------------------------- */
 
 .subscribe {
-    margin-bottom: $spacing-unit * 3;
+    margin-bottom: $spacing-unit * 8;
+
+    @media (min-width: $on-phone-ls) {
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 320px;
+    }
 
     @media (min-width: $on-tablet) {
         margin-bottom: $spacing-unit * 10;
+        text-align: center;
+        width: 500px;
     }
 
     p {
         max-width: 75%;
         text-align: left;
         margin: 0 auto $spacing-unit * 2 0;
+
+        @media (min-width: $on-iphonex) {
+            max-width: inherit;
+        }
+
+        @media (min-width: $on-tablet) {
+            text-align: center;
+            font-size: $base-font-size * 1.308;
+            line-height: $base-font-size * 1.615;
+            margin-bottom: $spacing-unit * 3;
+        }
     }
 }
 
@@ -27,10 +48,11 @@
 #mc_embed_signup input.email {
     font-family: $Monospace;
     font-size: 12px; 
+    font-weight: 900;
     border-top: none; border-right: none; border-left: none;
     border-bottom: 1px solid $text-color;
     border-radius: none;
-    color: $heading-color; 
+    color: $brand-color; 
     background-color: $dark-background-color; 
     box-sizing:border-box; 
     padding: $spacing-unit * .5 0;
@@ -38,11 +60,21 @@
     margin: 0; 
     width: 170px; 
     vertical-align:top;
+
+    @media (min-width: $on-iphonex) {
+        width: 190px;        
+    }
+
+    @media (min-width: $on-tablet) {
+        width: 275px;
+        font-size: $base-font-size * 1.308;        
+    }
 }
 
 #mc_embed_signup input {
     &::-webkit-input-placeholder {
         color: $brand-color;
+        font-weight: 400;
     }
     &::-moz-placeholder {
         color: $brand-color;
@@ -61,13 +93,20 @@
 }
 
 #mc_embed_signup label {
-    display:block; font-size:16px; padding-bottom:10px; font-weight:bold;
+    display:block;
+    font-size:16px;
+    padding-bottom:10px;
+    font-weight:bold;
 }
 #mc_embed_signup .clear {
     display: inline-block;
+
+    @media (min-width: $on-iphonex) {
+        padding-left: $spacing-unit * 2;
+    }
 }
 #mc_embed_signup .button {
-    font-family: $Monospace;
+    font-family: $SansSerif;
     font-size: 12px; border: none; 
     -webkit-border-radius: 4px; 
     -moz-border-radius: 4px; 
@@ -78,14 +117,18 @@
     padding:$spacing-unit * .5 $spacing-unit * 2; 
     display: inline-block; 
     margin: 0; 
-    transition: all 0.23s ease-in-out 0s;
+    transition: all 0.08s ease-in-out 0.08s;
+
+    @media (min-width: $on-tablet) {
+        font-size: $base-font-size * 1.308;        
+    }
 }
 #mc_embed_signup .button:hover {
     background-color:#777; 
     cursor:pointer;
 }
 #mc_embed_signup div#mce-responses {
-    float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;
+    float:left; top:-1.4em; padding:0 .5em 0 .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;
 }
 #mc_embed_signup div.response {
     margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;

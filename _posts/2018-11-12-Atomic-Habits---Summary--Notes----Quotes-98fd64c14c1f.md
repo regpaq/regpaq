@@ -4,20 +4,21 @@ title: 'Atomic Habits — Summary, Notes, + Quotes'
 description: Who you’ll become in your future can be answered by your behavior today.
 date: '2018-11-12T18:27:42.017Z'
 categories: [booknotes, self, productivity]
-slug: /@regpaq/atomic-habits-review-notes-lessons-98fd64c14c1f
+slug: /atomic-habits-review-notes-lessons
 featured-image: atomic habits summary review.png
 featured-image-alt: atomic habits summary review
 author: Reggie Paquette
+post-id: 4
 ---
 
-This book, out of all the books I’ve read so far, would have to be the first book I’d recommend to anyone — [Atomic Habits by James Clear](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74).
+This book, out of all the books I’ve read so far, would have to be the first book I’d recommend to anyone — [Atomic Habits by James Clear](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"}.
 
 Why?
 
 Habits have an exponential effect on your life over time and the sooner you start good habits and stop bad ones, the better your life will be in the short and long term.
 
-![[Link to Amazon](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74)](https://cdn-images-1.medium.com/max/600/1*Z6hqlrb9zyI7Q7uASCA7qg.png)
-[Link to Amazon](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74)
+[![Link to Amazon](/assets/images/atomic1.png)](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"}
+{: .a-img .sml-img}
 
 It will teach you how to actually start good habits, how to stop bad ones, and show you why paying attention to what you’re doing on a day-by-day basis really matters. Your day-to-day behavior is the single most important factor in determining the type of person you will be when you grow up.
 
@@ -31,7 +32,7 @@ Habits are the small reoccurring things you do everyday or weekly (or sometimes 
 
 > Habits are the compound interest of self-development. The same way that money multiplies through compound interest, the effects of your habits multiply as you repeat them. They seem to make little difference on any given day and yet the impact they deliver over the months and years can be enormous. It is only when looking back, two, five, or perhaps ten years later that the value of good habits and the cost of bad ones become strikingly apparent.
 
-![](https://cdn-images-1.medium.com/max/800/1*XLYjMW_uTPDLBVTPWZXpAA@2x.jpeg)
+![](/assets/images/atomic2.jpeg)
 
 Think of your habits now. You probably have a few bad ones. These are just as important to take note of and work on changing because they compound into toxic results. One day you want to realize that you didn’t quite become the person you wanted to be and it may be too late to significantly change.
 
@@ -49,9 +50,9 @@ For example, if you don’t have good financial habits, you may find yourself al
 
 > “Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. The process of building habits is actually the process of becoming yourself.”
 
-![](https://cdn-images-1.medium.com/max/600/1*RZlwEsfhzTh9zdK0JDp6_A@2x.jpeg)
+![](assets/images/atomic3.jpeg)
 
-**There are three layers of behavior change:** _Outcomes_ is the outer layer, _Processes_ are the inner layer, and _Identity_ is at the core. Most goals people set are related to an outcome (e.g. make $100k salary by age 30). Most habits people set are related to a process (e.g. spend an hour each morning learning a new skill).
+**There are three layers of behavior change:** **Outcomes** is the outer layer, **Processes** are the inner layer, and **Identity** is at the core. Most goals people set are related to an outcome (e.g. make $100k salary by age 30). Most habits people set are related to a process (e.g. spend an hour each morning learning a new skill).
 
 But if you start with your identity, the core of behavior change, it will reflect on your your habits and your outcomes much more effectively.
 
@@ -59,17 +60,17 @@ But if you start with your identity, the core of behavior change, it will reflec
 
 ## The Habit Loop: How Habits Work
 
-![](https://cdn-images-1.medium.com/max/600/1*tsIZHbTPMVV1_K0CZKG6nA@2x.jpeg)
+![](assets/images/atomic4.jpeg)
 
-The process of building habits can be explained by the **_Four Laws of Behavior Change_**_:_
+The process of building habits can be explained by the **Four Laws of Behavior Change**:
 
-1\. Cue — make it obvious
+1. Cue — make it obvious
 
-2\. Craving — make it attractive
+2. Craving — make it attractive
 
-3\. Response — make it easy
+3. Response — make it easy
 
-4\. Reward — make it satisfying
+4. Reward — make it satisfying
 
 The cue triggers the craving, which motivates a response, which provides a reward, which satisfied the craving, and ultimately becomes associated with the cue.
 
@@ -81,13 +82,14 @@ Below will be more details on each law. Keep in mind you can stack many of these
 
 Think about your current habits and what cues (the trigger) set them off. This can be really hard to uncover at first because your bad habits are probably already so automatic and done unconsciously.
 
-> Until you make the unconscious conscious, it will direct your life and you will call it fate. -Carl Jung
+> "Until you make the unconscious conscious, it will direct your life and you will call it fate." -Carl Jung
+{: .big-quote}
 
 Cues trigger behavior and can come in many forms, but the most common are time and location. So if you want to start a new habit, you’re more likely to start it if you choose a specific time and place.
 
 In addition to time and location, you can pair it with a current habit (e.g. right after you wake up, after you brush your teeth, after your evening shower, etc). I’ve personally found this method the most effective for me — essentially taking your existing morning/evening routine and adding to it.
 
-![](https://cdn-images-1.medium.com/max/800/1*kUpwACfzQQimcmTf0Ocp3w@2x.jpeg)
+![](assets/images/atomic5.jpeg)
 
 ### Set up your environment for success
 
@@ -117,7 +119,7 @@ Think of a bad habit you have right now. When you receive a cue for it, you anti
 
 So if you’re able to make a new habit you want to start attractive, you’ll be more likely to start it. You can do this by using a technique called “temptation bundling,” where you allow yourself to do something you like to do now (like check Reddit in the morning) only after you do a habit you want to start (meditate in the morning.) This can make meditation more attractive and something you look forward to because it means you to do something you want.
 
-![](https://cdn-images-1.medium.com/max/800/1*0gk37goIftNRVHzv8mO9og@2x.jpeg)
+![](assets/images/atomic6.jpeg)
 
 Eventually you may not need to use temptation bundling for good habits once you find the merit of the habit itself rewarding enough to make it attractive.
 
@@ -149,7 +151,7 @@ Think again of your bad habits. Can you tell what your underlying motives might 
 
 Changing your habits and routines are hard. You most likely have already tried to start new habits before and more than likely failed to keep at least one of them going.
 
-One method AH recommends to make habits less difficult is to reframe your thinking from “_I have to_ go to the gym, to _I get to_ go to the gym.” This simple shift in belief turns burdens into opportunities.
+One method AH recommends to make habits less difficult is to reframe your thinking from **“I have to** go to the gym, to **I get to** go to the gym.” This simple shift in belief turns burdens into opportunities.
 
 > Reframing your habits to highlight their benefits rather than their drawbacks is a fast and lightweight way to reprogram your mind to make a habit more attractive.
 
@@ -157,11 +159,11 @@ If you can associate going to the gym as an opportunity to get stronger + look b
 
 ## III. Response — Make it Easy
 
-Environment design helps you create cues and can make performing your new habit _easier_ — the 3rd law is all about making it easier to perform the habit you want as the correct response to a cue.
+Environment design helps you create cues and can make performing your new habit **easier** — the 3rd law is all about making it easier to perform the habit you want as the correct response to a cue.
 
 > If you want to master a habit, the key is to start with repetition, not perfection. You don’t need to map out every feature of the new habit. You just need to practice it. This is the first takeaway for the 3rd law: you just need to get your reps in.
 
-Going back to the gym example, just start getting in the habit of going. Don’t wait to start because you think you _need_ to make the perfect exercise routine, or you _need_ all the right supplements, or you _need_ The best workout clothes.
+Going back to the gym example, just start getting in the habit of going. Don’t wait to start because you think you **need** to make the perfect exercise routine, or you **need** all the right supplements, or you **need** The best workout clothes.
 
 > The most effective form of learning is practice, not planning. Use habit formation to make action progressively more automatic through repetition.
 
@@ -171,7 +173,7 @@ Just get started. Perfection comes later.
 
 So how can you make just getting started easier? Reduce as much friction as possible. Environment design can again be useful here.
 
-For example, when I wanted to start going to the gym more this year, I signed up for a gym within walk distance to work, which means I don’t ever have to drive to the gym — I’m already there when I park at work. Even though that gym was 5x more expensive than an average gym, my _results_ _on investment_ were much greater at the more expensive gym because I went way more often.
+For example, when I wanted to start going to the gym more this year, I signed up for a gym within walk distance to work, which means I don’t ever have to drive to the gym — I’m already there when I park at work. Even though that gym was 5x more expensive than an average gym, my **results on investment** were much greater at the more expensive gym because I went way more often.
 
 You can also use some type of automation to help you do good habits. Examples include setting up automated transfers to savings account to save money. Or signing up for grocery delivery to make cooking easier.
 
@@ -181,7 +183,7 @@ Do you play video games too much? Don’t be afraid to unplug the system and put
 
 > Remove friction associated with good behaviors. When friction is low, habits are easy. Increase the friction associated with bad behaviors. When friction is high, bad habits are difficult.
 
-![](https://cdn-images-1.medium.com/max/800/1*NGcUfmlP5grrRAeUiXFE_g@2x.jpeg)
+![](assets/images/atomic7.jpeg)
 
 ## IV. Reward — Make it Satisfying
 
@@ -195,11 +197,11 @@ The 4th law is about bringing a form of immediate gratification to the habits yo
 
 So to make your habit satisfying, you should try adding a reward at the end of performing the habit. The example of checking Reddit after morning meditation is an example of creating a reward for a habit. It’s important to only give yourself the reward after completing the habit to keep the reward effective.
 
-You can also reward yourself for _not_ doing a bad a habit. For example, if one habit you’re trying to break is out-of-control spending, you can reward yourself if you spent less than your target amount of money per day with going to Starbucks in the next morning.
+You can also reward yourself for **not** doing a bad a habit. For example, if one habit you’re trying to break is out-of-control spending, you can reward yourself if you spent less than your target amount of money per day with going to Starbucks in the next morning.
 
 ### Tracking and visualizing progress
 
-When you [track your habits in a log](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237), you’ll be happy with yourself when you can see how far you’ve come.
+When you [track your habits in a log](/done-review-of-my-favorite-habit-tracking-app), you’ll be happy with yourself when you can see how far you’ve come.
 
 In other words, the action of tracking can be a reward on its own. Also when you keep up with tracking, you won’t want to break your streak of continuously performing your habit. This acts as another form of reinforcement.
 
@@ -209,11 +211,11 @@ If you don’t track both your good and bad habits, you won’t really know how 
 
 > Measurement offers one way to overcome blindness to our own behavior and notice what’s really going on each day. When the evidence is right in front of you, you’re less likely to lie to yourself.
 
-I highly recommend you [set up a form of tracking](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237). It can act as a cue to remind you to perform your habits, it reinforces your that your goal is making progress rather than a finish line, it will motivate you to see your progress and not lose your streaks, and it’s satisfying to continue growing your streaks.
+I highly recommend you [set up a form of tracking](/done-review-of-my-favorite-habit-tracking-app). It can act as a cue to remind you to perform your habits, it reinforces your that your goal is making progress rather than a finish line, it will motivate you to see your progress and not lose your streaks, and it’s satisfying to continue growing your streaks.
 
 > Furthermore, habit tracking provides visual proof that you are casting votes for the type of person you wish to become, which is a delightful form of immediate and intrinsic gratification.
 
-After trying all different ways of habit tracking, I finally settled on tracking habits with an app called “Done” — [read my review here](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237).
+After trying all different ways of habit tracking, I finally settled on tracking habits with an app called “Done” — [read my review here](/done-review-of-my-favorite-habit-tracking-app).
 
 ### What to do when you break a habit streak
 
@@ -247,21 +249,16 @@ Reading this summary is not enough. You have to read the whole book to truly und
 
 ## TLDR:
 
-[Atomic Habits](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74) is an essential book for anyone who wants to really make a change in their life for the better. The way Clear organizes the strategies and lessons make Atomic Habits easy to understand and extremely practical. I’m not sure how it can be any better so it deserves a 10/10.
+[Atomic Habits](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"} is an essential book for anyone who wants to really make a change in their life for the better. The way Clear organizes the strategies and lessons make Atomic Habits easy to understand and extremely practical. I’m not sure how it can be any better so it deserves a 10/10.
 
 ### You might also enjoy:
 
-[**How to Break Bad Habits for Good**  
-_The best tips from Atomic Habits on breaking your worse habits_regpaq.com](https://regpaq.com/how-to-break-bad-habits-52ee91b9118e "https://regpaq.com/how-to-break-bad-habits-52ee91b9118e")[](https://regpaq.com/how-to-break-bad-habits-52ee91b9118e)
+{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**How to Make Your New Habits Stick When Motivation Has Run Out**  
-_The 6 best tips from Atomic Habits on building habits that last_regpaq.com](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90 "https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90")[](https://regpaq.com/how-to-make-habits-stick-4a6bf5e57b90)
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**“Done” — Review of My Favorite Habit Tracking App**  
-_And one you’ll actually stick to._regpaq.com](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237 "https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237")[](https://regpaq.com/done-review-of-my-favorite-habit-tracking-app-66e5581bf237)
+{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Meditations from Marcus Aurelius — Summary, Notes, + Quotes**  
-_Lessons on life from an ancient Roman Emperor._regpaq.com](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742 "https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742")[](https://regpaq.com/meditations-from-marcus-aurelius-summary-notes-quotes-2cd655533742)
+{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
-[**Mastery by Robert Greene — Summary, Notes, + Quotes**  
-_The essential book to help you find your purpose._regpaq.com](https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41 "https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41")[](https://regpaq.com/mastery-summary-quotes-robert-greene-4434cb156e41)
+{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

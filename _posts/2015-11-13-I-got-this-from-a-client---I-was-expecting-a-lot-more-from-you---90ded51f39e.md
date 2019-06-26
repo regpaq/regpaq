@@ -60,6 +60,8 @@ In a market saturated with options at $15-$35, they decided to make a $99 iPhone
 
 They made this video to show people why they charge so much:
 
+<div style="text-align:center;padding-bottom:32px;"><iframe src="https://player.vimeo.com/video/87651284?color=BEA761&byline=0&portrait=0" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
 (**psst**… if any of my friends are reading this, please buy me one)
 
 They make sure to tell the story of the R&D behind the scenes on nearly every page of their site to show why they charge what they charge.

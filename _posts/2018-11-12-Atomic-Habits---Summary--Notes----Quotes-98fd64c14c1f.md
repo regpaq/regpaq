@@ -48,7 +48,7 @@ For example, if you don’t have good financial habits, you may find yourself al
 
 ## Your habits define who you are
 
-> “Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. The process of building habits is actually the process of becoming yourself.”
+> Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. The process of building habits is actually the process of becoming yourself.
 
 ![](assets/images/atomic3.jpeg)
 
@@ -82,7 +82,9 @@ Below will be more details on each law. Keep in mind you can stack many of these
 
 Think about your current habits and what cues (the trigger) set them off. This can be really hard to uncover at first because your bad habits are probably already so automatic and done unconsciously.
 
-> "Until you make the unconscious conscious, it will direct your life and you will call it fate." -Carl Jung
+> "Until you make the unconscious conscious, it will direct your life and you will call it fate." 
+>
+> > -Carl Jung
 {: .big-quote}
 
 Cues trigger behavior and can come in many forms, but the most common are time and location. So if you want to start a new habit, you’re more likely to start it if you choose a specific time and place.
@@ -223,7 +225,7 @@ If you break your streak and miss a day, don’t get down on yourself. It’s in
 
 Streaks are a powerful motivator in the reverse too. I had a streak going for a habit at 99 days in a row and on that 99th day, I forgot to do it — I broke the streak. I was pretty upset with myself for not hitting the 100 day mark — so upset in fact that from there on out I didn’t care about continuing the streak anymore. My problem was I got surprised it happened when I never expected it to. If I did, I would have known it was okay and may have continued on.
 
-> The first mistake is never the one that ruins you. It is the spiral of repeated mistakes that follow. Missing once is an accident. **Missing twice is the start of a new habit**.
+> The first mistake is never the one that ruins you. It is the spiral of repeated mistakes that follow. Missing once is an accident. Missing twice is the start of a new habit.
 
 If you’re tired, short on time, or feeling unmotivated for whatever reason, don’t let that stop you. It’s okay once in a while to do a habit quickly or not do your best. For example, doing a very quick or low intensity workout. It’s more important to keep showing up and continuing the streak.
 

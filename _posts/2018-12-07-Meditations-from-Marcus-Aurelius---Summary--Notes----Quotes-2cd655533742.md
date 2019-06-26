@@ -56,27 +56,27 @@ There were some universal pieces of wisdom in Meditations that I should always b
 Don’t expect everything to go your way so you won’t be surprised and react when they don’t.
 
 > \[6.13\] Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice, and the purple robes are sheep wool dyed with shellfish blood. Or making love — something rubbing against your penis, a brief seizure and a little cloudy liquid.
-
+>
 > Perceptions like that — latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time — all through our lives when things lay claim to our trust — to lay them bare and see how pointless they are, to strip away the legend that encrusts them.
 
 It’s easy for desires to consume your thoughts at the cost of your peace and your ability to think and do more virtuous things. Grounding your perceptions can clear restlessness and allow space for gratitude.
 
 > \[10.25\] When a slave runs away from his master, we call him a fugitive slave. But the law of nature is a master too, and to break it is to become a fugitive.
-
+>
 > To feel grief, anger, or fear is to try to escape from something decreed by the ruler of all things, now or in the past or in the future. And that ruler is law, which governs what happens to each of us. To feel grief or anger or fear is to become a fugitive — a fugitive from justice.
 
 A large majority of events that cause us to grieve, feel anger, or fear are outside of our control. And if they are out of our control, we could not have prevented it. Accept that things happen because they simply happen. Outbursts of anger or long periods of grief don’t ever fix anything, but only make you worse off.
 
 > \[10.8\] Epithets for yourself: Upright. Modest. Straightforward. Sane. Cooperative. Disinterested.
-
+>
 > Try not to exchange them for others. And if you should forfeit them, set about getting them back.
-
+>
 > Keep in mind that “sanity” means understanding things — each individual thing — for what they are. And not losing the thread.
-
+>
 > And “cooperation” means accepting what nature assigns you — accept it willingly.
-
+>
 > And “disinterest” means that the intelligence should rise above the movements of the flesh — the rough and smooth alike. Should rise above fame, above death, and everything like them.
-
+>
 > If you maintain your claim to these epithets — without caring if others apply them to your or not — you’ll become a new person, living a new life. To keep on being the person that you’ve been — to keep being mauled and degraded by the life you’re living — is to be devoid of sense and much too fond of life.
 
 ## On Happiness, Purpose, Your Value, Desires
@@ -94,29 +94,29 @@ What you think about and what you do every day casts votes for who you are, exac
 {% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 > \[6.16\] What is it in ourselves that we should prize?
-
+>
 > Not just transpiration (even plants do that).
-
+>
 > Or respiration (even beasts and wild animals breathe).
-
+>
 > Or being struck by passing thoughts.
-
+>
 > Or jerked like a puppet by your own impulses.
-
+>
 > Or moving in herds.
-
+>
 > Or eating, and relieving yourself afterwards.
-
+>
 > Then what is to be prized?
-
+>
 > An audience clapping? No. No more than the clacking of their tongues. Which is all that public praise amounts to — a clacking of tongues.
-
+>
 > So we throw out other people’s recognition. What’s left for us to prize?
-
+>
 > I think it’s this: to do (and not do) what we were designed for. That’s the goal of all trades, all arts, and what each of them aims at: that the thing they create should do what it was designed to do. The nurseryman who cares for the vines, the horse trainer, the dog breeder — this is what they aim at. And teaching and education — what else are they trying to accomplish?
-
+>
 > So that’s what we should prize. Hold on to that, and you won’t be tempted to aim at anything else.
-
+>
 > And if you can’t stop prizing a lot of other things? Then you’ll never be free — free, independent, imperturbable. Because you’ll always be envious and jealous, afraid that people might come and take it all away from you. Plotting against those who have them — those things you prize. People who need those things are bound to be a mess — and bound to take out their frustration on the gods. Whereas to respect your own mind — to prize it — will leave you satisfied with your own self, well integrated into your community and in tune with the gods as well — embracing what they allot you, and what they ordain.
 
 A great summation of everything Marcus views as the path to happiness and tranquility.
@@ -136,11 +136,12 @@ What does Marcus have to say on this topic? Two things: 1) you can’t control w
 We all like to idolize actors, musicians, or start up founders, but why not the people we actually know and interact with? Your family, your friends, or even coworkers? People who can care about you back.
 
 > \[7.71\] It’s silly to try to escape other people’s faults. They are inescapable. Just try to escape your own.
+{: .big-quote}
 
 You will inevitably disappoint people. The only opinion of yourself that matters is yours.
 
 > \[9.30\] To see them from above: the thousands of animal herds, the rituals, the voyages on calm or stormy seas, the different ways we come into the word, share it with one another, and leave it. Consider the lives led once by others, long ago, the lives to be led by others after you, the lives led even now, in foreign lands. How many people don’t even know your name. How many will soon have forgotten it. How many offer you praise now — and tomorrow, perhaps, contempt.
-
+>
 > That to be remembered is worthless. Like fame. Like everything.
 
 Why make a legacy your ultimate goal in life? No matter who you are, people will eventually forget you.
@@ -154,6 +155,7 @@ Just accept people are thinking nasty things about you and you won’t be surpri
 One of the most important tenets of Stoicism is the understanding and application of knowing what’s in your control and what is not. If it is not in your control, you should accept it as “what nature demanded” (or fate). And what nature demands is neither good nor bad. It just is.
 
 > \[4.7\] Choose not to be harmed — and you won’t feel harmed. Don’t feel harmed — and you haven’t been.
+{: .big-quote}
 
 The worst part of an unfavorable event is not the event itself, but the emotion that takes over you. If you didn’t get the promotion you wanted, the anger and grief you display at the office in retaliation will do you more harm than the event of not getting the promotion did. Or getting frustrated and anxious about traffic is worse for you then the traffic itself.
 
@@ -166,11 +168,11 @@ There is no value or usefulness in labeling an event as bad (or good). If it hap
 People (even friends or family) can do or say things that hurt you, bother you, or get in your way. And it shouldn’t surprise you because they are human. And if it doesn’t surprise you, you’re less likely to be hurt or affected.
 
 > \[5.20\] In a sense, people are our proper occupation. Our job is to do them good and put up with them.
-
+>
 > But when they obstruct our proper tasks, they become irrelevant to us — like sun, wind, animals. Our actions may be impeded by them, but there can be no impeding our intentions or our dispositions. Because we can accommodate and adapt. The mind adapts and converts to its own purposes the obstacles to our acting.
-
+>
 > The impediment to action advances action.
-
+>
 > What stands in the way becomes the way.
 
 ## On Leadership and How to Treat Others
@@ -186,9 +188,9 @@ What’s the use of getting upset or frustrated at other people when life is sho
 A logical way to withhold anger, disappointment, and frustration at other people.
 
 > \[8.17\] If it’s in your control, why do you do it? If it’s in someone else’s, then who are you blaming? Atoms? The gods? Stupid either way.
-
+>
 > Blame no one. Set people straight, if you can. If not, just repair the damage. And suppose you can’t do that either. Then where does blaming people get you?
-
+>
 > No pointless actions.
 
 Everything people do comes from many different influences. It’s not really them as a person making a decision on their own, even if it seems that way on the surface.
@@ -209,8 +211,10 @@ Marcus often makes the analogy of viewing time as a river. It’s useful to remi
 
 It’s hard to figure this out and sometimes it changes in our lives (e.g. a dancer can’t be a dancer forever). But once you find it, do it everyday.
 
-> \[6.51\] Ambition means tying your well-being to what other people say or do.  
-> Self indulgence means tying to the things that happen to you.   
+> \[6.51\] Ambition means tying your well-being to what other people say or do.
+> 
+> Self indulgence means tying to the things that happen to you.
+>
 > Sanity means tying it to your own actions.
 
 How to achieve tranquility.
@@ -234,19 +238,19 @@ And harms you more than the event itself that caused it, because it’s hurting 
 ‘Nuff said.
 
 > \[12.26\] To be angry at something means you’ve forgotten:
-
+>
 > That everything that happens is natural.
-
+>
 > That the responsibility is theirs, not yours.
-
+>
 > And further…
-
+>
 > That whatever happens has always happened, and always will, and is happening at this very moment, everywhere. Just like this.
-
+>
 > What links one human being to all humans: not blood or birth, but mind.
-
+>
 > That it’s all how you choose to see things.
-
+>
 > That the present is all we have to live in. Or to lose.
 
 ## On Death
@@ -256,12 +260,13 @@ And harms you more than the event itself that caused it, because it’s hurting 
 Death is inevitable and expected. By letting it bothering you, you’re obstructing nature.
 
 > \[9.3\] Don’t look down on death, but welcome it. It too is one of the things required by nature. Like youth and old age. Like growth and maturity. Like a new set of teeth, a beard, the first gray hair. Like sex and pregnancy and childbirth. Like all other physical changes at each stage of life, our dissolution is no different.
-
+>
 > So this is how a thoughtful person should await death: not with indifference, not with impatience, not with disdain, but simply viewing it as one of the things that happen to us. How you anticipate the child’s emergence from its mother’s womb; that’s how you should await the hour when your soul will emerge from its compartment.
 
 Marcus wrote a lot on death. I think he feared it a lot and that’s why he wrote pretty much the same message in so many different ways — implying from my point of view that he needed these reminders often.
 
 > \[9.17\] A rock thrown in the air. It loses nothing by coming down, gained nothing by going up.
+{: .big-quote}
 
 ## TLDR:
 

@@ -6,15 +6,11 @@ layout: default
   <header class="post-header container">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="article-subtitle">{{page.description | escape}}</p>
-    <p class="post-meta">
-      {%- if page.author -%}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-        {% include /svg/calendar.svg %}{{ page.date | date: date_format }}
-      </time>
-    </p>
+    <div class="post-meta">
+        <div id="ring"></div><img src="/assets/images/regpaq.jpg" />
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">{{ page.author }}</a></span></span>
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}{% include /svg/calendar.svg %}{{ page.date | date: date_format }}</time>
+    </div>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -25,7 +25,8 @@ Here’s six tips that helped me the most:
 
 For each habit (or goal) you want to start doing, write down why you want to do it and how it helps you get closer to the person you want to be. Who you are is shaped by your habits and your behavior (not your thoughts).
 
-> The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change. 
+> The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.
+>
 > > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 For example, I want to journal every morning because I want to be grateful for who I am and what I have, and I want to live more purposefully. This helps me become a less envious and more happy person.
@@ -33,7 +34,9 @@ For example, I want to journal every morning because I want to be grateful for w
 **Writing down the “why” develops long-term motivation by making your habits a part of your identity, which is much stronger than a burst of motivation that dies out quickly.** Now if you were to skip doing your habits, you will be going against who you are.
 
 > Remember that our own worth is measured by what we devote our energy to.
+>
 > > — Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes) 7.3
+{: .big-quote}
 
 ## 2\. Reframe From “I Have To” to “I Get To”
 
@@ -41,7 +44,8 @@ After your initial burst of motivation runs dry, habits quickly begin to feel li
 
 Instead, think of each of your habits as an opportunity to make a step toward your desired identity. Continuing with journaling, I now tell myself “I get to journal today and it’s going to help me be more a grateful and happy person tomorrow.” At first, you will feel like you’re only trying to trick yourself. The concept is easy to understand, but it takes a while to naturally internalize it and that is when this mindset becomes a powerful motivator.
 
-> Reframing your habits to highlight their benefits rather than their drawbacks is a fast and lightweight way to reprogram your mind to make a habit more attractive. 
+> Reframing your habits to highlight their benefits rather than their drawbacks is a fast and lightweight way to reprogram your mind to make a habit more attractive.
+>
 > > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 ## 3\. Set Up Your Environment for Success
@@ -57,6 +61,7 @@ My coworker Emil also read AH and says this tip has been one of the most helpful
 This will help keep the chain alive — the chain (or streak) is the number of days or weeks in a row you’ve completed your habit. Not wanting to break the chain can be a motivator itself so making sure it continues, even if you’re not doing your best, can help you get through that low moment and still continue off strong tomorrow.
 
 > If you want to master a habit, the key is to start with repetition, not perfection. You don’t need to map out every feature of the new habit. You just need to practice it. 
+>
 > > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 ## 5\. Use a Habit Tracker

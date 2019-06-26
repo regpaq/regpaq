@@ -17,7 +17,8 @@ I’ve tried spreadsheets, a pen and planner system, and a variety of apps, but 
 
 Why track your habits at all? Because seeing your progress and not wanting to break the number of days (or weeks) in a row you’ve done your habit is a strong motivation in and of itself.
 
-> Making progress is satisfying, and visual measures provide clear evidence of your progress. As a result, they reinforce your behavior and add a little bit of immediate satisfaction to any activity. 
+> Making progress is satisfying, and visual measures provide clear evidence of your progress. As a result, they reinforce your behavior and add a little bit of immediate satisfaction to any activity.
+>
 > > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 So obviously the most important thing in a habit tracking system is one that you can stick to — no matter how it looks or how it works.

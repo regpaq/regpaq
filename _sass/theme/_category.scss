@@ -1,5 +1,3 @@
-
-
 .featured-articles {
     background-color: $dark-background-highlight;
     margin: 0 0 $spacing-unit * 6 0;
@@ -9,6 +7,11 @@
         font-size: $base-font-size * 1.154;
         line-height: $base-font-size * 1.385;
         margin-bottom: $spacing-unit;
+
+        @media (min-width: $on-tablet) {
+            font-size: $base-font-size * 1.308;
+            line-height: $base-font-size * 1.462;;
+        }
     }
 
     @media (min-width: $on-tablet) {
@@ -40,15 +43,19 @@
             }
 
             .see-more {
+                font-size: 16px;
                 padding-right: 16px;
                 color: $alt-color;                
 
                 svg { /* arrow */
-                    fill: $alt-color;
+                    fill: $dark-background-color;
                     position: relative;
                     top: 4px;
                     width: 18px;
                     height: 18px;
+                    background-image: url(/assets/images/svg/coin-accent-fill.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
                 }
 
                 @media (min-width: $on-tablet) {
@@ -232,13 +239,13 @@
                 width: inherit;
                 height: inherit;
                 &:not(:first-child) {
-                    height: 250px;
+                    height: 280px;
                     width: 100%;
                 }
 
                 img {
                     width: 100%;
-                    height: 120px;
+                    height: 140px;
                 }
             }
 
@@ -282,7 +289,11 @@
             .article-2 {
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
-            }           
+            }
+            
+            .article-end-card {
+                font-size: 16px;
+            }
         }
     }
 
@@ -332,6 +343,10 @@
             .article-3 {
                 grid-column: 3 / 4;
                 grid-row: 2 / 3;
+            }
+
+            .article-info > p {
+                font-size: 16px;
             }
         }
     }

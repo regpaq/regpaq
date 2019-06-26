@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Implemented Marketing Attribution Infrastructure (Last Touch) | regpaq</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Implemented Marketing Attribution Infrastructure (Last Touch)" />
+<meta name="author" content="Reggie Paquette" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis." />
+<meta property="og:description" content="to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis." />
+<link rel="canonical" href="http://localhost:4000/implementing-a-marketing-attribution-system" />
+<meta property="og:url" content="http://localhost:4000/implementing-a-marketing-attribution-system" />
+<meta property="og:site_name" content="regpaq" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-27T18:10:51-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/implementing-a-marketing-attribution-system","headline":"Implemented Marketing Attribution Infrastructure (Last Touch)","dateModified":"2019-05-27T18:10:51-07:00","datePublished":"2019-05-27T18:10:51-07:00","author":{"@type":"Person","name":"Reggie Paquette"},"description":"to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/implementing-a-marketing-attribution-system"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" /><style>
+    @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:400,900&display=swap');
+  </style>  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="container"><a class="site-title" rel="author" href="/"><img id="logo" src="/assets/images/logo.png"</a>
+
+    <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="/">Home</a>
+          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/resume.html">Résumé</a>
+        </div>
+    </nav>
+
+    <nav class="hashtag-nav">
+      Articles:
+      <a class="page-link" href="/all-articles">All</a>
+      <a class="page-link" href="/marketing">#marketing</a>
+      <a class="page-link" href="/productivity">#productivity</a>
+      <a class="page-link" href="/book-notes">#booknotes</a>
+      <a class="page-link" href="/self">#self</a>
+    </nav>
+
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="content-container">
+        <article class="resume post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header container">
+    <!-- <h1 class="post-title p-name" itemprop="name headline">Implemented Marketing Attribution Infrastructure (Last Touch)</h1>
+     -->
+    <div class="post-meta">
+        <div id="ring"></div><img src="/assets/images/regpaq.jpg" />
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
+        <p class="article-subtitle">to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis.</p>
+        <p class="resume-info"><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M4 11.5v4c0 .83.67 1.5 1.5 1.5S7 16.33 7 15.5v-4c0-.83-.67-1.5-1.5-1.5S4 10.67 4 11.5zm6 0v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM3.5 22h16c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5h-16c-.83 0-1.5.67-1.5 1.5S2.67 22 3.5 22zM16 11.5v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM10.57 1.49l-7.9 4.16c-.41.21-.67.64-.67 1.1C2 7.44 2.56 8 3.25 8h16.51C20.44 8 21 7.44 21 6.75c0-.46-.26-.89-.67-1.1l-7.9-4.16c-.58-.31-1.28-.31-1.86 0z"/></svg></span>Los Angeles<span class="resume-info-social" style="margin-left: 20px;"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://twitter.com/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg></span></a></span></p>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="problem">Problem</h2>
+
+<p>When I first came onboard, we were running paid acquisition campaigns on just LinkedIn and Capterra. To measure their performance, we were using a separate form for each channel and just three URL tracking parameters: ppc_campaign, ppc_ad, and ppc_keyword without any kind of naming conventions in place.</p>
+
+<p>Using multiple forms is an easy way to separate channel performance easily, but the upkeep of them as more channels are added is cumbersome and becomes unnecessary with a proper attribution system in place. And without standard naming conventions for campaigns, content, and term, it can be difficult to scale tracking and measuring performance of content and angles across channels.</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>Upgrading ppc_campaign, ppc_ad, and ppc_keyword to the full main five tracking parameters used in Google Analytics (source, medium, campaign, content, and term) provided us with a standardized attribution system we could use across channels. Then we just needed one form we could use on all of our landing pages.</p>
+
+<p>Because we didn’t have a marketing automation platform or a marketing attribution platform, we decided to move forward with a simple last-touch attribution system.</p>
+
+<h3 id="step-1create-marketing-attribution-fields-in-salesforce">Step 1 — Create Marketing Attribution Fields in Salesforce</h3>
+
+<p>First we changed the three existing tracking fields to ‘Marketing Campaign,’ ‘Marketing Content,’ and ‘Marketing Term’. Then we added ‘Marketing Source’ and ‘Marketing Medium’. For marketing reporting purposes, we also added ‘Latest Demo Request Date’ and a ‘Demo Requested’ toggle we use to fire other automation. These fields were created on the Lead object in Salesforce (SFDC), the Contact, and the Opportunity (Opp).</p>
+
+<p class="a-img lg-img"><img src="assets/images/chili-attribution-1.png" alt="new Chili Piper marketing attribution fields in Salesforce" /></p>
+
+<h3 id="step-2creating-the-form-and-capturing-url-parameters">Step 2 — Creating the Form and Capturing URL Parameters</h3>
+
+<p>We are using Clearbit Forms, which allow us to capture values from URL parameters natively. All I needed to do was create the hidden fields and map them to the parameter.</p>
+
+<h3 id="step-3-automating-the-data-flow-in-salesforce">Step 3— Automating the Data Flow in Salesforce</h3>
+
+<p>When a Lead is converted to a Contact and Account, we set up the attribution fields to be carried over to the Contact. When converted to an Opp, they also flow to the Opp where once created are frozen so they can’t be overwritten by a subsequent form submissions. This was set up because we wanted to credit the last marketing campaign that generated the Opp.</p>
+
+<h3 id="step-4standardizing-naming-conventions-in-a-urlbuilder">Step 4 — Standardizing Naming Conventions in a URL Builder</h3>
+
+<p>Now the foundation has been built, I could build a URL Builder tool in a Google Sheet and standardize naming conventions used for channels, campaigns, content, audiences etc. This is essential for being able to uncover what’s working what isn’t within a single channel over time and across channels.</p>
+
+<p>In one tab (data tab) was columns for source, medium, campaign, and term. I broke content up into five sub data points that all combined into one that was to be used for content. They were product, value/benefit, audience, media, and copy/ad variant. In the rows under each column were a list of values. For example, under source was google, linkedin, capterra, etc. Under value/benefit was connecting, conversion-rate, speed-to-lead. That way, in any future campaign in any channel, we could come back to using these naming conventions.</p>
+
+<p>On another tab was the actual URL Builder. Each column used data validation from the data tab so my team and I could build tracking URLs using a series of dropdown menus and if something didn’t match it threw an error.</p>
+
+<p>It looked liked this:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-attribution-2.jpeg" alt="URL Builder in a spreadsheet for Chili Piper" /></p>
+
+<p>The final cell combined all the data using simple CONCATENATE formulas and resulted in a tracking URL.</p>
+
+<h2 id="result">Result</h2>
+
+<p>Every campaign started was built using this URL builder that ensured consistent naming conventions for marketing attributions. This allowed us to build accurate marketing reports broken down by channel, audience, and campaign. It allowed us to view the success specific pieces of content, ads, media type, or angles across channels. And because it’s all in SFDC, we could do quick ad-hoc analysis using any combination of these parameters to see what’s working or not and drive strategy.</p>
+
+  </div>
+
+  <a class="u-url" href="/implementing-a-marketing-attribution-system" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <p>
+      Reggie Paquette</br>
+      Based in Los Angeles, CA
+    </p>
+    <script type="text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
+    <div id="footer-cta">
+      <a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" >
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>  
+      </a>
+    </div>
+    <div id="bottom-foot">
+      <ul>
+        <li><a href="/">regpaq.com</a></li>
+        <li><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></li>
+        <li><a href="https://twitter.com/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a></li>
+        <li><a href="https://medium.com/@regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Medium icon</title><path d="M0 0v24h24V0H0zm19.938 5.686L18.651 6.92a.376.376 0 0 0-.143.362v9.067a.376.376 0 0 0 .143.361l1.257 1.234v.271h-6.322v-.27l1.302-1.265c.128-.128.128-.165.128-.36V8.99l-3.62 9.195h-.49L6.69 8.99v6.163a.85.85 0 0 0 .233.707l1.694 2.054v.271H3.815v-.27L5.51 15.86a.82.82 0 0 0 .218-.707V8.027a.624.624 0 0 0-.203-.527L4.019 5.686v-.27h4.674l3.613 7.923 3.176-7.924h4.456v.271z"/></svg></a></li>
+        <li><a href="https://www.reddit.com/user/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Reddit icon</title><path d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="/assets/js/accordian.js"></script>
+</footer>
+</body>
+
+</html>

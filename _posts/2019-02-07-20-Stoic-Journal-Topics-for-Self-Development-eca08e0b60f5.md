@@ -48,6 +48,7 @@ You can also reflect on your achievements, major events, and material things in 
 Negative and low value thoughts are fuel for chaos, passivity, and unhappiness. These topics can help control your negative thoughts by thinking through them rationally.
 
 > “Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice,… Perceptions like that — latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time… to lay them bare and see how pointless they are…”
+>
 > > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
 10.  Think of an item you craved to have and eventually purchased. How do you feel about that item now? Was the craving warranted?
@@ -64,6 +65,7 @@ Negative and low value thoughts are fuel for chaos, passivity, and unhappiness. 
 In his journal, it was apparent that Marcus Aurelius wrote about recurring philosophical tenets in order to continually practice his philosophy. Try doing the same for yourself.
 
 > “To feel grief, anger, or fear is to try to escape from something decreed by the ruler of all things, now or in the past or in the future. And that ruler is law, which governs what happens to each of us. To feel grief or anger or fear is to become a fugitive — a fugitive from justice.”
+>
 > > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
 13.  Think of a philosophical or ethical tenet that you struggle to live by. Write down the tenet and again in your own words. Try crafting your own analogy. Do this as often as you need to.
@@ -81,8 +83,10 @@ In his journal, it was apparent that Marcus Aurelius wrote about recurring philo
 
 Our daily behavior is the best indicator of the type of person we are. Work on improving what you do each day and you will in turn be improving the type of person you are.
 
-> “Remember that our own worth is measured by what we devote our energy to. “
+> “Remember that our own worth is measured by what we devote our energy to."
+>
 > > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
+{: .big-quote}
 
 16.  Did I lose control of my emotions today? What triggered it? Was that a reasonable response?
 {: .counter-reset}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets | regpaq</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets" />
+<meta name="author" content="Reggie Paquette" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy." />
+<meta property="og:description" content="Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy." />
+<link rel="canonical" href="http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets" />
+<meta property="og:url" content="http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets" />
+<meta property="og:site_name" content="regpaq" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-26T20:04:01-07:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets","headline":"Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets","dateModified":"2019-05-26T20:04:01-07:00","datePublished":"2019-05-26T20:04:01-07:00","author":{"@type":"Person","name":"Reggie Paquette"},"description":"Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" /><style>
+    @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:400,900&display=swap');
+  </style>  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="container"><a class="site-title" rel="author" href="/"><img id="logo" src="/assets/images/logo.png"</a>
+
+    <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="/">Home</a>
+          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/resume.html">Résumé</a>
+        </div>
+    </nav>
+
+    <nav class="hashtag-nav">
+      Articles:
+      <a class="page-link" href="/all-articles">All</a>
+      <a class="page-link" href="/marketing">#marketing</a>
+      <a class="page-link" href="/productivity">#productivity</a>
+      <a class="page-link" href="/book-notes">#booknotes</a>
+      <a class="page-link" href="/self">#self</a>
+    </nav>
+
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="content-container">
+        <article class="resume post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header container">
+    <!-- <h1 class="post-title p-name" itemprop="name headline">Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets</h1>
+     -->
+    <div class="post-meta">
+        <div id="ring"></div><img src="/assets/images/regpaq.jpg" />
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
+        <p class="article-subtitle">Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.</p>
+        <p class="resume-info"><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M4 11.5v4c0 .83.67 1.5 1.5 1.5S7 16.33 7 15.5v-4c0-.83-.67-1.5-1.5-1.5S4 10.67 4 11.5zm6 0v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM3.5 22h16c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5h-16c-.83 0-1.5.67-1.5 1.5S2.67 22 3.5 22zM16 11.5v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM10.57 1.49l-7.9 4.16c-.41.21-.67.64-.67 1.1C2 7.44 2.56 8 3.25 8h16.51C20.44 8 21 7.44 21 6.75c0-.46-.26-.89-.67-1.1l-7.9-4.16c-.58-.31-1.28-.31-1.86 0z"/></svg></span>Los Angeles<span class="resume-info-social" style="margin-left: 20px;"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://twitter.com/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg></span></a></span></p>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="problem">Problem</h2>
+
+<p>Reporting on how individual sales reps and their cadences were doing was a manual process. With Chili Piper being a data-driven company, we wanted to be able to make decisions backed by data, which meant we were tracking and manually updating over 37 metrics per rep and per cadence.</p>
+
+<p>This data took a lot of time to update and would become outdated quickly, so it became a bottleneck for learning what pain points, value props, and angles worked best and also limited how quickly we could run new cadence experiments.</p>
+
+<p>Here’s how the old one looked like:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-1.jpeg" alt="old Chili Piper outbound dashboard" /></p>
+
+<p>Lots of great data recorded, but updated manually each week which became quickly outdated.</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>We had to automate this process as much as possible if we wanted to learn what works faster and run experiments more frequently. This would also free up time we could then spend on improving our cold outbound strategy.</p>
+
+<p>Making this could be broken down into three parts.</p>
+
+<h3 id="part-i-measuring-activitydata">Part I— Measuring Activity Data</h3>
+
+<p>The first part was getting the general activity from SalesLoft (SL) into SFDC and then automating that into a Google Sheet.</p>
+
+<h4 id="step-1getting-salesloft-data-into-salesforce">Step 1 — Getting SalesLoft Data Into Salesforce</h4>
+
+<p>Luckily, SL has a native integration with SFDC which writes each email, call, and LinkedIn connect/InMail as an Activity to the Contact record.</p>
+
+<h4 id="step-2building-the-salesforce-reports">Step 2 — Building the Salesforce Reports</h4>
+
+<p>Next I needed to make an SFDC Activity report for each cadence. With the SL and SFDC integration, it was as simple as using a filter for the cadence name. Next was customizing the columns to include all the data we wanted to capture and report on. Once the first report was created, all we needed to do was copy the report, change the cadence name we were filtering for, and save as a new report.</p>
+
+<h4 id="step-3automating-the-salesforce-reports-into-googlesheets">Step 3 — Automating the Salesforce Reports Into Google Sheets</h4>
+
+<p>Using a tool called <a href="https://gsuite.google.com/marketplace/app/gconnector_for_salesforce/971770431958" target="_blank">G-Connector</a>, we were able to login to SFDC from a Google Sheet, find our cadence reports, and schedule a daily import of each cadence we wanted to track as a separate tab in the spreadsheet.</p>
+
+<h4 id="step-4building-the-dashboard">Step 4 — Building the Dashboard</h4>
+
+<p>The most difficult part of this process was building the tab that pulled all the data from these cadence reports. Once all the formulas were created to get the data we wanted, we could simply copy the formulas into each subsequent column for the next cadence. Using another tool called <a href="https://gsuite.google.com/marketplace/app/advanced_find_and_replace/460077608560" target="_blank">Advanced Find and Replace</a>, we could quickly replace all the tab references inside each formula with another without having to edit each individual cell’s formula.</p>
+
+<p>Here’s what this dashboard looked like:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></p>
+
+<p>With everything in SFDC, we could easily break out cadence metrics by the Contact level (individuals) and an Account level. So for instance, we could see how many unique accounts were targeted in a cadence versus just the total people. We could then expand on that and look at the bounce rate, open rate, reply rate, calls, connects, etc at an Account level or at a Contact level.</p>
+
+<blockquote class="big-quote">
+  <p>Using conditional formatting, we could quickly see which cadences and reps were performing better than others, find out why, and scale that to future cadences and the rest of the team.</p>
+</blockquote>
+
+<h3 id="part-iimeasuring-down-funnel-metrics">Part II — Measuring Down-Funnel Metrics</h3>
+
+<p>Since the response rate of a cadence won’t tell us whether it’s a success or failure on its own, we needed to connect booked meetings, opportunities, pipeline, and ultimately closed-won deals to each cadence. To do this, we need to push cadence data from a Contact to an Opportunity object and then pull an Opportunity report into our spreadsheet.</p>
+
+<h4 id="step-1push-salesloft-cadence-data-from-the-contact-to-an-opportunity">Step 1 — Push SalesLoft Cadence Data From the Contact to an Opportunity</h4>
+
+<p>This is possible using a process builder in SFDC. When an opportunity is created, the process builder will pull the SL cadence data from the Primary Contact and write it to the Opportunity. Then those fields are locked so any new SL activities to that Contact won’t overwrite on the Opportunity. That way, we know the cadence data on the Opportunity is the last meaningful activity that generated the booked meeting.</p>
+
+<h4 id="step-2building-the-salesforce-opportunity-report">Step 2 — Building the Salesforce Opportunity Report</h4>
+
+<p>A simple Opportunity report filtering for only outbound opportunities with SL cadence data in the columns is essentially all we needed. Then we automated this report to our spreadsheet using G-Connector.</p>
+
+<h4 id="step-3adding-down-funnel-metrics-into-the-dashboard-tab">Step 3 — Adding Down-Funnel Metrics Into the Dashboard Tab</h4>
+
+<p>Now with just simple COUNTIF formulas, we can see all the down-funnel metrics a cadence produced from booked meeting to close won.</p>
+
+<p>Here’s what we looked at:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-3.jpeg" alt="new Chili Piper outbound dashboard down funnel metrics" /></p>
+
+<p>Now we were able to measure how effective a cadence was by the rate of accounts worked to meetings booked (and pipeline generated).</p>
+
+<h3 id="part-iiifiguring-out-whatworks">Part III — Figuring Out What Works</h3>
+
+<p>Since we’re able to pull in the cadence name and cadence step names into SFDC and onto Opportunities, we can add keywords (or tags) to each cadence step name to segment performance. So for instance, we can measure how certain angles or content (images, GIFs, etc) perform. This is additional information we used to build new and improved cadences.</p>
+
+<h4 id="step-imeasure-performance-of-eachemail">Step I — Measure Performance of Each Email</h4>
+
+<p>By using strict cadence name and cadence step naming conventions, we were able to easily break out performance by each email step for every cadence with one formula. We simply looked if cadence step name contained “Email 1” or “Email 2” etc.</p>
+
+<p>Here’s what that looks like with conditional formatting, to easily spot winning emails:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-4.jpeg" alt="conditional formatting on new Chili Piper outbound dashboard to spot wins" /></p>
+
+<h4 id="step-iiadd-keywords-to-each-cadencename">Step II — Add Keywords to Each Cadence Name</h4>
+
+<p>SL won’t retroactively update what’s sent to SFDC in the integration, so we were only able to segment out by keywords for future cadences. First we tested influence and persuasion angles and we were able to measure the open and response rate for emails in that cadence that used that angle.</p>
+
+<p>Here’s what that looked like:</p>
+
+<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-5.jpeg" alt="using keywords on new Chili Piper outbound dashboard to spot wins" /></p>
+
+<h4 id="step-iiiadding-titles-of-the-contacts-whobooked">Step III — Adding Titles of the Contacts Who Booked</h4>
+
+<p>Then to measure a part of our outbound targeting, we looked at the roles of each contact who we booked a meeting with. Because each person’s title is somewhat unique, we just listed out the title in an array where we could visually inspect the kind of roles people had who resonated with our messaging and product, which we used for refining future targeting.</p>
+
+<p class="a-img xlg-img"><img src="assets/images/chili-outbound-6.jpeg" alt="titles of prospects who booked a meeting on new Chili Piper outbound dashboard" /></p>
+
+<h2 id="result">Result</h2>
+
+<p>With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.</p>
+
+  </div>
+
+  <a class="u-url" href="/automating-salesloft-cadence-metrics-into-google-sheets" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <p>
+      Reggie Paquette</br>
+      Based in Los Angeles, CA
+    </p>
+    <script type="text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
+    <div id="footer-cta">
+      <a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" >
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>  
+      </a>
+    </div>
+    <div id="bottom-foot">
+      <ul>
+        <li><a href="/">regpaq.com</a></li>
+        <li><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></li>
+        <li><a href="https://twitter.com/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a></li>
+        <li><a href="https://medium.com/@regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Medium icon</title><path d="M0 0v24h24V0H0zm19.938 5.686L18.651 6.92a.376.376 0 0 0-.143.362v9.067a.376.376 0 0 0 .143.361l1.257 1.234v.271h-6.322v-.27l1.302-1.265c.128-.128.128-.165.128-.36V8.99l-3.62 9.195h-.49L6.69 8.99v6.163a.85.85 0 0 0 .233.707l1.694 2.054v.271H3.815v-.27L5.51 15.86a.82.82 0 0 0 .218-.707V8.027a.624.624 0 0 0-.203-.527L4.019 5.686v-.27h4.674l3.613 7.923 3.176-7.924h4.456v.271z"/></svg></a></li>
+        <li><a href="https://www.reddit.com/user/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Reddit icon</title><path d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="/assets/js/accordian.js"></script>
+</footer>
+</body>
+
+</html>

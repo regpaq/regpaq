@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5 {
     }
 h1 {  
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+    margin-bottom: .5rem;
 }
 h2 {  
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
@@ -29,7 +30,6 @@ h5 {
     font-family: $Monospace;
     color: $alt-color;
     margin-bottom: .4rem;
-    // font-size: $base-font-size * 1.167; //!!!!!!!
 }
 a {
     color: $brand-color;
@@ -45,27 +45,28 @@ a {
 // --------------------------------------------------------
 #logo {
     margin: 0;
-    max-width: 60px;
-    @include media-query($shmedium) {
-        max-width: 80px;
-    }
+    max-width: 4rem;
 }
-.page-link {
+.site-nav a {
     &:not(:last-child) {
-        margin-right: $spacing-unit * 3;
+        margin-right: 1.5rem;        
     }
 }
-.hashtag-nav {
-    .page-link {
-        margin: 0;
-        color: $text-color;
-        background-color: $grey-color-light;
-        border-radius: 4px;
-        padding: $spacing-unit * .3;
-        line-height: 2;
-        &:hover {
-            color: $heading-color;
-        }
+.hashtag-nav a {
+    margin: 0;
+    color: $text-color;
+    background-color: $grey-color-light;
+    border-radius: 4px;
+    padding: .15rem;
+    line-height: 2;
+    &:hover {
+        color: $heading-color;
+    }
+    &:first-child {
+        margin-left: .5rem;
+    }
+    &:not(:last-child) {
+        margin-right: .2rem;
     }
 }
 
@@ -101,74 +102,59 @@ a {
     ul {
         text-align: center;
         margin: 0;
-    }
-    li {
-        display: inline-block;
-        vertical-align: middle;
-        &:not(:last-child) {
-            margin-right: $base-size * 1;
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+            a {
+                color: $text-color;
+                &:hover {
+                    color: $brand-color;
+                }     
+            }
         }
     }
-    a {
-        color: $text-color;
-        &:hover {
-            color: $brand-color;
-        }     
-    }
 }
 
 // --------------------------------------------------------
-//          Article Styles
+//          Article Page Styles
 // --------------------------------------------------------
 
-.article-subtitle { //what can be removed here for global p styles?
-    font-size: $base-size * 1.2;
-    @media screen and (min-width: $on-tablet) {
-        font-size: $base-font-size * 2.462;
-        line-height: $base-font-size * 3.2;
-        margin-bottom: $spacing-unit * 4;
-    }
-    @media screen and (min-width: $on-tablet-big) {      
-        margin-bottom: $spacing-unit * 6;
-    }
+.article-subtitle {
+    @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
 }
-.post-meta { // can I add a class that just says .85 times base font size that can be reused
-    font-size: $base-size * .85;
+.post-meta {
+    font-size: .85rem;
     display: grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 25px 25px;
-    @media screen and (min-width: $on-tablet) {
-        font-size: $base-font-size * 1.308;
-        margin-bottom: $spacing-unit * 3;
-        grid-template-columns: 100px auto;
-        grid-template-rows: 35px 35px;
+    grid-template-columns: 4rem auto;
+    grid-template-rows: auto auto;
+    @include media-query($medium) {
+        margin-bottom: $base-size * 1.5;
+        grid-template-columns: 5rem auto;
     }
-    @media screen and (min-width: $on-tablet-big) {
-        font-size: $base-font-size * 1.538;
-        margin-bottom: $spacing-unit * 8;
-        grid-template-columns: 110px auto;
-        grid-template-rows: 40px 40px;
+    @include media-query($regular) {
+        margin-bottom: $base-size * 4;
     }
-}
-#ring {
-    background-image: url(/assets/images/svg/coin-gold-ring.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    margin-top: -4px;
-    @media screen and (min-width: $on-tablet) {
-      height: 83px;
-      width: 83px;
-      margin-top: -6px;
+    #ring {
+        background-image: url(/assets/images/svg/coin-gold-ring.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        margin-top: -4px;
+        @include media-query($medium) {
+        height: 83px;
+        width: 83px;
+        margin-top: -6px;
+        }
+        @include media-query($regular) {
+        height: 95px;
+        width: 95px;
+        }
     }
-    @media screen and (min-width: $on-tablet-big) {
-      height: 95px;
-      width: 95px;
-    }
-}
-.post-meta{
     img {      
         border-radius: 100%;
         grid-column: 1 / 2;
@@ -176,47 +162,36 @@ a {
         max-height: 50px;
         max-width: 50px;
         margin: 0 0 0 3px;
-    }
-    @media screen and (min-width: $on-tablet) {
-      max-height: 70px;
-      max-width: 70px;
-      margin: 0 0 0 5px;
-    }
-    @media screen and (min-width: $on-tablet-big) {
-      max-height: 80px;
-      max-width: 80px;
-      margin: 0 0 0 6px;
+        @include media-query($medium) {
+            max-height: 70px;
+            max-width: 70px;
+            margin: 0 0 0 5px;
+        }
+        @include media-query($regular) {
+            max-height: 80px;
+            max-width: 80px;
+            margin: 0 0 0 6px;
+        }
     }
     span {
         align-self: end;
-        margin-bottom: $spacing-unit * .25; 
+        margin-bottom: .1rem; 
         a:hover {
           color: $brand-color;
         }
     }
     svg {
         fill: $text-color;
-        width: $base-font-size * .846;
-        height: $base-font-size * .846;
-        padding-right: $spacing-unit * .5;
+        width: .85rem;
+        height: .85rem;
+        padding-right: .25rem;
         vertical-align: baseline;
         display: inline-flex;
         align-self: center;
         top: 2px;
         position: relative;
-        @media screen and (min-width: $on-tablet) {
-          width: $base-font-size * 1.153;
-          height: $base-font-size * 1.153;
-        }
-        @media screen and (min-width: $on-tablet-big) {
-          width: $base-font-size * 1.5;
-          height: $base-font-size * 1.5;
-          top: 3px;
-        }
     }
-    time.dt-published {
-        display: block;
-        color: $text-color;
+    time {
         margin-top: $spacing-unit * .25;
     }
 }

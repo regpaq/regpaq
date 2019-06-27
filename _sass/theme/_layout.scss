@@ -481,7 +481,7 @@
 
 /* Small Image that Floats Left - class = sml-img */
 .post-content p.sml-img {
-  width: 900px;
+  width: 900px; // causing overflow issues !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   > a > img, > img { /* will apply whether link or not */
     max-height: 200px;

@@ -1005,7 +1005,8 @@ h1, h2, h3, h4, h5 {
   color: #F7F7F9; }
 
 h1 {
-  font-size: 27.648px; }
+  font-size: 27.648px;
+  margin-bottom: .5rem; }
   @media screen and (min-width: 320px) {
     h1 {
       font-size: calc(27.648px + 37.888 * ((100vw - 320px) / 960)); } }
@@ -1047,23 +1048,24 @@ a {
 
 #logo {
   margin: 0;
-  max-width: 60px; }
-  @media screen and (min-width: 568px) {
-    #logo {
-      max-width: 80px; } }
+  max-width: 4rem; }
 
-.page-link:not(:last-child) {
-  margin-right: 24px; }
+.site-nav a:not(:last-child) {
+  margin-right: 1.5rem; }
 
-.hashtag-nav .page-link {
+.hashtag-nav a {
   margin: 0;
   color: #7F7F7F;
   background-color: #2C2D3B;
   border-radius: 4px;
-  padding: 2.4px;
+  padding: .15rem;
   line-height: 2; }
-  .hashtag-nav .page-link:hover {
+  .hashtag-nav a:hover {
     color: #F7F7F9; }
+  .hashtag-nav a:first-child {
+    margin-left: .5rem; }
+  .hashtag-nav a:not(:last-child) {
+    margin-right: .2rem; }
 
 #footer-cta {
   background-image: url(/assets/images/svg/coin-grey-fill.svg);
@@ -1089,108 +1091,88 @@ a {
 #bottom-foot ul {
   text-align: center;
   margin: 0; }
-#bottom-foot li {
-  display: inline-block;
-  vertical-align: middle; }
-  #bottom-foot li:not(:last-child) {
-    margin-right: 16px; }
-#bottom-foot a {
-  color: #7F7F7F; }
-  #bottom-foot a:hover {
-    color: #BEA761; }
+  #bottom-foot ul li {
+    display: inline-block;
+    vertical-align: middle; }
+    #bottom-foot ul li:not(:last-child) {
+      margin-right: 1rem; }
+    #bottom-foot ul li a {
+      color: #7F7F7F; }
+      #bottom-foot ul li a:hover {
+        color: #BEA761; }
 
 .article-subtitle {
   font-size: 19.2px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 320px) {
     .article-subtitle {
-      font-size: 32.006px;
-      line-height: 41.6px;
-      margin-bottom: 32px; } }
-  @media screen and (min-width: 1024px) {
+      font-size: calc(19.2px + 21.76 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
     .article-subtitle {
-      margin-bottom: 48px; } }
+      font-size: 40.96px; } }
 
 .post-meta {
-  font-size: 13.6px;
+  font-size: .85rem;
   display: grid;
-  grid-template-columns: 70px auto;
-  grid-template-rows: 25px 25px; }
+  grid-template-columns: 4rem auto;
+  grid-template-rows: auto auto; }
   @media screen and (min-width: 768px) {
     .post-meta {
-      font-size: 17.004px;
       margin-bottom: 24px;
-      grid-template-columns: 100px auto;
-      grid-template-rows: 35px 35px; } }
+      grid-template-columns: 5rem auto; } }
   @media screen and (min-width: 1024px) {
     .post-meta {
-      font-size: 19.994px;
-      margin-bottom: 64px;
-      grid-template-columns: 110px auto;
-      grid-template-rows: 40px 40px; } }
-
-#ring {
-  background-image: url(/assets/images/svg/coin-gold-ring.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  margin-top: -4px; }
-  @media screen and (min-width: 768px) {
-    #ring {
-      height: 83px;
-      width: 83px;
-      margin-top: -6px; } }
-  @media screen and (min-width: 1024px) {
-    #ring {
-      height: 95px;
-      width: 95px; } }
-
-.post-meta img {
-  border-radius: 100%;
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-  max-height: 50px;
-  max-width: 50px;
-  margin: 0 0 0 3px; }
-@media screen and (min-width: 768px) {
-  .post-meta {
-    max-height: 70px;
-    max-width: 70px;
-    margin: 0 0 0 5px; } }
-@media screen and (min-width: 1024px) {
-  .post-meta {
-    max-height: 80px;
-    max-width: 80px;
-    margin: 0 0 0 6px; } }
-.post-meta span {
-  align-self: end;
-  margin-bottom: 2px; }
-  .post-meta span a:hover {
-    color: #BEA761; }
-.post-meta svg {
-  fill: #7F7F7F;
-  width: 10.998px;
-  height: 10.998px;
-  padding-right: 4px;
-  vertical-align: baseline;
-  display: inline-flex;
-  align-self: center;
-  top: 2px;
-  position: relative; }
-  @media screen and (min-width: 768px) {
-    .post-meta svg {
-      width: 14.989px;
-      height: 14.989px; } }
-  @media screen and (min-width: 1024px) {
-    .post-meta svg {
-      width: 19.5px;
-      height: 19.5px;
-      top: 3px; } }
-.post-meta time.dt-published {
-  display: block;
-  color: #7F7F7F;
-  margin-top: 2px; }
+      margin-bottom: 64px; } }
+  .post-meta #ring {
+    background-image: url(/assets/images/svg/coin-gold-ring.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: -4px; }
+    @media screen and (min-width: 768px) {
+      .post-meta #ring {
+        height: 83px;
+        width: 83px;
+        margin-top: -6px; } }
+    @media screen and (min-width: 1024px) {
+      .post-meta #ring {
+        height: 95px;
+        width: 95px; } }
+  .post-meta img {
+    border-radius: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    max-height: 50px;
+    max-width: 50px;
+    margin: 0 0 0 3px; }
+    @media screen and (min-width: 768px) {
+      .post-meta img {
+        max-height: 70px;
+        max-width: 70px;
+        margin: 0 0 0 5px; } }
+    @media screen and (min-width: 1024px) {
+      .post-meta img {
+        max-height: 80px;
+        max-width: 80px;
+        margin: 0 0 0 6px; } }
+  .post-meta span {
+    align-self: end;
+    margin-bottom: .1rem; }
+    .post-meta span a:hover {
+      color: #BEA761; }
+  .post-meta svg {
+    fill: #7F7F7F;
+    width: .85rem;
+    height: .85rem;
+    padding-right: .25rem;
+    vertical-align: baseline;
+    display: inline-flex;
+    align-self: center;
+    top: 2px;
+    position: relative; }
+  .post-meta time {
+    margin-top: 2px; }
 
 img {
   max-width: 100%;

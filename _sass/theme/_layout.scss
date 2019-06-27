@@ -1,178 +1,77 @@
-/* --------------------------------------------------------
-   Containers
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Container Size
+// --------------------------------------------------------
 .container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-right: $spacing-unit * 2;
   padding-left: $spacing-unit * 2;
-
-  @media (min-width: $on-phone-ls) { /* 576px */
-    /* should width auto calulcate based on viewport width and desired margin? */
+  max-width: 415px;
+  @media (min-width: $on-phone-ls){
     max-width: 100%;
     }
-
-  @media (min-width: $on-tablet) { /* 768px */
+  @media (min-width: $on-tablet) {
     padding-right: 0;
     padding-left: 0;
-    /* should width auto calulcate based on viewport width and desired margin? */
     width: calc(#{$on-tablet} - (#{$spacing-unit} * 8));
     max-width: 100%;
     }
-
-  @media (min-width: $on-tablet-big) { /* 1024px */
-    /* should width auto calulcate based on viewport width and desired margin? */
+  @media (min-width: $on-tablet-big) {
     width: calc(#{$on-tablet-big} - (#{$spacing-unit} * 8));
     max-width: 100%;
     }
-
-  @media (min-width: $on-desktop) { /* 1200px */
-    /* should width auto calulcate based on viewport width and desired margin? */
+  @media (min-width: $on-desktop) {
     width: calc(#{$on-desktop} - (#{$spacing-unit} * 8));
     max-width: 100%;
   }
 }
 
-/* --------------------------------------------------------
-   Header
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Header and Footer Layout
+// --------------------------------------------------------
 .site-header {
-  min-height: $spacing-unit * 2;
-  position: relative;
   margin: $spacing-unit * 2 0;
-
   @media screen and (min-width: $on-phone-ls) {
     margin: $spacing-unit * 3 0;
-    font-size: $base-font-size * 1.307;
   }
-
   @media screen and (min-width: $on-tablet-big) {
     margin: $spacing-unit * 3 0 $spacing-unit * 8 0;
-    font-size: $base-font-size * 1.667;
   }
-
-  #logo {
-    max-width: 60px;
-
-    @media screen and (min-width: $on-phone-ls) {
-      max-width: 80px;
-    }
-  }
-
+  // can all of the above margins for site be a reusable class?
   .site-nav {
-    padding: $spacing-unit * 4 0 $spacing-unit * 2 0;
-
-    .page-link {
-      color: $brand-color;
-      &:not(:last-child) {
-        margin-right: $spacing-unit * 3;
-      }
-    }
-  }
-
-  .hashtag-nav {
-
-    .page-link {
-      color: $text-color;
-      background-color: $grey-color-light;
-      border-radius: 4px;
-      padding: $spacing-unit * .5;
-      line-height: 30px;
-    }
+    margin: $spacing-unit * 4 0 $spacing-unit * 2 0;
   }
 }
-
-
-/* --------------------------------------------------------
-   Footer
-   -------------------------------------------------------- */
 .site-footer {
   margin-bottom: $spacing-unit * 6;
-
-  @media (min-width: $on-tablet) {
-    p {
-      font-size: 16px;
-    }  
-  }
-
-  #footer-cta {
-    margin-top: $spacing-unit * 2;
-    background-image: url(/assets/images/svg/coin-grey-fill.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    svg {
-      fill: $dark-brand-faded;
-      border-radius: 50%;
-      padding: 16px 16px 13px 18px;
-      cursor: pointer;
-      width: $spacing-unit * 3;
-      height: $spacing-unit * 3;      
-    }
-  }
-
   #bottom-foot {
     margin-top: $spacing-unit * 8;
-    
-    svg {
-      fill: $text-color;
-      width: $spacing-unit * 2;
-      height: $spacing-unit * 2;
-    }
-
-    ul {
-      text-align: center;
-    }
-
-    li {
-      display: inline-block;
-      vertical-align: middle;
-
-      &:not(:last-child) {
-        margin-right: $spacing-unit;
-      }
-    }
-
-    a {
-      color: $text-color;
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
   }
 }
 
-
-/* --------------------------------------------------------
-   Pages
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Page Layout
+// --------------------------------------------------------
 .page-content {
   flex: 1;
 }
-
-.page-heading {
-  @include relative-font-size(2);
-}
-
+// .page-heading {
+//   @include gont-size(2);
+// }
 .post-list {
   margin-left: 0;
   list-style: none;
-
   > li {
     margin-bottom: $spacing-unit;
   }
 }
-
 .post-meta {
   color: $grey-color;
 }
-
 .post-link {
   display: block;
 }
-
 
 /* --------------------------------------------------------
    Articles & Text Styling
@@ -180,143 +79,8 @@
 .post-header {
   margin-top: $spacing-unit * 3;
   margin-bottom: $spacing-unit * 3;
-
   @media screen and (min-width: $on-tablet) {
     margin-bottom: $spacing-unit * 8;
-  }
-  
-  .post-title {
-    margin-bottom: $spacing-unit;
-    font-size: $base-font-size * 2;
-
-    @media screen and (min-width: $on-tablet) {
-      font-size: $base-font-size * 4;
-      line-height: $base-font-size * 4.538;
-    }
-
-    @media screen and (min-width: $on-desktop) {
-      font-size: $base-font-size * 4.615;
-      line-height: $base-font-size * 5.231;
-    }
-  }
-
-  p.article-subtitle {
-    font-family: $SansSerif;
-    font-size: $base-font-size * 1.23;
-    margin-bottom: $spacing-unit * 3;
-
-    @media screen and (min-width: $on-tablet) {
-      font-size: $base-font-size * 2.462;
-      line-height: $base-font-size * 3.2;
-      margin-bottom: $spacing-unit * 4;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {      
-      margin-bottom: $spacing-unit * 6;
-    }
-  }
-
-  .post-meta {
-    color: $brand-color;
-    margin-bottom: $spacing-unit * 2;
-    font-size: $base-font-size * .846;
-    display: grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 25px 25px;
-
-    @media screen and (min-width: $on-tablet) {
-      font-size: $base-font-size * 1.308;
-      margin-bottom: $spacing-unit * 3;
-      grid-template-columns: 100px auto;
-      grid-template-rows: 35px 35px;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {
-      font-size: $base-font-size * 1.538;
-      margin-bottom: $spacing-unit * 8;
-      grid-template-columns: 110px auto;
-      grid-template-rows: 40px 40px;
-    }
-
-    #ring {
-      background-image: url(/assets/images/svg/coin-gold-ring.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: absolute;
-      height: 60px;
-      width: 60px;
-      margin-top: -4px;
-
-      @media screen and (min-width: $on-tablet) {
-        height: 83px;
-        width: 83px;
-        margin-top: -6px;
-      }
-
-      @media screen and (min-width: $on-tablet-big) {
-        height: 95px;
-        width: 95px;
-      }
-    }
-
-    img {      
-      border-radius: 50px;
-      grid-column: 1 / 2;
-      grid-row: 1 / 3;
-      max-height: 50px;
-      max-width: 50px;
-      margin: 0 0 0 3px;
-
-      @media screen and (min-width: $on-tablet) {
-        max-height: 70px;
-        max-width: 70px;
-        margin: 0 0 0 5px;
-      }
-
-      @media screen and (min-width: $on-tablet-big) {
-        max-height: 80px;
-        max-width: 80px;
-        margin: 0 0 0 6px;
-      }
-    }
-
-    span {
-      align-self: end;
-      margin-bottom: $spacing-unit * .25;
-
-      a:hover {
-        color: $brand-color;
-      }
-    }
-
-    svg {
-      fill: $text-color;
-      width: $base-font-size * .846;
-      height: $base-font-size * .846;
-      padding-right: $spacing-unit * .5;
-      vertical-align: baseline;
-      display: inline-flex;
-      align-self: center;
-      top: 2px;
-      position: relative;
-  
-      @media screen and (min-width: $on-tablet) {
-        width: $base-font-size * 1.153;
-        height: $base-font-size * 1.153;
-      }
-  
-      @media screen and (min-width: $on-tablet-big) {
-        width: $base-font-size * 1.5;
-        height: $base-font-size * 1.5;
-        top: 3px;
-      }
-    }
-
-    time.dt-published {
-      display: block;
-      color: $text-color;
-      margin-top: $spacing-unit * .25;
-    }
   }
 }
 
@@ -327,13 +91,14 @@
     margin-bottom: $spacing-unit * 25;
   }
 
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     /* padding below is for mobile. */
     padding-right: $spacing-unit * 2;
     padding-left: $spacing-unit * 2;
+    max-width: 415px;  //this whole first selector is same as container above
 
     @media screen and (min-width: $on-phone-ls) {
       /* padding zeroed due to defined width for content */
@@ -361,28 +126,28 @@
     }
   }
 
-  p, ol, ul {
-    margin-bottom: $spacing-unit * 3;
-    font-size: $base-font-size;
-    line-height: $base-font-size * 1.308;
+  // p, ol, ul {
+  //   margin-bottom: $spacing-unit * 3;
+  //   font-size: $base-font-size;
+  //   line-height: $base-font-size * 1.308;
 
-    @media screen and (min-width: $on-iphonex) {
-      font-size: $base-font-size * 1.153;
-      line-height: $base-font-size * 1.461;
-    }
+  //   @media screen and (min-width: $on-iphonex) {
+  //     font-size: $base-font-size * 1.153;
+  //     line-height: $base-font-size * 1.461;
+  //   }
 
-    @media screen and (min-width: $on-tablet) {
-      font-size: $base-font-size * 1.307;
-      line-height: $base-font-size * 1.615;
-      margin-bottom: $spacing-unit * 3.5;
-    }
+  //   @media screen and (min-width: $on-tablet) {
+  //     font-size: $base-font-size * 1.307;
+  //     line-height: $base-font-size * 1.615;
+  //     margin-bottom: $spacing-unit * 3.5;
+  //   }
   
-    @media screen and (min-width: $on-tablet-big) {
-      font-size: $base-font-size * 1.692;
-      line-height: $base-font-size * 2.077;
-      margin-bottom: $spacing-unit * 5;
-    }
-  }
+  //   @media screen and (min-width: $on-tablet-big) {
+  //     font-size: $base-font-size * 1.692;
+  //     line-height: $base-font-size * 2.077;
+  //     margin-bottom: $spacing-unit * 5;
+  //   }
+  // }
 
   strong, a {    
     border-radius: 3px;

@@ -4,63 +4,88 @@
 
 $Monospace: Overpass Mono, monospace;
 $SansSerif: Overpass, sans-serif;
-$base-font-size:   13px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.2 !default;
+$base-font-size:            13px !default;
+$base-font-weight:          400 !default;
+$small-font-size:           $base-font-size * 0.875 !default;
+$base-size:                 16px !default;
+$base-line-height:          1.4 !default;
 
-$spacing-unit:     8px !default;
+$spacing-unit:              8px !default;
 
-$brand-color:      #BEA761 !default;
-$dark-brand-color: #3c382c !default;
-$dark-brand-faded: #27251f !default;
-$alt-color:        #9E2D3A !default; //#2FFF9F
-$text-color:       #7F7F7F !default;
-$bold-text-color:  #BBBBBB !default;
-$heading-color:    #F7F7F9 !default;
-$dark-background-color: #030419 !default;
+$brand-color:               #BEA761 !default;
+$dark-brand-color:          #3c382c !default;
+$dark-brand-faded:          #27251f !default;
+$alt-color:                 #9E2D3A !default; //#2FFF9F
+$text-color:                #7F7F7F !default;
+$bold-text-color:           #BBBBBB !default;
+$heading-color:             #F7F7F9 !default;
+$dark-background-color:     #030419 !default;
 $dark-background-highlight: #181827 !default;
 
 
-$grey-color:       #7F7F7F !default;
-$grey-color-light: #2C2D3B !default;
-$grey-color-dark:  #4a4a4a !default;
+$grey-color:                #7F7F7F !default;
+$grey-color-light:          #2C2D3B !default;
+$grey-color-dark:           #4a4a4a !default;
 
-$table-text-align: left !default;
+$table-text-align:          left !default;
 
 // Width of the content area
-$content-width:    800px !default;
-$on-phone:         321px !default;
-$on-iphonex:       375px !default;
-$on-phone-ls:      576px !default; // dedicated margin begins
-$on-tablet:        768px !default;
-$on-tablet-big:   1024px !default;
-$on-desktop:      1200px !default;
+$content-width:             800px !default;
+$on-phone:                  321px !default;
+$on-iphonex:                375px !default;
+$on-phone-ls:               576px !default;
+$on-tablet:                 768px !default;
+$on-tablet-big:             1024px !default;
+$on-desktop:                1200px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
+$small:                     375px !default;
+$shmedium:                  568px !default; // max-width: 415px;
+$medium:                    768px !default;
+$regular:                   1024px !default;
+$large:                     1280px !default;
+
+
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+	@media screen and (min-width: $device) {
+		@content;
+	}
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
+// Fluid Typography - must all be in px units
+$min_width:                 320px;
+$max_width:                 $large;
+$min_font:                  $base-size;
+$max_font:                  22px;
+
+$mod_1:                     1.2; // mobile
+$mod_2:                     1.6; // desktop
+
+@function strip-unit($value) {
+	@return $value / ($value * 0 + 1);
 }
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    font-size: $min-font-size;
+    @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+    }
+    @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+    }
+}
+
+
+
+
 
 // Import partials.
 @import
-  "theme/base",
-  "theme/layout",
-  "theme/subscribe",
-  "theme/category",
-  "theme/rec-article",
-  "theme/accordion",
-  "theme/syntax-highlighting"
+	"theme/base",
+	"theme/layout",
+	"theme/subscribe",
+	"theme/category",
+	"theme/rec-article",
+	"theme/accordion",
+	"theme/styles",
+	"theme/syntax-highlighting"
 ;

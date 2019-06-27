@@ -1,15 +1,14 @@
-/* --------------------------------------------------------
-   Basic Elements
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Basic Elements
+// --------------------------------------------------------
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
-
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $SansSerif;
+  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $SansSerif;
   color: $text-color;
   background-color: $dark-background-color;
   -webkit-text-size-adjust: 100%;
@@ -22,113 +21,22 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
-}
-
-/* --------------------------------------------------------
-   Images
-   -------------------------------------------------------- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  margin: $spacing-unit * 2 auto;
-}
-
-figure > img {
+  // Default value of `display` of `main` element is 'inline' in IE 11.
   display: block;
 }
-
-/* --------------------------------------------------------
-   Lists
-   -------------------------------------------------------- */
-ul, ol {
-  margin-left: $spacing-unit;
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-/* --------------------------------------------------------
-   Font Size
-   -------------------------------------------------------- */
-h1, h2, h3, h4, h5 {
-  font-weight: 900;
-  font-family: $SansSerif;
-  color: $heading-color;
-}
-
-h1 {
-  font-size: $base-font-size * 2.333;
-  line-height: $base-font-size * 2.525;
-  margin-bottom: $spacing-unit * 3;
-}
-
-h2 {
-  font-size: $base-font-size * 1.833;
-  line-height: $base-font-size * 2.333;
-  margin-bottom: $spacing-unit * 2;
-
-  @media screen and (min-width: $on-tablet) {
-    font-size: $base-font-size * 2.769;
-    line-height: $base-font-size * 3.154;
-  }
-}
-
-h3 {
-  font-size: $base-font-size * 1.154;
-  line-height: $base-font-size * 1.385;
-  margin-bottom: $spacing-unit;
-
-  @media screen and (min-width: $on-tablet) {
-    font-size: $base-font-size * 2;
-    line-height: $base-font-size * 2.5;
-  }
-}
-
-h4 {
-  font-size: $base-font-size * 1.154;
-  line-height: $base-font-size * 1.333;
-  margin-bottom: $spacing-unit;
-
-  @media screen and (min-width: $on-tablet) {
-    font-size: $base-font-size * 1.571;
-    line-height: $base-font-size * 1.671;
-  }
-}
-
-h5 {
-  font-family: $Monospace;
-  color: $alt-color;
-  font-size: $base-font-size * 1.167;
-  line-height: $base-font-size * 1.167;
-  margin-bottom: $spacing-unit * 2;
-}
-
-/* --------------------------------------------------------
-   Links
-   -------------------------------------------------------- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:hover {
-    color: $text-color;
-    text-decoration: none;
-    }
-}
-
-/* --------------------------------------------------------
-   Code formatting
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Code Formatting
+// --------------------------------------------------------
 pre,
 code {
-  @include relative-font-size(0.9375);
+  // @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
@@ -149,18 +57,9 @@ pre {
   }
 }
 
-/* --------------------------------------------------------
-   Clearfix
-   -------------------------------------------------------- */
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* --------------------------------------------------------
-   Tables
-   -------------------------------------------------------- */
+// --------------------------------------------------------
+//        Tables
+// --------------------------------------------------------
 table {
   margin-bottom: $spacing-unit;
   width: 100%;

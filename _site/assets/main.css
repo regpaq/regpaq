@@ -1,6 +1,3 @@
-/* --------------------------------------------------------
-   Basic Elements
-   -------------------------------------------------------- */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,7 +5,6 @@ dl, dd, ol, ul, figure {
   padding: 0; }
 
 body {
-  font: 400 13px/1.2 Overpass, sans-serif;
   color: #7F7F7F;
   background-color: #030419;
   -webkit-text-size-adjust: 100%;
@@ -22,93 +18,10 @@ body {
   flex-direction: column; }
 
 main {
-  display: block;
-  /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
-
-/* --------------------------------------------------------
-   Images
-   -------------------------------------------------------- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  margin: 16px auto; }
-
-figure > img {
   display: block; }
 
-/* --------------------------------------------------------
-   Lists
-   -------------------------------------------------------- */
-ul, ol {
-  margin-left: 8px; }
-
-li > ul,
-li > ol {
-  margin-bottom: 0; }
-
-/* --------------------------------------------------------
-   Font Size
-   -------------------------------------------------------- */
-h1, h2, h3, h4, h5 {
-  font-weight: 900;
-  font-family: Overpass, sans-serif;
-  color: #F7F7F9; }
-
-h1 {
-  font-size: 30.329px;
-  line-height: 32.825px;
-  margin-bottom: 24px; }
-
-h2 {
-  font-size: 23.829px;
-  line-height: 30.329px;
-  margin-bottom: 16px; }
-  @media screen and (min-width: 768px) {
-    h2 {
-      font-size: 35.997px;
-      line-height: 41.002px; } }
-
-h3 {
-  font-size: 15.002px;
-  line-height: 18.005px;
-  margin-bottom: 8px; }
-  @media screen and (min-width: 768px) {
-    h3 {
-      font-size: 26px;
-      line-height: 32.5px; } }
-
-h4 {
-  font-size: 15.002px;
-  line-height: 17.329px;
-  margin-bottom: 8px; }
-  @media screen and (min-width: 768px) {
-    h4 {
-      font-size: 20.423px;
-      line-height: 21.723px; } }
-
-h5 {
-  font-family: Overpass Mono, monospace;
-  color: #9E2D3A;
-  font-size: 15.171px;
-  line-height: 15.171px;
-  margin-bottom: 16px; }
-
-/* --------------------------------------------------------
-   Links
-   -------------------------------------------------------- */
-a {
-  color: #BEA761;
-  text-decoration: none; }
-  a:hover {
-    color: #7F7F7F;
-    text-decoration: none; }
-
-/* --------------------------------------------------------
-   Code formatting
-   -------------------------------------------------------- */
 pre,
 code {
-  font-size: 12.1875px;
   border: 1px solid #2C2D3B;
   border-radius: 3px;
   background-color: #eef; }
@@ -124,12 +37,6 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-/* --------------------------------------------------------
-   Clearfix
-   -------------------------------------------------------- */
-/* --------------------------------------------------------
-   Tables
-   -------------------------------------------------------- */
 table {
   margin-bottom: 8px;
   width: 100%;
@@ -148,120 +55,49 @@ table {
   table td {
     border: 1px solid #2C2D3B; }
 
-/* --------------------------------------------------------
-   Containers
-   -------------------------------------------------------- */
 .container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-right: 16px;
-  padding-left: 16px; }
+  padding-left: 16px;
+  max-width: 415px; }
   @media (min-width: 576px) {
     .container {
-      /* 576px */
-      /* should width auto calulcate based on viewport width and desired margin? */
       max-width: 100%; } }
   @media (min-width: 768px) {
     .container {
-      /* 768px */
       padding-right: 0;
       padding-left: 0;
-      /* should width auto calulcate based on viewport width and desired margin? */
       width: calc(768px - (8px * 8));
       max-width: 100%; } }
   @media (min-width: 1024px) {
     .container {
-      /* 1024px */
-      /* should width auto calulcate based on viewport width and desired margin? */
       width: calc(1024px - (8px * 8));
       max-width: 100%; } }
   @media (min-width: 1200px) {
     .container {
-      /* 1200px */
-      /* should width auto calulcate based on viewport width and desired margin? */
       width: calc(1200px - (8px * 8));
       max-width: 100%; } }
 
-/* --------------------------------------------------------
-   Header
-   -------------------------------------------------------- */
 .site-header {
-  min-height: 16px;
-  position: relative;
   margin: 16px 0; }
   @media screen and (min-width: 576px) {
     .site-header {
-      margin: 24px 0;
-      font-size: 16.991px; } }
+      margin: 24px 0; } }
   @media screen and (min-width: 1024px) {
     .site-header {
-      margin: 24px 0 64px 0;
-      font-size: 21.671px; } }
-  .site-header #logo {
-    max-width: 60px; }
-    @media screen and (min-width: 576px) {
-      .site-header #logo {
-        max-width: 80px; } }
+      margin: 24px 0 64px 0; } }
   .site-header .site-nav {
-    padding: 32px 0 16px 0; }
-    .site-header .site-nav .page-link {
-      color: #BEA761; }
-      .site-header .site-nav .page-link:not(:last-child) {
-        margin-right: 24px; }
-  .site-header .hashtag-nav .page-link {
-    color: #7F7F7F;
-    background-color: #2C2D3B;
-    border-radius: 4px;
-    padding: 4px;
-    line-height: 30px; }
+    margin: 32px 0 16px 0; }
 
-/* --------------------------------------------------------
-   Footer
-   -------------------------------------------------------- */
 .site-footer {
   margin-bottom: 48px; }
-  @media (min-width: 768px) {
-    .site-footer p {
-      font-size: 16px; } }
-  .site-footer #footer-cta {
-    margin-top: 16px;
-    background-image: url(/assets/images/svg/coin-grey-fill.svg);
-    background-size: contain;
-    background-repeat: no-repeat; }
-    .site-footer #footer-cta svg {
-      fill: #27251f;
-      border-radius: 50%;
-      padding: 16px 16px 13px 18px;
-      cursor: pointer;
-      width: 24px;
-      height: 24px; }
   .site-footer #bottom-foot {
     margin-top: 64px; }
-    .site-footer #bottom-foot svg {
-      fill: #7F7F7F;
-      width: 16px;
-      height: 16px; }
-    .site-footer #bottom-foot ul {
-      text-align: center; }
-    .site-footer #bottom-foot li {
-      display: inline-block;
-      vertical-align: middle; }
-      .site-footer #bottom-foot li:not(:last-child) {
-        margin-right: 8px; }
-    .site-footer #bottom-foot a {
-      color: #7F7F7F; }
-    .site-footer #bottom-foot a:hover {
-      text-decoration: none; }
 
-/* --------------------------------------------------------
-   Pages
-   -------------------------------------------------------- */
 .page-content {
   flex: 1; }
-
-.page-heading {
-  font-size: 26px; }
 
 .post-list {
   margin-left: 0;
@@ -284,129 +120,26 @@ table {
   @media screen and (min-width: 768px) {
     .post-header {
       margin-bottom: 64px; } }
-  .post-header .post-title {
-    margin-bottom: 8px;
-    font-size: 26px; }
-    @media screen and (min-width: 768px) {
-      .post-header .post-title {
-        font-size: 52px;
-        line-height: 58.994px; } }
-    @media screen and (min-width: 1200px) {
-      .post-header .post-title {
-        font-size: 59.995px;
-        line-height: 68.003px; } }
-  .post-header p.article-subtitle {
-    font-family: Overpass, sans-serif;
-    font-size: 15.99px;
-    margin-bottom: 24px; }
-    @media screen and (min-width: 768px) {
-      .post-header p.article-subtitle {
-        font-size: 32.006px;
-        line-height: 41.6px;
-        margin-bottom: 32px; } }
-    @media screen and (min-width: 1024px) {
-      .post-header p.article-subtitle {
-        margin-bottom: 48px; } }
-  .post-header .post-meta {
-    color: #BEA761;
-    margin-bottom: 16px;
-    font-size: 10.998px;
-    display: grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 25px 25px; }
-    @media screen and (min-width: 768px) {
-      .post-header .post-meta {
-        font-size: 17.004px;
-        margin-bottom: 24px;
-        grid-template-columns: 100px auto;
-        grid-template-rows: 35px 35px; } }
-    @media screen and (min-width: 1024px) {
-      .post-header .post-meta {
-        font-size: 19.994px;
-        margin-bottom: 64px;
-        grid-template-columns: 110px auto;
-        grid-template-rows: 40px 40px; } }
-    .post-header .post-meta #ring {
-      background-image: url(/assets/images/svg/coin-gold-ring.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: absolute;
-      height: 60px;
-      width: 60px;
-      margin-top: -4px; }
-      @media screen and (min-width: 768px) {
-        .post-header .post-meta #ring {
-          height: 83px;
-          width: 83px;
-          margin-top: -6px; } }
-      @media screen and (min-width: 1024px) {
-        .post-header .post-meta #ring {
-          height: 95px;
-          width: 95px; } }
-    .post-header .post-meta img {
-      border-radius: 50px;
-      grid-column: 1 / 2;
-      grid-row: 1 / 3;
-      max-height: 50px;
-      max-width: 50px;
-      margin: 0 0 0 3px; }
-      @media screen and (min-width: 768px) {
-        .post-header .post-meta img {
-          max-height: 70px;
-          max-width: 70px;
-          margin: 0 0 0 5px; } }
-      @media screen and (min-width: 1024px) {
-        .post-header .post-meta img {
-          max-height: 80px;
-          max-width: 80px;
-          margin: 0 0 0 6px; } }
-    .post-header .post-meta span {
-      align-self: end;
-      margin-bottom: 2px; }
-      .post-header .post-meta span a:hover {
-        color: #BEA761; }
-    .post-header .post-meta svg {
-      fill: #7F7F7F;
-      width: 10.998px;
-      height: 10.998px;
-      padding-right: 4px;
-      vertical-align: baseline;
-      display: inline-flex;
-      align-self: center;
-      top: 2px;
-      position: relative; }
-      @media screen and (min-width: 768px) {
-        .post-header .post-meta svg {
-          width: 14.989px;
-          height: 14.989px; } }
-      @media screen and (min-width: 1024px) {
-        .post-header .post-meta svg {
-          width: 19.5px;
-          height: 19.5px;
-          top: 3px; } }
-    .post-header .post-meta time.dt-published {
-      display: block;
-      color: #7F7F7F;
-      margin-top: 2px; }
 
 .post-content {
   margin-bottom: 48px; }
   @media screen and (min-width: 768px) {
     .post-content {
       margin-bottom: 200px; } }
-  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content figure {
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     /* padding below is for mobile. */
     padding-right: 16px;
-    padding-left: 16px; }
+    padding-left: 16px;
+    max-width: 415px; }
     @media screen and (min-width: 576px) {
-      .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content figure {
+      .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
         /* padding zeroed due to defined width for content */
         max-width: 600px; } }
     @media screen and (min-width: 1024px) {
-      .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content figure {
+      .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
         max-width: 740px;
         background-color: initial;
         padding: 0; } }
@@ -418,24 +151,6 @@ table {
     padding: 0; }
     .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h4 a:hover, .post-content h5 a:hover, .post-content h6 a:hover {
       background-color: inherit; }
-  .post-content p, .post-content ol, .post-content ul {
-    margin-bottom: 24px;
-    font-size: 13px;
-    line-height: 17.004px; }
-    @media screen and (min-width: 375px) {
-      .post-content p, .post-content ol, .post-content ul {
-        font-size: 14.989px;
-        line-height: 18.993px; } }
-    @media screen and (min-width: 768px) {
-      .post-content p, .post-content ol, .post-content ul {
-        font-size: 16.991px;
-        line-height: 20.995px;
-        margin-bottom: 28px; } }
-    @media screen and (min-width: 1024px) {
-      .post-content p, .post-content ol, .post-content ul {
-        font-size: 21.996px;
-        line-height: 27.001px;
-        margin-bottom: 40px; } }
   .post-content strong, .post-content a {
     border-radius: 3px;
     font-weight: normal;
@@ -1269,6 +984,218 @@ aside.rec-art {
 
 .open .accordion-item-content {
   display: initial; }
+
+html, body {
+  font: 400 16px/1.4 Overpass, sans-serif;
+  font-size: 16px; }
+  @media screen and (min-width: 320px) {
+    html, body {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
+    html, body {
+      font-size: 22px; } }
+
+p, ol, ul {
+  margin-bottom: 32px; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 900;
+  font-family: Overpass, sans-serif;
+  line-height: 1.2;
+  color: #F7F7F9; }
+
+h1 {
+  font-size: 27.648px; }
+  @media screen and (min-width: 320px) {
+    h1 {
+      font-size: calc(27.648px + 37.888 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
+    h1 {
+      font-size: 65.536px; } }
+
+h2 {
+  font-size: 23.04px;
+  margin-bottom: .8rem; }
+  @media screen and (min-width: 320px) {
+    h2 {
+      font-size: calc(23.04px + 17.92 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
+    h2 {
+      font-size: 40.96px; } }
+
+h3 {
+  font-size: 19.2px;
+  margin-bottom: .5rem; }
+  @media screen and (min-width: 320px) {
+    h3 {
+      font-size: calc(19.2px + 6.4 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
+    h3 {
+      font-size: 25.6px; } }
+
+h5 {
+  font-family: Overpass Mono, monospace;
+  color: #9E2D3A;
+  margin-bottom: .4rem; }
+
+a {
+  color: #BEA761;
+  text-decoration: none; }
+  a:hover {
+    color: #BEA761;
+    text-decoration: none; }
+
+#logo {
+  margin: 0;
+  max-width: 60px; }
+  @media screen and (min-width: 568px) {
+    #logo {
+      max-width: 80px; } }
+
+.page-link:not(:last-child) {
+  margin-right: 24px; }
+
+.hashtag-nav .page-link {
+  margin: 0;
+  color: #7F7F7F;
+  background-color: #2C2D3B;
+  border-radius: 4px;
+  padding: 2.4px;
+  line-height: 2; }
+  .hashtag-nav .page-link:hover {
+    color: #F7F7F9; }
+
+#footer-cta {
+  background-image: url(/assets/images/svg/coin-grey-fill.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: fit-content; }
+  #footer-cta svg {
+    fill: #27251f;
+    padding: 13px 14px 14px 14px;
+    cursor: pointer;
+    width: 1.1rem;
+    height: 1.1rem; }
+    #footer-cta svg:hover {
+      fill: #BEA761; }
+
+#bottom-foot svg {
+  fill: #7F7F7F;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle; }
+  #bottom-foot svg:hover {
+    fill: #BEA761; }
+#bottom-foot ul {
+  text-align: center;
+  margin: 0; }
+#bottom-foot li {
+  display: inline-block;
+  vertical-align: middle; }
+  #bottom-foot li:not(:last-child) {
+    margin-right: 16px; }
+#bottom-foot a {
+  color: #7F7F7F; }
+  #bottom-foot a:hover {
+    color: #BEA761; }
+
+.article-subtitle {
+  font-size: 19.2px; }
+  @media screen and (min-width: 768px) {
+    .article-subtitle {
+      font-size: 32.006px;
+      line-height: 41.6px;
+      margin-bottom: 32px; } }
+  @media screen and (min-width: 1024px) {
+    .article-subtitle {
+      margin-bottom: 48px; } }
+
+.post-meta {
+  font-size: 13.6px;
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-template-rows: 25px 25px; }
+  @media screen and (min-width: 768px) {
+    .post-meta {
+      font-size: 17.004px;
+      margin-bottom: 24px;
+      grid-template-columns: 100px auto;
+      grid-template-rows: 35px 35px; } }
+  @media screen and (min-width: 1024px) {
+    .post-meta {
+      font-size: 19.994px;
+      margin-bottom: 64px;
+      grid-template-columns: 110px auto;
+      grid-template-rows: 40px 40px; } }
+
+#ring {
+  background-image: url(/assets/images/svg/coin-gold-ring.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin-top: -4px; }
+  @media screen and (min-width: 768px) {
+    #ring {
+      height: 83px;
+      width: 83px;
+      margin-top: -6px; } }
+  @media screen and (min-width: 1024px) {
+    #ring {
+      height: 95px;
+      width: 95px; } }
+
+.post-meta img {
+  border-radius: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  max-height: 50px;
+  max-width: 50px;
+  margin: 0 0 0 3px; }
+@media screen and (min-width: 768px) {
+  .post-meta {
+    max-height: 70px;
+    max-width: 70px;
+    margin: 0 0 0 5px; } }
+@media screen and (min-width: 1024px) {
+  .post-meta {
+    max-height: 80px;
+    max-width: 80px;
+    margin: 0 0 0 6px; } }
+.post-meta span {
+  align-self: end;
+  margin-bottom: 2px; }
+  .post-meta span a:hover {
+    color: #BEA761; }
+.post-meta svg {
+  fill: #7F7F7F;
+  width: 10.998px;
+  height: 10.998px;
+  padding-right: 4px;
+  vertical-align: baseline;
+  display: inline-flex;
+  align-self: center;
+  top: 2px;
+  position: relative; }
+  @media screen and (min-width: 768px) {
+    .post-meta svg {
+      width: 14.989px;
+      height: 14.989px; } }
+  @media screen and (min-width: 1024px) {
+    .post-meta svg {
+      width: 19.5px;
+      height: 19.5px;
+      top: 3px; } }
+.post-meta time.dt-published {
+  display: block;
+  color: #7F7F7F;
+  margin-top: 2px; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 16px auto; }
 
 /**
  * Syntax highlighting styles

@@ -8,22 +8,19 @@
   padding-right: $spacing-unit * 2;
   padding-left: $spacing-unit * 2;
   max-width: 415px;
-  @media (min-width: $on-phone-ls){
+  @include media-query($shmedium) {
     max-width: 100%;
-    }
-  @media (min-width: $on-tablet) {
+  }
+  @include media-query($medium) {
     padding-right: 0;
     padding-left: 0;
-    width: calc(#{$on-tablet} - (#{$spacing-unit} * 8));
-    max-width: 100%;
-    }
-  @media (min-width: $on-tablet-big) {
-    width: calc(#{$on-tablet-big} - (#{$spacing-unit} * 8));
-    max-width: 100%;
-    }
-  @media (min-width: $on-desktop) {
-    width: calc(#{$on-desktop} - (#{$spacing-unit} * 8));
-    max-width: 100%;
+    width: calc(#{$medium} - (#{$spacing-unit} * 8));
+  }
+  @include media-query($regular) {
+    width: calc(#{$regular} - (#{$spacing-unit} * 8));
+  }
+  @include media-query($large) {
+    width: calc(#{$large} - (#{$spacing-unit} * 8));
   }
 }
 
@@ -32,11 +29,11 @@
 // --------------------------------------------------------
 .site-header {
   margin: $spacing-unit * 2 0;
-  @media screen and (min-width: $on-phone-ls) {
+  @include media-query($shmedium) {
     margin: $spacing-unit * 3 0;
   }
-  @media screen and (min-width: $on-tablet-big) {
-    margin: $spacing-unit * 3 0 $spacing-unit * 8 0;
+  @include media-query($regular) {
+    margin-bottom: $spacing-unit * 8;
   }
   // can all of the above margins for site be a reusable class?
   .site-nav {
@@ -51,31 +48,11 @@
 }
 
 // --------------------------------------------------------
-//        Page Layout
+//        Articles & Pages Layout
 // --------------------------------------------------------
 .page-content {
   flex: 1;
 }
-// .page-heading {
-//   @include gont-size(2);
-// }
-.post-list {
-  margin-left: 0;
-  list-style: none;
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-.post-meta {
-  color: $grey-color;
-}
-.post-link {
-  display: block;
-}
-
-/* --------------------------------------------------------
-   Articles & Text Styling
-   -------------------------------------------------------- */
 .post-header {
   margin-top: $spacing-unit * 3;
   margin-bottom: $spacing-unit * 3;
@@ -83,544 +60,18 @@
     margin-bottom: $spacing-unit * 8;
   }
 }
-
 .post-content {
   margin-bottom: $spacing-unit * 6;
-
   @media screen and (min-width: $on-tablet) {
     margin-bottom: $spacing-unit * 25;
   }
-
   h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding below is for mobile. */
-    padding-right: $spacing-unit * 2;
-    padding-left: $spacing-unit * 2;
-    max-width: 415px;  //this whole first selector is same as container above
-
-    @media screen and (min-width: $on-phone-ls) {
-      /* padding zeroed due to defined width for content */
-      // padding: 0;
+    @extend .container;
+    @include media-query($shmedium) { // these sizes need to correspond directly with font size changes
       max-width: 600px;
-      // max-width: 100%;
     }
-
-    @media screen and (min-width: $on-tablet-big) {
+    @include media-query($regular) {
       max-width: 740px;
-      background-color: initial;
-      padding: 0;
     }
-  }
-
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    background-color: initial;
-    padding: 0;
-
-    &:hover {
-      background-color: inherit;
-    }
-  }
-
-  // p, ol, ul {
-  //   margin-bottom: $spacing-unit * 3;
-  //   font-size: $base-font-size;
-  //   line-height: $base-font-size * 1.308;
-
-  //   @media screen and (min-width: $on-iphonex) {
-  //     font-size: $base-font-size * 1.153;
-  //     line-height: $base-font-size * 1.461;
-  //   }
-
-  //   @media screen and (min-width: $on-tablet) {
-  //     font-size: $base-font-size * 1.307;
-  //     line-height: $base-font-size * 1.615;
-  //     margin-bottom: $spacing-unit * 3.5;
-  //   }
-  
-  //   @media screen and (min-width: $on-tablet-big) {
-  //     font-size: $base-font-size * 1.692;
-  //     line-height: $base-font-size * 2.077;
-  //     margin-bottom: $spacing-unit * 5;
-  //   }
-  // }
-
-  strong, a {    
-    border-radius: 3px;
-    font-weight: normal;
-    padding: $spacing-unit * .25 $spacing-unit * .5;
-    font-size: $base-font-size * .846;
-
-    @media screen and (min-width: $on-phone) {
-      font-size: $base-font-size;
-    }
-
-    @media screen and (min-width: $on-phone-ls) {
-      font-size: $base-font-size * 1.153;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {
-      font-size: $base-font-size * 1.3692307692;
-      padding: 3px $spacing-unit;
-    }
-  }
-
-  strong {
-    background-color: $grey-color-light;
-    color: $bold-text-color;
-  }
-
-  a {
-    background-color: $dark-brand-faded;
-    color: $brand-color;
-
-    &:hover {
-      background-color: $dark-brand-color;
-    }
-  }
-
-  blockquote {
-    font-family: $SansSerif;
-    font-style: italic;
-    margin: $spacing-unit * 1.5 auto;
-    max-width: 90%;
-    width: 650px;
-    color: $brand-color;
-    // padding: 0;
-
-    @media screen and (min-width: $on-tablet) {
-      margin: $spacing-unit * 2 auto;
-      width: 90%;
-      max-width: 750px;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {
-      max-width: 900px;
-      margin-bottom: $spacing-unit * 5;
-    }
-
-    > p {
-      margin-bottom: $spacing-unit * 1.5;
-      // padding: 0;
-    }
-
-    &:last-child {
-      margin: $spacing-unit 0 0 0;
-      color: #bea76170;
-    }
-
-    &:last-child a {
-      color: #bea76170;
-
-      &:hover {
-        color: #BEA761;
-      }
-    }
-  }
-
-  blockquote > p, blockquote > a {
-    margin: 0;
-    padding: 0;
-    font-size: $base-font-size;
-    max-width: 100%;
-
-    @media screen and (min-width: $on-tablet) {
-      font-size: $base-font-size * 1.154;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {
-      font-size: $base-font-size * 1.385;
-    }
-  }
-
-  blockquote.big-quote {
-    max-width: 80%;
-    padding: 0;
-    margin-bottom: 24px;
-
-    > p {
-      font-size: $base-font-size * 1.385;
-      line-height: $base-font-size * 1.692;
-      padding: 0;
-
-      @media screen and (min-width: $on-tablet) {
-        font-size: 24px;
-        line-height: 30px;
-      }
-
-      @media screen and (min-width: $on-tablet-big) {
-        font-size: 30px;
-        line-height: 36px;
-      }
-    }
-
-    @media screen and (min-width: $on-tablet) {
-      max-width: 550px;
-      margin-bottom: 28px;
-    }
-
-    @media screen and (min-width: $on-tablet-big) {
-      max-width: 650px;
-      margin-bottom: 40px;
-    }
-  }
-
-  ol {
-    counter-reset: counter;
-    list-style: none;
-
-    li {
-      padding-left: $spacing-unit * 4;
-      margin-bottom: $spacing-unit * 2;
-
-      &::before {
-        content: counter(counter, upper-roman);
-        counter-increment: counter;
-        font-family: $SansSerif;
-        display: block;
-        float: left;
-        font-size: 1em;
-        line-height: 1em;
-        text-align: left;
-        color: #fff;
-        font-weight: bold;
-        margin-left: $spacing-unit * -4;
-        position: absolute;
-        margin-top: 3px;
-
-        @media screen and (min-width: $on-tablet) {
-          margin-left: $spacing-unit * -8;
-        }
-      }
-  
-      @media screen and (min-width: $on-tablet) {
-        padding-left: $spacing-unit * 8;
-      }
-    }
-  }
-
-  ol.counter-reset {
-    counter-reset: auto;
-  }
-
-  ul {
-    list-style-type: none;
-
-    @media screen and (min-width: $on-tablet-big) {
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: $spacing-unit * 2;
-      margin-left: 22px;
-
-      &:before {
-        content: '';
-        display: block;
-        height: 6px;
-        width: 6px;
-        background-image: url(/assets/images/svg/coin-bullet.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-left: -22px;
-        position: absolute;
-        margin-top: 10px;
-      }
-    }
-  }
-}
-
-/* --------------------------------------------------------
-   Resume
-   -------------------------------------------------------- */
-.resume {
-  
-  .container {
-    width: 980px;
-
-    .article-subtitle {
-      color: $grey-color;
-      font-size: 24px;
-      line-height: 30px;
-    }
-
-    .post-meta {
-      grid-template-columns: 300px auto;
-      grid-template-rows: 80px 80px;
-
-      #ring {
-        height: 240px;
-        width: 240px;
-        margin-top: -15px;
-      }
-
-      img {
-        max-height: 200px;
-        max-width: 200px;
-        border-radius: 100px;
-        margin: 0 0 0 15px;
-      }
-
-      span {
-        font-size: 50px;
-        font-weight: 900;
-        margin-bottom: 12px;
-      }
-
-      .resume-info {
-        grid-column: 2 / 3;
-        color: $grey-color;
-
-        .svg-24 svg {
-          width: 24px;
-          height: 24px;          
-        }
-      }
-
-      .resume-info-social svg {
-        margin: 0 10px;
-        vertical-align: middle;
-        cursor: pointer;
-
-        &:hover {
-          fill: $brand-color;
-        }
-      }
-    }
-  }
-  .post-content {
-
-    .job-title {
-
-      svg {
-        height: 40px;
-        width: 40px;        
-        position: absolute;
-      }      
-
-      h2 {
-        margin-top: 4px;
-        padding-left: 100px;
-      }
-    }
-
-    #chilipiper svg {
-      fill: #ff5722;
-    }
-
-    #servicetitan svg {
-      fill: #ffffff;
-    }
-
-    h3, h4 {
-      font-weight: 400;
-    }
-
-    .job-info, .position-info {
-      p {
-        font-size: 16px;
-        margin-bottom: 24px;
-      }
-
-      svg {
-        fill: $grey-color;
-        vertical-align: middle;
-        width: 16px;
-        height: 16px;
-        margin-right: 6px;
-
-        &:nth-child(2) {
-          margin-left: 32px;
-        }
-      }
-    }
-
-    p.accordion-item-heading {
-      color: $brand-color;
-      fill: $brand-color;
-
-      svg {
-        height: 36px;
-        width: 36px;
-        padding-left: 12px;
-        vertical-align: middle;
-      }
-    }
-  }
-}
-
-/* --------------------------------------------------------
-   Images
-   -------------------------------------------------------- */
-
-.post-content {
-  
-  .feat-img {
-    display: block;
-    margin: 0 auto $spacing-unit * 3 auto;
-    width: 100%;
-    max-width: 2000px;
-  
-    @media screen and (min-width: $on-tablet) {
-      margin-bottom: $spacing-unit * 8;
-    }
-  }
-
-  img {
-    display: block;
-  }
-
-  .a-img > a {
-    padding: 0;
-  }
-}
-
-/* Small Image that Floats Left - class = sml-img */
-.post-content p.sml-img {
-  width: 900px; // causing overflow issues !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-  > a > img, > img { /* will apply whether link or not */
-    max-height: 200px;
-    float: left;
-    margin: 0 auto;
-    padding-right: 32px;
-    padding-bottom: 16px;
-
-    @media screen and (min-width: $on-tablet) {
-      max-height: 300px;
-    }
-  }
-}
-
-/* Three Images - class = img-3 CHANGE TO CSS GRID */
-.post-content p.img-3 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1032px;
-  width: unset;
-  padding: 0;
-
-  > a > img, > img { /* will apply whether link or not */
-    width: calc(((740px * 1.3946) - 32px) / 3); /* should be redone better */
-    width: -webkit-calc(((740px * 1.3946) - 32px) / 3);
-    min-width: 100px; /* allows responsiveness */
-    margin: 0;
-    padding: 0 $spacing-unit * .5;
-
-    @media screen and (min-width: $on-tablet) {
-      padding: 0 $spacing-unit * 1;
-    }
-
-    &:first-child {
-      padding-right: $spacing-unit * .5;
-      padding-left: 0;
-
-      @media screen and (min-width: $on-tablet) {
-        padding: 0 $spacing-unit * 1;
-      }
-    }
-
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit * .5;
-
-      @media screen and (min-width: $on-tablet) {
-        padding: 0 $spacing-unit * 1;
-      }
-    }
-  }
-}
-
-/* Three Small Images - class = sml-img-3 CHANGE TO CSS GRID */
-.post-content p.sml-img-3 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  width: unset;
-  padding: 0;
-
-  > a > img, > img { /* will apply whether link or not */
-    width: 150px; /* should be redone better */
-    min-width: 30px; /* allows responsiveness */
-    margin: 0;
-    padding: 0 $spacing-unit * .5;
-
-    @media screen and (min-width: $on-tablet) {
-      width: 200px;
-      padding: 0 $spacing-unit * 1;
-    }
-
-    &:first-child {
-      padding-right: $spacing-unit * .5;
-      padding-left: 0;
-
-      @media screen and (min-width: $on-tablet) {
-        padding: 0 $spacing-unit * 1;
-      }
-    }
-
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit * .5;
-
-      @media screen and (min-width: $on-tablet) {
-        padding: 0 $spacing-unit * 1;
-      }
-    }
-  }
-}
-
-/* Gallery of Four Images - class = med-img-4 */
-.post-content p.med-img-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: $spacing-unit;
-  grid-row-gap: $spacing-unit;
-  padding: 0;
-
-  @media screen and (min-width: $on-tablet) {
-    grid-column-gap: $spacing-unit * 2;
-    grid-row-gap: $spacing-unit * 2;
-  }
-
-  img {
-    margin: 0;
-  }
-}
-
-/* Extra Large Image */
-.post-content p.xlg-img {
-  width: unset;
-  max-width: 2500px;
-
-  img {
-    max-width: 100%;
-  }
-}
-
-/* Large Image */
-.post-content p.lg-img {
-  width: unset;
-  max-width: 1200px;
-
-  img {
-    max-width: 100%;
-  }
-}
-
-/* Large Portriat Image */
-.post-content p.lg-img-pt {
-  width: unset;
-  max-width: 900px;
-
-  img {
-    max-width: 100%;
   }
 }

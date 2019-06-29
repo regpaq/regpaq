@@ -8,18 +8,19 @@ $base-font-size:            13px !default;
 $base-font-weight:          400 !default;
 $small-font-size:           $base-font-size * 0.875 !default;
 $base-size:                 16px !default;
-$base-line-height:          1.4 !default;
+$base-line-height:          1.6 !default;
 
 $spacing-unit:              8px !default;
 
 $brand-color:               #BEA761 !default;
-$dark-brand-color:          #3c382c !default;
+$dark-brand-color:          #3c382c !default; 
 $dark-brand-faded:          #27251f !default;
+$darker-brand:			    #8C7C52 !default;
 $alt-color:                 #9E2D3A !default; //#2FFF9F
-$text-color:                #7F7F7F !default;
+$text-color:                #7F7F7F !default; // #9f9f9f
 $bold-text-color:           #BBBBBB !default;
-$heading-color:             #F7F7F9 !default;
-$dark-background-color:     #030419 !default;
+$heading-color:             #efefef !default; // #F7F7F9
+$dark-background-color:     #000000 !default; // #030419
 $dark-background-highlight: #181827 !default;
 
 
@@ -74,18 +75,15 @@ $mod_2:                     1.6; // desktop
     }
 }
 
-
-
-
-
 // Import partials.
 @import
 	"theme/base",
 	"theme/layout",
+	"theme/styles",
 	"theme/subscribe",
 	"theme/category",
 	"theme/rec-article",
+	"theme/resume",
 	"theme/accordion",
-	"theme/styles",
 	"theme/syntax-highlighting"
 ;

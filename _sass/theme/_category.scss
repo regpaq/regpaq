@@ -1,53 +1,34 @@
 .featured-articles {
     background-color: $dark-background-highlight;
-    margin: 0 0 $spacing-unit * 6 0;
-    padding: $spacing-unit * 2 0;
-
-    h3 {
-        font-size: $base-font-size * 1.154;
-        line-height: $base-font-size * 1.385;
-        margin-bottom: $spacing-unit;
-
-        @media (min-width: $on-tablet) {
-            font-size: $base-font-size * 1.308;
-            line-height: $base-font-size * 1.462;;
-        }
-    }
-
-    @media (min-width: $on-tablet) {
-        margin: 0 0 $spacing-unit * 10 0;
-        padding: $spacing-unit * 4 0 $spacing-unit * 6 0;
-    }
-
-    /* to keep overflow on small screens */
+    margin: 0 0 5rem 0;
+    padding: 2rem 0;
+    // to keep overflow on small screens
     .container-overflow {
+        max-width: 100%;
         padding-left: 0;
         padding-right: 0;
-        
-        @media (min-width: $on-iphonex) {
+        @include media-query($small) {
             padding-left: $spacing-unit * 2;
         }
-
-        @media (min-width: $on-tablet) {
+        @include media-query($medium) {
             padding-left: 0;
         }
-
         .featured-article-header {
             padding-left: $spacing-unit * 2;
             display: flex;
             align-items: baseline;
-            justify-content: space-between;
-
-            @media (min-width: $on-iphonex) {
+            justify-content: space-between;        
+            @include media-query($small) {
                 padding-left: 0;
             }
-
+            h2 {
+                margin-top: 0;
+            }
             .see-more {
                 font-size: 16px;
                 padding-right: 16px;
                 color: $alt-color;                
-
-                svg { /* arrow */
+                svg { // arrow 
                     fill: $dark-background-color;
                     position: relative;
                     top: 4px;
@@ -57,8 +38,7 @@
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
-
-                @media (min-width: $on-tablet) {
+                @include media-query($medium) {
                     display: none;
                 }
             }
@@ -70,14 +50,16 @@
         height: 223px; /* based on height of li item (article card) */
         overflow-x: scroll;
         scroll-behavior: smooth;
-
+        h3 {
+            @include fluid-type($min_width, $max_width, 15px, 17px);
+            margin-bottom: $spacing-unit;
+        }
         ul {
-            margin: 0;
             list-style: none;
             position: absolute;
-            min-width: calc(7 * 302px); /* calculated based on 6 items + end link card in template loop (7) and 302px for article card + margin */
+            margin: 0;
+            min-width: calc(7 * (286px + 16px) + 26px); /* calculated based on 6 items + end link card in template loop (7) and 302px for article card + margin */
         }
-
         li {
             width: 286px;
             height: 215px;
@@ -100,56 +82,39 @@
 
             .article-info {
                 padding: 0 $spacing-unit * 2;
+                line-height: 1.2;
             }
-    
-            a:hover {
-                color: $brand-color;
-            }
-
-            .post-meta {
-                margin: 0;
-            }
-
             p {
                 padding: 0;
                 margin: 0 0 $spacing-unit 0;
             }
-
+            .post-meta {
+                display: inherit;
+                margin: 0;
+            }
             svg {
                 fill: $text-color;
                 width: 14px;
                 height: 14px;
                 padding-right: $spacing-unit * .5;
-                vertical-align: middle;
+                vertical-align: baseline;
                 position: relative;
-                top: -2px;
-                
-                @media (min-width: 616px) { /* idk why necessary */
-                    top: -1px;
-                }
-
-                @media (min-width: $on-tablet) {
-                    top: -2px;
-                }
-
-                @media (min-width: $on-tablet-big) {
-                    top: -1px;
-                }
+                top: .1rem;                
             }
         }
-
+        //
+        // left off here
+        //
         .article-end-card {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100%;
             width: 100%;
-
             > p {
                 margin: 0;
             }
         }
-
         @media (min-width: $on-tablet) {
             height: auto;
             overflow-x: inherit;

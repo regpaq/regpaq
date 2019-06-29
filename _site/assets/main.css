@@ -398,120 +398,71 @@ img {
   display: block;
   margin: 16px auto; }
 
-.post-content {
-  /* Small Image that Floats Left - class = sml-img */
-  /* Three Images - class = img-3 CHANGE TO CSS GRID */
-  /* Three Small Images - class = sml-img-3 CHANGE TO CSS GRID */
-  /* Gallery of Four Images - class = med-img-4 */
-  /* Extra Large Image */
-  /* Large Image */
-  /* Large Portriat Image */ }
-  .post-content .feat-img {
-    margin: 0 auto 4rem auto;
-    width: 100%;
-    max-width: 2000px; }
-  .post-content p.sml-img {
-    width: 900px; }
-    .post-content p.sml-img > a > img, .post-content p.sml-img > img {
-      /* will apply whether link or not */
-      max-height: 200px;
-      float: left;
-      margin: 0 auto;
-      padding-right: 32px;
-      padding-bottom: 16px; }
-      @media screen and (min-width: 768px) {
-        .post-content p.sml-img > a > img, .post-content p.sml-img > img {
-          max-height: 300px; } }
-  .post-content p.img-3 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1032px;
+.post-content .feat-img {
+  margin: 0 auto 4rem auto;
+  width: 100%;
+  max-width: 2000px; }
+.post-content p.sml-img {
+  padding: 0; }
+  .post-content p.sml-img > a > img, .post-content p.sml-img > img {
+    max-width: 100%;
     width: unset;
-    padding: 0; }
-    .post-content p.img-3 > a > img, .post-content p.img-3 > img {
-      /* will apply whether link or not */
-      width: calc(((740px * 1.3946) - 32px) / 3);
-      /* should be redone better */
-      width: -webkit-calc(((740px * 1.3946) - 32px) / 3);
-      min-width: 100px;
-      /* allows responsiveness */
-      margin: 0;
-      padding: 0 4px; }
-      @media screen and (min-width: 768px) {
-        .post-content p.img-3 > a > img, .post-content p.img-3 > img {
-          padding: 0 8px; } }
-      .post-content p.img-3 > a > img:first-child, .post-content p.img-3 > img:first-child {
-        padding-right: 4px;
-        padding-left: 0; }
-        @media screen and (min-width: 768px) {
-          .post-content p.img-3 > a > img:first-child, .post-content p.img-3 > img:first-child {
-            padding: 0 8px; } }
-      .post-content p.img-3 > a > img:last-child, .post-content p.img-3 > img:last-child {
-        padding-right: 0;
-        padding-left: 4px; }
-        @media screen and (min-width: 768px) {
-          .post-content p.img-3 > a > img:last-child, .post-content p.img-3 > img:last-child {
-            padding: 0 8px; } }
-  .post-content p.sml-img-3 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    width: unset;
-    padding: 0; }
-    .post-content p.sml-img-3 > a > img, .post-content p.sml-img-3 > img {
-      /* will apply whether link or not */
-      width: 150px;
-      /* should be redone better */
-      min-width: 30px;
-      /* allows responsiveness */
-      margin: 0;
-      padding: 0 4px; }
-      @media screen and (min-width: 768px) {
-        .post-content p.sml-img-3 > a > img, .post-content p.sml-img-3 > img {
-          width: 200px;
-          padding: 0 8px; } }
-      .post-content p.sml-img-3 > a > img:first-child, .post-content p.sml-img-3 > img:first-child {
-        padding-right: 4px;
-        padding-left: 0; }
-        @media screen and (min-width: 768px) {
-          .post-content p.sml-img-3 > a > img:first-child, .post-content p.sml-img-3 > img:first-child {
-            padding: 0 8px; } }
-      .post-content p.sml-img-3 > a > img:last-child, .post-content p.sml-img-3 > img:last-child {
-        padding-right: 0;
-        padding-left: 4px; }
-        @media screen and (min-width: 768px) {
-          .post-content p.sml-img-3 > a > img:last-child, .post-content p.sml-img-3 > img:last-child {
-            padding: 0 8px; } }
-  .post-content p.med-img-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-    padding: 0; }
-    @media screen and (min-width: 768px) {
-      .post-content p.med-img-4 {
-        grid-column-gap: 16px;
-        grid-row-gap: 16px; } }
-    .post-content p.med-img-4 img {
-      margin: 0; }
-  .post-content p.xlg-img {
-    width: unset;
-    max-width: 2500px; }
-    .post-content p.xlg-img img {
-      max-width: 100%; }
-  .post-content p.lg-img {
-    width: unset;
-    max-width: 1200px; }
-    .post-content p.lg-img img {
-      max-width: 100%; }
-  .post-content p.lg-img-pt {
-    width: unset;
-    max-width: 900px; }
-    .post-content p.lg-img-pt img {
-      max-width: 100%; }
+    margin: 0; }
+    @media screen and (min-width: 568px) {
+      .post-content p.sml-img > a > img, .post-content p.sml-img > img {
+        max-height: 14rem;
+        max-width: 20rem;
+        float: left;
+        margin: 0 auto;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem; } }
+.post-content p.img-3, .post-content p.img-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: .65rem;
+  max-width: 1032px;
+  width: unset;
+  padding: 0; }
+  .post-content p.img-3 > a > img, .post-content p.img-2 > a > img, .post-content p.img-3 > img, .post-content p.img-2 > img {
+    margin: 0; }
+.post-content p.img-2 {
+  grid-template-columns: 1fr 1fr;
+  max-width: 740px; }
+.post-content p.sml-img-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: .65rem;
+  width: unset;
+  padding: 0; }
+  .post-content p.sml-img-3 > a > img, .post-content p.sml-img-3 > img {
+    margin: 0; }
+.post-content p.med-img-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: .65rem;
+  grid-row-gap: .65rem;
+  padding: 0;
+  max-width: 740px; }
+  .post-content p.med-img-4 img {
+    margin: 0; }
+.post-content p.xlg-img {
+  width: unset;
+  max-width: 2500px;
+  padding: 0; }
+  .post-content p.xlg-img img {
+    max-width: 100%; }
+.post-content p.lg-img {
+  width: unset;
+  padding: 0;
+  max-width: 1200px; }
+  .post-content p.lg-img img {
+    max-width: 100%; }
+.post-content p.lg-img-pt {
+  width: unset;
+  max-width: 900px;
+  padding: 0; }
+  .post-content p.lg-img-pt img {
+    max-width: 100%; }
 
 /* --------------------------------------------------------
    Subscribe Container
@@ -657,28 +608,16 @@ img {
 
 .featured-articles {
   background-color: #181827;
-  margin: 0 0 48px 0;
-  padding: 16px 0;
-  /* to keep overflow on small screens */ }
-  .featured-articles h3 {
-    font-size: 15.002px;
-    line-height: 18.005px;
-    margin-bottom: 8px; }
-    @media (min-width: 768px) {
-      .featured-articles h3 {
-        font-size: 17.004px;
-        line-height: 19.006px; } }
-  @media (min-width: 768px) {
-    .featured-articles {
-      margin: 0 0 80px 0;
-      padding: 32px 0 48px 0; } }
+  margin: 0 0 5rem 0;
+  padding: 2rem 0; }
   .featured-articles .container-overflow {
+    max-width: 100%;
     padding-left: 0;
     padding-right: 0; }
-    @media (min-width: 375px) {
+    @media screen and (min-width: 375px) {
       .featured-articles .container-overflow {
         padding-left: 16px; } }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .featured-articles .container-overflow {
         padding-left: 0; } }
     .featured-articles .container-overflow .featured-article-header {
@@ -686,15 +625,16 @@ img {
       display: flex;
       align-items: baseline;
       justify-content: space-between; }
-      @media (min-width: 375px) {
+      @media screen and (min-width: 375px) {
         .featured-articles .container-overflow .featured-article-header {
           padding-left: 0; } }
+      .featured-articles .container-overflow .featured-article-header h2 {
+        margin-top: 0; }
       .featured-articles .container-overflow .featured-article-header .see-more {
         font-size: 16px;
         padding-right: 16px;
         color: #9E2D3A; }
         .featured-articles .container-overflow .featured-article-header .see-more svg {
-          /* arrow */
           fill: #000000;
           position: relative;
           top: 4px;
@@ -703,7 +643,7 @@ img {
           background-image: url(/assets/images/svg/coin-accent-fill.svg);
           background-size: contain;
           background-repeat: no-repeat; }
-        @media (min-width: 768px) {
+        @media screen and (min-width: 768px) {
           .featured-articles .container-overflow .featured-article-header .see-more {
             display: none; } }
   .featured-articles .article-container {
@@ -712,11 +652,20 @@ img {
     /* based on height of li item (article card) */
     overflow-x: scroll;
     scroll-behavior: smooth; }
+    .featured-articles .article-container h3 {
+      font-size: 15px;
+      margin-bottom: 8px; }
+      @media screen and (min-width: 320px) {
+        .featured-articles .article-container h3 {
+          font-size: calc(15px + 2 * ((100vw - 320px) / 960)); } }
+      @media screen and (min-width: 1280px) {
+        .featured-articles .article-container h3 {
+          font-size: 17px; } }
     .featured-articles .article-container ul {
-      margin: 0;
       list-style: none;
       position: absolute;
-      min-width: calc(7 * 302px);
+      margin: 0;
+      min-width: calc(7 * (286px + 16px) + 26px);
       /* calculated based on 6 items + end link card in template loop (7) and 302px for article card + margin */ }
     .featured-articles .article-container li {
       width: 286px;
@@ -736,32 +685,22 @@ img {
         margin-bottom: 16px;
         margin-top: 0; }
       .featured-articles .article-container li .article-info {
-        padding: 0 16px; }
-      .featured-articles .article-container li a:hover {
-        color: #BEA761; }
-      .featured-articles .article-container li .post-meta {
-        margin: 0; }
+        padding: 0 16px;
+        line-height: 1.2; }
       .featured-articles .article-container li p {
         padding: 0;
         margin: 0 0 8px 0; }
+      .featured-articles .article-container li .post-meta {
+        display: inherit;
+        margin: 0; }
       .featured-articles .article-container li svg {
         fill: #7F7F7F;
         width: 14px;
         height: 14px;
         padding-right: 4px;
-        vertical-align: middle;
+        vertical-align: baseline;
         position: relative;
-        top: -2px; }
-        @media (min-width: 616px) {
-          .featured-articles .article-container li svg {
-            /* idk why necessary */
-            top: -1px; } }
-        @media (min-width: 768px) {
-          .featured-articles .article-container li svg {
-            top: -2px; } }
-        @media (min-width: 1024px) {
-          .featured-articles .article-container li svg {
-            top: -1px; } }
+        top: .1rem; }
     .featured-articles .article-container .article-end-card {
       display: flex;
       align-items: center;

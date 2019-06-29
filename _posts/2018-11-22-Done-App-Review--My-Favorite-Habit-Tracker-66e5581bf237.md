@@ -81,7 +81,7 @@ For habits with a goal of 3_x_ per week for example, Done thought of a neat litt
 
 ![](assets/images/done6.jpeg)
 ![](assets/images/done7.jpeg)
-{: .a-img .img-3}
+{: .a-img .img-2}
 
 ONE: A grey background means the habit is incomplete. TWO: A bright color means the habit is complete or in progress of being completed.
 

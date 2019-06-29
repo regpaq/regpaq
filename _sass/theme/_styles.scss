@@ -320,127 +320,93 @@ img {
     margin: $spacing-unit * 2 auto;
 }
 .post-content {
+    // Featured image - applies on post and article card
     .feat-img {
         margin: 0 auto 4rem auto;
         width: 100%;
         max-width: 2000px;
     }
-    /* Small Image that Floats Left - class = sml-img */
+    // Small Image that Floats Left
     p.sml-img {
-        width: 900px; // causing overflow issues !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        > a > img, > img { /* will apply whether link or not */
-            max-height: 200px;
-            float: left;
-            margin: 0 auto;
-            padding-right: 32px;
-            padding-bottom: 16px;
-            @media screen and (min-width: $on-tablet) {
-                max-height: 300px;
+        padding: 0;
+        > a > img, > img { // will apply whether link or not
+            max-width: 100%;
+            width: unset;
+            margin: 0;
+            @include media-query($shmedium) {
+                max-height: 14rem;            
+                max-width: 20rem;
+                float: left;
+                margin: 0 auto;
+                padding-right: 1.5rem;
+                padding-bottom: 1rem;
             }
         }
     }
-    /* Three Images - class = img-3 CHANGE TO CSS GRID */
+    // Three Images
     p.img-3 {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: .65rem;
         max-width: 1032px;
         width: unset;
         padding: 0;
-        > a > img, > img { /* will apply whether link or not */
-            width: calc(((740px * 1.3946) - 32px) / 3); /* should be redone better */
-            width: -webkit-calc(((740px * 1.3946) - 32px) / 3);
-            min-width: 100px; /* allows responsiveness */
+        > a > img, > img { // will apply whether link or not
             margin: 0;
-            padding: 0 $spacing-unit * .5;
-            @media screen and (min-width: $on-tablet) {
-                padding: 0 $spacing-unit * 1;
-            }
-            &:first-child {
-                padding-right: $spacing-unit * .5;
-                padding-left: 0;
-                @media screen and (min-width: $on-tablet) {
-                    padding: 0 $spacing-unit * 1;
-                }
-            }
-            &:last-child {
-                padding-right: 0;
-                padding-left: $spacing-unit * .5;
-                @media screen and (min-width: $on-tablet) {
-                    padding: 0 $spacing-unit * 1;
-                }
-            }
         }
     }
-    /* Three Small Images - class = sml-img-3 CHANGE TO CSS GRID */
+    // Two Images
+    p.img-2 {
+        @extend .img-3;
+        grid-template-columns: 1fr 1fr;
+        max-width: 740px;
+    }
+    // Three Small Images
     p.sml-img-3 {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: .65rem;
         width: unset;
         padding: 0;
-        > a > img, > img { /* will apply whether link or not */
-            width: 150px; /* should be redone better */
-            min-width: 30px; /* allows responsiveness */
+        > a > img, > img { // will apply whether link or not
             margin: 0;
-            padding: 0 $spacing-unit * .5;
-            @media screen and (min-width: $on-tablet) {
-                width: 200px;
-                padding: 0 $spacing-unit * 1;
-            }
-            &:first-child {
-                padding-right: $spacing-unit * .5;
-                padding-left: 0;
-                @media screen and (min-width: $on-tablet) {
-                    padding: 0 $spacing-unit * 1;
-                }
-            }
-            &:last-child {
-                padding-right: 0;
-                padding-left: $spacing-unit * .5;
-                @media screen and (min-width: $on-tablet) {
-                    padding: 0 $spacing-unit * 1;
-                }
-            }
         }
     }
-    /* Gallery of Four Images - class = med-img-4 */
+    // Gallery of Four Images
     p.med-img-4 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: $spacing-unit;
-        grid-row-gap: $spacing-unit;
+        grid-column-gap: .65rem;
+        grid-row-gap: .65rem;
         padding: 0;
-        @media screen and (min-width: $on-tablet) {
-            grid-column-gap: $spacing-unit * 2;
-            grid-row-gap: $spacing-unit * 2;
-        }
+        max-width: 740px;
         img {
             margin: 0;
         }
     }
-    /* Extra Large Image */
+    // Extra Large Image
     p.xlg-img {
         width: unset;
         max-width: 2500px;
+        padding: 0;
         img {
             max-width: 100%;
         }
     }
-    /* Large Image */
+    // Large Image
     p.lg-img {
         width: unset;
+        padding: 0;
         max-width: 1200px;
         img {
             max-width: 100%;
         }
     }
-    /* Large Portriat Image */
+    // Large Portrait Image
     p.lg-img-pt {
         width: unset;
         max-width: 900px;
+        padding: 0;
         img {
             max-width: 100%;
         }

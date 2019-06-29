@@ -45,6 +45,7 @@ $medium:                    768px !default;
 $regular:                   1024px !default;
 $large:                     1280px !default;
 
+// add in content container sizes - e.g. 600px and 740px
 
 @mixin media-query($device) {
 	@media screen and (min-width: $device) {

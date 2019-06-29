@@ -2,76 +2,76 @@
 //        Container Size
 // --------------------------------------------------------
 .container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: $spacing-unit * 2;
-  padding-left: $spacing-unit * 2;
-  max-width: 415px;
-  @include media-query($shmedium) {
-    max-width: 100%;
-  }
-  @include media-query($medium) {
-    padding-right: 0;
-    padding-left: 0;
-    width: calc(#{$medium} - (#{$spacing-unit} * 8));
-  }
-  @include media-query($regular) {
-    width: calc(#{$regular} - (#{$spacing-unit} * 8));
-  }
-  @include media-query($large) {
-    width: calc(#{$large} - (#{$spacing-unit} * 8));
-  }
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: $spacing-unit * 2;
+	padding-left: $spacing-unit * 2;
+	max-width: 415px;
+	@include media-query($shmedium) {
+		max-width: 100%;
+	}
+	@include media-query($medium) {
+		padding-right: 0;
+		padding-left: 0;
+		width: calc(#{$medium} - (#{$spacing-unit} * 8));
+	}
+	@include media-query($regular) {
+		width: calc(#{$regular} - (#{$spacing-unit} * 8));
+	}
+	@include media-query($large) {
+		width: calc(#{$large} - (#{$spacing-unit} * 8));
+	}
 }
 
 // --------------------------------------------------------
 //        Header and Footer Layout
 // --------------------------------------------------------
 .site-header {
-  margin: $spacing-unit * 2 0;
-  @include media-query($shmedium) {
-    margin: $spacing-unit * 3 0;
-  }
-  @include media-query($regular) {
-    margin-bottom: $spacing-unit * 8;
-  }
-  // can all of the above margins for site be a reusable class?
-  .site-nav {
-    margin: $spacing-unit * 4 0 $spacing-unit * 2 0;
-  }
+	margin: $spacing-unit * 2 0;
+	@include media-query($shmedium) {
+		margin: $spacing-unit * 3 0;
+	}
+	@include media-query($regular) {
+		margin-bottom: $spacing-unit * 8;
+	}
+	// can all of the above margins for site be a reusable class?
+	.site-nav {
+		margin: $spacing-unit * 4 0 $spacing-unit * 2 0;
+	}
 }
 .site-footer {
-  margin-bottom: $spacing-unit * 6;
-  #bottom-foot {
-    margin-top: $spacing-unit * 8;
-  }
+	margin-bottom: $spacing-unit * 6;
+	#bottom-foot {
+		margin-top: $spacing-unit * 8;
+	}
 }
 
 // --------------------------------------------------------
 //        Articles & Pages Layout
 // --------------------------------------------------------
 .page-content {
-  flex: 1;
+	flex: 1;
 }
 .post-header {
-  margin-top: $spacing-unit * 3;
-  margin-bottom: $spacing-unit * 3;
-  @media screen and (min-width: $on-tablet) {
-    margin-bottom: $spacing-unit * 8;
-  }
+	margin-top: $spacing-unit * 3;
+	margin-bottom: $spacing-unit * 3;
+	@include media-query($medium) {
+		margin-bottom: $spacing-unit * 8;
+	}
 }
-.post-content {
-  margin-bottom: $spacing-unit * 6;
-  @media screen and (min-width: $on-tablet) {
-    margin-bottom: $spacing-unit * 25;
-  }
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul {
-    @extend .container;
-    @include media-query($shmedium) { // these sizes need to correspond directly with font size changes
-      max-width: 600px;
-    }
-    @include media-query($regular) {
-      max-width: 740px;
-    }
-  }
+.post-content { // make more responsive
+	margin-bottom: $spacing-unit * 6;
+	@include media-query($medium) {
+		margin-bottom: $spacing-unit * 25;
+	}
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul {
+		@extend .container;
+		@include media-query($shmedium) {
+			max-width: 600px; // make more dynamic 
+		}
+		@include media-query($regular) {
+			max-width: 740px;
+		}
+	}
 }

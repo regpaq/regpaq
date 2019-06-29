@@ -1,115 +1,94 @@
 .resume {
-  
     .container {
-      width: 980px;
-  
-      .article-subtitle {
-        color: $grey-color;
-        font-size: 24px;
-        line-height: 30px;
-      }
-  
-      .post-meta {
-        grid-template-columns: 300px auto;
-        grid-template-rows: 80px 80px;
-  
-        #ring {
-          height: 240px;
-          width: 240px;
-          margin-top: -15px;
-        }
-  
-        img {
-          max-height: 200px;
-          max-width: 200px;
-          border-radius: 100px;
-          margin: 0 0 0 15px;
-        }
-  
-        span {
-          font-size: 50px;
-          font-weight: 900;
-          margin-bottom: 12px;
-        }
-  
-        .resume-info {
-          grid-column: 2 / 3;
-          color: $grey-color;
-  
-          .svg-24 svg {
-            width: 24px;
-            height: 24px;          
-          }
-        }
-  
-        .resume-info-social svg {
-          margin: 0 10px;
-          vertical-align: middle;
-          cursor: pointer;
-  
-          &:hover {
-            fill: $brand-color;
-          }
-        }
-      }
+		width: 980px;
+		.article-subtitle {
+			color: $grey-color;
+			font-size: 24px;
+			line-height: 30px;
+		}
+		.post-meta {
+			grid-template-columns: 300px auto;
+			grid-template-rows: 80px 80px;
+			#ring {
+				height: 240px;
+				width: 240px;
+				margin-top: -15px;
+			}
+			img {
+				max-height: 200px;
+				max-width: 200px;
+				border-radius: 100px;
+				margin: 0 0 0 15px;
+			}
+			span {
+				font-size: 50px;
+				font-weight: 900;
+				margin-bottom: 12px;
+			}
+			.resume-info {
+				grid-column: 2 / 3;
+				color: $grey-color;
+				.svg-24 svg {
+					width: 24px;
+					height: 24px;          
+				}
+			}
+			.resume-info-social svg {
+				margin: 0 10px;
+				vertical-align: middle;
+				cursor: pointer;
+				&:hover {
+					fill: $brand-color;
+				}
+			}
+		}
     }
     .post-content {
-  
-      .job-title {
-  
-        svg {
-          height: 40px;
-          width: 40px;        
-          position: absolute;
-        }      
-  
-        h2 {
-          margin-top: 4px;
-          padding-left: 100px;
-        }
-      }
-  
-      #chilipiper svg {
-        fill: #ff5722;
-      }
-  
-      #servicetitan svg {
-        fill: #ffffff;
-      }
-  
-      h3, h4 {
-        font-weight: 400;
-      }
-  
-      .job-info, .position-info {
-        p {
-          font-size: 16px;
-          margin-bottom: 24px;
-        }
-  
-        svg {
-          fill: $grey-color;
-          vertical-align: middle;
-          width: 16px;
-          height: 16px;
-          margin-right: 6px;
-  
-          &:nth-child(2) {
-            margin-left: 32px;
-          }
-        }
-      }
-  
-      p.accordion-item-heading {
-        color: $brand-color;
-        fill: $brand-color;
-  
-        svg {
-          height: 36px;
-          width: 36px;
-          padding-left: 12px;
-          vertical-align: middle;
-        }
-      }
-    }
-  }
+		.job-title {
+			svg {
+				height: 40px;
+				width: 40px;        
+				position: absolute;
+			}      
+			h2 {
+				margin-top: 4px;
+				padding-left: 100px;
+			}
+		}
+		#chilipiper svg {
+			fill: #ff5722;
+		}
+		#servicetitan svg {
+			fill: #ffffff;
+		}
+		h3, h4 {
+			font-weight: 400;
+		}
+		.job-info, .position-info {
+			p {
+				font-size: 16px;
+				margin-bottom: 24px;
+			}
+			svg {
+				fill: $grey-color;
+				vertical-align: middle;
+				width: 16px;
+				height: 16px;
+				margin-right: 6px;
+				&:nth-child(2) {
+					margin-left: 32px;
+				}
+			}
+		}
+		p.accordion-item-heading {
+			color: $brand-color;
+			fill: $brand-color;
+			svg {
+				height: 36px;
+				width: 36px;
+				padding-left: 12px;
+				vertical-align: middle;
+			}
+		}
+	}
+}

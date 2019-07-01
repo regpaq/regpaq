@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Atomic Habits — Summary, Notes, + Quotes'
+title: 'Atomic Habits - Summary, Notes, + Quotes'
 description: Who you’ll become in your future can be answered by your behavior today.
 date: '2018-11-12T18:27:42.017Z'
 categories: [booknotes, self, productivity]

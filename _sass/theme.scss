@@ -45,8 +45,10 @@ $medium:                    768px !default;
 $regular:                   1024px !default;
 $large:                     1280px !default;
 
-// add in content container sizes - e.g. 600px and 740px
+// NOTE: add in content container sizes - e.g. 600px and 740px
+// and make card layouts fluid
 
+// Media Query Mixin
 @mixin media-query($device) {
 	@media screen and (min-width: $device) {
 		@content;
@@ -58,14 +60,11 @@ $min_width:                 320px;
 $max_width:                 $large;
 $min_font:                  $base-size;
 $max_font:                  22px;
-
 $mod_1:                     1.2; // mobile
 $mod_2:                     1.6; // desktop
-
 @function strip-unit($value) {
 	@return $value / ($value * 0 + 1);
 }
-
 @mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
     font-size: $min-font-size;
     @media screen and (min-width: $min-vw) {
@@ -75,14 +74,16 @@ $mod_2:                     1.6; // desktop
         font-size: $max-font-size;
     }
 }
+// End Fluid Typography
 
-// Import partials.
+
+// Import Partials
 @import
 	"theme/base",
 	"theme/layout",
 	"theme/styles",
 	"theme/subscribe",
-	"theme/category",
+	"theme/card",
 	"theme/rec-article",
 	"theme/resume",
 	"theme/accordion",

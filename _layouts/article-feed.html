@@ -7,7 +7,9 @@ layout: default
 <div class="featured-articles">
   <div class="container">
     {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">Latest Articles</h2>
+      <div class="featured-article-header"> <!-- need to ad this div to all other feed layouts -->
+        <h2 class="post-list-heading">Latest Articles</h2>
+      </div>
       <div class="article-container reveal">
         <ul class="post-list reveal">
             {% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}

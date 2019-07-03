@@ -1,22 +1,18 @@
 ---
 layout: default
 ---
-<article class="resume post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+<article class="resume post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header container">
-    <!-- <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-     -->
     <div class="post-meta">
-        <div id="ring"></div><img src="/assets/images/regpaq.jpg" />
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">{{ page.author }}</a></span></span>
+        <div id="ring"></div>
+        <img class="profile" src="/assets/images/regpaq.jpg" />
+        <h1 itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></h1>
         <p class="article-subtitle">{{page.description | escape}}</p>
-        <p class="resume-info"><span class="svg-24">{% include /svg/location.svg %}</span>Los Angeles<span class="resume-info-social" style="margin-left: 20px;"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank">{% include /svg/linkedin.svg %}</a><a href="https://twitter.com/regpaq" target="_blank">{% include /svg/twitter.svg %}</a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><span class="svg-24">{% include /svg/mail.svg %}</span></a></span></p>
+        <p class="resume-meta info"><img class="svg" src="/assets/images/svg/location-grey.svg">Los Angeles<a href="#" target="_blank"><img class="svg" src="/assets/images/svg/post-grey.svg">Résumé</a></p>
+        <p class="resume-meta social"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><img class="svg" src="/assets/images/svg/linkedin-grey.svg"></a><a href="https://twitter.com/regpaq" target="_blank"><img class="svg" src="/assets/images/svg/twitter-grey.svg"></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><img class="svg" src="/assets/images/svg/mail-grey.svg"></a></p>
     </div>
   </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

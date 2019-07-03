@@ -23,7 +23,6 @@ $heading-color:             #efefef !default; // #F7F7F9
 $dark-background-color:     #000000 !default; // #030419
 $dark-background-highlight: #181827 !default;
 
-
 $grey-color:                #7F7F7F !default;
 $grey-color-light:          #2C2D3B !default;
 $grey-color-dark:           #4a4a4a !default;
@@ -31,16 +30,8 @@ $grey-color-dark:           #4a4a4a !default;
 $table-text-align:          left !default;
 
 // Width of the content area
-$content-width:             800px !default;
-$on-phone:                  321px !default;
-$on-iphonex:                375px !default;
-$on-phone-ls:               576px !default;
-$on-tablet:                 768px !default;
-$on-tablet-big:             1024px !default;
-$on-desktop:                1200px !default;
-
 $small:                     375px !default;
-$shmedium:                  568px !default; // max-width: 415px;
+$shmedium:                  568px !default;
 $medium:                    768px !default;
 $regular:                   1024px !default;
 $large:                     1280px !default;

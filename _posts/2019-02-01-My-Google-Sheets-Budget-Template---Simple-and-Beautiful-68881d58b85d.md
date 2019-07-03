@@ -77,6 +77,6 @@ Another tip is to use a credit card for all transactions when possible. Using a 
 
 Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, leave me a note in the comments.
 
-### You might also enjoy:
+### You might also enjoy
 
-{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

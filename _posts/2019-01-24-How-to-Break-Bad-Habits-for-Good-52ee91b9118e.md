@@ -92,8 +92,8 @@ Using these strategies, I was able to completely break, or significantly reduce,
 
 What’s your best to tip to break a bad habit?
 
-### Recommended Reading:
+### Recommended Reading
 
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

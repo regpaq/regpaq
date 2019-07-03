@@ -1,11 +1,9 @@
 .accordion-item-heading:hover{
     cursor: pointer;
 }
-
 .close .accordion-item-content{
     display: none;
 }
-
 .open .accordion-item-content{
     display: initial;
 }

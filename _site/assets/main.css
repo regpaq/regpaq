@@ -55,7 +55,7 @@ table {
   table td {
     border: 1px solid #2C2D3B; }
 
-.container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+.container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -63,18 +63,18 @@ table {
   padding-left: 16px;
   max-width: 415px; }
   @media screen and (min-width: 568px) {
-    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       max-width: 100%; } }
   @media screen and (min-width: 768px) {
-    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       padding-right: 0;
       padding-left: 0;
       width: calc(768px - (8px * 8)); } }
   @media screen and (min-width: 1024px) {
-    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       width: calc(1024px - (8px * 8)); } }
   @media screen and (min-width: 1280px) {
-    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .container, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       width: calc(1280px - (8px * 8)); } }
 
 .site-header {
@@ -109,10 +109,10 @@ table {
     .post-content {
       margin-bottom: 200px; } }
   @media screen and (min-width: 568px) {
-    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       max-width: 600px; } }
   @media screen and (min-width: 1024px) {
-    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul {
+    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content blockquote, .post-content pre, .post-content hr, .post-content dl, .post-content dd, .post-content ol, .post-content ul, .post-content .job-title, .post-content .job-info {
       max-width: 740px; } }
 
 html, body {
@@ -416,6 +416,8 @@ img {
         margin: 0 auto;
         padding-right: 1.5rem;
         padding-bottom: 1rem; } }
+  .post-content p.sml-img > a {
+    display: contents; }
 .post-content p.img-3, .post-content p.img-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -464,19 +466,16 @@ img {
   .post-content p.lg-img-pt img {
     max-width: 100%; }
 
-/* --------------------------------------------------------
-   Subscribe Container
-   -------------------------------------------------------- */
 .subscribe {
   margin-bottom: 64px; }
-  @media (min-width: 576px) {
+  @media screen and (min-width: 568px) {
     .subscribe {
       padding: 0;
       margin-left: auto;
       margin-right: auto;
       display: block;
       width: 320px; } }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .subscribe {
       margin-bottom: 80px;
       text-align: center;
@@ -485,19 +484,16 @@ img {
     max-width: 75%;
     text-align: left;
     margin: 0 auto 16px 0; }
-    @media (min-width: 375px) {
+    @media screen and (min-width: 375px) {
       .subscribe p {
         max-width: inherit; } }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .subscribe p {
         text-align: center;
         font-size: 17.004px;
         line-height: 20.995px;
         margin-bottom: 24px; } }
 
-/* --------------------------------------------------------
-   Subscriber form
-   -------------------------------------------------------- */
 .mc-field-group {
   display: inline-block; }
 
@@ -518,10 +514,10 @@ img {
   margin: 0;
   width: 170px;
   vertical-align: top; }
-  @media (min-width: 375px) {
+  @media screen and (min-width: 375px) {
     #mc_embed_signup input.email {
       width: 190px; } }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     #mc_embed_signup input.email {
       width: 275px;
       font-size: 17.004px; } }
@@ -548,7 +544,7 @@ img {
 
 #mc_embed_signup .clear {
   display: inline-block; }
-  @media (min-width: 375px) {
+  @media screen and (min-width: 375px) {
     #mc_embed_signup .clear {
       padding-left: 16px; } }
 
@@ -566,7 +562,7 @@ img {
   display: inline-block;
   margin: 0;
   transition: all 0.08s ease-in-out 0.08s; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     #mc_embed_signup .button {
       font-size: 17.004px; } }
 
@@ -703,12 +699,12 @@ img {
           color: #4a4a4a; }
           .featured-articles .article-container li .article-info .post-meta svg {
             fill: #4a4a4a;
-            width: .85rem;
-            height: .85rem;
+            width: .8rem;
+            height: .8rem;
             padding-right: 4px;
             vertical-align: baseline;
             position: relative;
-            top: .17rem; }
+            top: .16rem; }
     .featured-articles .article-container .article-end-card {
       display: flex;
       align-items: center;
@@ -716,7 +712,14 @@ img {
       height: 100%;
       width: 100%; }
       .featured-articles .article-container .article-end-card > p {
+        font-size: 13px;
         margin: 0; }
+        @media screen and (min-width: 320px) {
+          .featured-articles .article-container .article-end-card > p {
+            font-size: calc(13px + 2 * ((100vw - 320px) / 960)); } }
+        @media screen and (min-width: 1280px) {
+          .featured-articles .article-container .article-end-card > p {
+            font-size: 15px; } }
     @media screen and (min-width: 768px) {
       .featured-articles .article-container {
         height: auto;
@@ -825,14 +828,14 @@ aside.rec-art {
     padding: 0; }
     aside.rec-art a:hover {
       background-color: initial; }
-  @media (min-width: 576px) {
+  @media screen and (min-width: 568px) {
     aside.rec-art {
       margin: 32px auto 48px auto;
       border-radius: 5px;
       max-width: 568px; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     aside.rec-art {
-      max-width: 692px;
+      max-width: 708px;
       margin: 48px auto 64px auto; } }
   aside.rec-art .rec-container {
     display: flex;
@@ -844,7 +847,7 @@ aside.rec-art {
     aside.rec-art .rec-container .rec-info {
       margin-right: 16px;
       width: 100%; }
-      @media (min-width: 375px) {
+      @media screen and (min-width: 375px) {
         aside.rec-art .rec-container .rec-info {
           margin-right: 32px; } }
       aside.rec-art .rec-container .rec-info h4, aside.rec-art .rec-container .rec-info h5, aside.rec-art .rec-container .rec-info p {
@@ -852,41 +855,36 @@ aside.rec-art {
         padding: 0; }
       aside.rec-art .rec-container .rec-info h4 {
         color: #BEA761;
-        font-size: 13px;
-        line-height: 17.004px; }
-        @media (min-width: 375px) {
+        font-size: 16px; }
+        @media screen and (min-width: 320px) {
           aside.rec-art .rec-container .rec-info h4 {
-            font-size: 15.002px;
-            line-height: 19.006px; } }
-        @media (min-width: 1024px) {
+            font-size: calc(16px + 6 * ((100vw - 320px) / 960)); } }
+        @media screen and (min-width: 1280px) {
           aside.rec-art .rec-container .rec-info h4 {
-            font-size: 19.994px;
-            line-height: 23.998px; } }
+            font-size: 22px; } }
       aside.rec-art .rec-container .rec-info h5 {
-        font-size: 10.998px;
-        line-height: 10.998px; }
-        @media (min-width: 375px) {
+        font-size: 12px;
+        line-height: .85rem; }
+        @media screen and (min-width: 320px) {
           aside.rec-art .rec-container .rec-info h5 {
-            font-size: 13px;
-            line-height: 13px; } }
-        @media (min-width: 1024px) {
+            font-size: calc(12px + 4 * ((100vw - 320px) / 960)); } }
+        @media screen and (min-width: 1280px) {
           aside.rec-art .rec-container .rec-info h5 {
-            font-size: 15.002px;
-            line-height: 15.002px; } }
+            font-size: 16px; } }
       aside.rec-art .rec-container .rec-info p {
         margin: 0;
-        font-size: 13px; }
-        @media (min-width: 375px) {
+        font-size: 12px; }
+        @media screen and (min-width: 320px) {
           aside.rec-art .rec-container .rec-info p {
-            font-size: 14.001px; } }
-        @media (min-width: 1024px) {
+            font-size: calc(12px + 6 * ((100vw - 320px) / 960)); } }
+        @media screen and (min-width: 1280px) {
           aside.rec-art .rec-container .rec-info p {
-            font-size: 18.005px; } }
+            font-size: 18px; } }
     aside.rec-art .rec-container .rec-img {
       margin-top: auto;
       min-width: 90px;
       min-height: 90px; }
-      @media (min-width: 1024px) {
+      @media screen and (min-width: 1024px) {
         aside.rec-art .rec-container .rec-img {
           min-width: 125px;
           min-height: 125px; } }
@@ -896,77 +894,245 @@ aside.rec-art {
         width: 90px;
         height: 90px;
         margin: 0; }
-        @media (min-width: 1024px) {
+        @media screen and (min-width: 1024px) {
           aside.rec-art .rec-container .rec-img img {
             width: 125px;
             height: 125px; } }
 
-.resume .container, .resume .post-content h1, .post-content .resume h1, .resume .post-content h2, .post-content .resume h2, .resume .post-content h3, .post-content .resume h3, .resume .post-content h4, .post-content .resume h4, .resume .post-content h5, .post-content .resume h5, .resume .post-content h6, .post-content .resume h6, .resume .post-content p, .post-content .resume p, .resume .post-content blockquote, .post-content .resume blockquote, .resume .post-content pre, .post-content .resume pre, .resume .post-content hr, .post-content .resume hr, .resume .post-content dl, .post-content .resume dl, .resume .post-content dd, .post-content .resume dd, .resume .post-content ol, .post-content .resume ol, .resume .post-content ul, .post-content .resume ul {
+aside.many {
+  margin: 1rem auto; }
+
+.resume > .container, .post-content .resume > h1, .post-content .resume > h2, .post-content .resume > h3, .post-content .resume > h4, .post-content .resume > h5, .post-content .resume > h6, .post-content .resume > p, .post-content .resume > blockquote, .post-content .resume > pre, .post-content .resume > hr, .post-content .resume > dl, .post-content .resume > dd, .post-content .resume > ol, .post-content .resume > ul, .post-content .resume > .job-title, .post-content .resume > .job-info {
   width: 980px; }
-  .resume .container .article-subtitle, .resume .post-content h1 .article-subtitle, .post-content .resume h1 .article-subtitle, .resume .post-content h2 .article-subtitle, .post-content .resume h2 .article-subtitle, .resume .post-content h3 .article-subtitle, .post-content .resume h3 .article-subtitle, .resume .post-content h4 .article-subtitle, .post-content .resume h4 .article-subtitle, .resume .post-content h5 .article-subtitle, .post-content .resume h5 .article-subtitle, .resume .post-content h6 .article-subtitle, .post-content .resume h6 .article-subtitle, .resume .post-content p .article-subtitle, .post-content .resume p .article-subtitle, .resume .post-content blockquote .article-subtitle, .post-content .resume blockquote .article-subtitle, .resume .post-content pre .article-subtitle, .post-content .resume pre .article-subtitle, .resume .post-content hr .article-subtitle, .post-content .resume hr .article-subtitle, .resume .post-content dl .article-subtitle, .post-content .resume dl .article-subtitle, .resume .post-content dd .article-subtitle, .post-content .resume dd .article-subtitle, .resume .post-content ol .article-subtitle, .post-content .resume ol .article-subtitle, .resume .post-content ul .article-subtitle, .post-content .resume ul .article-subtitle {
-    color: #7F7F7F;
-    font-size: 24px;
-    line-height: 30px; }
-  .resume .container .post-meta, .resume .post-content h1 .post-meta, .post-content .resume h1 .post-meta, .resume .post-content h2 .post-meta, .post-content .resume h2 .post-meta, .resume .post-content h3 .post-meta, .post-content .resume h3 .post-meta, .resume .post-content h4 .post-meta, .post-content .resume h4 .post-meta, .resume .post-content h5 .post-meta, .post-content .resume h5 .post-meta, .resume .post-content h6 .post-meta, .post-content .resume h6 .post-meta, .resume .post-content p .post-meta, .post-content .resume p .post-meta, .resume .post-content blockquote .post-meta, .post-content .resume blockquote .post-meta, .resume .post-content pre .post-meta, .post-content .resume pre .post-meta, .resume .post-content hr .post-meta, .post-content .resume hr .post-meta, .resume .post-content dl .post-meta, .post-content .resume dl .post-meta, .resume .post-content dd .post-meta, .post-content .resume dd .post-meta, .resume .post-content ol .post-meta, .post-content .resume ol .post-meta, .resume .post-content ul .post-meta, .post-content .resume ul .post-meta {
-    grid-template-columns: 300px auto;
-    grid-template-rows: 80px 80px; }
-    .resume .container .post-meta #ring, .resume .post-content h1 .post-meta #ring, .post-content .resume h1 .post-meta #ring, .resume .post-content h2 .post-meta #ring, .post-content .resume h2 .post-meta #ring, .resume .post-content h3 .post-meta #ring, .post-content .resume h3 .post-meta #ring, .resume .post-content h4 .post-meta #ring, .post-content .resume h4 .post-meta #ring, .resume .post-content h5 .post-meta #ring, .post-content .resume h5 .post-meta #ring, .resume .post-content h6 .post-meta #ring, .post-content .resume h6 .post-meta #ring, .resume .post-content p .post-meta #ring, .post-content .resume p .post-meta #ring, .resume .post-content blockquote .post-meta #ring, .post-content .resume blockquote .post-meta #ring, .resume .post-content pre .post-meta #ring, .post-content .resume pre .post-meta #ring, .resume .post-content hr .post-meta #ring, .post-content .resume hr .post-meta #ring, .resume .post-content dl .post-meta #ring, .post-content .resume dl .post-meta #ring, .resume .post-content dd .post-meta #ring, .post-content .resume dd .post-meta #ring, .resume .post-content ol .post-meta #ring, .post-content .resume ol .post-meta #ring, .resume .post-content ul .post-meta #ring, .post-content .resume ul .post-meta #ring {
-      height: 240px;
-      width: 240px;
-      margin-top: -15px; }
-    .resume .container .post-meta img, .resume .post-content h1 .post-meta img, .post-content .resume h1 .post-meta img, .resume .post-content h2 .post-meta img, .post-content .resume h2 .post-meta img, .resume .post-content h3 .post-meta img, .post-content .resume h3 .post-meta img, .resume .post-content h4 .post-meta img, .post-content .resume h4 .post-meta img, .resume .post-content h5 .post-meta img, .post-content .resume h5 .post-meta img, .resume .post-content h6 .post-meta img, .post-content .resume h6 .post-meta img, .resume .post-content p .post-meta img, .post-content .resume p .post-meta img, .resume .post-content blockquote .post-meta img, .post-content .resume blockquote .post-meta img, .resume .post-content pre .post-meta img, .post-content .resume pre .post-meta img, .resume .post-content hr .post-meta img, .post-content .resume hr .post-meta img, .resume .post-content dl .post-meta img, .post-content .resume dl .post-meta img, .resume .post-content dd .post-meta img, .post-content .resume dd .post-meta img, .resume .post-content ol .post-meta img, .post-content .resume ol .post-meta img, .resume .post-content ul .post-meta img, .post-content .resume ul .post-meta img {
-      max-height: 200px;
-      max-width: 200px;
-      border-radius: 100px;
-      margin: 0 0 0 15px; }
-    .resume .container .post-meta span, .resume .post-content h1 .post-meta span, .post-content .resume h1 .post-meta span, .resume .post-content h2 .post-meta span, .post-content .resume h2 .post-meta span, .resume .post-content h3 .post-meta span, .post-content .resume h3 .post-meta span, .resume .post-content h4 .post-meta span, .post-content .resume h4 .post-meta span, .resume .post-content h5 .post-meta span, .post-content .resume h5 .post-meta span, .resume .post-content h6 .post-meta span, .post-content .resume h6 .post-meta span, .resume .post-content p .post-meta span, .post-content .resume p .post-meta span, .resume .post-content blockquote .post-meta span, .post-content .resume blockquote .post-meta span, .resume .post-content pre .post-meta span, .post-content .resume pre .post-meta span, .resume .post-content hr .post-meta span, .post-content .resume hr .post-meta span, .resume .post-content dl .post-meta span, .post-content .resume dl .post-meta span, .resume .post-content dd .post-meta span, .post-content .resume dd .post-meta span, .resume .post-content ol .post-meta span, .post-content .resume ol .post-meta span, .resume .post-content ul .post-meta span, .post-content .resume ul .post-meta span {
-      font-size: 50px;
-      font-weight: 900;
-      margin-bottom: 12px; }
-    .resume .container .post-meta .resume-info, .resume .post-content h1 .post-meta .resume-info, .post-content .resume h1 .post-meta .resume-info, .resume .post-content h2 .post-meta .resume-info, .post-content .resume h2 .post-meta .resume-info, .resume .post-content h3 .post-meta .resume-info, .post-content .resume h3 .post-meta .resume-info, .resume .post-content h4 .post-meta .resume-info, .post-content .resume h4 .post-meta .resume-info, .resume .post-content h5 .post-meta .resume-info, .post-content .resume h5 .post-meta .resume-info, .resume .post-content h6 .post-meta .resume-info, .post-content .resume h6 .post-meta .resume-info, .resume .post-content p .post-meta .resume-info, .post-content .resume p .post-meta .resume-info, .resume .post-content blockquote .post-meta .resume-info, .post-content .resume blockquote .post-meta .resume-info, .resume .post-content pre .post-meta .resume-info, .post-content .resume pre .post-meta .resume-info, .resume .post-content hr .post-meta .resume-info, .post-content .resume hr .post-meta .resume-info, .resume .post-content dl .post-meta .resume-info, .post-content .resume dl .post-meta .resume-info, .resume .post-content dd .post-meta .resume-info, .post-content .resume dd .post-meta .resume-info, .resume .post-content ol .post-meta .resume-info, .post-content .resume ol .post-meta .resume-info, .resume .post-content ul .post-meta .resume-info, .post-content .resume ul .post-meta .resume-info {
+
+.resume .post-header {
+  width: unset;
+  margin-bottom: 4rem;
+  padding: 0;
+  max-width: 447px; }
+  @media screen and (min-width: 568px) {
+    .resume .post-header {
+      max-width: unset; } }
+  @media screen and (min-width: 768px) {
+    .resume .post-header {
+      width: calc(768px - (8px * 8)); } }
+  @media screen and (min-width: 1024px) {
+    .resume .post-header {
+      width: calc(1024px - (8px * 8)); } }
+.resume .post-meta {
+  max-width: 980px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: .5rem; }
+  @media screen and (min-width: 568px) {
+    .resume .post-meta {
+      grid-template-columns: 140px 3fr;
+      grid-template-rows: .3fr .3fr .2fr;
+      grid-column-gap: 3rem; } }
+  @media screen and (min-width: 768px) {
+    .resume .post-meta {
+      margin-left: auto;
+      margin-right: auto;
+      grid-column-gap: 1.5rem;
+      grid-template-columns: 8.5rem auto 1fr auto; } }
+.resume #ring {
+  height: 155px;
+  width: 155px;
+  margin-top: -10px; }
+.resume .profile {
+  max-height: 130px;
+  max-width: 130px;
+  border-radius: 100%;
+  margin: 0 0 2rem 10px;
+  grid-column: 1;
+  grid-row: 1 / 2; }
+  @media screen and (min-width: 568px) {
+    .resume .profile {
+      grid-column: 1 / 2;
+      grid-row: 1 / 4;
+      margin: 0 0 0 10px; } }
+.resume h1 {
+  grid-column: 1;
+  grid-row: 2 / 3;
+  margin: 0; }
+  @media screen and (min-width: 568px) {
+    .resume h1 {
       grid-column: 2 / 3;
-      color: #7F7F7F; }
-      .resume .container .post-meta .resume-info .svg-24 svg, .resume .post-content h1 .post-meta .resume-info .svg-24 svg, .post-content .resume h1 .post-meta .resume-info .svg-24 svg, .resume .post-content h2 .post-meta .resume-info .svg-24 svg, .post-content .resume h2 .post-meta .resume-info .svg-24 svg, .resume .post-content h3 .post-meta .resume-info .svg-24 svg, .post-content .resume h3 .post-meta .resume-info .svg-24 svg, .resume .post-content h4 .post-meta .resume-info .svg-24 svg, .post-content .resume h4 .post-meta .resume-info .svg-24 svg, .resume .post-content h5 .post-meta .resume-info .svg-24 svg, .post-content .resume h5 .post-meta .resume-info .svg-24 svg, .resume .post-content h6 .post-meta .resume-info .svg-24 svg, .post-content .resume h6 .post-meta .resume-info .svg-24 svg, .resume .post-content p .post-meta .resume-info .svg-24 svg, .post-content .resume p .post-meta .resume-info .svg-24 svg, .resume .post-content blockquote .post-meta .resume-info .svg-24 svg, .post-content .resume blockquote .post-meta .resume-info .svg-24 svg, .resume .post-content pre .post-meta .resume-info .svg-24 svg, .post-content .resume pre .post-meta .resume-info .svg-24 svg, .resume .post-content hr .post-meta .resume-info .svg-24 svg, .post-content .resume hr .post-meta .resume-info .svg-24 svg, .resume .post-content dl .post-meta .resume-info .svg-24 svg, .post-content .resume dl .post-meta .resume-info .svg-24 svg, .resume .post-content dd .post-meta .resume-info .svg-24 svg, .post-content .resume dd .post-meta .resume-info .svg-24 svg, .resume .post-content ol .post-meta .resume-info .svg-24 svg, .post-content .resume ol .post-meta .resume-info .svg-24 svg, .resume .post-content ul .post-meta .resume-info .svg-24 svg, .post-content .resume ul .post-meta .resume-info .svg-24 svg {
-        width: 24px;
-        height: 24px; }
-    .resume .container .post-meta .resume-info-social svg, .resume .post-content h1 .post-meta .resume-info-social svg, .post-content .resume h1 .post-meta .resume-info-social svg, .resume .post-content h2 .post-meta .resume-info-social svg, .post-content .resume h2 .post-meta .resume-info-social svg, .resume .post-content h3 .post-meta .resume-info-social svg, .post-content .resume h3 .post-meta .resume-info-social svg, .resume .post-content h4 .post-meta .resume-info-social svg, .post-content .resume h4 .post-meta .resume-info-social svg, .resume .post-content h5 .post-meta .resume-info-social svg, .post-content .resume h5 .post-meta .resume-info-social svg, .resume .post-content h6 .post-meta .resume-info-social svg, .post-content .resume h6 .post-meta .resume-info-social svg, .resume .post-content p .post-meta .resume-info-social svg, .post-content .resume p .post-meta .resume-info-social svg, .resume .post-content blockquote .post-meta .resume-info-social svg, .post-content .resume blockquote .post-meta .resume-info-social svg, .resume .post-content pre .post-meta .resume-info-social svg, .post-content .resume pre .post-meta .resume-info-social svg, .resume .post-content hr .post-meta .resume-info-social svg, .post-content .resume hr .post-meta .resume-info-social svg, .resume .post-content dl .post-meta .resume-info-social svg, .post-content .resume dl .post-meta .resume-info-social svg, .resume .post-content dd .post-meta .resume-info-social svg, .post-content .resume dd .post-meta .resume-info-social svg, .resume .post-content ol .post-meta .resume-info-social svg, .post-content .resume ol .post-meta .resume-info-social svg, .resume .post-content ul .post-meta .resume-info-social svg, .post-content .resume ul .post-meta .resume-info-social svg {
-      margin: 0 10px;
-      vertical-align: middle;
-      cursor: pointer; }
-      .resume .container .post-meta .resume-info-social svg:hover, .resume .post-content h1 .post-meta .resume-info-social svg:hover, .post-content .resume h1 .post-meta .resume-info-social svg:hover, .resume .post-content h2 .post-meta .resume-info-social svg:hover, .post-content .resume h2 .post-meta .resume-info-social svg:hover, .resume .post-content h3 .post-meta .resume-info-social svg:hover, .post-content .resume h3 .post-meta .resume-info-social svg:hover, .resume .post-content h4 .post-meta .resume-info-social svg:hover, .post-content .resume h4 .post-meta .resume-info-social svg:hover, .resume .post-content h5 .post-meta .resume-info-social svg:hover, .post-content .resume h5 .post-meta .resume-info-social svg:hover, .resume .post-content h6 .post-meta .resume-info-social svg:hover, .post-content .resume h6 .post-meta .resume-info-social svg:hover, .resume .post-content p .post-meta .resume-info-social svg:hover, .post-content .resume p .post-meta .resume-info-social svg:hover, .resume .post-content blockquote .post-meta .resume-info-social svg:hover, .post-content .resume blockquote .post-meta .resume-info-social svg:hover, .resume .post-content pre .post-meta .resume-info-social svg:hover, .post-content .resume pre .post-meta .resume-info-social svg:hover, .resume .post-content hr .post-meta .resume-info-social svg:hover, .post-content .resume hr .post-meta .resume-info-social svg:hover, .resume .post-content dl .post-meta .resume-info-social svg:hover, .post-content .resume dl .post-meta .resume-info-social svg:hover, .resume .post-content dd .post-meta .resume-info-social svg:hover, .post-content .resume dd .post-meta .resume-info-social svg:hover, .resume .post-content ol .post-meta .resume-info-social svg:hover, .post-content .resume ol .post-meta .resume-info-social svg:hover, .resume .post-content ul .post-meta .resume-info-social svg:hover, .post-content .resume ul .post-meta .resume-info-social svg:hover {
-        fill: #BEA761; }
-.resume .post-content .job-title svg {
-  height: 40px;
-  width: 40px;
-  position: absolute; }
-.resume .post-content .job-title h2 {
-  margin-top: 4px;
-  padding-left: 100px; }
-.resume .post-content #chilipiper svg {
-  fill: #ff5722; }
-.resume .post-content #servicetitan svg {
-  fill: #ffffff; }
-.resume .post-content h3, .resume .post-content h4 {
-  font-weight: 400; }
-.resume .post-content .job-info p, .resume .post-content .position-info p {
+      grid-row: 1 / 2; } }
+  @media screen and (min-width: 768px) {
+    .resume h1 {
+      grid-column: 2 / 5; } }
+.resume .article-subtitle {
   font-size: 16px;
+  line-height: 1.6rem;
+  margin: 0;
+  grid-column: 1;
+  grid-row: 3 / 4;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 320px) {
+    .resume .article-subtitle {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 960)); } }
+  @media screen and (min-width: 1280px) {
+    .resume .article-subtitle {
+      font-size: 22px; } }
+  @media screen and (min-width: 568px) {
+    .resume .article-subtitle {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3; } }
+  @media screen and (min-width: 768px) {
+    .resume .article-subtitle {
+      grid-column: 2 / 5; } }
+.resume .resume-meta {
+  font-size: 1rem;
+  color: #7F7F7F;
+  margin: 0; }
+  .resume .resume-meta a {
+    margin: 0 .5rem; }
+  .resume .resume-meta > img:first-child {
+    margin-left: 0; }
+    .resume .resume-meta > img:first-child:hover {
+      cursor: default; }
+  .resume .resume-meta img {
+    vertical-align: baseline; }
+.resume .info {
+  grid-column: 1;
+  grid-row: 4 / 5; }
+  @media screen and (min-width: 568px) {
+    .resume .info {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4; } }
+  .resume .info a:first-of-type {
+    margin: 0 0 0 1.5rem;
+    padding: .3rem .35rem .15rem .25rem;
+    border-radius: 3px;
+    font-size: .85rem;
+    background-color: #2C2D3B; }
+    .resume .info a:first-of-type:hover {
+      background-color: #3c382c; }
+  .resume .info img {
+    margin-right: .2rem; }
+.resume .social {
+  grid-column: 1;
+  grid-row: 5 / 6; }
+  @media screen and (min-width: 568px) {
+    .resume .social {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5; } }
+  @media screen and (min-width: 768px) {
+    .resume .social {
+      grid-column: 3 / 4;
+      grid-row: 3 / 4; } }
+  .resume .social a:first-of-type {
+    margin-left: 0; }
+.resume .svg {
+  border-radius: 0;
+  display: inline;
+  max-height: 1rem;
+  max-width: 1rem;
+  margin: 0;
+  position: relative;
+  top: .14rem; }
+  .resume .svg:hover {
+    cursor: pointer; }
+.resume h5 {
+  margin-bottom: 1.5rem; }
+
+.resume h2 {
+  display: inline;
+  padding-left: 0; }
+
+.resume h3, .resume h4 {
+  font-weight: 400; }
+
+.svg-tiny {
+  display: inline;
+  margin: 0;
+  height: .75rem;
+  width: .75rem;
+  margin-right: .2rem;
+  position: relative;
+  top: .145rem; }
+
+.svg-small {
+  display: inline;
+  margin: 0;
+  height: .85rem;
+  width: .85rem;
+  margin-right: .2rem;
+  position: relative;
+  top: .165rem; }
+
+.svg-reg {
+  display: inline;
+  margin: 0;
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  top: .16rem;
+  margin-left: .5rem; }
+
+.job-title {
+  margin-bottom: .5rem; }
+  .job-title .svg {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    display: inline;
+    vertical-align: baseline;
+    margin-left: 0;
+    margin-right: .5rem; }
+
+.job-info p, .position-info p {
+  font-size: .85rem;
   margin-bottom: 24px; }
-.resume .post-content .job-info svg, .resume .post-content .position-info svg {
+.job-info svg, .position-info svg {
   fill: #7F7F7F;
   vertical-align: middle;
   width: 16px;
   height: 16px;
   margin-right: 6px; }
-  .resume .post-content .job-info svg:nth-child(2), .resume .post-content .position-info svg:nth-child(2) {
+  .job-info svg:nth-child(2), .position-info svg:nth-child(2) {
     margin-left: 32px; }
-.resume .post-content p.accordion-item-heading {
-  color: #BEA761;
-  fill: #BEA761; }
-  .resume .post-content p.accordion-item-heading svg {
-    height: 36px;
-    width: 36px;
-    padding-left: 12px;
-    vertical-align: middle; }
+
+.job-info {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1rem;
+  font-size: .75rem;
+  margin-bottom: 1.5rem; }
+  .job-info .job-time {
+    display: inline;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    margin: 0;
+    padding: 0; }
+  .job-info .job-loc {
+    display: inline;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0;
+    padding: 0; }
+  .job-info .job-url {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; }
+    .job-info .job-url a {
+      color: inherit;
+      background-color: inherit;
+      padding: 0;
+      font-size: .75rem; }
+
+.accordion-wrapper {
+  margin-bottom: 6rem; }
+  .accordion-wrapper p.accordion-item-heading {
+    color: #BEA761;
+    fill: #BEA761; }
+    .accordion-wrapper p.accordion-item-heading svg {
+      height: 36px;
+      width: 36px;
+      padding-left: 12px;
+      vertical-align: middle; }
 
 .accordion-item-heading:hover {
   cursor: pointer; }

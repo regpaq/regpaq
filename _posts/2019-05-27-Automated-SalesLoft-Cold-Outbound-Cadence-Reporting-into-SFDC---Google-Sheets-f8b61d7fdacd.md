@@ -9,6 +9,7 @@ skills: [reporting,spreadsheets,outbound]
 featured-image: chili-outbound-2.jpeg
 featured-image-alt: new Chili Piper outbound dashboard
 author: Reggie Paquette
+post-id: 18
 ---
 
 ## Problem

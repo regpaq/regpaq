@@ -99,12 +99,12 @@
                     color: $grey-color-dark;
                     svg {
                         fill: $grey-color-dark;
-                        width: .85rem;
-                        height: .85rem;
+                        width: .8rem;
+                        height: .8rem;
                         padding-right: $spacing-unit * .5;
                         vertical-align: baseline;
                         position: relative;
-                        top: .17rem;                
+                        top: .16rem;                
                     }
                 }
             }
@@ -116,6 +116,7 @@
             height: 100%;
             width: 100%;
             > p {
+                @include fluid-type($min_width, $max_width, 13px, 15px);
                 margin: 0;
             }
         }

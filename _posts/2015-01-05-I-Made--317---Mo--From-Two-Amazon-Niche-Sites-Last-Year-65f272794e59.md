@@ -162,8 +162,8 @@ I hope this guide was helpful. If you have links to great rescues or would like 
 
 ### You might also enjoy:
 
-{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '1' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '1' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '3' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '3' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

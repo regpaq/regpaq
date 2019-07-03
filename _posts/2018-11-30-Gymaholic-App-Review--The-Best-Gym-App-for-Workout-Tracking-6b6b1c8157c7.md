@@ -107,4 +107,4 @@ There’s so much more in tracking progress and the reports that I could keep go
 
 ## You might also enjoy:
 
-{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

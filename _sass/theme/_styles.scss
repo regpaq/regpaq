@@ -40,7 +40,6 @@ a {
       text-decoration: none;
     }
 }
-
 // --------------------------------------------------------
 //          Header and Nav Styles
 // --------------------------------------------------------
@@ -70,7 +69,6 @@ a {
         margin-right: .2rem;
     }
 }
-
 // --------------------------------------------------------
 //          Footer Styles
 // --------------------------------------------------------
@@ -118,11 +116,9 @@ a {
         }
     }
 }
-
 // --------------------------------------------------------
 //          Articles & Pages Styles
 // --------------------------------------------------------
-
 .article-subtitle {
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
 }
@@ -310,7 +306,6 @@ a {
         }
     }
 }
-
 // --------------------------------------------------------
 //          Image Styles
 // --------------------------------------------------------
@@ -342,6 +337,9 @@ img {
                 padding-bottom: 1rem;
             }
         }
+        > a { // removes odd link behavior around images
+            display: contents;
+        }
     }
     // Three Images
     p.img-3 {
@@ -367,7 +365,7 @@ img {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: .65rem;
         width: unset;
-        padding: 0;
+        padding: 0;        
         > a > img, > img { // will apply whether link or not
             margin: 0;
         }

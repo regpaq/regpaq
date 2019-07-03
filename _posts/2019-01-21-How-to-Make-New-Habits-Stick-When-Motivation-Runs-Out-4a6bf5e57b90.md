@@ -84,8 +84,8 @@ With these six tips, I have been able to continue my habits better than ever in 
 
 What has helped you make your habits stick?
 
-## You might also enjoy:
+## You might also enjoy
 
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

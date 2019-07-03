@@ -86,8 +86,6 @@ Transparent pricing can also work for digital products and services. Check out h
 
 Don’t you suddenly **feel** better about their price?
 
-### You might also enjoy:
-
 {% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ### Originally Published on LinkedIn:

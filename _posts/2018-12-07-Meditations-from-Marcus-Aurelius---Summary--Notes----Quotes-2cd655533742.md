@@ -305,6 +305,6 @@ If you took the time to read some of these quotes, you’ll see why this summary
 
 ### You might also enjoy
 
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

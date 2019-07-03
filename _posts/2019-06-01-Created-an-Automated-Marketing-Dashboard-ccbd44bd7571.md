@@ -9,6 +9,7 @@ skills: [reporting,spreadsheets]
 featured-image: chili-mktg-1.jpeg
 featured-image-alt: new Chili Piper marketing dashboard
 author: Reggie Paquette
+post-id: 20
 ---
 
 ## Problem

@@ -9,6 +9,7 @@ skills: [reporting,spreadsheets]
 featured-image: chili-revenue-2.jpeg
 featured-image-alt: Chili Piper revenue dashboard
 author: Reggie Paquette
+post-id: 17
 ---
 
 ## Problem

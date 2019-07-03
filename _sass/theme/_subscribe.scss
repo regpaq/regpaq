@@ -1,34 +1,28 @@
-/* --------------------------------------------------------
-   Subscribe Container
-   -------------------------------------------------------- */
-
+// --------------------------------------------------------
+//          Container and Intro Text
+// --------------------------------------------------------
 .subscribe {
     margin-bottom: $spacing-unit * 8;
-
-    @media (min-width: $on-phone-ls) {
+    @include media-query($shmedium) {
         padding: 0;
         margin-left: auto;
         margin-right: auto;
         display: block;
         width: 320px;
     }
-
-    @media (min-width: $on-tablet) {
+    @include media-query($medium) {
         margin-bottom: $spacing-unit * 10;
         text-align: center;
         width: 500px;
     }
-
     p {
         max-width: 75%;
         text-align: left;
         margin: 0 auto $spacing-unit * 2 0;
-
-        @media (min-width: $on-iphonex) {
+        @include media-query($small) {
             max-width: inherit;
         }
-
-        @media (min-width: $on-tablet) {
+        @include media-query($medium) {
             text-align: center;
             font-size: $base-font-size * 1.308;
             line-height: $base-font-size * 1.615;
@@ -36,15 +30,12 @@
         }
     }
 }
-
-/* --------------------------------------------------------
-   Subscriber form
-   -------------------------------------------------------- */
-
+// --------------------------------------------------------
+//          Subscribe Form
+// --------------------------------------------------------
 .mc-field-group { 
     display: inline-block; 
 }
-
 #mc_embed_signup input.email {
     font-family: $Monospace;
     font-size: 12px; 
@@ -60,17 +51,14 @@
     margin: 0; 
     width: 170px; 
     vertical-align:top;
-
-    @media (min-width: $on-iphonex) {
+    @include media-query($small) {
         width: 190px;        
     }
-
-    @media (min-width: $on-tablet) {
+    @include media-query($medium) {
         width: 275px;
         font-size: $base-font-size * 1.308;        
     }
 }
-
 #mc_embed_signup input {
     &::-webkit-input-placeholder {
         color: $brand-color;
@@ -91,7 +79,6 @@
         outline: none;
     }
 }
-
 #mc_embed_signup label {
     display:block;
     font-size:16px;
@@ -100,8 +87,7 @@
 }
 #mc_embed_signup .clear {
     display: inline-block;
-
-    @media (min-width: $on-iphonex) {
+    @include media-query($small) {
         padding-left: $spacing-unit * 2;
     }
 }
@@ -118,13 +104,11 @@
     display: inline-block; 
     margin: 0; 
     transition: all 0.08s ease-in-out 0.08s;
-
-    @media (min-width: $on-tablet) {
+    @include media-query($medium) {
         font-size: $base-font-size * 1.308;        
     }
 }
 #mc_embed_signup .button:hover {
-    // background-color:#777; 
     cursor:pointer;
 }
 #mc_embed_signup div#mce-responses {
@@ -142,8 +126,3 @@
 #mc_embed_signup label.error {
     display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;
 }
-// @media (max-width: 768px) {
-//     #mc_embed_signup input.email {width:100%; margin-bottom:5px;}
-//     #mc_embed_signup .clear {display: block; width: 100% }
-//     #mc_embed_signup .button {width: 100%; margin:0; }
-// }

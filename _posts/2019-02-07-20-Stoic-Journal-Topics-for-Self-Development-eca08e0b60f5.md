@@ -85,10 +85,10 @@ Our daily behavior is the best indicator of the type of person we are. Work on i
 
 ### You might also enjoy
 
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

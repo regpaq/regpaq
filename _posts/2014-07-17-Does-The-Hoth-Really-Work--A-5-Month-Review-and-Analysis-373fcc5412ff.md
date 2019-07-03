@@ -107,6 +107,4 @@ If you have purchased The Hoth or have decided against it, please let me know in
 
 **Disclaimer:** I was not asked or paid to write this post by any person affiliated with The Hoth company.
 
-### You might also enjoy:
-
 {% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

@@ -9,6 +9,7 @@ skills: [reporting,demandgen]
 featured-image: chili-attribution-2.jpeg
 featured-image-alt: URL Builder in a spreadsheet for Chili Piper
 author: Reggie Paquette
+post-id: 19
 ---
 
 ## Problem

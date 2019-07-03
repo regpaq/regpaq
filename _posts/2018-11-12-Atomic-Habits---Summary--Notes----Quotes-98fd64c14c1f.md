@@ -253,14 +253,14 @@ Reading this summary is not enough. You have to read the whole book to truly und
 
 [Atomic Habits](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"} is an essential book for anyone who wants to really make a change in their life for the better. The way Clear organizes the strategies and lessons make Atomic Habits easy to understand and extremely practical. I’m not sure how it can be any better so it deserves a 10/10.
 
-### You might also enjoy:
+### You might also enjoy
 
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 
-{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

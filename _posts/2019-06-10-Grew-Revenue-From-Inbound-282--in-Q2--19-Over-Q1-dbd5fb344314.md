@@ -9,6 +9,7 @@ skills: [demandgen,linkedin]
 featured-image: chili-inbound-2.jpeg
 featured-image-alt: new Chili Piper LinkedIn image ads
 author: Reggie Paquette
+post-id: 22
 ---
 
 ## Problem

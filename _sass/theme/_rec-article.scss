@@ -1,0 +1,76 @@
+aside.rec-art {    
+    background-color: $dark-background-highlight;
+    padding: $spacing-unit * 2;
+    margin: $spacing-unit * 4 auto $spacing-unit * 4 auto;
+    a {
+        background-color: initial;
+        padding: 0;
+        &:hover {
+            background-color: initial;
+        }
+    }
+    @include media-query($shmedium) {
+        margin: $spacing-unit * 4 auto $spacing-unit * 6 auto;
+        border-radius: 5px;
+        max-width: 568px;
+    }
+    @include media-query($regular) {
+        max-width: 708px;
+        margin: $spacing-unit * 6 auto $spacing-unit * 8 auto;
+    }
+    .rec-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 0;
+        .rec-info {
+            margin-right: $spacing-unit * 2;
+            width: 100%;
+            @include media-query($small) {
+                margin-right: $spacing-unit * 4;
+            }
+            h4, h5, p {
+                width: 100%;
+                padding: 0;                
+            }
+            h4 {
+                color: $brand-color;
+                @include fluid-type($min_width, $max_width, $min_font, $max_font);
+            }
+            h5 {
+                @include fluid-type($min_width, $max_width, 12px, 16px);
+                line-height: .85rem;
+            }
+            p {
+                margin: 0;
+                @include fluid-type($min_width, $max_width, 12px, 18px);
+            }
+        }
+        .rec-img {
+            margin-top: auto;
+            min-width: 90px;
+            min-height: 90px;
+            @include media-query($regular) {
+                min-width: 125px;
+                min-height: 125px;
+            }
+            img {
+                border-radius: 5px;;
+                object-fit: cover;
+                width: 90px;
+                height: 90px;
+                margin: 0;
+                @include media-query($regular) {
+                    width: 125px;
+                    height: 125px
+                }
+            }
+        }
+    }
+}
+// use the "rec-articles.html" (with an 's') for less margin between multiple rec articles
+aside.many {
+    margin: 1rem auto;
+}

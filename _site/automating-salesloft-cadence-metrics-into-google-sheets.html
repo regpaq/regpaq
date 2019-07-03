@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets | regpaq</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets" />
@@ -19,47 +19,40 @@
 {"url":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets","headline":"Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets","dateModified":"2019-05-26T20:04:01-07:00","datePublished":"2019-05-26T20:04:01-07:00","author":{"@type":"Person","name":"Reggie Paquette"},"description":"Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" /><style>
-    @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:100i,200i,300i,400,400i,900&display=swap');
-  </style>  
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:100i,200i,300i,400,400i,900&display=swap');
+</style>  
 </head>
 <body><header class="site-header" role="banner">
-
-  <div class="container">
-    <a class="site-title" rel="author" href="/"><img id="logo" src="/assets/images/logo.png"></a>
-
-    <nav class="site-nav">
-          <a class="page-link" href="/">Home</a>
-          <a class="page-link" href="/about/">About</a>
-          <a class="page-link" href="/resume.html">Résumé</a>
-    </nav>
-
-    <nav class="hashtag-nav">
-      Articles:
-      <a class="page-link" href="/all-articles">All</a>
-      <a class="page-link" href="/marketing">#marketing</a>
-      <a class="page-link" href="/productivity">#productivity</a>
-      <a class="page-link" href="/book-notes">#booknotes</a>
-      <a class="page-link" href="/self">#self</a>
-    </nav>
-
-  </div>
-</header>
-<main class="page-content" aria-label="Content">
+	<div class="container">
+		<a class="site-title" rel="author" href="/"><img id="logo" src="/assets/images/logo.png"></a>
+		<nav class="site-nav">
+			<a class="page-link" href="/">Home</a>
+			<a class="page-link" href="/about/">About</a>
+			<a class="page-link" href="/resume.html">Résumé</a>
+		</nav>
+		<nav class="hashtag-nav">
+			Articles:
+			<a class="page-link" href="/all-articles">All</a>
+			<a class="page-link" href="/marketing">#marketing</a>
+			<a class="page-link" href="/productivity">#productivity</a>
+			<a class="page-link" href="/book-notes">#booknotes</a>
+			<a class="page-link" href="/self">#self</a>
+		</nav>
+	</div>
+</header><main class="page-content" aria-label="Content">
       <div class="content-container">
-        <article class="resume post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+        <article class="resume post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header container">
-    <!-- <h1 class="post-title p-name" itemprop="name headline">Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets</h1>
-     -->
     <div class="post-meta">
-        <div id="ring"></div><img src="/assets/images/regpaq.jpg" />
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
+        <div id="ring"></div>
+        <img class="profile" src="/assets/images/regpaq.jpg" />
+        <h1 itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></h1>
         <p class="article-subtitle">Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.</p>
-        <p class="resume-info"><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M4 11.5v4c0 .83.67 1.5 1.5 1.5S7 16.33 7 15.5v-4c0-.83-.67-1.5-1.5-1.5S4 10.67 4 11.5zm6 0v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM3.5 22h16c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5h-16c-.83 0-1.5.67-1.5 1.5S2.67 22 3.5 22zM16 11.5v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM10.57 1.49l-7.9 4.16c-.41.21-.67.64-.67 1.1C2 7.44 2.56 8 3.25 8h16.51C20.44 8 21 7.44 21 6.75c0-.46-.26-.89-.67-1.1l-7.9-4.16c-.58-.31-1.28-.31-1.86 0z"/></svg></span>Los Angeles<span class="resume-info-social" style="margin-left: 20px;"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://twitter.com/regpaq" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><span class="svg-24"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg></span></a></span></p>
+        <p class="resume-meta info"><img class="svg" src="/assets/images/svg/location-grey.svg">Los Angeles<a href="#" target="_blank"><img class="svg" src="/assets/images/svg/post-grey.svg">Résumé</a></p>
+        <p class="resume-meta social"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><img class="svg" src="/assets/images/svg/linkedin-grey.svg"></a><a href="https://twitter.com/regpaq" target="_blank"><img class="svg" src="/assets/images/svg/twitter-grey.svg"></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><img class="svg" src="/assets/images/svg/mail-grey.svg"></a></p>
     </div>
   </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     <h2 id="problem">Problem</h2>
 
 <p>Reporting on how individual sales reps and their cadences were doing was a manual process. With Chili Piper being a data-driven company, we wanted to be able to make decisions backed by data, which meant we were tracking and manually updating over 37 metrics per rep and per cadence.</p>
@@ -161,8 +154,6 @@
 <p>With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.</p>
 
   </div>
-
-  <a class="u-url" href="/automating-salesloft-cadence-metrics-into-google-sheets" hidden></a>
 </article>
 
       </div>

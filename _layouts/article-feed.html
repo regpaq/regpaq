@@ -1,38 +1,35 @@
 ---
 layout: default
 ---
-
 {{ content }}
-
 <div class="featured-articles">
-  <div class="container">
-    {%- if site.posts.size > 0 -%}
-      <div class="featured-article-header"> <!-- need to ad this div to all other feed layouts -->
-        <h2 class="post-list-heading">Latest Articles</h2>
-      </div>
-      <div class="article-container reveal">
-        <ul class="post-list reveal">
-            {% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
-          <li class="article-{{ i }}">
-            {% assign i = i | plus:1 %}
-            <a style="display: contents;" href="{{ post.url | relative_url }}">{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}</a>
-            <div class="article-info">
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-                <p>{{ post.description }}</p>
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-              <p class="post-meta">{% include /svg/calendar.svg %}{{ post.date | date: date_format }}</p>
-            </div>
-          </li>
-          {%- endunless -%}{%- endfor -%}
-        </ul>
-      </div>
-    {%- endif -%}
-    </div>
+<div class="container">
+	{%- if site.posts.size > 0 -%}
+	<div class="featured-article-header">
+		<h2 class="post-list-heading">Latest Articles</h2>
+	</div>
+	<div class="article-container reveal">
+		<ul class="post-list reveal">
+			{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
+		<li class="article-{{ i }}">
+			{% assign i = i | plus:1 %}
+			<a style="display: contents;" href="{{ post.url | relative_url }}">{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}</a>
+			<div class="article-info">
+			<h3>
+				<a class="post-link" href="{{ post.url | relative_url }}">
+				{{ post.title | escape }}
+				</a>
+			</h3>
+				<p>{{ post.description }}</p>
+			{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
+			<p class="post-meta">{% include /svg/calendar.svg %}{{ post.date | date: date_format }}</p>
+			</div>
+		</li>
+		{%- endunless -%}{%- endfor -%}
+		</ul>
+	</div>
+	{%- endif -%}
+	</div>
 </div>
-
 {%- include subscribe.html -%}
 

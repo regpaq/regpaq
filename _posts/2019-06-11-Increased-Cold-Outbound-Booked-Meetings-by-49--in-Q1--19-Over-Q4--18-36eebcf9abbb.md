@@ -9,6 +9,7 @@ skills: [reporting,spreadsheets,outbound,demandgen]
 featured-image: chili-cold-outbound-1.jpeg
 featured-image-alt: cold outbound booked meeting and pipeline improvement
 author: Reggie Paquette
+post-id: 23
 ---
 
 ## Problem

@@ -23,7 +23,6 @@
 		width: calc(#{$large} - (#{$spacing-unit} * 8));
 	}
 }
-
 // --------------------------------------------------------
 //        Header and Footer Layout
 // --------------------------------------------------------
@@ -46,7 +45,6 @@
 		margin-top: $spacing-unit * 8;
 	}
 }
-
 // --------------------------------------------------------
 //        Articles & Pages Layout
 // --------------------------------------------------------
@@ -65,7 +63,7 @@
 	@include media-query($medium) {
 		margin-bottom: $spacing-unit * 25;
 	}
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul {
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, .job-title, .job-info {
 		@extend .container;
 		@include media-query($shmedium) {
 			max-width: 600px; // make more dynamic 

@@ -1,6 +1,9 @@
 <header class="site-header" role="banner">
-	<div class="container">
-		<a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img id="logo" src="{{ "/assets/images/logo.png" | relative_url }}"></a>
+	<!-- <div class="container"> -->
+		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{% include /svg/logo.svg %}</a>
+		<button id="lightswitch" onclick="handleThemeUpdate()">
+			test
+		</button>
 		<nav class="site-nav">
 			<a class="page-link" href="/">Home</a>
 			<a class="page-link" href="/about/">About</a>
@@ -14,5 +17,5 @@
 			<a class="page-link" href="/book-notes">#booknotes</a>
 			<a class="page-link" href="/self">#self</a>
 		</nav>
-	</div>
+	<!-- </div> -->
 </header>

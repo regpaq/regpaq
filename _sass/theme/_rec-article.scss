@@ -1,7 +1,13 @@
-aside.rec-art {    
-    background-color: $dark-background-highlight;
-    padding: $spacing-unit * 2;
-    margin: $spacing-unit * 4 auto $spacing-unit * 4 auto;
+.rec-art {    
+    background-color: v(bg-highlight);
+    @include grid-full-width-normal;
+    margin-left: 0; //delete in existing
+    margin-right: 0; //delete in existing
+    margin-top: 0; //delete in existing
+    margin-bottom: 2rem;
+    padding: 1rem;
+    max-width: unset;
+    width: unset;
     a {
         background-color: initial;
         padding: 0;
@@ -10,13 +16,7 @@ aside.rec-art {
         }
     }
     @include media-query($shmedium) {
-        margin: $spacing-unit * 4 auto $spacing-unit * 6 auto;
-        border-radius: 5px;
-        max-width: 568px;
-    }
-    @include media-query($regular) {
-        max-width: 708px;
-        margin: $spacing-unit * 6 auto $spacing-unit * 8 auto;
+        border-radius: 3px;
     }
     .rec-container {
         display: flex;
@@ -36,7 +36,7 @@ aside.rec-art {
                 padding: 0;                
             }
             h4 {
-                color: $brand-color;
+                color: v(brand);
                 @include fluid-type($min_width, $max_width, $min_font, $max_font);
             }
             h5 {
@@ -57,7 +57,7 @@ aside.rec-art {
                 min-height: 125px;
             }
             img {
-                border-radius: 5px;;
+                border-radius: 3px;;
                 object-fit: cover;
                 width: 90px;
                 height: 90px;
@@ -72,5 +72,5 @@ aside.rec-art {
 }
 // use the "rec-articles.html" (with an 's') for less margin between multiple rec articles
 aside.many {
-    margin: 1rem auto;
+    margin: 1rem 0;
 }

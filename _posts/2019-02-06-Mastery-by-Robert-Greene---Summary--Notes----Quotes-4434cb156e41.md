@@ -10,9 +10,7 @@ featured-image-alt: mastery book summary
 author: Reggie Paquette
 post-id: 12
 ---
-
-[![Mastery by Robert Green](/assets/images/mastery.png)](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"}
-{: .a-img .sml-img}
+{% include figure.html image="/assets/images/mastery.png" caption="Buy Mastery on Amazon" position="left" size="sml" link="https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907" %}
 
 Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).
 

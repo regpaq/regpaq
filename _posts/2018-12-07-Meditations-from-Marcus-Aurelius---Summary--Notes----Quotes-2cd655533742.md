@@ -25,8 +25,7 @@ What did Hadrian see in Marcus? He saw young man with excellent character and wi
 
 [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"} is a collection of notes Marcus wrote to himself while emperor of which he never intended to be published. These notes span a variety of topics and for Marcus were an exercise to help him think clearly and rationally. His journals were preserved, translated, and curated into a single collection which came to be known as Meditations — obviously not a name Marcus himself chose.
 
-[![Link to Amazon](/assets/images/meditations.jpeg)](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"}
-{: .a-img .sml-img}
+{% include figure.html image="/assets/images/meditations.jpeg" caption="Buy Meditations on Amazon" position="left" size="sml" link="https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404" %}
 
 I read the Gregory Hays translation, which also has a very interesting introduction and history lesson that provides helpful context that I think is needed before diving into his Marcus’ actual writing.
 

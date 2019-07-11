@@ -13,7 +13,7 @@ description: Multi-skilled B2B marketer with seven years of experience. Formerly
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/time-grey.svg" />November 2018 — June 2019 (8 mo)</div>
+<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</div>
 <div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
 <div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.chilipiper.com/" target="_blank">chilipiper.com</a></div>
 </div>
@@ -53,7 +53,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/time-grey.svg" />April 2016 — October 2018 (2 years 6 mo)</div>
+<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />April 2016 — October 2018 (2 years 6 mo)</div>
 <div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Glendale, California</div>
 <div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></div>
 </div>
@@ -98,7 +98,7 @@ ServiceTitan is the #1 management software for residential home service companie
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/time-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</div>
+<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</div>
 <div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Irvine, California</div>
 <div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></div>
 </div>
@@ -134,7 +134,7 @@ eCommerce web development and inbound marketing agency.
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/time-grey.svg" />May 2012 — Present (7 years+)</div>
+<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />May 2012 — Present (7 years+)</div>
 <div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
 <div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></div>
 </div>

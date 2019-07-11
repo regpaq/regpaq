@@ -1,50 +1,41 @@
-// --------------------------------------------------------
-//          Container and Intro Text
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Container and Intro Text
+-------------------------------------------------------- */
 .subscribe {
-    margin-bottom: $spacing-unit * 8;
-    @include media-query($shmedium) {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 320px;
-    }
-    @include media-query($medium) {
-        margin-bottom: $spacing-unit * 10;
-        text-align: center;
-        width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;    
+    grid-gap: .75rem;
+    margin: 1.5rem auto; //  make this margin and below padding a mixin or extend
+    padding: 0 1rem;
+    text-align: center;
+    > * {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     p {
-        max-width: 75%;
-        text-align: left;
-        margin: 0 auto $spacing-unit * 2 0;
-        @include media-query($small) {
-            max-width: inherit;
-        }
         @include media-query($medium) {
-            text-align: center;
             font-size: $base-font-size * 1.308;
             line-height: $base-font-size * 1.615;
-            margin-bottom: $spacing-unit * 3;
         }
     }
 }
-// --------------------------------------------------------
-//          Subscribe Form
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Subscribe Form
+-------------------------------------------------------- */
 .mc-field-group { 
     display: inline-block; 
 }
 #mc_embed_signup input.email {
     font-family: $Monospace;
-    font-size: 12px; 
+    font-size: .85rem; 
     font-weight: 900;
     border-top: none; border-right: none; border-left: none;
-    border-bottom: 1px solid $text-color;
+    border-bottom: 1px solid v(text);
     border-radius: none;
-    color: $brand-color; 
-    background-color: $dark-background-color; 
+    color: v(brand); 
+    background-color: v(bg); 
     box-sizing:border-box; 
     padding: $spacing-unit * .5 0;
     display: inline-block; 
@@ -61,18 +52,18 @@
 }
 #mc_embed_signup input {
     &::-webkit-input-placeholder {
-        color: $brand-color;
+        color: v(brand);
         font-weight: 400;
     }
     &::-moz-placeholder {
-        color: $brand-color;
+        color: v(brand);
         opacity: 1;
     }
     &:-ms-input-placeholder {
-        color: $brand-color;
+        color: v(brand);
     }
     &:-moz-placeholder {
-        color: $brand-color;
+        color: v(brand);
         opacity: 1;
     }
     &:focus {
@@ -93,12 +84,13 @@
 }
 #mc_embed_signup .button {
     font-family: $SansSerif;
-    font-size: 12px; border: none; 
+    font-size: .85rem;
+    border: none; 
     -webkit-border-radius: 4px; 
     -moz-border-radius: 4px; 
     border-radius: 4px; 
-    color: $dark-brand-faded; 
-    background-color: $brand-color; 
+    color: v(brand-darkest-faded); 
+    background-color: v(brand); 
     box-sizing:border-box; 
     padding:$spacing-unit * .5 $spacing-unit * 2; 
     display: inline-block; 

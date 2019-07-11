@@ -1,6 +1,6 @@
-// --------------------------------------------------------
-//          Resume Header
-// --------------------------------------------------------
+/* --------------------------------------------------------
+			Resume Header
+-------------------------------------------------------- */
 .resume > .container {
 		width: 980px;
 }
@@ -87,7 +87,7 @@
 	}
 	.resume-meta {
 		font-size: 1rem;
-		color: $grey-color;
+		color: v(text-lighter);
 		margin: 0;		
 		a {
 			margin: 0 .5rem;						
@@ -103,21 +103,21 @@
 		}
 	}
 	.info {
-		grid-column: 1;		
+		grid-column: 1;
 		grid-row: 4 / 5;
 		@include media-query($shmedium) {
 			grid-column: 2 / 3;
 			grid-row: 3 / 4;
 		}
 		a:first-of-type {
-			margin: 0 0 0 1.5rem;
-			padding: .3rem .35rem .15rem .25rem;
-			border-radius: 3px;
-			font-size: .85rem;
-			background-color: $grey-color-light;
-			&:hover {
-				background-color: $dark-brand-color;
-			}
+			margin: 0 0 0 1.5rem;			
+			// font-size: .85rem;
+			// padding: .3rem .35rem .15rem .25rem;
+			// border-radius: 3px;
+			// background-color: $grey-color-light;
+			// &:hover {
+			// 	background-color: $dark-brand-color;
+			// }
 		}
 		img {
 			margin-right: .2rem;
@@ -154,42 +154,16 @@
 		margin-bottom: 1.5rem;
 	}
 }
-// --------------------------------------------------------
-//          Work Experience
-// --------------------------------------------------------
-.resume h2 {
+/* --------------------------------------------------------
+			Work Experience
+-------------------------------------------------------- */
+.resume .job-title h2 {
 	display: inline;
 	padding-left: 0;		
 }
-.resume h3, .resume h4 {
+.resume h3 {
 	font-weight: 400;
-}
-.svg-tiny {
-	display: inline;
-	margin: 0;
-	height: .75rem;
-	width: .75rem;
-	margin-right: .2rem;
-	position: relative;
-	top: .145rem;
-}
-.svg-small {
-	display: inline;
-	margin: 0;
-	height: .85rem;
-	width: .85rem;
-	margin-right: .2rem;
-	position: relative;
-	top: .165rem;
-}
-.svg-reg {
-	display: inline;
-    margin: 0;
-    height: 1rem;
-    width: 1rem;
-    position: relative;
-    top: .16rem;
-    margin-left: .5rem;
+	margin-bottom: 0;
 }
 .job-title {
 	margin-bottom: .5rem;	
@@ -208,7 +182,7 @@
 		margin-bottom: 24px;
 	}
 	svg {
-		fill: $grey-color;
+		fill: v(text-lighter);
 		vertical-align: middle;
 		width: 16px;
 		height: 16px;
@@ -243,7 +217,6 @@
 		grid-column: 2 / 3;
 		grid-row: 2 / 3;
 		a {
-			color: inherit;
 			background-color: inherit;
 			padding: 0;
 			font-size: .75rem;
@@ -253,8 +226,8 @@
 .accordion-wrapper {
 	margin-bottom: 6rem;
 	p.accordion-item-heading {
-		color: $brand-color;
-		fill: $brand-color;
+		color: v(brand);
+		fill: v(brand);
 		svg {
 			height: 36px;
 			width: 36px;

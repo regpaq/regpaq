@@ -1,58 +1,84 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
+// --------------------------------------------------------
+//			Variables
+// --------------------------------------------------------
 
-$Monospace: Overpass Mono, monospace;
-$SansSerif: Overpass, sans-serif;
+// Font
+$Monospace: 				Overpass Mono, monospace;
+$SansSerif: 				Overpass, sans-serif;
 $base-font-size:            13px !default;
 $base-font-weight:          400 !default;
 $small-font-size:           $base-font-size * 0.875 !default;
+
+// Spacing
 $base-size:                 16px !default;
 $base-line-height:          1.6 !default;
-
 $spacing-unit:              8px !default;
 
-$brand-color:               #BEA761 !default;
-$dark-brand-color:          #3c382c !default; 
-$dark-brand-faded:          #27251f !default;
-$darker-brand:			    #8C7C52 !default;
-$alt-color:                 #9E2D3A !default; //#2FFF9F
-$text-color:                #7F7F7F !default; // #9f9f9f
-$bold-text-color:           #BBBBBB !default;
-$heading-color:             #efefef !default; // #F7F7F9
-$dark-background-color:     #000000 !default; // #030419
-$dark-background-highlight: #181827 !default;
-
-$grey-color:                #7F7F7F !default;
-$grey-color-light:          #2C2D3B !default;
-$grey-color-dark:           #4a4a4a !default;
-
+// Tables
 $table-text-align:          left !default;
 
-// Width of the content area
+// Media Query Widths
 $small:                     375px !default;
 $shmedium:                  568px !default;
 $medium:                    768px !default;
 $regular:                   1024px !default;
 $large:                     1280px !default;
+$xlarge:					1440px !default;
+$xxlarge:					1700px !default;	
 
-// NOTE: add in content container sizes - e.g. 600px and 740px
-// and make card layouts fluid
+// Color Themes
+$light-colors: (
+	bg:						#FFFFFF,
+	bg-highlight:			#F5F2EC,
+	brand:					#BEA761,
+	brand-highlight:		#D1BE84,
+	text:					#1E152A,
+	text-lighter:			#5D5D5D,
+	alt:                 	#9E2D3A,
+	heading:				#1E152A,
+);
 
-// Media Query Mixin
+$dark-colors: (
+	bg:						#000000,
+	bg-highlight:			#181827,
+	brand:					#BEA761,
+	brand-highlight:		#8C7C52,
+	brand-darkest:			#3c382c,
+	brand-darkest-faded:	#27251f,
+	alt:					#9E2D3A,
+	text:					#7F7F7F,
+	text-lighter:			#2C2D3B,
+	bold:           		#BBBBBB,
+	heading:				#efefef,
+);
+
+// --------------------------------------------------------
+//			Mixins and Functions
+// --------------------------------------------------------
+
+// Easier CSS Variables to use in .scss files
+@function v($color-name) {
+	@return var(--color-#{$color-name});
+}
+
+// 			Media Queries
+// --------------------------------------------------------
 @mixin media-query($device) {
 	@media screen and (min-width: $device) {
 		@content;
 	}
 }
 
-// Fluid Typography - must all be in px units
+// 			Fluid Typography (must be in px)
+// --------------------------------------------------------
 $min_width:                 320px;
 $max_width:                 $large;
 $min_font:                  $base-size;
 $max_font:                  22px;
-$mod_1:                     1.2; // mobile
-$mod_2:                     1.6; // desktop
+$mod_1:                     1.2; // Mobile
+$mod_2:                     1.6; // Desktop
 @function strip-unit($value) {
 	@return $value / ($value * 0 + 1);
 }
@@ -65,10 +91,62 @@ $mod_2:                     1.6; // desktop
         font-size: $max-font-size;
     }
 }
-// End Fluid Typography
 
+// 			Grid Widths
+// --------------------------------------------------------
 
-// Import Partials
+// Full width up to shmedium, then normal
+@mixin grid-full-width-normal { 
+	grid-column: 1 / 17;
+	@include media-query($shmedium) {
+		grid-column: 3 / 15;
+	}
+	@include media-query($regular) {
+		grid-column: 4 / 14;
+	}
+	@include media-query($xlarge) {
+		grid-column: 5 / 13;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 6 / 12;
+	}
+}
+
+// Normal width such as main content paragraphs
+@mixin grid-normal {
+	grid-column: 2 / 16;
+	@include media-query($shmedium) {
+		grid-column: 3 / 15;
+	}
+	@include media-query($regular) {
+		grid-column: 4 / 14;
+	}
+	@include media-query($xlarge) {
+		grid-column: 5 / 13;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 6 / 12;
+	}
+}
+
+// Normal width up to regular, then 1 grid col wider
+@mixin grid-wide {
+	grid-column: 2 / 16;
+	@include media-query($regular) {
+		grid-column: 3 / 15;
+	}
+	@include media-query($xlarge) {
+		grid-column: 4 / 14;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 5 / 13;
+	}
+}
+
+// --------------------------------------------------------
+//			Import Partials
+// --------------------------------------------------------
+
 @import
 	"theme/base",
 	"theme/layout",

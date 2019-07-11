@@ -1,24 +1,24 @@
-// --------------------------------------------------------
-//          All Types of Article Card Layouts
-//          For Mobile and Above
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            All Types of Article Card Layouts
+            For Mobile and Above
+-------------------------------------------------------- */
 .featured-articles {
-    background-color: $dark-background-highlight;
+    background-color: v(bg-highlight);
     margin: 0 0 5rem 0;
     padding: 2rem 0;
-    // Keep overflow scroll on small screens
+    /* Keep overflow scroll on small screens */
     .container-overflow {
         max-width: 100%;
         padding-left: 0;
         padding-right: 0;
-        @include media-query($small) {
-            padding-left: $spacing-unit * 2;
-        }
+        // @include media-query($small) {
+        //     padding-left: $spacing-unit * 2;
+        // }
         @include media-query($medium) {
             padding-left: 0;
         }
     }
-    // Heading
+    /* Heading */
     .featured-article-header {
         padding-left: $spacing-unit * 2;
         display: flex;
@@ -27,34 +27,31 @@
         @include media-query($small) {
             padding-left: 0;
         }
-        h2 { // Latest Articles
+        h2 { /* `Latest Articles` */
             margin-top: 0;                
         }
-        .see-more { // See More
+        .see-more { /* `See More` */
             font-family: $Monospace;
             font-size: 1rem;
             padding-right: 16px;
-            color: $alt-color;
+            color: v(alt);
             margin: 0;            
-            svg { // Arrow 
-                fill: $dark-background-color;
+            svg { /* `Arrow` */ 
+                fill: v(alt);
                 position: relative;
                 top: 4px;
-                width: 18px;
-                height: 18px;
-                background-image: url(/assets/images/svg/coin-accent-fill.svg);
-                background-size: contain;
-                background-repeat: no-repeat;
+                width: 1rem;
+                height: 1rem;
             }
             @include media-query($medium) {
                 display: none;
             }
         }
     }
-    // Article Card Container
+    /* Article Card Container */
     .article-container {
         position: relative;
-        height: 223px; // based on height of li item (article card)
+        height: 223px; /* Based on height of li item (article card) */
         overflow-x: scroll;
         scroll-behavior: smooth;
         h3 {
@@ -70,7 +67,7 @@
         li {
             width: 286px;
             height: 215px;
-            background-color: $dark-background-color;
+            background-color: v(bg);
             border-radius: 5px;
             padding-bottom: $spacing-unit;
             margin: 0 $spacing-unit * 2 0 0;
@@ -96,9 +93,9 @@
                 .post-meta {
                     display: inherit;
                     margin: 0;
-                    color: $grey-color-dark;
+                    color: v(text-lighter);
                     svg {
-                        fill: $grey-color-dark;
+                        fill: v(text-lighter);
                         width: .8rem;
                         height: .8rem;
                         padding-right: $spacing-unit * .5;
@@ -152,17 +149,17 @@
         }
     }
 }
-// --------------------------------------------------------
-//          Non Overflow Layouts Only (.reveal)
-//          For Mobile and Above
-// --------------------------------------------------------
-.article-container.reveal { // Removes overflow
+/* --------------------------------------------------------
+            Non Overflow Layouts Only (`.reveal`)
+            For Mobile and Above
+-------------------------------------------------------- */
+.article-container.reveal { /* Removes overflow */
     height: auto;
     overflow-x: inherit;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    ul.post-list.reveal { // All articles shown in 1 col, then 2 when room
+    ul.post-list.reveal { /* All articles shown in 1 col, then 2 when room */
         position: relative;
         min-width: initial;
         display: grid;
@@ -180,13 +177,26 @@
         }      
     }
 }
-// --------------------------------------------------------
-//          Applies to Both Type of Article Card Layouts
-//          For Layouts Tablet and Above
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Applies to Both Type of Article Card Layouts
+            For Layouts Tablet and Above
+-------------------------------------------------------- */
+.featured-articles > div {
+        max-width: 1400px !important; // change to not need important
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        margin: 1rem auto;
+        width: 100%;
+        > * {
+            grid-column: 2 / 17;
+            @include media-query($medium) {
+                grid-column: 2 / 16;
+            }
+        }
+    }
 .article-container, .article-container.reveal {
     @include media-query($medium) {
-        ul.post-list, ul.post-list.reveal { // New 2 col grid with larger first row
+        ul.post-list, ul.post-list.reveal { /* New 2 col grid with larger first row */
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1.3fr 1fr;
             grid-gap: $spacing-unit * 4;
@@ -202,7 +212,7 @@
                     height: 125px;
                 }
             }
-            .article-0 { // class of 1st item to be enlarged
+            .article-0 { /* For 1st item to be enlarged */
                 grid-column: 1 / 3;
                 grid-row: 1 / 2;
                 display: flex;
@@ -229,7 +239,7 @@
         }
     }
     @include media-query($regular) {
-        ul.post-list, ul.post-list.reveal { // New 3 col grid with larger first row
+        ul.post-list, ul.post-list.reveal { /* New 3 col grid with larger first row */
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 2fr 1fr;
             .article-0 {
@@ -245,7 +255,7 @@
     }
     @include media-query($large) {
         width: $large;
-        ul.post-list, ul.post-list.reveal { // Same grid just larger
+        ul.post-list, ul.post-list.reveal { /* Same grid just larger */
             .article-0 {
                 img {
                     width: 65.72826986%;

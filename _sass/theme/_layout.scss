@@ -1,40 +1,22 @@
-// --------------------------------------------------------
-//        Container Size
-// --------------------------------------------------------
-.container {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: $spacing-unit * 2;
-	padding-left: $spacing-unit * 2;
-	max-width: 415px;
-	@include media-query($shmedium) {
-		max-width: 100%;
-	}
-	@include media-query($medium) {
-		padding-right: 0;
-		padding-left: 0;
-		width: calc(#{$medium} - (#{$spacing-unit} * 8));
-	}
-	@include media-query($regular) {
-		width: calc(#{$regular} - (#{$spacing-unit} * 8));
-	}
-	@include media-query($large) {
-		width: calc(#{$large} - (#{$spacing-unit} * 8));
-	}
-}
-// --------------------------------------------------------
-//        Header and Footer Layout
-// --------------------------------------------------------
+/* --------------------------------------------------------
+			Header and Footer Layout
+-------------------------------------------------------- */
 .site-header {
-	margin: $spacing-unit * 2 0;
-	@include media-query($shmedium) {
-		margin: $spacing-unit * 3 0;
+	max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+	margin: 1rem auto;
+	width: 100%;
+	> * {
+		grid-column: 2 / 16;
+		margin: 0;
 	}
-	@include media-query($regular) {
-		margin-bottom: $spacing-unit * 8;
+	.site-title {
+		grid-column: 2 / 14;
 	}
-	// can all of the above margins for site be a reusable class?
+	#lightswitch {
+		grid-column: 14 / 16;
+	}
 	.site-nav {
 		margin: $spacing-unit * 4 0 $spacing-unit * 2 0;
 	}
@@ -45,31 +27,26 @@
 		margin-top: $spacing-unit * 8;
 	}
 }
-// --------------------------------------------------------
-//        Articles & Pages Layout
-// --------------------------------------------------------
+/* --------------------------------------------------------
+			Articles and Pages Layout
+-------------------------------------------------------- */
 .page-content {
 	flex: 1;
 }
 .post-header {
-	margin-top: $spacing-unit * 3;
-	margin-bottom: $spacing-unit * 3;
-	@include media-query($medium) {
-		margin-bottom: $spacing-unit * 8;
-	}
+	margin: 1.5rem 0; // this margin declration should be made a functional css class
 }
-.post-content { // make more responsive
-	margin-bottom: $spacing-unit * 6;
-	@include media-query($medium) {
-		margin-bottom: $spacing-unit * 25;
-	}
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, .job-title, .job-info {
-		@extend .container;
-		@include media-query($shmedium) {
-			max-width: 600px; // make more dynamic 
-		}
-		@include media-query($regular) {
-			max-width: 740px;
-		}
-	}
+.post-content {
+	display: grid;
+    grid-template-columns: repeat(16,1fr);
+    max-width: 2000px;
+    margin: 0 auto 4rem auto; //delete in existing
+    > * {        
+        padding: 0; //delete in existing
+        margin-left: 0; //delete in existing
+        margin-right: 0;  //delete in existing
+        max-width: unset;  //delete in existing
+        width: unset;
+        @include grid-normal;
+    }
 }

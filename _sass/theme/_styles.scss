@@ -1,6 +1,6 @@
-// --------------------------------------------------------
-//          Font Sizes, Styles, and Colors
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Font Sizes, Styles, and Colors
+-------------------------------------------------------- */
 html, body {
     font: $base-font-weight #{$base-size}/#{$base-line-height} $SansSerif;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 900;
     font-family: $SansSerif;
     line-height: 1.2;
-    color: $heading-color;
+    color: v(heading);
     }
 h1 {  
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
@@ -29,23 +29,32 @@ h3 {
 }
 h5 {
     font-family: $Monospace;
-    color: $alt-color;
+    color: v(alt);
     margin-bottom: .4rem;
 }
 a {
-    color: $brand-color;
+    color: v(brand);
     text-decoration: none;
     &:hover {
-      color: $brand-color;
+      color: v(brand);
       text-decoration: none;
     }
 }
-// --------------------------------------------------------
-//          Header and Nav Styles
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Main Header and Nav Styles
+-------------------------------------------------------- */
 #logo {
     margin: 0;
-    max-width: 4rem;
+    max-width: 5rem;
+    &:hover {
+        #LetterP {
+            transform: translatex(50px);
+            transition: 0.2s;
+        }
+    }
+    #LetterP {
+        transition: 0.4s;
+    }
 }
 .site-nav a {
     &:not(:last-child) {
@@ -54,13 +63,13 @@ a {
 }
 .hashtag-nav a {
     margin: 0;
-    color: $text-color;
-    background-color: $grey-color-light;
-    border-radius: 4px;
-    padding: .15rem;
+    color: v(text-light);
+    background-color: v(bg-highlight);
+    border-radius: 3px;
+    padding: .15rem .25rem;
     line-height: 2;
     &:hover {
-        color: $heading-color;
+        color: v(heading);
     }
     &:first-child {
         margin-left: .5rem;
@@ -69,34 +78,28 @@ a {
         margin-right: .2rem;
     }
 }
-// --------------------------------------------------------
-//          Footer Styles
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Footer Styles
+-------------------------------------------------------- */
 #footer-cta {
     background-image: url(/assets/images/svg/coin-grey-fill.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: fit-content;
     svg {
-        fill: $dark-brand-faded;
+        fill: v(brand-darkest-faded);
         padding: 13px 14px 14px 14px;
         cursor: pointer;
         width: 1.1rem;
-        height: 1.1rem; 
-        &:hover {
-            fill: $brand-color;
-        }     
+        height: 1.1rem;    
     }    
 }
 #bottom-foot {    
     svg {
-        fill: $text-color;
+        fill: v(text);
         width: 1rem;
         height: 1rem;
-        vertical-align: middle;
-        &:hover {
-            fill: $brand-color;
-        }     
+        vertical-align: middle; 
     }
     ul {
         text-align: center;
@@ -108,17 +111,43 @@ a {
                 margin-right: 1rem;
             }
             a {
-                color: $text-color;
+                color: v(text);
                 &:hover {
-                    color: $brand-color;
+                    color: v(brand);
                 }     
             }
         }
     }
 }
-// --------------------------------------------------------
-//          Articles & Pages Styles
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Articles & Pages Styles
+-------------------------------------------------------- */
+.post-header {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-gap: 1rem 0;
+    padding: 0; //delete in existing
+    width: unset; //delete in existing or remove after .container styles removed
+    margin-left: auto;
+    margin-right: auto;
+    .post-title {
+        grid-row: 1;
+        grid-column: 2 / 16;
+        margin: 0; //delete in existing
+    }
+    .article-subtitle {
+        grid-row: 2;
+        grid-column: 2 / 16;
+        margin: 0; //delete in existing
+    }
+    .post-meta {
+        grid-row: 3;
+        grid-column: 2 / 16;
+        position: relative; // for #ring
+        margin: 0; //delete in existing
+    }
+}
 .article-subtitle {
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
 }
@@ -174,11 +203,11 @@ a {
         align-self: end;
         margin-bottom: .1rem; 
         a:hover {
-          color: $brand-color;
+          color: v(brand);
         }
     }
     svg {
-        fill: $text-color;
+        fill: v(text);
         width: .85rem;
         height: .85rem;
         padding-right: .25rem;
@@ -193,7 +222,7 @@ a {
     }
 }
 .post-content {
-    // Link and Bold styling
+    /* Link and Bold styling */
     h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { // keep style for links in headings
         color: inherit;
         font-size: inherit;
@@ -209,61 +238,93 @@ a {
         font-weight: normal;
         padding: .15rem .25rem;
         font-size: .85rem;
-        background-color: $grey-color-light;
+        background-color: v(bg-highlight);
     }
     strong {        
-        color: $heading-color;
+        color: v(heading);
     }
     a {
-        color: $brand-color;
+        color: v(brand);
         &:hover {
-            background-color: $dark-brand-color;
+            background-color: v(brand-darkest);
         }
     }
-    // Quotes
+    /* Bigger First Paragraph */
+    .feat-img + p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        font-style: italic;
+        a {
+            font-size: 1.25rem;
+        }
+    }
+    /* Quotes */
     blockquote {
         @extend .container;
         font-style: italic;    
         font-size: .9rem;
-        border-left: .3rem solid $alt-color;
-        font-weight: 200;
-        padding: 1rem 1rem 1rem calc(2rem - .3rem);
+        border: .1rem solid v(alt);
+        box-shadow: 0.35rem 0.35rem 0 v(alt);
+        border-radius: 3px;
+        padding: 0;
+        font-weight: 200;        
         color: inherit;
-        border-top: 1px solid #9e2d3a6e;
-        border-right: 1px solid #9e2d3a6e;
-        border-bottom: 1px solid #9e2d3a6e;
-        // border-radius: 5px;
-        > blockquote { // targets child bq - usually author credit
-            padding: 0;
-            margin: 0;
-            border: none;
-        }
         > p {
-            padding: 0;
-            margin: 0 0 .45rem 0; // smaller margin
-            max-width: 100%;
+            padding: .75rem 2rem;
+            margin: 0;
+            max-width: fit-content;
             a {
                 background-color: unset;
-                color: $darker-brand;
+                color: v(brand);
+                font-weight: bold;
                 &:hover {
                     background-color: unset;
-                    &:hover {
-                        color: #BEA761;
-                    }
+                }
+            }
+        }
+        > blockquote { /* targets only child bq - usually author credit */
+            border: 0;
+            margin: 0 2rem;
+            width: unset;
+            box-shadow: none;
+            border-top: .1rem solid v(alt);
+            border-radius: 0;
+            font-family: $Monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: .75rem;
+            > p {
+                padding: .75rem 0 1rem;
+                > a {
+                    font-size: .75rem;
                 }
             }
         }
     }
     blockquote.big-quote {
-        max-width: 80%; // needs a better width container thingy
-        padding: 0;
+        @include grid-wide;
+        margin: 1rem 0 3rem 0;
         border: none;
-        color: $heading-color;
+        box-shadow: none;
+        color: v(heading);
         font-size: 1.75rem;
         line-height: 1.2;
-        margin-bottom: 2rem;
+        > p {
+            padding: 0; //delete in existing
+            margin: 0; //delete in existing if any
+            width: unset; //delete in existing
+        }
+        > blockquote {
+            border: none;
+            @include media-query($medium) {
+                margin: 0; //delete in existing
+            }
+        }
+        > blockquote > p {
+            padding: .75rem 0; //delete in existing
+        }
     }
-    // Lists
+    /* Ordered and Unordered Lists */
     ul {
         list-style-type: none;
         @include media-query($regular) { // needs to change once figure out content width
@@ -277,7 +338,7 @@ a {
                 display: block;
                 height: .3rem;
                 width: .3rem;
-                background-image: url(/assets/images/svg/coin-bullet.svg);
+                background-image: url(/assets/images/svg/coin-bullet-dark.svg);
                 background-size: contain;
                 background-repeat: no-repeat;
                 margin-left: -1.5rem;
@@ -296,117 +357,153 @@ a {
             &::before {
                 content: counter(counter, upper-roman);
                 counter-increment: counter;
-                color: #fff;
+                color: v(heading);
                 position: absolute;
                 margin-left: -3rem;
             }
         }
-        .counter-reset { // used in .md files to continue ol with <p> in between
-            counter-reset: auto;
-        }
+    }
+    ol.counter-reset { // used in .md files to continue ol with <p> in between
+        counter-reset: auto;        
     }
 }
-// --------------------------------------------------------
-//          Image Styles
-// --------------------------------------------------------
+/* --------------------------------------------------------
+            Image Styles
+-------------------------------------------------------- */
 img {
     max-width: 100%;
     display: block;
     margin: $spacing-unit * 2 auto;
 }
-.post-content {
-    // Featured image - applies on post and article card
-    .feat-img {
-        margin: 0 auto 4rem auto;
-        width: 100%;
-        max-width: 2000px;
-    }
-    // Small Image that Floats Left
-    p.sml-img {
+.figure {
+    position: relative;
+    z-index: 10;
+    a {
         padding: 0;
-        > a > img, > img { // will apply whether link or not
-            max-width: 100%;
-            width: unset;
-            margin: 0;
-            @include media-query($shmedium) {
-                max-height: 14rem;            
-                max-width: 20rem;
-                float: left;
-                margin: 0 auto;
-                padding-right: 1.5rem;
-                padding-bottom: 1rem;
-            }
-        }
-        > a { // removes odd link behavior around images
-            display: contents;
-        }
     }
-    // Three Images
-    p.img-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: .65rem;
-        max-width: 1032px;
+    figcaption {
+        font-size: .75rem;
+        margin-top: .2rem;
+    }
+}
+/* Featured image - applies on post and article card */
+.feat-img {
+    grid-column: 1 / 17;
+    max-width: 100%;  //delete in existing
+    margin: 0 auto 2rem auto;
+    width: 100%;
+}    
+/* Small Image that Floats Left */
+.figure--sml--left {    
+    float: left;
+    margin: 0 auto;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    img {
+        max-height: 14rem;            
+        max-width: 20rem;
         width: unset;
-        padding: 0;
-        > a > img, > img { // will apply whether link or not
-            margin: 0;
-        }
+        margin: 0;
     }
-    // Two Images
-    p.img-2 {
-        @extend .img-3;
-        grid-template-columns: 1fr 1fr;
-        max-width: 740px;
+}
+/* Three Images */
+p.img-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: .65rem;
+    max-width: 1032px;
+    width: unset;
+    padding: 0;
+    > a > img, > img { // will apply whether link or not
+        margin: 0;
     }
-    // Three Small Images
-    p.sml-img-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: .65rem;
-        width: unset;
-        padding: 0;        
-        > a > img, > img { // will apply whether link or not
-            margin: 0;
-        }
+}
+/* Two Images */
+p.img-2 {
+    @extend .img-3;
+    grid-template-columns: 1fr 1fr;
+    max-width: 740px;
+}
+/* Three Small Images */
+p.sml-img-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: .65rem;
+    width: unset;
+    padding: 0;        
+    > a > img, > img { // will apply whether link or not
+        margin: 0;
     }
-    // Gallery of Four Images
-    p.med-img-4 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: .65rem;
-        grid-row-gap: .65rem;
-        padding: 0;
-        max-width: 740px;
-        img {
-            margin: 0;
-        }
+}
+/* Gallery of Four Images */
+p.med-img-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .65rem;
+    grid-row-gap: .65rem;
+    padding: 0;
+    max-width: 740px;
+    img {
+        margin: 0;
     }
-    // Extra Large Image
-    p.xlg-img {
-        width: unset;
-        max-width: 2500px;
-        padding: 0;
-        img {
-            max-width: 100%;
-        }
+}
+/* Extra Large Image */
+p.xlg-img {
+    width: unset;
+    max-width: 2500px;
+    padding: 0;
+    img {
+        max-width: 100%;
     }
-    // Large Image
-    p.lg-img {
-        width: unset;
-        padding: 0;
-        max-width: 1200px;
-        img {
-            max-width: 100%;
-        }
+}
+/* Large Image */
+p.lg-img {
+    width: unset;
+    padding: 0;
+    max-width: 1200px;
+    img {
+        max-width: 100%;
     }
-    // Large Portrait Image
-    p.lg-img-pt {
-        width: unset;
-        max-width: 900px;
-        padding: 0;
-        img {
-            max-width: 100%;
-        }
+}
+/* Large Portrait Image */
+p.lg-img-pt {
+    width: unset;
+    max-width: 900px;
+    padding: 0;
+    img {
+        max-width: 100%;
     }
+}
+.svg-tiny {
+	display: inline;
+	margin: 0;
+	height: .75rem;
+	width: .75rem;
+	margin-right: .2rem;
+	position: relative;
+	top: .145rem;
+}
+.svg-small {
+	display: inline;
+	margin: 0;
+	height: .85rem;
+	width: .85rem;
+	margin-right: .2rem;
+	position: relative;
+	top: .165rem;
+}
+.svg-reg {
+	display: inline;
+    margin: 0;
+    height: 1em !important;
+    width: 1em !important;
+    position: relative;
+    top: .1rem;
+	margin-left: .5rem;
+	margin-bottom: 0 !important;
+	&--left {
+		@extend .svg-reg;
+		margin-left: 0 !important;
+		margin-right: .2rem !important;
+	}
 }

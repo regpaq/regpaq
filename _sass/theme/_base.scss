@@ -1,25 +1,23 @@
-// --------------------------------------------------------
-//        Basic Elements
-// --------------------------------------------------------
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
+/* --------------------------------------------------------
+			Basic Elements
+-------------------------------------------------------- */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
 }
 body {
-  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $SansSerif;
-  color: $text-color;
-  background-color: $dark-background-color;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+	// font: $base-font-weight #{$base-font-size}/#{$base-line-height} $SansSerif;
+	color: v(text);
+	background-color: v(bg);
+		-webkit-text-size-adjust: 100%;
+		-webkit-font-feature-settings: "kern" 1;
+		-moz-font-feature-settings: "kern" 1;
+		-o-font-feature-settings: "kern" 1;
+		font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 main {
   // Default value of `display` of `main` element is 'inline' in IE 11.
@@ -30,13 +28,27 @@ main {
   display: table;
   clear: both;
 }
-// --------------------------------------------------------
-//        Code Formatting
-// --------------------------------------------------------
+/* --------------------------------------------------------
+			Colors
+-------------------------------------------------------- */
+/* Convert SASS Variables > CSS Variables */
+html[data-theme="light"] {
+	@each $name, $color in $light-colors {
+		--color-#{$name}: #{$color};
+	}
+}
+html[data-theme="dark"] {
+	@each $name, $color in $dark-colors {
+		--color-#{$name}: #{$color};
+	}
+}
+/* --------------------------------------------------------
+			Code Formatting
+-------------------------------------------------------- */
 pre,
 code {
   // @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid v(text);
   border-radius: 3px;
   background-color: #eef;
 }
@@ -52,30 +64,30 @@ pre {
     padding-left: 0;
   }
 }
-// --------------------------------------------------------
-//        Tables
-// --------------------------------------------------------
+/* --------------------------------------------------------
+			Tables
+-------------------------------------------------------- */
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: v(text);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid v(text);
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: v(text);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: v(text);
+    border: 1px solid v(text);
+    border-bottom-color: v(text);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid v(text);
   }
 }

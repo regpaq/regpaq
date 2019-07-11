@@ -37,7 +37,7 @@ This is a never ending trap. There will always be someone to compare yourself to
 
 > “Everyone gets one life. Yours is almost used up, and instead of treating yourself with respect, you have entrusted your own happiness to the souls of others.”
 >
-> > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
+> > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
 ## Understand Fate and Luck Always Play a Significant Role in Someone’s Success
 
@@ -54,7 +54,7 @@ In a Q&A with White House interns, President Obama gave advice on the subject lu
 
 > “A lot of times, it’s just happenstance. Or things work out. But being useful? And having a satisfying life? And making a contribution? That is entirely within your control. Orient yourself towards having an impact and making a difference. And you will and you’ll be happy doing it.”
 >
-> > — Former President Barack Obama
+> > Former President Barack Obama
 
 ## Instead of Comparing Yourself to Others Or Who You Were Yesterday, Find Your True Path
 
@@ -62,20 +62,20 @@ Productivity is worthless if you’re on a false path. Your goal and motivation 
 
 > “People who labor all their lives but have no purpose to direct every thought and impulse toward are wasting their time — even when hard at work.”
 >
-> > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
+> > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 {: .big-quote}
 
 Your true path is doing what you were made for — what you feel you have an inclination and natural ability for. This inclination is a reflection of your unique genetic code, deep underlying preferences for particular activities or forms of expression. When you find your true path, you’ll be less inclined to compare your success with someone else. **You will quickly realize their path isn’t a good fit for you.** And you won’t be as inclined to envy their money, attention, or whatever, because craving those things is a false path.
 
 > “In the end, the money and success that truly last come not to those who focus on such things as goals, but rather to those who focus on mastery and fulfilling their Life’s Task.”
 >
-> > — [Robert Greene, Mastery](/mastery-summary-quotes-robert-greene)
+> > Robert Greene, [Mastery](/mastery-summary-quotes-robert-greene)
 
 The need to compare yourself to others is restrained when you’re happy and comfortable with who you are, which comes from being on your true path and working on your Life’s Task. You will no longer envy other peoples’ success and happiness, and you will instead be laser-focused on your own work.
 
 > “Don’t aim at success — the more you aim at it and make it a target, the more you are going to miss it. For success, like happiness, cannot be pursued; it must ensue, and it only does so as the unintended side-effect of one’s dedication to a cause greater than oneself…”
 >
-> >  — Viktor Frankl, Man’s Search for Meaning
+> >  Viktor Frankl, Man’s Search for Meaning
 
 But you can’t be disciplined, happy, and confident all the time. I’ve made journaling a daily habit of mine to give myself the opportunity to reflect on and ground my thoughts. It’s an exercise that has helped me live a more level-headed and purposeful life.
 
@@ -83,6 +83,6 @@ But you can’t be disciplined, happy, and confident all the time. I’ve made j
 
 > “Ignoring what goes on in other people’s souls — no one ever came to grief that way. But if you won’t keep track of what your own soul’s doing, how you can you not be unhappy?”
 >
-> > — [Marcus Aurelius, Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
+> > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
 Comparing yourself to others is a recipe for disaster. Comparing yourself to who you were yesterday is a recipe for passivity. Life is not about being better than other people. It’s not about achieving more than people in our circles. **Life is about being useful to others.**

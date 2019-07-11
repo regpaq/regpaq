@@ -17,8 +17,7 @@ Why?
 
 Habits have an exponential effect on your life over time and the sooner you start good habits and stop bad ones, the better your life will be in the short and long term.
 
-[![Link to Amazon](/assets/images/atomic1.png)](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"}
-{: .a-img .sml-img}
+{% include figure.html image="/assets/images/atomic1.png" caption="Buy Atomic Habits on Amazon" position="left" size="sml" link="https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74" %}
 
 It will teach you how to actually start good habits, how to stop bad ones, and show you why paying attention to what you’re doing on a day-by-day basis really matters. Your day-to-day behavior is the single most important factor in determining the type of person you will be when you grow up.
 

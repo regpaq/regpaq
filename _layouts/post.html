@@ -10,7 +10,7 @@ layout: default
 			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<span itemprop="name"><a href="/about">{{ page.author }}</a></span>
 			</span>
-			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}{% include /svg/calendar.svg %}{{ page.date | date: date_format }}</time>
+			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">

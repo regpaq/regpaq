@@ -14,7 +14,7 @@ layout: default
 				{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
 				<li class="article-{{ i }}">
 					{% assign i = i | plus:1 %}
-					{% if post.featured-image %}<a style="display: contents;" href="{{ post.url | relative_url }}">{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}</a>{% endif %}
+					{% if post.featured-image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.featured-image alt=post.featured-image-alt %}</a>{% endif %}
 					<div class="article-info">
 						<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
 						{%- if post.description -%}

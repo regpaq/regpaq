@@ -9,7 +9,7 @@ description: Multi-skilled B2B marketer with seven years of experience. Formerly
 ##### WORK EXPERIENCE
 
 <div class="job-title" id="chilipiper">
-<img class="svg" src="/assets/images/svg/chilipiper.svg"><h2>Chili Piper</h2>
+<h2>Chili Piper</h2>
 </div>
 
 <div class="job-info">
@@ -32,7 +32,9 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 {% assign subpage = site.posts | where: 'post-id', '20' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '21' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '22' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '23' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '23' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}    
+
+
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
@@ -49,7 +51,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 
 
 <div class="job-title" id="servicetitan">
-<img class="svg" src="/assets/images/svg/servicetitan-white.svg"><h2>ServiceTitan</h2>
+<h2>ServiceTitan</h2>
 </div>
 
 <div class="job-info">
@@ -94,7 +96,7 @@ ServiceTitan is the #1 management software for residential home service companie
 </div>
 
 <div class="job-title" id="eyemagine">
-<img class="svg" src="/assets/images/svg/eyemagine.svg"><h2>EYEMAGINE</h2>
+<h2>EYEMAGINE</h2>
 </div>
 
 <div class="job-info">
@@ -130,7 +132,7 @@ eCommerce web development and inbound marketing agency.
 </div>
 
 <div class="job-title" id="paquettemarketing">
-<img class="svg" src="/assets/images/svg/eyemagine.svg"><h2>Paquette Marketing</h2>
+<h2>Paquette Marketing</h2>
 </div>
 
 <div class="job-info">

@@ -68,18 +68,21 @@
             width: 286px;
             height: 215px;
             background-color: v(bg);
-            border-radius: 5px;
+            border-radius: 3px;
             padding-bottom: $spacing-unit;
             margin: 0 $spacing-unit * 2 0 0;
             display: inline-block;
             vertical-align: top;
+            figure {
+                border-radius: 3px 3px 0 0;
+                margin-bottom: 1rem;
+            }
             img {
-                border-radius: 5px 5px 0 0;
+                border-radius: 3px 3px 0 0;
                 height: 86px;
                 width: 286px;
                 object-fit: cover;
-                object-position: 50% 40%;
-                margin-bottom: 1rem;
+                object-position: 50% 40%;                
                 margin-top: 0;
             }
             .article-info {
@@ -199,7 +202,7 @@
         ul.post-list, ul.post-list.reveal { /* New 2 col grid with larger first row */
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1.3fr 1fr;
-            grid-gap: $spacing-unit * 4;
+            grid-gap: 1rem;
             li {
                 // width: inherit;
                 height: inherit;
@@ -215,23 +218,27 @@
             .article-0 { /* For 1st item to be enlarged */
                 grid-column: 1 / 3;
                 grid-row: 1 / 2;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                img {
-                    width: 65%;
-                    height: 100%;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 1rem;
+                a {
+                    grid-column: 1 / 3;
+                }
+                figure {
                     margin: 0;
-                    border-radius: 5px 0 0 5px; 
+                    border-radius: 3px 0 0 3px;
+                    height: 100%
+                }
+                img {
+                    height: 100%;
+                    border-radius: 3px 0 0 3px; 
                 }
                 .article-info {
-                    max-width: 35%;
+                    grid-column: 3 / 4;
+                    align-self: center;
                     padding: 0;
                     h3, p {
-                        max-width: 80%;
-                        margin-right: auto;
-                        margin-left: auto;
+                        margin-right: 1rem;
                     }
                 }
                 
@@ -249,19 +256,6 @@
                 }
                 .post-meta {
                     margin-bottom: 0;
-                }
-            }
-        }
-    }
-    @include media-query($large) {
-        width: $large;
-        ul.post-list, ul.post-list.reveal { /* Same grid just larger */
-            .article-0 {
-                img {
-                    width: 65.72826986%;
-                }
-                .article-info {
-                    max-width: 34.27173014%;
                 }
             }
         }

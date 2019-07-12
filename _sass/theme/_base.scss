@@ -29,20 +29,6 @@ main {
   clear: both;
 }
 /* --------------------------------------------------------
-			Colors
--------------------------------------------------------- */
-/* Convert SASS Variables > CSS Variables */
-html[data-theme="light"] {
-	@each $name, $color in $light-colors {
-		--color-#{$name}: #{$color};
-	}
-}
-html[data-theme="dark"] {
-	@each $name, $color in $dark-colors {
-		--color-#{$name}: #{$color};
-	}
-}
-/* --------------------------------------------------------
 			Code Formatting
 -------------------------------------------------------- */
 pre,

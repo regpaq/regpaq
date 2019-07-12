@@ -33,25 +33,28 @@ $light-colors: (
 	bg:						#FFFFFF,
 	bg-highlight:			#F5F2EC,
 	brand:					#BEA761,
-	brand-highlight:		#D1BE84,
+	brand-highlight:		#f6ead1,
 	text:					#1E152A,
-	text-lighter:			#5D5D5D,
+	text-lighter:			#7F7F7F,
 	alt:                 	#9E2D3A,
 	heading:				#1E152A,
+	blockquote:				#9E2D3A,
+	highlight:				#F5F2EC,
 );
 
 $dark-colors: (
 	bg:						#000000,
-	bg-highlight:			#181827,
+	bg-highlight:			#13131b,
 	brand:					#BEA761,
-	brand-highlight:		#8C7C52,
-	brand-darkest:			#3c382c,
+	brand-highlight:		#353022,
 	brand-darkest-faded:	#27251f,
 	alt:					#9E2D3A,
-	text:					#7F7F7F,
-	text-lighter:			#2C2D3B,
+	text:					#aeaca9,
+	text-lighter:			#7F7F7F,
 	bold:           		#BBBBBB,
 	heading:				#efefef,
+	blockquote:				#7e2b34,
+	highlight:				#222234,
 );
 
 // --------------------------------------------------------

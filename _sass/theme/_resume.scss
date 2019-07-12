@@ -57,6 +57,11 @@
 			grid-row: 1 / 4;
 			margin: 0 0 0 10px;
 		}
+		img {
+			margin: 0;
+			max-height: 130px;
+			max-width: 130px;
+		}
 	}
 	h1 {
 		grid-column: 1;
@@ -157,6 +162,28 @@
 /* --------------------------------------------------------
 			Work Experience
 -------------------------------------------------------- */
+.job-title {
+	margin-bottom: .5rem;	
+	padding-left: 2.25rem;
+    background-repeat: no-repeat;
+    background-size: 1.72rem 1.72rem;
+	background-position: left center;
+}
+/* Company Logos */
+#chilipiper {
+	background-image: url(/assets/images/svg/chilipiper.svg);
+}
+#servicetitan {
+	background-image: url(/assets/images/svg/servicetitan-dark.svg);
+}
+#eyemagine {
+	background-image: url(/assets/images/svg/eyemagine.svg);
+}
+#paquettemarketing {
+	background-image: url(/assets/images/svg/logo.svg);
+	background-size: 2.5rem 1.85rem;
+	padding-left: 2.5rem;
+}
 .resume .job-title h2 {
 	display: inline;
 	padding-left: 0;		
@@ -164,17 +191,6 @@
 .resume h3 {
 	font-weight: 400;
 	margin-bottom: 0;
-}
-.job-title {
-	margin-bottom: .5rem;	
-	.svg {
-		max-height: 1.5rem;
-		max-width: 1.5rem;        
-		display: inline;
-		vertical-align: baseline;
-		margin-left: 0;
-		margin-right: .5rem;
-	}
 }
 .job-info, .position-info {
 	p {
@@ -222,6 +238,9 @@
 			font-size: .75rem;
 		}
 	}
+}
+.rec-art + .accordion-wrapper {
+    margin-top: 1rem;
 }
 .accordion-wrapper {
 	margin-bottom: 6rem;

@@ -1,9 +1,11 @@
 <header class="site-header" role="banner">
 	<!-- <div class="container"> -->
-		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{% include /svg/logo.svg %}</a>
-		<button id="lightswitch" onclick="handleThemeUpdate()">
-			test
-		</button>
+		<div class="site-title">
+			<a rel="author" href="{{ "/" | relative_url }}">{% include /svg/logo.svg %}</a>
+		</div>
+		<div id="lightswitch" onclick="handleThemeUpdate()">
+			{% include /svg/colosseum.svg %}
+		</div>
 		<nav class="site-nav">
 			<a class="page-link" href="/">Home</a>
 			<a class="page-link" href="/about/">About</a>

@@ -6,11 +6,12 @@ layout: default
 		<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 		<p class="article-subtitle">{{page.description | escape}}</p>
 		<div class="post-meta">
-			<div id="ring"></div><img src="/assets/images/regpaq.jpg" />
+			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
 			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<span itemprop="name"><a href="/about">{{ page.author }}</a></span>
 			</span>
 			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
+			<div id="post-categories">{% for category in page.categories %}<a href="/{{ category | first | slugize }}/">#{{ category }}</a>{% endfor %}</div>
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">

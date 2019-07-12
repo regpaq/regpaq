@@ -5,7 +5,9 @@
             <p>{{ post.description }}</p>
         </div>
         <div class="rec-img">
-            <a href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}/assets/images/{{ post.featured-image }}" alt="{{ post.featured-image-alt }}" /></a>
+            <figure>
+                <a href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}/assets/images/{{ post.featured-image }}" alt="{{ post.featured-image-alt }}" /></a>
+            </figure>
         </div>
     </div>
 </aside>

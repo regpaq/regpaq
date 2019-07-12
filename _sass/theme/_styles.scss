@@ -1,4 +1,83 @@
 /* --------------------------------------------------------
+			Colors
+-------------------------------------------------------- */
+/* Convert SASS Variables > CSS Variables */
+html[data-theme="light"] {
+	@each $name, $color in $light-colors {
+		--color-#{$name}: #{$color};
+	}
+}
+html[data-theme="dark"] {
+	@each $name, $color in $dark-colors {
+		--color-#{$name}: #{$color};
+	}
+}
+/* Dark and Light Mode Dependent Styling */
+@mixin theme-transition($property) {
+    transition: $property 0.5s ease-out 0s;
+}
+body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure {
+    @include theme-transition(background-color);
+}
+.hashtag-nav,.post-header .post-title, .post-header .article-subtitle, .featured-articles ul li p, h1, h2, h3, p {
+    @include theme-transition(color);
+}
+svg {
+    @include theme-transition(fill);
+}
+
+html[data-theme="light"] {
+    #lightswitch {
+        #moon {
+            transform: translate(420px, 420px);            
+        }
+        #sun {
+            transform: translate(1px, 20px);
+        }
+    }
+    #lightswitch:hover {
+        #moon {
+            transform: translate(1px, 20px);
+        }
+        #sun {
+            transform: translate(420px, 420px);
+        }
+    }
+}
+
+html[data-theme="dark"] {
+    .post-content ul li:before {
+        background-image: url(/assets/images/svg/coin-bullet-white.svg);
+    }
+    figure {
+        background-color: #c8ba90;
+    }
+    img {
+        &:not(.svg-reg) {
+            mix-blend-mode: multiply;
+        }
+    }
+    #lightswitch {
+        #sun {
+            transform: translate(420px, 420px);
+        }
+        #moon {
+            transform: translate(1px, 20px);
+        }
+    }
+    #lightswitch:hover {
+        #moon {
+            transform: translate(420px, 420px);
+        }
+        #sun {
+            transform: translate(1px, 20px);
+        }
+    }
+    #servicetitan {
+        background-image: url(/assets/images/svg/servicetitan-white.svg);
+    }  
+}
+/* --------------------------------------------------------
             Font Sizes, Styles, and Colors
 -------------------------------------------------------- */
 html, body {
@@ -43,9 +122,12 @@ a {
 /* --------------------------------------------------------
             Main Header and Nav Styles
 -------------------------------------------------------- */
+.site-title {
+    align-self: center;
+}
 #logo {
     margin: 0;
-    max-width: 5rem;
+    max-width: 5rem;    
     &:hover {
         #LetterP {
             transform: translatex(50px);
@@ -56,6 +138,18 @@ a {
         transition: 0.4s;
     }
 }
+#lightswitch {
+    align-self: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: v(text);
+    :hover {
+        cursor: pointer;
+    }
+    #sun, #moon {
+        transition: all 0.4s;
+    }
+}
 .site-nav a {
     &:not(:last-child) {
         margin-right: 1.5rem;        
@@ -64,7 +158,7 @@ a {
 .hashtag-nav a {
     margin: 0;
     color: v(text-light);
-    background-color: v(bg-highlight);
+    background-color: v(highlight);
     border-radius: 3px;
     padding: .15rem .25rem;
     line-height: 2;
@@ -152,13 +246,15 @@ a {
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
 }
 .post-meta {
-    font-size: .85rem;
+    font-size: .75rem;
+    color: v(text-lighter);
     display: grid;
-    grid-template-columns: 4rem auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 4rem 1fr auto;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: column;
     @include media-query($medium) {
         margin-bottom: $base-size * 1.5;
-        grid-template-columns: 5rem auto;
+        grid-template-columns: 5rem 1fr auto;
     }
     @include media-query($regular) {
         margin-bottom: $base-size * 4;
@@ -181,13 +277,13 @@ a {
             width: 95px;
         }
     }
-    img {      
+    figure {      
         border-radius: 100%;
         grid-column: 1 / 2;
-        grid-row: 1 / 3;
+        grid-row: 1 / 4;
         max-height: 50px;
         max-width: 50px;
-        margin: 0 0 0 3px;
+        margin: 0 0 0 4px; 
         @include media-query($medium) {
             max-height: 70px;
             max-width: 70px;
@@ -197,9 +293,24 @@ a {
             max-height: 80px;
             max-width: 80px;
             margin: 0 0 0 6px;
+        }      
+    }
+    img {
+        border-radius: 100%;
+        max-height: 50px;
+        max-width: 50px;
+        margin: 0;
+        @include media-query($medium) {
+            max-height: 70px;
+            max-width: 70px;
+        }
+        @include media-query($regular) {
+            max-height: 80px;
+            max-width: 80px;
         }
     }
     span {
+        grid-column: 2 / 4;
         align-self: end;
         margin-bottom: .1rem; 
         a:hover {
@@ -208,8 +319,8 @@ a {
     }
     svg {
         fill: v(text);
-        width: .85rem;
-        height: .85rem;
+        width: .75rem;
+        height: .75rem;
         padding-right: .25rem;
         vertical-align: baseline;
         display: inline-flex;
@@ -218,7 +329,26 @@ a {
         position: relative;
     }
     time {
+        grid-row: 2;
+        grid-column: 2;
         margin-top: $spacing-unit * .25;
+        margin-bottom: .1rem; 
+    }
+    #post-categories {
+        margin-top: .25rem;
+        a {
+            border-radius: 3px;
+            font-weight: normal;
+            padding: .15rem .25rem;
+            background-color: v(highlight);
+            color: v(text-lighter);
+            &:not(:first-child) {
+                margin-left: .2rem;
+            }
+        }
+        @include media-query($shmedium) {
+            grid-row: 2;
+        }
     }
 }
 .post-content {
@@ -238,15 +368,15 @@ a {
         font-weight: normal;
         padding: .15rem .25rem;
         font-size: .85rem;
-        background-color: v(bg-highlight);
+        background-color: v(highlight);
     }
     strong {        
-        color: v(heading);
+        color: v(text);
     }
     a {
         color: v(brand);
         &:hover {
-            background-color: v(brand-darkest);
+            background-color: v(brand-highlight);
         }
     }
     /* Bigger First Paragraph */
@@ -263,8 +393,8 @@ a {
         @extend .container;
         font-style: italic;    
         font-size: .9rem;
-        border: .1rem solid v(alt);
-        box-shadow: 0.35rem 0.35rem 0 v(alt);
+        border: .1rem solid v(blockquote);
+        box-shadow: 0.35rem 0.35rem 0 v(blockquote);
         border-radius: 3px;
         padding: 0;
         font-weight: 200;        
@@ -287,7 +417,7 @@ a {
             margin: 0 2rem;
             width: unset;
             box-shadow: none;
-            border-top: .1rem solid v(alt);
+            border-top: .1rem solid v(blockquote);
             border-radius: 0;
             font-family: $Monospace;
             font-style: normal;
@@ -316,9 +446,7 @@ a {
         }
         > blockquote {
             border: none;
-            @include media-query($medium) {
-                margin: 0; //delete in existing
-            }
+            margin: 0;
         }
         > blockquote > p {
             padding: .75rem 0; //delete in existing
@@ -366,6 +494,9 @@ a {
     ol.counter-reset { // used in .md files to continue ol with <p> in between
         counter-reset: auto;        
     }
+    li:last-child {
+        margin-bottom: 0;
+    }
 }
 /* --------------------------------------------------------
             Image Styles
@@ -373,7 +504,7 @@ a {
 img {
     max-width: 100%;
     display: block;
-    margin: $spacing-unit * 2 auto;
+    margin: $spacing-unit * 2 auto;    
 }
 .figure {
     position: relative;
@@ -391,7 +522,10 @@ img {
     grid-column: 1 / 17;
     max-width: 100%;  //delete in existing
     margin: 0 auto 2rem auto;
-    width: 100%;
+    width: 100%;    
+    img {
+        margin: 0;
+    }
 }    
 /* Small Image that Floats Left */
 .figure--sml--left {    

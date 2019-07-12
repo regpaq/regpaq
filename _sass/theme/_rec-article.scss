@@ -56,8 +56,11 @@
                 min-width: 125px;
                 min-height: 125px;
             }
+            figure {
+                border-radius: 3px;
+            }
             img {
-                border-radius: 3px;;
+                border-radius: 3px;
                 object-fit: cover;
                 width: 90px;
                 height: 90px;
@@ -72,5 +75,5 @@
 }
 // use the "rec-articles.html" (with an 's') for less margin between multiple rec articles
 aside.many {
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }

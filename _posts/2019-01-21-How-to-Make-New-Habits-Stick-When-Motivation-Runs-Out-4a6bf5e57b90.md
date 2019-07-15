@@ -27,7 +27,7 @@ For each habit (or goal) you want to start doing, write down why you want to do 
 
 > The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 For example, I want to journal every morning because I want to be grateful for who I am and what I have, and I want to live more purposefully. This helps me become a less envious and more happy person.
 
@@ -35,7 +35,7 @@ For example, I want to journal every morning because I want to be grateful for w
 
 > Remember that our own worth is measured by what we devote our energy to.
 >
-> > — Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes) 7.3
+> > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes) 7.3
 {: .big-quote}
 
 ## 2\. Reframe From “I Have To” to “I Get To”
@@ -46,7 +46,7 @@ Instead, think of each of your habits as an opportunity to make a step toward yo
 
 > Reframing your habits to highlight their benefits rather than their drawbacks is a fast and lightweight way to reprogram your mind to make a habit more attractive.
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 ## 3\. Set Up Your Environment for Success
 
@@ -62,7 +62,7 @@ This will help keep the chain alive — the chain (or streak) is the number 
 
 > If you want to master a habit, the key is to start with repetition, not perfection. You don’t need to map out every feature of the new habit. You just need to practice it. 
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 ## 5\. Use a Habit Tracker
 

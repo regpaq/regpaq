@@ -20,8 +20,7 @@ This data took a lot of time to update and would become outdated quickly, so it 
 
 Here’s how the old one looked like:
 
-![old Chili Piper outbound dashboard](/assets/images/chili-outbound-1.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-1.jpeg" caption="Old Cold Outbound Dashboard." width="vwide" %}
 
 Lots of great data recorded, but updated manually each week which became quickly outdated.
 
@@ -53,8 +52,7 @@ The most difficult part of this process was building the tab that pulled all the
 
 Here’s what this dashboard looked like:
 
-![new Chili Piper outbound dashboard](/assets/images/chili-outbound-2.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-2.jpeg" caption="New Cold Outbound Dashboard." width="vwide" %}
 
 With everything in SFDC, we could easily break out cadence metrics by the Contact level (individuals) and an Account level. So for instance, we could see how many unique accounts were targeted in a cadence versus just the total people. We could then expand on that and look at the bounce rate, open rate, reply rate, calls, connects, etc at an Account level or at a Contact level.
 
@@ -79,8 +77,8 @@ Now with just simple COUNTIF formulas, we can see all the down-funnel metrics a 
 
 Here’s what we looked at:
 
-![new Chili Piper outbound dashboard down funnel metrics](/assets/images/chili-outbound-3.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-3.jpeg" caption="We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence." width="vwide" %}
+
 
 Now we were able to measure how effective a cadence was by the rate of accounts worked to meetings booked (and pipeline generated).
 
@@ -94,8 +92,8 @@ By using strict cadence name and cadence step naming conventions, we were able t
 
 Here’s what that looks like with conditional formatting, to easily spot winning emails:
 
-![conditional formatting on new Chili Piper outbound dashboard to spot wins](/assets/images/chili-outbound-4.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-4.jpeg" caption="Conditional formatting made it easy to spot wins." width="vwide" %}
+
 
 #### Step II — Add Keywords to Each Cadence Name
 
@@ -103,15 +101,15 @@ SL won’t retroactively update what’s sent to SFDC in the integration, so we 
 
 Here’s what that looked like:
 
-![using keywords on new Chili Piper outbound dashboard to spot wins](/assets/images/chili-outbound-5.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-5.jpeg" caption="Segmenting metrics out by keyword helped us further identify what content in email worked best." width="vwide" %}
+
 
 #### Step III — Adding Titles of the Contacts Who Booked
 
 Then to measure a part of our outbound targeting, we looked at the roles of each contact who we booked a meeting with. Because each person’s title is somewhat unique, we just listed out the title in an array where we could visually inspect the kind of roles people had who resonated with our messaging and product, which we used for refining future targeting.
 
-![titles of prospects who booked a meeting on new Chili Piper outbound dashboard](assets/images/chili-outbound-6.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-outbound-6.jpeg" caption="List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points." width="vwide" %}
+
 
 ## Result
 

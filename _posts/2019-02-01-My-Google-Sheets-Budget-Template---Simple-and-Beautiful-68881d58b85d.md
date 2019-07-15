@@ -46,7 +46,7 @@ I’ve been using Google Sheets to manage my finances for four years now. And af
 
 I made the budget template with easy-to-follow orange prompts to make it super simple to get started.
 
-![easy to use google sheet buget template](/assets/images/budget1.gif)
+{% include figure.html image="assets/images/budget1.gif" caption="Prompts make it super easy to use this Google Sheets template." width="middle" %}
 
 Start with entering your income, annual budget, and monthly budget data to get started. Then enter your bank account, other assets, credit cards, loans etc to get your financial picture. All that’s left is entering expense data and that’s it.
 
@@ -54,14 +54,15 @@ Start with entering your income, annual budget, and monthly budget data to get s
 
 Once you’ve been using it for a few months and get some data in there (or even better enter historical data) you can use this chart to see how you’ve been spending vs your budget by each category or in total.
 
-![see a graph of your spending in a google sheet](/assets/images/budget2.gif)
+{% include figure.html image="/assets/images/budget2.gif" caption="Graphs for each budget category." width="full" %}
 
 ## Download My Google Sheets Monthly Budget Template
 
-Click the link below to access a “view only” version of the template. You will need to click File > Make a Copy in order to use it for yourself:
+Click the link below to access a “view only” version of the template.
 
-[**Download: Google Sheets Monthly Budget Template**  
-_Click File > Make a Copy to create your own you can edit._docs.google.com](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/edit?usp=sharing "https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/edit?usp=sharing")[](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/edit?usp=sharing)
+**You will need to click File > Make a Copy in order to use it for yourself:**
+
+[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/edit)
 
 ### Bonus Tips
 

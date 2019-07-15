@@ -19,7 +19,7 @@ Why track your habits at all? Because seeing your progress and not wanting to br
 
 > Making progress is satisfying, and visual measures provide clear evidence of your progress. As a result, they reinforce your behavior and add a little bit of immediate satisfaction to any activity.
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 So obviously the most important thing in a habit tracking system is one that you can stick to — no matter how it looks or how it works.
 
@@ -48,12 +48,7 @@ It took me a few minutes of exploring to get used to how the app worked, but was
 
 There are a ton of different options to set up how you want to track a habit. You can set a goal for **x** number of times per day, week, or month, which gives you the flexibility to track daily habits or a habit you want to do 3_x_ per week.
 
-![](/assets/images/done1.jpeg)
-![](assets/images/done2.jpeg)
-![](assets/images/done3.jpeg)
-{: .a-img .img-3}
-
-Examples of new habits — ONE: New habit once per day. TWO: New habit twice per week. THREE: Limit bad habit to no more than three per week.
+{% include figure.html image="/assets/images/done1.jpeg" image2="assets/images/done2.jpeg" image3="assets/images/done3.jpeg" caption="ONE: New habit once per day. TWO: New habit twice per week. THREE: Limit bad habit to no more than three per week." width="wide" %}
 
 It’s also easy to track bad habits you want to limit or all out quit. For example, you can add a bad habit and set the limit to 3_x_ per week (what I do for video games), or to zero times per day if you want to quit it.The Apple Watch app is also a great way to quickly mark a habit as done while on the go + right in the moment (unlike a spreadsheet or handwritten tracker).
 
@@ -61,11 +56,7 @@ It’s also easy to track bad habits you want to limit or all out quit. For exam
 
 Once you set up your habits on the iPhone app, you can use the Watch app to mark habits as done while on the go and at the moment of completing the habit.
 
-![](/assets/images/done4.jpeg)
-![](assets/images/done5.jpeg)
-{: .a-img .sml-img-3}
-
-LEFT: Complication bottom middle. RIGHT: App view.
+{% include figure.html image="/assets/images/done4.jpeg" image2="assets/images/done5.jpeg" caption="LEFT: Complication bottom middle. RIGHT: App view." width="sml" %}
 
 So if you set up Habits for work, you can mark them done while at work right from your watch. The app lists your habits in the order you choose on the iPhone app and always displays the goal for each habit.
 
@@ -79,11 +70,7 @@ To mark a habit as complete, you tap the habit once on the home screen. The habi
 
 For habits with a goal of 3_x_ per week for example, Done thought of a neat little trick that looks like a progress bar. Only a portion of the “habit bar” will turn a color signifying there’s still some way to go (see my Gym habit below).
 
-![](assets/images/done6.jpeg)
-![](assets/images/done7.jpeg)
-{: .a-img .img-2}
-
-ONE: A grey background means the habit is incomplete. TWO: A bright color means the habit is complete or in progress of being completed.
+{% include figure.html image="assets/images/done6.jpeg" image2="assets/images/done7.jpeg" caption="ONE: A grey background means the habit is incomplete. TWO: A bright color means the habit is complete or in progress of being completed." width="full" %}
 
 On the app’s home screen, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"} gives you two different customization choices to display the information you care about most: 1) the big number on the left of the habit to display streaks, count, or left-to-goal, and 2) a line of text below the habit name for motivational notes or time since last completed.
 
@@ -91,10 +78,7 @@ For me, I care most about my streaks so I display it in a large number. Streaks 
 
 I also care about how long it’s been since I last completed a habit. This is better for habits that are set up as an X number of times per week so I can see how long it’s been since I last did it. I also switch every once in a while to displaying notes at the bottom of each habit to reinforce that each habit is contributing to my desired identity — an important technique for sticking to habits I learned from the book [Atomic Habits](/atomic-habits-review-notes-lessons).
 
-![You can customize the big number on the right and the small text below the habit name.](/assets/images/done8.jpeg)
-{: .a-img .lg-img}
-
-You can customize the big number on the right and the small text below the habit name.
+{% include figure.html image="/assets/images/done8.jpeg" caption="You can customize the big number on the right and the small text below the habit name." width="wide" %}
 
 ### Related:
 
@@ -104,12 +88,9 @@ You can customize the big number on the right and the small text below the habit
 
 You have both a calendar view of your habits and a chart view so you can see when you did or didn’t do your habits, how many times a habit was completed in any given period, and your current and longest streaks.
 
-![](assets/images/done9.jpeg)
-![](assets/images/done10.jpeg)
-![](assets/images/done11.jpeg)
-{: .a-img .img-3}
+{% include figure.html image="assets/images/done9.jpeg" image2="assets/images/done10.jpeg" image3="assets/images/done11.jpeg" caption="ONE: Calendar view of one habit. TWO: Month-over-month comparison. THREE: Daily comparison." width="wide" %}
 
-ONE: Calendar view of one habit. TWO: Month-over-month comparison. THREE: Daily comparison.
+
 
 Their reporting system makes it super easy to compare how I did week-over-week and month-over-month. And it’s all in there automatically.
 

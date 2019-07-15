@@ -1,5 +1,5 @@
 ---
-layout: casestudy
+layout: resume
 title: Résumé
 display-title: Résumé
 author: Reggie Paquette

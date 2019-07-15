@@ -42,4 +42,4 @@ The problem with these types of cadences were we couldn’t scale them, but they
 
 As a team, we were able to increase productivity and efficiency that resulted in a 49% increase in cold outbound booked meetings in Q1 ’19 compared to Q4 ’18 and a 118% jump in pipeline generated. We were trending to improve booked meetings in Q2 ’19 by another 18% and pipeline by 9%.
 
-![cold outbound booked meeting and pipeline improvement](/assets/images/chili-cold-outbound-1.jpeg)
+{% include figure.html image="/assets/images/chili-cold-outbound-1.jpeg" caption="Cold outbound booked meeting and pipeline improvement." width="wide" %}

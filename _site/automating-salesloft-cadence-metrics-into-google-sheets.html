@@ -44,25 +44,29 @@
 			<a class="page-link" href="/all-articles">All</a>
 			<a class="page-link" href="/marketing">#marketing</a>
 			<a class="page-link" href="/productivity">#productivity</a>
-			<a class="page-link" href="/book-notes">#booknotes</a>
+			<a class="page-link" href="/booknotes">#booknotes</a>
 			<a class="page-link" href="/self">#self</a>
 		</nav>
 	<!-- </div> -->
 </header><main class="page-content" aria-label="Content">
       <div class="content-container">
-        <article class="resume post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="post-meta">
-        <div id="ring"></div>
-        <figure class="profile"><img src="/assets/images/regpaq.jpg" /></figure>
-        <h1 itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></h1>
-        <p class="article-subtitle">Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.</p>
-        <p class="resume-meta info"><img class="svg" src="/assets/images/svg/location-grey.svg">Los Angeles<a href="https://docs.google.com/document/d/1KtAI5mk5tB9tdYsy3rR6x8_QgENkt4cWnqWZqlSdeRY/edit?usp=sharing" target="_blank"><img class="svg" src="/assets/images/svg/doc-grey.svg">Résumé</a></p>
-        <p class="resume-meta social"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><img class="svg" src="/assets/images/svg/linkedin-grey.svg"></a><a href="https://twitter.com/regpaq" target="_blank"><img class="svg" src="/assets/images/svg/twitter-grey.svg"></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><img class="svg" src="/assets/images/svg/mail-grey.svg"></a></p>
-    </div>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <h2 id="problem">Problem</h2>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header container">
+		<h1 class="post-title" itemprop="name headline">Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets</h1>
+		<p class="article-subtitle">Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.</p>
+		<div class="post-meta">
+			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name"><a href="/about">Reggie Paquette</a></span>
+			</span>
+			<time datetime="2019-05-26T20:04:01-07:00" itemprop="datePublished"><img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">May 26, '19</time>
+			<!-- <div id="post-categories"><a href="/casestudy">#casestudy</a><a href="/chilipiper">#chilipiper</a></div> -->
+		</div>
+	</header>
+	<div class="post-content" itemprop="articleBody">
+		<figure class="feat-img"><img src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></figure>
+
+		<h2 id="problem">Problem</h2>
 
 <p>Reporting on how individual sales reps and their cadences were doing was a manual process. With Chili Piper being a data-driven company, we wanted to be able to make decisions backed by data, which meant we were tracking and manually updating over 37 metrics per rep and per cadence.</p>
 
@@ -70,7 +74,8 @@
 
 <p>Here’s how the old one looked like:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-1.jpeg" alt="old Chili Piper outbound dashboard" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-1.jpeg" alt="Old Cold Outbound Dashboard." /></div><figcaption class="caption">Old Cold Outbound Dashboard.</figcaption></figure>
 
 <p>Lots of great data recorded, but updated manually each week which became quickly outdated.</p>
 
@@ -102,7 +107,8 @@
 
 <p>Here’s what this dashboard looked like:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-2.jpeg" alt="New Cold Outbound Dashboard." /></div><figcaption class="caption">New Cold Outbound Dashboard.</figcaption></figure>
 
 <p>With everything in SFDC, we could easily break out cadence metrics by the Contact level (individuals) and an Account level. So for instance, we could see how many unique accounts were targeted in a cadence versus just the total people. We could then expand on that and look at the bounce rate, open rate, reply rate, calls, connects, etc at an Account level or at a Contact level.</p>
 
@@ -128,7 +134,8 @@
 
 <p>Here’s what we looked at:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-3.jpeg" alt="new Chili Piper outbound dashboard down funnel metrics" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-3.jpeg" alt="We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence." /></div><figcaption class="caption">We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence.</figcaption></figure>
 
 <p>Now we were able to measure how effective a cadence was by the rate of accounts worked to meetings booked (and pipeline generated).</p>
 
@@ -142,7 +149,8 @@
 
 <p>Here’s what that looks like with conditional formatting, to easily spot winning emails:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-4.jpeg" alt="conditional formatting on new Chili Piper outbound dashboard to spot wins" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-4.jpeg" alt="Conditional formatting made it easy to spot wins." /></div><figcaption class="caption">Conditional formatting made it easy to spot wins.</figcaption></figure>
 
 <h4 id="step-iiadd-keywords-to-each-cadencename">Step II — Add Keywords to Each Cadence Name</h4>
 
@@ -150,20 +158,35 @@
 
 <p>Here’s what that looked like:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-outbound-5.jpeg" alt="using keywords on new Chili Piper outbound dashboard to spot wins" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-5.jpeg" alt="Segmenting metrics out by keyword helped us further identify what content in email worked best." /></div><figcaption class="caption">Segmenting metrics out by keyword helped us further identify what content in email worked best.</figcaption></figure>
 
 <h4 id="step-iiiadding-titles-of-the-contacts-whobooked">Step III — Adding Titles of the Contacts Who Booked</h4>
 
 <p>Then to measure a part of our outbound targeting, we looked at the roles of each contact who we booked a meeting with. Because each person’s title is somewhat unique, we just listed out the title in an array where we could visually inspect the kind of roles people had who resonated with our messaging and product, which we used for refining future targeting.</p>
 
-<p class="a-img xlg-img"><img src="assets/images/chili-outbound-6.jpeg" alt="titles of prospects who booked a meeting on new Chili Piper outbound dashboard" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-outbound-6.jpeg" alt="List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points." /></div><figcaption class="caption">List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points.</figcaption></figure>
 
 <h2 id="result">Result</h2>
 
 <p>With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.</p>
 
-  </div>
-</article>
+	</div><section class="subscribe container" aria-label="Newsletter Subscription">
+    <h2>Never Miss an Article</h2>
+    <p>Get notified by email when I publish a new article.</p> 
+    <div id="mc_embed_signup">
+    <form action="https://regpaq.us3.list-manage.com/subscribe/post?u=d109fef95c2abc699fd848069&amp;id=0b284aa419" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+        
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email..." required>
+        <!--trap card-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d109fef95c2abc699fd848069_0b284aa419" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+</section></article>
 
       </div>
     </main><footer class="site-footer">

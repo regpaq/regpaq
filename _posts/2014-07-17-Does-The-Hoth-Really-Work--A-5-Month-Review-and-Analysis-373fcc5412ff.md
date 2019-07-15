@@ -25,7 +25,7 @@ Are you were on the fence of deciding to purchase The Hoth? This five month revi
 
 I’ve purchased The Hoth Platinum package twice back in February 2014, nearly 5 months ago, as a tool to help build a solid base layer of links. That was its purpose for me. What does The Hoth advertise itself as?
 
-![the hoth packages and tagline](/assets/images/hoth1.png)
+{% include figure.html image="/assets/images/hoth1.png" caption="The Hoth packages and tagline." width="full" %}
 
 Judging by their tagline (which is absolutely fantastic by the way), they are positioning their product as a full, outsourced solution to link building for SEOs and maybe the above average tech savvy website owner.
 
@@ -33,7 +33,7 @@ When I purchased The Hoth, I never believed it would replace all my link buildin
 
 Before we get to that, let’s take a quick look at how The Hoth works. They provide a very nice page that explains exactly what links they build and how they build them and created this nifty graphic to give you a visual explanation.
 
-![does the both work](/assets/images/hoth2.png)
+{% include figure.html image="/assets/images/hoth2.png" width="full" %}
 
 In short, they create free blog accounts called top level blogs/domains and the number they create for you depends on the package you choose. Once these are created, they have their team of writers publish blog posts on them that are either all unique and original or they are spun (articles that are taken and modified through automatic software to appear original to non human readers like Google and other search engines). The articles are either written by native English speakers or by native Filipinos who speak and write English well. Again, this depends on the package you get.
 
@@ -49,7 +49,7 @@ But the question is, is it good enough to be the only tool you need to build lin
 
 The most important factor to look at when deciding which package to purchase is the number of top level blogs/domains created because those links will be the most effective. Here’s a quick breakdown of a package comparison.
 
-![hoth pricing packages](/assets/images/hoth3.png)
+{% include figure.html image="/assets/images/hoth3.png" caption="The Hoth pricing packages." width="full" %}
 
 When broken down, it becomes extremely obvious that the platinum package is the best bang for your buck. The mini is not worth it whatsoever. Even though the mini gets you 3 top level domains, each one will only have one spun article posted to it, and the links pointing to it won’t be as many or as strong. You can buy a permanent PBN post from someone or company for less and get more value.
 
@@ -65,7 +65,7 @@ If you have been following along with the blog, you’ll already know about Cons
 
 Let’s take a look at what Ahrefs, a domain analyzer and back link checking tool, comes up with for the 8 top level blogs/domains.
 
-![results of the both platinum](/assets/images/hoth4.png)
+{% include figure.html image="/assets/images/hoth4.png" caption="Results of the both platinum." width="full" %}
 
 After 5 months from ordering, here is what my top level blogs metric’s look like. Remember these metrics are from Ahrefs and their URL rank and domain rank is not the same as open site explorer’s page authority (PA) and domain authority (DA) although they are measuring the same things.
 
@@ -79,7 +79,7 @@ I recently changed the name of my “agency” or client side marketing business
 
 For one of my clients, I ordered The Hoth platinum package on a domain we used to start ranking in their area. Here are the results:
 
-![hoth platinum link package](/assets/images/hoth5.png)
+{% include figure.html image="/assets/images/hoth5.png" caption="Results from The Hoth platinum link package." width="full" %}
 
 A very similar story to the previous results, but I’m disappointed that Ahrefs couldn’t pull up any data for the last domain there. I checked Open Site Explorer using their free trial and they couldn’t pull up any results either for it. However, that being said, the site is live. It has somewhat of a strange URL structure so maybe that’s causing confusion with these tools’ bots, but I have no idea if Google is picking it up.
 

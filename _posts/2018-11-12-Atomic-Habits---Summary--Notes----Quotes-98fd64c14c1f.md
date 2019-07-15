@@ -17,7 +17,7 @@ Why?
 
 Habits have an exponential effect on your life over time and the sooner you start good habits and stop bad ones, the better your life will be in the short and long term.
 
-{% include figure.html image="/assets/images/atomic1.png" caption="Buy Atomic Habits on Amazon" position="left" size="sml" link="https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74" %}
+{% include figure.html image="/assets/images/atomic1.png" caption="Buy Atomic Habits on Amazon" width="sml" link="https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74" %}
 
 It will teach you how to actually start good habits, how to stop bad ones, and show you why paying attention to what you’re doing on a day-by-day basis really matters. Your day-to-day behavior is the single most important factor in determining the type of person you will be when you grow up.
 
@@ -31,7 +31,7 @@ Habits are the small reoccurring things you do everyday or weekly (or sometimes 
 
 > Habits are the compound interest of self-development. The same way that money multiplies through compound interest, the effects of your habits multiply as you repeat them. They seem to make little difference on any given day and yet the impact they deliver over the months and years can be enormous. It is only when looking back, two, five, or perhaps ten years later that the value of good habits and the cost of bad ones become strikingly apparent.
 
-![](/assets/images/atomic2.jpeg)
+{% include figure.html image="/assets/images/atomic2.jpeg" width="full" %}
 
 Think of your habits now. You probably have a few bad ones. These are just as important to take note of and work on changing because they compound into toxic results. One day you want to realize that you didn’t quite become the person you wanted to be and it may be too late to significantly change.
 
@@ -49,7 +49,7 @@ For example, if you don’t have good financial habits, you may find yourself al
 
 > Ultimately, your habits matter because they help you become the type of person you wish to be. They are the channel through which you develop your deepest beliefs about yourself. The process of building habits is actually the process of becoming yourself.
 
-![](assets/images/atomic3.jpeg)
+{% include figure.html image="/assets/images/atomic3.jpeg" width="full" %}
 
 **There are three layers of behavior change:** **Outcomes** is the outer layer, **Processes** are the inner layer, and **Identity** is at the core. Most goals people set are related to an outcome (e.g. make $100k salary by age 30). Most habits people set are related to a process (e.g. spend an hour each morning learning a new skill).
 
@@ -59,7 +59,8 @@ But if you start with your identity, the core of behavior change, it will reflec
 
 ## The Habit Loop: How Habits Work
 
-![](assets/images/atomic4.jpeg)
+{% include figure.html image="/assets/images/atomic4.jpeg" width="full" %}
+
 
 The process of building habits can be explained by the **Four Laws of Behavior Change**:
 
@@ -83,14 +84,15 @@ Think about your current habits and what cues (the trigger) set them off. This c
 
 > "Until you make the unconscious conscious, it will direct your life and you will call it fate." 
 >
-> > -Carl Jung
+> > Carl Jung
 {: .big-quote}
 
 Cues trigger behavior and can come in many forms, but the most common are time and location. So if you want to start a new habit, you’re more likely to start it if you choose a specific time and place.
 
 In addition to time and location, you can pair it with a current habit (e.g. right after you wake up, after you brush your teeth, after your evening shower, etc). I’ve personally found this method the most effective for me — essentially taking your existing morning/evening routine and adding to it.
 
-![](assets/images/atomic5.jpeg)
+{% include figure.html image="assets/images/atomic5.jpeg" width="wide" %}
+
 
 ### Set up your environment for success
 
@@ -120,7 +122,7 @@ Think of a bad habit you have right now. When you receive a cue for it, you anti
 
 So if you’re able to make a new habit you want to start attractive, you’ll be more likely to start it. You can do this by using a technique called “temptation bundling,” where you allow yourself to do something you like to do now (like check Reddit in the morning) only after you do a habit you want to start (meditate in the morning.) This can make meditation more attractive and something you look forward to because it means you to do something you want.
 
-![](assets/images/atomic6.jpeg)
+{% include figure.html image="assets/images/atomic6.jpeg" width="wide" %}
 
 Eventually you may not need to use temptation bundling for good habits once you find the merit of the habit itself rewarding enough to make it attractive.
 
@@ -184,7 +186,7 @@ Do you play video games too much? Don’t be afraid to unplug the system and put
 
 > Remove friction associated with good behaviors. When friction is low, habits are easy. Increase the friction associated with bad behaviors. When friction is high, bad habits are difficult.
 
-![](assets/images/atomic7.jpeg)
+{% include figure.html image="/assets/images/atomic7.jpeg" width="wide" %}
 
 ## IV. Reward — Make it Satisfying
 

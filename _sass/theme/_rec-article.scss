@@ -1,9 +1,6 @@
 .rec-art {    
     background-color: v(bg-highlight);
     @include grid-full-width-normal;
-    margin-left: 0; //delete in existing
-    margin-right: 0; //delete in existing
-    margin-top: 0; //delete in existing
     margin-bottom: 2rem;
     padding: 1rem;
     max-width: unset;

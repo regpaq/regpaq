@@ -28,8 +28,7 @@ Because we didn’t have a marketing automation platform or a marketing attribut
 
 First we changed the three existing tracking fields to ‘Marketing Campaign,’ ‘Marketing Content,’ and ‘Marketing Term’. Then we added ‘Marketing Source’ and ‘Marketing Medium’. For marketing reporting purposes, we also added ‘Latest Demo Request Date’ and a ‘Demo Requested’ toggle we use to fire other automation. These fields were created on the Lead object in Salesforce (SFDC), the Contact, and the Opportunity (Opp).
 
-![new Chili Piper marketing attribution fields in Salesforce](assets/images/chili-attribution-1.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-attribution-1.png" caption="New marketing attribution fields in Salesforce." width="wide" %}
 
 ### Step 2 — Creating the Form and Capturing URL Parameters
 
@@ -49,8 +48,7 @@ On another tab was the actual URL Builder. Each column used data validation from
 
 It looked liked this:
 
-![URL Builder in a spreadsheet for Chili Piper](/assets/images/chili-attribution-2.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-attribution-2.jpeg" caption="URL Builder in a spreadsheet for Chili Piper" width="wide" %}
 
 The final cell combined all the data using simple CONCATENATE formulas and resulted in a tracking URL.
 

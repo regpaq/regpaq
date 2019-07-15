@@ -30,7 +30,7 @@ They provide instant gratification to solve some kind of feeling (the trigger). 
 
 > Your current habits are not necessarily the best way to solve the problem you face, they are just the methods you learned to use. Once you associate a solution with the problem you need to solve, you keep coming back to it — an explanation for why habits are hard to break.
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 Here are six tips from [Atomic Habits](/atomic-habits-review-notes-lessons) that helped me be break my worse habits:
 
@@ -44,7 +44,7 @@ For example: I don’t want to eat a donut for breakfast every morning. Why? Bec
 
 > The ultimate form of intrinsic motivation is when a habit becomes part of your identity. You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity. True behavior change is identity change.
 >
-> > — James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
+> > James Clear, [Atomic Habits](/atomic-habits-review-notes-lessons)
 
 Although this seems like you’re just playing a trick on yourself at first, once it becomes ingrained in you, it’s a powerful resistance to temptation.
 

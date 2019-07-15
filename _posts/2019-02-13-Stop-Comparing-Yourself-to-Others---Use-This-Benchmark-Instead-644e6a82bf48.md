@@ -54,7 +54,7 @@ In a Q&A with White House interns, President Obama gave advice on the subject lu
 
 > “A lot of times, it’s just happenstance. Or things work out. But being useful? And having a satisfying life? And making a contribution? That is entirely within your control. Orient yourself towards having an impact and making a difference. And you will and you’ll be happy doing it.”
 >
-> > Former President Barack Obama
+> > Former President Barack Obama, [YouTube](https://www.youtube.com/embed/5IDQDoxXHm0?start=516){:target="_blank"}
 
 ## Instead of Comparing Yourself to Others Or Who You Were Yesterday, Find Your True Path
 

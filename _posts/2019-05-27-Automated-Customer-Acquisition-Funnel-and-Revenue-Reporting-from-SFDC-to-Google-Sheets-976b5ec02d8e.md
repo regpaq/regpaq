@@ -38,7 +38,7 @@ This now meant when something was an opportunity, it means the prospect is quali
 
 By default, SFDC records the Opp creation date and close date, but this limits our flexibility and reporting options. We created a few process builders to record the Opp creation date into a separate field on the Opp called ‘Became a Booked Meeting On,’ which allowed us to change it if needed. Once an Opp moved from the initial stage of ‘Demo’ to a positive next stage, we time stamped the date to a field called “Became an Opportunity On.”
 
-![Salesforce view of stage change date stamps](/assets/images/chili-revenue-1.png)
+{% include figure.html image="/assets/images/chili-revenue-1.png" caption="Salesforce view of stage change date stamps." width="full" %}
 
 ## Part II — Building the Dashboard
 
@@ -54,8 +54,8 @@ Once the data is in the spreadsheet, building the layout of the spreadsheet and 
 
 Here’s the point-in-time view:
 
-![Chili Piper revenue dashboard](/assets/images/chili-revenue-2.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-revenue-2.jpeg" caption="Chili Piper Revenue Dashboard." width="vwide" %}
+
 
 ### Step 3 — Building the Cohort View
 

@@ -27,12 +27,7 @@ Oh, and two words: Dark Mode. Yes, one of my favorite things about it. And it ha
 
 The last thing I’ll say about the design is something I thought was a total gimmick, but turned out to be pretty useful. It uses augment reality (AR) really well. For every built in exercise in Gymaholic, you can see a video of a person doing it. You can spin them around and see the model perform it from different angles. But with AR, you can actually bring the model out of the app and into the space around you. I thought this was a gimmick, but for complex exercises (like a barbell row or deadlift), seeing the model in the gym, performing the exercise, with the ability to zoom and twist, actually helped me learn and improve my form to prevent injuries.
 
-![](/assets/images/gymaholic1.jpeg)
-![](/assets/images/gymaholic2.jpeg)
-![](/assets/images/gymaholic3.jpeg)
-{: .img-3}
-
-AR helps teach proper form and give cues for what muscles to use.
+{% include figure.html image="/assets/images/gymaholic1.jpeg" image2="/assets/images/gymaholic2.jpeg" image3="/assets/images/gymaholic3.jpeg" caption="AR helps teach proper form and give cues for what muscles to use." width="wide" %}
 
 Overall I give Gymaholic’s design a 9/10. Pretty much everything is great, but the reports + charts leave a little to be desired.
 
@@ -42,35 +37,21 @@ The app has a ton of Exercises you can group together as a Workout. Each exercis
 
 You can make as many workouts as you want. A Workout is essentially just one session. You can group together multiple Workouts if you’re following a program.
 
-![](/assets/images/gymaholic4.png)
-![](/assets/images/gymaholic5.png)
-![](/assets/images/gymaholic6.png)
-{: .img-3}
-
-ONE: List of Workouts. TWO: Detailed Workout View. THREE: Detailed Exercise View.
+{% include figure.html image="/assets/images/gymaholic4.png" image2="/assets/images/gymaholic5.png" image3="/assets/images/gymaholic6.png" caption="ONE: List of Workouts. TWO: Detailed Workout View. THREE: Detailed Exercise View." width="wide" %}
 
 After you complete a workout, it sends all the data to the Health app. The Gymaholic home screen will also show you what muscles need resting and which are at 100% so it’s easy to pick out your next workout. I’ll get to more about reports further down, but you can also see reports of how much you’re working out the different parts of your body so you can see if something isn’t even.
 
-![](/assets/images/gymaholic7.jpeg)
-{: .a-img .sml-img}
+{% include figure.html image="/assets/images/gymaholic7.jpeg" caption="Working out with Gymaholic on the Apple Watch." width="full" %}
 
 I’m using an Apple Watch so during a workout, I do everything from there. The Apple Watch app tells you what exercise is up, which set you’re on, and how many reps you need to do at what weight. Once you do it, tap the “set ring” and it logs the set while starting a rest countdown timer (which you can customize on a per exercise OR workout basis).
 
 They just added the ability to swipe right to see the model performing the exercise, or swipe left to control your music or audio — which is SUPER convenient (AHH I just love how the devs keep adding little touches that just make this app perfect).
 
-![](/assets/images/gymaholic8.png)
-![](/assets/images/gymaholic9.png)
-![](/assets/images/gymaholic10.png)
-{: .sml-img-3}
-
-ONE: Home screen on Apple Watch. TWO: Looping video of exercise on swipe right. THREE: Music controls on swipe left.
+{% include figure.html image="/assets/images/gymaholic8.png" image2="/assets/images/gymaholic9.png" image3="/assets/images/gymaholic10.png" caption="ONE: Home screen on Apple Watch. TWO: Looping video of exercise on swipe right. THREE: Music controls on swipe left." width="full" %}
 
 Here’s where it gets even more convenient. What if you need to adjust your workouts on the fly? You can force touch the set ring to open a hidden menu of options where you can adjust the number of sets, the reps, or weight. You can even add in another exercise if you want!
 
-![](/assets/images/gymaholic11.png)
-![](/assets/images/gymaholic12.png)
-![](/assets/images/gymaholic13.png)
-{: .sml-img-3}
+{% include figure.html image="/assets/images/gymaholic11.png" image2="/assets/images/gymaholic12.png" image3="/assets/images/gymaholic13.png" caption="Force touch opens a ton of options for mid workout adjustments." width="full" %}
 
 Force touch (or long press) on the Apple Watch allows you to edit sets, reps, and weight on the fly. You can also add in new exercises.
 
@@ -86,12 +67,7 @@ In the History tab, you can see a monthly calendar view of all the days you’ve
 
 At the bottom is a row of prebuilt charts and reports. In terms of habit tracking, my goal is simply to go to the gym 4x per week — nothing more detailed than that. The most important thing for me is to make sure I keep getting my ass to the gym. Tracking this is wonderful in Gymaholic. I love how it just has a simple bar chart for the number of Workouts completed per month. You can adjust the date range to show the data just how you want. Me? I like to see the last 12 months.
 
-![](/assets/images/gymaholic14.png)
-![](/assets/images/gymaholic15.png)
-![](/assets/images/gymaholic16.png)
-{: .img-3}
-
-ONE: Calendar of completed workouts. TWO: Or a list view. THREE: You can add your favorite charts to your home screen.
+{% include figure.html image="/assets/images/gymaholic14.png" image2="/assets/images/gymaholic15.png" image3="/assets/images/gymaholic16.png" caption="ONE: Calendar of completed workouts. TWO: Or a list view. THREE: You can add your favorite charts to your home screen." width="wide" %}
 
 {% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
@@ -105,6 +81,6 @@ There’s so much more in tracking progress and the reports that I could keep go
 
 [Gymaholic](https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8){:target="_blank"} does run on a subscription model, but it’s SO worth it. To get all the features with the premium version, it costs $4.99 per month or $31.99 annually.
 
-## You might also enjoy:
+## You might also enjoy
 
 {% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

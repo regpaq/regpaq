@@ -36,7 +36,7 @@ Why couldn’t he have just trusted me? He was hiring me as his digital and cont
 
 Here’s a quick summary of it in effect from [Dan Ariely](http://danariely.com/2010/12/15/locksmiths/){:target="_blank"}, a master in behavioral economics (okay, it was me who made Catwoman the main character).
 
-![Catwoman Story](/assets/images/expecting1.png)
+{% include figure.html image="/assets/images/expecting1.png" width="full" %}
 
 So now that we understand the labor illusion, how can we use it to our advantage to make our clients, customers, or bosses happier with our work?
 
@@ -78,11 +78,11 @@ If you’re transparent about your pricing, then customers and clients will sudd
 
 Clothing company [Everlane](https://www.everlane.com/){:target="_blank"} does this with every item in their store.
 
-![Everlane Transparent Pricing](/assets/images/expecting2.jpg)
+{% include figure.html image="/assets/images/expecting2.jpg" width="full" %}
 
 Transparent pricing can also work for digital products and services. Check out how [Buffer](https://buffer.com/){:target="_blank"} does it.
 
-![Buffer Transparent Pricing](/assets/images/expecting3.jpg)
+{% include figure.html image="/assets/images/expecting3.jpg" width="full" %}
 
 Don’t you suddenly **feel** better about their price?
 

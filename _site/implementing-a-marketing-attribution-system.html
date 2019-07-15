@@ -44,25 +44,29 @@
 			<a class="page-link" href="/all-articles">All</a>
 			<a class="page-link" href="/marketing">#marketing</a>
 			<a class="page-link" href="/productivity">#productivity</a>
-			<a class="page-link" href="/book-notes">#booknotes</a>
+			<a class="page-link" href="/booknotes">#booknotes</a>
 			<a class="page-link" href="/self">#self</a>
 		</nav>
 	<!-- </div> -->
 </header><main class="page-content" aria-label="Content">
       <div class="content-container">
-        <article class="resume post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="post-meta">
-        <div id="ring"></div>
-        <figure class="profile"><img src="/assets/images/regpaq.jpg" /></figure>
-        <h1 itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></h1>
-        <p class="article-subtitle">to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis.</p>
-        <p class="resume-meta info"><img class="svg" src="/assets/images/svg/location-grey.svg">Los Angeles<a href="https://docs.google.com/document/d/1KtAI5mk5tB9tdYsy3rR6x8_QgENkt4cWnqWZqlSdeRY/edit?usp=sharing" target="_blank"><img class="svg" src="/assets/images/svg/doc-grey.svg">Résumé</a></p>
-        <p class="resume-meta social"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><img class="svg" src="/assets/images/svg/linkedin-grey.svg"></a><a href="https://twitter.com/regpaq" target="_blank"><img class="svg" src="/assets/images/svg/twitter-grey.svg"></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><img class="svg" src="/assets/images/svg/mail-grey.svg"></a></p>
-    </div>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <h2 id="problem">Problem</h2>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header container">
+		<h1 class="post-title" itemprop="name headline">Implemented Marketing Attribution Infrastructure (Last Touch)</h1>
+		<p class="article-subtitle">to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis.</p>
+		<div class="post-meta">
+			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name"><a href="/about">Reggie Paquette</a></span>
+			</span>
+			<time datetime="2019-05-27T18:10:51-07:00" itemprop="datePublished"><img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">May 27, '19</time>
+			<!-- <div id="post-categories"><a href="/casestudy">#casestudy</a><a href="/chilipiper">#chilipiper</a></div> -->
+		</div>
+	</header>
+	<div class="post-content" itemprop="articleBody">
+		<figure class="feat-img"><img src="/assets/images/chili-attribution-2.jpeg" alt="URL Builder in a spreadsheet for Chili Piper" /></figure>
+
+		<h2 id="problem">Problem</h2>
 
 <p>When I first came onboard, we were running paid acquisition campaigns on just LinkedIn and Capterra. To measure their performance, we were using a separate form for each channel and just three URL tracking parameters: ppc_campaign, ppc_ad, and ppc_keyword without any kind of naming conventions in place.</p>
 
@@ -78,7 +82,8 @@
 
 <p>First we changed the three existing tracking fields to ‘Marketing Campaign,’ ‘Marketing Content,’ and ‘Marketing Term’. Then we added ‘Marketing Source’ and ‘Marketing Medium’. For marketing reporting purposes, we also added ‘Latest Demo Request Date’ and a ‘Demo Requested’ toggle we use to fire other automation. These fields were created on the Lead object in Salesforce (SFDC), the Contact, and the Opportunity (Opp).</p>
 
-<p class="a-img lg-img"><img src="assets/images/chili-attribution-1.png" alt="new Chili Piper marketing attribution fields in Salesforce" /></p>
+<figure class="figure no-bg-color figure--wide gtc-1">
+    <div><img class="image" src="/assets/images/chili-attribution-1.png" alt="New marketing attribution fields in Salesforce." /></div><figcaption class="caption">New marketing attribution fields in Salesforce.</figcaption></figure>
 
 <h3 id="step-2creating-the-form-and-capturing-url-parameters">Step 2 — Creating the Form and Capturing URL Parameters</h3>
 
@@ -98,7 +103,8 @@
 
 <p>It looked liked this:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-attribution-2.jpeg" alt="URL Builder in a spreadsheet for Chili Piper" /></p>
+<figure class="figure no-bg-color figure--wide gtc-1">
+    <div><img class="image" src="/assets/images/chili-attribution-2.jpeg" alt="URL Builder in a spreadsheet for Chili Piper" /></div><figcaption class="caption">URL Builder in a spreadsheet for Chili Piper</figcaption></figure>
 
 <p>The final cell combined all the data using simple CONCATENATE formulas and resulted in a tracking URL.</p>
 
@@ -106,8 +112,21 @@
 
 <p>Every campaign started was built using this URL builder that ensured consistent naming conventions for marketing attributions. This allowed us to build accurate marketing reports broken down by channel, audience, and campaign. It allowed us to view the success specific pieces of content, ads, media type, or angles across channels. And because it’s all in SFDC, we could do quick ad-hoc analysis using any combination of these parameters to see what’s working or not and drive strategy.</p>
 
-  </div>
-</article>
+	</div><section class="subscribe container" aria-label="Newsletter Subscription">
+    <h2>Never Miss an Article</h2>
+    <p>Get notified by email when I publish a new article.</p> 
+    <div id="mc_embed_signup">
+    <form action="https://regpaq.us3.list-manage.com/subscribe/post?u=d109fef95c2abc699fd848069&amp;id=0b284aa419" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+        
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email..." required>
+        <!--trap card-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d109fef95c2abc699fd848069_0b284aa419" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+</section></article>
 
       </div>
     </main><footer class="site-footer">

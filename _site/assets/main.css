@@ -74,9 +74,11 @@ table td {
   border: 1px solid var(--color-text);
 }
 
-/* --------------------------------------------------------
-			Header and Footer Layout
--------------------------------------------------------- */
+/* 
+* --------------------------------------------------------
+*			Header and Footer Layout
+* --------------------------------------------------------
+*/
 .site-header {
   max-width: 1400px;
   display: grid;
@@ -111,15 +113,27 @@ table td {
   margin-top: 64px;
 }
 
-/* --------------------------------------------------------
-			Articles and Pages Layout
--------------------------------------------------------- */
+/* 
+* --------------------------------------------------------
+*			Articles and Pages Layout
+* --------------------------------------------------------
+*/
 .page-content {
   flex: 1;
 }
 
 .post-header {
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
+}
+@media screen and (min-width: 768px) {
+  .post-header {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .post-header {
+    margin-bottom: 2rem;
+  }
 }
 
 .post-content {
@@ -129,10 +143,6 @@ table td {
   margin: 0 auto 4rem auto;
 }
 .post-content > * {
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  max-width: unset;
   width: unset;
   grid-column: 2 / 16;
 }
@@ -160,7 +170,7 @@ table td {
 /* --------------------------------------------------------
 			Colors
 -------------------------------------------------------- */
-/* Convert SASS Variables > CSS Variables */
+/* Convert SASS color variables for each theme to CSS variables */
 html[data-theme="light"] {
   --color-bg: #FFFFFF;
   --color-bg-highlight: #F5F2EC;
@@ -189,8 +199,8 @@ html[data-theme="dark"] {
   --color-highlight: #222234;
 }
 
-/* Dark and Light Mode Dependent Styling */
-body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure {
+/* Dark and light mode dependent styling */
+body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure, #post-categories a {
   transition: background-color 0.5s ease-out 0s;
 }
 
@@ -202,6 +212,7 @@ svg {
   transition: fill 0.5s ease-out 0s;
 }
 
+/* Theme switcher icon animation animation while in light mode */
 html[data-theme="light"] #lightswitch #moon {
   transform: translate(420px, 420px);
 }
@@ -215,10 +226,24 @@ html[data-theme="light"] #lightswitch:hover #sun {
   transform: translate(420px, 420px);
 }
 
+html[data-theme="dark"] {
+  /* Change bullet SVG from dark to white for dark mode */
+  /* Image color overlay in dark mode. */
+  /* Prevents image color overlay in dark mode when figure has captions */
+  /* Prevents image color overlay in dark mode on SVGs */
+  /* Theme switcher icon animation animation while in dark mode */
+  /* Resume logo compatability with dark mode */
+}
 html[data-theme="dark"] .post-content ul li:before {
   background-image: url(/assets/images/svg/coin-bullet-white.svg);
 }
 html[data-theme="dark"] figure {
+  background-color: #c8ba90;
+}
+html[data-theme="dark"] .no-bg-color {
+  background-color: unset;
+}
+html[data-theme="dark"] .no-bg-color div {
   background-color: #c8ba90;
 }
 html[data-theme="dark"] img:not(.svg-reg):not(.svg-reg--left) {
@@ -433,30 +458,19 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-gap: 1rem 0;
-  padding: 0;
-  width: unset;
-  margin-left: auto;
-  margin-right: auto;
 }
-.post-header .post-title {
+
+.post-title {
   grid-row: 1;
   grid-column: 2 / 16;
-  margin: 0;
-}
-.post-header .article-subtitle {
-  grid-row: 2;
-  grid-column: 2 / 16;
-  margin: 0;
-}
-.post-header .post-meta {
-  grid-row: 3;
-  grid-column: 2 / 16;
-  position: relative;
   margin: 0;
 }
 
 .article-subtitle {
   font-size: 19.2px;
+  grid-row: 2;
+  grid-column: 2 / 16;
+  margin: 0;
 }
 @media screen and (min-width: 320px) {
   .article-subtitle {
@@ -472,6 +486,10 @@ a:hover {
 .post-meta {
   font-size: .75rem;
   color: var(--color-text-lighter);
+  position: relative;
+  /* for #ring */
+  grid-row: 3;
+  grid-column: 2 / 16;
   display: grid;
   grid-template-columns: 4rem 1fr auto;
   grid-template-rows: auto auto auto;
@@ -479,13 +497,7 @@ a:hover {
 }
 @media screen and (min-width: 768px) {
   .post-meta {
-    margin-bottom: 24px;
     grid-template-columns: 5rem 1fr auto;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .post-meta {
-    margin-bottom: 64px;
   }
 }
 .post-meta #ring {
@@ -702,8 +714,6 @@ a:hover {
 }
 .post-content blockquote.big-quote > p {
   padding: 0;
-  margin: 0;
-  width: unset;
 }
 .post-content blockquote.big-quote > blockquote {
   border: none;
@@ -753,6 +763,7 @@ a:hover {
   margin-left: -3rem;
 }
 .post-content ol.counter-reset {
+  /* used in .md files to continue ol with <p> in between */
   counter-reset: auto;
 }
 .post-content li:last-child {
@@ -768,115 +779,146 @@ img {
   margin: 16px auto;
 }
 
-.figure {
-  position: relative;
-  z-index: 10;
-}
-.figure a {
-  padding: 0;
-}
-.figure figcaption {
-  font-size: .75rem;
-  margin-top: .2rem;
-}
-
 /* Featured image - applies on post and article card */
 .feat-img {
   grid-column: 1 / 17;
-  max-width: 100%;
   margin: 0 auto 2rem auto;
   width: 100%;
 }
 .feat-img img {
-  margin: 0;
-}
-
-/* Small Image that Floats Left */
-.figure--sml--left {
-  float: left;
   margin: 0 auto;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
-}
-.figure--sml--left img {
-  max-height: 14rem;
-  max-width: 20rem;
-  width: unset;
-  margin: 0;
 }
 
-/* Three Images */
-p.img-3, p.img-2 {
+/* .figure class used in figure.html include for images in .post-content.
+Below styling applies to all types and sizes of images in post-content.
+Unique styling based on the different `include figure.html` attributes below. */
+.figure {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: .65rem;
-  max-width: 1032px;
-  width: unset;
-  padding: 0;
-}
-p.img-3 > a > img, p.img-2 > a > img, p.img-3 > img, p.img-2 > img {
-  margin: 0;
-}
-
-/* Two Images */
-p.img-2 {
-  grid-template-columns: 1fr 1fr;
-  max-width: 740px;
-}
-
-/* Three Small Images */
-p.sml-img-3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: .65rem;
-  width: unset;
-  padding: 0;
-}
-p.sml-img-3 > a > img, p.sml-img-3 > img {
-  margin: 0;
-}
-
-/* Gallery of Four Images */
-p.med-img-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-column-gap: .65rem;
   grid-row-gap: .65rem;
+  border-radius: 3px;
+  position: relative;
+  z-index: 10;
+  margin: 0 auto 2rem auto;
   padding: 0;
-  max-width: 740px;
 }
-p.med-img-4 img {
+.figure div {
+  grid-row: 1;
+  border-radius: 3px;
+}
+.figure img {
+  display: block;
+  border-radius: 3px;
   margin: 0;
 }
-
-/* Extra Large Image */
-p.xlg-img {
-  width: unset;
-  max-width: 2500px;
+.figure figcaption {
+  color: var(--color-text-lighter);
+  font-size: .7rem;
+  font-style: italic;
+  grid-row: 2;
+  justify-self: start;
+  padding-left: .5rem;
+}
+.figure a {
   padding: 0;
+  background-color: unset;
 }
-p.xlg-img img {
-  max-width: 100%;
-}
-
-/* Large Image */
-p.lg-img {
-  width: unset;
-  padding: 0;
-  max-width: 1200px;
-}
-p.lg-img img {
-  max-width: 100%;
+.figure a:hover {
+  background-color: unset;
 }
 
-/* Large Portrait Image */
-p.lg-img-pt {
-  width: unset;
-  max-width: 900px;
-  padding: 0;
+.gtc-1 {
+  grid-template-columns: 1fr;
 }
-p.lg-img-pt img {
-  max-width: 100%;
+
+.gtc-2 {
+  grid-template-columns: 1fr 1fr;
+  max-width: unset !important;
+}
+.gtc-2 figcaption {
+  grid-column: 1 / 3;
+}
+
+.gtc-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gtc-3 figcaption {
+  grid-column: 1 / 4;
+}
+
+.gtc-4 {
+  grid-template-columns: 1fr 1fr;
+}
+.gtc-4 div {
+  grid-row: unset;
+}
+.gtc-4 figcaption {
+  grid-column: 1 / 3;
+  grid-row: 3;
+}
+
+.figure--sml {
+  max-width: 10rem;
+}
+.figure--sml img {
+  max-width: 10rem;
+}
+
+.figure--full {
+  grid-column: 1 / 17;
+}
+@media screen and (min-width: 568px) {
+  .figure--full {
+    grid-column: 3 / 15;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .figure--full {
+    grid-column: 4 / 14;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .figure--full {
+    grid-column: 5 / 13;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .figure--full {
+    grid-column: 6 / 12;
+  }
+}
+
+.figure--wide {
+  grid-column: 1 / 17;
+}
+@media screen and (min-width: 1024px) {
+  .figure--wide {
+    grid-column: 3 / 15;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .figure--wide {
+    grid-column: 4 / 14;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .figure--wide {
+    grid-column: 5 / 13;
+  }
+}
+
+.figure--vwide {
+  grid-column: 1 / 17;
+}
+@media screen and (min-width: 1280px) {
+  .figure--vwide {
+    grid-column: 2 / 16;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .figure--vwide {
+    grid-column: 3 / 15;
+  }
 }
 
 .svg-tiny {
@@ -1384,9 +1426,6 @@ p.lg-img-pt img {
 .rec-art {
   background-color: var(--color-bg-highlight);
   grid-column: 1 / 17;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
   margin-bottom: 2rem;
   padding: 1rem;
   max-width: unset;
@@ -1744,7 +1783,6 @@ aside.many {
 }
 
 .resume h3 {
-  font-weight: 400;
   margin-bottom: 0;
 }
 

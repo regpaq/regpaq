@@ -51,7 +51,6 @@
 		margin: 0 0 2rem 10px;
 		grid-column: 1;
 		grid-row: 1 / 2;
-		// align-self: center; // Ideal position, but #ring will need alt implementation
 		@include media-query($shmedium) {
 			grid-column: 1 / 2;
 			grid-row: 1 / 4;
@@ -116,13 +115,6 @@
 		}
 		a:first-of-type {
 			margin: 0 0 0 1.5rem;			
-			// font-size: .85rem;
-			// padding: .3rem .35rem .15rem .25rem;
-			// border-radius: 3px;
-			// background-color: $grey-color-light;
-			// &:hover {
-			// 	background-color: $dark-brand-color;
-			// }
 		}
 		img {
 			margin-right: .2rem;
@@ -189,7 +181,6 @@
 	padding-left: 0;		
 }
 .resume h3 {
-	font-weight: 400;
 	margin-bottom: 0;
 }
 .job-info, .position-info {

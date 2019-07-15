@@ -44,25 +44,29 @@
 			<a class="page-link" href="/all-articles">All</a>
 			<a class="page-link" href="/marketing">#marketing</a>
 			<a class="page-link" href="/productivity">#productivity</a>
-			<a class="page-link" href="/book-notes">#booknotes</a>
+			<a class="page-link" href="/booknotes">#booknotes</a>
 			<a class="page-link" href="/self">#self</a>
 		</nav>
 	<!-- </div> -->
 </header><main class="page-content" aria-label="Content">
       <div class="content-container">
-        <article class="resume post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="post-meta">
-        <div id="ring"></div>
-        <figure class="profile"><img src="/assets/images/regpaq.jpg" /></figure>
-        <h1 itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></h1>
-        <p class="article-subtitle">for all major functions of customer acquisition (Outbound, Inbound, &amp; Events).</p>
-        <p class="resume-meta info"><img class="svg" src="/assets/images/svg/location-grey.svg">Los Angeles<a href="https://docs.google.com/document/d/1KtAI5mk5tB9tdYsy3rR6x8_QgENkt4cWnqWZqlSdeRY/edit?usp=sharing" target="_blank"><img class="svg" src="/assets/images/svg/doc-grey.svg">Résumé</a></p>
-        <p class="resume-meta social"><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank"><img class="svg" src="/assets/images/svg/linkedin-grey.svg"></a><a href="https://twitter.com/regpaq" target="_blank"><img class="svg" src="/assets/images/svg/twitter-grey.svg"></a><a class="clearbit-overlay" data-form-id="efd7b003-bf49-4084-aec2-54ccccfadda9" data-theme="default" ><img class="svg" src="/assets/images/svg/mail-grey.svg"></a></p>
-    </div>
-  </header>
-  <div class="post-content" itemprop="articleBody">
-    <h2 id="problem">Problem</h2>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header container">
+		<h1 class="post-title" itemprop="name headline">Automated Customer Acquisition Funnel and Revenue Reporting from SFDC to Google Sheets</h1>
+		<p class="article-subtitle">for all major functions of customer acquisition (Outbound, Inbound, &amp; Events).</p>
+		<div class="post-meta">
+			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name"><a href="/about">Reggie Paquette</a></span>
+			</span>
+			<time datetime="2019-05-27T09:58:23-07:00" itemprop="datePublished"><img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">May 27, '19</time>
+			<!-- <div id="post-categories"><a href="/casestudy">#casestudy</a><a href="/chilipiper">#chilipiper</a></div> -->
+		</div>
+	</header>
+	<div class="post-content" itemprop="articleBody">
+		<figure class="feat-img"><img src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper revenue dashboard" /></figure>
+
+		<h2 id="problem">Problem</h2>
 
 <p>We tended to view whether we had a good month or not on the customer acquisition (CA) side based purely on how much healthy open pipeline we had at the end of the month and how much revenue from new logos was generated. We didn’t really review (or set goals to) all the metrics in the funnel, such as leads, MQLs, booked meetings, opportunities, pipeline, disqualified, no show, closed-won, etc and broken down by the three major CA functions: inbound, outbound, and events.</p>
 
@@ -88,7 +92,8 @@
 
 <p>By default, SFDC records the Opp creation date and close date, but this limits our flexibility and reporting options. We created a few process builders to record the Opp creation date into a separate field on the Opp called ‘Became a Booked Meeting On,’ which allowed us to change it if needed. Once an Opp moved from the initial stage of ‘Demo’ to a positive next stage, we time stamped the date to a field called “Became an Opportunity On.”</p>
 
-<p><img src="/assets/images/chili-revenue-1.png" alt="Salesforce view of stage change date stamps" /></p>
+<figure class="figure no-bg-color figure--full gtc-1">
+    <div><img class="image" src="/assets/images/chili-revenue-1.png" alt="Salesforce view of stage change date stamps." /></div><figcaption class="caption">Salesforce view of stage change date stamps.</figcaption></figure>
 
 <h2 id="part-iibuilding-the-dashboard">Part II — Building the Dashboard</h2>
 
@@ -104,7 +109,8 @@
 
 <p>Here’s the point-in-time view:</p>
 
-<p class="a-img xlg-img"><img src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper revenue dashboard" /></p>
+<figure class="figure no-bg-color figure--vwide gtc-1">
+    <div><img class="image" src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper Revenue Dashboard." /></div><figcaption class="caption">Chili Piper Revenue Dashboard.</figcaption></figure>
 
 <h3 id="step-3building-the-cohortview">Step 3 — Building the Cohort View</h3>
 
@@ -120,8 +126,21 @@
   <li><strong>We’re trending 10% above our pipeline goal this month, what’s happening?</strong> By pulling in the current month’s <a href="/created-a-forecast-model-to-double-customer-acquisition-growth">goal numbers from our plan and forecast</a>, we could see how well we’re doing compared to goal. This could be answered by looking at which function is over achieving on pipeline generation and figure out why from there.</li>
 </ul>
 
-  </div>
-</article>
+	</div><section class="subscribe container" aria-label="Newsletter Subscription">
+    <h2>Never Miss an Article</h2>
+    <p>Get notified by email when I publish a new article.</p> 
+    <div id="mc_embed_signup">
+    <form action="https://regpaq.us3.list-manage.com/subscribe/post?u=d109fef95c2abc699fd848069&amp;id=0b284aa419" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+        
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email..." required>
+        <!--trap card-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d109fef95c2abc699fd848069_0b284aa419" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+</section></article>
 
       </div>
     </main><footer class="site-footer">

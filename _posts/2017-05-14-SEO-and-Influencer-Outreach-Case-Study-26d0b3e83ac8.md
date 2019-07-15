@@ -24,8 +24,7 @@ At the beginning of the campaign, The Scarf Shop had no existing audience to wor
 
 Because there was no website to point visitors to or get links to, I created a coming soon page ([see how I improved the conversion rate here](http://www.eyemaginetech.com/blog/tactics-we-used-to-increase-our-landing-page-conversion-rate-by-222){:target="_blank"}) with an offer of a free scarf giveaway to collect visitors’ contact information and begin building an email list for the launch.
 
-![The Scarf Shop landing page](/assets/images/eyemagine-1.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/eyemagine-1.png" caption="The Scarf Shop landing page." width="wide" %}
 
 ### Instagram
 
@@ -41,14 +40,13 @@ Since The Scarf Shop didn’t have brand awareness, a backlink profile, or photo
 
 I collected a list of over 300 fashion bloggers who fit The Scarf Shop’s brand style and would be most likely to work with us — not too famous and not too unknown.
 
-![Instagram influencer and blogger outreach list and spreadsheet](/assets/images/eyemagine-2.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/eyemagine-2.png" caption="Instagram influencer and blogger outreach list and spreadsheet." width="wide" %}
 
 I requested the The Scarf Shop send us around 50 scarves that we could take photos of at our office. I requested a coworker to model them for me outside and we built a small catalog of products. The strategy was to give the fashion bloggers one scarf of their choice in exchange for making a blog post and Instagram post with it.
 
 The outreach process consisted of three essential emails.
 
-**Email #1**
+#### Email #1
 
 Hi \[NAME\],
 
@@ -66,7 +64,7 @@ Thank you,
 
 I chose not to link to our product catalog in the first email in order to pique their curiosity in hopes of more responses. If they replied showing interest and asking for more details, we would send them a second email.
 
-**Email #2**
+#### Email #2
 
 Hi \[NAME\],
 
@@ -86,12 +84,11 @@ Thanks,
 
 Here is what the product catalog looked like:
 
-![The Scarf Shop sample catalog](/assets/images/eyemagine-3.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/eyemagine-3.png" caption="The Scarf Shop sample catalog." width="wide" %}
 
 Because I also wanted to use their photos for additional product shots on the store’s site and other marketing materials, I included a small clause in the final email to inform them we want to use the photos.
 
-**Email #3**
+#### Email #3
 
 Awesome!
 
@@ -117,9 +114,9 @@ Out of the 300 fashion bloggers I reached out to, 33 of them were interested in 
 
 Here are some of my favorite photos we received:
 
-![fashion blogger image with scarf 1](/assets/images/eyemagine-4.jpg)
-![fashion blogger image with scarf 2](/assets/images/eyemagine-5.jpg)
-![fashion blogger image with scarf 3](/assets/images/eyemagine-6.png)
+{% include figure.html image="/assets/images/eyemagine-4.jpg" width="full" %}
+{% include figure.html image="/assets/images/eyemagine-5.jpg" width="full" %}
+{% include figure.html image="/assets/images/eyemagine-6.png" width="full" %}
 
 ### Creating Relationships with Fashion Bloggers
 
@@ -131,17 +128,17 @@ Here is a “how to” guide produced with the help of one of the fashion blogge
 
 #### How to Tie a Turban
 
-![fashion blogger image how to tie a turban with scarf](/assets/images/eyemagine-7.jpg)
+{% include figure.html image="/assets/images/eyemagine-7.jpg" caption="Fashion blogger made a 'How to tie a turban with a scarf' tutorial for us." width="full" %}
 
 #### How to Tie a Head Wrap
 
-![fashion blogger image how to tie a head wrap](/assets/images/eyemagine-8.jpg)
+{% include figure.html image="/assets/images/eyemagine-8.jpg" caption="And 'How to tie a head wrap' tutorial." width="full" %}
 
 ### Increased Traffic and Leads
 
 Before this campaign started, The Scarf Shop had no website, no brand, no traffic, and no contacts. When the website launched in November 2015, The Scarf Shop already had people familiar with brand, which resulted in over 2,000 visits in the first month of being live; nearly 5,000 visits in the third month.
 
-![The Scarf Shop traffic growth leading up to launch](/assets/images/eyemagine-9.jpg)
+{% include figure.html image="/assets/images/eyemagine-9.jpg" caption="The Scarf Shop traffic growth leading up to launch." width="wide" %}
 
 By the end of January 2015, The Scarf Shop had over 580 contacts.
 
@@ -175,6 +172,6 @@ The result was 21 confirmed, relevant back links from 10 referring domains:
 
 ### Instagram Growth
 
-![The Scarf Shop Instagram](/assets/images/eyemagine-10.png)
+{% include figure.html image="/assets/images/eyemagine-10.png" caption="The Scarf Shop Instagram account." width="full" %}
 
 [The Scarf Shop’s Instagram](https://www.instagram.com/thescarfshop/){:target="_blank"} has grown to over 1,900 followers and will continue to grow as professional product photos are taken internally for every product, as the website grows and improves in design, and as influencer outreach campaigns continue and scale.

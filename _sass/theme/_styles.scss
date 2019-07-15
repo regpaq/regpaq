@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
 			Colors
 -------------------------------------------------------- */
-/* Convert SASS Variables > CSS Variables */
+/* Convert SASS color variables for each theme to CSS variables */
 html[data-theme="light"] {
 	@each $name, $color in $light-colors {
 		--color-#{$name}: #{$color};
@@ -12,11 +12,11 @@ html[data-theme="dark"] {
 		--color-#{$name}: #{$color};
 	}
 }
-/* Dark and Light Mode Dependent Styling */
+/* Dark and light mode dependent styling */
 @mixin theme-transition($property) {
     transition: $property 0.5s ease-out 0s;
 }
-body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure {
+body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure, #post-categories a {
     @include theme-transition(background-color);
 }
 .hashtag-nav,.post-header .post-title, .post-header .article-subtitle, .featured-articles ul li p, h1, h2, h3, p {
@@ -25,8 +25,8 @@ body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure {
 svg {
     @include theme-transition(fill);
 }
-
-html[data-theme="light"] {
+/* Theme switcher icon animation animation while in light mode */
+html[data-theme="light"] {    
     #lightswitch {
         #moon {
             transform: translate(420px, 420px);            
@@ -46,17 +46,28 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
+    /* Change bullet SVG from dark to white for dark mode */
     .post-content ul li:before {
         background-image: url(/assets/images/svg/coin-bullet-white.svg);
     }
+    /* Image color overlay in dark mode. */
     figure {
         background-color: #c8ba90;
     }
+    /* Prevents image color overlay in dark mode when figure has captions */
+    .no-bg-color {
+        background-color: unset;
+        div {
+            background-color: #c8ba90;
+        }
+    }
+    /* Prevents image color overlay in dark mode on SVGs */
     img {
         &:not(.svg-reg) {
             mix-blend-mode: multiply;
         }
     }
+    /* Theme switcher icon animation animation while in dark mode */
     #lightswitch {
         #sun {
             transform: translate(420px, 420px);
@@ -73,6 +84,7 @@ html[data-theme="dark"] {
             transform: translate(1px, 20px);
         }
     }
+    /* Resume logo compatability with dark mode */
     #servicetitan {
         background-image: url(/assets/images/svg/servicetitan-white.svg);
     }  
@@ -220,44 +232,32 @@ a {
     max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(16,1fr);
-    grid-gap: 1rem 0;
-    padding: 0; //delete in existing
-    width: unset; //delete in existing or remove after .container styles removed
-    margin-left: auto;
-    margin-right: auto;
-    .post-title {
-        grid-row: 1;
-        grid-column: 2 / 16;
-        margin: 0; //delete in existing
-    }
-    .article-subtitle {
-        grid-row: 2;
-        grid-column: 2 / 16;
-        margin: 0; //delete in existing
-    }
-    .post-meta {
-        grid-row: 3;
-        grid-column: 2 / 16;
-        position: relative; // for #ring
-        margin: 0; //delete in existing
-    }
+    grid-gap: 1rem 0;    
+}
+
+.post-title {
+    grid-row: 1;
+    grid-column: 2 / 16;
+    margin: 0;
 }
 .article-subtitle {
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+    grid-row: 2;
+    grid-column: 2 / 16;
+    margin: 0;
 }
 .post-meta {
     font-size: .75rem;
     color: v(text-lighter);
+    position: relative; /* for #ring */
+    grid-row: 3;
+    grid-column: 2 / 16;    
     display: grid;
     grid-template-columns: 4rem 1fr auto;
     grid-template-rows: auto auto auto;
     grid-auto-flow: column;
     @include media-query($medium) {
-        margin-bottom: $base-size * 1.5;
         grid-template-columns: 5rem 1fr auto;
-    }
-    @include media-query($regular) {
-        margin-bottom: $base-size * 4;
     }
     #ring {
         background-image: url(/assets/images/svg/coin-gold-ring.svg);
@@ -440,22 +440,20 @@ a {
         font-size: 1.75rem;
         line-height: 1.2;
         > p {
-            padding: 0; //delete in existing
-            margin: 0; //delete in existing if any
-            width: unset; //delete in existing
+            padding: 0;
         }
         > blockquote {
             border: none;
             margin: 0;
         }
         > blockquote > p {
-            padding: .75rem 0; //delete in existing
+            padding: .75rem 0;
         }
     }
     /* Ordered and Unordered Lists */
     ul {
         list-style-type: none;
-        @include media-query($regular) { // needs to change once figure out content width
+        @include media-query($regular) { // TODO needs to change once figure out content width
             padding-left: 0;
         }
         li {
@@ -491,7 +489,7 @@ a {
             }
         }
     }
-    ol.counter-reset { // used in .md files to continue ol with <p> in between
+    ol.counter-reset { /* used in .md files to continue ol with <p> in between */
         counter-reset: auto;        
     }
     li:last-child {
@@ -504,109 +502,94 @@ a {
 img {
     max-width: 100%;
     display: block;
-    margin: $spacing-unit * 2 auto;    
-}
-.figure {
-    position: relative;
-    z-index: 10;
-    a {
-        padding: 0;
-    }
-    figcaption {
-        font-size: .75rem;
-        margin-top: .2rem;
-    }
+    margin: $spacing-unit * 2 auto;
 }
 /* Featured image - applies on post and article card */
 .feat-img {
     grid-column: 1 / 17;
-    max-width: 100%;  //delete in existing
     margin: 0 auto 2rem auto;
     width: 100%;    
     img {
-        margin: 0;
+        margin: 0 auto;
     }
-}    
-/* Small Image that Floats Left */
-.figure--sml--left {    
-    float: left;
-    margin: 0 auto;
-    padding-right: 1.5rem;
-    padding-bottom: 1rem;
-    img {
-        max-height: 14rem;            
-        max-width: 20rem;
-        width: unset;
-        margin: 0;
-    }
-}
-/* Three Images */
-p.img-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: .65rem;
-    max-width: 1032px;
-    width: unset;
-    padding: 0;
-    > a > img, > img { // will apply whether link or not
-        margin: 0;
-    }
-}
-/* Two Images */
-p.img-2 {
-    @extend .img-3;
-    grid-template-columns: 1fr 1fr;
-    max-width: 740px;
-}
-/* Three Small Images */
-p.sml-img-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: .65rem;
-    width: unset;
-    padding: 0;        
-    > a > img, > img { // will apply whether link or not
-        margin: 0;
-    }
-}
-/* Gallery of Four Images */
-p.med-img-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+}  
+/* .figure class used in figure.html include for images in .post-content.
+Below styling applies to all types and sizes of images in post-content.
+Unique styling based on the different `include figure.html` attributes below. */
+.figure {
+    display: grid; 
     grid-column-gap: .65rem;
     grid-row-gap: .65rem;
+    border-radius: 3px;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto 2rem auto;
     padding: 0;
-    max-width: 740px;
+    div {
+        grid-row: 1;
+        border-radius: 3px;
+    }
     img {
+        display: block;
+        border-radius: 3px;
         margin: 0;
     }
+    figcaption {
+        color: v(text-lighter);
+        font-size: .7rem;
+        font-style: italic;
+        grid-row: 2;
+        justify-self: start;
+        padding-left: .5rem;
+    }
+    a {
+        padding: 0;
+        background-color: unset;        
+        &:hover {
+            background-color: unset;
+        }
+    }        
 }
-/* Extra Large Image */
-p.xlg-img {
-    width: unset;
-    max-width: 2500px;
-    padding: 0;
-    img {
-        max-width: 100%;
+.gtc-1 {
+    grid-template-columns: 1fr;
+}
+.gtc-2 {
+    grid-template-columns: 1fr 1fr;
+    max-width: unset !important;
+    figcaption {
+        grid-column: 1 / 3;
     }
 }
-/* Large Image */
-p.lg-img {
-    width: unset;
-    padding: 0;
-    max-width: 1200px;
-    img {
-        max-width: 100%;
+.gtc-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    figcaption {
+        grid-column: 1 / 4;
     }
 }
-/* Large Portrait Image */
-p.lg-img-pt {
-    width: unset;
-    max-width: 900px;
-    padding: 0;
-    img {
-        max-width: 100%;
+.gtc-4 {
+    grid-template-columns: 1fr 1fr;
+    div {
+        grid-row: unset;
     }
+    figcaption {
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+}
+.figure--sml {
+    max-width: 10rem;
+    img {   
+        max-width: 10rem;    
+    }
+}
+.figure--full {
+    @include grid-full-width-normal;
+}
+.figure--wide {
+    @include grid-full-width-wide;
+}
+.figure--vwide {
+    @include grid-full-width-very-wide;
 }
 .svg-tiny {
 	display: inline;

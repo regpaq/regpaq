@@ -52,7 +52,7 @@ Upon discovering these pieces of content could be potentially turning away SQLs,
 
 I found a contractor and worked with them on writing the content. HubSpot published the eBook on their site and promoted it to their audience. With our name and links in the eBook, this was a huge opportunity to get new leads and improve the brand.
 
-![ebook for eyemagine in collaboration with hubspot](/assets/images/eyemagine-11.png)
+{% include figure.html image="/assets/images/eyemagine-11.png" caption="Ebook for EYEMAGINE in collaboration with Hubspot." width="sml" %}
 
 Other eBooks that were published under my guidance:
 
@@ -102,13 +102,12 @@ Here’s some examples of content I wrote or helped write for the blog that did 
 
 Each piece of content ends with a CTA — either to one of our eBooks or to schedule a consultation depending on which stage of the buyer’s journey the content is for.
 
-![example of an end-of-blog-post cta](/assets/images/eyemagine-12.png)
+{% include figure.html image="/assets/images/eyemagine-12.png" caption="An example of an end-of-blog-post CTA." width="full" %}
 
 ## Result
 
 From implementing better lead scoring, premium email-bait content, launch one-off campaigns, and creating better content, my associate and I were able to increase the number of MQLs and new clients for EYEMAGINE.
 
-![lead growth for eyemagine](/assets/images/eyemagine-13.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/eyemagine-13.png" caption="EYEMAGINE lead growth." width="wide" %}
 
 Before managing EYEMAGINE’s inbound marketing, they would receive an average of 10 leads per month. By January 2016, they were receiving anywhere from 18–26 new contacts per month. Not shown in the above graph, the number of new SQLs per month also increased dramatically.

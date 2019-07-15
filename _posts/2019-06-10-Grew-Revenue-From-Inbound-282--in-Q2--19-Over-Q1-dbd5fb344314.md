@@ -22,24 +22,17 @@ We had a [goal to double new business monthly revenue](/created-a-forecast-model
 
 We started LinkedIn ads with great success in the last two quarters of 2018, but we began to experience some audience decay as costs-per-click and costs-per-booked meeting started to rise dramatically. What was once a fresh product for a new audience became a stale product for an audience who’s seen our ads and product several dozen times — if they didn’t convert already, we would need to do something different to convert them now. Here’s the type of ads we had ran when first starting LinkedIn Ads:
 
-![old Chili Piper LinkedIn ads](/assets/images/chili-inbound-1.jpeg)
-
-Old ads that worked when first starting LinkedIn Ads.
+{% include figure.html image="/assets/images/chili-inbound-1.jpeg" caption="Old Chili Piper LinkedIn ads that worked when first starting the channel." width="wide" %}
 
 Since we were spending ~$10k+ on LinkedIn to reach our audience every month, I decided our next move was to run more visually engaging ads that showed and explained the product so even if people didn’t click through, they could see what our product had to offer. The “secret weapon” would now be revealed into their news feeds, which also made impressions much more valuable. Here’s what they looked like:
 
-![new Chili Piper LinkedIn image ads](/assets/images/chili-inbound-2.jpeg)
+{% include figure.html image="/assets/images/chili-inbound-2.jpeg" caption="New image ads." width="wide" %}
 
-Testing new image ads.
+{% include figure.html image="/assets/images/chili-inbound-3.jpeg" caption="New LinkedIn carousel ad to increase engagement and show how Concierge works." width="vwide" %}
 
-![new Chili Piper LinkedIn carousel ad](/assets/images/chili-inbound-3.jpeg)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-inbound-4.gif" caption="New video ad." width="full" %}
 
-Testing carousel ads to increase engagement and show how Concierge works.
-
-![new Chili Piper LinkedIn video ad](/assets/images/chili-inbound-4.gif)
-
-And tested video ads showing how it works right on our landing page the ad led to.
+And I tested video ads showing how it works right on the landing page this ad led to.
 
 I tested several different messaging to each of our main personas and kept a log of what type of messaging (e.g. pain points, value benefits) resonated with our different personas the best. The plan was to take these learnings and apply them to all of our marketing and messaging across our teams.
 
@@ -47,9 +40,7 @@ I tested several different messaging to each of our main personas and kept a log
 
 In addition to increasing the value of ad impressions on LinkedIn, I also overhauled our landing page with improved copy, branding, and design:
 
-![old vs new Chili Piper landing page](/assets/images/chili-inbound-5.jpeg)
-
-Old landing page on the left; new on the right.
+{% include figure.html image="/assets/images/chili-inbound-5.jpeg" caption="Old landing page on the left; new on the right." width="wide" %}
 
 The new landing page converted 84% better (4.94% vs 2.68%) than the old one. A big reason for this improvement was the new ads were sending less clicks than the old ads, but the traffic was higher quality because the new ads showed what the product was about.
 
@@ -65,8 +56,7 @@ I started with 3 core search campaigns: competitors, non-brand, and brand. The c
 
 Then I set up a retargeting campaign to all website visitors, including those who visited our landing pages from LinkedIn and AdWords. The ads looked like this:
 
-![new Chili Piper Google retargeting ads](/assets/images/chili-inbound-6.jpeg)
-Google Display retargeting ads.
+{% include figure.html image="/assets/images/chili-inbound-6.jpeg" caption="New Chili Piper Google retargeting ads." width="wide" %}
 
 Now anyone who visited our website or our landing pages and didn’t convert would see our product, branding, and main value prop. Anyone who visited our website and is in the sales process with an account executive would see these ads, too.
 

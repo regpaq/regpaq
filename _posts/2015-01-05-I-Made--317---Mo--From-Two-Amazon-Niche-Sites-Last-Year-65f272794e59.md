@@ -31,8 +31,7 @@ But I took a second look at it, and I’m proud of how much they made. I can’t
 
 Here is a screenshot of 2014 revenue total from Amazon.
 
-![Note: broken down by tracking ID (which I used for different pages) not by month.amazon earnings 2014](/assets/images/amazon1.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/amazon1.png" caption="Note: broken down by tracking ID (which I used for different pages) not by month." width="wide" %}
 
 Note: broken down by tracking ID (which I used for different pages) not by month.
 
@@ -158,9 +157,9 @@ I hope this guide was helpful. If you have links to great rescues or would like 
 
 **Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, [check it out here:](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/){:target="_blank"}
 
-![at the top of reddit on r/entrepreneur](/assets/images/amazon2.png)
+{% include figure.html image="/assets/images/amazon2.png" caption="At the top of reddit on r/entrepreneur." link="http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/" width="wide" %}
 
-### You might also enjoy:
+### You might also enjoy
 
 {% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 

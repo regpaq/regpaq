@@ -1,6 +1,8 @@
-/* --------------------------------------------------------
-			Header and Footer Layout
--------------------------------------------------------- */
+/* 
+* --------------------------------------------------------
+*			Header and Footer Layout
+* --------------------------------------------------------
+*/
 .site-header {
 	max-width: 1400px;
     display: grid;
@@ -31,25 +33,30 @@
 		margin-top: $spacing-unit * 8;
 	}
 }
-/* --------------------------------------------------------
-			Articles and Pages Layout
--------------------------------------------------------- */
+/* 
+* --------------------------------------------------------
+*			Articles and Pages Layout
+* --------------------------------------------------------
+*/
 .page-content {
 	flex: 1;
 }
 .post-header {
-	margin: 1.5rem 0; // this margin declration should be made a functional css class
+	// TODO this margin declration should be made a functional css class
+	margin: 1.5rem auto;
+    @include media-query($medium) {
+        margin-bottom: 1rem;
+    }
+    @include media-query($regular) {
+        margin-bottom: 2rem;
+    }
 }
 .post-content {
 	display: grid;
     grid-template-columns: repeat(16,1fr);
     max-width: 2000px;
-    margin: 0 auto 4rem auto; //delete in existing
-    > * {        
-        padding: 0; //delete in existing
-        margin-left: 0; //delete in existing
-        margin-right: 0;  //delete in existing
-        max-width: unset;  //delete in existing
+    margin: 0 auto 4rem auto;
+    > * {
         width: unset;
         @include grid-normal;
     }

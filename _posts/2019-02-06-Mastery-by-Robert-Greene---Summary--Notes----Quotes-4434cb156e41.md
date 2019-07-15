@@ -10,11 +10,12 @@ featured-image-alt: mastery book summary
 author: Reggie Paquette
 post-id: 12
 ---
-{% include figure.html image="/assets/images/mastery.png" caption="Buy Mastery on Amazon" position="left" size="sml" link="https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907" %}
 
 Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).
 
 I personally felt [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"} was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.
+
+{% include figure.html image="/assets/images/mastery.png" caption="Buy Mastery on Amazon" width="sml" link="https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907" %}
 
 ## What is Mastery and Why Pursue It?
 
@@ -84,7 +85,7 @@ To help you find this inclination, practice journaling and reflecting on your fe
 
 > "Become who you are by learning who you are."
 >
-> > — Pindar, Ancient Greek poet
+> > Pindar, Ancient Greek poet
 {: .big-quote}
 
 > "If you allow yourself to learn who you really are by paying attention to that voice and force within you, then you can become what you were fated to become — an individual, a Master."

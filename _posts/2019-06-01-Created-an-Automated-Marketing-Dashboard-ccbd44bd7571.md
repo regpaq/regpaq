@@ -24,8 +24,7 @@ After implementing a [marketing attribution system](/implementing-a-marketing-at
 
 Here’s what it looked like and what I wanted to measure:
 
-![new Chili Piper marketing dashboard](/assets/images/chili-mktg-1.jpeg)
-{: .a-img .xlg-img}
+{% include figure.html image="/assets/images/chili-mktg-1.jpeg" caption="New Chili Piper Marketing Dashboard." width="vwide" %}
 
 ## Building The Dashboard
 
@@ -55,7 +54,7 @@ Because the marketing attribution naming conventions were standardized, it was e
 
 Here’s what that looked like for our biggest audience on LinkedIn:
 
-![marketing attribution channel breadk down for LinkedIn ads](/assets/images/chili-mktg-2.jpeg)
+{% include figure.html image="/assets/images/chili-mktg-2.jpeg" caption="Marketing attribution channel breadk down for LinkedIn ads" width="full" %}
 
 We ran campaigns targeting specific titles in all marketing, sales, and customer success. I built another dashboard for each of these audiences broken down by individual titles. So for marketing for example, we had a full breakdown from spend to close won revenue for VP of Marketing, CMO, Director of Marketing, Demand Gen Marketers, etc.
 

@@ -44,8 +44,7 @@ Inputs for cold Outbound were the (1) number of sales development reps (SDRs) an
 
 Therefore, I knew how many reps we needed to hit a particular Outbound meeting goal and closed won revenue goal. Then we added an estimated ramp period and figured out what was possible with cold Outbound based on when and how many people we could afford to hire.
 
-![cold outbound hiring plan and forecast](/assets/images/chili-forecast-1.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-forecast-1.png" caption="Cold outbound hiring plan and forecast." width="vwide" %}
 
 Cold Outbound hiring plan and booked meeting forecast to hit goal in December ‘19.
 
@@ -53,8 +52,7 @@ Now I knew what we could expect in Outbound meetings per month based on the numb
 
 Next was to look at the levers, which I concluded to be (1) our conversion rates of each part of the funnel and (2) our average customer value (ACV).
 
-![Levers can be adjusted for a ground up forecast](/assets/images/chili-forecast-2.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-forecast-2.png" caption="Levers can be adjusted for a ground up forecast." width="vwide" %}
 
 Blue numbers are the levers. By pulling these levers, we could improve efficiency over time. Number of Goal Booked Meetings roll up from the inputs.
 
@@ -66,17 +64,11 @@ Because Chili Piper’s product can be used by many different teams at a company
 
 Continuing my methodology for Events, the inputs are (1) the number of events and (2) the number of expected meetings from each event. Working with our Events Manager, we were able to roughly plan out the rest of the year and set meeting goals for each event and attending sales rep.
 
-![event forecast](/assets/images/chili-forecast-3.png)
-{: .a-img .lg-img}
-
-Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.
+{% include figure.html image="/assets/images/chili-forecast-3.png" caption="Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members." width="vwide" %}
 
 The levers for Events are the same as Outbound, conversion rates and ACV; however, we didn’t forecast any change here since we already converted well from events.
 
-![Inputs roll up to generate a forecast](/assets/images/chili-forecast-4.png)
-{: .a-img .lg-img}
-
-Number of Goal Booked Meetings roll up from the inputs.
+{% include figure.html image="/assets/images/chili-forecast-4.png" caption="Number of Goal Booked Meetings roll up from the inputs." width="vwide" %}
 
 #### Paid Inbound
 
@@ -84,15 +76,11 @@ Forecasting and goal setting for Paid Inbound is a bit tricky because the only t
 
 Instead, my inputs were the number of leads I could reasonably expect from each of the channels we’re currently using and plan to use in the future.
 
-![paid inbound forecast for Chili Piper](/assets/images/chili-forecast-5.png)
-{: .a-img .lg-img}
-
-Inbound lead goal by channel for Paid Inbound.
+{% include figure.html image="/assets/images/chili-forecast-5.png" caption="Inbound lead goal by channel for Paid Inbound." width="vwide" %}
 
 The levers for Inbound include conversion rates and ACV, but start with Leads and two additional conversion stages: Lead > Marketing Qualified Lead (MQL) and MQL to Booked Meeting (BM). For spend, I estimated the average total CPL and therefore determined the budget required for paid acquisition for the rest of the year.
 
-![forecast is broken down by channel](/assets/images/chili-forecast-6.png)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-forecast-6.png" caption="Paid forecast broken down by channel." width="vwide" %}
 
 Since we didn’t have historical Paid & Earned Inbound metrics until May, Paid Inbound forecasts start in June.
 
@@ -100,23 +88,19 @@ Since we didn’t have historical Paid & Earned Inbound metrics until May, Paid 
 
 Earned Inbound is even more trickier than Paid. For the most part, Earned Inbound is out of my direct control. Results come from a combination of activities done throughout the company. And since we didn’t have a marketing automation platform set up, we couldn’t yet determine the source of non paid leads, which could either be direct, organic, or referral. So unfortunately, there was much more guess work here and I simply estimated a growth in leads over time and the levers being the same as Paid Inbound.
 
-![Estimated growth in Earned (non paid) leads over time.](/assets/images/chili-forecast-7.png)
-{: .a-img .lg-img}
-
-Estimated growth in Earned (non paid) leads over time.
+{% include figure.html image="/assets/images/chili-forecast-7.png" caption="Estimated growth in Earned (non paid) leads over time." width="vwide" %}
 
 ### Step 3 — Making This Useful
 
 Each function’s goals had two tables below: (1) an auto updating “Actuals” table and (2) a table comparing the differences from Goal to Actual to visually see where we hit and missed goal.
 
-![Chili Piper forecast](/assets/images/chili-forecast-8.jpeg)
-{: .a-img .lg-img}
+{% include figure.html image="/assets/images/chili-forecast-8.jpeg" caption="Everything rolls up for a total customer acquisition forecast." width="vwide" %}
 
 Having all this data in one place was great for the leadership team to get a pulse check on all the teams in CA.
 
 Then because I built dashboards for [New Business Revenue](/automating-new-business-revenue-reporting-into-google-sheets), [Marketing](/building-the-marketing-dashboard), and Outbound Sales, I could put an auto updating Trend and Goal column where each team could see what they were currently trending to as a team and individually and how that compared to the month’s Goal. This made it easy to see at any point during the month where we had to step up in order to hit goal. Here’s an example of what that looked like:
 
-![we can add forecast and goals to individual channel dashboards](/assets/images/chili-forecast-9.jpeg)
+{% include figure.html image="/assets/images/chili-forecast-9.jpeg" caption="Forecast and goals by channel were added to each channel's dashboards." width="full" %}
 
 ## Result
 

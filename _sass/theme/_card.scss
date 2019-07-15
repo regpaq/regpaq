@@ -54,6 +54,7 @@
         height: 223px; /* Based on height of li item (article card) */
         overflow-x: scroll;
         scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
         h3 {
             @include fluid-type($min_width, $max_width, 15px, 17px);
             margin-bottom: .2rem;

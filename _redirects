@@ -2,6 +2,7 @@
 # If duplicate starting URL, only first will fire
 # All redirects are 301 by default
 
+http://regpaq.netlify.com/*                                                                             http://regpaq.com/:splat 301!
 /@regpaq/stop-comparing-yourself-to-others-644e6a82bf48                                                 /stop-comparing-yourself-to-others
 /@regpaq/stoic-journal-topics-eca08e0b60f5                                                              /stoic-journal-topics
 /@regpaq/mastery-summary-quotes-robert-greene-4434cb156e41                                              /mastery-summary-quotes-robert-greene

@@ -2,7 +2,11 @@
 <html lang="en" data-theme="dark"><head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1"><meta name=“robots” content=“noindex”><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name=“robots” content=“noindex”>
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets | regpaq</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets" />
@@ -18,7 +22,9 @@
 <script type="application/ld+json">
 {"url":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets","headline":"Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets","dateModified":"2019-05-26T20:04:01-07:00","datePublished":"2019-05-26T20:04:01-07:00","author":{"@type":"Person","name":"Reggie Paquette"},"description":"Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" /><link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+
+<link rel="stylesheet" href="/assets/main.css">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" /><link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
 <link rel="manifest" href="/assets/favicon/site.webmanifest">   
@@ -29,8 +35,9 @@
 </head>
 <body><header class="site-header" role="banner">
 	<!-- <div class="container"> -->
-		<div class="site-title">
+		<div class="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 			<a rel="author" href="/"><svg xmlns="http://www.w3.org/2000/svg" id="logo" viewBox="0 0 323 156.06"><g id="LetterP"><path d="M273.06,51c-.12-6.69-.36-19.86-9.56-31.66C253,5.84,237.45,2.69,231.28,1.43A61.56,61.56,0,0,0,217.35.23H149l-30.51,156h36.58l8.29-42.82h41.1a74.33,74.33,0,0,0,33-7.5c6.28-3.08,20.79-10.21,29.4-26.87A57.82,57.82,0,0,0,273.06,51ZM229.58,71.46c-7.6,10.66-19.78,12-21.68,12.13H168.8q5.64-26.28,11.3-52.54h29.8c1,0,14.3-.28,21.28,10.08A22.72,22.72,0,0,1,234.9,54,29.35,29.35,0,0,1,229.58,71.46Z" transform="translate(0 -0.17)" fill="#302e28"/></g><g id="LetterR"><path d="M123.79.23C115.52.18,99.05.12,82.11.23c-5.94,0-12.56.1-21.06.33C55.35.72,50.83.85,48.53,1,45,1.24,23.39,2.72,10,19.17-3.74,36.05.36,57.5,1.31,62.42A60.9,60.9,0,0,0,15.05,90.24a62.77,62.77,0,0,0,29.6,19l-27,47h39l23.5-42.82h30.37l8,42.82h36.58ZM68,83.59a30.68,30.68,0,0,1-30.71-29A23.14,23.14,0,0,1,42.65,39a23.48,23.48,0,0,1,17.07-8H94l10.09,52.54Z" transform="translate(0 -0.17)" fill="#bea761"/></g></svg></a>
+			<meta itemprop="logo" itemscope itemtype="https://schema.org/ImageObject" content="/assets/images/logo.png">
 		</div>
 		<div id="lightswitch" onclick="handleThemeUpdate()">
 			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 428.98"><title>change theme</title><g id="building"><path d="M503.55,494.54H437.86V433.46h7.93a8.45,8.45,0,0,0,0-16.9h-7.93V355.48h7.93a8.45,8.45,0,1,0,0-16.89H251.28L220.86,265.8a8.46,8.46,0,0,0-7.8-5.19H63.88a8.45,8.45,0,0,0,0,16.9h7.93v61.08H63.88a8.45,8.45,0,1,0,0,16.89h7.93v61.08H63.88a8.45,8.45,0,0,0,0,16.9h7.93v61.08H8.45a8.45,8.45,0,0,0,0,16.9h495.1a8.45,8.45,0,0,0,0-16.9ZM421,355.48v61.08h-7.84V393.47a27.63,27.63,0,0,0-27.6-27.6h0a27.64,27.64,0,0,0-27.6,27.6v23.09H347.78V393.47a27.64,27.64,0,0,0-27.61-27.6h0a27.63,27.63,0,0,0-27.6,27.6v23.09h-8.69l-25.53-61.07Zm-24.74,38v23.09H374.81V393.47a10.71,10.71,0,0,1,21.41,0Zm-65.34,0v23.09H309.47V393.47a10.71,10.71,0,0,1,21.41,0Zm-65.32,23.09H235.12V393.47a27.6,27.6,0,1,0-55.2,0v23.09H151.75V393.47a27.63,27.63,0,0,0-27.6-27.6h0a27.63,27.63,0,0,0-27.6,27.6v23.09H88.71V355.49H240Zm-47.34-23.09v23.09h-21.4V393.47a10.7,10.7,0,1,1,21.4,0Zm-83.37,0v23.09h-21.4V393.47a10.7,10.7,0,1,1,21.4,0Zm-21.4-54.89V315.49a10.7,10.7,0,1,1,21.4,0v23.09Zm65.34,0V315.49a10.7,10.7,0,1,1,21.4,0v23.09ZM88.71,277.51H207.43L233,338.58H217.09V315.49a27.63,27.63,0,0,0-27.6-27.6h0a27.63,27.63,0,0,0-27.6,27.6v23.09H151.75V315.49a27.63,27.63,0,0,0-27.6-27.6h0a27.63,27.63,0,0,0-27.6,27.6v23.09H88.71V277.51Zm46.14,217h-21.4V471.45a10.7,10.7,0,1,1,21.4,0v23.09Zm65.35,0H178.79V471.45a10.7,10.7,0,1,1,21.4,0v23.09Zm65.34,0H244.13V471.45a10.71,10.71,0,1,1,21.41,0v23.09Zm16.89,0V471.45a27.64,27.64,0,0,0-27.6-27.61h0a27.64,27.64,0,0,0-27.6,27.61v23.09H217.09V471.45a27.64,27.64,0,0,0-27.6-27.61h0a27.64,27.64,0,0,0-27.6,27.61v23.09H151.75V471.45a27.64,27.64,0,0,0-27.6-27.61h0a27.64,27.64,0,0,0-27.6,27.61v23.09H88.71V433.46H272.62l25.54,61.08Zm92,0H353V471.45a10.71,10.71,0,1,1,21.41,0v23.09Zm46.52,0H391.34V471.45a27.61,27.61,0,1,0-55.21,0v23.09H316.47l-25.53-61.08H421v61.08Z" transform="translate(0 -82.46)"/></g><g id="sun"><path d="M413.29,82.46a65.06,65.06,0,1,0,65,65.05A65.12,65.12,0,0,0,413.29,82.46Zm0,113.21a48.16,48.16,0,1,1,48.15-48.16A48.21,48.21,0,0,1,413.29,195.67Z" transform="translate(0 -82.46)"/></g><g id="moon"><path d="M361.39,186.66c30,7.76,60.72-7.95,71.32-35,9.44-24.09,1.2-52.69-20.6-69.14A63.45,63.45,0,0,1,439.26,88s.57.24,1.1.49c5.8,2.66,25.49,12.85,33.93,36.56,1.41,4,9.67,28.43-3.81,53.45-11.06,20.51-29.64,28.22-34.67,30.12-20.46,7.74-42.3,3.63-58-6.51A63.74,63.74,0,0,1,361.39,186.66Z" transform="translate(0 -82.46)"/></g></svg>
@@ -65,7 +72,7 @@
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">
-		<figure class="feat-img"><img src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></figure>
+		<figure class="feat-img"><img itemprop="image" src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></figure>
 
 		<h2 id="problem">Problem</h2>
 

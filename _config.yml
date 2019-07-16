@@ -17,7 +17,7 @@ title: regpaq
 email: reggie@regpaq.com
 description: B2B Marketer. Avid reader & writer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://regpaq.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://regpaq.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: regpaq
 permalink: /:title
 

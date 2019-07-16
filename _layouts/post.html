@@ -9,6 +9,13 @@ layout: default
 			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
 			<a href="/about"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></a>
 			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
+			<span itemprop="dateModified" class="display: none;">
+				{%- if page.lastmod -%}
+					Last updated: {%- page.lastmod | date: date_format -%}
+				{%- else -%}
+					Last updated: {%- page.date | date: date_format -%}
+				{%- endif -%}
+			</span>
 			<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}<a href="/{{ category }}">#{{ category }}</a>{% endfor %}</div>
 		</div>
 	</header>

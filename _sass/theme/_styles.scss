@@ -43,6 +43,10 @@ html[data-theme="light"] {
             transform: translate(420px, 420px);
         }
     }
+    /* Resume specific changes */
+    .resume .article-subtitle {
+        color: v(text);
+    }
 }
 
 html[data-theme="dark"] {
@@ -87,7 +91,7 @@ html[data-theme="dark"] {
     /* Resume logo compatability with dark mode */
     #servicetitan {
         background-image: url(/assets/images/svg/servicetitan-white.svg);
-    }  
+    }
 }
 /* --------------------------------------------------------
             Font Sizes, Styles, and Colors
@@ -390,7 +394,6 @@ a {
     }
     /* Quotes */
     blockquote {
-        @extend .container;
         font-style: italic;    
         font-size: .9rem;
         border: .1rem solid v(blockquote);

@@ -213,6 +213,9 @@ svg {
 }
 
 /* Theme switcher icon animation animation while in light mode */
+html[data-theme="light"] {
+  /* Resume specific changes */
+}
 html[data-theme="light"] #lightswitch #moon {
   transform: translate(420px, 420px);
 }
@@ -224,6 +227,9 @@ html[data-theme="light"] #lightswitch:hover #moon {
 }
 html[data-theme="light"] #lightswitch:hover #sun {
   transform: translate(420px, 420px);
+}
+html[data-theme="light"] .resume .article-subtitle {
+  color: var(--color-text);
 }
 
 html[data-theme="dark"] {
@@ -1565,10 +1571,6 @@ aside.many {
 /* --------------------------------------------------------
 			Resume Header
 -------------------------------------------------------- */
-.resume > .container, .post-content .resume > blockquote {
-  width: 980px;
-}
-
 .resume .post-header {
   width: unset;
   margin-bottom: 4rem;

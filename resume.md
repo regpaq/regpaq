@@ -24,7 +24,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 ### Senior Marketing Manager
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/time-grey.svg" />November 2018 — June 2019 (8 mo)</p>
+<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
 </div>
 
 {% assign subpage = site.posts | where: 'post-id', '17' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
@@ -66,13 +66,13 @@ ServiceTitan is the #1 management software for residential home service companie
 ### Digital Marketing Manager — Demand Generation
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/time-grey.svg" />August 2017 — October 2018 (1 year 2 mo)</p>
+<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />August 2017 — October 2018 (1 year 2 mo)</p>
 </div>
 
 ### Inbound Marketing Manager
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/time-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
+<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
 </div>
 
 <div class="accordion-wrapper">
@@ -111,7 +111,7 @@ eCommerce web development and inbound marketing agency.
 ### Inbound Marketing Specialist
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/time-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
+<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
 </div>
 
 {% assign subpage = site.posts | where: 'post-id', '15' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

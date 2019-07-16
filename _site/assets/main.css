@@ -246,7 +246,7 @@ html[data-theme="dark"] .no-bg-color {
 html[data-theme="dark"] .no-bg-color div {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] img:not(.svg-reg):not(.svg-reg--left) {
+html[data-theme="dark"] img:not(.svg-reg, .svg-reg--left, .svg) {
   mix-blend-mode: multiply;
 }
 html[data-theme="dark"] #lightswitch #sun {
@@ -995,7 +995,8 @@ Unique styling based on the different `include figure.html` attributes below. */
   border-right: none;
   border-left: none;
   border-bottom: 1px solid var(--color-text);
-  border-radius: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
   color: var(--color-brand);
   background-color: var(--color-bg);
   box-sizing: border-box;
@@ -1004,6 +1005,7 @@ Unique styling based on the different `include figure.html` attributes below. */
   margin: 0;
   width: 170px;
   vertical-align: top;
+  -webkit-appearance: none;
 }
 @media screen and (min-width: 375px) {
   #mc_embed_signup input.email {
@@ -1056,9 +1058,9 @@ Unique styling based on the different `include figure.html` attributes below. */
   font-family: Overpass, sans-serif;
   font-size: .85rem;
   border: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   color: var(--color-brand-darkest-faded);
   background-color: var(--color-brand);
   box-sizing: border-box;
@@ -1066,6 +1068,7 @@ Unique styling based on the different `include figure.html` attributes below. */
   display: inline-block;
   margin: 0;
   transition: all 0.08s ease-in-out 0.08s;
+  -webkit-appearance: none;
 }
 @media screen and (min-width: 768px) {
   #mc_embed_signup .button {
@@ -1179,6 +1182,7 @@ Unique styling based on the different `include figure.html` attributes below. */
   /* Based on height of li item (article card) */
   overflow-x: scroll;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 .featured-articles .article-container h3 {
   font-size: 15px;

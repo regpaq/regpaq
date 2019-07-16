@@ -24,9 +24,6 @@
 /* --------------------------------------------------------
             Subscribe Form
 -------------------------------------------------------- */
-form {
-    -webkit-appearance: none;
-}
 .mc-field-group { 
     display: inline-block; 
 }
@@ -36,7 +33,8 @@ form {
     font-weight: 900;
     border-top: none; border-right: none; border-left: none;
     border-bottom: 1px solid v(text);
-    border-radius: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
     color: v(brand); 
     background-color: v(bg); 
     box-sizing:border-box; 

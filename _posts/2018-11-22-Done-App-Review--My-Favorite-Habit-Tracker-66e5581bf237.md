@@ -7,7 +7,7 @@ categories: [self, reviews, productivity]
 slug: /done-review-of-my-favorite-habit-tracking-app
 featured-image: done-app-review.jpeg
 featured-image-alt: done app review
-image: done app review.jpeg
+image: done-app-review.jpeg
 author: Reggie Paquette
 post-id: 5
 ---

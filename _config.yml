@@ -21,10 +21,10 @@ url: "https://regpaq.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: regpaq
 permalink: /:title
 publisher: 
-  @type: Person
+  type: Person
   name: Reggie Paquette
   logo:
-    @type: ImageObject
+    type: ImageObject
     url: /assets/images/logo.png
 
 # Build settings

@@ -4,6 +4,7 @@ title: Résumé
 display-title: Résumé
 author: Reggie Paquette
 description: Multi-skilled B2B marketer with seven years of experience. Formerly at Chili Piper, ServiceTitan.
+permalink: /resume
 ---
 
 ##### WORK EXPERIENCE

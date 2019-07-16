@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage"/>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">	
 	<header class="post-header container">
 		<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 		<p class="article-subtitle">{{page.description | escape}}</p>
@@ -20,4 +19,5 @@ layout: default
 	{%- include subscribe.html -%}
 	{%- if site.disqus.shortname -%}{%- include disqus_comments.html -%}{%- endif -%}
 	<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Reggie Paquette"></span>
+	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage"/>
 </article>

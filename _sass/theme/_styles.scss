@@ -63,7 +63,7 @@ html[data-theme="dark"] {
     }
     /* Prevents image color overlay in dark mode on SVGs */
     img {
-        &:not(.svg-reg, .svg) {
+        &:not(.svg, .svg-reg, .svg-small, .svg-tiny) {
             mix-blend-mode: multiply;
         }
     }

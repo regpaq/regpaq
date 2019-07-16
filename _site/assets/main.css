@@ -246,7 +246,7 @@ html[data-theme="dark"] .no-bg-color {
 html[data-theme="dark"] .no-bg-color div {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] img:not(.svg-reg, .svg-reg--left, .svg) {
+html[data-theme="dark"] img:not(.svg, .svg-reg, .svg-reg--left, .svg-small, .svg-tiny) {
   mix-blend-mode: multiply;
 }
 html[data-theme="dark"] #lightswitch #sun {

@@ -24,6 +24,9 @@
 /* --------------------------------------------------------
             Subscribe Form
 -------------------------------------------------------- */
+form {
+    -webkit-appearance: none;
+}
 .mc-field-group { 
     display: inline-block; 
 }

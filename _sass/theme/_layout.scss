@@ -44,9 +44,6 @@
 .post-header {
 	// TODO this margin declration should be made a functional css class
 	margin: 1.5rem auto;
-    @include media-query($medium) {
-        margin-bottom: 1rem;
-    }
     @include media-query($regular) {
         margin-bottom: 2rem;
     }

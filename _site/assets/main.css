@@ -125,11 +125,6 @@ table td {
 .post-header {
   margin: 1.5rem auto;
 }
-@media screen and (min-width: 768px) {
-  .post-header {
-    margin-bottom: 1rem;
-  }
-}
 @media screen and (min-width: 1024px) {
   .post-header {
     margin-bottom: 2rem;
@@ -252,8 +247,11 @@ html[data-theme="dark"] .no-bg-color {
 html[data-theme="dark"] .no-bg-color div {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] img:not(.svg, .svg-reg, .svg-reg--left, .svg-small, .svg-tiny) {
+html[data-theme="dark"] img:not(.svg), html[data-theme="dark"] img:not(.svg-reg):not(.svg-reg--left), html[data-theme="dark"] img:not(.svg-small), html[data-theme="dark"] img:not(.svg-tiny), html[data-theme="dark"] img:not(.feat-img) {
   mix-blend-mode: multiply;
+}
+html[data-theme="dark"] .dark-bg-wrapper {
+  background-color: #c8ba90;
 }
 html[data-theme="dark"] #lightswitch #sun {
   transform: translate(420px, 420px);
@@ -789,10 +787,35 @@ img {
 .feat-img {
   grid-column: 1 / 17;
   margin: 0 auto 2rem auto;
+  max-width: 2000px;
   width: 100%;
 }
 .feat-img img {
   margin: 0 auto;
+}
+
+/* Fixed Aspect Raiot Featured image - applies only on post */
+.post-content > .feat-img {
+  position: relative;
+  border-radius: 3px;
+}
+.post-content > .feat-img:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 45%;
+}
+.post-content > .feat-img img {
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
 }
 
 /* .figure class used in figure.html include for images in .post-content.
@@ -1401,6 +1424,9 @@ Unique styling based on the different `include figure.html` attributes below. */
   .article-container ul.post-list .article-0 figure, .article-container ul.post-list.reveal .article-0 figure, .article-container.reveal ul.post-list .article-0 figure, .article-container.reveal ul.post-list.reveal .article-0 figure {
     margin: 0;
     border-radius: 3px 0 0 3px;
+    height: 100%;
+  }
+  .article-container ul.post-list .article-0 .dark-bg-wrapper, .article-container ul.post-list.reveal .article-0 .dark-bg-wrapper, .article-container.reveal ul.post-list .article-0 .dark-bg-wrapper, .article-container.reveal ul.post-list.reveal .article-0 .dark-bg-wrapper {
     height: 100%;
   }
   .article-container ul.post-list .article-0 img, .article-container ul.post-list.reveal .article-0 img, .article-container.reveal ul.post-list .article-0 img, .article-container.reveal ul.post-list.reveal .article-0 img {

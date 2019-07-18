@@ -1651,7 +1651,7 @@ aside.many {
 .resume #ring {
   height: 153px;
   width: 153px;
-  margin-top: -8px;
+  margin-top: 10px;
   margin-left: 2px;
 }
 .resume .profile {
@@ -1661,7 +1661,7 @@ aside.many {
   width: 140px;
   border-radius: 100%;
   clip-path: url(#coin-path);
-  margin: 0 0 1rem 10px;
+  margin: 18px 0 1rem 10px;
   grid-column: 1;
   grid-row: 1 / 2;
 }
@@ -1669,7 +1669,7 @@ aside.many {
   .resume .profile {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    margin: 0 0 0 10px;
+    margin: 18px 0 0 10px;
   }
 }
 .resume .profile img {

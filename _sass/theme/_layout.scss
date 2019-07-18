@@ -24,7 +24,7 @@
 		margin: .5rem 0 .75rem 0;
 	}
 	@include media-query($medium) {
-		margin: 1rem 0 1.5rem 0;
+		margin: 1rem auto 1.5rem auto;
 	}
 }
 .site-footer {

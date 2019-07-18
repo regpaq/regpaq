@@ -102,7 +102,7 @@ table td {
 }
 @media screen and (min-width: 768px) {
   .site-header {
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem auto 1.5rem auto;
   }
 }
 
@@ -1601,7 +1601,9 @@ aside.many {
   width: unset;
   margin-bottom: 4rem;
   padding: 0;
-  max-width: 447px;
+  max-width: unset;
+  margin-left: 0;
+  margin-right: 0;
   grid-gap: 0;
 }
 @media screen and (min-width: 568px) {
@@ -1609,20 +1611,16 @@ aside.many {
     max-width: unset;
   }
 }
-@media screen and (min-width: 768px) {
-  .resume .post-header {
-    width: calc(768px - (8px * 8));
-  }
-}
 @media screen and (min-width: 1024px) {
   .resume .post-header {
     width: calc(1024px - (8px * 8));
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .resume .post-meta {
   max-width: 980px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-row-gap: .5rem;
@@ -1649,8 +1647,10 @@ aside.many {
   margin-left: 2px;
 }
 .resume .profile {
-  max-height: 140px;
-  max-width: 140px;
+  max-height: unset;
+  max-width: unset;
+  height: 140px;
+  width: 140px;
   border-radius: 100%;
   clip-path: url(#coin-path);
   margin: 0 0 1rem 10px;

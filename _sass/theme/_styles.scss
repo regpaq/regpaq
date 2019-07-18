@@ -291,6 +291,7 @@ a {
         max-width: 55px;
         margin: 0 0 0 3.3px;
         clip-path: url(#coin-path-tiny);
+        -webkit-clip-path: url(#coin-path-tiny);
         // @include media-query($medium) {
         //     max-height: 70px;
         //     max-width: 70px;
@@ -301,6 +302,7 @@ a {
             max-width: 85px;
             margin: 0 0 0 6px;
             clip-path: url(#coin-path-small);
+            -webkit-clip-path: url(#coin-path-small);
         }      
     }
     img {
@@ -319,8 +321,10 @@ a {
     }
     .author {
         clip-path: url(#coin-path-tiny);
+        -webkit-clip-path: url(#coin-path-tiny);
         @include media-query($medium) {
             clip-path: url(#coin-path-small);
+            -webkit-clip-path: url(#coin-path-small);
         }
     }
     span {

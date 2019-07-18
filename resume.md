@@ -14,9 +14,9 @@ permalink: /resume
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</div>
-<div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
-<div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.chilipiper.com/" target="_blank">chilipiper.com</a></div>
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.chilipiper.com/" target="_blank">chilipiper.com</a></div>
 </div>
 
 Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies.
@@ -24,7 +24,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 ### Senior Marketing Manager
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
+<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
 </div>
 
 #### Case Studies
@@ -39,7 +39,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
 <div class="accordion-item-content">
 <ul>
 <li>Grew Direct Mail program (branded hot sauce) to become the most cost efficient paid acquisition channel</li>
@@ -56,9 +56,9 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />April 2016 — October 2018 (2 years 6 mo)</div>
-<div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Glendale, California</div>
-<div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></div>
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />April 2016 — October 2018 (2 years 6 mo)</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Glendale, California</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></div>
 </div>
 
 ServiceTitan is the #1 management software for residential home service companies.
@@ -66,18 +66,18 @@ ServiceTitan is the #1 management software for residential home service companie
 ### Digital Marketing Manager — Demand Generation
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />August 2017 — October 2018 (1 year 2 mo)</p>
+<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />August 2017 — October 2018 (1 year 2 mo)</p>
 </div>
 
 ### Inbound Marketing Manager
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
+<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
 </div>
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
 <div class="accordion-item-content">
 <ul>
 <li>Led team of one to increase organic search engine rankings and traffic. Achieved many top 5 positions for key non-brand, bottom-of-funnel search queries through on-site SEO improvements, creating new pages, increasing on-page content, and link building program.</li>
@@ -101,9 +101,9 @@ ServiceTitan is the #1 management software for residential home service companie
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</div>
-<div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Irvine, California</div>
-<div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></div>
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Irvine, California</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></div>
 </div>
 
 eCommerce web development and inbound marketing agency.
@@ -111,7 +111,7 @@ eCommerce web development and inbound marketing agency.
 ### Inbound Marketing Specialist
 
 <div class="position-info">
-<p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
+<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
 </div>
 
 #### Case Studies
@@ -121,7 +121,7 @@ eCommerce web development and inbound marketing agency.
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
 <div class="accordion-item-content">
 <ul>
 <li>Executed and managed digital marketing strategies and content calendars for five clients at a time.</li>
@@ -139,16 +139,16 @@ eCommerce web development and inbound marketing agency.
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="svg-tiny" src="/assets/images/svg/cal-grey.svg" />May 2012 — Present (7 years+)</div>
-<div class="job-loc"><img class="svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
-<div class="job-url"><img class="svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></div>
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />May 2012 — Present (7 years+)</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></div>
 </div>
 
 Self-started marketing agency offering website development and marketing services
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
 <div class="accordion-item-content">
 <ul>
 <li>Launched a marketing service for local businesses to drive brand awareness, traffic, and leads.</li>

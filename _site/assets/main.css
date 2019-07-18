@@ -241,13 +241,13 @@ html[data-theme="dark"] .post-content ul li:before {
 html[data-theme="dark"] figure {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] .no-bg-color {
+html[data-theme="dark"] .no-dark-filter {
   background-color: unset;
 }
-html[data-theme="dark"] .no-bg-color div {
+html[data-theme="dark"] .no-dark-filter div {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] img:not(.svg), html[data-theme="dark"] img:not(.svg-reg):not(.svg-reg--left), html[data-theme="dark"] img:not(.svg-small), html[data-theme="dark"] img:not(.svg-tiny), html[data-theme="dark"] img:not(.feat-img) {
+html[data-theme="dark"] img:not(.no-dark-filter) {
   mix-blend-mode: multiply;
 }
 html[data-theme="dark"] .dark-bg-wrapper {
@@ -642,12 +642,12 @@ a:hover {
 .post-content a:hover {
   background-color: var(--color-brand-highlight);
 }
-.post-content .feat-img + p {
+.post-content p:first-child {
   font-size: 1.4rem;
   line-height: 1.5;
   font-style: italic;
 }
-.post-content .feat-img + p a {
+.post-content p:first-child a {
   font-size: 1.25rem;
 }
 .post-content blockquote {
@@ -970,7 +970,7 @@ Unique styling based on the different `include figure.html` attributes below. */
   top: .165rem;
 }
 
-.svg-reg, .svg-reg--left {
+.svg-reg {
   display: inline;
   margin: 0;
   height: 1em !important;
@@ -980,7 +980,15 @@ Unique styling based on the different `include figure.html` attributes below. */
   margin-left: .5rem;
   margin-bottom: 0 !important;
 }
-.svg-reg--left {
+
+img.svg-reg--left {
+  display: inline;
+  margin: 0;
+  height: 1em !important;
+  width: 1em !important;
+  position: relative;
+  top: .1rem;
+  margin-bottom: 0 !important;
   margin-left: 0 !important;
   margin-right: .2rem !important;
 }

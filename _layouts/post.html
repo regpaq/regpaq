@@ -8,7 +8,7 @@ layout: default
 		<div class="post-meta">
 			<div id="ring"></div><figure><img src="/assets/images/regpaq.jpg" /></figure>
 			<a href="/about"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></a>
-			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
+			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
 			<span itemprop="dateModified" style="display: none;">
 				{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
 				{%- if page.lastmod -%}

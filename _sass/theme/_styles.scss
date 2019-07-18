@@ -59,14 +59,14 @@ html[data-theme="dark"] {
         background-color: #c8ba90;
     }
     /* Prevents image color overlay in dark mode when figure has captions */
-    .no-bg-color {
+    .no-dark-filter {
         background-color: unset;
         div {
             background-color: #c8ba90;
         }
     }
     /* Prevents image color overlay in dark mode on SVGs */
-    img:not(.svg), img:not(.svg-reg), img:not(.svg-small), img:not(.svg-tiny), img:not(.feat-img) {
+    img:not(.no-dark-filter) {
         mix-blend-mode: multiply;
     }
     .dark-bg-wrapper {
@@ -385,7 +385,7 @@ a {
         }
     }
     /* Bigger First Paragraph */
-    .feat-img + p {
+    p:first-child {
         font-size: 1.4rem;
         line-height: 1.5;
         font-style: italic;
@@ -645,10 +645,16 @@ Unique styling based on the different `include figure.html` attributes below. */
     position: relative;
     top: .1rem;
 	margin-left: .5rem;
-	margin-bottom: 0 !important;
-	&--left {
-		@extend .svg-reg;
-		margin-left: 0 !important;
-		margin-right: .2rem !important;
-	}
+    margin-bottom: 0 !important;
+}
+img.svg-reg--left {
+    display: inline;
+    margin: 0;
+    height: 1em !important;
+    width: 1em !important;
+    position: relative;
+    top: .1rem;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: .2rem !important;
 }

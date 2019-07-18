@@ -1602,6 +1602,7 @@ aside.many {
   margin-bottom: 4rem;
   padding: 0;
   max-width: 447px;
+  grid-gap: 0;
 }
 @media screen and (min-width: 568px) {
   .resume .post-header {
@@ -1642,15 +1643,17 @@ aside.many {
   }
 }
 .resume #ring {
-  height: 155px;
-  width: 155px;
-  margin-top: -10px;
+  height: 153px;
+  width: 153px;
+  margin-top: -8px;
+  margin-left: 2px;
 }
 .resume .profile {
-  max-height: 130px;
-  max-width: 130px;
+  max-height: 140px;
+  max-width: 140px;
   border-radius: 100%;
-  margin: 0 0 2rem 10px;
+  clip-path: url(#coin-path);
+  margin: 0 0 1rem 10px;
   grid-column: 1;
   grid-row: 1 / 2;
 }
@@ -1663,8 +1666,9 @@ aside.many {
 }
 .resume .profile img {
   margin: 0;
-  max-height: 130px;
-  max-width: 130px;
+  max-height: 140px;
+  max-width: 140px;
+  clip-path: url(#coin-path);
 }
 .resume h1 {
   grid-column: 1;
@@ -1881,6 +1885,66 @@ aside.many {
   width: 36px;
   padding-left: 12px;
   vertical-align: middle;
+}
+
+/* --------------------------------------------------------
+			Case Study Cards
+-------------------------------------------------------- */
+.resume .featured-articles {
+  padding-top: .5rem;
+  margin-bottom: 1rem;
+  grid-column: 1 / 17;
+}
+.resume .featured-articles > div {
+  margin: 0 auto;
+  max-width: unset !important;
+}
+@media screen and (min-width: 768px) {
+  .resume .featured-articles {
+    padding: 1rem;
+  }
+}
+.resume .featured-article-header {
+  justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .resume ul.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+}
+.resume .post-list li:before {
+  content: none;
+}
+.resume .post-list li:first-child {
+  margin-left: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .resume .post-list li:first-child {
+    padding: 0;
+  }
+}
+.resume .post-list li {
+  width: 330px !important;
+  margin: .5rem !important;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .resume .post-list li {
+    height: 280px !important;
+  }
+}
+.resume h3 a {
+  color: var(--color-brand);
+}
+.resume .container-overflow {
+  display: unset;
+}
+.resume h4 {
+  margin-bottom: 1rem;
 }
 
 .accordion-item-heading:hover {

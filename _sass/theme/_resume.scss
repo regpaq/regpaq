@@ -7,6 +7,7 @@
 		margin-bottom: 4rem;
 		padding: 0;
 		max-width: 447px;
+		grid-gap: 0;
 		@include media-query($shmedium) {
 			max-width: unset;
 		}
@@ -37,15 +38,17 @@
 		}
 	}
 	#ring { // ring SVG and rest of CSS on _styles.scss
-		height: 155px;
-		width: 155px;
-		margin-top: -10px;
+		height: 153px;
+		width: 153px;
+		margin-top: -8px;
+		margin-left: 2px;
 	}
 	.profile {
-		max-height: 130px;
-		max-width: 130px;
+		max-height: 140px;
+		max-width: 140px;
 		border-radius: 100%;
-		margin: 0 0 2rem 10px;
+		clip-path: url(#coin-path);
+		margin: 0 0 1rem 10px;
 		grid-column: 1;
 		grid-row: 1 / 2;
 		@include media-query($shmedium) {
@@ -55,8 +58,9 @@
 		}
 		img {
 			margin: 0;
-			max-height: 130px;
-			max-width: 130px;
+			max-height: 140px;
+			max-width: 140px;
+			clip-path: url(#coin-path);
 		}
 	}
 	h1 {
@@ -241,5 +245,63 @@
 			padding-left: 12px;
 			vertical-align: middle;
 		}
+	}
+}
+/* --------------------------------------------------------
+			Case Study Cards
+-------------------------------------------------------- */
+/* Below only applicable to using the include article-cards.html on resume.md */
+.resume {
+	.featured-articles {
+		padding-top: .5rem;
+		margin-bottom: 1rem;
+		grid-column: 1 / 17;
+		// @include media-query($medium) {
+		// 	grid-column: 2 / 16;
+		// }
+		> div {
+			margin: 0 auto;
+			max-width: unset !important; // why is the other stylie im overwriting important?
+		}
+		@include media-query($medium) {
+			padding: 1rem;
+		}
+	}
+	.featured-article-header {
+		justify-content: flex-end;
+	}
+	ul.post-list {
+		@include media-query($medium) {
+			// grid-template-rows: 1fr;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+			align-content: flex-start;
+		}
+	}
+	.post-list li:before {
+		content: none;
+	}
+	.post-list li:first-child {
+		margin-left: 1rem;
+		@include media-query($medium) {
+			padding: 0;
+		}
+	}
+	.post-list li {
+		width: 330px !important;
+		
+		margin: .5rem !important;
+		padding-bottom: 0;
+		@include media-query($medium) {
+			height: 280px !important;
+		}
+	}
+	h3 a {
+		color: v(brand);
+	}
+	.container-overflow {
+		display: unset;
 	}
 }

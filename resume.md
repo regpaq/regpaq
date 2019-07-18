@@ -27,6 +27,8 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 <p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
 </div>
 
+#### Case Studies
+
 {% assign subpage = site.posts | where: 'post-id', '17' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '18' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '19' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
@@ -34,8 +36,6 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 {% assign subpage = site.posts | where: 'post-id', '21' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '22' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '23' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}    
-
-
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
@@ -113,6 +113,8 @@ eCommerce web development and inbound marketing agency.
 <div class="position-info">
 <p><img class="svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
 </div>
+
+#### Case Studies
 
 {% assign subpage = site.posts | where: 'post-id', '15' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
 {% assign subpage = site.posts | where: 'post-id', '16' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

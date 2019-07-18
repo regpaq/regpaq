@@ -167,8 +167,8 @@ table td {
 -------------------------------------------------------- */
 /* Convert SASS color variables for each theme to CSS variables */
 html[data-theme="light"] {
-  --color-bg: #FFFFFF;
-  --color-bg-highlight: #F5F2EC;
+  --color-bg: #F5F2EC;
+  --color-bg-highlight: #FFFFFF;
   --color-brand: #BEA761;
   --color-brand-highlight: #f6ead1;
   --color-text: #1E152A;

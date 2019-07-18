@@ -14,17 +14,17 @@
 		margin: 0;
 	}
 	.site-title {
-		grid-column: 2 / 15;
+		grid-column: 2 / 14;
 	}
 	#lightswitch {
-		grid-column: 15 / 16;
+		grid-column: 14 / 16;
 		justify-self: end;
 	}
 	.site-nav {
-		margin: $spacing-unit * 4 0 $spacing-unit * 2 0;
+		margin: .5rem 0 .75rem 0;
 	}
 	@include media-query($medium) {
-		margin: 2rem auto;
+		margin: 1rem 0 1.5rem 0;
 	}
 }
 .site-footer {

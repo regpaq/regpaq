@@ -91,18 +91,18 @@ table td {
   margin: 0;
 }
 .site-header .site-title {
-  grid-column: 2 / 15;
+  grid-column: 2 / 14;
 }
 .site-header #lightswitch {
-  grid-column: 15 / 16;
+  grid-column: 14 / 16;
   justify-self: end;
 }
 .site-header .site-nav {
-  margin: 32px 0 16px 0;
+  margin: .5rem 0 .75rem 0;
 }
 @media screen and (min-width: 768px) {
   .site-header {
-    margin: 2rem auto;
+    margin: 1rem 0 1.5rem 0;
   }
 }
 
@@ -1890,6 +1890,7 @@ aside.many {
 /* --------------------------------------------------------
 			Case Study Cards
 -------------------------------------------------------- */
+/* Below only applicable to using the include article-cards.html on resume.md */
 .resume .featured-articles {
   padding-top: .5rem;
   margin-bottom: 1rem;
@@ -1942,9 +1943,6 @@ aside.many {
 }
 .resume .container-overflow {
   display: unset;
-}
-.resume h4 {
-  margin-bottom: 1rem;
 }
 
 .accordion-item-heading:hover {

@@ -160,3 +160,16 @@ Self-started marketing agency offering website development and marketing service
 </div>
 </div>
 </div>
+
+##### EDUCATION
+
+<div class="job-title" id="csuf">
+<h2>CSU, Fullerton</h2>
+</div>
+
+<div class="job-info">
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />2013</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Fullerton</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></div>
+<div class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/post-grey.svg" />BA Business Administration, Entrepreneurship</div>
+</div>

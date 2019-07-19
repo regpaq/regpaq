@@ -185,6 +185,9 @@
 	background-size: 2.5rem 1.85rem;
 	padding-left: 2.5rem;
 }
+#csuf {
+	background-image: url(/assets/images/csuf.png);
+}
 .resume .job-title h2 {
 	display: inline;
 	padding-left: 0;		
@@ -237,6 +240,10 @@
 			padding: 0;
 			font-size: .75rem;
 		}
+	}
+	.job-degree {
+		grid-row: 3;
+		grid-column: 1 / 4;
 	}
 }
 .rec-art + .accordion-wrapper {

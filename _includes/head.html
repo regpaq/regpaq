@@ -6,14 +6,10 @@
 <meta name=“robots” content=“noindex”>
 {% endif %}
 {% seo %}
-<!-- <meta property="og:title" content="{{ page.title | escape }}">
-<meta property="og:description" content="{{page.description | escape}}"> -->
 <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.featured-image }}">
-<!-- <meta property="og:url" content="{{ site.baseurl }}{{ page.slug }}"> -->
-<meta name="twitter:title" content="{{ page.title | escape }}">
-<meta name="twitter:description" content="{{page.description | escape}}">
-<meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.featured-image }}">
+<meta name="twitter:image:alt" content="{{ page.featured-image-alt }}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@regpaq">
 <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 {% feed_meta %}
 {%- if jekyll.environment == 'production' and site.google_analytics -%}

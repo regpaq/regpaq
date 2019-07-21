@@ -11,7 +11,7 @@ layout: default
 			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg">{{ page.date | date: date_format }}</time>
 			<span itemprop="dateModified" style="display: none;">
 				{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
-				{%- if page.lastmod -%}
+				{%- if page.date_modified -%}
 					Last updated: {{ page.lastmod | date: date_format }}
 				{%- else -%}
 					Last updated: {{ page.date | date: date_format }}

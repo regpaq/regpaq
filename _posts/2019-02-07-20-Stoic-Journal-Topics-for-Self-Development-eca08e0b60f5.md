@@ -10,14 +10,14 @@ image-alt: stoic journal topics
 author: Reggie Paquette
 post-id: 13
 seo:
-    date_modified: '2019-02-07T14:52:48.485Z'
+    date_modified: '2019-07-20T14:52:48.485Z'
 ---
 
 Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.
 
 Many of his journal entries to himself have been recovered and curated into a single book title Meditations, which is widely recognized as one of the most influential pieces of stoic philosophy.
 
-The practice of journaling allowed Marcus Aurelius, and can allow us today, to think more clearly and live a more virtuous life. The following journal topics can help guide your journaling practice toward stoic thought exercises.
+The practice of journaling allowed Marcus Aurelius, and can allow us today, to think more clearly and live a more virtuous life. The following stoic journal prompts and topics can help guide your journaling practice toward stoic thought exercises.
 
 ## Journal Topics for Gratitude
 
@@ -29,7 +29,7 @@ People to consider: significant other, family, friends, coworkers, and people wh
 2. What value do I (or can I) add to \[person’s\] life in return?
 3. How does \[person\] affect and influence my life decisions, feelings, and behavior?
 4. What characteristics does \[person\] have that I admire?
-5. What are my best characteristics who influenced me to develop them?
+5. What are my best characteristics and who influenced me to develop them?
 
 You can also reflect on your achievements, major events, and material things in your life to establish gratitude for you’ve done and what you have, which will suppress feelings of unhappiness and cravings for new and better things.
 

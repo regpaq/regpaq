@@ -6,10 +6,12 @@ date: '2019-06-09T18:01:47.645Z'
 categories: [casestudy,chilipiper]
 slug: /created-a-forecast-model-to-double-customer-acquisition-growth
 skills: [reporting,spreadsheets]
-featured-image: chili-forecast-8.jpeg
-featured-image-alt: Chili Piper forecast
+image: chili-forecast-8.jpeg
+image-alt: Chili Piper forecast
 author: Reggie Paquette
 post-id: 21
+seo:
+    date_modified: '2019-06-09T18:01:47.645Z'
 ---
 
 ## Problem

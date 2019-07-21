@@ -5,10 +5,12 @@ description: How I finally got over spending money on stupid shit.
 date: '2019-02-01T15:51:34.385Z'
 categories: [self]
 slug: /google-sheets-monthly-budget-template
-featured-image: google-sheets-budget-template.jpeg
-featured-image-alt: google sheets budget template
+image: google-sheets-budget-template.jpeg
+image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
+seo:
+    date_modified: '2019-02-01T15:51:34.385Z'
 ---
 
 You can download my template using the link at the bottom of this article.

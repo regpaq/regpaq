@@ -5,10 +5,12 @@ description: No other app comes even close.
 date: '2018-11-30T02:41:56.733Z'
 categories: [self, reviews, productivity]
 slug: /gymaholic-app-review-the-best-gym-app-for-workout-tracking
-featured-image: gymaholic review.jpeg
-featured-image-alt: gymaholic review
+image: gymaholic-review.jpeg
+image-alt: gymaholic review
 author: Reggie Paquette
 post-id: 6
+seo:
+    date_modified: '2018-11-30T02:41:56.733Z'
 ---
 
 I’ve been using [Gymaholic](https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8){:target="_blank"} religiously for exactly a year now and have tracked every workout with it. Below is my review.

@@ -20,7 +20,7 @@ layout: default
 			<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}<a href="/{{ category }}">#{{ category }}</a>{% endfor %}</div>
 		</div>
 	</header>
-	{% if page.featured-image %}{% include featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+	{% if page.image %}{% include featured-image.html image=page.image alt=page.image-alt %}{% endif %}
 	<div class="post-content" itemprop="articleBody">		
 		{{ content }}		
 	</div>

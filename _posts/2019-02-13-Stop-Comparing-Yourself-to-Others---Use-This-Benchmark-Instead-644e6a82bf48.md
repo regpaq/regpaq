@@ -5,10 +5,12 @@ description: Here’s what you can do instead.
 date: '2019-02-13T20:11:11.378Z'
 categories: [self]
 slug: /stop-comparing-yourself-to-others
-featured-image: stop-comparing-yourself-to-others.jpeg
-featured-image-alt: stop comparing yourself to others
+image: stop-comparing-yourself-to-others.jpeg
+image-alt: stop comparing yourself to others
 author: Reggie Paquette
 post-id: 14
+seo:
+    date_modified: '2019-02-13T20:11:11.378Z'
 ---
 
 The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.

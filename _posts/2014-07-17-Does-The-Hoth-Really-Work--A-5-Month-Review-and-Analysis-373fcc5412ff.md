@@ -5,10 +5,12 @@ description: Stop buying links
 date: 2014-07-17 00:12:27 -0700
 categories: [marketing]
 slug: /does-the-hoth-really-work-a-5-month-review-and-analysis
-featured-image: the-hoth-review.jpg
-featured-image-alt: the-hoth-review.jpg
+image: the-hoth-review.jpg
+image-alt: the-hoth-review.jpg
 author: Reggie Paquette
 post-id: 1
+seo:
+    date_modified: 2014-07-17 00:12:27 -0700
 ---
 
 ### Nov ’16 Update:

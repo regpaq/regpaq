@@ -6,10 +6,12 @@ date: '2017-05-14T21:22:21.137Z'
 categories: [casestudy,eyemagine]
 slug: /seo-case-study
 skills: [seo,influencer,demandgen]
-featured-image: eyemagine-1.png
-featured-image-alt: The Scarf Shop landing page
+image: eyemagine-1.png
+image-alt: The Scarf Shop landing page
 author: Reggie Paquette
 post-id: 16
+seo:
+    date_modified: '2017-05-14T21:22:21.137Z'
 ---
 
 The Scarf Shop was a brand new store that I helped launch through a brand awareness and link acquisition campaign. The goal was to get the brand in front of the target audience and increase website traffic and contacts.

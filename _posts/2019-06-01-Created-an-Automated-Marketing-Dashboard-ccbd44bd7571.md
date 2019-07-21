@@ -6,10 +6,12 @@ date: '2019-06-01T06:33:12.458Z'
 categories: [casestudy,chilipiper]
 slug: /building-the-marketing-dashboard
 skills: [reporting,spreadsheets]
-featured-image: chili-mktg-1.jpeg
-featured-image-alt: new Chili Piper marketing dashboard
+image: chili-mktg-1.jpeg
+image-alt: new Chili Piper marketing dashboard
 author: Reggie Paquette
 post-id: 20
+seo:
+    date_modified: '2019-06-01T06:33:12.458Z'
 ---
 
 ## Problem

@@ -5,10 +5,12 @@ description: Inspired by the journal method of Marcus Aurelius.
 date: '2019-02-07T14:52:48.485Z'
 categories: [self]
 slug: /stoic-journal-topics
-featured-image: stoic-journal-topics.jpeg
-featured-image-alt: stoic journal topics
+image: stoic-journal-topics.jpeg
+image-alt: stoic journal topics
 author: Reggie Paquette
 post-id: 13
+seo:
+    date_modified: '2019-02-07T14:52:48.485Z'
 ---
 
 Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.

@@ -5,10 +5,12 @@ description: The 6 best tips from Atomic Habits on building habits that last
 date: '2019-01-21T16:44:36.213Z'
 categories: [self, productivity]
 slug: /how-to-make-habits-stick
-featured-image: how to make new habits stick.jpeg
-featured-image-alt: how to make new habits stick
+image: how-to-make-new-habits-stick.jpeg
+image-alt: how to make new habits stick
 author: Reggie Paquette
 post-id: 8
+seo:
+    date_modified: '2019-01-21T16:44:36.213Z'
 ---
 
 Has this ever happened to you? You’re completely motivated to start some new habits, it started off well because you’re fired up, but your fire inevitably died out after just a short time?

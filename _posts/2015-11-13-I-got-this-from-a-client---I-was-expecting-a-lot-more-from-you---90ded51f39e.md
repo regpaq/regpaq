@@ -5,10 +5,12 @@ description: That’s what a client told me to my face in a meeting.
 date: '2015-11-13T22:14:30.000Z'
 categories: [marketing, freelancing]
 slug: /i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you
-featured-image: i was exepecting a lot more from you.png
-featured-image-alt: i was exepecting a lot more from you
+image: i-was-exepecting-a-lot-more-from-you.png
+image-alt: i was exepecting a lot more from you
 author: Reggie Paquette
 post-id: 3
+seo:
+    date_modified: '2015-11-13T22:14:30.000Z'
 ---
 
 I wanted to throw my laptop on the ground and curse. It was the last thing I wanted to hear after weeks of hard work.

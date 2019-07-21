@@ -5,10 +5,12 @@ description: Who you’ll become in your future can be answered by your behavior
 date: '2018-11-12T18:27:42.017Z'
 categories: [booknotes, self, productivity]
 slug: /atomic-habits-review-notes-lessons
-featured-image: atomic habits summary review.png
-featured-image-alt: atomic habits summary review
+image: atomic-habits-summary-review.png
+image-alt: atomic habits summary review
 author: Reggie Paquette
 post-id: 4
+seo:
+    date_modified: '2018-11-12T18:27:42.017Z'
 ---
 
 This book, out of all the books I’ve read so far, would have to be the first book I’d recommend to anyone — [Atomic Habits by James Clear](https://www.amazon.com/gp/product/B07D23CFGR/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B07D23CFGR&linkId=1e9763a3a8851362426915dea6844f74){:target="_blank"}.

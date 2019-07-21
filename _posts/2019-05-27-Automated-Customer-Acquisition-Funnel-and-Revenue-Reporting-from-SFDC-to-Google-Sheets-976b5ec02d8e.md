@@ -6,10 +6,12 @@ date: '2019-05-27T16:58:23.546Z'
 categories: [casestudy,chilipiper]
 slug: /automating-new-business-revenue-reporting-into-google-sheets
 skills: [reporting,spreadsheets]
-featured-image: chili-revenue-2.jpeg
-featured-image-alt: Chili Piper revenue dashboard
+image: chili-revenue-2.jpeg
+image-alt: Chili Piper revenue dashboard
 author: Reggie Paquette
 post-id: 17
+seo:
+    date_modified: '2019-05-27T16:58:23.546Z'
 ---
 
 ## Problem

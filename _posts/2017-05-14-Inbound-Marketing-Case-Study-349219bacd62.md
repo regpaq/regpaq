@@ -6,10 +6,12 @@ date: '2017-05-14T21:21:14.015Z'
 categories: [casestudy,eyemagine]
 slug: /inbound-marketing-case-study
 skills: [demandgen,content]
-featured-image: eyemagine-11.png
-featured-image-alt: ebook for eyemagine in collaboration with hubspot
+image: eyemagine-11.png
+image-alt: ebook for eyemagine in collaboration with hubspot
 author: Reggie Paquette
 post-id: 15
+seo:
+    date_modified: '2017-05-14T21:21:14.015Z'
 ---
 
 While working in the inbound marketing department at the digital agency [EYEMAGINE](http://www.eyemaginetech.com){:target="_blank"}, I managed inbound marketing campaigns for clients and the agency itself for a brief period of time. My department was treating EYEMAGINE like a client and I managed the content and other one-off campaigns.

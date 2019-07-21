@@ -15,7 +15,7 @@ layout: default
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">
-		{% if page.featured-image %}{% include featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+		{% if page.image %}{% include featured-image.html image=page.image alt=page.image-alt %}{% endif %}
 		{{ content }}
 	</div>	
 	{%- if site.disqus.shortname -%}{%- include disqus_comments.html -%}{%- endif -%}

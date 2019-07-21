@@ -6,10 +6,12 @@ date: '2019-06-11T02:37:27.735Z'
 categories: [casestudy,chilipiper]
 slug: /helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18
 skills: [reporting,spreadsheets,outbound,demandgen]
-featured-image: chili-cold-outbound-1.jpeg
-featured-image-alt: cold outbound booked meeting and pipeline improvement
+image: chili-cold-outbound-1.jpeg
+image-alt: cold outbound booked meeting and pipeline improvement
 author: Reggie Paquette
 post-id: 23
+seo:
+    date_modified: '2019-06-11T02:37:27.735Z'
 ---
 
 ## Problem

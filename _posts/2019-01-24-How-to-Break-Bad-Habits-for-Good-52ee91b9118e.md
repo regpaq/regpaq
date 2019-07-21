@@ -5,10 +5,12 @@ description: The best tips from Atomic Habits on breaking your worse habits
 date: '2019-01-24T23:45:09.504Z'
 categories: [self, productivity]
 slug: /how-to-break-bad-habits
-featured-image: how-to-break-bad-habits.png
-featured-image-alt: how to break bad habits
+image: how-to-break-bad-habits.png
+image-alt: how to break bad habits
 author: Reggie Paquette
 post-id: 9
+seo:
+    date_modified: '2019-01-24T23:45:09.504Z'
 ---
 
 Stopping a bad habit is usually much more difficult than starting a new habit, especially if it’s a bad habit you’ve had for a long time.

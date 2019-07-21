@@ -5,10 +5,12 @@ description: And here’s how I did it.
 date: '2015-01-05T18:17:44.000Z'
 categories: [marketing]
 slug: /i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it
-featured-image: niche site amazon affiliate.png
-featured-image-alt: niche site amazon affiliate
+image: niche-site-amazon-affiliate.png
+image-alt: niche site amazon affiliate
 author: Reggie Paquette
 post-id: 2
+seo:
+    date_modified: '2015-01-05T18:17:44.000Z'
 ---
 
 Towards the end of 2014, I was really sad and maybe even depressed, although I’m hesitant to use the word. Nothing was going right.

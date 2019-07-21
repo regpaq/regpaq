@@ -3,14 +3,14 @@ layout: post
 title: '“Done” App Review: My Favorite Habit Tracker'
 description: And one you’ll actually stick to.
 date: '2018-11-22T18:17:19.083Z'
-lastmod: '2019-04-22T18:17:19.083Z'
 categories: [self, reviews, productivity]
 slug: /done-review-of-my-favorite-habit-tracking-app
-featured-image: done-app-review.jpeg
-featured-image-alt: done app review
 image: done-app-review.jpeg
+image-alt: done app review
 author: Reggie Paquette
 post-id: 5
+seo:
+    date_modified: '2018-11-22T18:17:19.083Z'
 ---
 
 I’ve always had miserable success with tracking habits until I found an app called [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"}. I would always start off strong, then the number of days in a row I would log would taper off until I stopped completely.

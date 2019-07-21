@@ -5,10 +5,12 @@ description: The essential book to help you find your purpose.
 date: '2019-02-06T06:48:39.759Z'
 categories: [self, booknotes]
 slug: /mastery-summary-quotes-robert-greene
-featured-image: mastery-book-summary.jpeg
-featured-image-alt: mastery book summary
+image: mastery-book-summary.jpeg
+image-alt: mastery book summary
 author: Reggie Paquette
 post-id: 12
+seo:
+    date_modified: '2019-02-06T06:48:39.759Z'
 ---
 
 Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).

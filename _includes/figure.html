@@ -1,4 +1,4 @@
-<figure class="figure {% if include.caption %}no-dark-filter{% endif %} figure--{{ include.width }} {% if include.image4 %}gtc-4{% elsif include.image3 %}gtc-3{% elsif include.image2 %}gtc-2{% else %}gtc-1{% endif %}">
+<figure class="figure no-dark-filter figure--{{ include.width }} {% if include.image4 %}gtc-4{% elsif include.image3 %}gtc-3{% elsif include.image2 %}gtc-2{% else %}gtc-1{% endif %}">
     <div><img class="image" src="{{ include.image }}" alt="{{ include.caption }}" /></div>
     {%- if include.image2 -%}<div><img class="image" src="{{ include.image2 }}" alt="{{ include.caption }}" /></div>{%- endif -%}
     {%- if include.image3 -%}<div><img class="image" src="{{ include.image3 }}" alt="{{ include.caption }}" /></div>{%- endif -%}

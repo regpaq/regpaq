@@ -161,6 +161,44 @@
 	}
 }
 /* --------------------------------------------------------
+			Table of Contents
+-------------------------------------------------------- */
+.toc-aside {
+	grid-row: 1 / 1000000;
+	grid-column: 4 / 6;
+	padding-right: 1rem;
+	opacity: .4;
+	transition: .3s;
+	font-family: $Monospace;
+	&:hover {
+		opacity: 1;
+	}
+	nav {
+		position: sticky;	
+		top: 15rem;
+		h4 {
+			margin-bottom: .5rem;
+		font-family: $Monospace;
+		}
+		li {
+			font-size: .65rem;
+			margin-left: .65rem;
+			&:before {
+				margin-top: .35rem;
+				margin-left: -.65rem;
+			}
+			a {
+				font-size: .65rem;
+				padding: 0;
+				background: initial;
+				&:hover {
+					background: initial;
+				}
+			}
+		}
+	}
+}
+/* --------------------------------------------------------
 			Work Experience
 -------------------------------------------------------- */
 .job-title {

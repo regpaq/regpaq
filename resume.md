@@ -7,7 +7,7 @@ description: Multi-skilled B2B marketer with seven years of experience. Formerly
 permalink: /resume
 ---
 
-##### WORK EXPERIENCE
+##### WORK EXPERIENCE<a name="work-experience"></a>
 
 <div class="job-title" id="chilipiper">
 <h2>Chili Piper</h2>
@@ -75,12 +75,13 @@ ServiceTitan is the #1 management software for residential home service companie
 <p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
 </div>
 
+{% assign subpage = site.posts | where: 'post-id', '25' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
+
 <div class="accordion-wrapper">
 <div class="accordion-item close">
 <p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
 <div class="accordion-item-content">
 <ul>
-<li>Led team of one to increase organic search engine rankings and traffic. Achieved many top 5 positions for key non-brand, bottom-of-funnel search queries through on-site SEO improvements, creating new pages, increasing on-page content, and link building program.</li>
 <li>Launched Paid Facebook and grew to become source of 20.2% of all pipeline from paid channels with a $200k monthly budget.</li>
 <li>Led CRO agency to improve conversion rate of demo requests by 63% through rebuilding and designing all new landing pages, new multi-page product tour experience, industry pages, dynamic “thank you” pages, an ROI calculator, and more.</li>
 <li>Led inbound and lifecycle agency to build lifecycle marketing and pipeline acceleration campaigns. Implemented personas, lead scoring, and email workflows to drive more leads through the funnel to be sales ready.</li>
@@ -161,7 +162,7 @@ Self-started marketing agency offering website development and marketing service
 </div>
 </div>
 
-##### EDUCATION
+##### EDUCATION<a name="work-experience"></a>
 
 <div class="job-title" id="csuf">
 <h2>CSU, Fullerton</h2>
@@ -171,5 +172,5 @@ Self-started marketing agency offering website development and marketing service
 <div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />2013</div>
 <div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Fullerton</div>
 <div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></div>
-<div class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/post-grey.svg" />BA Business Administration, Entrepreneurship</div>
+<div class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/school-grey.svg" />BA Business Administration, Entrepreneurship</div>
 </div>

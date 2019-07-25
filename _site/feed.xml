@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-20T19:28:12-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><entry><title type="html">Medium vs Self Hosted Blog</title><link href="http://localhost:4000/medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/medium-vs-self-hosted-blog">&lt;p&gt;The most common reasons people leave Medium for self-hosting are:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T19:53:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;At the time, most of our customers acquired from marketing efforts were from paid channels. My goal was to increase leads and revenue generated with content and SEO. Our website was very thin on content and most of our visitors were from branded search queries. We weren’t generating any new demand. &lt;strong&gt;We were only capturing existing demand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below was our very simple website structure. My challenge was to build and expand on this content in order to rank for more bottom-of-funnel (BOFU) search queries and therefore generate more leads without increasing marketing spend.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Original ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;To generate more leads and new customer organically, my solution was to create more BOFU content to rank for more BOFU search queries. Rather than prioritizing top-of-funnel (TOFU) such as blog posts on wider industry related topics, I prioritized creating content and ranking for buyer-centric search queries. Although these search queries are generally harder to rank for, it would quickly and directly lead to more leads and new customers. Below is the process my team and I used to accomplish this.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-icreating-new-pages&quot;&gt;Part I — Creating New Pages&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1keyword-research&quot;&gt;Step 1 — Keyword Research&lt;/h3&gt;
+
+&lt;p&gt;Before we started planning the new pages to create, we first needed data. This is where keyword research came in. We started with Google Search Console (GSC) and uncovered the non-brand keywords/queries people were already using to find our site. Since Google Ads was already a consistent channel, we also looked at our top performing non-brand queries. Then, we looked at the main pages our competitors created and the queries they were going after. After gathering a list of potential queries, we prioritized them based on simple criteria: search volume, stage in funnel, and relatedness.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2plan-new-sitemap&quot;&gt;Step 2 — Plan New Sitemap&lt;/h3&gt;
+
+&lt;p&gt;Once we knew what queries to go after, we planned what pages to create and where they would fit on our site. Here’s the new sitemap we came up with:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The Product Tour would expand from a single page to nine pages. An all new section for the Industries we serve allowed us to create four more pages to go after more target queries.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3getting-the-team-onboard&quot;&gt;Step 3 — Getting the Team Onboard&lt;/h3&gt;
+
+&lt;p&gt;Creating 13 new pages is not a simple task. We needed many people involved to make sure the pages were more than just new content for SEO. They needed to correctly and thoroughly explain the product. They needed to entice the reader with good copy. They needed to be designed well and reflect our brand appropriately.&lt;/p&gt;
+
+&lt;p&gt;I pulled in our Head of Creative to discuss the scope of the project. He led the designers and developers and we pulled in the Product Marketing team to create the initial copy. Our SEO Specialist on my team reviewed the copy and made sure we were optimizing for our target queries and had enough content. He also wrote the new page URLs and meta data for each page.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4publishing-the-pages&quot;&gt;Step 4 — Publishing the Pages&lt;/h3&gt;
+
+&lt;p&gt;We first published the Industry pages, because they had the highest ROI potential and were quicker to create. Here’s what they looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/hvac-software&quot;&gt;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then after much revisions and improvements, we published the new Product Tour. The old, single page Product Tour looked like this:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;hhttps://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It had only one section for each major function of the product. From a brand and web experience point-of-view, it would not be beneficial to the user to only expand on the functions that had opportunity in search. Therefore we expanded on all the main product functions into their own pages. And here’s what they looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure  figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure  figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/dispatch-software&quot;&gt;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;part-iionsite-seo&quot;&gt;Part II — Onsite SEO&lt;/h2&gt;
+
+&lt;p&gt;As we published the pages, I directed our SEO Specialist to fine tune each page for better rankings. This included the meta title and description, the heading tags on the page, the keyword density, and proper schema and HTML markup. To increase our click-through-rate (CTR) in the search engine result pages (SERPs), we used the review schema:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.capterra.com/p/150053/ServiceTitan/&quot;&gt;Review data used from Capterra.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then to let Google know these new pages are important, we added a new section on our homepage to spread some “link juice” to them.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/&quot;&gt;Links on the homepage to the new Industry pages.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Finally, we went through our best blog posts and added internal links to our new Industry and Product Tour pages where appropriate.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-iiilinkbuilding&quot;&gt;Part III — Linkbuilding&lt;/h2&gt;
+
+&lt;p&gt;Since we were already doing regular press releases, we sprinkled in some links to our new pages. Second, we hired a linkbuilding agency.&lt;/p&gt;
+
+&lt;p&gt;A lot of marketers will say this is not a smart move, but here’s how we made it work. The links being built had to be through content. That content had to actually be good. The sites we submitted content to did not sell guest posts or allow self submissions — we had to work with them. The sites had to be related to our industry or tech. They most definitely can’t be in a private blog network (PBN). With these standards in place, we found an agency who could do this for us. They acted more like a PR firm than a linkbuilding agency and that’s exactly what we wanted.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We published the Industry pages in early Q2 of 2018 and the new Product Tour in Q3. For each Industry page’s primary keyword, we achieved a rank of either #3 or #2 in the SERPs. While the new Product Tour’s rankings are still improving, the primary query for those pages have less volume and are less lucrative. Every week we exported a search performance report from GSC. Using REGEXMATCH formulas in Google Sheets, we bucketed queries into segments to track performance in the SERPs.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of impressions and clicks from Google Search Console.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Non-brand BOFU organic clicks grew 260% by the beginning of Q4 ‘18 compared to the average month in Q1.&lt;/p&gt;
+
+&lt;p&gt;To attribute down funnel metrics to organic search, we used &lt;a href=&quot;https://www.bizible.com/&quot;&gt;Bizible&lt;/a&gt;. With Bizible’s integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/servicetitan-seo-1.png" /></entry><entry><title type="html">Medium vs Self Hosted Blog</title><link href="http://localhost:4000/medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/medium-vs-self-hosted-blog">&lt;p&gt;The most common reasons people leave Medium for self-hosting are:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You don’t “own” your traffic because you’re ranking pages on medium.com instead of your own domain.&lt;/li&gt;
@@ -631,163 +722,4 @@
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Comparing yourself to others is a recipe for disaster. Comparing yourself to who you were yesterday is a recipe for passivity. Life is not about being better than other people. It’s not about achieving more than people in our circles. &lt;strong&gt;Life is about being useful to others.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/stop-comparing-yourself-to-others.jpeg" /></entry><entry><title type="html">20 Stoic Journal Topics for Self-Development</title><link href="http://localhost:4000/stoic-journal-topics" rel="alternate" type="text/html" title="20 Stoic Journal Topics for Self-Development" /><published>2019-02-07T06:52:48-08:00</published><updated>2019-02-07T06:52:48-08:00</updated><id>http://localhost:4000/stoic-journal-topics</id><content type="html" xml:base="http://localhost:4000/stoic-journal-topics">&lt;p&gt;Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.&lt;/p&gt;
-
-&lt;p&gt;Many of his journal entries to himself have been recovered and curated into a single book title Meditations, which is widely recognized as one of the most influential pieces of stoic philosophy.&lt;/p&gt;
-
-&lt;p&gt;The practice of journaling allowed Marcus Aurelius, and can allow us today, to think more clearly and live a more virtuous life. The following stoic journal prompts and topics can help guide your journaling practice toward stoic thought exercises.&lt;/p&gt;
-
-&lt;h2 id=&quot;journal-topics-for-gratitude&quot;&gt;Journal Topics for Gratitude&lt;/h2&gt;
-
-&lt;p&gt;Taking a moment to reflect on the value added to your life by the people around you will help you appreciate them and the relationship you have with them, which in turn could spark behavior that strengthens those relationships.&lt;/p&gt;
-
-&lt;p&gt;People to consider: significant other, family, friends, coworkers, and people who’ve impacted your life in the past.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What value has [person] added to my life? What wisdom, achievements, or fortunate events of mine can I give them some credit for?&lt;/li&gt;
-  &lt;li&gt;What value do I (or can I) add to [person’s] life in return?&lt;/li&gt;
-  &lt;li&gt;How does [person] affect and influence my life decisions, feelings, and behavior?&lt;/li&gt;
-  &lt;li&gt;What characteristics does [person] have that I admire?&lt;/li&gt;
-  &lt;li&gt;What are my best characteristics and who influenced me to develop them?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can also reflect on your achievements, major events, and material things in your life to establish gratitude for you’ve done and what you have, which will suppress feelings of unhappiness and cravings for new and better things.&lt;/p&gt;
-
-&lt;ol class=&quot;counter-reset&quot;&gt;
-  &lt;li&gt;What is an accomplishment I’m very proud of? Why am I proud of it? What can I do to do more things like that?&lt;/li&gt;
-  &lt;li&gt;What is one of my most cherished memories and why?&lt;/li&gt;
-  &lt;li&gt;Think of an item in your possession you want to upgrade. Is your current item functioning well enough? What do you appreciate about it? What sustained value will an upgrade add to your life?&lt;/li&gt;
-  &lt;li&gt;Look at what you have and the things you value most. How much would you crave them if you didn’t have them?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;journal-topics-to-suppress-negative-thoughts&quot;&gt;Journal Topics to Suppress Negative Thoughts&lt;/h2&gt;
-
-&lt;p&gt;Negative and low value thoughts are fuel for chaos, passivity, and unhappiness. These topics can help control your negative thoughts by thinking through them rationally.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice,… Perceptions like that — latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time… to lay them bare and see how pointless they are…”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;ol class=&quot;counter-reset&quot;&gt;
-  &lt;li&gt;Think of an item you craved to have and eventually purchased. How do you feel about that item now? Was the craving warranted?&lt;/li&gt;
-  &lt;li&gt;What do you really want to buy right now? What value will that add to your life? What value will be lost if you don’t buy it? Is there a better use for the money you would have to spend to acquire it?&lt;/li&gt;
-  &lt;li&gt;Think of something you‘ve done that you regret. Write an apology to yourself and a response of forgiveness.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;journal-topics-for-improving-your-character&quot;&gt;Journal Topics for Improving Your Character&lt;/h2&gt;
-
-&lt;p&gt;In his journal, it was apparent that Marcus Aurelius wrote about recurring philosophical tenets in order to continually practice his philosophy. Try doing the same for yourself.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“To feel grief, anger, or fear is to try to escape from something decreed by the ruler of all things, now or in the past or in the future. And that ruler is law, which governs what happens to each of us. To feel grief or anger or fear is to become a fugitive — a fugitive from justice.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;ol class=&quot;counter-reset&quot;&gt;
-  &lt;li&gt;Think of a philosophical or ethical tenet that you struggle to live by. Write down the tenet and again in your own words. Try crafting your own analogy. Do this as often as you need to.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
-            &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;&lt;h4&gt;Meditations by Marcus Aurelius - Summary, Notes, + Quotes&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;Lessons on life from an ancient Roman Emperor.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;&lt;img src=&quot;/assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;ol class=&quot;counter-reset&quot;&gt;
-  &lt;li&gt;Think of someone you admire. Write yourself advice you think they would give you from their point-of-view.&lt;/li&gt;
-  &lt;li&gt;Think of 12 year-old you. What “secrets of life” have you acquired that you would want to share with yourself?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;journal-topics-for-daily-reflection--improvement&quot;&gt;Journal Topics for Daily Reflection &amp;amp; Improvement&lt;/h2&gt;
-
-&lt;p&gt;Our daily behavior is the best indicator of the type of person we are. Work on improving what you do each day and you will in turn be improving the type of person you are.&lt;/p&gt;
-
-&lt;blockquote class=&quot;big-quote&quot;&gt;
-  &lt;p&gt;“Remember that our own worth is measured by what we devote our energy to.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;ol class=&quot;counter-reset&quot;&gt;
-  &lt;li&gt;Did I lose control of my emotions today? What triggered it? Was that a reasonable response?&lt;/li&gt;
-  &lt;li&gt;What did I do today that was out of character? What triggered it? Was that a reasonable response?&lt;/li&gt;
-  &lt;li&gt;What did you do today that was not a good use of your time?&lt;/li&gt;
-  &lt;li&gt;Did you miss accomplishing an important habit or step in your routine today? What do you think was the reason for it and how can you prevent it from happening again?&lt;/li&gt;
-  &lt;li&gt;What did I crave today? Describe what you craved in its most simplistic form. Did it warrant that level of craving?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;you-might-alsoenjoy&quot;&gt;You might also enjoy&lt;/h3&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;a href=&quot;/how-to-make-habits-stick&quot;&gt;&lt;h4&gt;How to Make New Habits Stick When Motivation Runs Out&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;The 6 best tips from Atomic Habits on building habits that last&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/how-to-make-habits-stick&quot;&gt;&lt;img src=&quot;/assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;a href=&quot;/how-to-break-bad-habits&quot;&gt;&lt;h4&gt;How to Break Bad Habits for Good&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;The best tips from Atomic Habits on breaking your worse habits&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/how-to-break-bad-habits&quot;&gt;&lt;img src=&quot;/assets/images/how-to-break-bad-habits.png&quot; alt=&quot;how to break bad habits&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;&lt;h4&gt;Atomic Habits - Summary, Notes, + Quotes&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;Who you’ll become in your future can be answered by your behavior today.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;&lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;a href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;&lt;h4&gt;“Done” App Review: My Favorite Habit Tracker&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;And one you’ll actually stick to.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;&lt;img src=&quot;/assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/stoic-journal-topics.jpeg" /></entry></feed>
+&lt;p&gt;Comparing yourself to others is a recipe for disaster. Comparing yourself to who you were yesterday is a recipe for passivity. Life is not about being better than other people. It’s not about achieving more than people in our circles. &lt;strong&gt;Life is about being useful to others.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/stop-comparing-yourself-to-others.jpeg" /></entry></feed>

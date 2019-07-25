@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T23:10:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-25T00:41:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><entry><title type="html">Netlify Analytics Review</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
+
+&lt;p&gt;Released in July 2019, &lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; is a new add-on to Netlify’s popular hosting and deployment platform. Starting at $9/month, it’s an “expensive” alternative to the analytics king, Google Analytics, which is free. But is it worth it?&lt;/p&gt;
+
+&lt;p&gt;I bought it to find out.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-good-about-netlify-analytics&quot;&gt;What is Good About Netlify Analytics?&lt;/h2&gt;
+
+&lt;p&gt;Netlify Analytics doesn’t slow down your website at all since you don’t need to add any code to your site. Installation was as easy as clicking a button in my Netlify backend. And since it’s anonymous and doesn’t use javascript or cookies, users with adblock are still counted and I didn’t need to add any cookie warnings on my site for GDPR.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-can-see-in-netlify-analytics&quot;&gt;What You Can See in Netlify Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pageviews&lt;/li&gt;
+  &lt;li&gt;unique visitors&lt;/li&gt;
+  &lt;li&gt;top viewed pages&lt;/li&gt;
+  &lt;li&gt;top pages/resources not found&lt;/li&gt;
+  &lt;li&gt;top sources/referrers (with path)&lt;/li&gt;
+  &lt;li&gt;bandwidth used&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-cant-you-see-in-netlify-analytics&quot;&gt;What Can’t You See in Netlify Analytics?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;you can’t see beyond the last 30 days&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;you can’t filter by page or change the date range&lt;/li&gt;
+  &lt;li&gt;you can’t look at the top sources for an individual page&lt;/li&gt;
+  &lt;li&gt;you can’t see the bounce rate or average time on site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;is-netlify-analytics-worth-it&quot;&gt;Is Netlify Analytics Worth It?&lt;/h2&gt;
+
+&lt;p&gt;No. Not right now. At $9/month for a product whose competitors are free and more capable, everyone was expecting more from this release.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;You only have one “screen” without a single filter to segment your data.&lt;/strong&gt; Most egregious though is they delete data older than 30 days (or at least it’s not accessible). Second, I need to be able to break down referrer and pageviews by URL so I can see from where and how much traffic specific pages are getting.&lt;/p&gt;
+
+&lt;p&gt;As it is now, Netlify Analytics is a great product for people who have a simple curiosity for a site or project’s stats. And if you really care about shaving milliseconds off load times or capturing ad block users, Netlify Analytics could be for you. But if you just casually need analytics, are you going to pay $9/month for it? I’m not sure it’s worth it, but many people are happy to give Netlify $9/month for Analytics because their free hosting and deployment platform is so good that they just want to support them. It’s not all bad news for Netlify.&lt;/p&gt;
+
+&lt;p&gt;But remember, this is version one of Netlify Analytics. If Netlify can improve the product by adding the above features, it very well could be a game changer - something I’m eagerly anticipating.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives-to-netlify-analytics&quot;&gt;Alternatives to Netlify Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom Analytics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://simpleanalytics.com/&quot;&gt;Simple Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
+
+&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/netlify-analytics.jpg" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;At the time, most of our customers acquired from marketing efforts were from paid channels. My goal was to increase leads and revenue generated with content and SEO. Our website was very thin on content and most of our visitors were from branded search queries. We weren’t generating any new demand. &lt;strong&gt;We were only capturing existing demand.&lt;/strong&gt;&lt;/p&gt;
 
@@ -609,117 +661,4 @@
 
 &lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
 
-&lt;p&gt;With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-outbound-2.jpeg" /></entry><entry><title type="html">Stop Comparing Yourself to Others — Use This Benchmark Instead</title><link href="http://localhost:4000/stop-comparing-yourself-to-others" rel="alternate" type="text/html" title="Stop Comparing Yourself to Others — Use This Benchmark Instead" /><published>2019-02-13T12:11:11-08:00</published><updated>2019-02-13T12:11:11-08:00</updated><id>http://localhost:4000/stop-comparing-yourself-to-others</id><content type="html" xml:base="http://localhost:4000/stop-comparing-yourself-to-others">&lt;p&gt;The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.&lt;/p&gt;
-
-&lt;p&gt;In a &lt;a href=&quot;https://www.reddit.com/r/productivity/comments/ao04vn/stop_comparing_yourself_to_others_and_start/&quot; target=&quot;_blank&quot;&gt;recent post on r/productivity&lt;/a&gt;, there were some top comments refuting this advice with how they actually like to use jealousy, greed, and wanting to be better than other people as motivation to achieve “greatness.” Not only is comparing yourself to others the wrong way to achieve true greatness, so is comparing yourself to who you were yesterday.&lt;/p&gt;
-
-&lt;blockquote class=&quot;big-quote&quot;&gt;
-  &lt;p&gt;Being better than who you were yesterday should be the bare minimum you strive for, because it doesn’t allow you to achieve what you’re fully capable of.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And it doesn’t confirm you’re on the right path to begin with. On its own, “compare yourself to who you were yesterday” is only feel-good advice that has very little practical usefulness.&lt;/p&gt;
-
-&lt;p&gt;And that’s why there’s some rationality behind why we tend to compare ourselves to others. You can see in your physical or digital circle who the low achievers are and who the high achievers are — giving you the missing benchmark of effort and success. But in the end, it’s a terrible benchmark that will have devastating effects on your life.&lt;/p&gt;
-
-&lt;h2 id=&quot;comparing-yourself-to-others-leads-you-to-falsepaths&quot;&gt;Comparing Yourself to Others Leads You to False Paths&lt;/h2&gt;
-
-&lt;p&gt;In 2009, I was introduced to and befriended a very successful guy who day traded for a living. I didn’t know anything about the world of finance, but seeing the success he had and hearing how much he would make in any given day was exhilarating. &lt;strong&gt;As time went on, my benchmark for effort and success expanded to include his. I began to compare what I had achieved to him. “Success” now meant nothing short of what he had achieved.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I told myself I needed to do everything I could to achieve that level of success. I decided to learn how to be a day trader and I went so far as to sell my dream car to get the cash to do it. With studying and his mentorship, I started to make a few hundred dollars per week. As my confidence and greed grew, I became less risk-averse. &lt;strong&gt;Half a year later, my losses totaled close to $10k.&lt;/strong&gt; I closed my account and threw my dreams of riches and day trading out the window.&lt;/p&gt;
-
-&lt;p&gt;When I started to compare myself to him, and what I had to what he had, it led me to abandon my path and join the path that made him successful. I never had any prior interest in stocks or studied the financial markets. I was just chasing the money and that led to disaster.&lt;/p&gt;
-
-&lt;blockquote class=&quot;big-quote&quot;&gt;
-  &lt;p&gt;Using others as a benchmark for success can lead to conformity — it can take you away from what you’re happy and good at doing and put you on a false path — chasing money, status, or attention.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is a never ending trap. There will always be someone to compare yourself to with more money, more status, and more fame that will lead you off your path.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Everyone gets one life. Yours is almost used up, and instead of treating yourself with respect, you have entrusted your own happiness to the souls of others.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;understand-fate-and-luck-always-play-a-significant-role-in-someones-success&quot;&gt;Understand Fate and Luck Always Play a Significant Role in Someone’s Success&lt;/h2&gt;
-
-&lt;p&gt;Each one of us is a completely unique individual with a unique genetic makeup. We’re all raised by different people, with different values, and in different environments — all of which significantly impact our character and what we do in life.&lt;/p&gt;
-
-&lt;p&gt;People will shout, “you can do anything you set your mind to” or “you just need to work harder” or “you’re not sacrificing enough.” &lt;a href=&quot;https://medium.com/u/65e0b0f45be5&quot; target=&quot;_blank&quot;&gt;Nat Eliason&lt;/a&gt; made some noise when he called out Gary Vaynerchuk as an example of someone who does this in a piece he wrote titled &lt;a href=&quot;https://medium.com/@nateliason/no-more-struggle-porn-202153a01108&quot; target=&quot;_blank&quot;&gt;No More “Struggle Porn.”&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote class=&quot;big-quote&quot;&gt;
-  &lt;p&gt;While we do need to have ruthless discipline to reach our greatest potential, we cannot ignore the limits imposed on us by the cards we’re dealt or we will forever be dissatisfied with who we are and what we’ve accomplished.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Here’s another reason why it doesn’t make sense to compare ourselves to others: luck. &lt;strong&gt;No one’s success is ever only down to luck, but we can’t ignore the role luck plays in success as an “x” factor — it’s unmanageable and unpredictable.&lt;/strong&gt; The only thing in your control is to continually put yourself in positions to catch lucky breaks. And remember: luck is not distributed evenly.&lt;/p&gt;
-
-&lt;p&gt;In a Q&amp;amp;A with White House interns, President Obama gave advice on the subject luck has with success and what to focus on instead:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A lot of times, it’s just happenstance. Or things work out. But being useful? And having a satisfying life? And making a contribution? That is entirely within your control. Orient yourself towards having an impact and making a difference. And you will and you’ll be happy doing it.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Former President Barack Obama, &lt;a href=&quot;https://www.youtube.com/embed/5IDQDoxXHm0?start=516&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;instead-of-comparing-yourself-to-others-or-who-you-were-yesterday-find-your-truepath&quot;&gt;Instead of Comparing Yourself to Others Or Who You Were Yesterday, Find Your True Path&lt;/h2&gt;
-
-&lt;p&gt;Productivity is worthless if you’re on a false path. Your goal and motivation shouldn’t be about just being the best or better than the people in your circles, but creating something useful that can make a difference in peoples’ lives and your community. This is the truest benchmark for success and effort.&lt;/p&gt;
-
-&lt;blockquote class=&quot;big-quote&quot;&gt;
-  &lt;p&gt;“People who labor all their lives but have no purpose to direct every thought and impulse toward are wasting their time — even when hard at work.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Your true path is doing what you were made for — what you feel you have an inclination and natural ability for. This inclination is a reflection of your unique genetic code, deep underlying preferences for particular activities or forms of expression. When you find your true path, you’ll be less inclined to compare your success with someone else. &lt;strong&gt;You will quickly realize their path isn’t a good fit for you.&lt;/strong&gt; And you won’t be as inclined to envy their money, attention, or whatever, because craving those things is a false path.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In the end, the money and success that truly last come not to those who focus on such things as goals, but rather to those who focus on mastery and fulfilling their Life’s Task.”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Robert Greene, &lt;a href=&quot;/mastery-summary-quotes-robert-greene&quot;&gt;Mastery&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The need to compare yourself to others is restrained when you’re happy and comfortable with who you are, which comes from being on your true path and working on your Life’s Task. You will no longer envy other peoples’ success and happiness, and you will instead be laser-focused on your own work.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Don’t aim at success — the more you aim at it and make it a target, the more you are going to miss it. For success, like happiness, cannot be pursued; it must ensue, and it only does so as the unintended side-effect of one’s dedication to a cause greater than oneself…”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Viktor Frankl, Man’s Search for Meaning&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But you can’t be disciplined, happy, and confident all the time. I’ve made journaling a daily habit of mine to give myself the opportunity to reflect on and ground my thoughts. It’s an exercise that has helped me live a more level-headed and purposeful life.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;div class=&quot;rec-container&quot;&gt;
-        &lt;div class=&quot;rec-info&quot;&gt;
-            &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
-            &lt;a href=&quot;/stoic-journal-topics&quot;&gt;&lt;h4&gt;20 Stoic Journal Topics for Self-Development&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;Inspired by the journal method of Marcus Aurelius.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;rec-img&quot;&gt;
-            &lt;figure&gt;
-                &lt;a href=&quot;/stoic-journal-topics&quot;&gt;&lt;img src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;&lt;/a&gt;
-            &lt;/figure&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Ignoring what goes on in other people’s souls — no one ever came to grief that way. But if you won’t keep track of what your own soul’s doing, how you can you not be unhappy?”&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Marcus Aurelius, &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;Meditations&lt;/a&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Comparing yourself to others is a recipe for disaster. Comparing yourself to who you were yesterday is a recipe for passivity. Life is not about being better than other people. It’s not about achieving more than people in our circles. &lt;strong&gt;Life is about being useful to others.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/stop-comparing-yourself-to-others.jpeg" /></entry></feed>
+&lt;p&gt;With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-outbound-2.jpeg" /></entry></feed>

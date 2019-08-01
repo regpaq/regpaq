@@ -24,6 +24,19 @@ main {
   display: block;
 }
 
+.hidden {
+  display: none;
+}
+
+.unselected {
+  opacity: .6;
+  transition: .2s;
+}
+.unselected:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 /* --------------------------------------------------------
 			Code Formatting
 -------------------------------------------------------- */
@@ -359,6 +372,10 @@ a:hover {
   text-decoration: none;
 }
 
+.text-lighter {
+  color: var(--color-text-lighter);
+}
+
 /* --------------------------------------------------------
             Main Header and Nav Styles
 -------------------------------------------------------- */
@@ -504,20 +521,20 @@ a:hover {
     grid-template-columns: 6rem 1fr auto;
   }
 }
-.post-meta #ring {
+.post-meta .coin {
   background-image: url(/assets/images/svg/coin-gold-ring.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
   height: 59px;
   width: 59px;
-  margin-top: -3.7px;
+  margin: -3.7px 0 0 0;
 }
 @media screen and (min-width: 768px) {
-  .post-meta #ring {
+  .post-meta .coin {
     height: 95px;
     width: 95px;
-    margin-top: -5.5px;
+    margin: -5.5px 0 0 0;
   }
 }
 .post-meta figure {
@@ -539,24 +556,18 @@ a:hover {
     -webkit-clip-path: url(#coin-path-small);
   }
 }
-.post-meta img {
+.post-meta figure img {
   border-radius: 100%;
   max-height: 55px;
   max-width: 55px;
   margin: 0;
-}
-@media screen and (min-width: 768px) {
-  .post-meta img {
-    max-height: 85px;
-    max-width: 85px;
-  }
-}
-.post-meta .author {
   clip-path: url(#coin-path-tiny);
   -webkit-clip-path: url(#coin-path-tiny);
 }
 @media screen and (min-width: 768px) {
-  .post-meta .author {
+  .post-meta figure img {
+    max-height: 85px;
+    max-width: 85px;
     clip-path: url(#coin-path-small);
     -webkit-clip-path: url(#coin-path-small);
   }
@@ -1601,6 +1612,7 @@ aside.many {
 			Resume Header
 -------------------------------------------------------- */
 .resume .post-header {
+  display: grid;
   width: unset;
   margin-bottom: 4rem;
   padding: 0;
@@ -1643,7 +1655,7 @@ aside.many {
     grid-template-columns: 8.5rem auto 1fr auto;
   }
 }
-.resume #ring {
+.resume .coin {
   height: 153px;
   width: 153px;
   margin-top: 10px;
@@ -1784,46 +1796,107 @@ aside.many {
 .resume .svg:hover {
   cursor: pointer;
 }
+
+/* --------------------------------------------------------
+			Resume Content
+-------------------------------------------------------- */
+.resume .post-content > * {
+  width: unset;
+  grid-column: 2 / 16;
+}
+@media screen and (min-width: 568px) {
+  .resume .post-content > * {
+    grid-column: 3 / 15;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resume .post-content > * {
+    grid-column: 5 / 16;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .resume .post-content > * {
+    grid-column: 6 / 15;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .resume .post-content > * {
+    grid-column: 6 / 14;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .resume .post-content > * {
+    grid-column: 7 / 13;
+  }
+}
 .resume h5 {
+  margin-top: 3.5rem;
   margin-bottom: 1.5rem;
+}
+.resume h5:first-of-type {
+  margin-top: 0;
+}
+.resume h5:nth-of-type(2) {
+  margin-top: 0;
 }
 
 /* --------------------------------------------------------
 			Table of Contents
 -------------------------------------------------------- */
-.toc-aside {
-  grid-row: 1 / 1000000;
-  grid-column: 4 / 6;
-  padding-right: 1rem;
+.resume .toc-aside {
+  display: none;
   opacity: .4;
   transition: .3s;
   font-family: Overpass Mono, monospace;
 }
-.toc-aside:hover {
+@media screen and (min-width: 768px) {
+  .resume .toc-aside {
+    display: initial;
+    grid-row: 1 / 1000000;
+    padding-right: 1rem;
+    grid-column: 2 / 5;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .resume .toc-aside {
+    grid-column: 3 / 6;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .resume .toc-aside {
+    grid-column: 4 / 6;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .resume .toc-aside {
+    grid-column: 5 / 7;
+  }
+}
+.resume .toc-aside:hover {
   opacity: 1;
 }
-.toc-aside nav {
+.resume .toc-aside nav {
   position: sticky;
   top: 15rem;
 }
-.toc-aside nav h4 {
+.resume .toc-aside nav h4 {
   margin-bottom: .5rem;
   font-family: Overpass Mono, monospace;
 }
-.toc-aside nav li {
+.resume .toc-aside nav li {
   font-size: .65rem;
   margin-left: .65rem;
 }
-.toc-aside nav li:before {
+.resume .toc-aside nav li:before {
   margin-top: .35rem;
   margin-left: -.65rem;
 }
-.toc-aside nav li a {
+.resume .toc-aside nav li a {
   font-size: .65rem;
   padding: 0;
   background: initial;
 }
-.toc-aside nav li a:hover {
+.resume .toc-aside nav li a:hover {
   background: initial;
 }
 
@@ -1926,7 +1999,7 @@ aside.many {
 }
 
 .accordion-wrapper {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .accordion-wrapper p.accordion-item-heading {
   color: var(--color-brand);
@@ -1995,6 +2068,100 @@ aside.many {
 }
 .resume .container-overflow {
   display: unset;
+}
+
+/* --------------------------------------------------------
+			Recommendations
+-------------------------------------------------------- */
+.resume .testimonial {
+  border: 0.1rem solid var(--color-blockquote);
+  box-shadow: 0.35rem 0.35rem 0 var(--color-blockquote);
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.resume .testimonial > p {
+  padding: .75rem 2rem;
+  margin: 0;
+  max-width: fit-content;
+  font-style: italic;
+  font-size: .9rem;
+  font-weight: 200;
+}
+.resume ul.testimonial-author {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 0.1rem solid var(--color-blockquote);
+  margin: 0 2rem;
+  padding: .75rem 0 1rem;
+  font-weight: bold;
+}
+.resume ul.testimonial-author li:before {
+  display: none;
+}
+.resume ul.testimonial-author li {
+  font-family: Overpass Mono, monospace;
+  font-size: .65rem;
+  margin: 0;
+  padding-right: .5rem;
+}
+.resume .testimonial-author-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.resume .author-photo {
+  margin: 0 1rem 1rem 0;
+  position: relative;
+}
+.resume .author-photo .coin {
+  background-image: url(/assets/images/svg/coin-gold-ring.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 59px;
+  width: 59px;
+  margin: -3.7px 0 0 0;
+}
+@media screen and (min-width: 768px) {
+  .resume .author-photo .coin {
+    height: 95px;
+    width: 95px;
+    margin: -5.5px 0 0 0;
+  }
+}
+.resume .author-photo figure {
+  border-radius: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  max-height: 55px;
+  max-width: 55px;
+  margin: 0 0 0 3.3px;
+  clip-path: url(#coin-path-tiny);
+  -webkit-clip-path: url(#coin-path-tiny);
+}
+@media screen and (min-width: 768px) {
+  .resume .author-photo figure {
+    max-height: 85px;
+    max-width: 85px;
+    margin: 0 0 0 6px;
+    clip-path: url(#coin-path-small);
+    -webkit-clip-path: url(#coin-path-small);
+  }
+}
+.resume .author-photo figure img {
+  border-radius: 100%;
+  max-height: 55px;
+  max-width: 55px;
+  margin: 0;
+  clip-path: url(#coin-path-tiny);
+  -webkit-clip-path: url(#coin-path-tiny);
+}
+@media screen and (min-width: 768px) {
+  .resume .author-photo figure img {
+    max-height: 85px;
+    max-width: 85px;
+    clip-path: url(#coin-path-small);
+    -webkit-clip-path: url(#coin-path-small);
+  }
 }
 
 .accordion-item-heading:hover {

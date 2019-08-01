@@ -3,7 +3,7 @@ layout: post
 title: 'I got this from a client: “I was expecting a lot more from you.”'
 description: That’s what a client told me to my face in a meeting.
 date: '2015-11-13T22:14:30.000Z'
-categories: [marketing, freelancing]
+categories: [marketing]
 slug: /i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you
 image: i-was-exepecting-a-lot-more-from-you.png
 image-alt: i was exepecting a lot more from you

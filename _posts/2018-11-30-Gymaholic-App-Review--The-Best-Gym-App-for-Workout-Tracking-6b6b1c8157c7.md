@@ -3,7 +3,7 @@ layout: post
 title: 'Gymaholic App Review: The Best Gym App for Workout Tracking'
 description: No other app comes even close.
 date: '2018-11-30T02:41:56.733Z'
-categories: [self, reviews, productivity]
+categories: [self, productivity]
 slug: /gymaholic-app-review-the-best-gym-app-for-workout-tracking
 image: gymaholic-review.jpeg
 image-alt: gymaholic review

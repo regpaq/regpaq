@@ -95,6 +95,54 @@ $mod_2:                     1.6; // Desktop
     }
 }
 
+// 			Coin Photo Style
+// --------------------------------------------------------
+@mixin coingold {
+	background-image: url(/assets/images/svg/coin-gold-ring.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 59px;
+	width: 59px;
+	margin: -3.7px 0 0 0;
+	@include media-query($medium) {
+		height: 95px;
+		width: 95px;
+		margin: -5.5px 0 0 0;
+	}
+}
+@mixin coinphoto {
+	border-radius: 100%;
+	grid-column: 1 / 2;
+	grid-row: 1 / 4;
+	max-height: 55px;
+	max-width: 55px;
+	margin: 0 0 0 3.3px;
+	clip-path: url(#coin-path-tiny);
+	-webkit-clip-path: url(#coin-path-tiny);
+	@include media-query($medium) {
+		max-height: 85px;
+		max-width: 85px;
+		margin: 0 0 0 6px;
+		clip-path: url(#coin-path-small);
+		-webkit-clip-path: url(#coin-path-small);
+	}      
+	img {
+		border-radius: 100%;
+		max-height: 55px;
+		max-width: 55px;
+		margin: 0;
+		clip-path: url(#coin-path-tiny);
+		-webkit-clip-path: url(#coin-path-tiny);     
+		@include media-query($medium) {
+			max-height: 85px;
+			max-width: 85px;
+			clip-path: url(#coin-path-small);
+			-webkit-clip-path: url(#coin-path-small);
+		}
+	}
+}
+
 // 			Grid Widths
 // --------------------------------------------------------
 
@@ -128,6 +176,44 @@ $mod_2:                     1.6; // Desktop
 	}
 	@include media-query($xxlarge) {
 		grid-column: 6 / 12;
+	}
+}
+// Offset - Normal width but offset for sidebar
+@mixin grid-offset {
+	grid-column: 2 / 16;
+	@include media-query($shmedium) {
+		grid-column: 3 / 15;
+	}
+	@include media-query($medium) {
+		grid-column: 5 / 16;
+	}
+	@include media-query($regular) {
+		grid-column: 6 / 15;
+	}
+	@include media-query($xlarge) {
+		grid-column: 6 / 14;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 7 / 13;
+	}
+}
+// Offset sidebar
+@mixin grid-offset-sidebar {
+	display: none;	
+	@include media-query($medium) {
+		display: initial;
+		grid-row: 1 / 1000000;
+		padding-right: 1rem;
+		grid-column: 2 / 5;
+	}
+	@include media-query($regular) {
+		grid-column: 3 / 6;
+	}
+	@include media-query($xlarge) {
+		grid-column: 4 / 6;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 5 / 7;
 	}
 }
 // Normal width up to regular, then 1 grid col wider

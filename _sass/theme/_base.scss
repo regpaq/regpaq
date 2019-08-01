@@ -28,6 +28,17 @@ main {
   display: table;
   clear: both;
 }
+.hidden {
+	display: none;
+}
+.unselected {
+  opacity: .6;
+  transition: .2s;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
 /* --------------------------------------------------------
 			Code Formatting
 -------------------------------------------------------- */

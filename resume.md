@@ -174,3 +174,35 @@ Self-started marketing agency offering website development and marketing service
 <div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></div>
 <div class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/school-grey.svg" />BA Business Administration, Entrepreneurship</div>
 </div>
+
+{%- if site.recommendations.size > 0 -%}
+##### RECOMMENDATIONS<a name="recommendations"></a>
+
+<div class="testimonials">{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}
+{% if i == 1 %}
+    <div id="t{{ i }}" class="testimonial visible">
+{%- else -%}
+    <div id="t{{ i }}" class="testimonial hidden">
+{%- endif -%}
+        {{ item.content }}
+        <ul class="testimonial-author">
+            <li>{{ item.Name }}</li>
+            <li>{{ item.Company }}</li>
+            <li class="text-lighter">{{ item.Title }}</li>
+            <li class="text-lighter">{{ item.Relationship }}</li>
+        </ul>
+    </div>
+{%- endfor -%}
+    <div class="testimonial-author-photos">{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}
+{% if i == 1 %}
+        <div id="{{ i }}" class="author-photo selected">
+{%- else -%}
+        <div id="{{ i }}" class="author-photo unselected">
+{%- endif -%}
+            <div class="coin"></div>
+            <figure><img src="/assets/images/{{ item.Photo }}" /></figure>
+        </div>
+{%- endfor -%}
+    </div>
+</div>
+{%- endif -%}

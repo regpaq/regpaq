@@ -22,6 +22,10 @@ twitter_username: regpaq
 permalink: /:title
 logo: /assets/images/logo.png
 
+# Collections
+collections:
+  - recommendations
+
 # Build settings
 markdown: kramdown
 

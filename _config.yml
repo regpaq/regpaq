@@ -39,7 +39,6 @@ sass:
     style: expanded
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 
 include: ['_redirects']

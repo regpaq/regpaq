@@ -184,6 +184,7 @@
 .resume {
 	.toc-aside {
 		@include grid-offset-sidebar;
+		position: relative;
 		opacity: .4;
 		transition: .3s;
 		font-family: $Monospace;

@@ -1845,6 +1845,7 @@ aside.many {
 -------------------------------------------------------- */
 .resume .toc-aside {
   display: none;
+  position: relative;
   opacity: .4;
   transition: .3s;
   font-family: Overpass Mono, monospace;

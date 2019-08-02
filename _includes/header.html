@@ -1,23 +1,21 @@
 <header class="site-header" role="banner">
-	<!-- <div class="container"> -->
-		<div class="site-title">
-			<a rel="author" href="{{ "/" | relative_url }}">{% include /svg/logo.svg %}</a>			
-		</div>
-		<div id="lightswitch" onclick="handleThemeUpdate()">
-			{% include /svg/colosseum.svg %}
-		</div>
-		<nav class="site-nav">
-			<a class="page-link" href="/">Home</a>
-			<a class="page-link" href="/about">About</a>
-			<a class="page-link" href="/resume">Résumé</a>
-		</nav>
-		<nav class="hashtag-nav">
-			Articles:
-			<a class="page-link" href="/all-articles">All</a>
-			<a class="page-link" href="/marketing">#marketing</a>
-			<a class="page-link" href="/productivity">#productivity</a>
-			<a class="page-link" href="/booknotes">#booknotes</a>
-			<a class="page-link" href="/self">#self</a>
-		</nav>
-	<!-- </div> -->
+	<div class="site-title">
+		<a rel="author" href="{{ "/" | relative_url }}">{% include /svg/logo.svg %}</a>			
+	</div>
+	<div id="lightswitch" onclick="handleThemeUpdate()">
+		{% include /svg/colosseum.svg %}
+	</div>
+	<nav class="site-nav">
+		<a class="page-link" href="/">Home</a>
+		<a class="page-link" href="/about">About</a>
+		<a class="page-link" href="/resume">Résumé</a>
+	</nav>
+	<nav class="hashtag-nav">
+		Articles:
+		<a class="page-link" href="/all-articles">All</a>
+		<a class="page-link" href="/marketing">#marketing</a>
+		<a class="page-link" href="/productivity">#productivity</a>
+		<a class="page-link" href="/booknotes">#booknotes</a>
+		<a class="page-link" href="/self">#self</a>
+	</nav>
 </header>

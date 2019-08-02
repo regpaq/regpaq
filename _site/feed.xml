@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-02T09:46:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Netlify Analytics Review</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
+
+&lt;p&gt;Released in July 2019, &lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; is a new add-on to Netlify’s popular hosting and deployment platform. Starting at $9/month, it’s an “expensive” alternative to the analytics king, Google Analytics, which is free. But is it worth it?&lt;/p&gt;
+
+&lt;p&gt;I bought it to find out.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-good-about-netlify-analytics&quot;&gt;What is Good About Netlify Analytics?&lt;/h2&gt;
+
+&lt;p&gt;Netlify Analytics doesn’t slow down your website at all since you don’t need to add any code to your site. Installation was as easy as clicking a button in my Netlify backend. And since it’s anonymous and doesn’t use javascript or cookies, users with adblock are still counted and I didn’t need to add any cookie warnings on my site for GDPR.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-can-see-in-netlify-analytics&quot;&gt;What You Can See in Netlify Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pageviews&lt;/li&gt;
+  &lt;li&gt;unique visitors&lt;/li&gt;
+  &lt;li&gt;top viewed pages&lt;/li&gt;
+  &lt;li&gt;top pages/resources not found&lt;/li&gt;
+  &lt;li&gt;top sources/referrers (with path)&lt;/li&gt;
+  &lt;li&gt;bandwidth used&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-cant-you-see-in-netlify-analytics&quot;&gt;What Can’t You See in Netlify Analytics?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;you can’t see beyond the last 30 days&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;you can’t filter by page or change the date range&lt;/li&gt;
+  &lt;li&gt;you can’t look at the top sources for an individual page&lt;/li&gt;
+  &lt;li&gt;you can’t see the bounce rate or average time on site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;is-netlify-analytics-worth-it&quot;&gt;Is Netlify Analytics Worth It?&lt;/h2&gt;
+
+&lt;p&gt;No. Not right now. At $9/month for a product whose competitors are free and more capable, everyone was expecting more from this release.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;You only have one “screen” without a single filter to segment your data.&lt;/strong&gt; Most egregious though is they delete data older than 30 days (or at least it’s not accessible). Second, I need to be able to break down referrer and pageviews by URL so I can see from where and how much traffic specific pages are getting.&lt;/p&gt;
+
+&lt;p&gt;As it is now, Netlify Analytics is a great product for people who have a simple curiosity for a site or project’s stats. And if you really care about shaving milliseconds off load times or capturing ad block users, Netlify Analytics could be for you. But if you just casually need analytics, are you going to pay $9/month for it? I’m not sure it’s worth it, but many people are happy to give Netlify $9/month for Analytics because their free hosting and deployment platform is so good that they just want to support them. It’s not all bad news for Netlify.&lt;/p&gt;
+
+&lt;p&gt;But remember, this is version one of Netlify Analytics. If Netlify can improve the product by adding the above features, it very well could be a game changer - something I’m eagerly anticipating.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives-to-netlify-analytics&quot;&gt;Alternatives to Netlify Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom Analytics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://simpleanalytics.com/&quot;&gt;Simple Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
+
+&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;div class=&quot;rec-container&quot;&gt;
+        &lt;div class=&quot;rec-info&quot;&gt;
+            &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
+            &lt;a href=&quot;/medium-vs-self-hosted-blog&quot;&gt;&lt;h4&gt;Medium vs Self Hosted Blog&lt;/h4&gt;&lt;/a&gt;
+            &lt;p&gt;Why I moved my blog off Medium to a static site.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rec-img&quot;&gt;
+            &lt;figure&gt;
+                &lt;a href=&quot;/medium-vs-self-hosted-blog&quot;&gt;&lt;img src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;&lt;/a&gt;
+            &lt;/figure&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/netlify-analytics.jpg" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;At the time, most of our customers acquired from marketing efforts were from paid channels. My goal was to increase leads and revenue generated with content and SEO. Our website was very thin on content and most of our visitors were from branded search queries. We weren’t generating any new demand. &lt;strong&gt;We were only capturing existing demand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below was our very simple website structure. My challenge was to build and expand on this content in order to rank for more bottom-of-funnel (BOFU) search queries and therefore generate more leads without increasing marketing spend.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Original ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;To generate more leads and new customer organically, my solution was to create more BOFU content to rank for more BOFU search queries. Rather than prioritizing top-of-funnel (TOFU) such as blog posts on wider industry related topics, I prioritized creating content and ranking for buyer-centric search queries. Although these search queries are generally harder to rank for, it would quickly and directly lead to more leads and new customers. Below is the process my team and I used to accomplish this.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-icreating-new-pages&quot;&gt;Part I — Creating New Pages&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1keyword-research&quot;&gt;Step 1 — Keyword Research&lt;/h3&gt;
+
+&lt;p&gt;Before we started planning the new pages to create, we first needed data. This is where keyword research came in. We started with Google Search Console (GSC) and uncovered the non-brand keywords/queries people were already using to find our site. Since Google Ads was already a consistent channel, we also looked at our top performing non-brand queries. Then, we looked at the main pages our competitors created and the queries they were going after. After gathering a list of potential queries, we prioritized them based on simple criteria: search volume, stage in funnel, and relatedness.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2plan-new-sitemap&quot;&gt;Step 2 — Plan New Sitemap&lt;/h3&gt;
+
+&lt;p&gt;Once we knew what queries to go after, we planned what pages to create and where they would fit on our site. Here’s the new sitemap we came up with:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The Product Tour would expand from a single page to nine pages. An all new section for the Industries we serve allowed us to create four more pages to go after more target queries.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3getting-the-team-onboard&quot;&gt;Step 3 — Getting the Team Onboard&lt;/h3&gt;
+
+&lt;p&gt;Creating 13 new pages is not a simple task. We needed many people involved to make sure the pages were more than just new content for SEO. They needed to correctly and thoroughly explain the product. They needed to entice the reader with good copy. They needed to be designed well and reflect our brand appropriately.&lt;/p&gt;
+
+&lt;p&gt;I pulled in our Head of Creative to discuss the scope of the project. He led the designers and developers and we pulled in the Product Marketing team to create the initial copy. Our SEO Specialist on my team reviewed the copy and made sure we were optimizing for our target queries and had enough content. He also wrote the new page URLs and meta data for each page.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4publishing-the-pages&quot;&gt;Step 4 — Publishing the Pages&lt;/h3&gt;
+
+&lt;p&gt;We first published the Industry pages, because they had the highest ROI potential and were quicker to create. Here’s what they looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/hvac-software&quot;&gt;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then after much revisions and improvements, we published the new Product Tour. The old, single page Product Tour looked like this:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;hhttps://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It had only one section for each major function of the product. From a brand and web experience point-of-view, it would not be beneficial to the user to only expand on the functions that had opportunity in search. Therefore we expanded on all the main product functions into their own pages. And here’s what they looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/dispatch-software&quot;&gt;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;part-iionsite-seo&quot;&gt;Part II — Onsite SEO&lt;/h2&gt;
+
+&lt;p&gt;As we published the pages, I directed our SEO Specialist to fine tune each page for better rankings. This included the meta title and description, the heading tags on the page, the keyword density, and proper schema and HTML markup. To increase our click-through-rate (CTR) in the search engine result pages (SERPs), we used the review schema:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.capterra.com/p/150053/ServiceTitan/&quot;&gt;Review data used from Capterra.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then to let Google know these new pages are important, we added a new section on our homepage to spread some “link juice” to them.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/&quot;&gt;Links on the homepage to the new Industry pages.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Finally, we went through our best blog posts and added internal links to our new Industry and Product Tour pages where appropriate.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-iiilinkbuilding&quot;&gt;Part III — Linkbuilding&lt;/h2&gt;
+
+&lt;p&gt;Since we were already doing regular press releases, we sprinkled in some links to our new pages. Second, we hired a linkbuilding agency.&lt;/p&gt;
+
+&lt;p&gt;A lot of marketers will say this is not a smart move, but here’s how we made it work. The links being built had to be through content. That content had to actually be good. The sites we submitted content to did not sell guest posts or allow self submissions — we had to work with them. The sites had to be related to our industry or tech. They most definitely can’t be in a private blog network (PBN). With these standards in place, we found an agency who could do this for us. They acted more like a PR firm than a linkbuilding agency and that’s exactly what we wanted.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We published the Industry pages in early Q2 of 2018 and the new Product Tour in Q3. For each Industry page’s primary keyword, we achieved a rank of either #3 or #2 in the SERPs. While the new Product Tour’s rankings are still improving, the primary query for those pages have less volume and are less lucrative. Every week we exported a search performance report from GSC. Using REGEXMATCH formulas in Google Sheets, we bucketed queries into segments to track performance in the SERPs.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of impressions and clicks from Google Search Console.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Non-brand BOFU organic clicks grew 260% by the beginning of Q4 ‘18 compared to the average month in Q1.&lt;/p&gt;
+
+&lt;p&gt;To attribute down funnel metrics to organic search, we used &lt;a href=&quot;https://www.bizible.com/&quot;&gt;Bizible&lt;/a&gt;. With Bizible’s integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/servicetitan-seo-1.png" /></entry><entry><title type="html">Medium vs Self Hosted Blog</title><link href="http://localhost:4000/medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/medium-vs-self-hosted-blog">&lt;p&gt;The most common reasons people leave Medium for self-hosting are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You don’t “own” your traffic because you’re ranking pages on medium.com instead of your own domain.&lt;/li&gt;
+  &lt;li&gt;You have less control of converting traffic.&lt;/li&gt;
+  &lt;li&gt;Medium promotes other peoples’ articles on your own articles.&lt;/li&gt;
+  &lt;li&gt;More readers are dedicated to Medium than dedicated to you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For me, the switch wasn’t about the “building a house on rented land” aspect. I was early to Medium publications so I could use my custom domain (regpaq.com) on Medium. Thankfully I got in before they removed this feature so I shouldn’t lose any rankings since I’m still on the same domain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what made me want to switch? The stats.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Medium’s stats are broken and very limited. I want to be able to see three things for a given period of my choosing. How much is my traffic growing? What’s the distribution of traffic between pages? Where is that traffic coming from? This isn’t possible on Medium.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problems-with-medium-stats&quot;&gt;The Problems with Medium Stats&lt;/h2&gt;
+
+&lt;p&gt;There’s one huge problem with Medium stats. &lt;strong&gt;They include views of your comments on other people’s articles in your view count!&lt;/strong&gt; And there is no way to filter them out. So no, you can’t see how many total views just your articles received over time.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 day stats on Medium for all articles... and comments.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 day stats on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The other major problem is you can only view your traffic in 30 day windows.&lt;/strong&gt; If you got a lot of views one day, you can’t look at just that day’s traffic and see what pages got the most views or where that traffic came from.&lt;/p&gt;
+
+&lt;p&gt;Above the graph, Medium suggests you can click a story to see stats for just that story. Unfortunately, when you click on a story it loads a new page and takes five seconds to load. &lt;strong&gt;So you have to click each individual story one by one to uncover which story went “viral” and racked up the most views on a big traffic day.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a story on Medium.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a story on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Inside an individual story’s stats, you can see the list of referrers. But only the domain.&lt;/strong&gt; In the above example, I can’t see which Reddit threads are talking about my article! Which means I can’t see what people are saying and jump in the conversation.&lt;/p&gt;
+
+&lt;p&gt;When I first moved to Medium, I knew the stats were limited, but I didn’t know by how much. The reason I moved to Medium in the first place was because I wanted simplicity. I wanted simple metrics. I didn’t want to fiddle with the design. I didn’t want to mess with plugins. I wanted a better editor than WordPress. I just wanted to write. But now things have changed.&lt;/p&gt;
+
+&lt;h2 id=&quot;limited-customization-on-medium&quot;&gt;Limited Customization on Medium&lt;/h2&gt;
+
+&lt;p&gt;One of the biggest pros of Medium is that the design is all done for you. You don’t have to worry about it. It’s always better to write and publish more than to fiddle with the design. What changed for me was a massive increase in interest in learning HTML and CSS. &lt;strong&gt;By moving off of Medium, my blog is now a showcase for my design and dev skills.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s why I didn’t go back to WordPress and instead used &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a static site generator. It was a much bigger process than I anticipated. I designed the site in Adobe XD then developed it. &lt;strong&gt;The end result is a blog I designed and I developed with articles I wrote and I illustrated. It’s a culmination of many of my skills in a single project.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;static-sites-are-fast&quot;&gt;Static Sites are Fast&lt;/h2&gt;
+
+&lt;p&gt;Another benefit to a static site is the speed. Because WordPress and Medium use a database, it loads much slower. Here is the Pingdom page speed and Google score comparison of the same article on Medium versus the current static site.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The static site is a massive improvement for speed&lt;/strong&gt; - even without any image optimization. This should improve the bounce rate and thus increase organic rankings. But because people know what to expect when they land on a Medium-designed article, it’s possible the new design increases the bounce rate. I’ll never know for certain because you can’t measure the bounce rate on Medium. &lt;/p&gt;
+
+&lt;p&gt;There’s one catch here about the speed of my site. I’m using Netlify’s new Analytics, which is a server side analytics solution. It measures at the server level so it’s not adding an extra request to the page, like Google Analytics would. The problem is Netlify’s Analytics is even worse than Medium’s so I’ll be switching to Google Analytics or Clicky.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-ill-miss-about-medium&quot;&gt;What I’ll Miss About Medium&lt;/h2&gt;
+
+&lt;p&gt;Medium’s coolest social feature is “claps.” If people like your article, they can clap for it up to 50 times. It’s nice to get and give claps, but it does have a downside. Medium syndicates and recommends articles to other users based on how many claps it gets. &lt;strong&gt;This made me too focused on claps. I even joined three Facebook groups where people just clap for each others’ articles. It’s a stupid game.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll also miss comments until I can figure out a solution. Because static sites don’t have databases, comments are difficult to add. I don’t want to use something like Disqus, which increases load time and prevents me from “owning” the content.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I won’t miss Medium’s distribution. I never got any meaningful distribution. I could have written more content for more claps, but I didn’t want to play that game.&lt;/strong&gt; I want to write what I want to write about.&lt;/p&gt;
+
+&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;div class=&quot;rec-container&quot;&gt;
+        &lt;div class=&quot;rec-info&quot;&gt;
+            &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
+            &lt;a href=&quot;/netlify-analytics-review&quot;&gt;&lt;h4&gt;Netlify Analytics Review&lt;/h4&gt;&lt;/a&gt;
+            &lt;p&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rec-img&quot;&gt;
+            &lt;figure&gt;
+                &lt;a href=&quot;/netlify-analytics-review&quot;&gt;&lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;&lt;/a&gt;
+            &lt;/figure&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">The most common reasons people leave Medium for self-hosting are:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/medium-vs-self-hosted-blog.jpg" /></entry><entry><title type="html">Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;When I joined Chili Piper, we had just one full cycle account executive (AE) on the sales team and the plan was to hire eight more in seven months. The challenge was to (1) develop instrumentation to determine what part of our outreach was working, (2) reliably scale it to other sales reps as they joined the team, and (3) improve the conversion rate of accounts worked to meetings booked so we wouldn’t burn through our target accounts.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1build-instrumentation-to-measure-cadence-performance&quot;&gt;Step 1 — Build Instrumentation to Measure Cadence Performance&lt;/h3&gt;
+
+&lt;p&gt;Because we were using SalesLoft and it integrates with Salesforce (SFDC), I was able to build automated dashboards that tracked over 140 different metrics for each cadence. Read about how I did this &lt;a href=&quot;/automating-salesloft-cadence-metrics-into-google-sheets&quot;&gt;here&lt;/a&gt;. Now I could look at our cold outbound performance and see exactly which meetings were booked from what cadences.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2figure-out-whatworks&quot;&gt;Step 2 — Figure Out What Works&lt;/h3&gt;
+
+&lt;h4 id=&quot;measure-content-and-messaging&quot;&gt;Measure content and messaging&lt;/h4&gt;
+
+&lt;p&gt;With the instrumentation in place, I started making new cadences and adding keywords to our email step names which we could use to break out performance. For example, we started with persuasion factors (liking, consistency, social proof, etc). Then I started adding keywords for content that we’d include — a certain GIF, an image, etc. From this, I determined what type of approach worked best and what content was most effective at getting our value across.&lt;/p&gt;
+
+&lt;h4 id=&quot;optimize-strategy-and-approach-to-target-accounts&quot;&gt;Optimize strategy and approach to target accounts&lt;/h4&gt;
+
+&lt;p&gt;Next I looked at our strategy of which accounts to target. We previously were just working accounts our AE had found on online lists like the Cloud 100. Because we had Clearbit Enrichment, I wanted to use some of the data it provided on accounts we had in SFDC. First, I made a list of target accounts that were using Drift. The logic here was that if they were using Drift, they have already bought into the idea that they need to empower their buyers and make it easier for them to connect with sales (which aligned very closely with Chili Piper). I wrote a cadence piggybacking on this belief and positioned our product as an additional way to make it easier for their buyers to connect with them. I did the same for target accounts using intercom and we saw a 71% increase in the rate of accounts worked to meetings booked.&lt;/p&gt;
+
+&lt;p&gt;In attempt to replicate this strategy, I wrote a cadence targeting accounts who had a conversion rate optimization tool (VWO, Optimizely, etc). This time, I piggybacked on the idea that if they care about their conversion rate on their website and landing pages, they should also care about the conversion rate after the form submission to a closed deal. As expected, this didn’t perform as well as piggybacking off a chat tool, but still better than our original cadence by 22%.&lt;/p&gt;
+
+&lt;h4 id=&quot;customize-cadences-to-the-account&quot;&gt;Customize cadences to the account&lt;/h4&gt;
+
+&lt;p&gt;The problem with these types of cadences were we couldn’t scale them, but they remained in our back pocket when we could use them. For accounts that weren’t using either of these identified tools, we needed a different approach. Since we were signing new accounts who are vertical leaders, we customized which customers we name dropped as social proof by aligning them as much as possible to the prospect’s industry. Additionally, I had our reps take a screenshot of the prospect’s lead/demo form to put in the first email. This account personalized cadence was a huge 107% improvement over our original cadence and we scaled this to rest of the team and our new hires.&lt;/p&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;As a team, we were able to increase productivity and efficiency that resulted in a 49% increase in cold outbound booked meetings in Q1 ’19 compared to Q4 ’18 and a 118% jump in pipeline generated. We were trending to improve booked meetings in Q2 ’19 by another 18% and pipeline by 9%.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; alt=&quot;Cold outbound booked meeting and pipeline improvement.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-cold-outbound-1.jpeg" /></entry><entry><title type="html">Grew Revenue From Inbound 282% in Q2 ’19 Over Q1</title><link href="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1" rel="alternate" type="text/html" title="Grew Revenue From Inbound 282% in Q2 ’19 Over Q1" /><published>2019-06-10T11:42:47-07:00</published><updated>2019-06-10T11:42:47-07:00</updated><id>http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1</id><content type="html" xml:base="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;We had a &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;goal to double new business monthly revenue&lt;/a&gt; in less than 12 months and it was going to take massive effort from both our cold prospecting and demand gen efforts. Additionally, we wanted to increase market awareness of our flagship product, Concierge, which allowed qualified leads to schedule their own sales meeting while filling out a demo request form — a step toward being more self-serve for B2B companies that require prospects to go through sales to become a customer.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1refresh-linkedinads&quot;&gt;Step 1 — Refresh LinkedIn Ads&lt;/h3&gt;
+
+&lt;p&gt;We started LinkedIn ads with great success in the last two quarters of 2018, but we began to experience some audience decay as costs-per-click and costs-per-booked meeting started to rise dramatically. What was once a fresh product for a new audience became a stale product for an audience who’s seen our ads and product several dozen times — if they didn’t convert already, we would need to do something different to convert them now. Here’s the type of ads we had ran when first starting LinkedIn Ads:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-1.jpeg&quot; alt=&quot;Old Chili Piper LinkedIn ads that worked when first starting the channel.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old Chili Piper LinkedIn ads that worked when first starting the channel.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Since we were spending ~$10k+ on LinkedIn to reach our audience every month, I decided our next move was to run more visually engaging ads that showed and explained the product so even if people didn’t click through, they could see what our product had to offer. The “secret weapon” would now be revealed into their news feeds, which also made impressions much more valuable. Here’s what they looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-2.jpeg&quot; alt=&quot;New image ads.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New image ads.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-3.jpeg&quot; alt=&quot;New LinkedIn carousel ad to increase engagement and show how Concierge works.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New LinkedIn carousel ad to increase engagement and show how Concierge works.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-4.gif&quot; alt=&quot;New video ad.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New video ad.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;And I tested video ads showing how it works right on the landing page this ad led to.&lt;/p&gt;
+
+&lt;p&gt;I tested several different messaging to each of our main personas and kept a log of what type of messaging (e.g. pain points, value benefits) resonated with our different personas the best. The plan was to take these learnings and apply them to all of our marketing and messaging across our teams.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2new-landingpages&quot;&gt;Step 2 — New Landing Pages&lt;/h3&gt;
+
+&lt;p&gt;In addition to increasing the value of ad impressions on LinkedIn, I also overhauled our landing page with improved copy, branding, and design:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-5.jpeg&quot; alt=&quot;Old landing page on the left; new on the right.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old landing page on the left; new on the right.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The new landing page converted 84% better (4.94% vs 2.68%) than the old one. A big reason for this improvement was the new ads were sending less clicks than the old ads, but the traffic was higher quality because the new ads showed what the product was about.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3launch-google-ads-search-and-retargeting&quot;&gt;Step 3 — Launch Google Ads Search and Retargeting&lt;/h3&gt;
+
+&lt;p&gt;Up until this point, we never had invested a lot of resources into developing our Google Ads program.&lt;/p&gt;
+
+&lt;h4 id=&quot;search-campaigns&quot;&gt;Search Campaigns&lt;/h4&gt;
+
+&lt;p&gt;I started with 3 core search campaigns: competitors, non-brand, and brand. The competitors campaign bid on several queries like “{alternatives, competitors, similar to, like} [competitor name]”. To grab the attention of our target market, we made sure to include “B2B” in our ad copy at least once in every ad. The non-brand campaign consisted of targeting search queries around “scheduling for B2B” or “scheduling for sales.” In the brand campaign, we bid on keywords that included our brand name, but which we weren’t ranking #1 in Google for, such as “Chili Piper Reviews”, “Chili Piper plugin”, etc.&lt;/p&gt;
+
+&lt;h4 id=&quot;retargeting-campaigns&quot;&gt;Retargeting Campaigns&lt;/h4&gt;
+
+&lt;p&gt;Then I set up a retargeting campaign to all website visitors, including those who visited our landing pages from LinkedIn and AdWords. The ads looked like this:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-6.jpeg&quot; alt=&quot;New Chili Piper Google retargeting ads.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Google retargeting ads.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now anyone who visited our website or our landing pages and didn’t convert would see our product, branding, and main value prop. Anyone who visited our website and is in the sales process with an account executive would see these ads, too.&lt;/p&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;Closed-won revenue from inbound demo requests jumped 155% in April and May ’19 compared to all of Q1. Using an average of April and May’19 for a simple June forecast, revenue growth will increase to 282%.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-inbound-2.jpeg" /></entry><entry><title type="html">Built Forecast Growth Model to Double Customer Acquisition Growth</title><link href="http://localhost:4000/created-a-forecast-model-to-double-customer-acquisition-growth" rel="alternate" type="text/html" title="Built Forecast Growth Model to Double Customer Acquisition Growth" /><published>2019-06-09T11:01:47-07:00</published><updated>2019-06-09T11:01:47-07:00</updated><id>http://localhost:4000/created-a-forecast-model-to-double-customer-acquisition-growth</id><content type="html" xml:base="http://localhost:4000/created-a-forecast-model-to-double-customer-acquisition-growth">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;We had a goal to double new business monthly revenue, but not a clear path or timeline to get there. We were only looking in the rear view mirror and monthly reviews ended with us saying, “we did well, but we need to get to x (somehow).”&lt;/p&gt;
+
+&lt;p&gt;Without clear targets for each team and individual in the customer acquisition org, we couldn’t motivate the team, forecast growth, or determine which channels and initiatives to prioritize to hit our target in the shortest amount of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;If we look at the previous 12 month performance by major customer acquisition (CA) function (Outbound, Events, Paid Inbound, and Earned Inbound), we could find the best opportunities for growth while giving clear targets to each team.&lt;/p&gt;
+
+&lt;p&gt;To start, it’s essential to have reliable data. Since I previously built a &lt;a href=&quot;/automating-new-business-revenue-reporting-into-google-sheets&quot;&gt;Revenue Dashboard&lt;/a&gt; that detailed our funnel metrics by major CA function already, I could begin to do some estimations.&lt;/p&gt;
+
+&lt;p&gt;The wrong way to forecast is to start with saying “Okay, we need to get to x in 12 months. What do we need to do to get there?&lt;/p&gt;
+
+&lt;p&gt;I‘ve learned to to start with from the bottom up by identifying the inputs and levers that are in your control and what the results could be if you increased those inputs and pulled those levers over time.&lt;/p&gt;
+
+&lt;p&gt;Here’s how it works.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1start-with-previousresults&quot;&gt;Step 1 — Start With Previous Results&lt;/h3&gt;
+
+&lt;p&gt;In a new spreadsheet, I started with previous data broken down by the major CA functions I wanted to forecast by: Outbound, Events, Paid Inbound, Earned Inbound, and a total that rolls up all four.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2define-your-inputs-and-levers-for-eachfunction&quot;&gt;Step 2 — Define Your Inputs and Levers for Each Function&lt;/h3&gt;
+
+&lt;p&gt;Different functions will have different inputs and levers and you’ll have to determine what those are. Here’s what I went with at Chili Piper.&lt;/p&gt;
+
+&lt;h4 id=&quot;outbound&quot;&gt;Outbound&lt;/h4&gt;
+
+&lt;p&gt;Inputs for cold Outbound were the (1) number of sales development reps (SDRs) and full-cycle account executives (AEs) and (2) the number of booked meetings we could reasonably expect each rep to book at full efficiency.&lt;/p&gt;
+
+&lt;p&gt;Therefore, I knew how many reps we needed to hit a particular Outbound meeting goal and closed won revenue goal. Then we added an estimated ramp period and figured out what was possible with cold Outbound based on when and how many people we could afford to hire.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-1.png&quot; alt=&quot;Cold outbound hiring plan and forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound hiring plan and forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Cold Outbound hiring plan and booked meeting forecast to hit goal in December ‘19.&lt;/p&gt;
+
+&lt;p&gt;Now I knew what we could expect in Outbound meetings per month based on the number of each type of sales reps we had and if they were running at full efficiency.&lt;/p&gt;
+
+&lt;p&gt;Next was to look at the levers, which I concluded to be (1) our conversion rates of each part of the funnel and (2) our average customer value (ACV).&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-2.png&quot; alt=&quot;Levers can be adjusted for a ground up forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Levers can be adjusted for a ground up forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Blue numbers are the levers. By pulling these levers, we could improve efficiency over time. Number of Goal Booked Meetings roll up from the inputs.&lt;/p&gt;
+
+&lt;p&gt;Why conversion rates and ACV? It’s what our sales team has most control of. For example, in April, I estimated our team would convert 75% of Outbound booked meetings into opportunities. The SDR is in control of setting qualified meetings and in control of the cadence and messaging to increase likelihood the prospect will attend the meeting. Next was estimating improvement in opportunity to closed-won conversion rates. It’s 16% in April and grows to 20% by June. We estimated this 25% improvement in just two months because we had already recognized this as an opportunity for improvement and implemented weekly training and call coaching to improve it.&lt;/p&gt;
+
+&lt;p&gt;Because Chili Piper’s product can be used by many different teams at a company and we have a variety of products, it’s difficult to estimate the potential value of an account. In the past, AEs have closed good-size companies in just a $300 deal (one product and one license), and other times deal sizes can be several thousand dollars when selling multiple products and many licenses up front. With training again, we were able to improve the ACV and expected it to continue to grow as skills improve and as we release more products throughout the year.&lt;/p&gt;
+
+&lt;h4 id=&quot;events&quot;&gt;Events&lt;/h4&gt;
+
+&lt;p&gt;Continuing my methodology for Events, the inputs are (1) the number of events and (2) the number of expected meetings from each event. Working with our Events Manager, we were able to roughly plan out the rest of the year and set meeting goals for each event and attending sales rep.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-3.png&quot; alt=&quot;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The levers for Events are the same as Outbound, conversion rates and ACV; however, we didn’t forecast any change here since we already converted well from events.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-4.png&quot; alt=&quot;Number of Goal Booked Meetings roll up from the inputs.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Number of Goal Booked Meetings roll up from the inputs.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;paid-inbound&quot;&gt;Paid Inbound&lt;/h4&gt;
+
+&lt;p&gt;Forecasting and goal setting for Paid Inbound is a bit tricky because the only true input fully in my control is spend, however with limited historical data, spend and cost-per-lead (CPL) by channel wasn’t the best place to start.&lt;/p&gt;
+
+&lt;p&gt;Instead, my inputs were the number of leads I could reasonably expect from each of the channels we’re currently using and plan to use in the future.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-5.png&quot; alt=&quot;Inbound lead goal by channel for Paid Inbound.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Inbound lead goal by channel for Paid Inbound.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The levers for Inbound include conversion rates and ACV, but start with Leads and two additional conversion stages: Lead &amp;gt; Marketing Qualified Lead (MQL) and MQL to Booked Meeting (BM). For spend, I estimated the average total CPL and therefore determined the budget required for paid acquisition for the rest of the year.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-6.png&quot; alt=&quot;Paid forecast broken down by channel.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Paid forecast broken down by channel.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Since we didn’t have historical Paid &amp;amp; Earned Inbound metrics until May, Paid Inbound forecasts start in June.&lt;/p&gt;
+
+&lt;h4 id=&quot;earned-inbound&quot;&gt;Earned Inbound&lt;/h4&gt;
+
+&lt;p&gt;Earned Inbound is even more trickier than Paid. For the most part, Earned Inbound is out of my direct control. Results come from a combination of activities done throughout the company. And since we didn’t have a marketing automation platform set up, we couldn’t yet determine the source of non paid leads, which could either be direct, organic, or referral. So unfortunately, there was much more guess work here and I simply estimated a growth in leads over time and the levers being the same as Paid Inbound.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-7.png&quot; alt=&quot;Estimated growth in Earned (non paid) leads over time.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Estimated growth in Earned (non paid) leads over time.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-3making-thisuseful&quot;&gt;Step 3 — Making This Useful&lt;/h3&gt;
+
+&lt;p&gt;Each function’s goals had two tables below: (1) an auto updating “Actuals” table and (2) a table comparing the differences from Goal to Actual to visually see where we hit and missed goal.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-8.jpeg&quot; alt=&quot;Everything rolls up for a total customer acquisition forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Everything rolls up for a total customer acquisition forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Having all this data in one place was great for the leadership team to get a pulse check on all the teams in CA.&lt;/p&gt;
+
+&lt;p&gt;Then because I built dashboards for &lt;a href=&quot;/automating-new-business-revenue-reporting-into-google-sheets&quot;&gt;New Business Revenue&lt;/a&gt;, &lt;a href=&quot;/building-the-marketing-dashboard&quot;&gt;Marketing&lt;/a&gt;, and Outbound Sales, I could put an auto updating Trend and Goal column where each team could see what they were currently trending to as a team and individually and how that compared to the month’s Goal. This made it easy to see at any point during the month where we had to step up in order to hit goal. Here’s an example of what that looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-9.jpeg&quot; alt=&quot;Forecast and goals by channel were added to each channel's dashboards.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Forecast and goals by channel were added to each channel's dashboards.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;After this was created, each team and individual now had goals and targets to hit every month that they could easily find on the dashboards they already used. This made it more simple to set everyone’s monthly OKRs, motivate the team, and let us rest easy by knowing that if we hit the month’s goal we were on our way to double growth.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-forecast-8.jpeg" /></entry><entry><title type="html">Created an Automated Marketing Dashboard</title><link href="http://localhost:4000/building-the-marketing-dashboard" rel="alternate" type="text/html" title="Created an Automated Marketing Dashboard" /><published>2019-05-31T23:33:12-07:00</published><updated>2019-05-31T23:33:12-07:00</updated><id>http://localhost:4000/building-the-marketing-dashboard</id><content type="html" xml:base="http://localhost:4000/building-the-marketing-dashboard">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;We weren’t tracking at a holistic level how much marketing was contributing to the business. We only had detailed marketing metrics for our main customer acquisition channel, LinkedIn. We couldn’t see all at once how many earned versus paid leads were generated month over month and all the down funnel metrics there after.&lt;/p&gt;
+
+&lt;p&gt;This made it impossible to &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;forecast and set goals&lt;/a&gt; realistically and on a per channel basis. Additionally, we couldn’t see down a level in detail how each individual paid channel was performing month over month, what each channel’s conversion rates were, and many other metrics.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;After implementing a &lt;a href=&quot;/implementing-a-marketing-attribution-system&quot;&gt;marketing attribution system&lt;/a&gt;, the next step was to build a marketing dashboard to segment leads and opportunities by channel. I wanted to build two main dashboards for marketing: point-in-time for goal setting and cohort (based on demo request date) for precisely measuring conversion rates and cost per win.&lt;/p&gt;
+
+&lt;p&gt;Here’s what it looked like and what I wanted to measure:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-1.jpeg&quot; alt=&quot;New Chili Piper Marketing Dashboard.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Marketing Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;building-the-dashboard&quot;&gt;Building The Dashboard&lt;/h2&gt;
+
+&lt;p&gt;Before I could start writing formulas into a spreadsheet, I had to make sure we had accurate and complete data in Salesforce (SFDC).&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1redefining-salesstages&quot;&gt;Step 1 — Redefining Sales Stages&lt;/h3&gt;
+
+&lt;p&gt;This was done when I first built a &lt;a href=&quot;/automating-new-business-revenue-reporting-into-google-sheets&quot;&gt;new business revenue dashboard&lt;/a&gt; for Chili Piper. I more clearly defined what our sales funnel stages were and set up date stamp process builders in SFDC for the important stage changes: demo request date, booked meeting data, and became an opportunity (opp) date (I used the native close date in SFDC). These dates are critical to record &lt;strong&gt;when&lt;/strong&gt; things actually happen, especially for when a deal became an ‘official’ opp.&lt;/p&gt;
+
+&lt;p&gt;At Chili Piper, we created an Opportunity object when a booked meeting had been set, therefore the SFDC Opportunity create date reflects the date a meeting was set and accepted, not when a true opp was reached.&lt;/p&gt;
+
+&lt;p&gt;We decided not to count a deal as an opp in our sales funnel until the prospect 1) showed up to their demo and 2) was qualified. Doing it this way helped us better understand the quality and give more meaning to an opp while also providing a more accurate AE conversion rates by eliminating no shows and disqualifieds — prospects that are impossible for an AE to close.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2setting-up-marketing-attribution-system&quot;&gt;Step 2 — Setting Up Marketing Attribution System&lt;/h3&gt;
+
+&lt;p&gt;After &lt;a href=&quot;/implementing-a-marketing-attribution-system&quot;&gt;creating an attribution system&lt;/a&gt; and implementing it for future leads across all channels, I updated our old leads and opps with the new format to make reporting easier.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3creating-the-salesforce-reports-and-importing-them-automatically-into-a-googlesheet&quot;&gt;Step 3 — Creating the Salesforce Reports and Importing Them Automatically into a Google Sheet&lt;/h3&gt;
+
+&lt;p&gt;To make the formulas easier, I created two Opportunity, Lead, and Contact object reports for earned and paid. Then I used &lt;a href=&quot;https://gsuite.google.com/marketplace/app/gconnector_for_salesforce/971770431958&quot; target=&quot;_blank&quot;&gt;G-Connector&lt;/a&gt; to automatically import the reports into data tabs in the spreadsheet and refresh the data daily.&lt;/p&gt;
+
+&lt;p&gt;Once the data was in there, I could build the point-in-time and cohort views of our marketing performance and isolate performance between earned and paid and roll it up to a total. So now I could see how much pipeline and revenue earned and paid was generating in any given month.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4creating-dashboards-for-each-marketing-channel&quot;&gt;Step 4 — Creating Dashboards for Each Marketing Channel&lt;/h3&gt;
+
+&lt;p&gt;Because the marketing attribution naming conventions were standardized, it was easy to build separate dashboards for each channel, including an overall funnel view and one broken up by campaign, audience, etc.&lt;/p&gt;
+
+&lt;p&gt;Here’s what that looked like for our biggest audience on LinkedIn:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-2.jpeg&quot; alt=&quot;Marketing attribution channel breadk down for LinkedIn ads&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Marketing attribution channel breadk down for LinkedIn ads&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;We ran campaigns targeting specific titles in all marketing, sales, and customer success. I built another dashboard for each of these audiences broken down by individual titles. So for marketing for example, we had a full breakdown from spend to close won revenue for VP of Marketing, CMO, Director of Marketing, Demand Gen Marketers, etc.&lt;/p&gt;
+
+&lt;p&gt;This level of detail was also done for our other channels.&lt;/p&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;Here’s some of the action items this data helped drive:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Set goals:&lt;/strong&gt; I had pretty accurate historical customer acquisition performance by outbound, events, earned inbound, and paid inbound. Now I could &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;set a reasonable plan and forecast to double revenue&lt;/a&gt;. Then I dynamically populated the goal data by stage (column AE above) and measured how the current month was trending to our goals, giving us a heads up in the middle of the month where we needed to take action the most to hit our monthly goal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spot weak parts in the funnel:&lt;/strong&gt; It became immediately clear what channels were converting better than others. Then I listened to AE calls to get an understanding of why prospects weren’t converting as well as other channels. Earned inbound converted the best because they had previous knowledge of the product / company and had intent. Outbound and paid acquisition didn’t close as strong and we created more marketing collateral for sales to improve pain identification and value props of our products&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Optimize spend:&lt;/strong&gt; Now that I could see how our advertising budget was performing by each campaign and audience with down funnel metrics, it became much easier to spot losing and winning audiences and optimize our spend for the biggest ROI.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Optimize messaging:&lt;/strong&gt; So while making dashboards is great for high level analysis and reporting, it’s too time consuming to make reports on the fly. However, all of this data is in SFDC so it’s very fast to make ad-hoc reports in SFDC. For example, if I wanted to see how well a certain vale prop was performing in one channel, across all channels, or by persona, it could be done in minutes in SFDC. This helped drive which value props resonated the most with which personas which we drove our brand, content, and product messaging.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-mktg-1.jpeg" /></entry><entry><title type="html">Implemented Marketing Attribution Infrastructure (Last Touch)</title><link href="http://localhost:4000/implementing-a-marketing-attribution-system" rel="alternate" type="text/html" title="Implemented Marketing Attribution Infrastructure (Last Touch)" /><published>2019-05-27T18:10:51-07:00</published><updated>2019-05-27T18:10:51-07:00</updated><id>http://localhost:4000/implementing-a-marketing-attribution-system</id><content type="html" xml:base="http://localhost:4000/implementing-a-marketing-attribution-system">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;When I first came onboard, we were running paid acquisition campaigns on just LinkedIn and Capterra. To measure their performance, we were using a separate form for each channel and just three URL tracking parameters: ppc_campaign, ppc_ad, and ppc_keyword without any kind of naming conventions in place.&lt;/p&gt;
+
+&lt;p&gt;Using multiple forms is an easy way to separate channel performance easily, but the upkeep of them as more channels are added is cumbersome and becomes unnecessary with a proper attribution system in place. And without standard naming conventions for campaigns, content, and term, it can be difficult to scale tracking and measuring performance of content and angles across channels.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Upgrading ppc_campaign, ppc_ad, and ppc_keyword to the full main five tracking parameters used in Google Analytics (source, medium, campaign, content, and term) provided us with a standardized attribution system we could use across channels. Then we just needed one form we could use on all of our landing pages.&lt;/p&gt;
+
+&lt;p&gt;Because we didn’t have a marketing automation platform or a marketing attribution platform, we decided to move forward with a simple last-touch attribution system.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1create-marketing-attribution-fields-in-salesforce&quot;&gt;Step 1 — Create Marketing Attribution Fields in Salesforce&lt;/h3&gt;
+
+&lt;p&gt;First we changed the three existing tracking fields to ‘Marketing Campaign,’ ‘Marketing Content,’ and ‘Marketing Term’. Then we added ‘Marketing Source’ and ‘Marketing Medium’. For marketing reporting purposes, we also added ‘Latest Demo Request Date’ and a ‘Demo Requested’ toggle we use to fire other automation. These fields were created on the Lead object in Salesforce (SFDC), the Contact, and the Opportunity (Opp).&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-1.png&quot; alt=&quot;New marketing attribution fields in Salesforce.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New marketing attribution fields in Salesforce.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-2creating-the-form-and-capturing-url-parameters&quot;&gt;Step 2 — Creating the Form and Capturing URL Parameters&lt;/h3&gt;
+
+&lt;p&gt;We are using Clearbit Forms, which allow us to capture values from URL parameters natively. All I needed to do was create the hidden fields and map them to the parameter.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-automating-the-data-flow-in-salesforce&quot;&gt;Step 3— Automating the Data Flow in Salesforce&lt;/h3&gt;
+
+&lt;p&gt;When a Lead is converted to a Contact and Account, we set up the attribution fields to be carried over to the Contact. When converted to an Opp, they also flow to the Opp where once created are frozen so they can’t be overwritten by a subsequent form submissions. This was set up because we wanted to credit the last marketing campaign that generated the Opp.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4standardizing-naming-conventions-in-a-urlbuilder&quot;&gt;Step 4 — Standardizing Naming Conventions in a URL Builder&lt;/h3&gt;
+
+&lt;p&gt;Now the foundation has been built, I could build a URL Builder tool in a Google Sheet and standardize naming conventions used for channels, campaigns, content, audiences etc. This is essential for being able to uncover what’s working what isn’t within a single channel over time and across channels.&lt;/p&gt;
+
+&lt;p&gt;In one tab (data tab) was columns for source, medium, campaign, and term. I broke content up into five sub data points that all combined into one that was to be used for content. They were product, value/benefit, audience, media, and copy/ad variant. In the rows under each column were a list of values. For example, under source was google, linkedin, capterra, etc. Under value/benefit was connecting, conversion-rate, speed-to-lead. That way, in any future campaign in any channel, we could come back to using these naming conventions.&lt;/p&gt;
+
+&lt;p&gt;On another tab was the actual URL Builder. Each column used data validation from the data tab so my team and I could build tracking URLs using a series of dropdown menus and if something didn’t match it threw an error.&lt;/p&gt;
+
+&lt;p&gt;It looked liked this:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-2.jpeg&quot; alt=&quot;URL Builder in a spreadsheet for Chili Piper&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;URL Builder in a spreadsheet for Chili Piper&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The final cell combined all the data using simple CONCATENATE formulas and resulted in a tracking URL.&lt;/p&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;Every campaign started was built using this URL builder that ensured consistent naming conventions for marketing attributions. This allowed us to build accurate marketing reports broken down by channel, audience, and campaign. It allowed us to view the success specific pieces of content, ads, media type, or angles across channels. And because it’s all in SFDC, we could do quick ad-hoc analysis using any combination of these parameters to see what’s working or not and drive strategy.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-attribution-2.jpeg" /></entry><entry><title type="html">Automated Customer Acquisition Funnel and Revenue Reporting from SFDC to Google Sheets</title><link href="http://localhost:4000/automating-new-business-revenue-reporting-into-google-sheets" rel="alternate" type="text/html" title="Automated Customer Acquisition Funnel and Revenue Reporting from SFDC to Google Sheets" /><published>2019-05-27T09:58:23-07:00</published><updated>2019-05-27T09:58:23-07:00</updated><id>http://localhost:4000/automating-new-business-revenue-reporting-into-google-sheets</id><content type="html" xml:base="http://localhost:4000/automating-new-business-revenue-reporting-into-google-sheets">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;We tended to view whether we had a good month or not on the customer acquisition (CA) side based purely on how much healthy open pipeline we had at the end of the month and how much revenue from new logos was generated. We didn’t really review (or set goals to) all the metrics in the funnel, such as leads, MQLs, booked meetings, opportunities, pipeline, disqualified, no show, closed-won, etc and broken down by the three major CA functions: inbound, outbound, and events.&lt;/p&gt;
+
+&lt;p&gt;This made it difficult to &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;set goals and forecast&lt;/a&gt;, and know by mid month what we were trending to.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;The solution was to build a spreadsheet that recorded each stage of the funnel for each CA function in both a point-in-time and a cohort view all updated automatically. With all the numbers available in one view, it became much easier to see how well each function of CA performed compared to previous months, spot low converting stages in our funnel, and find new opportunities to grow.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-idata-cleanliness-in-salesforce&quot;&gt;Part I — Data Cleanliness in Salesforce&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1documenting-processes-for-opportunities&quot;&gt;Step 1 — Documenting Processes for Opportunities&lt;/h3&gt;
+
+&lt;p&gt;Most of the data needed to make this dashboard would be from the Opportunity (Opp) object in Salesforce (SFDC). We needed to enforce through documented processes when sales reps should be creating Opps (and when they shouldn’t), how to properly update Opps, and build in rules to make certain fields required depending on the Opp stage.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2redefining-sales-funnelstages&quot;&gt;Step 2 — Redefining Sales Funnel Stages&lt;/h3&gt;
+
+&lt;p&gt;We started out with a very simple sales funnel: leads &amp;gt; opportunities &amp;gt; close. We added an additional stage between leads and opportunities we called ‘Booked Meeting,’ which signified that the initial discovery call/demo was booked by a sales rep and is scheduled to run, but hasn’t yet. This is the first stage on the Opp we called ‘Demo.’ Even though it was an Opp object, we didn’t call it a true opportunity because the prospect could still no show or be disqualified.&lt;/p&gt;
+
+&lt;p&gt;This now meant when something was an opportunity, it means the prospect is qualified and had a successful discovery call/demo. Plus, the conversion rate of opportunity to closed-won/lost was now a much better indicator for an AE’s performance.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-creating-point-in-time-stage-changedates&quot;&gt;Step 3— Creating Point-in-Time Stage Change Dates&lt;/h3&gt;
+
+&lt;p&gt;By default, SFDC records the Opp creation date and close date, but this limits our flexibility and reporting options. We created a few process builders to record the Opp creation date into a separate field on the Opp called ‘Became a Booked Meeting On,’ which allowed us to change it if needed. Once an Opp moved from the initial stage of ‘Demo’ to a positive next stage, we time stamped the date to a field called “Became an Opportunity On.”&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-revenue-1.png&quot; alt=&quot;Salesforce view of stage change date stamps.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Salesforce view of stage change date stamps.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;part-iibuilding-the-dashboard&quot;&gt;Part II — Building the Dashboard&lt;/h2&gt;
+
+&lt;p&gt;Now that we have good data on our Opp objects, I built dashboards in a Google Sheet to measure CA performance both by point-in-time (what happened during this month) and cohort (what happened to Opps created during this month).&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1automating-data-into-googlesheets&quot;&gt;Step 1 — Automating Data Into Google Sheets&lt;/h3&gt;
+
+&lt;p&gt;Using a tool called &lt;a href=&quot;https://gsuite.google.com/marketplace/app/gconnector_for_salesforce/971770431958&quot; target=&quot;_blank&quot;&gt;G-Connector&lt;/a&gt;, we were able to login to SFDC from a Google Sheet, find our Opp report, and schedule a daily import into a separate tab in the spreadsheet. I scheduled it to update once a night.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2building-the-point-in-time-dashboard&quot;&gt;Step 2 — Building the Point-In-Time Dashboard&lt;/h3&gt;
+
+&lt;p&gt;Once the data is in the spreadsheet, building the layout of the spreadsheet and adding the formulas were pretty straightforward. On the point-in-tab view, I created a simple linear trend to predict where we’d be at the end of the month if our current pace continued then compared that trend tour goals. With visual formatting, this helped show where we need to pick up the pace at any given time.&lt;/p&gt;
+
+&lt;p&gt;Here’s the point-in-time view:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-revenue-2.jpeg&quot; alt=&quot;Chili Piper Revenue Dashboard.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Chili Piper Revenue Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-3building-the-cohortview&quot;&gt;Step 3 — Building the Cohort View&lt;/h3&gt;
+
+&lt;p&gt;For the most part, the cohort view is the same as the point-in-time view, but instead of using our new ‘Became an Opportunity On’ and close date fields, we stuck with the our new ‘Became a Booked Meeting On’ field throughout the funnel. So this view would answer questions like, “of all the booked meetings generated in April 2019, how much pipeline and revenue did we generate from them?”&lt;/p&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;Now that the dashboard is complete and auto updating everyday, we have a very concise, high-level view of how each CA function is doing. Here’s three example scenarios our new revenue dashboard helped us understand instantly:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;When revenue is down one month, why?&lt;/strong&gt; We can check which CA function (inbound, outbound, events) had low revenue and find out answer there. Or perhaps it was down across the board, and we can see that our AE conversion rates are down. We could then implement extra training to help address this issue and get feedback from the AEs about what supporting collateral they could use to help close more deals.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pipeline from inbound was low one month, why?&lt;/strong&gt; Since leads and booked meetings are the direct driver of pipeline for inbound, we can check whether booked meetings were down and if leads were down. If leads weren’t down, perhaps it was a lead quality issue we could look into. If leads were down, we could look at our &lt;a href=&quot;building-the-marketing-dashboard&quot;&gt;marketing dashboard&lt;/a&gt; to see which channels were down.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;We’re trending 10% above our pipeline goal this month, what’s happening?&lt;/strong&gt; By pulling in the current month’s &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;goal numbers from our plan and forecast&lt;/a&gt;, we could see how well we’re doing compared to goal. This could be answered by looking at which function is over achieving on pipeline generation and figure out why from there.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-revenue-2.jpeg" /></entry><entry><title type="html">Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp;amp; Google Sheets</title><link href="http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets" rel="alternate" type="text/html" title="Automated SalesLoft Cold Outbound Cadence Reporting into SFDC &amp; Google Sheets" /><published>2019-05-26T20:04:01-07:00</published><updated>2019-05-26T20:04:01-07:00</updated><id>http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets</id><content type="html" xml:base="http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;Reporting on how individual sales reps and their cadences were doing was a manual process. With Chili Piper being a data-driven company, we wanted to be able to make decisions backed by data, which meant we were tracking and manually updating over 37 metrics per rep and per cadence.&lt;/p&gt;
+
+&lt;p&gt;This data took a lot of time to update and would become outdated quickly, so it became a bottleneck for learning what pain points, value props, and angles worked best and also limited how quickly we could run new cadence experiments.&lt;/p&gt;
+
+&lt;p&gt;Here’s how the old one looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-1.jpeg&quot; alt=&quot;Old Cold Outbound Dashboard.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old Cold Outbound Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lots of great data recorded, but updated manually each week which became quickly outdated.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;We had to automate this process as much as possible if we wanted to learn what works faster and run experiments more frequently. This would also free up time we could then spend on improving our cold outbound strategy.&lt;/p&gt;
+
+&lt;p&gt;Making this could be broken down into three parts.&lt;/p&gt;
+
+&lt;h3 id=&quot;part-i-measuring-activitydata&quot;&gt;Part I— Measuring Activity Data&lt;/h3&gt;
+
+&lt;p&gt;The first part was getting the general activity from SalesLoft (SL) into SFDC and then automating that into a Google Sheet.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1getting-salesloft-data-into-salesforce&quot;&gt;Step 1 — Getting SalesLoft Data Into Salesforce&lt;/h4&gt;
+
+&lt;p&gt;Luckily, SL has a native integration with SFDC which writes each email, call, and LinkedIn connect/InMail as an Activity to the Contact record.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2building-the-salesforce-reports&quot;&gt;Step 2 — Building the Salesforce Reports&lt;/h4&gt;
+
+&lt;p&gt;Next I needed to make an SFDC Activity report for each cadence. With the SL and SFDC integration, it was as simple as using a filter for the cadence name. Next was customizing the columns to include all the data we wanted to capture and report on. Once the first report was created, all we needed to do was copy the report, change the cadence name we were filtering for, and save as a new report.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3automating-the-salesforce-reports-into-googlesheets&quot;&gt;Step 3 — Automating the Salesforce Reports Into Google Sheets&lt;/h4&gt;
+
+&lt;p&gt;Using a tool called &lt;a href=&quot;https://gsuite.google.com/marketplace/app/gconnector_for_salesforce/971770431958&quot; target=&quot;_blank&quot;&gt;G-Connector&lt;/a&gt;, we were able to login to SFDC from a Google Sheet, find our cadence reports, and schedule a daily import of each cadence we wanted to track as a separate tab in the spreadsheet.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4building-the-dashboard&quot;&gt;Step 4 — Building the Dashboard&lt;/h4&gt;
+
+&lt;p&gt;The most difficult part of this process was building the tab that pulled all the data from these cadence reports. Once all the formulas were created to get the data we wanted, we could simply copy the formulas into each subsequent column for the next cadence. Using another tool called &lt;a href=&quot;https://gsuite.google.com/marketplace/app/advanced_find_and_replace/460077608560&quot; target=&quot;_blank&quot;&gt;Advanced Find and Replace&lt;/a&gt;, we could quickly replace all the tab references inside each formula with another without having to edit each individual cell’s formula.&lt;/p&gt;
+
+&lt;p&gt;Here’s what this dashboard looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-2.jpeg&quot; alt=&quot;New Cold Outbound Dashboard.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Cold Outbound Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;With everything in SFDC, we could easily break out cadence metrics by the Contact level (individuals) and an Account level. So for instance, we could see how many unique accounts were targeted in a cadence versus just the total people. We could then expand on that and look at the bounce rate, open rate, reply rate, calls, connects, etc at an Account level or at a Contact level.&lt;/p&gt;
+
+&lt;blockquote class=&quot;big-quote&quot;&gt;
+  &lt;p&gt;Using conditional formatting, we could quickly see which cadences and reps were performing better than others, find out why, and scale that to future cadences and the rest of the team.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;part-iimeasuring-down-funnel-metrics&quot;&gt;Part II — Measuring Down-Funnel Metrics&lt;/h3&gt;
+
+&lt;p&gt;Since the response rate of a cadence won’t tell us whether it’s a success or failure on its own, we needed to connect booked meetings, opportunities, pipeline, and ultimately closed-won deals to each cadence. To do this, we need to push cadence data from a Contact to an Opportunity object and then pull an Opportunity report into our spreadsheet.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1push-salesloft-cadence-data-from-the-contact-to-an-opportunity&quot;&gt;Step 1 — Push SalesLoft Cadence Data From the Contact to an Opportunity&lt;/h4&gt;
+
+&lt;p&gt;This is possible using a process builder in SFDC. When an opportunity is created, the process builder will pull the SL cadence data from the Primary Contact and write it to the Opportunity. Then those fields are locked so any new SL activities to that Contact won’t overwrite on the Opportunity. That way, we know the cadence data on the Opportunity is the last meaningful activity that generated the booked meeting.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2building-the-salesforce-opportunity-report&quot;&gt;Step 2 — Building the Salesforce Opportunity Report&lt;/h4&gt;
+
+&lt;p&gt;A simple Opportunity report filtering for only outbound opportunities with SL cadence data in the columns is essentially all we needed. Then we automated this report to our spreadsheet using G-Connector.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3adding-down-funnel-metrics-into-the-dashboard-tab&quot;&gt;Step 3 — Adding Down-Funnel Metrics Into the Dashboard Tab&lt;/h4&gt;
+
+&lt;p&gt;Now with just simple COUNTIF formulas, we can see all the down-funnel metrics a cadence produced from booked meeting to close won.&lt;/p&gt;
+
+&lt;p&gt;Here’s what we looked at:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-3.jpeg&quot; alt=&quot;We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we were able to measure how effective a cadence was by the rate of accounts worked to meetings booked (and pipeline generated).&lt;/p&gt;
+
+&lt;h3 id=&quot;part-iiifiguring-out-whatworks&quot;&gt;Part III — Figuring Out What Works&lt;/h3&gt;
+
+&lt;p&gt;Since we’re able to pull in the cadence name and cadence step names into SFDC and onto Opportunities, we can add keywords (or tags) to each cadence step name to segment performance. So for instance, we can measure how certain angles or content (images, GIFs, etc) perform. This is additional information we used to build new and improved cadences.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-imeasure-performance-of-eachemail&quot;&gt;Step I — Measure Performance of Each Email&lt;/h4&gt;
+
+&lt;p&gt;By using strict cadence name and cadence step naming conventions, we were able to easily break out performance by each email step for every cadence with one formula. We simply looked if cadence step name contained “Email 1” or “Email 2” etc.&lt;/p&gt;
+
+&lt;p&gt;Here’s what that looks like with conditional formatting, to easily spot winning emails:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-4.jpeg&quot; alt=&quot;Conditional formatting made it easy to spot wins.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Conditional formatting made it easy to spot wins.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;step-iiadd-keywords-to-each-cadencename&quot;&gt;Step II — Add Keywords to Each Cadence Name&lt;/h4&gt;
+
+&lt;p&gt;SL won’t retroactively update what’s sent to SFDC in the integration, so we were only able to segment out by keywords for future cadences. First we tested influence and persuasion angles and we were able to measure the open and response rate for emails in that cadence that used that angle.&lt;/p&gt;
+
+&lt;p&gt;Here’s what that looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-5.jpeg&quot; alt=&quot;Segmenting metrics out by keyword helped us further identify what content in email worked best.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Segmenting metrics out by keyword helped us further identify what content in email worked best.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;step-iiiadding-titles-of-the-contacts-whobooked&quot;&gt;Step III — Adding Titles of the Contacts Who Booked&lt;/h4&gt;
+
+&lt;p&gt;Then to measure a part of our outbound targeting, we looked at the roles of each contact who we booked a meeting with. Because each person’s title is somewhat unique, we just listed out the title in an array where we could visually inspect the kind of roles people had who resonated with our messaging and product, which we used for refining future targeting.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-outbound-6.jpeg&quot; alt=&quot;List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;With all this data, we now could measure over 140 metrics per cadence per rep, automatically (mostly). This is how we were able to quickly test and evolve our outbound strategy and cadences to be more effective.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/chili-outbound-2.jpeg" /></entry></feed>

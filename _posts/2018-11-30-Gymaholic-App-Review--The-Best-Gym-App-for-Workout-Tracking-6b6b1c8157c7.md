@@ -5,7 +5,7 @@ description: No other app comes even close.
 date: '2018-11-30T02:41:56.733Z'
 categories: [self, productivity]
 slug: /gymaholic-app-review-the-best-gym-app-for-workout-tracking
-image: gymaholic-review.jpeg
+image: /assets/images/gymaholic-review.jpeg
 image-alt: gymaholic review
 author: Reggie Paquette
 post-id: 6

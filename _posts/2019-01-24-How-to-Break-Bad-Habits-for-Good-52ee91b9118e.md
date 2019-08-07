@@ -5,7 +5,7 @@ description: The best tips from Atomic Habits on breaking your worse habits
 date: '2019-01-24T23:45:09.504Z'
 categories: [self, productivity]
 slug: /how-to-break-bad-habits
-image: how-to-break-bad-habits.png
+image: /assets/images/how-to-break-bad-habits.png
 image-alt: how to break bad habits
 author: Reggie Paquette
 post-id: 9

@@ -6,7 +6,7 @@ date: '2017-05-14T21:22:21.137Z'
 categories: [casestudy,eyemagine]
 slug: /seo-case-study
 skills: [seo,influencer,demandgen]
-image: eyemagine-1.png
+image: /assets/images/eyemagine-1.png
 image-alt: The Scarf Shop landing page
 author: Reggie Paquette
 post-id: 16

@@ -6,7 +6,7 @@ date: '2019-05-27T03:04:01.987Z'
 categories: [casestudy,chilipiper]
 slug: /automating-salesloft-cadence-metrics-into-google-sheets
 skills: [reporting,spreadsheets,outbound]
-image: chili-outbound-2.jpeg
+image: /assets/images/chili-outbound-2.jpeg
 image-alt: new Chili Piper outbound dashboard
 author: Reggie Paquette
 post-id: 18

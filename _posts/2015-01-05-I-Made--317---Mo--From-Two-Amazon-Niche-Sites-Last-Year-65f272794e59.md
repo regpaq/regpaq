@@ -5,7 +5,7 @@ description: And here’s how I did it.
 date: '2015-01-05T18:17:44.000Z'
 categories: [marketing]
 slug: /i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it
-image: niche-site-amazon-affiliate.png
+image: /assets/images/niche-site-amazon-affiliate.png
 image-alt: niche site amazon affiliate
 author: Reggie Paquette
 post-id: 2

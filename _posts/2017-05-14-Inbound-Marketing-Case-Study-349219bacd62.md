@@ -6,7 +6,7 @@ date: '2017-05-14T21:21:14.015Z'
 categories: [casestudy,eyemagine]
 slug: /inbound-marketing-case-study
 skills: [demandgen,content]
-image: eyemagine-11.png
+image: /assets/images/eyemagine-11.png
 image-alt: ebook for eyemagine in collaboration with hubspot
 author: Reggie Paquette
 post-id: 15

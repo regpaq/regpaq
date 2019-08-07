@@ -6,7 +6,7 @@ date: '2019-07-24T02:37:27.735Z'
 categories: [casestudy,servicetitan]
 slug: /servicetitan-seo-case-study
 skills: [seo,inbound,spreadsheets,demandgen]
-image: servicetitan-seo-1.png
+image: /assets/images/servicetitan-seo-1.png
 image-alt: Original ServiceTitan sitemap
 author: Reggie Paquette
 post-id: 25

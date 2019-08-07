@@ -5,7 +5,7 @@ description: Lessons on life from an ancient Roman Emperor.
 date: '2018-12-07T05:36:59.794Z'
 categories: [self, booknotes]
 slug: /meditations-from-marcus-aurelius-summary-notes-quotes
-image: meditations-marcus-aurelius-summary.jpeg
+image: /assets/images/meditations-marcus-aurelius-summary.jpeg
 image-alt: meditations marcus aurelius summary
 author: Reggie Paquette
 post-id: 7

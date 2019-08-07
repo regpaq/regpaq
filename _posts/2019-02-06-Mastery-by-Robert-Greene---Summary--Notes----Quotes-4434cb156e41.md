@@ -5,7 +5,7 @@ description: The essential book to help you find your purpose.
 date: '2019-02-06T06:48:39.759Z'
 categories: [self, booknotes]
 slug: /mastery-summary-quotes-robert-greene
-image: mastery-book-summary.jpeg
+image: /assets/images/mastery-book-summary.jpeg
 image-alt: mastery book summary
 author: Reggie Paquette
 post-id: 12

@@ -5,7 +5,7 @@ description: Inspired by the journal method of Marcus Aurelius.
 date: '2019-02-07T14:52:48.485Z'
 categories: [self]
 slug: /stoic-journal-topics
-image: stoic-journal-topics.jpeg
+image: /assets/images/stoic-journal-topics.jpeg
 image-alt: stoic journal topics
 author: Reggie Paquette
 post-id: 13

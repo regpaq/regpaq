@@ -6,7 +6,7 @@ date: '2019-06-01T06:33:12.458Z'
 categories: [casestudy,chilipiper]
 slug: /building-the-marketing-dashboard
 skills: [reporting,spreadsheets]
-image: chili-mktg-1.jpeg
+image: /assets/images/chili-mktg-1.jpeg
 image-alt: new Chili Piper marketing dashboard
 author: Reggie Paquette
 post-id: 20

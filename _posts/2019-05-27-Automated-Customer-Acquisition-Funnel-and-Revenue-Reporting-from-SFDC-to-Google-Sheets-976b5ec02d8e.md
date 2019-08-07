@@ -6,7 +6,7 @@ date: '2019-05-27T16:58:23.546Z'
 categories: [casestudy,chilipiper]
 slug: /automating-new-business-revenue-reporting-into-google-sheets
 skills: [reporting,spreadsheets]
-image: chili-revenue-2.jpeg
+image: /assets/images/chili-revenue-2.jpeg
 image-alt: Chili Piper revenue dashboard
 author: Reggie Paquette
 post-id: 17

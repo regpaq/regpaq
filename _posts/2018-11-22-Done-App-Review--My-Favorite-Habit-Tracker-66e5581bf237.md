@@ -5,7 +5,7 @@ description: And one you’ll actually stick to.
 date: '2018-11-22T18:17:19.083Z'
 categories: [self, productivity]
 slug: /done-review-of-my-favorite-habit-tracking-app
-image: done-app-review.jpeg
+image: /assets/images/done-app-review.jpeg
 image-alt: done app review
 author: Reggie Paquette
 post-id: 5

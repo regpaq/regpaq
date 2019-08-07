@@ -6,7 +6,7 @@ date: '2019-05-28T01:10:51.063Z'
 categories: [casestudy,chilipiper]
 slug: /implementing-a-marketing-attribution-system
 skills: [reporting,demandgen]
-image: chili-attribution-2.jpeg
+image: /assets/images/chili-attribution-2.jpeg
 image-alt: URL Builder in a spreadsheet for Chili Piper
 author: Reggie Paquette
 post-id: 19

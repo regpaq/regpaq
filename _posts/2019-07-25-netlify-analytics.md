@@ -5,7 +5,7 @@ description: Is it everything the industry has been waiting for?
 date: '2019-07-25T01:02:48.485Z'
 categories: [marketing]
 slug: /netlify-analytics-review
-image: netlify-analytics.jpg
+image: /assets/images/netlify-analytics.jpg
 image-alt: netlify analytics review
 author: Reggie Paquette
 post-id: 26

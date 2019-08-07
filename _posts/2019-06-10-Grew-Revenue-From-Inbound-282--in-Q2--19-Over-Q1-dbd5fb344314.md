@@ -6,7 +6,7 @@ date: '2019-06-10T18:42:47.530Z'
 categories: [casestudy,chilipiper]
 slug: /grew-revenue-from-inbound-282-in-q2-19-over-q1
 skills: [demandgen,linkedin]
-image: chili-inbound-2.jpeg
+image: /assets/images/chili-inbound-2.jpeg
 image-alt: new Chili Piper LinkedIn image ads
 author: Reggie Paquette
 post-id: 22

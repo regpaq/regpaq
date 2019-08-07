@@ -5,7 +5,7 @@ description: Here’s what you can do instead.
 date: '2019-02-13T20:11:11.378Z'
 categories: [self]
 slug: /stop-comparing-yourself-to-others
-image: stop-comparing-yourself-to-others.jpeg
+image: /assets/images/stop-comparing-yourself-to-others.jpeg
 image-alt: stop comparing yourself to others
 author: Reggie Paquette
 post-id: 14

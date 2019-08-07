@@ -72,7 +72,7 @@ Believing the why, removing the cue, and increasing friction is likely to help y
 
 If this is the case, you may be using too much willpower to stop your bad habits—and that can only last so long before you give in. Perhaps it’s best to find a different and better solution to solve that feeling, rather than trying to ignore it.
 
-For example, replace the donut in the morning with a fruit smoothie. Replace the drink after work with a decaf latte. Replace the video games with [a great book](/book-notes).
+For example, replace the donut in the morning with a fruit smoothie. Replace the drink after work with a decaf latte. Replace the video games with [a great book](/booknotes).
 
 ## 5\. Record Your Progress in a Habit Tracker
 

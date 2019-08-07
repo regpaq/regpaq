@@ -96,7 +96,7 @@ It’s a good exercise to think (or write in your journal) about what you have a
 > "Remember that our own worth is measured by what we devote our energy to."
 > > \[7.3\] 
 
-What you think about and what you do every day casts votes for who you are, exactly [what James Clear reminds us in Atomic Habits](/atomic-habits-review-notes):
+What you think about and what you do every day casts votes for who you are, exactly [what James Clear reminds us in Atomic Habits](/atomic-habits-review-notes-lessons):
 
 {% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 

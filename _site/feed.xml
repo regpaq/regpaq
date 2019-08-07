@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-02T09:46:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Netlify Analytics Review</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-06T19:48:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Netlify Analytics Review</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
 
 &lt;p&gt;Released in July 2019, &lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; is a new add-on to Netlify’s popular hosting and deployment platform. Starting at $9/month, it’s an “expensive” alternative to the analytics king, Google Analytics, which is free. But is it worth it?&lt;/p&gt;
 
@@ -56,12 +56,12 @@
     &lt;div class=&quot;rec-container&quot;&gt;
         &lt;div class=&quot;rec-info&quot;&gt;
             &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
-            &lt;a href=&quot;/medium-vs-self-hosted-blog&quot;&gt;&lt;h4&gt;Medium vs Self Hosted Blog&lt;/h4&gt;&lt;/a&gt;
-            &lt;p&gt;Why I moved my blog off Medium to a static site.&lt;/p&gt;
+            &lt;a href=&quot;/blogging-on-medium-vs-self-hosted-blog&quot;&gt;&lt;h4&gt;Blogging on Medium vs Self Hosted Blog&lt;/h4&gt;&lt;/a&gt;
+            &lt;p&gt;Why I stopped blogging on Medium to a static, self hosted blog.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&quot;rec-img&quot;&gt;
             &lt;figure&gt;
-                &lt;a href=&quot;/medium-vs-self-hosted-blog&quot;&gt;&lt;img src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;&lt;/a&gt;
+                &lt;a href=&quot;/blogging-on-medium-vs-self-hosted-blog&quot;&gt;&lt;img src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;&lt;/a&gt;
             &lt;/figure&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;Then after much revisions and improvements, we published the new Product Tour. The old, single page Product Tour looked like this:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;hhttps://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;It had only one section for each major function of the product. From a brand and web experience point-of-view, it would not be beneficial to the user to only expand on the functions that had opportunity in search. Therefore we expanded on all the main product functions into their own pages. And here’s what they looked like:&lt;/p&gt;
 
@@ -156,18 +156,18 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/servicetitan-seo-1.png" /></entry><entry><title type="html">Medium vs Self Hosted Blog</title><link href="http://localhost:4000/medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/medium-vs-self-hosted-blog">&lt;p&gt;The most common reasons people leave Medium for self-hosting are:&lt;/p&gt;
+&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/servicetitan-seo-1.png" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;You don’t “own” your traffic because you’re ranking pages on medium.com instead of your own domain.&lt;/li&gt;
-  &lt;li&gt;You have less control of converting traffic.&lt;/li&gt;
-  &lt;li&gt;Medium promotes other peoples’ articles on your own articles.&lt;/li&gt;
-  &lt;li&gt;More readers are dedicated to Medium than dedicated to you.&lt;/li&gt;
+  &lt;li&gt;You don’t “own” your traffic because your blog is on medium.com&lt;/li&gt;
+  &lt;li&gt;You have less control of converting traffic&lt;/li&gt;
+  &lt;li&gt;Medium promotes other peoples’ articles on your own articles&lt;/li&gt;
+  &lt;li&gt;More readers are dedicated to Medium than dedicated to you&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;For me, the switch wasn’t about the “building a house on rented land” aspect. I was early to Medium publications so I could use my custom domain (regpaq.com) on Medium. Thankfully I got in before they removed this feature so I shouldn’t lose any rankings since I’m still on the same domain.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;So what made me want to switch? The stats.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So what made me want to stop blogging on Medium? The stats.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Medium’s stats are broken and very limited. I want to be able to see three things for a given period of my choosing. How much is my traffic growing? What’s the distribution of traffic between pages? Where is that traffic coming from? This isn’t possible on Medium.&lt;/p&gt;
 
@@ -176,22 +176,22 @@
 &lt;p&gt;There’s one huge problem with Medium stats. &lt;strong&gt;They include views of your comments on other people’s articles in your view count!&lt;/strong&gt; And there is no way to filter them out. So no, you can’t see how many total views just your articles received over time.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 day stats on Medium for all articles... and comments.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 day stats on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;The other major problem is you can only view your traffic in 30 day windows.&lt;/strong&gt; If you got a lot of views one day, you can’t look at just that day’s traffic and see what pages got the most views or where that traffic came from.&lt;/p&gt;
 
 &lt;p&gt;Above the graph, Medium suggests you can click a story to see stats for just that story. Unfortunately, when you click on a story it loads a new page and takes five seconds to load. &lt;strong&gt;So you have to click each individual story one by one to uncover which story went “viral” and racked up the most views on a big traffic day.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a story on Medium.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a story on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Inside an individual story’s stats, you can see the list of referrers. But only the domain.&lt;/strong&gt; In the above example, I can’t see which Reddit threads are talking about my article! Which means I can’t see what people are saying and jump in the conversation.&lt;/p&gt;
 
-&lt;p&gt;When I first moved to Medium, I knew the stats were limited, but I didn’t know by how much. The reason I moved to Medium in the first place was because I wanted simplicity. I wanted simple metrics. I didn’t want to fiddle with the design. I didn’t want to mess with plugins. I wanted a better editor than WordPress. I just wanted to write. But now things have changed.&lt;/p&gt;
+&lt;p&gt;When I first started blogging on Medium, I knew the stats were limited, but I didn’t know by how much. The reason I moved to Medium in the first place was because I wanted simplicity. I wanted simple metrics. I didn’t want to fiddle with the design. I didn’t want to mess with plugins. I wanted a better editor than WordPress. I just wanted to write. But now things have changed.&lt;/p&gt;
 
 &lt;h2 id=&quot;limited-customization-on-medium&quot;&gt;Limited Customization on Medium&lt;/h2&gt;
 
-&lt;p&gt;One of the biggest pros of Medium is that the design is all done for you. You don’t have to worry about it. It’s always better to write and publish more than to fiddle with the design. What changed for me was a massive increase in interest in learning HTML and CSS. &lt;strong&gt;By moving off of Medium, my blog is now a showcase for my design and dev skills.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One of the biggest pros of blogging on Medium is that the design is all done for you. You don’t have to worry about it. It’s always better to write and publish more than to fiddle with the design. What changed for me was a massive increase in interest in learning HTML and CSS. &lt;strong&gt;By moving off of Medium, my blog is now a showcase for my design and dev skills.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;That’s why I didn’t go back to WordPress and instead used &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a static site generator. It was a much bigger process than I anticipated. I designed the site in Adobe XD then developed it. &lt;strong&gt;The end result is a blog I designed and I developed with articles I wrote and I illustrated. It’s a culmination of many of my skills in a single project.&lt;/strong&gt;&lt;/p&gt;
 
@@ -213,9 +213,24 @@
 
 &lt;p&gt;&lt;strong&gt;The static site is a massive improvement for speed&lt;/strong&gt; - even without any image optimization. This should improve the bounce rate and thus increase organic rankings. But because people know what to expect when they land on a Medium-designed article, it’s possible the new design increases the bounce rate. I’ll never know for certain because you can’t measure the bounce rate on Medium. &lt;/p&gt;
 
-&lt;p&gt;There’s one catch here about the speed of my site. I’m using Netlify’s new Analytics, which is a server side analytics solution. It measures at the server level so it’s not adding an extra request to the page, like Google Analytics would. The problem is Netlify’s Analytics is even worse than Medium’s so I’ll be switching to Google Analytics or Clicky.&lt;/p&gt;
+&lt;p&gt;There’s one catch here about the speed of my site. I’m using &lt;a href=&quot;/netlify-analytics-review&quot;&gt;Netlify’s new Analytics&lt;/a&gt;, which is a server side analytics solution. It measures at the server level so it’s not adding an extra request to the page, like Google Analytics would. The problem is Netlify’s Analytics is even worse than Medium’s so I’ll be switching to Google Analytics or Clicky.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-ill-miss-about-medium&quot;&gt;What I’ll Miss About Medium&lt;/h2&gt;
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;div class=&quot;rec-container&quot;&gt;
+        &lt;div class=&quot;rec-info&quot;&gt;
+            &lt;h5&gt;RECOMMENDED&lt;/h5&gt;
+            &lt;a href=&quot;/netlify-analytics-review&quot;&gt;&lt;h4&gt;Netlify Analytics Review&lt;/h4&gt;&lt;/a&gt;
+            &lt;p&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rec-img&quot;&gt;
+            &lt;figure&gt;
+                &lt;a href=&quot;/netlify-analytics-review&quot;&gt;&lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;&lt;/a&gt;
+            &lt;/figure&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;what-ill-miss-about-blogging-on-medium&quot;&gt;What I’ll Miss About Blogging on Medium&lt;/h2&gt;
 
 &lt;p&gt;Medium’s coolest social feature is “claps.” If people like your article, they can clap for it up to 50 times. It’s nice to get and give claps, but it does have a downside. Medium syndicates and recommends articles to other users based on how many claps it gets. &lt;strong&gt;This made me too focused on claps. I even joined three Facebook groups where people just clap for each others’ articles. It’s a stupid game.&lt;/strong&gt;&lt;/p&gt;
 
@@ -238,7 +253,7 @@
             &lt;/figure&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">The most common reasons people leave Medium for self-hosting are:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/medium-vs-self-hosted-blog.jpg" /></entry><entry><title type="html">Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/medium-vs-self-hosted-blog.jpg" /></entry><entry><title type="html">Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;When I joined Chili Piper, we had just one full cycle account executive (AE) on the sales team and the plan was to hire eight more in seven months. The challenge was to (1) develop instrumentation to determine what part of our outreach was working, (2) reliably scale it to other sales reps as they joined the team, and (3) improve the conversion rate of accounts worked to meetings booked so we wouldn’t burn through our target accounts.&lt;/p&gt;
 

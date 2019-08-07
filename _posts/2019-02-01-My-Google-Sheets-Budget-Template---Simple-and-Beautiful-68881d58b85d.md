@@ -10,7 +10,7 @@ image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
 seo:
-    date_modified: '2019-02-01T15:51:34.385Z'
+    date_modified: '2019-08-05T15:51:34.385Z'
 ---
 
 You can download my template using the link at the bottom of this article.
@@ -64,7 +64,7 @@ Click the link below to access a “view only” version of the template.
 
 **You will need to click File > Make a Copy in order to use it for yourself:**
 
-[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/edit)
+[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
 
 ### Bonus Tips
 

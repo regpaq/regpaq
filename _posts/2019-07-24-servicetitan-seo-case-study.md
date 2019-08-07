@@ -54,7 +54,7 @@ We first published the Industry pages, because they had the highest ROI potentia
 
 Then after much revisions and improvements, we published the new Product Tour. The old, single page Product Tour looked like this:
 
-{% include figure.html image="/assets/images/servicetitan-old-product-tour.jpg" caption="Click here to view the live page. Note: Page may have been deleted since the publishing of this case study." link="hhttps://www.servicetitan.com/solutions" width="full" %}
+{% include figure.html image="/assets/images/servicetitan-old-product-tour.jpg" caption="Click here to view the live page. Note: Page may have been deleted since the publishing of this case study." link="https://www.servicetitan.com/solutions" width="full" %}
 
 It had only one section for each major function of the product. From a brand and web experience point-of-view, it would not be beneficial to the user to only expand on the functions that had opportunity in search. Therefore we expanded on all the main product functions into their own pages. And here's what they looked like:
 

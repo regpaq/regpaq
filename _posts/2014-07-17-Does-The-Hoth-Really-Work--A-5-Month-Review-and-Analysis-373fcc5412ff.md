@@ -10,10 +10,10 @@ image-alt: the-hoth-review.jpg
 author: Reggie Paquette
 post-id: 1
 seo:
-    date_modified: 2014-07-17 00:12:27 -0700
+    date_modified: 2019-08-13 00:12:27 -0700
 ---
 
-### Nov ’16 Update:
+### Aug ’19 Update:
 
 _I no longer recommend The Hoth. The Hoth has done nothing wrong and I have nothing against it in particular, but I am against the strategy of buying links — it goes against my philosophy of marketing._
 

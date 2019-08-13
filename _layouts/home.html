@@ -7,7 +7,7 @@ layout: default
 	{%- if site.posts.size > 0 -%}
 		<div class="featured-article-header">
 			<h2 class="post-list-heading">Latest Articles</h2>
-			<p class="see-more">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" /></p>
+			<p class="see-more">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
 		</div>
 		<div class="article-container">
 			<ul class="post-list">
@@ -21,7 +21,7 @@ layout: default
 						<p>{{ post.description }}</p>
 						{%- endif -%}
 						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" />{{ post.date | date: date_format }}</p>
+						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 					</div>
 				</li>
 				{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}

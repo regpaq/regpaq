@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mastery by Robert Greene — Summary, Notes, + Quotes'
+title: Mastery by Robert Greene — Summary, Notes, + Quotes
 description: The essential book to help you find your purpose.
 date: '2019-02-06T06:48:39.759Z'
 categories: [self, booknotes]

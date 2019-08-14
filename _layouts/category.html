@@ -14,12 +14,18 @@ layout: default
 					{% assign i = i | plus:1 %}
 					{% if post.image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
 					<div class="article-info">
-						<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+						<h3><a class="post-link" href="{{ post.url | relative_url }}">
+							{%- if post.display-title -%}
+								{{ post.display-title | escape }}
+							{%- else -%}
+								{{ post.title | escape }}
+							{% endif %}
+						</a></h3>
 						{%- if post.description -%}
 						<p>{{ post.description }}</p>
 						{%- endif -%}
 						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-						<p class="post-meta">{% include /svg/calendar.svg %}{{ post.date | date: date_format }}</p>
+						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 					</div>
 				</li>
 				{%- endunless -%}{%- endfor -%}{%- else -%}{%- for post in site.categories[page.category] -%}{%- unless post.categories contains "casestudy" -%}
@@ -27,12 +33,18 @@ layout: default
 					{% assign i = i | plus:1 %}
 					{% if post.image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
 					<div class="article-info">
-						<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+						<h3><a class="post-link" href="{{ post.url | relative_url }}">
+							{%- if post.display-title -%}
+								{{ post.display-title | escape }}
+							{%- else -%}
+								{{ post.title | escape }}
+							{% endif %}
+						</a></h3>
 						{%- if post.description -%}
 						<p>{{ post.description }}</p>
 						{%- endif -%}
 						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-						<p class="post-meta">{% include /svg/calendar.svg %}{{ post.date | date: date_format }}</p>
+						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 					</div>
 				</li>
 				{%- endunless -%}{%- endfor -%}{%- endif -%}

@@ -3,7 +3,13 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<header class="post-header container">
-		<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+		<h1 class="post-title" itemprop="name headline">
+			{%- if page.display-title -%}
+				{{ page.display-title | escape }}
+			{%- else -%}
+				{{ page.title | escape }}
+			{% endif %}
+		</h1>
 		<p class="article-subtitle">{{page.description | escape}}</p>
 		<div class="post-meta">
 			<div class="coin"></div><figure><img src="/assets/images/regpaq.jpg" alt="Reggie Paquette photo" /></figure>

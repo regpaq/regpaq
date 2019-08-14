@@ -1,6 +1,7 @@
 ---
 layout: post
-title: My Google Sheets Budget Template — Simple and Beautiful
+title: My Simple Google Sheets Budget Template [Free]
+display-title: My Simple Google Sheets Budget Template
 description: How I finally got over spending money on stupid shit.
 date: '2019-02-01T15:51:34-08:00'
 categories: [self]
@@ -65,6 +66,12 @@ Once you’ve been using it for a few months and get some data in there (or even
 Click the link below and click the 'make a copy' button to save the template to your Google Drive.
 
 [https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
+
+## How to Use The Template
+
+Once you've copied the budget template, watch this video which contains step-by-step instructions how to use the template and get started.
+
+<div style="text-align:center;padding-bottom:32px;"><iframe width="320" height="180" src="https://www.youtube.com/embed/FAEg7BBGOuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Bonus Tips
 

@@ -1,44 +1,43 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">	
-	<header class="post-header container">
-		<h1 class="post-title" itemprop="name headline">
-			{%- if page.display-title -%}
-				{{ page.display-title | escape }}
-			{%- else -%}
-				{{ page.title | escape }}
-			{% endif %}
-			</h1>
-		<p class="article-subtitle">{{page.description | escape}}</p>
-		<div class="post-meta">
-			<div class="coin"></div><figure><img class="author" src="/assets/images/regpaq.jpg" alt="Reggie Paquette photo" /></figure>
-			<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>
-			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.date | date: date_format }}</time>
-			<span itemprop="dateModified" style="display: none;">
-				{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
-				{%- if page.date_modified -%}
-					Last updated: {{ page.lastmod | date: date_format }}
-				{%- else -%}
-					Last updated: {{ page.date | date: date_format }}
-				{%- endif -%}
-			</span>
-			<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}<a href="/{{ category }}">#{{ category }}</a>{% endfor %}</div>
-		</div>
-	</header>
-	{% if page.image %}{% include featured-image.html image=page.image alt=page.image-alt %}{% endif %}
-	<div class="post-content" itemprop="articleBody">		
-		{{ content }}		
-	</div>
-	{%- include subscribe.html -%}
-	{%- if site.disqus.shortname -%}{%- include disqus_comments.html -%}{%- endif -%}
-	<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-		<meta itemprop="name" content="Reggie Paquette">
-		<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-            <meta itemprop="url" content="/assets/images/logo.png">
-            <meta itemprop="width" content="272">
-            <meta itemprop="height" content="155">
-        </span>
-	</span>
-	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage"/>
-</article>
+				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">	
+					<header class="post-header container">
+						<h1 class="post-title" itemprop="name headline">
+							{%- if page.display-title -%}
+								{{ page.display-title | escape }}
+							{%- else -%}
+								{{ page.title | escape }}
+							{%- endif -%}</h1>
+						<p class="article-subtitle">{{page.description | escape}}</p>
+						<div class="post-meta">
+							<div class="coin"></div><figure><img class="author" src="/assets/images/regpaq.jpg" alt="Reggie Paquette photo" /></figure>
+							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>							
+							{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
+							{%- if page.seo.date_modified %}
+							<meta itemprop="datePublished" content="{{ page.date | date: date_format }}">
+							<time itemprop="dateModified" datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.seo.date_modified | date: date_format }}</time>							
+							{%- else -%}
+							<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.date | date: date_format }}</time>
+							<meta itemprop="dateModified" content="{{ page.date | date: date_format }}">
+							{%- endif %}
+							<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}<a href="/{{ category }}">#{{ category }}</a>{% endfor %}</div>
+						</div>
+					</header>
+					{% if page.image %}{% include featured-image.html image=page.image alt=page.image-alt %}{% endif %}
+					<div class="post-content" itemprop="articleBody">
+
+{{ content }}
+
+					</div>
+{% include subscribe.html %}
+					<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+						<meta itemprop="name" content="Reggie Paquette">
+						<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="/assets/images/logo.png">
+							<meta itemprop="width" content="272">
+							<meta itemprop="height" content="155">
+						</span>
+					</span>
+					<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage"/>
+				</article>

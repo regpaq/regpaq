@@ -1,46 +1,43 @@
 ---
 layout: default
 ---
-{{ content }}
-<div class="featured-articles">
-	<div class="container container-overflow">
-	{%- if site.posts.size > 0 -%}
-		<div class="featured-article-header">
-			<h2 class="post-list-heading">Latest Articles</h2>
-			<p class="see-more">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
-		</div>
-		<div class="article-container">
-			<ul class="post-list">
-				{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
-				<li class="article-{{ i }}">
-					{% assign i = i | plus:1 %}
-					{% if post.image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
-					<div class="article-info">
-						<h3><a class="post-link" href="{{ post.url | relative_url }}">
-							{%- if post.display-title -%}
-								{{ post.display-title | escape }}
-							{%- else -%}
-								{{ post.title | escape }}
-							{% endif %}
-						</a></h3>
-						{%- if post.description -%}
-						<p>{{ post.description }}</p>
-						{%- endif -%}
-						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
-						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
+				<div class="featured-articles">
+					<div class="container container-overflow">
+					{%- if site.posts.size > 0 %}
+						<div class="featured-article-header">
+							<h2 class="post-list-heading">Latest Articles</h2>
+							<p class="see-more">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
+						</div>
+						<div class="article-container">
+							<ul class="post-list">
+								{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
+								<li class="article-{{ i }}">
+									{% assign i = i | plus:1 -%}
+									{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
+									{%- endif %}
+									<div class="article-info">
+										<h3><a class="post-link" href="{{ post.url | relative_url }}">
+											{%- if post.display-title -%}
+												{{ post.display-title | escape }}
+											{%- else -%}
+												{{ post.title | escape }}
+											{%- endif -%}</a></h3>
+										{%- if post.description %}
+										<p>{{ post.description }}</p>
+										{%- endif -%}
+										{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
+										<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
+									</div>
+								</li>
+								{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}
+								<li>            
+									<div class="article-end-card">
+										<p><a href="{% link all-articles.md %}">See all latest articles</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						{%- endif %}
 					</div>
-				</li>
-				{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}
-				<li>            
-					<div class="article-end-card">
-						<p><a href="{% link all-articles.md %}">See all latest articles</a></p>
-					</div>
-				</li>
-			</ul>
-		</div>
-		{%- endif -%}
-	</div>
-</div>
-
-{%- include subscribe.html -%}
-
+				</div>
+{% include subscribe.html %}

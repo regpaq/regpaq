@@ -9,7 +9,13 @@ layout: default
 							{%- else -%}
 								{{ page.title | escape }}
 							{%- endif -%}</h1>
-						<p class="article-subtitle">{{page.description | escape}}</p>
+						<p class="article-subtitle">
+							{%- if page.display-description -%}
+								{{ page.display-description | escape }}
+							{%- else -%}
+								{{ page.description | escape }}
+							{%- endif -%}
+						</p>
 						<div class="post-meta">
 							<div class="coin"></div><figure><img class="author" src="/assets/images/regpaq.jpg" alt="Reggie Paquette photo" /></figure>
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>							

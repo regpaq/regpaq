@@ -656,6 +656,9 @@ a:hover {
 .post-content > p:first-child a {
   font-size: 1.25rem;
 }
+.post-content > p:first-child strong {
+  font-size: 1.25rem;
+}
 .post-content blockquote {
   font-style: italic;
   font-size: .9rem;

@@ -12,45 +12,53 @@ layout: default
 				{% assign i = 0 %}{%- if page.title == "Latest Articles" -%}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
 				<li class="article-{{ i }}">
 					{% assign i = i | plus:1 %}
-					{% if post.image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
+					{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
 					<div class="article-info">
 						<h3><a class="post-link" href="{{ post.url | relative_url }}">
 							{%- if post.display-title -%}
 								{{ post.display-title | escape }}
 							{%- else -%}
 								{{ post.title | escape }}
-							{% endif %}
+							{%- endif -%}
 						</a></h3>
-						{%- if post.description -%}
-						<p>{{ post.description }}</p>
-						{%- endif -%}
-						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
+						<p>
+							{%- if post.display-description -%}
+								{{ post.display-description | escape }}
+							{%- else -%}
+								{{ post.description | escape }}
+							{%- endif -%}
+						</p>
+						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
 						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 					</div>
 				</li>
-				{%- endunless -%}{%- endfor -%}{%- else -%}{%- for post in site.categories[page.category] -%}{%- unless post.categories contains "casestudy" -%}
+				{% endunless -%}{%- endfor -%}{%- else -%}{%- for post in site.categories[page.category] -%}{%- unless post.categories contains "casestudy" -%}
 				<li class="article-{{ i }}">
 					{% assign i = i | plus:1 %}
-					{% if post.image %}<a href="{{ post.url | relative_url }}">{% include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
+					{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt %}</a>{% endif %}
 					<div class="article-info">
 						<h3><a class="post-link" href="{{ post.url | relative_url }}">
 							{%- if post.display-title -%}
 								{{ post.display-title | escape }}
 							{%- else -%}
 								{{ post.title | escape }}
-							{% endif %}
+							{%- endif -%}
 						</a></h3>
-						{%- if post.description -%}
-						<p>{{ post.description }}</p>
-						{%- endif -%}
-						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}
+						<p>
+							{%- if post.display-description -%}
+								{{ post.display-description | escape }}
+							{%- else -%}
+								{{ post.description | escape }}
+							{%- endif -%}
+						</p>
+						{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
 						<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 					</div>
 				</li>
-				{%- endunless -%}{%- endfor -%}{%- endif -%}
+				{% endunless -%}{%- endfor -%}{%- endif %}
 			</ul>
 		</div>
-		{%- endif -%}
+		{%- endif %}
 	</div>
 </div>
-{%- include subscribe.html -%}
+{% include subscribe.html %}

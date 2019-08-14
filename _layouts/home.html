@@ -21,10 +21,15 @@ layout: default
 												{{ post.display-title | escape }}
 											{%- else -%}
 												{{ post.title | escape }}
-											{%- endif -%}</a></h3>
-										{%- if post.description %}
-										<p>{{ post.description }}</p>
-										{%- endif -%}
+											{%- endif -%}
+										</a></h3>
+										<p>
+											{%- if post.display-description -%}
+												{{ post.display-description | escape }}
+											{%- else -%}
+												{{ post.description | escape }}
+											{%- endif -%}
+										</p>
 										{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
 										<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
 									</div>

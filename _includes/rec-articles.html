@@ -1,8 +1,20 @@
 <aside class="rec-art many" aria-label="Recommended Article">
     <div class="rec-container">
         <div class="rec-info">
-            <a href="{{ post.url | relative_url }}"><h4>{{ post.title }}</h4></a>
-            <p>{{ post.description }}</p>
+            <a href="{{ post.url | relative_url }}"><h4>
+                    {%- if post.display-title -%}
+                    {{ post.display-title | escape }}
+                {%- else -%}
+                    {{ post.title | escape }}
+                {%- endif -%}
+            </h4></a>
+            <p>
+                {%- if post.display-description -%}
+                    {{ post.display-description | escape }}
+                {%- else -%}
+                    {{ post.description | escape }}
+                {%- endif -%}
+            </p>
         </div>
         <div class="rec-img">
             <figure>

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: My Simple Google Sheets Budget Template [Free]
-display-title: My Simple Google Sheets Budget Template
-description: How I finally got over spending money on stupid shit.
+title: My Google Sheets Budget Template - Simple & Beautiful [Free]
+display-title: My Google Sheets Budget Template - Simple & Beautiful
+description: Download this free Google Sheets budget template I created that's beautiful and simple to use. It's how I finally got over spending money on stupid shit.
+display-description: How I finally got over spending money on stupid shit.
 date: '2019-02-01T15:51:34-08:00'
 categories: [self]
 slug: /google-sheets-monthly-budget-template
@@ -11,11 +12,8 @@ image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
 seo:
-    date_modified: '2019-08-05T15:51:34-08:00'
+    date_modified: '2019-08-13T15:51:34-08:00'
 ---
-
-You can download my template using the link at the bottom of this article.
-
 After I graduated college, I received an inheritance check for $30k. **About a year later it was gone.**
 
 I used the money to move out, get a new car, eat out constantly — all while telling myself I’m going to be making $10k a month before I know it as freelance marketer.
@@ -47,6 +45,12 @@ And something tools like Mint that try and automate everything are terrible at d
 
 I’ve been using Google Sheets to manage my personal budget for nearly five years now. And after much tinkering and revisions, it’s the most beautiful and easiest to use I’ve made yet.
 
+## Download My Simple Google Sheets Budget Template
+
+Click the link below and click the 'make a copy' button to save the template to your Google Drive.
+
+[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
+
 ### Here’s How It Works
 
 I made the budget template with easy-to-follow orange prompts to make it super simple to get started.
@@ -61,13 +65,7 @@ Once you’ve been using it for a few months and get some data in there (or even
 
 {% include figure.html image="/assets/images/budget2.gif" caption="Graphs for each budget category." width="full" %}
 
-## Download My Google Sheets Budget Template
-
-Click the link below and click the 'make a copy' button to save the template to your Google Drive.
-
-[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
-
-## How to Use The Template
+## How to Set Up My Google Sheets Budget Template For Your Use
 
 Once you've copied the budget template, watch this video which contains step-by-step instructions how to use the template and get started.
 

@@ -2,11 +2,11 @@
 layout: post
 title: My Google Sheets Budget Template - Simple & Beautiful [Free]
 display-title: My Google Sheets Budget Template - Simple & Beautiful
-description: Download this free Google Sheets budget template I created that's beautiful and simple to use. It's how I finally got over spending money on stupid shit.
+description: Download my Google Sheets budget template. This unique budget template is how I finally stopped spending money on stupid shit.
 display-description: How I finally got over spending money on stupid shit.
 date: '2019-02-01T15:51:34-08:00'
 categories: [self]
-slug: /google-sheets-monthly-budget-template
+slug: /google-sheets-budget-template
 image: /assets/images/google-sheets-budget-template.jpeg
 image-alt: google sheets budget template
 author: Reggie Paquette

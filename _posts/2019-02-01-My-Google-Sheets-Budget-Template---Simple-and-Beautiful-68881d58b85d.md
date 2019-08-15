@@ -127,9 +127,13 @@ So on the **Expenses** tab you'll enter each of your expenses. One row per one e
 
 You'll see some instructions in red at the top for more information. Across the blue row heading, the budget template auto populates your **Monthly Expenses** categories from the **Dashboard** tab. When you enter an expense, start with the date in **Column A**, the name of the place you spend the money in **Column B**, and then tab over to the column with the expense category that best matches how this expense should be categorized. If it's an annual expense, it's the same exact process - just make sure you're in the right annual expense column.
 
+{% include figure.html image="/assets/images/budget17.png" caption="Example of the Expenses tab with sample data" width="wide" %}
+
 Note: It's important you don't change the order of your items in the **Monthly Expenses** box because the column you entered the expense under isn't locked to the expense category.
 
-Why are the expense categories in different columns instead of writing in/choosing the expense category in a single category column? For two reasons. One, it's much faster to just 'tab' over to the right expense category column than writing it in or switching from keyboard to mouse to choose the right category from a dropdown. Second, it allows for less process heavy formulas making the spreadsheet more smooth to use.
+Why are the expense categories in different columns instead of writing in/choosing the expense category in a single category column? For two reasons. One, it's much faster to just 'tab' over to the right expense category column than writing it in or switching from keyboard to mouse to choose the right category from a dropdown. Second, it allows for less process-heavy formulas making the spreadsheet more smooth to use.
+
+{% include figure.html image="/assets/images/budget16.gif" caption="Example of how fast you can enter expenses by using the tab and enter keys" width="full" %}
 
 Note: When choosing the date, it doesn't matter whether you choose the transaction date or the posted date (if pulling from a credit card), but you should stick to one or the other. I prefer posted date.
 

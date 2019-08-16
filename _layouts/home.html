@@ -12,27 +12,29 @@ layout: default
 							<ul class="post-list">
 								{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
 								<li class="article-{{ i }}">
-									{% assign i = i | plus:1 -%}
-									{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
-									{%- endif %}
-									<div class="article-info">
-										<h3><a class="post-link" href="{{ post.url | relative_url }}">
-											{%- if post.display-title -%}
-												{{ post.display-title | escape }}
-											{%- else -%}
-												{{ post.title | escape }}
-											{%- endif -%}
-										</a></h3>
-										<p>
-											{%- if post.display-description -%}
-												{{ post.display-description | escape }}
-											{%- else -%}
-												{{ post.description | escape }}
-											{%- endif -%}
-										</p>
-										{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
-										<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="plublish date" />{{ post.date | date: date_format }}</p>
-									</div>
+									<article itemscope itemtype="http://schema.org/Article">
+										{% assign i = i | plus:1 -%}
+										{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
+										{%- endif %}
+										<div class="article-info">
+											<h3 itemprop="headline"><a class="post-link" href="{{ post.url | relative_url }}">
+												{%- if post.display-title -%}
+													{{ post.display-title | escape }}
+												{%- else -%}
+													{{ post.title | escape }}
+												{%- endif -%}
+											</a></h3>
+											<p itemprop="alternativeHeadline">
+												{%- if post.display-description -%}
+													{{ post.display-description | escape }}
+												{%- else -%}
+													{{ post.description | escape }}
+												{%- endif -%}
+											</p>
+											{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
+											<p class="post-meta" itemprop="datePublished"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="plublish date" />{{ post.date | date: date_format }}</p>
+										</div>
+									</article>
 								</li>
 								{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}
 								<li>            

@@ -1457,6 +1457,12 @@ img.svg-reg--left {
   .article-container ul.post-list .article-0 .article-info h3, .article-container ul.post-list .article-0 .article-info p, .article-container ul.post-list.reveal .article-0 .article-info h3, .article-container ul.post-list.reveal .article-0 .article-info p, .article-container.reveal ul.post-list .article-0 .article-info h3, .article-container.reveal ul.post-list .article-0 .article-info p, .article-container.reveal ul.post-list.reveal .article-0 .article-info h3, .article-container.reveal ul.post-list.reveal .article-0 .article-info p {
     margin-right: 1rem;
   }
+  .article-container ul.post-list .article-0 > article, .article-container ul.post-list.reveal .article-0 > article, .article-container.reveal ul.post-list .article-0 > article, .article-container.reveal ul.post-list.reveal .article-0 > article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-column: 1 / 4;
+  }
 }
 @media screen and (min-width: 1024px) {
   .article-container ul.post-list, .article-container ul.post-list.reveal, .article-container.reveal ul.post-list, .article-container.reveal ul.post-list.reveal {

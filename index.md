@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
-display-title: Home
+title: Reggie Paquette's Writing and Portfolio
+display-title: Reggie Paquette's Writing and Portfolio
+post-id: 0
 ---

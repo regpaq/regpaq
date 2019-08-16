@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-				<div class="featured-articles">
+				<section class="featured-articles">
 					<div class="container container-overflow">
 					{%- if site.posts.size > 0 %}
 						<div class="featured-article-header">
@@ -31,7 +31,7 @@ layout: default
 											{%- endif -%}
 										</p>
 										{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
-										<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" />{{ post.date | date: date_format }}</p>
+										<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="plublish date" />{{ post.date | date: date_format }}</p>
 									</div>
 								</li>
 								{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}
@@ -44,5 +44,5 @@ layout: default
 						</div>
 						{%- endif %}
 					</div>
-				</div>
+				</section>
 {% include subscribe.html %}

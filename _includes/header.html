@@ -1,18 +1,26 @@
-		<header class="site-header" role="banner">
+		<header class="site-header">
 			<div class="site-title">
-				<a rel="author" href="{{ "/" | relative_url }}" aria-label="regpaq homepage">
+				{%- if page.post-id == 0 %}
+				<h1 aria-label="{{ page.title }}">
+					<a rel="author" href="{{ "/" | relative_url }}" aria-label="regpaq homepage">					
+						{% include /svg/logo.svg %}
+					</a>
+				</h1>
+				{%- else %}
+				<a rel="author" href="{{ "/" | relative_url }}" aria-label="regpaq homepage">					
 					{% include /svg/logo.svg %}
-				</a>			
+				</a>
+				{%- endif %}
 			</div>
 			<div id="lightswitch" onclick="handleThemeUpdate()">
 				{% include /svg/colosseum.svg %}
 			</div>
-			<nav class="site-nav">
+			<nav class="site-nav" aria-label="main navigation">
 				<a class="page-link" href="/">Home</a>
 				<a class="page-link" href="/about">About</a>
 				<a class="page-link" href="/resume">Résumé</a>
 			</nav>
-			<nav class="hashtag-nav">
+			<nav class="hashtag-nav" aria-label="article category navigation">
 				Articles:
 				<a class="page-link" href="/all-articles">All</a>
 				<a class="page-link" href="/marketing">#marketing</a>

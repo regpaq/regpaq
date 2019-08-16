@@ -1,13 +1,13 @@
 		<header class="site-header">
 			<div class="site-title">
 				{%- if page.post-id == 0 %}
-				<h1 aria-label="{{ page.title }}">
-					<a rel="author" href="{{ "/" | relative_url }}" aria-label="regpaq homepage">					
+				<h1>
+					<a rel="author" href="{{ "/" | relative_url }}" title="Go to Regpaq Homepage">					
 						{% include /svg/logo.svg %}
 					</a>
 				</h1>
 				{%- else %}
-				<a rel="author" href="{{ "/" | relative_url }}" aria-label="regpaq homepage">					
+				<a rel="author" href="{{ "/" | relative_url }}" title="Go to Regpaq Homepage">					
 					{% include /svg/logo.svg %}
 				</a>
 				{%- endif %}

@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-				<section class="featured-articles">
+				<section class="featured-articles" aria-labelledby="post-list-heading">
 					<div class="container container-overflow">
 					{%- if site.posts.size > 0 %}
 						<div class="featured-article-header">
-							<h2 class="post-list-heading">Latest Articles</h2>
-							<p class="see-more">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
+							<h2 id="post-list-heading" class="post-list-heading">Latest Articles</h2>
+							<p class="see-more" aria-hidden="true">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
 						</div>
 						<div class="article-container">
 							<ul class="post-list">
@@ -14,7 +14,7 @@ layout: default
 								<li class="article-{{ i }}">
 									<article itemscope itemtype="http://schema.org/Article">
 										{% assign i = i | plus:1 -%}
-										{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
+										{%- if post.image -%}<a href="{{ post.url | relative_url }}" aria-hidden="true">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
 										{%- endif %}
 										<div class="article-info">
 											<h3 itemprop="headline"><a class="post-link" href="{{ post.url | relative_url }}">
@@ -32,14 +32,14 @@ layout: default
 												{%- endif -%}
 											</p>
 											{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
-											<p class="post-meta" itemprop="datePublished"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="plublish date" />{{ post.date | date: date_format }}</p>
+											<p class="post-meta" itemprop="datePublished"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="publish date" />{{ post.date | date: date_format }}</p>
 										</div>
 									</article>
 								</li>
 								{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}
 								<li>            
 									<div class="article-end-card">
-										<p><a href="{% link all-articles.md %}">See all latest articles</a></p>
+										<p><a href="{% link all-articles.md %}" aria-label="Go to the rest of Reggie's latest articles">See all latest articles</a></p>
 									</div>
 								</li>
 							</ul>

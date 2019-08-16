@@ -2,30 +2,30 @@
 			<div class="site-title">
 				{%- if page.post-id == 0 %}
 				<h1>
-					<a rel="author" href="{{ "/" | relative_url }}" title="Go to Regpaq Homepage">					
+					<a rel="author" href="{{ "/" | relative_url }}" aria-label="Go to homepage">					
 						{% include /svg/logo.svg %}
 					</a>
 				</h1>
 				{%- else %}
-				<a rel="author" href="{{ "/" | relative_url }}" title="Go to Regpaq Homepage">					
+				<a rel="author" href="{{ "/" | relative_url }}" aria-label="Go to Regpaq Homepage">					
 					{% include /svg/logo.svg %}
 				</a>
 				{%- endif %}
 			</div>
-			<div id="lightswitch" onclick="handleThemeUpdate()">
+			<a id="lightswitch" onclick="handleThemeUpdate()" aria-hidden="true">
 				{% include /svg/colosseum.svg %}
-			</div>
-			<nav class="site-nav" aria-label="main navigation">
-				<a class="page-link" href="/">Home</a>
-				<a class="page-link" href="/about">About</a>
-				<a class="page-link" href="/resume">Résumé</a>
+			</a>
+			<nav class="site-nav" aria-label="Navigate main website pages">
+				<a class="page-link" href="/" aria-label="Go to homepage">Home</a>
+				<a class="page-link" href="/about" aria-label="Go to learn about Reggie">About</a>
+				<a class="page-link" href="/resume" aria-label="Go to Reggie's Résumé">Résumé</a>
 			</nav>
-			<nav class="hashtag-nav" aria-label="article category navigation">
-				Articles:
-				<a class="page-link" href="/all-articles">All</a>
-				<a class="page-link" href="/marketing">#marketing</a>
-				<a class="page-link" href="/productivity">#productivity</a>
-				<a class="page-link" href="/booknotes">#booknotes</a>
-				<a class="page-link" href="/self">#self</a>
+			<nav class="hashtag-nav" aria-label="Navigate articles by their category">
+				<span aria-hidden="true">Articles:</span>
+				<a class="page-link" href="/all-articles" aria-label="Go to all latest articles in every category">All</a>
+				<a class="page-link" href="/marketing" aria-label="Go to marketing articles">#marketing</a>
+				<a class="page-link" href="/productivity" aria-label="Go to productivity articles">#productivity</a>
+				<a class="page-link" href="/booknotes" aria-label="Go to book notes articles">#booknotes</a>
+				<a class="page-link" href="/self" aria-label="Go to self development articles">#self</a>
 			</nav>
 		</header>

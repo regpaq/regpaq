@@ -137,7 +137,7 @@ Why are the expense categories in different columns instead of writing in/choosi
 
 Note: When choosing the date, it doesn't matter whether you choose the transaction date or the posted date (if pulling from a credit card), but you should stick to one or the other. I prefer posted date.
 
-#### VI. Tallying Up Assets and Liabilities in the Balance Sheet
+### VI. Tallying Up Assets and Liabilities in the Balance Sheet
 
 Now onto the **Balance Sheet** tab of the budget template. This is where you will add up all the money you have and owe in your accounts. This will ultimately tell you if your wealth/net worth is increasing or decreasing. Make sure you've filled out the preliminary **Dashboard** steps first (see points 1-4 above).
 
@@ -177,25 +177,25 @@ Once you've named your accounts, follow the below steps:
 
 And that's all you do the **Balance Sheet** at the end of each month. As you use this Google Sheets budget template each month, more data on the **Dashboard** tab will start to populate and be useful.
 
-#### VII. Net Worth Summary
+### VII. Net Worth Summary
 
 Back on the **Dashboard** tab, the **Summary** box will show an overview of the most recent balances you entered on the **Balance Sheet** tab compared to the previous completed month. Then it also compares your **Latest** with the previous **3 Month Average**, which makes it easy to see if your money is increasing or decreasing. You'll need at least 4 months of completed data for the **Summary** box to completely work. Don't worry or change any of the formulas here if it throws an error.
 
 {% include figure.html image="/assets/images/budget7.png" caption="The Summary box on the Dashbord tab shows whether your net worth is growing or shrinking" width="wide" %}
 
-#### VIII. Spent vs Budget
+### VIII. Spent vs Budget
 
 Further down the **Dashboard** tab, you'll see the **Spent vs Budget** box. This is a graph that compares your spending in each category to the budget you set for that category in the **Monthly Budget** box. Use the dropdown selector in cell **P30** to change the category or choose 'Total.' This graph shows the previous 7 months of data so it won't be fully complete until you have at least 7 months of complete data. Again, don't change any formulas or the chart as it will still work fine if you don't have all 7 months yet.
 
 {% include figure.html image="/assets/images/budget8.png" caption="The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph" width="wide" %}
 
-#### IX. Expenses Last 7 Months
+### IX. Expenses Last 7 Months
 
 Below the **Spent vs Budget** box is the same data but in a table format in the **Expenses Last 7 Months** box. This is another way to compare your spending vs budget by category. Amounts will be red where you overspent.
 
 {% include figure.html image="/assets/images/budget9.png" caption="The Expenses Last 7 Months box on the Dashbord tab shows a table of your spending vs budget per each category" width="wide" %}
 
-### Bonus tips
+## Bonus Budgeting Tips
 
 A budget is only good if you update it consistently, keep it accurate, and spend time analyzing your spending. That’s why I made it a point to make it look nice, be easy to use, and be rewarding.
 

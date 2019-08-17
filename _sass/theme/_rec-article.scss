@@ -28,21 +28,29 @@
             @include media-query($small) {
                 margin-right: $spacing-unit * 4;
             }
-            h4, h5, p {
+            p {
                 width: 100%;
                 padding: 0;                
             }
-            h4 {
-                color: v(brand);
-                @include fluid-type($min_width, $max_width, $min_font, $max_font);
-            }
-            h5 {
+            .heading {
                 @include fluid-type($min_width, $max_width, 12px, 16px);
                 line-height: .85rem;
+                color: v(alt);
+                font-weight: 900;
+                font-family: $Monospace;
+                margin-bottom: .4rem;
             }
-            p {
+            .post-title {
+                color: v(brand);
+                @include fluid-type($min_width, $max_width, $min_font, $max_font);
+                font-weight: 900;
+                font-family: $SansSerif;
+                line-height: 1.2;
+            }            
+            .post-desc {
                 margin: 0;
                 @include fluid-type($min_width, $max_width, 12px, 18px);
+                color: v(text);
             }
         }
         .rec-img {

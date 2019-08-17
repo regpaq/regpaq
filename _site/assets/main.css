@@ -1538,49 +1538,57 @@ img.svg-reg--left {
     margin-right: 32px;
   }
 }
-.rec-art .rec-container .rec-info h4, .rec-art .rec-container .rec-info h5, .rec-art .rec-container .rec-info p {
+.rec-art .rec-container .rec-info p {
   width: 100%;
   padding: 0;
 }
-.rec-art .rec-container .rec-info h4 {
-  color: var(--color-brand);
-  font-size: 16px;
-}
-@media screen and (min-width: 320px) {
-  .rec-art .rec-container .rec-info h4 {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 960));
-  }
-}
-@media screen and (min-width: 1280px) {
-  .rec-art .rec-container .rec-info h4 {
-    font-size: 22px;
-  }
-}
-.rec-art .rec-container .rec-info h5 {
+.rec-art .rec-container .rec-info .heading {
   font-size: 12px;
   line-height: .85rem;
+  color: var(--color-alt);
+  font-weight: 900;
+  font-family: Overpass Mono, monospace;
+  margin-bottom: .4rem;
 }
 @media screen and (min-width: 320px) {
-  .rec-art .rec-container .rec-info h5 {
+  .rec-art .rec-container .rec-info .heading {
     font-size: calc(12px + 4 * ((100vw - 320px) / 960));
   }
 }
 @media screen and (min-width: 1280px) {
-  .rec-art .rec-container .rec-info h5 {
+  .rec-art .rec-container .rec-info .heading {
     font-size: 16px;
   }
 }
-.rec-art .rec-container .rec-info p {
-  margin: 0;
-  font-size: 12px;
+.rec-art .rec-container .rec-info .post-title {
+  color: var(--color-brand);
+  font-size: 16px;
+  font-weight: 900;
+  font-family: Overpass, sans-serif;
+  line-height: 1.2;
 }
 @media screen and (min-width: 320px) {
-  .rec-art .rec-container .rec-info p {
+  .rec-art .rec-container .rec-info .post-title {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 960));
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rec-art .rec-container .rec-info .post-title {
+    font-size: 22px;
+  }
+}
+.rec-art .rec-container .rec-info .post-desc {
+  margin: 0;
+  font-size: 12px;
+  color: var(--color-text);
+}
+@media screen and (min-width: 320px) {
+  .rec-art .rec-container .rec-info .post-desc {
     font-size: calc(12px + 6 * ((100vw - 320px) / 960));
   }
 }
 @media screen and (min-width: 1280px) {
-  .rec-art .rec-container .rec-info p {
+  .rec-art .rec-container .rec-info .post-desc {
     font-size: 18px;
   }
 }

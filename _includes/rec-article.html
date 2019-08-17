@@ -1,27 +1,29 @@
 <aside class="rec-art" aria-label="Recommended Article">
-    <div class="rec-container">
-        <div class="rec-info">
-            <h5>RECOMMENDED</h5>
-            <a href="{{ post.url | relative_url }}"><h4>
+    <a href="{{ post.url | relative_url }}">
+        <div class="rec-container">        
+            <div class="rec-info">
+                <p class="heading">RECOMMENDED</p>
+                <p class="post-title">
                     {%- if post.display-title -%}
-                    {{ post.display-title | escape }}
-                {%- else -%}
-                    {{ post.title | escape }}
-                {%- endif -%}
-            </h4></a>
-            <p>
-                {%- if post.display-description -%}
-                    {{ post.display-description | escape }}
-                {%- else -%}
-                    {{ post.description | escape }}
-                {%- endif -%}
-            </p>
+                        {{ post.display-title | escape }}
+                    {%- else -%}
+                        {{ post.title | escape }}
+                    {%- endif -%}
+                </p>
+                <p class="post-desc">
+                    {%- if post.display-description -%}
+                        {{ post.display-description | escape }}
+                    {%- else -%}
+                        {{ post.description | escape }}
+                    {%- endif -%}
+                </p>
+            </div>
+            <div class="rec-img">
+                <figure>
+                    <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.image-alt }}" />
+                </figure>
+            </div>        
         </div>
-        <div class="rec-img">
-            <figure>
-                <a href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.image-alt }}" /></a>
-            </figure>
-        </div>
-    </div>
+    </a>
 </aside>
 

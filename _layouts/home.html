@@ -14,7 +14,7 @@ layout: default
 								<li class="article-{{ i }}">
 									<article itemscope itemtype="http://schema.org/Article">
 										{% assign i = i | plus:1 -%}
-										{%- if post.image -%}<a href="{{ post.url | relative_url }}" aria-hidden="true">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
+										{%- if post.image -%}<a href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
 										{%- endif %}
 										<div class="article-info">
 											<h3 itemprop="headline"><a class="post-link" href="{{ post.url | relative_url }}">

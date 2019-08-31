@@ -12,7 +12,7 @@ layout: default
 							<ul class="post-list" aria-label="Latest articles">
 								{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
 								<li class="article-{{ i }}">
-									<article itemscope itemtype="http://schema.org/Article">
+									<article>
 										{% assign i = i | plus:1 -%}
 										{%- if post.image -%}<a href="{{ post.url | relative_url }}">{%- include featured-image.html image=post.image alt=post.image-alt -%}</a>
 										{%- endif %}
@@ -33,11 +33,7 @@ layout: default
 											</p>
 											{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
 											<p class="post-meta"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="publish date" />{{ post.date | date: date_format }}</p>
-										</div>										
-										<meta itemprop="author" content="{{ post.author }}">
-										<meta itemprop="datePublished" content="{{ post.date | date: date_format }}">
-										<meta itemprop="dateModified" content="{{ post.seo.date_modified | date: date_format }}">
-										<meta itemprop="mainEntityOfPage" content="{{ site.url }}">
+										</div>
 									</article>
 								</li>
 								{% if i == 6 %}{% break %}{% endif %}{%- endunless -%}{%- endfor -%}

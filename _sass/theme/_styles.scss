@@ -97,7 +97,7 @@ html[data-theme="dark"] {
 /* --------------------------------------------------------
             Font Sizes, Styles, and Colors
 -------------------------------------------------------- */
-html, body {
+html, body, .site-title > h1 > a {
     font: $base-font-weight #{$base-size}/#{$base-line-height} $SansSerif;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
@@ -144,6 +144,10 @@ a {
 -------------------------------------------------------- */
 .site-title {
     align-self: center;
+    h1 {
+        font-size: initial;
+        margin-bottom: initial;
+    }
 }
 #logo {
     margin: 0;

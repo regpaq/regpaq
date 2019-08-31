@@ -285,17 +285,17 @@ html[data-theme="dark"] #servicetitan {
 /* --------------------------------------------------------
             Font Sizes, Styles, and Colors
 -------------------------------------------------------- */
-html, body {
+html, body, .site-title > h1 > a {
   font: 400 16px/1.6 Overpass, sans-serif;
   font-size: 16px;
 }
 @media screen and (min-width: 320px) {
-  html, body {
+  html, body, .site-title > h1 > a {
     font-size: calc(16px + 6 * ((100vw - 320px) / 960));
   }
 }
 @media screen and (min-width: 1280px) {
-  html, body {
+  html, body, .site-title > h1 > a {
     font-size: 22px;
   }
 }
@@ -381,6 +381,10 @@ a:hover {
 -------------------------------------------------------- */
 .site-title {
   align-self: center;
+}
+.site-title h1 {
+  font-size: initial;
+  margin-bottom: initial;
 }
 
 #logo {

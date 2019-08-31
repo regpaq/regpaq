@@ -49,7 +49,7 @@ I’ve been managing my monthly budget in Google Sheets for nearly five years no
 
 Click the link below and click the 'make a copy' button to save the template to your Google Drive.
 
-[https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
+[Download: My Google Sheets Budget Template](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
 
 Instructions for how to use it are below, but first...
 
@@ -71,7 +71,7 @@ Once you’ve been using it for a few months and get some data in there (or ente
 
 Once you've copied the Google Sheets budget template above, watch this video which for step-by-step instructions or read below to learn how to use the budget template and get started.
 
-<div style="text-align:center;padding-bottom:32px;"><iframe width="320" height="180" src="https://www.youtube.com/embed/FAEg7BBGOuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+{% include video.html video-id="FAEg7BBGOuo" %}
 
 ### I. Enter your income
 

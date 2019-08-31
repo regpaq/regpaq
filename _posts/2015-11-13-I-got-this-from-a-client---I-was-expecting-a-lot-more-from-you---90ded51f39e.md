@@ -62,7 +62,7 @@ In a market saturated with options at $15-$35, they decided to make a $99 iPhone
 
 They made this video to show people why they charge so much:
 
-<div style="text-align:center;padding-bottom:32px;"><iframe src="https://player.vimeo.com/video/87651284?color=BEA761&byline=0&portrait=0" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<div class="video"><iframe src="https://player.vimeo.com/video/87651284?color=BEA761&byline=0&portrait=0" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 (**psst**… if any of my friends are reading this, please buy me one)
 
@@ -88,11 +88,7 @@ Transparent pricing can also work for digital products and services. Check out h
 
 Don’t you suddenly **feel** better about their price?
 
-{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+Discussion on this article can be found on Reddit here on [r/marketing](https://www.reddit.com/r/marketing/comments/3qqh94/i_got_this_from_a_client_i_was_expecting_a_lot/) and [r/socialmedia](https://www.reddit.com/r/socialmedia/comments/3qqiv6/a_client_told_me_this_i_was_expecting_a_lot_more/) and on [LinkedIn](https://www.linkedin.com/pulse/i-expecting-lot-more-from-you-reggie-paquette/)
 
-### Originally Published on LinkedIn:
-
-[**I got this from a client: "I was expecting a lot more from you."​**  
-_That's what a client told me to my face in a meeting. I wanted to throw my laptop on the ground and curse._www.linkedin.com](https://www.linkedin.com/pulse/i-expecting-lot-more-from-you-reggie-paquette/ "https://www.linkedin.com/pulse/i-expecting-lot-more-from-you-reggie-paquette/")[](https://www.linkedin.com/pulse/i-expecting-lot-more-from-you-reggie-paquette/)
-
-**More Discussion** Can Be Found on Reddit here on [r/marketing](https://www.reddit.com/r/marketing/comments/3qqh94/i_got_this_from_a_client_i_was_expecting_a_lot/) and [r/socialmedia](https://www.reddit.com/r/socialmedia/comments/3qqiv6/a_client_told_me_this_i_was_expecting_a_lot_more/)
+{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
+{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

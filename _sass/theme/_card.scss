@@ -1,5 +1,5 @@
 /* --------------------------------------------------------
-            All Types of Article Card Layouts
+            All Types of Article Card Layouts + Overflow
             For Mobile and Above
 -------------------------------------------------------- */
 .featured-articles {
@@ -19,8 +19,7 @@
         }
     }
     /* Heading */
-    .featured-article-header {
-        padding-left: $spacing-unit * 2;
+    .featured-article-header {        
         display: flex;
         align-items: baseline;
         justify-content: space-between;        
@@ -50,6 +49,7 @@
     }
     /* Article Card Container */
     .article-container {
+        grid-column: 1 / 17; /* Allows overflow cards to reach edge of left screen on horizontal scroll */
         position: relative;
         height: 223px; /* Based on height of li item (article card) */
         overflow-x: scroll;
@@ -63,7 +63,10 @@
             list-style: none;
             position: absolute;
             margin: 0;
-            min-width: calc(7 * (286px + 16px) + 32px); // 7 li + extra margin from display inline
+            min-width: calc(7 * (286px + 16px) + 48px); // 7 li + extra margin from display inline
+        }
+        li:first-child {
+            margin: 0 $spacing-unit * 2 0 $spacing-unit * 2;
         }
         li {
             width: 286px;
@@ -186,24 +189,32 @@
             For Layouts Tablet and Above
 -------------------------------------------------------- */
 .featured-articles > div {
-        max-width: 1400px !important; // change to not need important
-        display: grid;
-        grid-template-columns: repeat(16, 1fr);
-        margin: 1rem auto;
-        width: 100%;
-        > * {
-            grid-column: 2 / 17;
-            @include media-query($medium) {
-                grid-column: 2 / 16;
-            }
+    max-width: 1400px !important; // change to not need important
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    margin: 1rem auto;
+    width: 100%;
+    > * {
+        grid-column: 2 / 17;
+        @include media-query($medium) {
+            grid-column: 2 / 16;
         }
     }
+}
+.featured-articles .article-container {
+    @include media-query($medium) {
+        grid-column: 2 / 16; //
+    }
+}
 .article-container, .article-container.reveal {
     @include media-query($medium) {
         ul.post-list, ul.post-list.reveal { /* New 2 col grid with larger first row */
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1.3fr 1fr;
             grid-gap: 1rem;
+            li:first-child {
+                margin: inherit;
+            }
             li {
                 // width: inherit;
                 height: inherit;

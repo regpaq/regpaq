@@ -624,3 +624,20 @@ img.svg-reg--left {
     margin-left: 0 !important;
     margin-right: .2rem !important;
 }
+/* --------------------------------------------------------
+            Video Styles
+-------------------------------------------------------- */
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 2rem;
+}
+.video iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

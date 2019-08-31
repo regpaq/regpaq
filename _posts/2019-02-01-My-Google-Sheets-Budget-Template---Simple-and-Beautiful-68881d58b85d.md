@@ -1,9 +1,9 @@
 ---
 layout: post
-title: My Google Sheets Budget Template - Simple & Beautiful [Free]
-display-title: My Google Sheets Budget Template - Simple & Beautiful
-description: Download my Google Sheets budget template. This unique budget template is how I finally stopped spending money on stupid shit.
-display-description: How I finally got over spending money on stupid shit.
+title: The Perfect Google Sheets Budget Template
+display-title: The Perfect Google Sheets Budget Template
+description: I spent four years perfecting the Google Sheets budget template. It's the smartest, simplest and best looking budget template ever.
+display-description: I spent five years perfecting my budget template in Google Sheets. Now I'm sharing it.
 date: '2019-02-01T15:51:34-08:00'
 categories: [self]
 slug: /google-sheets-budget-template
@@ -12,7 +12,7 @@ image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
 seo:
-    date_modified: '2019-08-15T18:40:36-08:00'
+    date_modified: '2019-08-30T18:40:36-08:00'
 ---
 After I graduated college, I received an inheritance check for $30k. **About a year later, I blew it all.**
 
@@ -25,16 +25,16 @@ Yeah, that didn’t work out ([but didn’t turn out so bad](https://www.reddit.
 
 **It took me wasting all my money and having only one month left to survive on my own to push me to get a real job and start budgeting.** If you can learn from my mistakes, you won’t need to let it get this bad for you.
 
-How did I get my finances back on track? As you can tell by the title, **it was from creating a budget and sticking to it**. It has changed my life and reduced a lot of stress. I'm hoping I'll be able to help other people facing the same stress I had by turning my personal monthly budget Google Sheet into a template and sharing it here.
+How did I get my finances back on track? As you can tell by the title, **it was from creating a budget and sticking to it**. It has changed my life and reduced a lot of stress. I'm hoping I'll be able to help other people facing the same stress I had by turning my personal Google Sheet budget into a template and sharing it here.
 
 **Here is my number one tip: First get your mindset right and understand what a budget is REALLY for:**
 
 > The ultimate goal of a budget is NOT to see where your money is going, but to create a change in your behavior to spend less money on stupid shit.
 {: .big-quote}
 
-## The Reason Doing Your Monthly Budget on Google Sheets Will Drive Behavior Change to Spend Less
+## The Reason Using This Google Sheets Budget Template Will Drive Behavior Change to Spend Less
 
-It forces you to enter your expenses manually. Although seemingly tedious, I found it to be the most important exercise.
+It forces you to enter your expenses **manually**. Although seemingly tedious, I found it to be the most important part.
 
 > Entering expenses manually forces you to review every transaction, to feel the pain of every dollar spent — that is what will drive a change in your spending.
 {: .big-quote}
@@ -43,7 +43,7 @@ And something tools like Mint that try and automate everything are terrible at d
 
 **The other benefit is you’re forced to self categorize each transaction, which means they’ll be more accurate and useful for budgeting.**
 
-I’ve been using Google Sheets to manage my personal budget for nearly five years now. And after much tinkering and revisions, it’s the most beautiful and easiest to use I’ve made yet.
+I’ve been managing my monthly budget in Google Sheets for nearly five years now. And after much tinkering and revisions, it’s the most beautiful and easiest to use I’ve made yet.
 
 ## Download My Simple Google Sheets Budget Template
 
@@ -69,7 +69,7 @@ Once you’ve been using it for a few months and get some data in there (or ente
 
 ## Instructions: How to Use My Google Sheets Budget Template
 
-Once you've copied the budget template, watch this video which for step-by-step instructions or read below to learn how to use the template and get started.
+Once you've copied the Google Sheets budget template above, watch this video which for step-by-step instructions or read below to learn how to use the budget template and get started.
 
 <div style="text-align:center;padding-bottom:32px;"><iframe width="320" height="180" src="https://www.youtube.com/embed/FAEg7BBGOuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -95,7 +95,7 @@ The first item is **Savings** to help you prioritize setting money aside for sav
 
 > "The goal [of pay yourself first] is to make sure that enough income is first saved or invested before monthly expenses or discretionary purchases are made."
 >
-> > [Invesopedia](https://www.investopedia.com/terms/p/payyourselffirst.asp){:target=“_blank”}
+> > [Investopedia](https://www.investopedia.com/terms/p/payyourselffirst.asp){:target=“_blank”}
 
 Then you can start adding recurring monthly expenses. These are monthly expenditures that are typically the same amount every month. Examples include rent and utilities, car payment and insurance, phone bills, gym memberships, Netflix/Spotify, etc.
 
@@ -115,9 +115,9 @@ Now that you know how much money you can comfortably spend after savings, monthl
 
 {% include figure.html image="/assets/images/budget6.png" caption="Enter the spending categories you want to track and their budget on the Dashbord tab" width="wide" %}
 
-Thanks to some clever Google Sheet conditional formatting, the budget template will sum your **Total** monthly expenses. If the **Total** is green, your expenses are under your **Net Spendable Income**. It will be red if it's over and you will need to readjust your **Monthly Budget** or consider eliminating or reducing some of your monthly or annual recurring expenses.
+Thanks to some clever conditional formatting in Google Sheets, the budget template will sum your **Total** monthly expenses. If the **Total** is green, your expenses are under your **Net Spendable Income**. It will be red if it's over and you will need to readjust your **Monthly Budget** or consider eliminating or reducing some of your monthly or annual recurring expenses.
 
-Note: Before we can get into the **Summary**, **Spent vs Budget**, and **Expenses Last 7 Months** boxes, we need to run through the other spreadsheet tabs in the budget template. 
+Note: Before we can get into the **Summary**, **Spent vs Budget**, and **Expenses Last 7 Months** boxes, we need to run through the other tabs in the Google Sheet budget template first.
 
 ### V. Recording Expenses
 
@@ -197,7 +197,7 @@ Below the **Spent vs Budget** box is the same data but in a table format in the 
 
 ## Bonus Budgeting Tips
 
-A budget is only good if you update it consistently, keep it accurate, and spend time analyzing your spending. That’s why I made it a point to make it look nice, be easy to use, and be rewarding.
+A budget is only good if you update it consistently, keep it accurate, and spend time analyzing your spending. That’s why I made it a point to make this budget template in Google Sheets look nice, be easy to use, and be rewarding to use.
 
 But sometimes that’s still not enough. **There’s definitely been times where I don’t do it for a few weeks at a time and the more you wait, the more work you’ll have to do, and the more you won’t look forward to it**. I‘ve made it a habit to log my expenses every Sunday vs once every month.
 

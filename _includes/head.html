@@ -5,7 +5,7 @@
         {% if page.categories contains "casestudy" -%}
         <meta name=“robots” content=“noindex”>
         {%- endif -%}        
-        <title>{% if page.title != site.title %}{{ page.title }} - {% endif -%}{{ site.title }}</title>
+        <title>{% if page.title != site.title %}{{ page.title }}{% endif -%}</title>
         
     {% seo title=false %}
 

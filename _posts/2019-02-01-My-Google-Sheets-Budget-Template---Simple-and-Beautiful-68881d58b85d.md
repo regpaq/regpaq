@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Perfect Google Sheets Budget Template
-display-title: The Perfect Google Sheets Budget Template
+title: My Google Sheets Budget Template - Simple & Beautiful
+display-title: My Google Sheets Budget Template - Simple & Beautiful
 description: I spent four years perfecting the Google Sheets budget template. It's the smartest, simplest and best looking budget template ever.
 display-description: I spent five years perfecting my budget template in Google Sheets. Now I'm sharing it.
 date: '2019-02-01T15:51:34-08:00'
@@ -12,7 +12,7 @@ image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
 seo:
-    date_modified: '2019-08-30T18:40:36-08:00'
+    date_modified: '2019-10-01T18:40:36-08:00'
 ---
 After I graduated college, I received an inheritance check for $30k. **About a year later, I blew it all.**
 
@@ -27,21 +27,21 @@ Yeah, that didn’t work out ([but didn’t turn out so bad](https://www.reddit.
 
 How did I get my finances back on track? As you can tell by the title, **it was from creating a budget and sticking to it**. It has changed my life and reduced a lot of stress. I'm hoping I'll be able to help other people facing the same stress I had by turning my personal Google Sheet budget into a template and sharing it here.
 
-**Here is my number one tip: First get your mindset right and understand what a budget is REALLY for:**
+**It's all based on an epiphany I had about what a budget was REALLY for in the first place.**
 
-> The ultimate goal of a budget is NOT to see where your money is going, but to create a change in your behavior to spend less money on stupid shit.
+> Do NOT do a budget to see where your money is going. Do a budget to create a CHANGE IN BEHAVIOR to spend less money on stupid shit.
 {: .big-quote}
 
-## The Reason Using This Google Sheets Budget Template Will Drive Behavior Change to Spend Less
+## How My Google Sheets Budget Template Focuses on Spending Reduction
 
-It forces you to enter your expenses **manually**. Although seemingly tedious, I found it to be the most important part.
+It forces me to enter my expenses **manually**. Although seemingly tedious, **I found it to be the most important part.**
 
-> Entering expenses manually forces you to review every transaction, to feel the pain of every dollar spent — that is what will drive a change in your spending.
+> Entering expenses manually forces me to review every transaction, to feel the pain of every dollar spent — that is what drove a change in my spending.
 {: .big-quote}
 
 And something tools like Mint that try and automate everything are terrible at doing.
 
-**The other benefit is you’re forced to self categorize each transaction, which means they’ll be more accurate and useful for budgeting.**
+**The other benefit is I'm forced to manually categorize each transaction, which means it will be more accurate and useful for budgeting.**
 
 I’ve been managing my monthly budget in Google Sheets for nearly five years now. And after much tinkering and revisions, it’s the most beautiful and easiest to use I’ve made yet.
 
@@ -53,13 +53,13 @@ Click the link below and click the 'make a copy' button to save the template to 
 
 Instructions for how to use it are below, but first...
 
-### Why my Google Sheets budget template is so simple to use
+### Why you'll like my template over other budget spreadsheets
 
-I included easy-to-follow prompts to make it super simple to get started.
+I included easy-to-follow prompts to make it simple to get started.
 
 {% include figure.html image="assets/images/budget1.gif" caption="Prompts make it super easy to use this Google Sheets template." width="middle" %}
 
-Once you enter your income and set up your budget, all you need to do is enter your account balances one a month and your expenses.
+Once you enter your income and set up your budget, all you need to do is enter your account balances once a month and your expenses.
 
 **Everything else other than entering expenses is automated.**
 
@@ -67,9 +67,9 @@ Once you’ve been using it for a few months and get some data in there (or ente
 
 {% include figure.html image="/assets/images/budget2.gif" caption="Graphs for each budget category." width="full" %}
 
-## Instructions: How to Use My Google Sheets Budget Template
+## Instructions: How to Use My Budget Template
 
-Once you've copied the Google Sheets budget template above, watch this video which for step-by-step instructions or read below to learn how to use the budget template and get started.
+Once you've copied the Google Sheets budget template above, watch this video with step-by-step instructions or read below to learn how to use the budget template and get started.
 
 {% include video.html video-id="FAEg7BBGOuo" %}
 

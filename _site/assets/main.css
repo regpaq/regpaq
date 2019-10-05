@@ -1252,6 +1252,9 @@ img.svg-reg--left {
   overflow-x: scroll;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-snap-destination: 0% 100%;
+  scroll-snap-points-x: repeat(100%);
 }
 .featured-articles .article-container h3 {
   font-size: 15px;
@@ -1272,9 +1275,7 @@ img.svg-reg--left {
   position: absolute;
   margin: 0;
   min-width: calc(7 * (286px + 16px) + 48px);
-  scroll-snap-type: x mandatory;
-  scroll-snap-destination: 0% 100%;
-  scroll-snap-points-x: repeat(100%);
+  scroll-snap-align: start;
 }
 .featured-articles .article-container li:first-child {
   margin: 0 16px 0 16px;
@@ -1288,7 +1289,6 @@ img.svg-reg--left {
   margin: 0 16px 0 0;
   display: inline-block;
   vertical-align: top;
-  scroll-snap-align: start;
 }
 .featured-articles .article-container li figure {
   border-radius: 3px 3px 0 0;

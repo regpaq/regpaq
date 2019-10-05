@@ -55,6 +55,10 @@
         overflow-x: scroll;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
+        // scroll snap
+        scroll-snap-type: x mandatory;
+        scroll-snap-destination: 0% 100%;
+        scroll-snap-points-x: repeat(100%);
         h3 {
             @include fluid-type($min_width, $max_width, 15px, 17px);
             margin-bottom: .2rem;
@@ -65,9 +69,7 @@
             margin: 0;
             min-width: calc(7 * (286px + 16px) + 48px); // 7 li + extra margin from display inline
             // scroll snap
-            scroll-snap-type: x mandatory;
-            scroll-snap-destination: 0% 100%;
-            scroll-snap-points-x: repeat(100%);
+            scroll-snap-align: start;      
         }
         li:first-child {
             margin: 0 $spacing-unit * 2 0 $spacing-unit * 2;
@@ -80,9 +82,7 @@
             padding-bottom: $spacing-unit;
             margin: 0 $spacing-unit * 2 0 0;
             display: inline-block;
-            vertical-align: top;
-            // scroll snap
-            scroll-snap-align: start;
+            vertical-align: top;            
             figure {
                 border-radius: 3px 3px 0 0;
                 margin-bottom: 1rem;

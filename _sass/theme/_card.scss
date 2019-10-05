@@ -64,6 +64,10 @@
             position: absolute;
             margin: 0;
             min-width: calc(7 * (286px + 16px) + 48px); // 7 li + extra margin from display inline
+            // scroll snap
+            scroll-snap-type: x mandatory;
+            scroll-snap-destination: 0% 100%;
+            scroll-snap-points-x: repeat(100%);
         }
         li:first-child {
             margin: 0 $spacing-unit * 2 0 $spacing-unit * 2;
@@ -77,6 +81,8 @@
             margin: 0 $spacing-unit * 2 0 0;
             display: inline-block;
             vertical-align: top;
+            // scroll snap
+            scroll-snap-align: start;
             figure {
                 border-radius: 3px 3px 0 0;
                 margin-bottom: 1rem;

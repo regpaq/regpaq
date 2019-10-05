@@ -59,6 +59,7 @@
         scroll-snap-type: x mandatory;
         scroll-snap-destination: 0% 100%;
         scroll-snap-points-x: repeat(100%);
+        scroll-padding-left: $spacing-unit * 2;
         h3 {
             @include fluid-type($min_width, $max_width, 15px, 17px);
             margin-bottom: .2rem;
@@ -67,9 +68,7 @@
             list-style: none;
             position: absolute;
             margin: 0;
-            min-width: calc(7 * (286px + 16px) + 48px); // 7 li + extra margin from display inline
-            // scroll snap
-            scroll-snap-align: start;      
+            min-width: calc(7 * (286px + 16px) + 48px); // 7 li + extra margin from display inline                 
         }
         li:first-child {
             margin: 0 $spacing-unit * 2 0 $spacing-unit * 2;
@@ -82,7 +81,9 @@
             padding-bottom: $spacing-unit;
             margin: 0 $spacing-unit * 2 0 0;
             display: inline-block;
-            vertical-align: top;            
+            vertical-align: top;
+            // scroll snap
+            scroll-snap-align: start;         
             figure {
                 border-radius: 3px 3px 0 0;
                 margin-bottom: 1rem;

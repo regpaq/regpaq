@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Productivity
+title: Philosophy
 display-title: All
-category: productivity
+category: philosophy
 ---

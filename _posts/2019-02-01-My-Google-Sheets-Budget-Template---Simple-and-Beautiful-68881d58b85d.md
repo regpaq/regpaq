@@ -5,7 +5,7 @@ display-title: My Google Sheets Budget Template - Simple & Beautiful
 description: I spent four years perfecting the Google Sheets budget template. It's the smartest, simplest and best looking budget template ever.
 display-description: I spent five years perfecting my budget template in Google Sheets. Now I'm sharing it.
 date: '2019-02-01T15:51:34-08:00'
-categories: [self]
+categories: [practical]
 slug: /google-sheets-budget-template
 image: /assets/images/google-sheets-budget-template.jpeg
 image-alt: google sheets budget template

@@ -64,27 +64,36 @@ pre {
 /* --------------------------------------------------------
 			Tables
 -------------------------------------------------------- */
-table {
+.post-content table {
+  @include grid-wide;
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: v(text);
+  font-size: .75rem;
   border-collapse: collapse;
-  border: 1px solid v(text);
-  tr {
-    &:nth-child(even) {
-      background-color: v(text);
-    }
-  }
+  white-space: nowrap;
+  // border: 1px solid v(alt);
+  // tr {
+  //   &:nth-child(even) {
+  //     background-color: v(text);
+  //   }
+  // }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
+  thead tr {
+    background-color: v(highlight);
+    color: v(heading);
+    font-weight: 900;
+  }
   th {
-    background-color: v(text);
-    border: 1px solid v(text);
-    border-bottom-color: v(text);
+    border-bottom: 2px solid v(alt);
+    border-bottom-color: v(alt);
+    border-radius: unset;
+    font-weight: normal;
   }
   td {
-    border: 1px solid v(text);
+    border-bottom: 2px solid v(alt);
   }
 }

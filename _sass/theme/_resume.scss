@@ -186,8 +186,7 @@
 		@include grid-offset-sidebar;
 		position: relative;
 		opacity: .4;
-		transition: .3s;
-		font-family: $Monospace;
+		transition: .3s;		
 		&:hover {
 			opacity: 1;
 		}
@@ -196,11 +195,11 @@
 			top: 15rem;
 			h4 {
 				margin-bottom: .5rem;
-			font-family: $Monospace;
 			}
 			li {
 				font-size: .65rem;
 				margin-left: .65rem;
+				font-family: $Monospace;
 				&:before {
 					margin-top: .35rem;
 					margin-left: -.65rem;
@@ -228,6 +227,9 @@
 	background-position: left center;
 }
 /* Company Logos */
+#revealbot {
+	background-image: url(/assets/images/svg/revealbot-coral.svg);
+}
 #chilipiper {
 	background-image: url(/assets/images/svg/chilipiper.svg);
 }

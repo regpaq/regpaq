@@ -21,7 +21,7 @@ _In the interest of my readers, I no longer recommend buying links of any kind t
 
 _Since I published this post, I’ve made more than $400 in commission. It made me feel sick to receive my last payout because I’m making money recommending something I wouldn’t use for myself. While I could have left my affiliate links on this post and keep receiving commission, I’ve realized I can’t put a price on my credibility._
 
-_I could just delete this post, but because this post is ranking #1 for “The Hoth Review” I decided to leave it published with an update for people to see. Eventually, I will delete this post._
+_I could just delete this post, but because it's fairly popular, I decided to leave it published with an update for people to see. Eventually, I will delete this post._
 
 Are you were on the fence of deciding to purchase The Hoth? This five month review will help give you a definitive answer.
 

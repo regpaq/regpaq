@@ -3,11 +3,41 @@ layout: resume
 title: Résumé
 display-title: Résumé
 author: Reggie Paquette
-description: Multi-skilled B2B marketer with seven years of experience. Formerly at Chili Piper, ServiceTitan.
+description: Multi-skilled B2B marketer with seven years of experience. Leading marketing at Revealbot. Formerly at Chili Piper, ServiceTitan.
 permalink: /resume
 ---
 
 ##### WORK EXPERIENCE<a name="work-experience"></a>
+
+<div class="job-title" id="revealbot">
+<h2>Revealbot</h2>
+</div>
+
+<div class="job-info">
+<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />August 2019 — Present (3 mo)</div>
+<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
+<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://revealbot.com/" target="_blank">revealbot.com</a></div>
+</div>
+
+Revealbot is a digital ad automation tool.
+
+### Marketing Manager
+
+<div class="position-info">
+<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />August 2019 — Present (3 mo)</p>
+</div>
+
+<div class="accordion-wrapper">
+<div class="accordion-item close">
+<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<div class="accordion-item-content">
+<ul>
+<li>Leading marketing as the sole marketer at the company</li>
+<li>Doubled organic traffic in the first three months</li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class="job-title" id="chilipiper">
 <h2>Chili Piper</h2>

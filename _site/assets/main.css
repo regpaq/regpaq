@@ -64,27 +64,47 @@ pre > code {
 /* --------------------------------------------------------
 			Tables
 -------------------------------------------------------- */
-table {
+.post-content table {
+  grid-column: 2 / 16;
   margin-bottom: 8px;
   width: 100%;
   text-align: left;
   color: var(--color-text);
+  font-size: .75rem;
   border-collapse: collapse;
-  border: 1px solid var(--color-text);
+  white-space: nowrap;
 }
-table tr:nth-child(even) {
-  background-color: var(--color-text);
+@media screen and (min-width: 1024px) {
+  .post-content table {
+    grid-column: 3 / 15;
+  }
 }
-table th, table td {
+@media screen and (min-width: 1440px) {
+  .post-content table {
+    grid-column: 4 / 14;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .post-content table {
+    grid-column: 5 / 13;
+  }
+}
+.post-content table th, .post-content table td {
   padding: 2.6666666667px 4px;
 }
-table th {
-  background-color: var(--color-text);
-  border: 1px solid var(--color-text);
-  border-bottom-color: var(--color-text);
+.post-content table thead tr {
+  background-color: var(--color-highlight);
+  color: var(--color-heading);
+  font-weight: 900;
 }
-table td {
-  border: 1px solid var(--color-text);
+.post-content table th {
+  border-bottom: 2px solid var(--color-alt);
+  border-bottom-color: var(--color-alt);
+  border-radius: unset;
+  font-weight: normal;
+}
+.post-content table td {
+  border-bottom: 2px solid var(--color-alt);
 }
 
 /* 
@@ -122,7 +142,7 @@ table td {
 .site-footer {
   margin-bottom: 48px;
 }
-.site-footer #bottom-foot {
+.site-footer #bottom-foot, .site-footer #bottom-line {
   margin-top: 64px;
 }
 
@@ -472,6 +492,17 @@ a:hover {
   color: var(--color-text);
 }
 #bottom-foot ul li a:hover {
+  color: var(--color-brand);
+}
+
+#bottom-line {
+  text-align: center;
+  font-size: .75rem;
+}
+#bottom-line a {
+  color: var(--color-text);
+}
+#bottom-line a:hover {
   color: var(--color-brand);
 }
 
@@ -1905,7 +1936,6 @@ aside.many {
   position: relative;
   opacity: .4;
   transition: .3s;
-  font-family: Overpass Mono, monospace;
 }
 @media screen and (min-width: 768px) {
   .resume .toc-aside {
@@ -1939,11 +1969,11 @@ aside.many {
 }
 .resume .toc-aside nav h4 {
   margin-bottom: .5rem;
-  font-family: Overpass Mono, monospace;
 }
 .resume .toc-aside nav li {
   font-size: .65rem;
   margin-left: .65rem;
+  font-family: Overpass Mono, monospace;
 }
 .resume .toc-aside nav li:before {
   margin-top: .35rem;
@@ -1970,6 +2000,10 @@ aside.many {
 }
 
 /* Company Logos */
+#revealbot {
+  background-image: url(/assets/images/svg/revealbot-coral.svg);
+}
+
 #chilipiper {
   background-image: url(/assets/images/svg/chilipiper.svg);
 }

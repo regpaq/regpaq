@@ -2,8 +2,8 @@
 layout: post
 title: My Google Sheets Budget Template - Simple & Beautiful
 display-title: My Google Sheets Budget Template - Simple & Beautiful
-description: I spent four years perfecting the Google Sheets budget template. It's the smartest, simplest and best looking budget template ever.
-display-description: I spent five years perfecting my budget template in Google Sheets. Now I'm sharing it.
+description: Fix your bad spending habits with the last budget spreadshet you'll ever need. It's the simplest and best looking budget template built on Google Sheets.
+display-description: Fix your bad spending habits by following a budget.
 date: '2019-02-01T15:51:34-08:00'
 categories: [practical]
 slug: /google-sheets-budget-template
@@ -12,64 +12,51 @@ image-alt: google sheets budget template
 author: Reggie Paquette
 post-id: 11
 seo:
-    date_modified: '2019-10-01T18:40:36-08:00'
+    date_modified: '2019-11-12T18:40:36-08:00'
 ---
-After I graduated college, I received an inheritance check for $30k. **About a year later, I blew it all.**
+I received an inheritance of $30k. **One year later, I had blown it all.**
 
 I used the money to move out, get a new car, eat out constantly — all while telling myself I’m going to be making $10k a month before I know it as freelance marketer.
 
-Yeah, that didn’t work out ([but didn’t turn out so bad](https://www.reddit.com/r/marketing/comments/9qsktw/i_made_130k_with_year_as_a_b2b_marketer_in_saas/){:target="_blank"}).
+**Every month I knew I was spending more than I was making, but I was too scared to look at my bank account or my credit card statement. \*Just click pay\***
 
-> Every month I knew I was spending more than I was making, but I was too scared to look at my bank account or my credit card statement. Just click pay.
-{: .big-quote}
+It wasn't until I could only afford one more month's rent that I accepted I needed a full-time job and a budget.
 
-**It took me wasting all my money and having only one month left to survive on my own to push me to get a real job and start budgeting.** If you can learn from my mistakes, you won’t need to let it get this bad for you.
+It's been five years since then and I've learned a few tricks along the way. The most important thing is to **understand the difference between a good budget system and a bad one.**
 
-How did I get my finances back on track? As you can tell by the title, **it was from creating a budget and sticking to it**. It has changed my life and reduced a lot of stress. I'm hoping I'll be able to help other people facing the same stress I had by turning my personal Google Sheet budget into a template and sharing it here.
+> A bad budget system only shows you where your money is going. A good budget system will create a change in your behavior.
 
-**It's all based on an epiphany I had about what a budget was REALLY for in the first place.**
+## How My Google Sheets Budget Template Can Improve Your Spending Habits
 
-> Do NOT do a budget to see where your money is going. Do a budget to create a CHANGE IN BEHAVIOR to spend less money on stupid shit.
-{: .big-quote}
+Most importantly, it forces you to enter your expenses **manually**. Although this seems crazy with today's tools that can link to your accounts and do this automatically, **doing it manually is crucial to improving spending habits.**
 
-## How My Google Sheets Budget Template Focuses on Spending Reduction
+> Manually recording your expenses every week will force you to review every transaction, to feel the pain of every dollar spent, and make you think "was that really necessary?"
 
-It forces me to enter my expenses **manually**. Although seemingly tedious, **I found it to be the most important part.**
+Another reason to manually record expenses is you can fine-tune the expense category for each transaction, or even split a transaction into two categories.
 
-> Entering expenses manually forces me to review every transaction, to feel the pain of every dollar spent — that is what drove a change in my spending.
-{: .big-quote}
+This gives you way more options for using and tailoring categories exactly to your needs.
 
-And something tools like Mint that try and automate everything are terrible at doing.
-
-**The other benefit is I'm forced to manually categorize each transaction, which means it will be more accurate and useful for budgeting.**
-
-I’ve been managing my monthly budget in Google Sheets for nearly five years now. And after much tinkering and revisions, it’s the most beautiful and easiest to use I’ve made yet.
-
-## Download My Simple Google Sheets Budget Template
-
-Click the link below and click the 'make a copy' button to save the template to your Google Drive.
-
-[Download: My Google Sheets Budget Template](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy)
-
-Instructions for how to use it are below, but first...
-
-### Why you'll like my template over other budget spreadsheets
-
-I included easy-to-follow prompts to make it simple to get started.
-
-{% include figure.html image="assets/images/budget1.gif" caption="Prompts make it super easy to use this Google Sheets template." width="middle" %}
-
-Once you enter your income and set up your budget, all you need to do is enter your account balances once a month and your expenses.
-
-**Everything else other than entering expenses is automated.**
-
-Once you’ve been using it for a few months and get some data in there (or enter historical data) you can use this chart to see how you’ve been spending vs your budget by each category or in total.
+For example, here's one of my favorite charts where you can see how you’ve been spending vs your budget by each category over time.
 
 {% include figure.html image="/assets/images/budget2.gif" caption="Graphs for each budget category." width="full" %}
 
-## Instructions: How to Use My Budget Template
+## View and Start Using My Google Sheets Budget Template
 
-Once you've copied the Google Sheets budget template above, watch this video with step-by-step instructions or read below to learn how to use the budget template and get started.
+Open the link below and click 'make a copy' to start using it in your Google Drive.
+
+[Download: My Google Sheets Budget Template](https://docs.google.com/spreadsheets/d/1VRczmKEyg96fFixxz4LtR-1Yh2_V4xILIGVrpRqN38w/copy){:target="_blank"}
+
+I highly recommend reading on to learn how to set the budget template up for your finances and learn how to use it.
+
+Besides the initial set up and ongoing expense recording, **everything is automated.**
+
+## Instructions: How to Use The Budget Template
+
+I included easy-to-follow prompts to make it simple and quick to get set up.
+
+{% include figure.html image="assets/images/budget1.gif" caption="Prompts make it super easy to use this Google Sheets template." width="middle" %}
+
+You can learn how to use the template in this video tutorial, or by reading the below guide if you prefer.
 
 {% include video.html video-id="FAEg7BBGOuo" %}
 
@@ -79,7 +66,7 @@ In the top left box on the **Dashboard** tab, enter your income. Follow the oran
 
 {% include figure.html image="/assets/images/budget3.png" caption="Enter your income data in the Income box on the Dashbord tab" width="wide" %}
 
-Any income entered here will be added to your available budget. If you do receive any kind of extra income, you may either be putting it all in savings, part of it in savings, or you need all of it for your expenses. Unless you're comfortable with Google Sheets and spreadsheet formulas, this budget template is only made for two sources of income. If you have more than one additional income source, you can sum both and enter it as one number in the **Recurring Income #2** cell.
+Any income entered here will be added to your available budget. If you do receive any kind of extra income, you may either be putting it all in savings, part of it in savings, or you need all of it for your expenses. Unless you're comfortable with Google Sheets and spreadsheet formulas, this budget template is only made for two sources of income. If you have more than one additional income source, you can sum them and enter the total as one number in the **Recurring Income #2** cell.
 
 If you need all or a portion of that extra income, you need to add it to the **Recurring Income #2** cell. If you save all of it, you can still add it if you wish (and offset it later by increasing how much of your income is sent to savings) or you can omit it.
 
@@ -95,19 +82,19 @@ The first item is **Savings** to help you prioritize setting money aside for sav
 
 > "The goal [of pay yourself first] is to make sure that enough income is first saved or invested before monthly expenses or discretionary purchases are made."
 >
-> > [Investopedia](https://www.investopedia.com/terms/p/payyourselffirst.asp){:target=“_blank”}
+> > [Investopedia](https://www.investopedia.com/terms/p/payyourselffirst.asp){:target="_blank"}
 
 Then you can start adding recurring monthly expenses. These are monthly expenditures that are typically the same amount every month. Examples include rent and utilities, car payment and insurance, phone bills, gym memberships, Netflix/Spotify, etc.
 
-After this, you'll be left with your **Net Spendable Income**, which tells you how much you have left for discretionary spending for food, shopping, going out, and other expenses. But first, there's one more step until we get to creating our actual budget: annual expenses.
+After this, you'll be left with your **Net Spendable Income**, which tells you how much you have left for discretionary spending for food, shopping, going out, and other expenses. But first, there's one more step before we get to creating our actual budget: annual expenses.
 
 ### III. Enter Annual Expenses
 
-The strategy behind including annual expenses is so you can set aside a monthly amount of money to prepare for when these big expenses come up. Start by adding in things you pay once a year for in the **Annual Recurring** box. Some examples are car registration, vacations, gifts, car maintenance, credit card annualy fees, Amazon Prime, etc.
+The strategy behind including annual expenses is to set aside a monthly amount of money to prepare for when these big expenses come up. Start by adding in things you pay once a year for in the **Annual Recurring** box. Some examples are car registration, vacations, gifts, car maintenance, credit card annualy fees, Amazon Prime, etc.
 
 {% include figure.html image="/assets/images/budget5.png" caption="Enter your annually recurring expenses on the Dashbord tab" width="wide" %}
 
-After you entered in all the annual expenses you can think of, the budget template will divide the total into a monthly amount as a line item back in the **Monthly Recurring** box. Now you have your final **Net Spendable Income** amount we can use to start budgeting.
+After you entered in all the annual expenses you can think of, the budget template will divide the total into a monthly amount as a line item back in the **Monthly Recurring** box. Now you have your final **Net Spendable Income** amount you can use to start budgeting.
 
 ### IV. Create Your Budget
 
@@ -117,37 +104,37 @@ Now that you know how much money you can comfortably spend after savings, monthl
 
 Thanks to some clever conditional formatting in Google Sheets, the budget template will sum your **Total** monthly expenses. If the **Total** is green, your expenses are under your **Net Spendable Income**. It will be red if it's over and you will need to readjust your **Monthly Budget** or consider eliminating or reducing some of your monthly or annual recurring expenses.
 
-Note: Before we can get into the **Summary**, **Spent vs Budget**, and **Expenses Last 7 Months** boxes, we need to run through the other tabs in the Google Sheet budget template first.
+> Note: Before we can get into the **Summary**, **Spent vs Budget**, and **Expenses Last 7 Months** boxes, we need to run through the other tabs in the Google Sheet budget template first.
 
 ### V. Recording Expenses
 
-One of the presumably biggest downsides of a doing your personal budget in Google Sheets is that you have to enter your expenses in manually, but this is a blessing in disguise. Entering your expenses manually has had a big psychological effect on me that gets me to spend less. It forces ou to "feel the pain" of every dollar you spend. 
+One of the presumably biggest downsides of a doing your personal budget in Google Sheets is that you have to enter your expenses in manually, but this is a blessing in disguise. Entering your expenses manually will have a big psychological effect on you to spend less. It forces you to "feel the pain" of every dollar you spend. 
 
-So on the **Expenses** tab you'll enter each of your expenses. One row per one expense.
+So on the **Expenses** tab you'll enter each of your expenses - one row per one expense.
 
 You'll see some instructions in red at the top for more information. Across the blue row heading, the budget template auto populates your **Monthly Expenses** categories from the **Dashboard** tab. When you enter an expense, start with the date in **Column A**, the name of the place you spend the money in **Column B**, and then tab over to the column with the expense category that best matches how this expense should be categorized. If it's an annual expense, it's the same exact process - just make sure you're in the right annual expense column.
 
 {% include figure.html image="/assets/images/budget17.png" caption="Example of the Expenses tab with sample data" width="wide" %}
 
-Note: It's important you don't change the order of your items in the **Monthly Expenses** box because the column you entered the expense under isn't locked to the expense category.
+> Note: It's important you don't change the order of your items in the **Monthly Expenses** box on the **Dashboard** tab because the column you entered the expense under isn't locked to the expense category.
 
 Why are the expense categories in different columns instead of writing in/choosing the expense category in a single category column? For two reasons. One, it's much faster to just 'tab' over to the right expense category column than writing it in or switching from keyboard to mouse to choose the right category from a dropdown. Second, it allows for less process-heavy formulas making the spreadsheet more smooth to use.
 
 {% include figure.html image="/assets/images/budget16.gif" caption="Example of how fast you can enter expenses by using the tab and enter keys" width="full" %}
 
-Note: When choosing the date, it doesn't matter whether you choose the transaction date or the posted date (if pulling from a credit card), but you should stick to one or the other. I prefer posted date.
+> Note: When choosing the date, it doesn't matter whether you choose the transaction date or the posted date (if pulling from a credit card), but you should stick to one or the other. I prefer posted date.
 
 ### VI. Tallying Up Assets and Liabilities in the Balance Sheet
 
 Now onto the **Balance Sheet** tab of the budget template. This is where you will add up all the money you have and owe in your accounts. This will ultimately tell you if your wealth/net worth is increasing or decreasing. Make sure you've filled out the preliminary **Dashboard** steps first (see points 1-4 above).
 
-Note: Because this is counting the actual numbers in your account, you don't necessarily have to record every expense. Sometimes there are expenses that don't quite make sense to include that could throw off measuring your spending. But don't worry, as long as the **Balance Sheet** is accurate, measuring your wealth/net worth over time will still be accurate.
+> Note: Because this is counting the actual numbers in your account, you don't necessarily have to record every expense. Sometimes there are expenses that don't quite make sense to include that could throw off measuring your spending. But don't worry, as long as the **Balance Sheet** is accurate, measuring your cash balance and net worth over time will still be accurate.
 
 To start, name the accounts in **Column A** (mostly the savings accounts and assets). Examples of savings accounts can include primary, emergency fund, and vacation fund. Assets can be your car, credit card miles, 401k, IRA, stocks, etc.
 
 {% include figure.html image="/assets/images/budget10.png" caption="Choose the accounts you want to include as assets on the Balance Sheet tab and give them a nickname" width="wide" %}
 
-Note: Unless your comfortable with Google Sheets formulas, this spreadsheet doesn't support changing the purpose of the accounts that are listed there. It's okay to not use any of them, but not okay to add or change the purpose of an account.
+> Note: Unless your comfortable with Google Sheets formulas, this spreadsheet doesn't support changing the purpose of the accounts that are listed there. It's okay to not use any of them, but not okay to add or change the purpose of an account.
 
 Once you've named your accounts, follow the below steps:
 
@@ -157,7 +144,7 @@ Once you've named your accounts, follow the below steps:
 
 - Now you'll have a header row in **row 1** with the month and year. The numbers you will fill out in the column beneath a month must be the balances at the end of that month. So forget that you used the first of the month in the heading - the reason for that was just to get the month and year to display and to make some formulas work. Just remember, the numbers under a month's column in the **Balance Sheet** represent where those accounts stand at the end of that month.
 
-- If you're starting your budget this month, you don't need to fill out the numbers in the **Balance Sheet** yet. It's easiest to do this soon after the month ends, either one the 1st of the following month or at least within a few days of it ending. Then all you need to do is pull up your online banking and fill out the balances for all your accounts, credit cards, loans, retirement accounts, etc. Remember, the numbers in these columns represent how you stand at the end of the month.
+> Note: If you're starting your budget this month, you don't need to fill out the numbers in the **Balance Sheet** yet. It's easiest to do this soon after the month ends, either one the 1st of the following month or at least within a few days of it ending. Then all you need to do is pull up your online banking and fill out the balances for all your accounts, credit cards, loans, retirement accounts, etc. **Remember, the numbers in these columns represent how you stand at the end of the month**.
 
 - Any row that has a **-** in the cell means these numbers are auto calculated with Google Sheets formulas. Grey shaded cells are intentionally left blank due to the nature of what it's calculating (for example you need 3 months of data before it can calculate a 3 month rolling average). Here's what the **Assets & Income** section will look like once you have some data in there:
 
@@ -185,11 +172,13 @@ Back on the **Dashboard** tab, the **Summary** box will show an overview of the 
 
 ### VIII. Spent vs Budget
 
-Further down the **Dashboard** tab, you'll see the **Spent vs Budget** box. This is a graph that compares your spending in each category to the budget you set for that category in the **Monthly Budget** box. Use the dropdown selector in cell **P30** to change the category or choose 'Total.' This graph shows the previous 7 months of data so it won't be fully complete until you have at least 7 months of complete data. Again, don't change any formulas or the chart as it will still work fine if you don't have all 7 months yet.
+Further down the **Dashboard** tab, you'll see the **Spent vs Budget** box. This is a graph that compares your spending in each category to the budget you set for that category in the **Monthly Budget** box. Use the dropdown selector in cell **P30** to change the category or choose 'Total.'
 
 {% include figure.html image="/assets/images/budget8.png" caption="The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph" width="wide" %}
 
-### IX. Expenses Last 7 Months
+> Note: This graph shows the previous seven months of data so it won't be fully complete until you have at least seven months of complete data. And it won't show any data at all until you have data from at least one previous month in your **Expenses** and **Balance Sheet** tabs (It doesn't show current month). Again, don't change any formulas or the chart as it will still work fine if you don't have all seven months yet.
+
+### IX. Expenses Last Seven Months
 
 Below the **Spent vs Budget** box is the same data but in a table format in the **Expenses Last 7 Months** box. This is another way to compare your spending vs budget by category. Amounts will be red where you overspent.
 
@@ -199,7 +188,7 @@ Below the **Spent vs Budget** box is the same data but in a table format in the 
 
 A budget is only good if you update it consistently, keep it accurate, and spend time analyzing your spending. That’s why I made it a point to make this budget template in Google Sheets look nice, be easy to use, and be rewarding to use.
 
-But sometimes that’s still not enough. **There’s definitely been times where I don’t do it for a few weeks at a time and the more you wait, the more work you’ll have to do, and the more you won’t look forward to it**. I‘ve made it a habit to log my expenses every Sunday vs once every month.
+But sometimes that’s still not enough. **There’s definitely been times where I don’t do it for a few weeks at a time and the more you wait, the more work you’ll have to do, and the more you won’t look forward to doing it**. I‘ve made it a habit to log my expenses every Sunday vs once every month.
 
 If you believe a budget will help you get control of your spending, read this guide on how to stick to new habits:
 
@@ -207,7 +196,7 @@ If you believe a budget will help you get control of your spending, read this gu
 
 Another tip is to use a credit card for all transactions when possible. Using a credit card makes it much easier to keep track of your spending and at the same time protects your bank account from fraud, builds your credit, and you can earn points and rewards.
 
-Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on [Twitter](https://twitter.com/regpaq).
+Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on [Twitter](https://twitter.com/regpaq){:target="_blank"}.
 
 ### You might also enjoy
 

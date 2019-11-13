@@ -237,6 +237,16 @@ a {
         }
     }
 }
+#bottom-line {
+    text-align: center;
+    font-size: .75rem;
+    a {
+        color: v(text);
+        &:hover {
+            color: v(brand);
+        }     
+    }
+}
 /* --------------------------------------------------------
             Articles & Pages Styles
 -------------------------------------------------------- */

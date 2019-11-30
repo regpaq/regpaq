@@ -17,12 +17,12 @@ layout: default
 							{%- endif -%}
 						</p>
 						<div class="post-meta">
-							<div class="coin"></div><figure><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></figure>
+							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></figure>
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>							
 							{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
 							{%- if page.seo.date_modified %}
 							<meta itemprop="datePublished" content="{{ page.date | date: date_format }}">
-							<time itemprop="dateModified" datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.seo.date_modified | date: date_format }}</time>							
+							<time itemprop="dateModified" datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<svg class="no-dark-filter svg-reg--left"><use xlink:href="#post-grey" /></svg>{{ page.seo.date_modified | date: date_format }}</time>							
 							{%- else -%}
 							<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.date | date: date_format }}</time>
 							<meta itemprop="dateModified" content="{{ page.date | date: date_format }}">

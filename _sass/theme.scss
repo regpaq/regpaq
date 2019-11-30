@@ -97,20 +97,7 @@ $mod_2:                     1.6; // Desktop
 
 // 			Coin Photo Style
 // --------------------------------------------------------
-@mixin coingold {
-	background-image: url(/assets/images/svg/coin-gold-ring.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: absolute;
-	height: 59px;
-	width: 59px;
-	margin: -3.7px 0 0 0;
-	@include media-query($medium) {
-		height: 95px;
-		width: 95px;
-		margin: -5.5px 0 0 0;
-	}
-}
+
 @mixin coinphoto {
 	border-radius: 100%;
 	grid-column: 1 / 2;

@@ -1,0 +1,54 @@
+<script>
+			// New prefers-color-scheme media query to detect OS light/dark mode setting
+			var prefers_light = window.matchMedia('(prefers-color-scheme: light)')
+			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)')
+			var root = document.documentElement
+
+			// Change to dark
+			function darkmode() {
+			root.setAttribute('data-theme', 'dark');
+			}
+
+			// Change to light
+			function lightmode() {;  
+			root.setAttribute('data-theme', 'light');
+			}
+
+			// Initialization triggers light/dark mode based on prior preference, then OS setting
+			if(localStorage.getItem("mode")=="dark") {
+			darkmode();
+			} else if(localStorage.getItem("mode")=="light") {
+			lightmode();
+			} else if(prefers_light.matches) {
+			lightmode();
+			} else if(prefers_dark.matches) {
+			darkmode();
+			}
+
+			// Fires when user clicks light/dark mode switch in top right
+			function handleThemeUpdate() {
+			if (localStorage.getItem('mode')=="light") {
+				darkmode();
+				localStorage.setItem('mode', 'dark');
+			} else {
+				lightmode();
+				localStorage.setItem('mode', 'light');
+			}
+			}
+
+			// Runs when OS changes light/dark mode. Changes only if you were on default
+			// color state (light on light mode, dark on dark mode).
+			function OSColorChange() {
+			if (prefers_light.matches) {
+				lightmode();
+				localStorage.setItem("mode", "light");
+			} else if (prefers_dark.matches) {
+				darkmode();
+				localStorage.setItem("mode", "dark");
+			}
+			}
+
+			// Listeners for when you change OS setting for light/dark mode
+			prefers_light.addListener(OSColorChange)
+			prefers_dark.addListener(OSColorChange)
+		</script>

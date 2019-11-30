@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>List of Virtues for Happiness</title>
+        <title>I'm Learning Virtue is Its Own Reward</title>
         
     <!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="List of Virtues for Happiness" />
+<meta property="og:title" content="I’m Learning Virtue is Its Own Reward" />
 <meta name="author" content="Reggie Paquette" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Learning Aristotle’s list of virtues and vices can give you a more tranquil life." />
-<meta property="og:description" content="Learning Aristotle’s list of virtues and vices can give you a more tranquil life." />
-<link rel="canonical" href="http://localhost:4000/moreal-virtue" />
-<meta property="og:url" content="http://localhost:4000/moreal-virtue" />
+<meta name="description" content="The Stoics made virtue and doing good their highest objective in life. I’m beginning to understand why." />
+<meta property="og:description" content="The Stoics made virtue and doing good their highest objective in life. I’m beginning to understand why." />
+<link rel="canonical" href="http://localhost:4000/virtue-is-its-own-reward" />
+<meta property="og:url" content="http://localhost:4000/virtue-is-its-own-reward" />
 <meta property="og:site_name" content="regpaq" />
 <meta property="og:image" content="http://localhost:4000/assets/images/moral-virtue.jpeg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-10-06T07:30:00-07:00" />
+<meta property="article:published_time" content="2019-11-29T06:30:00-08:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/moral-virtue.jpeg" />
-<meta property="twitter:title" content="List of Virtues for Happiness" />
+<meta property="twitter:title" content="I’m Learning Virtue is Its Own Reward" />
 <meta name="twitter:site" content="@regpaq" />
 <meta name="twitter:creator" content="@Reggie Paquette" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/moreal-virtue","headline":"List of Virtues for Happiness","dateModified":"2019-10-06T07:30:00-07:00","datePublished":"2019-10-06T07:30:00-07:00","author":{"@type":"Person","name":"Reggie Paquette"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Reggie Paquette"},"image":"http://localhost:4000/assets/images/moral-virtue.jpeg","description":"Learning Aristotle’s list of virtues and vices can give you a more tranquil life.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/moreal-virtue"},"@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/virtue-is-its-own-reward","headline":"I’m Learning Virtue is Its Own Reward","dateModified":"2019-11-29T06:30:00-08:00","datePublished":"2019-11-29T06:30:00-08:00","author":{"@type":"Person","name":"Reggie Paquette"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Reggie Paquette"},"image":"http://localhost:4000/assets/images/moral-virtue.jpeg","description":"The Stoics made virtue and doing good their highest objective in life. I’m beginning to understand why.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/virtue-is-its-own-reward"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
         <link rel="stylesheet" href="/assets/main.css">
@@ -34,9 +34,62 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">   
         <style>
-            @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:100i,200i,300i,400,400i,900&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:200,400,900&display=swap');
         </style>  
-        <script src="/assets/js/lightswitch.js"></script>
+        <script>
+			// New prefers-color-scheme media query to detect OS light/dark mode setting
+			var prefers_light = window.matchMedia('(prefers-color-scheme: light)')
+			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)')
+			var root = document.documentElement
+
+			// Change to dark
+			function darkmode() {
+			root.setAttribute('data-theme', 'dark');
+			}
+
+			// Change to light
+			function lightmode() {;  
+			root.setAttribute('data-theme', 'light');
+			}
+
+			// Initialization triggers light/dark mode based on prior preference, then OS setting
+			if(localStorage.getItem("mode")=="dark") {
+			darkmode();
+			} else if(localStorage.getItem("mode")=="light") {
+			lightmode();
+			} else if(prefers_light.matches) {
+			lightmode();
+			} else if(prefers_dark.matches) {
+			darkmode();
+			}
+
+			// Fires when user clicks light/dark mode switch in top right
+			function handleThemeUpdate() {
+			if (localStorage.getItem('mode')=="light") {
+				darkmode();
+				localStorage.setItem('mode', 'dark');
+			} else {
+				lightmode();
+				localStorage.setItem('mode', 'light');
+			}
+			}
+
+			// Runs when OS changes light/dark mode. Changes only if you were on default
+			// color state (light on light mode, dark on dark mode).
+			function OSColorChange() {
+			if (prefers_light.matches) {
+				lightmode();
+				localStorage.setItem("mode", "light");
+			} else if (prefers_dark.matches) {
+				darkmode();
+				localStorage.setItem("mode", "dark");
+			}
+			}
+
+			// Listeners for when you change OS setting for light/dark mode
+			prefers_light.addListener(OSColorChange)
+			prefers_dark.addListener(OSColorChange)
+		</script>
     </head>
 	<body>
 		<header class="site-header">
@@ -67,30 +120,26 @@
 			<div class="content-container">
 				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">	
 					<header class="post-header container">
-						<h1 class="post-title" itemprop="name headline">List of Virtues for Happiness</h1>
-						<p class="article-subtitle">Learning Aristotle&#39;s list of virtues and vices can give you a more tranquil life.</p>
+						<h1 class="post-title" itemprop="name headline">I&#39;m Learning Virtue is Its Own Reward</h1>
+						<p class="article-subtitle">The Stoics made virtue and doing good their highest objective in life. I&#39;m beginning to understand why.</p>
 						<div class="post-meta">
-							<div class="coin"></div><figure><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></figure>
+							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></figure>
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
-							<meta itemprop="datePublished" content="Oct 6, 2019">
-							<time itemprop="dateModified" datetime="2019-10-06T07:30:00-07:00"><img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >Oct 6, '19</time>
+							<meta itemprop="datePublished" content="Nov 29, 2019">
+							<time itemprop="dateModified" datetime="2019-11-29T06:30:00-08:00"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#post-grey" /></svg>Nov 29, '19</time>
 							<div itemprop="articleSection" id="post-categories"><a href="/philosophy">#philosophy</a></div>
 						</div>
 					</header>
-					<figure class="feat-img"><img itemprop="image" src="/assets/images/moral-virtue.jpeg" alt="What is moral virtue?" /></figure>
+					<figure class="feat-img"><img itemprop="image" src="/assets/images/moral-virtue.jpeg" alt="Virtue is its own reward" /></figure>
 					<div class="post-content" itemprop="articleBody">
 
-<p>Before learning about <a href="/philosophy">philosophy</a>, I thought the level of impact someone makes on the world was the best objective way to measure whether someone had lived a meaningful life or not.</p>
+<p>Before learning about <a href="/philosophy">philosophy</a>, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.</p>
 
-<p>And with my interests and skillset, I think I have the most potential to make the biggest impact from starting a company.</p>
+<p>Or in other words, build the biggest legacy. <strong>And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.</strong></p>
 
-<p>And if this is what defines a meaningful life from a meaningless one, then I have a problem:</p>
+<p>It’s a demoralizing point-of-view, but I couldn’t reason or justify a better measurement for meaning. I’d rather accept a harsh reality as true than keep my head in the sand and believe a false reality to feel better.</p>
 
-<p><strong>Each day that passes where I’m not running a successful and impactful company, I feel I’m living in a continual state of insignificance and meaninglessness.</strong></p>
-
-<p>Although this view can be depressing, I can’t reason or justify a better measurement for meaning. I’d rather accept this as a harsh reality than believe in something else that might make me feel better, yet isn’t true.</p>
-
-<p>That’s why it was surprising to read how strong <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Marcus Aurelius</a>, the famous Stoic philosopher, thought accepting fate and doing good as the two most important things he could do in his life. He wrote:</p>
+<p>That’s why I was conflicted when reading how strong <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Marcus Aurelius</a> and the Stoics believed accepting fate and doing good as the highest objective he strived to achieve in life. This is one of my favorite Aurelius quotes about this:</p>
 
 <blockquote>
   <p>“No matter what anyone says or does, my task is to be good. Like gold or emerald or purple repeating to itself, “No matter what anyone says or does, my task is to be emerald, my color undiminished.”</p>
@@ -99,55 +148,13 @@
   </blockquote>
 </blockquote>
 
-<p>Not only that, he believed legacy and being remembered, which could be argued is a result of an impactful life, was essentially meaningless in the grand scheme of human history.</p>
+<p>I love this quote because he says his task is to be good, like an emerald’s task is to be emerald in color. An emerald can’t be anything but emerald. And Aurelius strives to be good to his core so he couldn’t do anything but good.</p>
 
-<blockquote class="big-quote">
-  <p>“So many who were remembered already forgotten, and those who remembered them long gone.”</p>
-  <blockquote>
-    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 7.6</a></p>
-  </blockquote>
-</blockquote>
+<p>At first, I didn’t understand how striving to achieve virtue could lead to a meaningful life. But then I understood Aurelius didn’t seek to achieve meaning. <strong>Rather, he sought to achieve goodness.</strong> So what did Aurelius know about meaning to disregard it?</p>
 
-<p>His work continues to be a radically positive influence on my own philosophy and character, but I’m still not completely convinced living according to fate and being virtuous results in a meaningful life on its own.</p>
+<h2 id="according-to-marcus-aurelius-life-and-legacy-are-trivial-and-meaningless">According to Marcus Aurelius, Life and Legacy are Trivial and Meaningless</h2>
 
-<p><strong>This article will be like a thought exercise where I work through and unpack this idea and see if I can make sense of it.</strong> Perhaps it can change my view as I begin to understand it.</p>
-
-<p>In this introduction, I briefly touched on my personal philosophy and how Marcus Aurelius and Stoicism view things differently. Before moving on to see what they think, I want to expand and clarify a few concepts from my philosophy to make it easier to compare and contrast our ideas.</p>
-
-<h2 id="the-difference-between-lifes-purpose-a-meaningful-life-and-impact">The Difference Between Life’s Purpose, a Meaningful Life, and Impact</h2>
-
-<h3 id="the-pupose-of-life">The pupose of life</h3>
-
-<p>Typically when people think about this topic, they think of the purpose of life, so I want to address it. <strong>I don’t think there is a purpose of life.</strong> Purpose could refer to a collective purpose of human life. Or it could refer to the purpose of an individual’s life implying we have a predetermined reason for why each one of us are alive. I don’t think either of these are true. “Why are we here?” is the wrong question to ask.</p>
-
-<p>Instead of thinking we have a purpose to fulfill in life, I argue we have a goal to achieve. This article is an attempt to determine what that goal is.</p>
-
-<h3 id="a-meaningful-life">A meaningful life</h3>
-
-<p>A possible goal that I believe makes the most sense is to do something meaningful. <strong>What determines a meaningful life from a meaningless one is difficult to define.</strong> According to the Merriam-Webster dictionary, meaning is defined as “significant quality.” In order to understand what a life of significant quality is, we need two things: 1) to accept there are significant and insignificant lives, and 2) a way to determine one from the other.</p>
-
-<h3 id="an-impactful-life">An impactful life</h3>
-
-<p><strong>One possible measurement for determining if a life is of significant quality or of insignificant quality is by the level of impact one had made in their life.</strong> And impact can be defined as making a change, difference, or being an influence on something, but it’s unclear how signficant that something must be in order to “qualify” as a substantial enough impact.</p>
-
-<p>I see four levels of impact.</p>
-
-<ol>
-  <li>in the individual</li>
-  <li>on the family</li>
-  <li>on the community</li>
-  <li>on the world</li>
-</ol>
-
-<p>If impact is a useful metric for measuring meaning, the question here would be at which of these levels would one have to make an impact for their life to have a material meaning?</p>
-
-<p>Although I haven’t even yet demonstrated meaning is a worthwhile objective in life or whether impact is a valid measurement for meaning, let’s move on to see what Marcus Aurelius thought before continuing down this path.</p>
-
-<h2 id="what-matters-according-to-marcus-aurelius">What Matters According to Marcus Aurelius</h2>
-
-<p>I’m not sure if Marcus Aurelius ever believed such a thing existed as a “meaningful” life. He often wrote to himself not to indulge in pleasures, not to fear death as it was inevitable, and to live according to nature (fate). One meditation sticks out to me about this:</p>
-
-<h3 id="life-is-potentially-meaningless">Life is potentially meaningless</h3>
+<p>It’s my understanding that Aurelius never believed in a “meaningful” life. In one meditation, he equated the entirety of life to a rock being thrown in the air and coming back down:</p>
 
 <blockquote>
   <p>“A rock thrown in the air. It loses nothing by coming down, gained nothing by going up.”</p>
@@ -156,105 +163,113 @@
   </blockquote>
 </blockquote>
 
-<p>I didn’t understand his point of view immediately, especially because I had been hell bent on growing in my career. But I came to realize that mentality had made me miserable. I became selfish, fake, and manipulative. It backfired. I ended up digressing in my career and relationships.</p>
+<p>In another, he wrote about exercising awareness in the moment, not to appreciate it, but to realize it’s not much to miss out on when he dies.</p>
 
-<h3 id="legacy-doesnt-last">Legacy doesn’t last</h3>
+<blockquote class="big-quote">
+  <p>“Stop whatever you’re doing for a moment and ask yourself: Am I afraid of death because I won’t be able to do this anymore?”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 10.29</a></p>
+  </blockquote>
+</blockquote>
 
-<h3 id="it-doesnt-matter-whether-people-like-you-or-not">It doesn’t matter whether people like you or not</h3>
+<p>I have the impression Aurelius believed life was something that had to be done and put up with as fate demanded. Why? Because death scared him and he wanted to believe he wouldn’t be missing out on anything when he died to better cope with it.</p>
 
-<h3 id="death-is-inevitable">Death is inevitable</h3>
+<blockquote>
+  <p>“Human lives are brief and trivial. Yesterday a blob of semen; tomorrow embalming fluid, ash.</p>
 
-<p>As I read more about philosophy through Bertrand Russell’s <a href="https://amzn.to/2Olnlgo" target="_blank">History of Western Philosophy</a>, and in particular learning about Aristotle and his work on ethics, I’m beginning to understand the practical benefits of virtue. Before I get any further, here’s the main virtues from Aristotle.</p>
+  <p>“To pass through this brief life as nature demands. To give it up without complaint.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 4.48</a></p>
+  </blockquote>
+</blockquote>
 
-<h2 id="list-of-virtues-and-vices-from-aristotle">List of Virtues and Vices from Aristotle</h2>
+<h3 id="what-aurelius-had-to-say-about-legacy-and-fame">What Aurelius had to say about legacy and fame</h3>
 
-<p>Aristotle was the first philosopher to formalize the study of a person’s character. He called it ēthikós (ethics).</p>
+<p>Legacies are born out of fame and Aurelius had a disdain for it for two reasons. If you’re working towards achieving fame, it means you care too much about what other people think of you. And second, fame doesn’t last long so it’s pointless to pursue it.</p>
 
-<p>His ideas and work on the subject were published in a collection of ten short books called <a href="https://en.wikipedia.org/wiki/Nicomachean_Ethics">Nicomachean Ethics</a>.</p>
+<blockquote>
+  <p>“…look at how soon we’re all forgotten. The abyss of endless time that swallows it all. The emptiness of all those applauding hands. The people who praise us - how capricious they are, how arbitrary. And the tiny region in which it all takes place. The whole earth a point in space…”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 4.3</a></p>
+  </blockquote>
+</blockquote>
 
-<p>I haven’t read the direct text yet, but his idea of describing virtue as a mean between two vices of deficiency and excess is recognized as one of his greatest contributions to philosophy.</p>
+<p>It doesn’t matter if people remember you 50 years after death or 200, you will still be forgotten. Think about how many people you know of who were alive 200 years ago in 1819. All the celebrities, the of the time</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Situation</th>
-      <th>Vice of Deficiency</th>
-      <th>Virtue</th>
-      <th>Vice of Excess</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Danger</td>
-      <td>Cowardice</td>
-      <td>Courage</td>
-      <td>Rashness</td>
-    </tr>
-    <tr>
-      <td>Pleasure and Pain</td>
-      <td>Inhibition</td>
-      <td>Temperance</td>
-      <td>Overindulgence</td>
-    </tr>
-    <tr>
-      <td>Getting and Spending</td>
-      <td>Illiberality</td>
-      <td>Liberality</td>
-      <td>Prodigality</td>
-    </tr>
-    <tr>
-      <td>Getting and Spending</td>
-      <td>Pettiness</td>
-      <td>Magnificence</td>
-      <td>Vulgairty</td>
-    </tr>
-    <tr>
-      <td>Honor and Dishonor</td>
-      <td>Pusillanimity</td>
-      <td>Magnanimity</td>
-      <td>Vanity</td>
-    </tr>
-    <tr>
-      <td>Anger</td>
-      <td>Apathy</td>
-      <td>Patience</td>
-      <td>Irascibility</td>
-    </tr>
-    <tr>
-      <td>Self Expression</td>
-      <td>Understatement</td>
-      <td>Truthfulness</td>
-      <td>Boastfulness</td>
-    </tr>
-    <tr>
-      <td>Conversation</td>
-      <td>Boorishness</td>
-      <td>Wittiness</td>
-      <td>Buffoonery</td>
-    </tr>
-    <tr>
-      <td>Social Conduct</td>
-      <td>Rudeness</td>
-      <td>Friendliness</td>
-      <td>Obsequiousness</td>
-    </tr>
-    <tr>
-      <td>Shame</td>
-      <td>Shamelessness</td>
-      <td>Modesty</td>
-      <td>Shyness</td>
-    </tr>
-    <tr>
-      <td>Indignation</td>
-      <td>Malicious enjoyment</td>
-      <td>Righteous indignation</td>
-      <td>Envy</td>
-    </tr>
-  </tbody>
-</table>
+<blockquote class="big-quote">
+  <p>“So many who were remembered already forgotten, and those who remembered them long gone.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 7.6</a></p>
+  </blockquote>
+</blockquote>
 
-<h2 id="does-living-a-virtuous-life-bring-happiness">Does Living a Virtuous Life Bring Happiness?</h2>
-<p>Living virtuously is difficult. It takes self control, sacrifice, patience, and practice. Attempting to be more virtuous, I started approaching my relationships, work, and problems. It’s a challening process. Like quitting a bad habit and having withdrawls. <strong>But what has become instantly clear to me, without a doubt, is that living virtuously prevents unhappiness.</strong></p>
+<h2 id="my-criticisms-of-marcus-aureliuss-point-of-view">My Criticisms of Marcus Aurelius’s Point-of-View</h2>
+
+<p>Based on my interpretation of Aurelius’s beliefs, legacy, fame, and being remembered is meaningless. And life itself is void of meaning.</p>
+
+<p>My only criticism is you can take two people, and objectively determine which had more impact, and thus more meaning. For example, taken to the extreme, it’s easy to identify who had more impact and meant more to society: Steve Jobs vs the average joe.</p>
+
+<p>It’s interesting to point out that impact could be positive or negative. For example, Martin Luther King Jr vs Osama Bin Laden. Both had great impact on society, but in opposite directions. If, for sake of argument, we quantified their impact as equal would their meaning be equal? Does meaning take into account positive vs negative impact? I think so.</p>
+
+<p>Marcus Aurelius and the Stoics believed being virtuous and doing good as the highest objective. <strong>Then, according to Stoicism, wouldn’t someone who does more good than another have both more impact and more meaning?</strong></p>
+
+<p>The Stoics argued that the only thing in our control is our mind. And it’s rare for people to make an impact at the level of Jobs or MLK. If all it took to make a high impact was desire and tenacity, there would be a lot more people making that high of an impact. But there are lot of factors outside of our control, which makes the highest level of achievment impossible for most people.</p>
+
+<p><strong>Therefore, while there may be objective measures to determine if a life is more impactful or meaningful than another, it’s fruitless to puruse it and make it your highest objective. Instead, the Stoics argue it’s best to make virtue and doing good the highest objective, which is entirely within our control. I’m beginning to understand why.</strong></p>
+
+<h2 id="understanding-how-virtue-is-its-own-reward">Understanding How Virtue is Its Own Reward</h2>
+
+<p>As <a href="https://dailystoic.com/4-stoic-virtues/" target="_blank">Ryan Holiday puts it</a>, “A Stoic believes they don’t control the world around them, only how they respond — and that they must always respond with courage, temperance, wisdom, and justice.”</p>
+
+<p>These are the four core virtues of Stoicism. Aurielius believed <strong>justice</strong> was the most important, because acting with justice is doing good.</p>
+
+<blockquote>
+  <p>“And a commitment to justice in your own acts. Which means: thought and action resulting in the common good. What you were born to do.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 9.31</a></p>
+  </blockquote>
+</blockquote>
+
+<p>I completed <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations</a> for the first time two years ago. Since then, I’ve been adopting a Stoic mindset and I’ve seen myself undergo a dramatic transformation. Acting with justice and virtue has given me a new level of patience and resilienece, improved my relationships, and fostered an affection for all people. It has redirected my ambition from building a legacy and longing for recognition to a mission of doing good.</p>
+
+<p>I started writing out how acting with justice has helped me in all these ways, but I can’t explain it better than Marcus Aurelius himself. Here are some of my favorite meditations on doing good.</p>
+
+<blockquote>
+  <p>“To feel affection for people even when they make mistakes is uniquely human. You can do it, if you simply recognize: that they’re human too, that they act out of ignorance, against their will, and that you’ll both be dead before long. And, above all, that they haven’t really hurt you. They haven’t diminished your ability to choose.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 7.22</a></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>“When people injure you, ask yourself what good or harm they thought would come of it. If you understand that, you’ll feel sympathy rather than outrage or anger. Your sense of good and evil may be the same as theirs, or near it, in which case you have to excuse them. Or your sense of good and evil may differ from theirs. In which case they’re misguided and deserve your compassion. Is that so hard?”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 7.26</a></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>“To do harm is to do yourself harm. To do an injustice is to do yourself an injustice - it degrades you.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 9.4</a></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>“When faced with people’s bad behavior, turn around ask when <strong>you</strong> have acted like that. When you saw money as good, or pleasure, or social position. Your anger will subside as soon as you recognize that they acted under compulsion (what else could they do?)…”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 10.30</a></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p>“That you don’t know for sure it <strong>is</strong> a mistake. A lot of things are means to some other end. You have to know an awful lot before you can judge other people’s actions with real understanding.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 11.18.v</a></p>
+  </blockquote>
+</blockquote>
+
+<p>When you believe doing good as the highest objective, you feel good when you do it. <strong>Acting with justice and virtue is its own reward because acting virtuously is synonymous with doing good to others and preserving your integrity. With self fulfillment and happiness as a bonus.</strong></p>
 
 <blockquote class="big-quote">
   <p>“What is the goal of virtue, after all, except a life that flows smoothly?”</p>
@@ -263,6 +278,14 @@
   </blockquote>
 </blockquote>
 
+<p>I’ll leave you with one last meditation that sums up Aurelius’s and the Stoics point-of-view and reason for doing good as the highest objective:</p>
+
+<blockquote>
+  <p>“…And how does it injure you anyway? You’ll find that none of the people you’re upset about has done anything that could do damage to your mind. But that’s all that “harm” or “injury” could mean. Yes, boorish people do boorish things. What’s strange or unheard of about that? Isn’t it yourself you should reproach - for not anticipating that they’d act this way? The logos gave you the means to see it - that a person would act a given way - but you paid no attention. And now you’re astonished that he’s gone and done it. So when you call someone “untrustworthy” or “ungrateful,” turn the reproach on yourself. It was you who did wrong. By assuming that someone with those traits deserved your trust. Or by doing them a favor and expecting something in return, instead of looking to the action itself for your reward. What else did you expect from helping someone out? Isn’t it enough that you’ve done what your nature demands? You want a salary for it, too? As if your eyes expected a reward for seeing, or your feet for walking. That’s what they were made for. By doing what they were designed to do, they’re performing their function. Whereas humans were made to help others. And when we do help others - or help them to do something - we’re doing what we were designed for. We perform our function.”</p>
+  <blockquote>
+    <p>Marcus Aurelius, <a href="/meditations-from-marcus-aurelius-summary-notes-quotes">Meditations 9.42</a></p>
+  </blockquote>
+</blockquote>
 
 
 					</div>
@@ -298,7 +321,7 @@
 							<meta itemprop="height" content="155">
 						</span>
 					</span>
-					<meta itemprop="mainEntityOfPage" content="" itemscope itemType="https://schema.org/WebPage" itemid="http://localhost:4000/moreal-virtue"/>
+					<meta itemprop="mainEntityOfPage" content="" itemscope itemType="https://schema.org/WebPage" itemid="http://localhost:4000/virtue-is-its-own-reward"/>
 				</article>
 			</div>
 		</main>
@@ -321,9 +344,44 @@
 			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><clipPath id="coin-path" ><path d="M135.74,71.9a70.75,70.75,0,0,1-3.3,14.38A89.92,89.92,0,0,1,127.12,99a75.9,75.9,0,0,1-18.92,23.87,46,46,0,0,1-15.13,7,58.71,58.71,0,0,1-10.89,1.32l-2.1.15c-2.65.17-5.31.38-8,.64-2.15.16-4.32.24-6.47.24-1.09,0-2.17,0-3.24-.07a70,70,0,0,1-14.77-2,54.74,54.74,0,0,1-12-4.81,76.13,76.13,0,0,1-23.17-18.77A53.69,53.69,0,0,1,2.39,88.16,68.06,68.06,0,0,1,.46,62.36,66.34,66.34,0,0,1,5.81,44.17c1-2.07,2-4.08,3-6.11s2.13-4,3.27-6c1.33-1.73,2.72-3.35,4.19-5,2.07-2.29,4.27-4.52,6.56-6.64a57.44,57.44,0,0,1,6.25-5.2,61.18,61.18,0,0,1,5.55-3.46,56.48,56.48,0,0,1,7.88-4,55.78,55.78,0,0,1,7.3-2.43,47.73,47.73,0,0,1,7.81-1.87A45.78,45.78,0,0,1,66.49,3c1.59,0,3.15.1,4.72.25s3.13.34,4.67.62A59.32,59.32,0,0,1,87.69,7.54a85.06,85.06,0,0,1,14.61,7.89,86,86,0,0,1,12.5,10.18,115.75,115.75,0,0,1,9.52,11.23c4.93,6.45,8,11.79,9.72,16.78A48.86,48.86,0,0,1,135.53,59,58.22,58.22,0,0,1,135.74,71.9Z" transform="translate(0.5 -2.5)" fill="none" stroke="#000" stroke-miterlimit="10"/></clipPath></svg>
 			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><defs><clipPath id="coin-path-tiny"><path d="M50.9,26.84a26.33,26.33,0,0,1-1.24,5.39,32.54,32.54,0,0,1-2,4.76,28.38,28.38,0,0,1-7.1,8.95,16.93,16.93,0,0,1-5.67,2.61,22.42,22.42,0,0,1-4.08.5L30,49.1l-3,.24q-1.21.09-2.43.09c-.41,0-.81,0-1.21,0a26.46,26.46,0,0,1-5.54-.73,20.51,20.51,0,0,1-4.48-1.81,28.46,28.46,0,0,1-8.69-7A20.37,20.37,0,0,1,.89,32.93a25.64,25.64,0,0,1-.72-9.67,24.86,24.86,0,0,1,1-4.16,23.26,23.26,0,0,1,1-2.66c.37-.78.74-1.53,1.14-2.29s.8-1.5,1.23-2.24,1-1.25,1.56-1.87c.78-.86,1.61-1.7,2.46-2.49A21.9,21.9,0,0,1,10.92,5.6,22.44,22.44,0,0,1,13,4.31a20.55,20.55,0,0,1,3-1.5A21.46,21.46,0,0,1,18.7,1.9a17.24,17.24,0,0,1,2.92-.7A17.57,17.57,0,0,1,24.94,1a17.14,17.14,0,0,1,1.76.1c.59,0,1.18.13,1.76.23A22.61,22.61,0,0,1,32.88,2.7a32.16,32.16,0,0,1,5.48,3,31.82,31.82,0,0,1,4.69,3.82,43.39,43.39,0,0,1,3.57,4.21A23.26,23.26,0,0,1,50.27,20a18.06,18.06,0,0,1,.55,2A21.58,21.58,0,0,1,50.9,26.84Z" transform="translate(0.5 -0.5)" fill="none" stroke="#000" stroke-miterlimit="10"/></clipPath></defs></svg>
 			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><defs><clipPath id="coin-path-small"><path d="M81.85,43.54a43,43,0,0,1-2,8.67,54.57,54.57,0,0,1-3.2,7.66A46.14,46.14,0,0,1,65.24,74.26a27.74,27.74,0,0,1-9.12,4.2,35.43,35.43,0,0,1-6.57.8l-1.27.09c-1.6.1-3.2.23-4.84.38-1.3.1-2.6.14-3.9.14-.66,0-1.31,0-1.95,0a41.77,41.77,0,0,1-8.91-1.17,33.37,33.37,0,0,1-7.21-2.9,45.92,45.92,0,0,1-14-11.32,32.43,32.43,0,0,1-6.07-11.1A41,41,0,0,1,.28,37.79a39,39,0,0,1,1.55-6.68A41.38,41.38,0,0,1,3.5,26.82c.6-1.25,1.2-2.46,1.84-3.68s1.28-2.4,2-3.6c.8-1,1.64-2,2.52-3,1.25-1.39,2.58-2.73,4-4A33.2,33.2,0,0,1,17.56,9.4a36.08,36.08,0,0,1,3.35-2.09,34.54,34.54,0,0,1,4.74-2.4,33,33,0,0,1,4.41-1.46A28.43,28.43,0,0,1,40.09,2c1,0,1.9.07,2.85.15s1.89.21,2.81.38a35.33,35.33,0,0,1,7.12,2.19,50.54,50.54,0,0,1,8.81,4.75,52.94,52.94,0,0,1,7.54,6.14A72.55,72.55,0,0,1,75,22.4a37.39,37.39,0,0,1,5.86,10.12,31,31,0,0,1,.9,3.27A35.86,35.86,0,0,1,81.85,43.54Z" transform="translate(0.5 -1.5)" fill="none" stroke="#000" stroke-miterlimit="10"/></clipPath></defs></svg>
+			<svg xmlns="http://www.w3.ord/3000/svg" style="display: none;">
+                <symbol id="coin-gold-ring" viewbox="0 0 105.41 100.25">
+                    <path d="M357,399.24a53.41,53.41,0,0,1-2.49,10.83,67.93,67.93,0,0,1-4,9.56,57.71,57.71,0,0,1-4.7,7.71,56.94,56.94,0,0,1-9.55,10.26,34.56,34.56,0,0,1-11.39,5.24,44.3,44.3,0,0,1-8.2,1l-1.58.11c-2,.13-4,.29-6.05.48-1.62.12-3.25.18-4.87.18-.82,0-1.63,0-2.44-.05a52.47,52.47,0,0,1-11.12-1.47,41.32,41.32,0,0,1-9-3.62,57.28,57.28,0,0,1-17.44-14.13,40.6,40.6,0,0,1-7.58-13.86,51.34,51.34,0,0,1-1.45-19.42,48.65,48.65,0,0,1,1.94-8.35,49.78,49.78,0,0,1,2.09-5.35c.74-1.56,1.49-3.07,2.29-4.6s1.6-3,2.46-4.49c1-1.3,2.05-2.52,3.15-3.75,1.56-1.73,3.22-3.41,4.94-5a43.12,43.12,0,0,1,4.71-3.92A45.24,45.24,0,0,1,280.9,354a42.64,42.64,0,0,1,5.93-3,42.21,42.21,0,0,1,5.5-1.83,36,36,0,0,1,5.88-1.41,35.25,35.25,0,0,1,6.65-.37c1.19,0,2.37.08,3.55.19s2.36.26,3.52.47a44.75,44.75,0,0,1,8.89,2.73,64.07,64.07,0,0,1,11,5.94,64.92,64.92,0,0,1,9.41,7.67,87.82,87.82,0,0,1,7.17,8.45c3.71,4.86,6,8.88,7.32,12.64a37.82,37.82,0,0,1,1.12,4.08A44,44,0,0,1,357,399.24Z" transform="translate(-253.29 -345.87)" fill="none" stroke="#bea761" stroke-miterlimit="10" stroke-width="3"/>
+                </symbol>
+                <symbol id="post-grey" viewBox="0 0 24 24">
+                    <path fill="#7F7F7F" d="M17.8,20C17.4,21.2 16.3,22 15,22H5C3.3,22 2,20.7 2,19V18H5L14.2,18C14.6,19.2 15.7,20 17,20H17.8M19,2H8C6.3,2 5,3.3 5,5V16H16V17C16,17.6 16.4,18 17,18H18V5C18,4.4 18.4,4 19,4C19.6,4 20,4.4 20,5V6H22V5C22,3.3 20.7,2 19,2Z" />
+                </symbol>
 
-			<script src="/assets/js/accordian.js"></script>
-			<script src="/assets/js/toggle.js"></script>
+
+            </svg>
+
+				
+			<script>
+                let recContent = document.querySelectorAll('.testimonial');
+                let recPhoto = document.querySelectorAll('.author-photo');
+                for (i = 0; i < recPhoto.length; i++) {
+                    recPhoto[i].addEventListener('click', toggleRec, false);
+                }
+                function unselectRest() {    
+                    let selectedPhoto = document.querySelector('.selected');
+                    let selectedContent= document.querySelector('.visible');
+                    selectedPhoto.classList.remove('selected');
+                    selectedPhoto.classList.add('unselected');
+                    selectedContent.classList.remove('visible');
+                    selectedContent.classList.add('hidden');
+                }
+                function toggleRec() {
+                    let recId = this.id;
+                    unselectRest();
+                    if (this.classList.contains('unselected')) {
+                        this.classList.remove('unselected');
+                        this.classList.add('selected');
+                        let recIdContent = 't' + recId;
+                        document.getElementById(recIdContent).classList.remove('hidden');
+                        document.getElementById(recIdContent).classList.add('visible');
+                    }
+                }
+            </script>
 		</footer>
 	</body>
 </html>

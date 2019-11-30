@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
 			Colors
 -------------------------------------------------------- */
-/* Convert SASS color variables for each theme to CSS variables */
+// Convert SASS color variables for each theme to CSS variables */
 html[data-theme="light"] {
 	@each $name, $color in $light-colors {
 		--color-#{$name}: #{$color};
@@ -12,7 +12,7 @@ html[data-theme="dark"] {
 		--color-#{$name}: #{$color};
 	}
 }
-/* Dark and light mode dependent styling */
+// Dark and light mode dependent styling */
 @mixin theme-transition($property) {
     transition: $property 0.5s ease-out 0s;
 }
@@ -25,7 +25,7 @@ body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure, #pos
 svg {
     @include theme-transition(fill);
 }
-/* Theme switcher icon animation animation while in light mode */
+// Theme switcher icon animation animation while in light mode */
 html[data-theme="light"] {    
     #lightswitch {
         #moon {
@@ -266,7 +266,8 @@ a {
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
     grid-row: 2;
     grid-column: 2 / 16;
-    margin: 0;
+    line-height: 1.2;
+    margin: 0 0 2rem 0;
 }
 .post-meta {
     font-size: .75rem;
@@ -282,7 +283,16 @@ a {
         grid-template-columns: 6rem 1fr auto;
     }
     .coin {
-        @include coingold;
+        height: 58px;
+        width: 58px;
+        margin: -6.5px 0 0 0;
+        padding: 0;
+        position: absolute;
+        @include media-query($medium) {
+            height: 95px;
+            width: 95px;
+            margin: -10.5px 0 0 0;
+        }        
     }
     figure {      
         @include coinphoto;

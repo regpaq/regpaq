@@ -229,7 +229,7 @@ Self-started marketing agency offering website development and marketing service
 {%- else -%}
         <div id="{{ i }}" class="author-photo unselected">
 {%- endif -%}
-            <div class="coin"></div>
+            <svg class="coin"><use xlink:href="#coin-gold-ring" /></svg>
             <figure><img src="/assets/images/{{ item.Photo }}" /></figure>
         </div>
 {%- endfor -%}

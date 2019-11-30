@@ -198,7 +198,6 @@ pre > code {
 /* --------------------------------------------------------
 			Colors
 -------------------------------------------------------- */
-/* Convert SASS color variables for each theme to CSS variables */
 html[data-theme="light"] {
   --color-bg: #FFFFFF;
   --color-bg-highlight: #F5F2EC;
@@ -227,7 +226,6 @@ html[data-theme="dark"] {
   --color-highlight: #222234;
 }
 
-/* Dark and light mode dependent styling */
 body, .hashtag-nav a, .featured-articles, .featured-articles ul li, figure, #post-categories a {
   transition: background-color 0.5s ease-out 0s;
 }
@@ -240,7 +238,6 @@ svg {
   transition: fill 0.5s ease-out 0s;
 }
 
-/* Theme switcher icon animation animation while in light mode */
 html[data-theme="light"] {
   /* Resume specific changes */
 }
@@ -526,7 +523,8 @@ a:hover {
   font-size: 19.2px;
   grid-row: 2;
   grid-column: 2 / 16;
-  margin: 0;
+  line-height: 1.2;
+  margin: 0 0 2rem 0;
 }
 @media screen and (min-width: 320px) {
   .article-subtitle {
@@ -557,19 +555,17 @@ a:hover {
   }
 }
 .post-meta .coin {
-  background-image: url(/assets/images/svg/coin-gold-ring.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 58px;
+  width: 58px;
+  margin: -6.5px 0 0 0;
+  padding: 0;
   position: absolute;
-  height: 59px;
-  width: 59px;
-  margin: -3.7px 0 0 0;
 }
 @media screen and (min-width: 768px) {
   .post-meta .coin {
     height: 95px;
     width: 95px;
-    margin: -5.5px 0 0 0;
+    margin: -10.5px 0 0 0;
   }
 }
 .post-meta figure {
@@ -1746,7 +1742,7 @@ aside.many {
 .resume .coin {
   height: 153px;
   width: 153px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 2px;
 }
 .resume .profile {
@@ -2205,19 +2201,17 @@ aside.many {
   position: relative;
 }
 .resume .author-photo .coin {
-  background-image: url(/assets/images/svg/coin-gold-ring.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 58px;
+  width: 58px;
+  margin: -4.5px 0 0 0;
+  padding: 0;
   position: absolute;
-  height: 59px;
-  width: 59px;
-  margin: -3.7px 0 0 0;
 }
 @media screen and (min-width: 768px) {
   .resume .author-photo .coin {
     height: 95px;
     width: 95px;
-    margin: -5.5px 0 0 0;
+    margin: -8.5px 0 0 0;
   }
 }
 .resume .author-photo figure {

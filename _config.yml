@@ -43,7 +43,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+feed:
+  categories:
+    - all
+
 include: ['_redirects']
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

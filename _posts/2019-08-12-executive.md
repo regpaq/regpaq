@@ -4,6 +4,7 @@ title: The Effective Executive — Summary, Notes, + Quotes
 description: The essential handbook to learn leadership and effectiveness at work.
 date: '2019-08-12T06:30:00-08:00'
 categories: [booknotes]
+category: [all]
 slug: /effective-executive-summary-quotes-peter-drucker
 image: /assets/images/peter-drucker.jpg
 image-alt: Peter Drucker author of The Effective Executive

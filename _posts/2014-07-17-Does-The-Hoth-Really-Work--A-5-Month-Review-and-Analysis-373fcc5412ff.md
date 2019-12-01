@@ -4,6 +4,7 @@ title: Does The Hoth Really Work? A 5 Month Review and Analysis
 description: Stop buying links
 date: 2014-07-17 00:12:27 -0700
 categories: [marketing]
+category: [all]
 slug: /does-the-hoth-really-work-a-5-month-review-and-analysis
 image: /assets/images/the-hoth-review.jpg
 image-alt: the-hoth-review.jpg

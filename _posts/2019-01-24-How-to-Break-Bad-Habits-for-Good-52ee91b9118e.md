@@ -4,6 +4,7 @@ title: How to Break Bad Habits for Good
 description: The best tips from Atomic Habits on breaking your worse habits
 date: '2019-01-24T23:45:09.504Z'
 categories: [practical]
+category: [all]
 slug: /how-to-break-bad-habits
 image: /assets/images/how-to-break-bad-habits.png
 image-alt: how to break bad habits

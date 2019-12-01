@@ -18,5 +18,6 @@
   "homepage": "https://github.com/regpaq/regpaq#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
-  }
+  },
+  "dependencies": {}
 }

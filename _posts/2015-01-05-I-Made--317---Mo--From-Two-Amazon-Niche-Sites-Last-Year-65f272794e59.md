@@ -4,6 +4,7 @@ title: I Made $317 / Mo. From Two Amazon Niche Sites Last Year
 description: And here’s how I did it.
 date: '2015-01-05T18:17:44.000Z'
 categories: [marketing]
+category: [all]
 slug: /i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it
 image: /assets/images/niche-site-amazon-affiliate.png
 image-alt: niche site amazon affiliate

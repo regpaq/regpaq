@@ -4,6 +4,7 @@ title: How to Make New Habits Stick When Motivation Runs Out
 description: The 6 best tips from Atomic Habits on building habits that last
 date: '2019-01-21T16:44:36.213Z'
 categories: [practical]
+category: [all]
 slug: /how-to-make-habits-stick
 image: /assets/images/how-to-make-new-habits-stick.jpeg
 image-alt: how to make new habits stick

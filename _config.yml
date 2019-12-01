@@ -43,6 +43,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+feed:
+  categories:
+    - all
+
 include: ['_redirects']
 
 # Exclude from processing.

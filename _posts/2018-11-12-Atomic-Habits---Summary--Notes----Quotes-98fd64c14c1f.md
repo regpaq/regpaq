@@ -4,6 +4,7 @@ title: 'Atomic Habits - Summary, Notes, + Quotes'
 description: Who you’ll become in your future can be answered by your behavior today.
 date: '2018-11-12T18:27:42.017Z'
 categories: [booknotes]
+category: [all]
 slug: /atomic-habits-review-notes-lessons
 image: /assets/images/atomic-habits-summary-review.png
 image-alt: atomic habits summary review

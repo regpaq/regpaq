@@ -4,6 +4,7 @@ title: Stop Comparing Yourself to Others — Use This Benchmark Instead
 description: Here’s what you can do instead.
 date: '2019-02-13T20:11:11.378Z'
 categories: [philosophy]
+category: [all]
 slug: /stop-comparing-yourself-to-others
 image: /assets/images/stop-comparing-yourself-to-others.jpeg
 image-alt: stop comparing yourself to others

@@ -6,6 +6,7 @@ description: Fix your bad spending habits with the last budget spreadshet you'll
 display-description: Fix your bad spending habits by following a budget.
 date: '2019-02-01T15:51:34-08:00'
 categories: [practical]
+category: [all]
 slug: /google-sheets-budget-template
 image: /assets/images/google-sheets-budget-template.jpeg
 image-alt: google sheets budget template

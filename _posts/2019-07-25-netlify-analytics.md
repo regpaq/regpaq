@@ -4,6 +4,7 @@ title: Netlify Analytics Review
 description: Is it everything the industry has been waiting for?
 date: '2019-07-25T01:02:48.485Z'
 categories: [marketing]
+category: [all]
 slug: /netlify-analytics-review
 image: /assets/images/netlify-analytics.jpg
 image-alt: netlify analytics review

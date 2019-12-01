@@ -24,10 +24,10 @@
 /* --------------------------------------------------------
             Subscribe Form
 -------------------------------------------------------- */
-.mc-field-group { 
+.ml-input-horizontal, .ml-button-horizontal { 
     display: inline-block; 
 }
-#mc_embed_signup input.email {
+.ml-block-form input[type="email"] {
     font-family: $Monospace;
     font-size: .85rem; 
     font-weight: 900;
@@ -52,7 +52,7 @@
         font-size: $base-font-size * 1.308;        
     }
 }
-#mc_embed_signup input {
+.ml-block-form input {
     &::-webkit-input-placeholder {
         color: v(brand);
         font-weight: 400;
@@ -72,19 +72,24 @@
         outline: none;
     }
 }
-#mc_embed_signup label {
+.ml-block-form label {
     // display:block;
     font-size:16px;
     padding-bottom:10px;
     font-weight:bold;
 }
-#mc_embed_signup .clear {
+.ml-block-form .clear {
     display: inline-block;
     @include media-query($small) {
         padding-left: $spacing-unit * 2;
     }
 }
-#mc_embed_signup .button {
+.ml-button-horizontal {
+    @include media-query($small) {
+        padding-left: $spacing-unit * 2;
+    }
+}
+.ml-block-form button {
     font-family: $SansSerif;
     font-size: .85rem;
     border: none; 
@@ -98,26 +103,35 @@
     display: inline-block; 
     margin: 0; 
     transition: all 0.08s ease-in-out 0.08s;
-    -webkit-appearance: none;
+    -webkit-appearance: none;    
     @include media-query($medium) {
         font-size: $base-font-size * 1.308;        
     }
 }
-#mc_embed_signup .button:hover {
+.ml-block-form button:hover {
     cursor:pointer;
 }
-#mc_embed_signup div#mce-responses {
-    float:left; top:-1.4em; padding:0 .5em 0 .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;
+.ml-form-embedSubmitLoad {
+    display: inline-block;
+    width: 20px;
+    height: 20px
 }
-#mc_embed_signup div.response {
-    margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;
+.ml-form-embedSubmitLoad:after {
+    content: " ";
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    border-color: #fff #fff #fff transparent;
+    animation: ml-form-embedSubmitLoad 1.2s linear infinite
 }
-#mc_embed_signup #mce-error-response {
-    display:none;
-}
-#mc_embed_signup #mce-success-response {
-    color:#529214; display:none;
-}
-#mc_embed_signup label.error {
-    display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;
+@keyframes ml-form-embedSubmitLoad {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }

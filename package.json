@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/regpaq/regpaq/issues"
   },
-  "homepage": "https://github.com/regpaq/regpaq#readme"
+  "homepage": "https://github.com/regpaq/regpaq#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/regpaq/regpaq#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-jpeg-2000": "^1.1.2",
+    "gulp-newer": "^1.4.0"
+  },
+  "dependencies": {
+    "imagemagick": "^0.1.3",
+    "imagemin-mozjpeg": "^8.0.0"
   }
 }

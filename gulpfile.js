@@ -2,23 +2,69 @@ const gulp = require('gulp');
 const newer = require('gulp-newer');
 const imagemin = require('gulp-imagemin');
 const mozjpeg = require('imagemin-mozjpeg');
-const jp2 = require('gulp-jpeg-2000');
+const webp = require('gulp-webp');
+const pngquant = require('gulp-pngquant');
 
 
-// image processing
-function images() {
 
-    const out = 'assets/images/';
+// jpg image processing
+function jpgImages() {
 
-    return gulp.src('_rawAssets/*')
+    let out = 'assets/images/';
+    let JPEGImages = '_rawAssets/*.jp*';
+
+    return gulp.src(JPEGImages)
         .pipe(newer(out))
         .pipe(imagemin([
-            mozjpeg({quality: 80}),
-            imagemin.optipng({optimizationLevel: 5}),    
+            mozjpeg({quality: 75}),   
         ],
         { verbose: true }
         ))
         .pipe(gulp.dest(out));
 }
+exports.jpgImages = jpgImages;
 
-exports.images = images;
+// png image processing
+function pngImages() {
+
+    let out = 'assets/images/';
+    let PNGImages = '_rawAssets/*.png';
+
+    return gulp.src(PNGImages)
+        .pipe(newer(out))
+        .pipe(pngquant({ quality: 75 }),
+        { verbose: true }
+        )
+        .pipe(gulp.dest(out));
+}
+exports.pngImages = pngImages;
+
+// webp jpg conversion
+function convertJpgToWebp() {
+
+    let out = 'assets/images/webp/';
+    let JPEGImages = 'assets/images/*.jp*';
+
+    return gulp.src(JPEGImages)
+        .pipe(newer(out))
+        .pipe(webp(),
+        { verbose: true }
+        )
+        .pipe(gulp.dest(out));
+}
+exports.convertJpgToWebp = convertJpgToWebp;
+
+// webp png conversion
+function convertPngToWebp() {
+
+    let out = 'assets/images/webp/';
+    let PNGImages = 'assets/images/*.png';
+
+    return gulp.src(PNGImages)
+        .pipe(newer(out))
+        .pipe(webp(),
+        { verbose: true }
+        )
+        .pipe(gulp.dest(out));
+}
+exports.convertPngToWebp = convertPngToWebp;

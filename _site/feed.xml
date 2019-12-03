@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-02T09:55:58-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I’m Learning Virtue is Its Own Reward</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="I'm Learning Virtue is Its Own Reward" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-03T10:06:18-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I’m Learning Virtue is Its Own Reward</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="I'm Learning Virtue is Its Own Reward" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -489,7 +489,11 @@
 &lt;p&gt;No. Not right now. At $9/month for a product whose competitors are free and more capable, everyone was expecting more from this release.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/netlify-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;You only have one “screen” without a single filter to segment your data.&lt;/strong&gt; Most egregious though is they delete data older than 30 days (or at least it’s not accessible). Second, I need to be able to break down referrer and pageviews by URL so I can see from where and how much traffic specific pages are getting.&lt;/p&gt;
 
@@ -518,7 +522,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/medium-vs-self-hosted-blog.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -530,7 +538,11 @@
 &lt;p&gt;Below was our very simple website structure. My challenge was to build and expand on this content in order to rank for more bottom-of-funnel (BOFU) search queries and therefore generate more leads without increasing marketing spend.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Original ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-1.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Original ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
 
@@ -547,7 +559,11 @@
 &lt;p&gt;Once we knew what queries to go after, we planned what pages to create and where they would fit on our site. Here’s the new sitemap we came up with:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-2.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The Product Tour would expand from a single page to nine pages. An all new section for the Industries we serve allowed us to create four more pages to go after more target queries.&lt;/p&gt;
 
@@ -562,35 +578,111 @@
 &lt;p&gt;We first published the Industry pages, because they had the highest ROI potential and were quicker to create. Here’s what they looked like:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/hvac-software&quot;&gt;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-hvac-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-electrical-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-plumbing-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/hvac-software&quot;&gt;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then after much revisions and improvements, we published the new Product Tour. The old, single page Product Tour looked like this:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-old-product-tour.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;It had only one section for each major function of the product. From a brand and web experience point-of-view, it would not be beneficial to the user to only expand on the functions that had opportunity in search. Therefore we expanded on all the main product functions into their own pages. And here’s what they looked like:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-dispatch-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-scheduling-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-call-booking-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-marketing-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-field-reporting-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-mobile-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/dispatch-software&quot;&gt;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-financing-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-financing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-field-reporting-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/servicetitan-quickbooks-software.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/dispatch-software&quot;&gt;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;part-iionsite-seo&quot;&gt;Part II — Onsite SEO&lt;/h2&gt;
 
 &lt;p&gt;As we published the pages, I directed our SEO Specialist to fine tune each page for better rankings. This included the meta title and description, the heading tags on the page, the keyword density, and proper schema and HTML markup. To increase our click-through-rate (CTR) in the search engine result pages (SERPs), we used the review schema:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.capterra.com/p/150053/ServiceTitan/&quot;&gt;Review data used from Capterra.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-schema.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-schema.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.capterra.com/p/150053/ServiceTitan/&quot;&gt;Review data used from Capterra.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then to let Google know these new pages are important, we added a new section on our homepage to spread some “link juice” to them.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/&quot;&gt;Links on the homepage to the new Industry pages.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-homepage.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-homepage.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/&quot;&gt;Links on the homepage to the new Industry pages.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Finally, we went through our best blog posts and added internal links to our new Industry and Product Tour pages where appropriate.&lt;/p&gt;
 
@@ -605,16 +697,24 @@
 &lt;p&gt;We published the Industry pages in early Q2 of 2018 and the new Product Tour in Q3. For each Industry page’s primary keyword, we achieved a rank of either #3 or #2 in the SERPs. While the new Product Tour’s rankings are still improving, the primary query for those pages have less volume and are less lucrative. Every week we exported a search performance report from GSC. Using REGEXMATCH formulas in Google Sheets, we bucketed queries into segments to track performance in the SERPs.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of impressions and clicks from Google Search Console.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-serp-performance.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-serp-performance.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of impressions and clicks from Google Search Console.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Non-brand BOFU organic clicks grew 260% by the beginning of Q4 ‘18 compared to the average month in Q1.&lt;/p&gt;
 
-&lt;p&gt;To attribute down funnel metrics to organic search, we used &lt;a href=&quot;https://www.bizible.com/&quot;&gt;Bizible&lt;/a&gt;. With Bizible’s integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.&lt;/p&gt;
+&lt;p&gt;To attribute down funnel metrics to organic search, we used &lt;a href=&quot;https://www.bizible.com/&quot; target=&quot;_blank&quot;&gt;Bizible&lt;/a&gt;. With Bizible’s integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-results.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-results.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" /><media:content medium="image" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
+&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images//servicetitan-seo-1.png" /><media:content medium="image" url="http://localhost:4000/assets/images//servicetitan-seo-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You don’t “own” your traffic because your blog is on medium.com&lt;/li&gt;
@@ -634,14 +734,22 @@
 &lt;p&gt;There’s one huge problem with Medium stats. &lt;strong&gt;They include views of your comments on other people’s articles in your view count!&lt;/strong&gt; And there is no way to filter them out. So no, you can’t see how many total views just your articles received over time.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-stats.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-stats.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;The other major problem is you can only view your traffic in 30 day windows.&lt;/strong&gt; If you got a lot of views one day, you can’t look at just that day’s traffic and see what pages got the most views or where that traffic came from.&lt;/p&gt;
 
 &lt;p&gt;Above the graph, Medium suggests you can click a story to see stats for just that story. Unfortunately, when you click on a story it loads a new page and takes five seconds to load. &lt;strong&gt;So you have to click each individual story one by one to uncover which story went “viral” and racked up the most views on a big traffic day.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-referrers.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-referrers.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Inside an individual story’s stats, you can see the list of referrers. But only the domain.&lt;/strong&gt; In the above example, I can’t see which Reddit threads are talking about my article! Which means I can’t see what people are saying and jump in the conversation.&lt;/p&gt;
 
@@ -658,13 +766,29 @@
 &lt;p&gt;Another benefit to a static site is the speed. Because WordPress and Medium use a database, it loads much slower. Here is the Pingdom page speed and Google score comparison of the same article on Medium versus the current static site.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;The static site is a massive improvement for speed&lt;/strong&gt; - even without any image optimization. This should improve the bounce rate and thus increase organic rankings. But because people know what to expect when they land on a Medium-designed article, it’s possible the new design increases the bounce rate. I’ll never know for certain because you can’t measure the bounce rate on Medium. &lt;/p&gt;
 
@@ -680,7 +804,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/netlify-analytics.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -707,7 +835,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/netlify-analytics.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -743,7 +875,11 @@
 &lt;p&gt;As a team, we were able to increase productivity and efficiency that resulted in a 49% increase in cold outbound booked meetings in Q1 ’19 compared to Q4 ’18 and a 118% jump in pipeline generated. We were trending to improve booked meetings in Q2 ’19 by another 18% and pipeline by 9%.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; alt=&quot;Cold outbound booked meeting and pipeline improvement.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Revenue From Inbound 282% in Q2 ’19 Over Q1</title><link href="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1" rel="alternate" type="text/html" title="Grew Revenue From Inbound 282% in Q2 ’19 Over Q1" /><published>2019-06-10T11:42:47-07:00</published><updated>2019-06-10T11:42:47-07:00</updated><id>http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1</id><content type="html" xml:base="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-cold-outbound-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; alt=&quot;Cold outbound booked meeting and pipeline improvement.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Revenue From Inbound 282% in Q2 ’19 Over Q1</title><link href="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1" rel="alternate" type="text/html" title="Grew Revenue From Inbound 282% in Q2 ’19 Over Q1" /><published>2019-06-10T11:42:47-07:00</published><updated>2019-06-10T11:42:47-07:00</updated><id>http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1</id><content type="html" xml:base="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;We had a &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;goal to double new business monthly revenue&lt;/a&gt; in less than 12 months and it was going to take massive effort from both our cold prospecting and demand gen efforts. Additionally, we wanted to increase market awareness of our flagship product, Concierge, which allowed qualified leads to schedule their own sales meeting while filling out a demo request form — a step toward being more self-serve for B2B companies that require prospects to go through sales to become a customer.&lt;/p&gt;
 
@@ -754,18 +890,34 @@
 &lt;p&gt;We started LinkedIn ads with great success in the last two quarters of 2018, but we began to experience some audience decay as costs-per-click and costs-per-booked meeting started to rise dramatically. What was once a fresh product for a new audience became a stale product for an audience who’s seen our ads and product several dozen times — if they didn’t convert already, we would need to do something different to convert them now. Here’s the type of ads we had ran when first starting LinkedIn Ads:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-1.jpeg&quot; alt=&quot;Old Chili Piper LinkedIn ads that worked when first starting the channel.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old Chili Piper LinkedIn ads that worked when first starting the channel.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-1.jpeg&quot; alt=&quot;Old Chili Piper LinkedIn ads that worked when first starting the channel.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old Chili Piper LinkedIn ads that worked when first starting the channel.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Since we were spending ~$10k+ on LinkedIn to reach our audience every month, I decided our next move was to run more visually engaging ads that showed and explained the product so even if people didn’t click through, they could see what our product had to offer. The “secret weapon” would now be revealed into their news feeds, which also made impressions much more valuable. Here’s what they looked like:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-2.jpeg&quot; alt=&quot;New image ads.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New image ads.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-2.jpeg&quot; alt=&quot;New image ads.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New image ads.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-3.jpeg&quot; alt=&quot;New LinkedIn carousel ad to increase engagement and show how Concierge works.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New LinkedIn carousel ad to increase engagement and show how Concierge works.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-3.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-3.jpeg&quot; alt=&quot;New LinkedIn carousel ad to increase engagement and show how Concierge works.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New LinkedIn carousel ad to increase engagement and show how Concierge works.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-4.gif&quot; alt=&quot;New video ad.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New video ad.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-4.gif&quot; type=&quot;image/gif&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-4.gif&quot; alt=&quot;New video ad.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New video ad.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;And I tested video ads showing how it works right on the landing page this ad led to.&lt;/p&gt;
 
@@ -776,7 +928,11 @@
 &lt;p&gt;In addition to increasing the value of ad impressions on LinkedIn, I also overhauled our landing page with improved copy, branding, and design:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-5.jpeg&quot; alt=&quot;Old landing page on the left; new on the right.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old landing page on the left; new on the right.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-5.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-5.jpeg&quot; alt=&quot;Old landing page on the left; new on the right.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old landing page on the left; new on the right.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The new landing page converted 84% better (4.94% vs 2.68%) than the old one. A big reason for this improvement was the new ads were sending less clicks than the old ads, but the traffic was higher quality because the new ads showed what the product was about.&lt;/p&gt;
 
@@ -793,7 +949,11 @@
 &lt;p&gt;Then I set up a retargeting campaign to all website visitors, including those who visited our landing pages from LinkedIn and AdWords. The ads looked like this:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-6.jpeg&quot; alt=&quot;New Chili Piper Google retargeting ads.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Google retargeting ads.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-6.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-6.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-6.jpeg&quot; alt=&quot;New Chili Piper Google retargeting ads.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Google retargeting ads.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now anyone who visited our website or our landing pages and didn’t convert would see our product, branding, and main value prop. Anyone who visited our website and is in the sales process with an account executive would see these ads, too.&lt;/p&gt;
 
@@ -832,7 +992,11 @@
 &lt;p&gt;Therefore, I knew how many reps we needed to hit a particular Outbound meeting goal and closed won revenue goal. Then we added an estimated ramp period and figured out what was possible with cold Outbound based on when and how many people we could afford to hire.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-1.png&quot; alt=&quot;Cold outbound hiring plan and forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound hiring plan and forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-1.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-1.png&quot; alt=&quot;Cold outbound hiring plan and forecast.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound hiring plan and forecast.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Cold Outbound hiring plan and booked meeting forecast to hit goal in December ‘19.&lt;/p&gt;
 
@@ -841,7 +1005,11 @@
 &lt;p&gt;Next was to look at the levers, which I concluded to be (1) our conversion rates of each part of the funnel and (2) our average customer value (ACV).&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-2.png&quot; alt=&quot;Levers can be adjusted for a ground up forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Levers can be adjusted for a ground up forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-2.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-2.png&quot; alt=&quot;Levers can be adjusted for a ground up forecast.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Levers can be adjusted for a ground up forecast.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Blue numbers are the levers. By pulling these levers, we could improve efficiency over time. Number of Goal Booked Meetings roll up from the inputs.&lt;/p&gt;
 
@@ -854,12 +1022,20 @@
 &lt;p&gt;Continuing my methodology for Events, the inputs are (1) the number of events and (2) the number of expected meetings from each event. Working with our Events Manager, we were able to roughly plan out the rest of the year and set meeting goals for each event and attending sales rep.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-3.png&quot; alt=&quot;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-3.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-3.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-3.png&quot; alt=&quot;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Event booked meeting goals by sales rep. Meetings booked by “Other” are from non Sales team members.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The levers for Events are the same as Outbound, conversion rates and ACV; however, we didn’t forecast any change here since we already converted well from events.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-4.png&quot; alt=&quot;Number of Goal Booked Meetings roll up from the inputs.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Number of Goal Booked Meetings roll up from the inputs.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-4.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-4.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-4.png&quot; alt=&quot;Number of Goal Booked Meetings roll up from the inputs.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Number of Goal Booked Meetings roll up from the inputs.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;paid-inbound&quot;&gt;Paid Inbound&lt;/h4&gt;
 
@@ -868,12 +1044,20 @@
 &lt;p&gt;Instead, my inputs were the number of leads I could reasonably expect from each of the channels we’re currently using and plan to use in the future.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-5.png&quot; alt=&quot;Inbound lead goal by channel for Paid Inbound.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Inbound lead goal by channel for Paid Inbound.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-5.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-5.png&quot; alt=&quot;Inbound lead goal by channel for Paid Inbound.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Inbound lead goal by channel for Paid Inbound.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The levers for Inbound include conversion rates and ACV, but start with Leads and two additional conversion stages: Lead &amp;gt; Marketing Qualified Lead (MQL) and MQL to Booked Meeting (BM). For spend, I estimated the average total CPL and therefore determined the budget required for paid acquisition for the rest of the year.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-6.png&quot; alt=&quot;Paid forecast broken down by channel.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Paid forecast broken down by channel.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-6.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-6.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-6.png&quot; alt=&quot;Paid forecast broken down by channel.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Paid forecast broken down by channel.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Since we didn’t have historical Paid &amp;amp; Earned Inbound metrics until May, Paid Inbound forecasts start in June.&lt;/p&gt;
 
@@ -882,21 +1066,33 @@
 &lt;p&gt;Earned Inbound is even more trickier than Paid. For the most part, Earned Inbound is out of my direct control. Results come from a combination of activities done throughout the company. And since we didn’t have a marketing automation platform set up, we couldn’t yet determine the source of non paid leads, which could either be direct, organic, or referral. So unfortunately, there was much more guess work here and I simply estimated a growth in leads over time and the levers being the same as Paid Inbound.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-7.png&quot; alt=&quot;Estimated growth in Earned (non paid) leads over time.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Estimated growth in Earned (non paid) leads over time.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-7.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-7.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-7.png&quot; alt=&quot;Estimated growth in Earned (non paid) leads over time.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Estimated growth in Earned (non paid) leads over time.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;step-3making-thisuseful&quot;&gt;Step 3 — Making This Useful&lt;/h3&gt;
 
 &lt;p&gt;Each function’s goals had two tables below: (1) an auto updating “Actuals” table and (2) a table comparing the differences from Goal to Actual to visually see where we hit and missed goal.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-8.jpeg&quot; alt=&quot;Everything rolls up for a total customer acquisition forecast.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Everything rolls up for a total customer acquisition forecast.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-8.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-8.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-8.jpeg&quot; alt=&quot;Everything rolls up for a total customer acquisition forecast.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Everything rolls up for a total customer acquisition forecast.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Having all this data in one place was great for the leadership team to get a pulse check on all the teams in CA.&lt;/p&gt;
 
 &lt;p&gt;Then because I built dashboards for &lt;a href=&quot;/automating-new-business-revenue-reporting-into-google-sheets&quot;&gt;New Business Revenue&lt;/a&gt;, &lt;a href=&quot;/building-the-marketing-dashboard&quot;&gt;Marketing&lt;/a&gt;, and Outbound Sales, I could put an auto updating Trend and Goal column where each team could see what they were currently trending to as a team and individually and how that compared to the month’s Goal. This made it easy to see at any point during the month where we had to step up in order to hit goal. Here’s an example of what that looked like:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-9.jpeg&quot; alt=&quot;Forecast and goals by channel were added to each channel's dashboards.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Forecast and goals by channel were added to each channel's dashboards.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-forecast-9.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-forecast-9.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-forecast-9.jpeg&quot; alt=&quot;Forecast and goals by channel were added to each channel's dashboards.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Forecast and goals by channel were added to each channel's dashboards.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
 
@@ -913,7 +1109,11 @@
 &lt;p&gt;Here’s what it looked like and what I wanted to measure:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-1.jpeg&quot; alt=&quot;New Chili Piper Marketing Dashboard.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Marketing Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-mktg-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-mktg-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-1.jpeg&quot; alt=&quot;New Chili Piper Marketing Dashboard.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Marketing Dashboard.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;building-the-dashboard&quot;&gt;Building The Dashboard&lt;/h2&gt;
 
@@ -944,7 +1144,11 @@
 &lt;p&gt;Here’s what that looked like for our biggest audience on LinkedIn:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-2.jpeg&quot; alt=&quot;Marketing attribution channel breadk down for LinkedIn ads&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Marketing attribution channel breadk down for LinkedIn ads&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-mktg-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-mktg-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-mktg-2.jpeg&quot; alt=&quot;Marketing attribution channel breadk down for LinkedIn ads&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Marketing attribution channel breadk down for LinkedIn ads&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;We ran campaigns targeting specific titles in all marketing, sales, and customer success. I built another dashboard for each of these audiences broken down by individual titles. So for marketing for example, we had a full breakdown from spend to close won revenue for VP of Marketing, CMO, Director of Marketing, Demand Gen Marketers, etc.&lt;/p&gt;
 
@@ -976,7 +1180,11 @@
 &lt;p&gt;First we changed the three existing tracking fields to ‘Marketing Campaign,’ ‘Marketing Content,’ and ‘Marketing Term’. Then we added ‘Marketing Source’ and ‘Marketing Medium’. For marketing reporting purposes, we also added ‘Latest Demo Request Date’ and a ‘Demo Requested’ toggle we use to fire other automation. These fields were created on the Lead object in Salesforce (SFDC), the Contact, and the Opportunity (Opp).&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-1.png&quot; alt=&quot;New marketing attribution fields in Salesforce.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New marketing attribution fields in Salesforce.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-attribution-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-attribution-1.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-1.png&quot; alt=&quot;New marketing attribution fields in Salesforce.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New marketing attribution fields in Salesforce.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;step-2creating-the-form-and-capturing-url-parameters&quot;&gt;Step 2 — Creating the Form and Capturing URL Parameters&lt;/h3&gt;
 
@@ -997,7 +1205,11 @@
 &lt;p&gt;It looked liked this:&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-2.jpeg&quot; alt=&quot;URL Builder in a spreadsheet for Chili Piper&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;URL Builder in a spreadsheet for Chili Piper&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-attribution-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-attribution-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-attribution-2.jpeg&quot; alt=&quot;URL Builder in a spreadsheet for Chili Piper&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;URL Builder in a spreadsheet for Chili Piper&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The final cell combined all the data using simple CONCATENATE formulas and resulted in a tracking URL.&lt;/p&gt;
 

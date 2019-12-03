@@ -19,7 +19,11 @@
             </div>
             <div class="rec-img">
                 <figure>
-                    <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.image-alt }}" />
+                    <picture>
+                        <source srcset="/assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
+                        <source srcset="/assets/images/{{ post.image }}" type="image/{{ post.image | split: "." | last }}" />
+                        <img itemprop="image" src="/assets/images/{{ post.image }}" alt="{{ post.image-alt }}" />
+                    </picture>
                 </figure>
             </div>
         </div>

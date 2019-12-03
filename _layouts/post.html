@@ -17,7 +17,7 @@ layout: default
 							{%- endif -%}
 						</p>
 						<div class="post-meta">
-							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></figure>
+							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><picture><source srcset="assets/images/webp/reggie-paquette.webp" type="image/webp"><source srcset="assets/images/reggie-paquette.jpeg" type="image/jpeg"><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></picture></figure>
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>							
 							{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
 							{%- if page.seo.date_modified %}

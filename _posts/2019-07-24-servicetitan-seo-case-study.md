@@ -6,7 +6,7 @@ date: '2019-07-24T02:37:27.735Z'
 categories: [casestudy,servicetitan]
 slug: /servicetitan-seo-case-study
 skills: [seo,inbound,spreadsheets,demandgen]
-image: /assets/images/servicetitan-seo-1.png
+image: /assets/images//servicetitan-seo-1.png
 image-alt: Original ServiceTitan sitemap
 author: Reggie Paquette
 post-id: 25
@@ -90,7 +90,7 @@ We published the Industry pages in early Q2 of 2018 and the new Product Tour in 
 
 Non-brand BOFU organic clicks grew 260% by the beginning of Q4 '18 compared to the average month in Q1.
 
-To attribute down funnel metrics to organic search, we used [Bizible](https://www.bizible.com/). With Bizible's integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.
+To attribute down funnel metrics to organic search, we used [Bizible](https://www.bizible.com/){:target="_blank"}. With Bizible's integration into Salesforce, we could see all the booked meetings, pipeline, and revenue generated from organic search and which page they started their session on. And because we knew which pages were ranking for which queries, we could infer how much revenue a segment of search queries were generating.
 
 {% include figure.html image="/assets/images/servicetitan-seo-results.png" caption="Growth of attributable pipeline and revenue from organic search in 2018." width="full" %}
 

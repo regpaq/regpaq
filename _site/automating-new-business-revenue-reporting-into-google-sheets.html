@@ -135,7 +135,13 @@
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">
-		<figure class="feat-img"><img itemprop="image" src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper revenue dashboard" /></figure>
+		<figure class="feat-img">
+    <picture>
+        <source srcset="/assets/images/webp/chili-revenue-2.webp" type="image/webp" />
+        <source srcset="/assets/images/chili-revenue-2.jpeg" type="image/jpeg" />
+        <img itemprop="image" src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper revenue dashboard" />
+    </picture>
+</figure>
 		<h2 id="problem">Problem</h2>
 
 <p>We tended to view whether we had a good month or not on the customer acquisition (CA) side based purely on how much healthy open pipeline we had at the end of the month and how much revenue from new logos was generated. We didn’t really review (or set goals to) all the metrics in the funnel, such as leads, MQLs, booked meetings, opportunities, pipeline, disqualified, no show, closed-won, etc and broken down by the three major CA functions: inbound, outbound, and events.</p>
@@ -163,7 +169,11 @@
 <p>By default, SFDC records the Opp creation date and close date, but this limits our flexibility and reporting options. We created a few process builders to record the Opp creation date into a separate field on the Opp called ‘Became a Booked Meeting On,’ which allowed us to change it if needed. Once an Opp moved from the initial stage of ‘Demo’ to a positive next stage, we time stamped the date to a field called “Became an Opportunity On.”</p>
 
 <figure class="figure no-dark-filter figure--full gtc-1">
-    <div><img class="image" src="/assets/images/chili-revenue-1.png" alt="Salesforce view of stage change date stamps." /></div><figcaption class="caption">Salesforce view of stage change date stamps.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-revenue-1.webp" type="image/webp" /><source srcset="/assets/images/chili-revenue-1.png" type="image/png" />
+            <img class="image" src="/assets/images/chili-revenue-1.png" alt="Salesforce view of stage change date stamps." />
+        </picture>
+    </div><figcaption class="caption">Salesforce view of stage change date stamps.</figcaption></figure>
 
 <h2 id="part-iibuilding-the-dashboard">Part II — Building the Dashboard</h2>
 
@@ -180,7 +190,11 @@
 <p>Here’s the point-in-time view:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper Revenue Dashboard." /></div><figcaption class="caption">Chili Piper Revenue Dashboard.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-revenue-2.webp" type="image/webp" /><source srcset="/assets/images/chili-revenue-2.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-revenue-2.jpeg" alt="Chili Piper Revenue Dashboard." />
+        </picture>
+    </div><figcaption class="caption">Chili Piper Revenue Dashboard.</figcaption></figure>
 
 <h3 id="step-3building-the-cohortview">Step 3 — Building the Cohort View</h3>
 

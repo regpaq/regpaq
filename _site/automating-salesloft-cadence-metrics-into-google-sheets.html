@@ -135,7 +135,13 @@
 		</div>
 	</header>
 	<div class="post-content" itemprop="articleBody">
-		<figure class="feat-img"><img itemprop="image" src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" /></figure>
+		<figure class="feat-img">
+    <picture>
+        <source srcset="/assets/images/webp/chili-outbound-2.webp" type="image/webp" />
+        <source srcset="/assets/images/chili-outbound-2.jpeg" type="image/jpeg" />
+        <img itemprop="image" src="/assets/images/chili-outbound-2.jpeg" alt="new Chili Piper outbound dashboard" />
+    </picture>
+</figure>
 		<h2 id="problem">Problem</h2>
 
 <p>Reporting on how individual sales reps and their cadences were doing was a manual process. With Chili Piper being a data-driven company, we wanted to be able to make decisions backed by data, which meant we were tracking and manually updating over 37 metrics per rep and per cadence.</p>
@@ -145,7 +151,11 @@
 <p>Here’s how the old one looked like:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-1.jpeg" alt="Old Cold Outbound Dashboard." /></div><figcaption class="caption">Old Cold Outbound Dashboard.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-1.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-1.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-1.jpeg" alt="Old Cold Outbound Dashboard." />
+        </picture>
+    </div><figcaption class="caption">Old Cold Outbound Dashboard.</figcaption></figure>
 
 <p>Lots of great data recorded, but updated manually each week which became quickly outdated.</p>
 
@@ -178,7 +188,11 @@
 <p>Here’s what this dashboard looked like:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-2.jpeg" alt="New Cold Outbound Dashboard." /></div><figcaption class="caption">New Cold Outbound Dashboard.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-2.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-2.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-2.jpeg" alt="New Cold Outbound Dashboard." />
+        </picture>
+    </div><figcaption class="caption">New Cold Outbound Dashboard.</figcaption></figure>
 
 <p>With everything in SFDC, we could easily break out cadence metrics by the Contact level (individuals) and an Account level. So for instance, we could see how many unique accounts were targeted in a cadence versus just the total people. We could then expand on that and look at the bounce rate, open rate, reply rate, calls, connects, etc at an Account level or at a Contact level.</p>
 
@@ -205,7 +219,11 @@
 <p>Here’s what we looked at:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-3.jpeg" alt="We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence." /></div><figcaption class="caption">We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-3.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-3.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-3.jpeg" alt="We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence." />
+        </picture>
+    </div><figcaption class="caption">We could see the number of booked meetings and their outcomes down to win/lost segmented by cadence.</figcaption></figure>
 
 <p>Now we were able to measure how effective a cadence was by the rate of accounts worked to meetings booked (and pipeline generated).</p>
 
@@ -220,7 +238,11 @@
 <p>Here’s what that looks like with conditional formatting, to easily spot winning emails:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-4.jpeg" alt="Conditional formatting made it easy to spot wins." /></div><figcaption class="caption">Conditional formatting made it easy to spot wins.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-4.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-4.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-4.jpeg" alt="Conditional formatting made it easy to spot wins." />
+        </picture>
+    </div><figcaption class="caption">Conditional formatting made it easy to spot wins.</figcaption></figure>
 
 <h4 id="step-iiadd-keywords-to-each-cadencename">Step II — Add Keywords to Each Cadence Name</h4>
 
@@ -229,14 +251,22 @@
 <p>Here’s what that looked like:</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-5.jpeg" alt="Segmenting metrics out by keyword helped us further identify what content in email worked best." /></div><figcaption class="caption">Segmenting metrics out by keyword helped us further identify what content in email worked best.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-5.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-5.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-5.jpeg" alt="Segmenting metrics out by keyword helped us further identify what content in email worked best." />
+        </picture>
+    </div><figcaption class="caption">Segmenting metrics out by keyword helped us further identify what content in email worked best.</figcaption></figure>
 
 <h4 id="step-iiiadding-titles-of-the-contacts-whobooked">Step III — Adding Titles of the Contacts Who Booked</h4>
 
 <p>Then to measure a part of our outbound targeting, we looked at the roles of each contact who we booked a meeting with. Because each person’s title is somewhat unique, we just listed out the title in an array where we could visually inspect the kind of roles people had who resonated with our messaging and product, which we used for refining future targeting.</p>
 
 <figure class="figure no-dark-filter figure--vwide gtc-1">
-    <div><img class="image" src="/assets/images/chili-outbound-6.jpeg" alt="List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points." /></div><figcaption class="caption">List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points.</figcaption></figure>
+    <div>
+        <picture><source srcset="/assets/images/webp/chili-outbound-6.webp" type="image/webp" /><source srcset="/assets/images/chili-outbound-6.jpeg" type="image/jpeg" />
+            <img class="image" src="/assets/images/chili-outbound-6.jpeg" alt="List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points." />
+        </picture>
+    </div><figcaption class="caption">List of titles of prospects who booked a meeting helped confirm the type of prospects who best resonated with our messaging and value points.</figcaption></figure>
 
 <h2 id="result">Result</h2>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-02T09:55:58-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I’m Learning Virtue is Its Own Reward</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="I'm Learning Virtue is Its Own Reward" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-03T10:06:18-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I’m Learning Virtue is Its Own Reward</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="I'm Learning Virtue is Its Own Reward" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -489,7 +489,11 @@
 &lt;p&gt;No. Not right now. At $9/month for a product whose competitors are free and more capable, everyone was expecting more from this release.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/netlify-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;You only have one “screen” without a single filter to segment your data.&lt;/strong&gt; Most egregious though is they delete data older than 30 days (or at least it’s not accessible). Second, I need to be able to break down referrer and pageviews by URL so I can see from where and how much traffic specific pages are getting.&lt;/p&gt;
 
@@ -518,7 +522,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/medium-vs-self-hosted-blog.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -543,14 +551,22 @@
 &lt;p&gt;There’s one huge problem with Medium stats. &lt;strong&gt;They include views of your comments on other people’s articles in your view count!&lt;/strong&gt; And there is no way to filter them out. So no, you can’t see how many total views just your articles received over time.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-stats.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-stats.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;The other major problem is you can only view your traffic in 30 day windows.&lt;/strong&gt; If you got a lot of views one day, you can’t look at just that day’s traffic and see what pages got the most views or where that traffic came from.&lt;/p&gt;
 
 &lt;p&gt;Above the graph, Medium suggests you can click a story to see stats for just that story. Unfortunately, when you click on a story it loads a new page and takes five seconds to load. &lt;strong&gt;So you have to click each individual story one by one to uncover which story went “viral” and racked up the most views on a big traffic day.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-referrers.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-referrers.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Inside an individual story’s stats, you can see the list of referrers. But only the domain.&lt;/strong&gt; In the above example, I can’t see which Reddit threads are talking about my article! Which means I can’t see what people are saying and jump in the conversation.&lt;/p&gt;
 
@@ -567,13 +583,29 @@
 &lt;p&gt;Another benefit to a static site is the speed. Because WordPress and Medium use a database, it loads much slower. Here is the Pingdom page speed and Google score comparison of the same article on Medium versus the current static site.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;The static site is a massive improvement for speed&lt;/strong&gt; - even without any image optimization. This should improve the bounce rate and thus increase organic rankings. But because people know what to expect when they land on a Medium-designed article, it’s possible the new design increases the bounce rate. I’ll never know for certain because you can’t measure the bounce rate on Medium. &lt;/p&gt;
 
@@ -589,7 +621,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/netlify-analytics.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -616,7 +652,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/netlify-analytics.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -721,7 +761,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/stoic-journal-topics.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/stoic-journal-topics.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -809,7 +853,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -852,7 +900,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -868,7 +920,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/how-to-break-bad-habits.png&quot; alt=&quot;how to break bad habits&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/how-to-break-bad-habits.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-break-bad-habits.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-break-bad-habits.png&quot; alt=&quot;how to break bad habits&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -884,7 +940,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -900,7 +960,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/done-app-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -910,7 +974,11 @@
 &lt;p&gt;I personally felt &lt;a href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot; target=&quot;_blank&quot;&gt;Mastery&lt;/a&gt; was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--sml gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/mastery.png&quot; alt=&quot;Buy Mastery on Amazon&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot;&gt;Buy Mastery on Amazon&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/mastery.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/mastery.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/mastery.png&quot; alt=&quot;Buy Mastery on Amazon&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot;&gt;Buy Mastery on Amazon&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;what-is-mastery-and-why-pursueit&quot;&gt;What is Mastery and Why Pursue It?&lt;/h2&gt;
 
@@ -942,7 +1010,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1199,7 +1271,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1285,7 +1361,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1301,7 +1381,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1335,7 +1419,11 @@
 &lt;p&gt;For example, here’s one of my favorite charts where you can see how you’ve been spending vs your budget by each category over time.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget2.gif&quot; alt=&quot;Graphs for each budget category.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Graphs for each budget category.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/budget2.gif&quot; type=&quot;image/gif&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget2.gif&quot; alt=&quot;Graphs for each budget category.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Graphs for each budget category.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;view-and-start-using-my-google-sheets-budgettemplate&quot;&gt;View and Start Using My Google Sheets Budget Template&lt;/h2&gt;
 
@@ -1352,7 +1440,11 @@
 &lt;p&gt;I included easy-to-follow prompts to make it simple and quick to get set up.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--middle gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;assets/images/budget1.gif&quot; alt=&quot;Prompts make it super easy to use this Google Sheets template.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Prompts make it super easy to use this Google Sheets template.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;assets/images/budget1.gif&quot; type=&quot;image/gif&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/budget1.gif&quot; alt=&quot;Prompts make it super easy to use this Google Sheets template.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Prompts make it super easy to use this Google Sheets template.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can learn how to use the template in this video tutorial, or by reading the below guide if you prefer.&lt;/p&gt;
 
@@ -1365,7 +1457,11 @@
 &lt;p&gt;In the top left box on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab, enter your income. Follow the orange colored cells as cues for which part to fill out. If you don’t have a &lt;strong&gt;401k&lt;/strong&gt; or a &lt;strong&gt;Recurring Income #2&lt;/strong&gt; (additional income), you can leave those sections blank.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget3.png&quot; alt=&quot;Enter your income data in the Income box on the Dashbord tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your income data in the Income box on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget3.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget3.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget3.png&quot; alt=&quot;Enter your income data in the Income box on the Dashbord tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your income data in the Income box on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Any income entered here will be added to your available budget. If you do receive any kind of extra income, you may either be putting it all in savings, part of it in savings, or you need all of it for your expenses. Unless you’re comfortable with Google Sheets and spreadsheet formulas, this budget template is only made for two sources of income. If you have more than one additional income source, you can sum them and enter the total as one number in the &lt;strong&gt;Recurring Income #2&lt;/strong&gt; cell.&lt;/p&gt;
 
@@ -1378,7 +1474,11 @@
 &lt;p&gt;Below the &lt;strong&gt;Income&lt;/strong&gt; box is the &lt;strong&gt;Monthly Recurring&lt;/strong&gt; box.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget4.png&quot; alt=&quot;Enter your monthly recurring expenses on the Dashbord tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your monthly recurring expenses on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget4.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget4.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget4.png&quot; alt=&quot;Enter your monthly recurring expenses on the Dashbord tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your monthly recurring expenses on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The first item is &lt;strong&gt;Savings&lt;/strong&gt; to help you prioritize setting money aside for savings to help you “pay yourself first”, a very effecitve wealth building strategy.&lt;/p&gt;
 
@@ -1399,7 +1499,11 @@
 &lt;p&gt;The strategy behind including annual expenses is to set aside a monthly amount of money to prepare for when these big expenses come up. Start by adding in things you pay once a year for in the &lt;strong&gt;Annual Recurring&lt;/strong&gt; box. Some examples are car registration, vacations, gifts, car maintenance, credit card annualy fees, Amazon Prime, etc.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget5.png&quot; alt=&quot;Enter your annually recurring expenses on the Dashbord tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your annually recurring expenses on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget5.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget5.png&quot; alt=&quot;Enter your annually recurring expenses on the Dashbord tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your annually recurring expenses on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;After you entered in all the annual expenses you can think of, the budget template will divide the total into a monthly amount as a line item back in the &lt;strong&gt;Monthly Recurring&lt;/strong&gt; box. Now you have your final &lt;strong&gt;Net Spendable Income&lt;/strong&gt; amount you can use to start budgeting.&lt;/p&gt;
 
@@ -1408,7 +1512,11 @@
 &lt;p&gt;Now that you know how much money you can comfortably spend after savings, monthly recurring expenses, and planning for future annual expenses, you can create your budget. In the &lt;strong&gt;Monthly Budget&lt;/strong&gt; box, enter categories of expenses and an allotted amount. Some examples include eating out, groceries, going out, shopping, coffee, alcohol, personal care, gas, etc.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget6.png&quot; alt=&quot;Enter the spending categories you want to track and their budget on the Dashbord tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter the spending categories you want to track and their budget on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget6.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget6.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget6.png&quot; alt=&quot;Enter the spending categories you want to track and their budget on the Dashbord tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter the spending categories you want to track and their budget on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Thanks to some clever conditional formatting in Google Sheets, the budget template will sum your &lt;strong&gt;Total&lt;/strong&gt; monthly expenses. If the &lt;strong&gt;Total&lt;/strong&gt; is green, your expenses are under your &lt;strong&gt;Net Spendable Income&lt;/strong&gt;. It will be red if it’s over and you will need to readjust your &lt;strong&gt;Monthly Budget&lt;/strong&gt; or consider eliminating or reducing some of your monthly or annual recurring expenses.&lt;/p&gt;
 
@@ -1425,7 +1533,11 @@
 &lt;p&gt;You’ll see some instructions in red at the top for more information. Across the blue row heading, the budget template auto populates your &lt;strong&gt;Monthly Expenses&lt;/strong&gt; categories from the &lt;strong&gt;Dashboard&lt;/strong&gt; tab. When you enter an expense, start with the date in &lt;strong&gt;Column A&lt;/strong&gt;, the name of the place you spend the money in &lt;strong&gt;Column B&lt;/strong&gt;, and then tab over to the column with the expense category that best matches how this expense should be categorized. If it’s an annual expense, it’s the same exact process - just make sure you’re in the right annual expense column.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget17.png&quot; alt=&quot;Example of the Expenses tab with sample data&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Expenses tab with sample data&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget17.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget17.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget17.png&quot; alt=&quot;Example of the Expenses tab with sample data&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Expenses tab with sample data&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note: It’s important you don’t change the order of your items in the &lt;strong&gt;Monthly Expenses&lt;/strong&gt; box on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab because the column you entered the expense under isn’t locked to the expense category.&lt;/p&gt;
@@ -1434,7 +1546,11 @@
 &lt;p&gt;Why are the expense categories in different columns instead of writing in/choosing the expense category in a single category column? For two reasons. One, it’s much faster to just ‘tab’ over to the right expense category column than writing it in or switching from keyboard to mouse to choose the right category from a dropdown. Second, it allows for less process-heavy formulas making the spreadsheet more smooth to use.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget16.gif&quot; alt=&quot;Example of how fast you can enter expenses by using the tab and enter keys&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of how fast you can enter expenses by using the tab and enter keys&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/budget16.gif&quot; type=&quot;image/gif&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget16.gif&quot; alt=&quot;Example of how fast you can enter expenses by using the tab and enter keys&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of how fast you can enter expenses by using the tab and enter keys&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note: When choosing the date, it doesn’t matter whether you choose the transaction date or the posted date (if pulling from a credit card), but you should stick to one or the other. I prefer posted date.&lt;/p&gt;
@@ -1451,7 +1567,11 @@
 &lt;p&gt;To start, name the accounts in &lt;strong&gt;Column A&lt;/strong&gt; (mostly the savings accounts and assets). Examples of savings accounts can include primary, emergency fund, and vacation fund. Assets can be your car, credit card miles, 401k, IRA, stocks, etc.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget10.png&quot; alt=&quot;Choose the accounts you want to include as assets on the Balance Sheet tab and give them a nickname&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Choose the accounts you want to include as assets on the Balance Sheet tab and give them a nickname&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget10.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget10.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget10.png&quot; alt=&quot;Choose the accounts you want to include as assets on the Balance Sheet tab and give them a nickname&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Choose the accounts you want to include as assets on the Balance Sheet tab and give them a nickname&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note: Unless your comfortable with Google Sheets formulas, this spreadsheet doesn’t support changing the purpose of the accounts that are listed there. It’s okay to not use any of them, but not okay to add or change the purpose of an account.&lt;/p&gt;
@@ -1464,7 +1584,11 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget11.gif&quot; alt=&quot;Enter your starting date on the Balance Sheet tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your starting date on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/budget11.gif&quot; type=&quot;image/gif&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget11.gif&quot; alt=&quot;Enter your starting date on the Balance Sheet tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your starting date on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Now you’ll have a header row in &lt;strong&gt;row 1&lt;/strong&gt; with the month and year. The numbers you will fill out in the column beneath a month must be the balances at the end of that month. So forget that you used the first of the month in the heading - the reason for that was just to get the month and year to display and to make some formulas work. Just remember, the numbers under a month’s column in the &lt;strong&gt;Balance Sheet&lt;/strong&gt; represent where those accounts stand at the end of that month.&lt;/li&gt;
@@ -1479,28 +1603,44 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget12.png&quot; alt=&quot;Example of the Assets &amp;amp; Income section with sample data on the Balance Sheet tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Assets &amp;amp; Income section with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget12.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget12.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget12.png&quot; alt=&quot;Example of the Assets &amp;amp; Income section with sample data on the Balance Sheet tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Assets &amp;amp; Income section with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;For &lt;strong&gt;Rent Due&lt;/strong&gt; in &lt;strong&gt;row 30&lt;/strong&gt;, I always set to $0. Rent should be paid on the 1st and I don’t like to include it as money owed. If I’m filling out the &lt;strong&gt;Balance Sheet&lt;/strong&gt; for a month where rent hasn’t yet been deducted from my checking account, I’ll subtract it from my current checking balance for a more accurate representation of my month’s finances. I do the same thing for credit card payments when it applies - pay my credit card and if it hasn’t been reflected in my credit card or checking balance, I manually subtract the amount from my credit card balance and the amount I paid from my checking account. Here’s what the &lt;strong&gt;Liabilities&lt;/strong&gt; section looks like with sample date.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget13.png&quot; alt=&quot;Example of the Liabilities secion with sample data on the Balance Sheet tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Liabilities secion with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget13.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget13.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget13.png&quot; alt=&quot;Example of the Liabilities secion with sample data on the Balance Sheet tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Liabilities secion with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The categories under &lt;strong&gt;Monthly Expenses&lt;/strong&gt; starting in &lt;strong&gt;row 36&lt;/strong&gt; are auto populated from the &lt;strong&gt;Dashboard&lt;/strong&gt; tab. The sums of each category are then auto calculated from the &lt;strong&gt;Expenses&lt;/strong&gt; tab so you don’t need to do anything here. The same is true for &lt;strong&gt;Annual Expenses&lt;/strong&gt; starting at &lt;strong&gt;row 50&lt;/strong&gt;. If you spend in an annual expense category, it won’t count towards your monthly budget and instead will pull from the future “pool” of money set aside for annual expenses you decllare in the &lt;strong&gt;Annual Reccuring&lt;/strong&gt; box on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget14.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget14.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget14.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget14.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The last section is the &lt;strong&gt;Totals&lt;/strong&gt; section that brings everything together to calculate your net checking balance (money in checking minus current credit card balances) and your net worth. In &lt;strong&gt;row 72&lt;/strong&gt; you can leave notes for yourself if something unusual occurred in a given month. The word “Notes” will auto populate in each month, but to leave a note, right-click the cell and select “Insert note.”&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget15.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Totals section with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget15.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget15.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget15.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Totals section with sample data on the Balance Sheet tab&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;And that’s all you do the &lt;strong&gt;Balance Sheet&lt;/strong&gt; at the end of each month. As you use this Google Sheets budget template each month, more data on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab will start to populate and be useful.&lt;/p&gt;
 
@@ -1509,14 +1649,22 @@
 &lt;p&gt;Back on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab, the &lt;strong&gt;Summary&lt;/strong&gt; box will show an overview of the most recent balances you entered on the &lt;strong&gt;Balance Sheet&lt;/strong&gt; tab compared to the previous completed month. Then it also compares your &lt;strong&gt;Latest&lt;/strong&gt; with the previous &lt;strong&gt;3 Month Average&lt;/strong&gt;, which makes it easy to see if your money is increasing or decreasing. You’ll need at least 4 months of completed data for the &lt;strong&gt;Summary&lt;/strong&gt; box to completely work. Don’t worry or change any of the formulas here if it throws an error.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget7.png&quot; alt=&quot;The Summary box on the Dashbord tab shows whether your net worth is growing or shrinking&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Summary box on the Dashbord tab shows whether your net worth is growing or shrinking&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget7.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget7.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget7.png&quot; alt=&quot;The Summary box on the Dashbord tab shows whether your net worth is growing or shrinking&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Summary box on the Dashbord tab shows whether your net worth is growing or shrinking&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;viii-spent-vs-budget&quot;&gt;VIII. Spent vs Budget&lt;/h3&gt;
 
 &lt;p&gt;Further down the &lt;strong&gt;Dashboard&lt;/strong&gt; tab, you’ll see the &lt;strong&gt;Spent vs Budget&lt;/strong&gt; box. This is a graph that compares your spending in each category to the budget you set for that category in the &lt;strong&gt;Monthly Budget&lt;/strong&gt; box. Use the dropdown selector in cell &lt;strong&gt;P30&lt;/strong&gt; to change the category or choose ‘Total.’&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget8.png&quot; alt=&quot;The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget8.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget8.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget8.png&quot; alt=&quot;The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Spent vs Budget box on the Dashbord tab visualizes your spending per category in a graph&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note: This graph shows the previous seven months of data so it won’t be fully complete until you have at least seven months of complete data. And it won’t show any data at all until you have data from at least one previous month in your &lt;strong&gt;Expenses&lt;/strong&gt; and &lt;strong&gt;Balance Sheet&lt;/strong&gt; tabs (It doesn’t show current month). Again, don’t change any formulas or the chart as it will still work fine if you don’t have all seven months yet.&lt;/p&gt;
@@ -1527,7 +1675,11 @@
 &lt;p&gt;Below the &lt;strong&gt;Spent vs Budget&lt;/strong&gt; box is the same data but in a table format in the &lt;strong&gt;Expenses Last 7 Months&lt;/strong&gt; box. This is another way to compare your spending vs budget by category. Amounts will be red where you overspent.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/budget9.png&quot; alt=&quot;The Expenses Last 7 Months box on the Dashbord tab shows a table of your spending vs budget per each category&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Expenses Last 7 Months box on the Dashbord tab shows a table of your spending vs budget per each category&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/budget9.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/budget9.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/budget9.png&quot; alt=&quot;The Expenses Last 7 Months box on the Dashbord tab shows a table of your spending vs budget per each category&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Expenses Last 7 Months box on the Dashbord tab shows a table of your spending vs budget per each category&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;bonus-budgeting-tips&quot;&gt;Bonus Budgeting Tips&lt;/h2&gt;
 
@@ -1547,7 +1699,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1569,7 +1725,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1585,7 +1745,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/niche-site-amazon-affiliate.png&quot; alt=&quot;niche site amazon affiliate&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/niche-site-amazon-affiliate.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/niche-site-amazon-affiliate.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/niche-site-amazon-affiliate.png&quot; alt=&quot;niche site amazon affiliate&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1620,7 +1784,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1637,7 +1805,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1654,7 +1826,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/mastery-book-summary.jpeg&quot; alt=&quot;mastery book summary&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/mastery-book-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/mastery-book-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/mastery-book-summary.jpeg&quot; alt=&quot;mastery book summary&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1679,7 +1855,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/done-app-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1696,7 +1876,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1706,7 +1890,29 @@
 &lt;h3 id=&quot;doing-habits&quot;&gt;Doing Habits&lt;/h3&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/meditate.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/journal.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/floss.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;&lt;/div&gt;&lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/gym.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;&lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/meditate.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/meditate.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/meditate.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/journal.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/journal.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/journal.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/floss.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/floss.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/floss.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/gym.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/gym.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/gym.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The only habit I kept up from the beginning of the year was going to the gym. My goal at first was to go 3x a week and then it went to 4x. Due to some injuries, illness, and a vacation to Europe, I didn’t quite meet my goal. I averaged 2.85x per week. Not bad!&lt;/p&gt;
 
@@ -1723,7 +1929,11 @@
 &lt;p&gt;In 2017, Deanna (my girlfriend) and I moved out of our studios and into a one bedroom apartment together. We had to renew our lease in 2018 or leave the building and we decided to stay, but upgrade to a better unit with an awesome and balcony and view.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/apartment.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/apartment.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/apartment.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/apartment.jpeg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;facebook-ads-for-musclepharm&quot;&gt;Facebook Ads for MusclePharm&lt;/h3&gt;
 
@@ -1744,14 +1954,22 @@
 &lt;p&gt;Then in 2018 I finally got myself a new-to-me car: a ’14 BMW F32 435i coupe in manual with 25k miles. I’ve modded the car a lot so far (with more to come). Finally, I have a car I love getting into and driving again.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/435.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/435.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/435.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/435.jpeg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;went-toseattle&quot;&gt;Went to Seattle&lt;/h3&gt;
 
 &lt;p&gt;Took a quick vacation in Seattle, the first time I’ve ever been there. It’s the most beautiful city I’ve ever visited in the US.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/seattle.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/seattle.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/seattle.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/seattle.jpeg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;first-experience-managing-a-directreport&quot;&gt;First Experience Managing a Direct Report&lt;/h3&gt;
 
@@ -1774,14 +1992,22 @@
 &lt;p&gt;I saw the number we were at and the one we needed to hit, and I actually didn’t expect us to make it. But we have some absolute monsters on our team and they hit the number. Next thing I knew, I was going to the US Passport Agency in downtown LA one week before departure to rush order a new passport.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/paris.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/paris.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/paris.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/paris.jpeg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;p&gt;I’ve never been to Paris, and it instantly became my favorite city in Europe. The architecture was beautiful and the food everywhere I went was delicious.&lt;/p&gt;
 
 &lt;p&gt;I extended my Paris trip to visit my friend in Amsterdam. I’ve been once before so long ago I don’t even remember anything — it felt like I was visiting for the first time.&lt;/p&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;&lt;img class=&quot;image&quot; src=&quot;/assets/images/amsterdam.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/amsterdam.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/amsterdam.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/amsterdam.jpeg&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 
 &lt;p&gt;Amsterdam was also a beautiful place. While it felt much smaller than Paris and it was definitely a touristy place, I still really enjoyed this unique city and my time there.&lt;/p&gt;
 
@@ -1878,7 +2104,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/done-app-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
         &lt;/div&gt;
@@ -1906,7 +2136,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -1922,7 +2156,11 @@
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
-                    &lt;img src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;picture&gt;
+                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                    &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;
         &lt;/div&gt;

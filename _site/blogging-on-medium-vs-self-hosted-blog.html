@@ -25,7 +25,7 @@
 <meta name="twitter:site" content="@regpaq" />
 <meta name="twitter:creator" content="@Reggie Paquette" />
 <script type="application/ld+json">
-{"description":"Why I stopped blogging on Medium and moved to a static, self hosted blog.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blogging-on-medium-vs-self-hosted-blog"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Reggie Paquette"},"url":"http://localhost:4000/blogging-on-medium-vs-self-hosted-blog","headline":"Blogging on Medium vs Self Hosted Blog","dateModified":"2019-07-19T12:02:48-07:00","datePublished":"2019-07-19T11:02:48-07:00","image":"http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg","author":{"@type":"Person","name":"Reggie Paquette"},"@context":"https://schema.org"}</script>
+{"description":"Why I stopped blogging on Medium and moved to a static, self hosted blog.","@type":"BlogPosting","url":"http://localhost:4000/blogging-on-medium-vs-self-hosted-blog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Reggie Paquette"},"headline":"Blogging on Medium vs Self Hosted Blog","dateModified":"2019-07-19T12:02:48-07:00","datePublished":"2019-07-19T11:02:48-07:00","image":"http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg","author":{"@type":"Person","name":"Reggie Paquette"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blogging-on-medium-vs-self-hosted-blog"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
         
         <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" />
@@ -124,18 +124,60 @@
 						<h1 class="post-title" itemprop="name headline">Blogging on Medium vs Self Hosted Blog</h1>
 						<p class="article-subtitle">Why I stopped blogging on Medium and moved to a static, self hosted blog.</p>
 						<div class="post-meta">
-							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><picture><source srcset="assets/images/webp/reggie-paquette.webp" type="image/webp"><source srcset="assets/images/reggie-paquette.jpeg" type="image/jpeg"><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></picture></figure>
+							<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg>
+<figure>
+    <picture>
+        <source
+            sizes="(min-width: 768px) 85px, 55px"
+            srcset="assets/images/webp/reggie-paquette-250.webp 250w,
+                assets/images/webp/reggie-paquette.webp 400w"
+            type="image/webp"
+        />
+        <source 
+            sizes="(min-width: 768px) 85px, 55px"
+            srcset="assets/images/reggie-paquette-250.jpeg 250vw,
+                assets/images/reggie-paquette.jpeg 400vw"
+            type="image/jpeg"
+        />
+        <img
+            class="author"
+            src="/assets/images/reggie-paquette.jpeg"
+            alt="Reggie Paquette photo"
+        />
+    </picture>
+</figure>
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
 							<meta itemprop="datePublished" content="Jul 19, 2019">
 							<time itemprop="dateModified" datetime="2019-07-19T12:02:48-07:00"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#post-grey" /></svg>Jul 19, '19</time>
 							<div itemprop="articleSection" id="post-categories"><a href="/marketing">#marketing</a><a href="/all">#all</a></div>
 						</div>
 					</header>
-					<figure class="feat-img">
+					
+<figure class="feat-img">
     <picture>
-        <source srcset="/assets/images/webp/medium-vs-self-hosted-blog.webp" type="image/webp" />
-        <source srcset="/assets/images/medium-vs-self-hosted-blog.jpg" type="image/jpg" />
-        <img itemprop="image" src="/assets/images/medium-vs-self-hosted-blog.jpg" alt="medium vs self hosted blog" />
+        <source            
+            sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
+            srcset="/assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w,
+                /assets/images/webp/medium-vs-self-hosted-blog-790.webp 790w,
+                /assets/images/webp/medium-vs-self-hosted-blog-880.webp 880w,
+                /assets/images/webp/medium-vs-self-hosted-blog-1600.webp 1600w,
+                /assets/images/webp/medium-vs-self-hosted-blog-2450.webp 2450w"
+            type="image/webp"
+        />
+        <source
+            sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
+            srcset="/assets/images/medium-vs-self-hosted-blog-572.jpg 572w,
+                /assets/images/medium-vs-self-hosted-blog-790.jpg 790w,
+                /assets/images/medium-vs-self-hosted-blog-880.jpg 880w,
+                /assets/images/medium-vs-self-hosted-blog-1600.jpg 1600w,
+                /assets/images/medium-vs-self-hosted-blog-2450.jpg 2450w"
+            type="image/jpg"
+        />      
+        <img
+            itemprop="image"
+            src="/assets/images/medium-vs-self-hosted-blog.jpg"
+            alt="medium vs self hosted blog"
+        />
     </picture>
 </figure>
 					<div class="post-content" itemprop="articleBody">
@@ -231,8 +273,10 @@
             <div class="rec-img">
                 <figure>
                     <picture>
-                        <source srcset="/assets/images/webp/netlify-analytics.webp" type="image/webp" />
-                        <source srcset="/assets/images//assets/images/netlify-analytics.jpg" type="image/jpg" />
+                        <source sizes="(min-width: 1024px) 274px, 198px" srcset="/assets/images/webp/netlify-analytics-250.webp 250w,
+                                /assets/images/webp/netlify-analytics-572.webp 572w" type="image/webp" />
+                        <source sizes="(min-width: 1024px) 274px, 198px" srcset="/assets/images/netlify-analytics-250.jpg 250w,
+                                /assets/images/netlify-analytics-572.jpg 572w" type="image/jpg" />
                         <img itemprop="image" src="/assets/images//assets/images/netlify-analytics.jpg" alt="netlify analytics review" />
                     </picture>
                 </figure>
@@ -262,8 +306,10 @@
             <div class="rec-img">
                 <figure>
                     <picture>
-                        <source srcset="/assets/images/webp/netlify-analytics.webp" type="image/webp" />
-                        <source srcset="/assets/images//assets/images/netlify-analytics.jpg" type="image/jpg" />
+                        <source sizes="(min-width: 1024px) 274px, 198px" srcset="/assets/images/webp/netlify-analytics-250.webp 250w,
+                                /assets/images/webp/netlify-analytics-572.webp 572w" type="image/webp" />
+                        <source sizes="(min-width: 1024px) 274px, 198px" srcset="/assets/images/netlify-analytics-250.jpg 250w,
+                                /assets/images/netlify-analytics-572.jpg 572w" type="image/jpg" />
                         <img itemprop="image" src="/assets/images//assets/images/netlify-analytics.jpg" alt="netlify analytics review" />
                     </picture>
                 </figure>

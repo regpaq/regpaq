@@ -21,9 +21,24 @@
             <div class="rec-img">
                 <figure>
                     <picture>
-                        <source srcset="/assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
-                        <source srcset="/assets/images/{{ post.image }}" type="image/{{ post.image | split: "." | last }}" />
-                        <img itemprop="image" src="/assets/images/{{ post.image }}" alt="{{ post.image-alt }}" />
+                        {%- assign pimg = post.image | split: '.' %}
+                        <source
+                            sizes="(min-width: 1024px) 274px, 198px"
+                            srcset="/assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}-250.webp 250w,
+                                /assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}-572.webp 572w"
+                            type="image/webp"
+                        />
+                        <source
+                            sizes="(min-width: 1024px) 274px, 198px"
+                            srcset="{{ pimg[0] }}-250.{{ pimg[1] }} 250w,
+                                {{ pimg[0] }}-572.{{ pimg[1] }} 572w"
+                            type="image/{{ pimg[1] }}"
+                        />
+                        <img
+                            itemprop="image"
+                            src="/assets/images/{{ post.image }}"
+                            alt="{{ post.image-alt }}"
+                        />
                     </picture>
                 </figure>
             </div>        

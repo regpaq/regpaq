@@ -12,7 +12,7 @@ layout: default
 		</h1>
 		<p class="article-subtitle">{{page.description | escape}}</p>
 		<div class="post-meta">
-			<svg class="coin"><use xlink:href="#coin-gold-ring" /></svg><figure><picture><source srcset="assets/images/webp/reggie-paquette.webp" type="image/webp"><source srcset="assets/images/reggie-paquette.jpeg" type="image/jpeg"><img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo" /></picture></figure>
+			{% include author-photo.html %}
 			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<span itemprop="name"><a href="/about">{{ page.author }}</a></span>
 			</span>

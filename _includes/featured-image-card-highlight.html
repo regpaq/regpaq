@@ -1,0 +1,28 @@
+{%- assign img = include.image | split: '.' -%}
+<figure class="feat-img">
+    <picture>        
+        <source            
+            sizes="(min-width: 1024px) 1225px, (min-width: 768px) 895px, 286px"
+            srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-790.webp 790w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-880.webp 880w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-1600.webp 1600w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-2450.webp 2450w"
+            type="image/webp"
+        />
+        <source
+            sizes="(min-width: 1024px) 1225px, (min-width: 768px) 895px, 286px"
+            srcset="{{ img[0] }}-572.{{ img[1] }} 572w,
+                {{ img[0] }}-790.{{ img[1] }} 790w,
+                {{ img[0] }}-880.{{ img[1] }} 880w,
+                {{ img[0] }}-1600.{{ img[1] }} 1600w,
+                {{ img[0] }}-2450.{{ img[1] }} 2450w"
+            type="image/{{ img[1] }}"
+        />     
+        <img
+            itemprop="image"
+            src="{{ include.image }}"
+            alt="{{ include.alt }}"
+        />
+    </picture>
+</figure>

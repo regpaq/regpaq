@@ -1,8 +1,9 @@
+// Needs refactoring to better support different layouts
 /* --------------------------------------------------------
             All Types of Article Card Layouts + Overflow
             For Mobile and Above
 -------------------------------------------------------- */
-.featured-articles {
+.featured-articles, .featured-articles.full {
     background-color: v(bg-highlight);
     margin: 0 0 5rem 0;
     padding: 2rem 0;
@@ -11,9 +12,6 @@
         max-width: 100%;
         padding-left: 0;
         padding-right: 0;
-        // @include media-query($small) {
-        //     padding-left: $spacing-unit * 2;
-        // }
         @include media-query($medium) {
             padding-left: 0;
         }
@@ -26,10 +24,10 @@
         @include media-query($small) {
             padding-left: 0;
         }
-        h2 { /* `Latest Articles` */
+        h2 {
             margin-top: 0;                
         }
-        .see-more { /* `See More` */
+        .see-more {
             font-family: $Monospace;
             font-size: 1rem;
             padding-right: 16px;
@@ -55,7 +53,6 @@
         overflow-x: scroll;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
-        // scroll snap
         scroll-snap-type: x mandatory;
         scroll-snap-destination: 0% 100%;
         scroll-snap-points-x: repeat(100%);
@@ -131,35 +128,43 @@
                 margin: 0;
             }
         }
-        @include media-query($medium) {
-            height: auto;
-            overflow-x: inherit;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 100%;
-            ul {
-                position: relative;
-                min-width: initial;
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr;
-                grid-gap: $spacing-unit * 4;
-                justify-items: center;
-                align-items: stretch;
-                justify-content: center;
-                align-content: stretch;	
-                grid-auto-flow: row;
-                li {
-                    margin: 0;
-                    padding: 0;
-                    width: inherit;
-                    height: 215px;
-                    img {
-                        width: 100%;
-                        height: 90px;
-                    }
-                }  
-            }
+        
+    }
+}
+
+/* --------------------------------------------------------
+            Full Layout Only (`.full`)
+            For Mobile and Above
+-------------------------------------------------------- */
+.featured-articles.full .article-container{
+    @include media-query($medium) {
+        height: auto;
+        overflow-x: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        ul {
+            position: relative;
+            min-width: initial;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: $spacing-unit * 4;
+            justify-items: center;
+            align-items: stretch;
+            justify-content: center;
+            align-content: stretch;	
+            grid-auto-flow: row;
+            li {
+                margin: 0;
+                padding: 0;
+                width: inherit;
+                height: 215px;
+                img {
+                    width: 100%;
+                    height: 90px;
+                }
+            }  
         }
     }
 }
@@ -167,7 +172,7 @@
             Non Overflow Layouts Only (`.reveal`)
             For Mobile and Above
 -------------------------------------------------------- */
-.article-container.reveal { /* Removes overflow */
+.featured-articles.full .article-container.reveal { /* Removes overflow */
     height: auto;
     overflow-x: inherit;
     margin-left: auto;
@@ -195,7 +200,7 @@
             Applies to Both Type of Article Card Layouts
             For Layouts Tablet and Above
 -------------------------------------------------------- */
-.featured-articles > div {
+.featured-articles.full > div {
     max-width: 1400px !important; // change to not need important
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -208,16 +213,16 @@
         }
     }
 }
-.featured-articles .article-container {
+.featured-articles.full .article-container {
     @include media-query($medium) {
         grid-column: 2 / 16; //
     }
 }
-.article-container, .article-container.reveal {
+.featured-articles.full .article-container, .featured-articles.full .article-container.reveal {
     @include media-query($medium) {
         ul.post-list, ul.post-list.reveal { /* New 2 col grid with larger first row */
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1.3fr 1fr;
+            // grid-template-rows: 1fr 1fr;
             grid-gap: 1rem;
             li:first-child {
                 margin: inherit;
@@ -277,7 +282,7 @@
     @include media-query($regular) {
         ul.post-list, ul.post-list.reveal { /* New 3 col grid with larger first row */
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 2fr 1fr;
+            // grid-template-rows: 2fr 1fr;
             .article-0 {
                 grid-column: 1 / 4;
                 p {
@@ -288,5 +293,40 @@
                 }
             }
         }
+    }
+}
+
+/* --------------------------------------------------------
+            For Recommended Articles at End of Post
+            For Mobile and Above
+-------------------------------------------------------- */
+.featured-articles.recommended {
+    background-color: var(--color-bg); // not quite right
+    
+    .featured-articles > div > * {
+        grid-column: 1 / 17;
+    }    
+    .article-container {
+        ul {
+            @include media-query($medium) {
+                position: absolute;
+            }
+        }
+        li {
+            background-color: var(--color-bg-highlight);
+            &:first-child {
+                margin: 0 16px 0 0;
+            }
+            &:before {
+                display: none;
+            }
+            a {
+                padding: 0;
+            }
+            h3 {
+                color: var(--color-brand);
+            }
+        }
+        
     }
 }

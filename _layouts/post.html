@@ -27,7 +27,7 @@ layout: default
 							<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<img class="no-dark-filter svg-reg--left" src="/assets/images/svg/post-grey.svg" alt="" >{{ page.date | date: date_format }}</time>
 							<meta itemprop="dateModified" content="{{ page.date | date: date_format }}">
 							{%- endif %}
-							<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}<a href="/{{ category }}">#{{ category }}</a>{% endfor %}</div>
+							<div itemprop="articleSection" id="post-categories">{% for category in page.categories %}{%- unless category contains "all" -%}<a href="/{{ category }}">#{{ category }}</a>{%- endunless -%}{% endfor %}</div>
 						</div>
 					</header>
 					{% if page.image %}{% include featured-image.html image=page.image alt=page.image-alt %}{% endif %}

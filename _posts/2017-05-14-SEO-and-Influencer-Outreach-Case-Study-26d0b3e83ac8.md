@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: SEO and Influencer Outreach Case Study
-description: The Scarf Shop was a brand new store that I helped launch through a brand awareness and link acquisition campaign. The goal was to get the…
+title: Grew A Client's Traffic to 5k/mo From Scratch
+description: Helped launch a new ecommerce brand with influencer marketing and SEO.
 date: '2017-05-14T21:22:21.137Z'
 categories: [casestudy,eyemagine]
 slug: /seo-case-study

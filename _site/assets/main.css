@@ -1267,7 +1267,7 @@ img.svg-reg--left {
 }
 
 .article-card-container {
-  height: 253px;
+  height: 255px;
   /* Based on height of li item (article card) */
 }
 .article-card-container ul.post-list {
@@ -1973,6 +1973,9 @@ aside.many {
 /* --------------------------------------------------------
 			Resume Content
 -------------------------------------------------------- */
+.resume .post-content {
+  max-width: unset;
+}
 .resume .post-content > * {
   width: unset;
   grid-column: 2 / 16;
@@ -2194,57 +2197,53 @@ aside.many {
 -------------------------------------------------------- */
 /* Below only applicable to using the include article-cards.html on resume.md */
 .resume .featured-articles {
-  padding-top: .5rem;
-  margin-bottom: 1rem;
-  grid-column: 1 / 17;
+  grid-column: 2 / 17;
+  background-color: initial;
+  padding: 0;
+  margin: 0;
 }
-.resume .featured-articles > div {
-  margin: 0 auto;
-  max-width: unset !important;
+@media screen and (min-width: 568px) {
+  .resume .featured-articles {
+    grid-column: 3 / 17;
+  }
 }
 @media screen and (min-width: 768px) {
   .resume .featured-articles {
-    padding: 1rem;
+    grid-column: 5 / 17;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .resume .featured-articles {
+    grid-column: 6 / 17;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .resume .featured-articles {
+    grid-column: 7 / 17;
   }
 }
 .resume .featured-article-header {
-  justify-content: flex-end;
+  grid-column: 1 / 17;
+  margin-bottom: .8rem;
+  padding: 0;
 }
-@media screen and (min-width: 768px) {
-  .resume ul.post-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-  }
+.resume .article-card-container {
+  padding-left: 0;
+  grid-column: 1 / 17;
 }
-.resume .post-list li:before {
-  content: none;
+.resume ul.post-list li {
+  background-color: var(--color-bg-highlight);
+  margin: 0 16px 0 0;
 }
-.resume .post-list li:first-child {
-  margin-left: 1rem;
+.resume ul.post-list li:before {
+  display: none;
 }
-@media screen and (min-width: 768px) {
-  .resume .post-list li:first-child {
-    padding: 0;
-  }
+.resume ul.post-list li:first-child {
+  margin-left: 0;
 }
-.resume .post-list li {
-  width: 330px !important;
-  margin: .5rem !important;
-  padding-bottom: 0;
-}
-@media screen and (min-width: 768px) {
-  .resume .post-list li {
-    height: 280px !important;
-  }
-}
-.resume h3 a {
+.resume ul.post-list a {
+  padding: 0;
   color: var(--color-brand);
-}
-.resume .container-overflow {
-  display: unset;
 }
 
 /* --------------------------------------------------------

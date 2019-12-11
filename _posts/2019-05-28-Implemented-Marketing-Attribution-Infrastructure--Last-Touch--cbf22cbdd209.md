@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: Implemented Marketing Attribution Infrastructure (Last Touch)
-description: to automatically record source, medium, campaign, content, and term for paid leads through to closed-won deals for easy ROI analysis.
+title: Implemented Marketing Attribution Infrastructure
+description: to automatically record marketing and sales attribution for paid leads through to closed-won deals.
 date: '2019-05-28T01:10:51.063Z'
 categories: [casestudy,chilipiper]
 slug: /implementing-a-marketing-attribution-system

@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: Automated Customer Acquisition Funnel and Revenue Reporting from SFDC to Google Sheets
-description: 'for all major functions of customer acquisition (Outbound, Inbound, & Events).'
+title: Automated Customer Acquisition Funnel and Revenue Reporting
+description: 'in G Sheets for Outbound, Inbound, & Events.'
 date: '2019-05-27T16:58:23.546Z'
 categories: [casestudy,chilipiper]
 slug: /automating-new-business-revenue-reporting-into-google-sheets

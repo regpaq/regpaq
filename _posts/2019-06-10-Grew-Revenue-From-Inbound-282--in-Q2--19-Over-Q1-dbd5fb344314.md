@@ -1,6 +1,6 @@
 ---
 layout: casestudy
-title: Grew Revenue From Inbound 282% in Q2 ’19 Over Q1
+title: Grew Revenue From Inbound 282%
 description: 'through LinkedIn Ads, Google Ads, new landing pages, and more.'
 date: '2019-06-10T18:42:47.530Z'
 categories: [casestudy,chilipiper]

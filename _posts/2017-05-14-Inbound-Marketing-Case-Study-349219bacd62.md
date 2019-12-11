@@ -1,12 +1,12 @@
 ---
 layout: casestudy
-title: Inbound Marketing Case Study
-description: While working in the inbound marketing department at the digital agency EYEMAGINE, I managed inbound marketing campaigns for clients and…
+title: Increased Agency Leads 120%
+description: Helped grow the agency through content creation and inbounc marketing. 
 date: '2017-05-14T21:21:14.015Z'
 categories: [casestudy,eyemagine]
 slug: /inbound-marketing-case-study
 skills: [demandgen,content]
-image: /assets/images/eyemagine-11.png
+image: /assets/images/eyemagine-case-study.jpeg
 image-alt: ebook for eyemagine in collaboration with hubspot
 author: Reggie Paquette
 post-id: 15

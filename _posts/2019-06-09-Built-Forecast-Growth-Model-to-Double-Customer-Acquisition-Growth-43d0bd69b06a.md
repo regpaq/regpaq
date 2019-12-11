@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: Built Forecast Growth Model to Double Customer Acquisition Growth
-description: that informed sales hiring count, marketing budget, and monthly goals for the customer acquisition team.
+title: Built Forecast Model to Double Customer Acquisition
+description: which informed sales hiring count, marketing budget, and monthly goals.
 date: '2019-06-09T18:01:47.645Z'
 categories: [casestudy,chilipiper]
 slug: /created-a-forecast-model-to-double-customer-acquisition-growth

@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: Automated SalesLoft Cold Outbound Cadence Reporting into SFDC & Google Sheets
-description: Tracking over 140 different metrics from activity through to closed-won deals to analyze and drive strategy.
+title: Automated Cold Outbound Cadence Reporting
+description: from SalesLoft into SFDC & G Sheets tracking over 140 metrics for analysis.
 date: '2019-05-27T03:04:01.987Z'
 categories: [casestudy,chilipiper]
 slug: /automating-salesloft-cadence-metrics-into-google-sheets

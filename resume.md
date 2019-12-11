@@ -57,15 +57,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 <p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
 </div>
 
-#### Case Studies
-
-{% assign subpage = site.posts | where: 'post-id', '17' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '18' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '19' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '20' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '21' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '22' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '23' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}    
+{% include case-studies-list.html company="chilipiper" %}  
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
@@ -105,7 +97,7 @@ ServiceTitan is the #1 management software for residential home service companie
 <p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
 </div>
 
-{% assign subpage = site.posts | where: 'post-id', '25' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
+{% include case-studies-list.html company="servicetitan" %}
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
@@ -145,10 +137,7 @@ eCommerce web development and inbound marketing agency.
 <p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
 </div>
 
-#### Case Studies
-
-{% assign subpage = site.posts | where: 'post-id', '15' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '16' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
+{% include case-studies-list.html company="eyemagine" %}
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
@@ -208,8 +197,8 @@ Self-started marketing agency offering website development and marketing service
 {%- if site.recommendations.size > 0 -%}
 ##### RECOMMENDATIONS<a name="recommendations"></a>
 
-<div class="testimonials">{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}
-{% if i == 1 %}
+<div class="testimonials">
+{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}{% if i == 1 %}
     <div id="t{{ i }}" class="testimonial visible">
 {%- else -%}
     <div id="t{{ i }}" class="testimonial hidden">

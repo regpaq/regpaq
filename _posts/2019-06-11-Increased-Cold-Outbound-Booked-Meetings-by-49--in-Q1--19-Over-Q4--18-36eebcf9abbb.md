@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18
-description: and an additional 18% in Q2 ’19 through new cadences, sales analysis, and strategy.
+title: Grew Cold Outbound Booked Meetings by 49%
+description: through new approaches to sales cadences, analysis, and testing.
 date: '2019-06-11T02:37:27.735Z'
 categories: [casestudy,chilipiper]
 slug: /helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18

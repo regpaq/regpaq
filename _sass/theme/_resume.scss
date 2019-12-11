@@ -4,9 +4,6 @@
 .resume {
 	.post-header {
 		display: grid;
-		// grid-template-columns: repeat(16,1fr);
-		// max-width: 2000px;
-		// margin: 0 auto 4rem auto;
 		width: unset;
 		margin-bottom: 4rem;
 		padding: 0;
@@ -162,6 +159,7 @@
 -------------------------------------------------------- */
 .resume {
 	.post-content {
+		max-width: unset;
 		> * {
 			width: unset;
 			@include grid-offset;
@@ -327,58 +325,103 @@
 /* Below only applicable to using the include article-cards.html on resume.md */
 .resume {
 	.featured-articles {
-		padding-top: .5rem;
-		margin-bottom: 1rem;
-		grid-column: 1 / 17;
-		// @include media-query($medium) {
-		// 	grid-column: 2 / 16;
-		// }
-		> div {
-			margin: 0 auto;
-			max-width: unset !important; // why is the other stylie im overwriting important?
+		grid-column: 2 / 17;
+		background-color: initial;
+		padding: 0;
+		margin: 0;
+		@include media-query($shmedium) {
+			grid-column: 3 / 17;
 		}
 		@include media-query($medium) {
-			padding: 1rem;
+			grid-column: 5 / 17;
+		}
+		@include media-query($regular) {
+			grid-column: 6 / 17;
+		}
+		@include media-query($xxlarge) {
+			grid-column: 7 / 17;
 		}
 	}
 	.featured-article-header {
-		justify-content: flex-end;
+		grid-column: 1 / 17;
+		margin-bottom: .8rem;
+		padding: 0;
+	}
+	.article-card-container {
+		padding-left: 0;
+		grid-column: 1 / 17;
 	}
 	ul.post-list {
-		@include media-query($medium) {
-			// grid-template-rows: 1fr;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: flex-start;
-			align-content: flex-start;
+		li {
+			background-color: var(--color-bg-highlight);
+			margin: 0 $spacing-unit * 2 0 0;
 		}
-	}
-	.post-list li:before {
-		content: none;
-	}
-	.post-list li:first-child {
-		margin-left: 1rem;
-		@include media-query($medium) {
+		li:before {
+			display: none;
+		}
+		li:first-child {
+			margin-left: 0;
+		}
+		a {
 			padding: 0;
+			color: var(--color-brand);
 		}
-	}
-	.post-list li {
-		width: 330px !important;
-		
-		margin: .5rem !important;
-		padding-bottom: 0;
-		@include media-query($medium) {
-			height: 280px !important;
-		}
-	}
-	h3 a {
-		color: v(brand);
-	}
-	.container-overflow {
-		display: unset;
 	}
 }
+// .resume {
+// 	.featured-articles {
+// 		padding-top: .5rem;
+// 		margin-bottom: 1rem;
+// 		grid-column: 1 / 17;
+// 		// @include media-query($medium) {
+// 		// 	grid-column: 2 / 16;
+// 		// }
+// 		> div {
+// 			margin: 0 auto;
+// 			max-width: unset !important; // why is the other stylie im overwriting important?
+// 		}
+// 		@include media-query($medium) {
+// 			padding: 1rem;
+// 		}
+// 	}
+// 	.featured-article-header {
+// 		justify-content: flex-end;
+// 	}
+// 	ul.post-list {
+// 		@include media-query($medium) {
+// 			// grid-template-rows: 1fr;
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 			justify-content: center;
+// 			align-items: flex-start;
+// 			align-content: flex-start;
+// 		}
+// 	}
+// 	.post-list li:before {
+// 		content: none;
+// 	}
+// 	.post-list li:first-child {
+// 		margin-left: 1rem;
+// 		@include media-query($medium) {
+// 			padding: 0;
+// 		}
+// 	}
+// 	.post-list li {
+// 		width: 330px !important;
+		
+// 		margin: .5rem !important;
+// 		padding-bottom: 0;
+// 		@include media-query($medium) {
+// 			height: 280px !important;
+// 		}
+// 	}
+// 	h3 a {
+// 		color: v(brand);
+// 	}
+// 	.container-overflow {
+// 		display: unset;
+// 	}
+// }
 /* --------------------------------------------------------
 			Recommendations
 -------------------------------------------------------- */

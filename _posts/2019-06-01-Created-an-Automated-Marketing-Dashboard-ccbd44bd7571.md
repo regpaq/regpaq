@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: Created an Automated Marketing Dashboard
-description: to measure point-in-time and cohort performance of all demand gen channels for forecasting, goal setting, and optimization analysis.
+description: to measure point-in-time and cohort performance of all demand gen channels in G Sheets.
 date: '2019-06-01T06:33:12.458Z'
 categories: [casestudy,chilipiper]
 slug: /building-the-marketing-dashboard

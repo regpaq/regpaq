@@ -1,0 +1,41 @@
+<section class="featured-articles horizontal" aria-labelledby="post-list-heading">
+    <div class="container container-overflow">
+        <div class="featured-article-header">
+            <h4 id="post-list-heading" class="post-list-heading">Case Studies</h4>
+            <p class="see-more" aria-hidden="true">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
+        </div>
+        <div class="article-card-container">
+                {% assign j = 0 %}{% for post in site.categories[include.company] %}{% assign j = j | plus:1 -%}{%- endfor -%}
+            <ul class="post-list" aria-label="Recommended articles" {{ 'style="min-width: calc(' | append: j | append: ' * (286px + 16px) + 48px);"' }}>
+                {% assign i = 0 %}{% for post in site.categories[include.company] %}
+                <li class="article-{{ i }}">
+                    <article>
+                        {% assign i = i | plus:1 -%}
+                        <a href="{{ post.url | relative_url }}">
+                                {% include featured-image-card.html image=post.image alt=post.image-alt %}
+                        </a>
+                        <div class="article-info">
+                            <h3 itemprop="headline"><a class="post-link" href="{{ post.url | relative_url }}">
+                                {%- if post.display-title -%}
+                                    {{ post.display-title | escape }}
+                                {%- else -%}
+                                    {{ post.title | escape }}
+                                {%- endif -%}
+                            </a></h3>
+                            <p itemprop="alternativeHeadline" class="description">
+                                {%- if post.display-description -%}
+                                    {{ post.display-description | escape }}
+                                {%- else -%}
+                                    {{ post.description | escape }}
+                                {%- endif -%}
+                            </p>
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
+                            <p class="post-meta"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#post-grey" /></svg>{{ post.date | date: date_format }}</p>
+                        </div>
+                    </article>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+</section>

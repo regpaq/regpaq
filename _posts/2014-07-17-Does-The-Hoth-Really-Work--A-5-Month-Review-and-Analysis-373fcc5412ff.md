@@ -109,5 +109,3 @@ This depends on you. You can see the results and what it gets you, and you have 
 If you have purchased The Hoth or have decided against it, please let me know in the comments how well it worked for you or what you used instead. Cheers!
 
 **Disclaimer:** I was not asked or paid to write this post by any person affiliated with The Hoth company.
-
-{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

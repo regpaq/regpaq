@@ -83,7 +83,3 @@ There’s so much more in tracking progress and the reports that I could keep go
 ## Price
 
 [Gymaholic](https://itunes.apple.com/us/app/gymaholic-workout-tracker/id648518560?mt=8){:target="_blank"} does run on a subscription model, but it’s SO worth it. To get all the features with the premium version, it costs $4.99 per month or $31.99 annually.
-
-## You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

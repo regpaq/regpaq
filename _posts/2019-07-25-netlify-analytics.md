@@ -60,5 +60,3 @@ But remember, this is version one of Netlify Analytics. If Netlify can improve t
 Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.
 
 I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.
-
-{% assign subpage = site.posts | where: 'post-id', '24' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

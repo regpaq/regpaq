@@ -85,13 +85,3 @@ Our daily behavior is the best indicator of the type of person we are. Work on i
 19. Did you miss accomplishing an important habit or step in your routine today? What do you think was the reason for it and how can you prevent it from happening again?
 20. What did I crave today? Describe what you craved in its most simplistic form. Did it warrant that level of craving?
 {: .counter-reset}
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '5' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

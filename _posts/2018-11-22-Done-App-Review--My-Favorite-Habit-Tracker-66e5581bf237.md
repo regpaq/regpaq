@@ -102,13 +102,3 @@ Without [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id110
 ## Price
 
 Luckily, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"} is not using a subscription model. They have a free tier that lets you track just a few habits and the premium tier for only $5.99 lets you add unlimited habits.
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '6' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

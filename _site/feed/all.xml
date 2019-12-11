@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-10T23:16:47-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Why Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Why Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-10T23:22:57-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Why Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Why Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -510,30 +510,7 @@
 
 &lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
 
-&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/blogging-on-medium-vs-self-hosted-blog&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Blogging on Medium vs Self Hosted Blog&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Why I stopped blogging on Medium and moved to a static, self hosted blog.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/medium-vs-self-hosted-blog-250.webp 250w,
-                                /assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/medium-vs-self-hosted-blog-250.jpg 250w,
-                                /assets/images/medium-vs-self-hosted-blog-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
+&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You don’t “own” your traffic because your blog is on medium.com&lt;/li&gt;
@@ -644,30 +621,7 @@
 
 &lt;p&gt;&lt;strong&gt;I won’t miss Medium’s distribution. I never got any meaningful distribution. I could have written more content for more claps, but I didn’t want to play that game.&lt;/strong&gt; I want to write what I want to write about.&lt;/p&gt;
 
-&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
-                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
-                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stop Comparing Yourself to Others — Use This Benchmark Instead</title><link href="http://localhost:4000/stop-comparing-yourself-to-others" rel="alternate" type="text/html" title="Stop Comparing Yourself to Others — Use This Benchmark Instead" /><published>2019-02-13T12:11:11-08:00</published><updated>2019-02-13T12:11:11-08:00</updated><id>http://localhost:4000/stop-comparing-yourself-to-others</id><content type="html" xml:base="http://localhost:4000/stop-comparing-yourself-to-others">&lt;p&gt;The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.&lt;/p&gt;
+&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stop Comparing Yourself to Others — Use This Benchmark Instead</title><link href="http://localhost:4000/stop-comparing-yourself-to-others" rel="alternate" type="text/html" title="Stop Comparing Yourself to Others — Use This Benchmark Instead" /><published>2019-02-13T12:11:11-08:00</published><updated>2019-02-13T12:11:11-08:00</updated><id>http://localhost:4000/stop-comparing-yourself-to-others</id><content type="html" xml:base="http://localhost:4000/stop-comparing-yourself-to-others">&lt;p&gt;The frequently given advice to not compare yourself with others and only to who you were yesterday never quite satisfied me. It still left a lot of questions unanswered and I recently discovered on Reddit many other people feel the same way.&lt;/p&gt;
 
 &lt;p&gt;In a &lt;a href=&quot;https://www.reddit.com/r/productivity/comments/ao04vn/stop_comparing_yourself_to_others_and_start/&quot; target=&quot;_blank&quot;&gt;recent post on r/productivity&lt;/a&gt;, there were some top comments refuting this advice with how they actually like to use jealousy, greed, and wanting to be better than other people as motivation to achieve “greatness.” Not only is comparing yourself to others the wrong way to achieve true greatness, so is comparing yourself to who you were yesterday.&lt;/p&gt;
 
@@ -897,89 +851,7 @@
   &lt;li&gt;What did you do today that was not a good use of your time?&lt;/li&gt;
   &lt;li&gt;Did you miss accomplishing an important habit or step in your routine today? What do you think was the reason for it and how can you prevent it from happening again?&lt;/li&gt;
   &lt;li&gt;What did I crave today? Describe what you craved in its most simplistic form. Did it warrant that level of craving?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;you-might-alsoenjoy&quot;&gt;You might also enjoy&lt;/h3&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/how-to-make-habits-stick&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;How to Make New Habits Stick When Motivation Runs Out&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;The 6 best tips from Atomic Habits on building habits that last&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/how-to-break-bad-habits&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;How to Break Bad Habits for Good&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;The best tips from Atomic Habits on breaking your worse habits&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/how-to-break-bad-habits.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-break-bad-habits.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-break-bad-habits.png&quot; alt=&quot;how to break bad habits&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Atomic Habits - Summary, Notes, + Quotes&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Who you’ll become in your future can be answered by your behavior today.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;“Done” App Review: My Favorite Habit Tracker&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;And one you’ll actually stick to.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/done-app-review.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/done-app-review.jpeg&quot; alt=&quot;done app review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/stoic-journal-topics.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/stoic-journal-topics.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mastery by Robert Greene — Summary, Notes, + Quotes</title><link href="http://localhost:4000/mastery-summary-quotes-robert-greene" rel="alternate" type="text/html" title="Mastery by Robert Greene — Summary, Notes, + Quotes" /><published>2019-02-05T22:48:39-08:00</published><updated>2019-02-05T22:48:39-08:00</updated><id>http://localhost:4000/mastery-summary-quotes-robert-greene</id><content type="html" xml:base="http://localhost:4000/mastery-summary-quotes-robert-greene">&lt;p&gt;Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Marcus Aurelius, often called the philosopher emperor, is a famous stoic philosopher and known as the last good emperor of Rome.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/stoic-journal-topics.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/stoic-journal-topics.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mastery by Robert Greene — Summary, Notes, + Quotes</title><link href="http://localhost:4000/mastery-summary-quotes-robert-greene" rel="alternate" type="text/html" title="Mastery by Robert Greene — Summary, Notes, + Quotes" /><published>2019-02-05T22:48:39-08:00</published><updated>2019-02-05T22:48:39-08:00</updated><id>http://localhost:4000/mastery-summary-quotes-robert-greene</id><content type="html" xml:base="http://localhost:4000/mastery-summary-quotes-robert-greene">&lt;p&gt;Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).&lt;/p&gt;
 
 &lt;p&gt;I personally felt &lt;a href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot; target=&quot;_blank&quot;&gt;Mastery&lt;/a&gt; was a bit disorganized at times, which was especially apparent looking back at my notes. So below are quotes and thoughts that stuck out to me in the best order I could provide.&lt;/p&gt;
 
@@ -1362,49 +1234,7 @@
 
 &lt;h2 id=&quot;tldr&quot;&gt;TLDR&lt;/h2&gt;
 
-&lt;p&gt;Robert Greene is my one my favorite writers because the way he likes to weave historical stories into practical advice. In &lt;a href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot; target=&quot;_blank&quot;&gt;Mastery&lt;/a&gt;, Greene helps people find their purpose in life, which he thinks is better called your Life’s Task. Although long and a little disorganized, Mastery was a fun read that revealed a desire for creativity and craft within me for my work. I still think I’m young in my career (apprenticeship phase) and Mastery provided some practical advice on how to make best use of my position and time to move closer to mastery. I wanted a bit more detail with the practical advice, but I still found it quite useful. I rate Mastery an 8/10.&lt;/p&gt;
-
-&lt;h3 id=&quot;you-might-alsoenjoy&quot;&gt;You might also enjoy&lt;/h3&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/meditations-from-marcus-aurelius-summary-notes-quotes&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Meditations by Marcus Aurelius - Summary, Notes, + Quotes&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Lessons on life from an ancient Roman Emperor.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Atomic Habits - Summary, Notes, + Quotes&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Who you’ll become in your future can be answered by your behavior today.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mastery-book-summary.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/mastery-book-summary.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Google Sheets Budget Template - Simple &amp;amp; Beautiful</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template - Simple &amp; Beautiful" /><published>2019-02-01T15:51:34-08:00</published><updated>2019-02-01T15:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I received an inheritance of $30k. &lt;strong&gt;One year later, I had blown it all.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Robert Greene is my one my favorite writers because the way he likes to weave historical stories into practical advice. In &lt;a href=&quot;https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;amp;tag=victoriou-20&amp;amp;creative=9325&amp;amp;linkCode=as2&amp;amp;creativeASIN=B007V65PBK&amp;amp;linkId=16f9945504940eb7c0e610c9227d3907&quot; target=&quot;_blank&quot;&gt;Mastery&lt;/a&gt;, Greene helps people find their purpose in life, which he thinks is better called your Life’s Task. Although long and a little disorganized, Mastery was a fun read that revealed a desire for creativity and craft within me for my work. I still think I’m young in my career (apprenticeship phase) and Mastery provided some practical advice on how to make best use of my position and time to move closer to mastery. I wanted a bit more detail with the practical advice, but I still found it quite useful. I rate Mastery an 8/10.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Mastery by Robert Greene is a practical read on helping people find and pursue their Life’s Task (purpose).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mastery-book-summary.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/mastery-book-summary.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Google Sheets Budget Template - Simple &amp;amp; Beautiful</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template - Simple &amp; Beautiful" /><published>2019-02-01T15:51:34-08:00</published><updated>2019-02-01T15:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I received an inheritance of $30k. &lt;strong&gt;One year later, I had blown it all.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I used the money to move out, get a new car, eat out constantly — all while telling myself I’m going to be making $10k a month before I know it as freelance marketer.&lt;/p&gt;
 
@@ -1728,49 +1558,7 @@
 
 &lt;p&gt;Another tip is to use a credit card for all transactions when possible. Using a credit card makes it much easier to keep track of your spending and at the same time protects your bank account from fraud, builds your credit, and you can earn points and rewards.&lt;/p&gt;
 
-&lt;p&gt;Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on &lt;a href=&quot;https://twitter.com/regpaq&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;you-might-alsoenjoy&quot;&gt;You might also enjoy&lt;/h3&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Atomic Habits - Summary, Notes, + Quotes&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Who you’ll become in your future can be answered by your behavior today.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;I Made $317 / Mo. From Two Amazon Niche Sites Last Year&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;And here’s how I did it.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/niche-site-amazon-affiliate.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/niche-site-amazon-affiliate.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/niche-site-amazon-affiliate.png&quot; alt=&quot;niche site amazon affiliate&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">I received an inheritance of $30k. One year later, I had blown it all.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2018 Year Review</title><link href="http://localhost:4000/2018-year-review" rel="alternate" type="text/html" title="2018 Year Review" /><published>2019-01-25T09:46:11-08:00</published><updated>2019-01-25T09:46:11-08:00</updated><id>http://localhost:4000/2018-year-review</id><content type="html" xml:base="http://localhost:4000/2018-year-review">&lt;h2 id=&quot;goals&quot;&gt;Goals:&lt;/h2&gt;
+&lt;p&gt;Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on &lt;a href=&quot;https://twitter.com/regpaq&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">I received an inheritance of $30k. One year later, I had blown it all.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2018 Year Review</title><link href="http://localhost:4000/2018-year-review" rel="alternate" type="text/html" title="2018 Year Review" /><published>2019-01-25T09:46:11-08:00</published><updated>2019-01-25T09:46:11-08:00</updated><id>http://localhost:4000/2018-year-review</id><content type="html" xml:base="http://localhost:4000/2018-year-review">&lt;h2 id=&quot;goals&quot;&gt;Goals:&lt;/h2&gt;
 
 &lt;h3 id=&quot;make-100kyr-by30&quot;&gt;Make $100k/yr by 30&lt;/h3&gt;
 
@@ -2151,46 +1939,4 @@
 
 &lt;p&gt;Using these strategies, I was able to completely break, or significantly reduce, some bad habits of mine, and even replace some of them with positive habits.&lt;/p&gt;
 
-&lt;p&gt;What’s your best to tip to break a bad habit?&lt;/p&gt;
-
-&lt;h3 id=&quot;recommended-reading&quot;&gt;Recommended Reading&lt;/h3&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/how-to-make-habits-stick&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;How to Make New Habits Stick When Motivation Runs Out&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;The 6 best tips from Atomic Habits on building habits that last&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/how-to-make-new-habits-stick.jpeg&quot; alt=&quot;how to make new habits stick&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;aside class=&quot;rec-art many&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/atomic-habits-review-notes-lessons&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Atomic Habits - Summary, Notes, + Quotes&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Who you’ll become in your future can be answered by your behavior today.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source srcset=&quot;/assets/images/webp/atomic-habits-summary-review.webp&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source srcset=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Stopping a bad habit is usually much more difficult than starting a new habit, especially if it’s a bad habit you’ve had for a long time.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/how-to-break-bad-habits.png" /><media:content medium="image" url="http://localhost:4000/assets/images/how-to-break-bad-habits.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;What’s your best to tip to break a bad habit?&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Stopping a bad habit is usually much more difficult than starting a new habit, especially if it’s a bad habit you’ve had for a long time.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/how-to-break-bad-habits.png" /><media:content medium="image" url="http://localhost:4000/assets/images/how-to-break-bad-habits.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

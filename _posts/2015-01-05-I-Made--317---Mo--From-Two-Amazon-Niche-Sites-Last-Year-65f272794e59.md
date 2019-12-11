@@ -161,11 +161,3 @@ I hope this guide was helpful. If you have links to great rescues or would like 
 **Update:** I posted this blog post to Reddit’s Entrepreneur subreddit and to my surprise received over 800 upvotes and 300 comments. If you’d like to see what other people are saying about it and all the 50+ questions I answered, [check it out here:](http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/){:target="_blank"}
 
 {% include figure.html image="/assets/images/amazon2.png" caption="At the top of reddit on r/entrepreneur." link="http://www.reddit.com/r/Entrepreneur/comments/2rfbel/i_made_on_average_317month_in_passive_income_last/" width="wide" %}
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '1' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '3' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

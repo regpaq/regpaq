@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-10T23:16:47-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Why Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Why Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-10T23:22:57-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Why Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Why Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before learning about &lt;a href=&quot;/philosophy&quot;&gt;philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -510,30 +510,7 @@
 
 &lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
 
-&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/blogging-on-medium-vs-self-hosted-blog&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Blogging on Medium vs Self Hosted Blog&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Why I stopped blogging on Medium and moved to a static, self hosted blog.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/medium-vs-self-hosted-blog-250.webp 250w,
-                                /assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/medium-vs-self-hosted-blog-250.jpg 250w,
-                                /assets/images/medium-vs-self-hosted-blog-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;At the time, most of our customers acquired from marketing efforts were from paid channels. My goal was to increase leads and revenue generated with content and SEO. Our website was very thin on content and most of our visitors were from branded search queries. We weren’t generating any new demand. &lt;strong&gt;We were only capturing existing demand.&lt;/strong&gt;&lt;/p&gt;
 
@@ -827,30 +804,7 @@
 
 &lt;p&gt;&lt;strong&gt;I won’t miss Medium’s distribution. I never got any meaningful distribution. I could have written more content for more claps, but I didn’t want to play that game.&lt;/strong&gt; I want to write what I want to write about.&lt;/p&gt;
 
-&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
-                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
-                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Increased Cold Outbound Booked Meetings by 49% in Q1 ’19 Over Q4 ‘18" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;When I joined Chili Piper, we had just one full cycle account executive (AE) on the sales team and the plan was to hire eight more in seven months. The challenge was to (1) develop instrumentation to determine what part of our outreach was working, (2) reliably scale it to other sales reps as they joined the team, and (3) improve the conversion rate of accounts worked to meetings booked so we wouldn’t burn through our target accounts.&lt;/p&gt;
 

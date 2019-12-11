@@ -90,6 +90,3 @@ Transparent pricing can also work for digital products and services. Check out h
 Don’t you suddenly **feel** better about their price?
 
 Discussion on this article can be found on Reddit here on [r/marketing](https://www.reddit.com/r/marketing/comments/3qqh94/i_got_this_from_a_client_i_was_expecting_a_lot/) and [r/socialmedia](https://www.reddit.com/r/socialmedia/comments/3qqiv6/a_client_told_me_this_i_was_expecting_a_lot_more/) and on [LinkedIn](https://www.linkedin.com/pulse/i-expecting-lot-more-from-you-reggie-paquette/)
-
-{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-{% assign subpage = site.posts | where: 'post-id', '11' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

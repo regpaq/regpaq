@@ -259,9 +259,3 @@ The most important thing in mastery is to stay true to who you are.
 ## TLDR
 
 Robert Greene is my one my favorite writers because the way he likes to weave historical stories into practical advice. In [Mastery](https://www.amazon.com/gp/product/B007V65PBK/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=victoriou-20&creative=9325&linkCode=as2&creativeASIN=B007V65PBK&linkId=16f9945504940eb7c0e610c9227d3907){:target="_blank"}, Greene helps people find their purpose in life, which he thinks is better called your Life’s Task. Although long and a little disorganized, Mastery was a fun read that revealed a desire for creativity and craft within me for my work. I still think I’m young in my career (apprenticeship phase) and Mastery provided some practical advice on how to make best use of my position and time to move closer to mastery. I wanted a bit more detail with the practical advice, but I still found it quite useful. I rate Mastery an 8/10.
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

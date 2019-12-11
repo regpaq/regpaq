@@ -94,9 +94,3 @@ If you don’t drink at home after work for a week, reward yourself with a drink
 Using these strategies, I was able to completely break, or significantly reduce, some bad habits of mine, and even replace some of them with positive habits.
 
 What’s your best to tip to break a bad habit?
-
-### Recommended Reading
-
-{% assign subpage = site.posts | where: 'post-id', '8' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

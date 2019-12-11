@@ -304,9 +304,3 @@ Marcus wrote a lot on death. I think he feared it a lot and that’s why he wrot
 ## TLDR
 
 If you took the time to read some of these quotes, you’ll see why this summary is so long. [Meditations](https://www.amazon.com/gp/product/0812968255/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812968255&linkCode=as2&tag=victoriou-20&linkId=8dbf0e74c04495dc6d0390c6e1d2e404){:target="_blank"} has been the most influential book on my life. At a time where I felt I lack a purpose or satisfaction with my life (of course these feelings and thoughts still occur), Meditations is helping me push through and find tranquility. Easily, Meditations is a 10/10 must read.
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '12' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

@@ -198,9 +198,3 @@ If you believe a budget will help you get control of your spending, read this gu
 Another tip is to use a credit card for all transactions when possible. Using a credit card makes it much easier to keep track of your spending and at the same time protects your bank account from fraud, builds your credit, and you can earn points and rewards.
 
 Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on [Twitter](https://twitter.com/regpaq){:target="_blank"}.
-
-### You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '2' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

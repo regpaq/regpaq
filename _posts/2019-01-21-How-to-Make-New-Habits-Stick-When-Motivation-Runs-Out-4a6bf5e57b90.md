@@ -86,9 +86,3 @@ For larger habits or goals, like publishing an article once per week, I’ll all
 With these six tips, I have been able to continue my habits better than ever in my life. They are designed to help motivate you to do them and to avoid not doing them.
 
 What has helped you make your habits stick?
-
-## You might also enjoy
-
-{% assign subpage = site.posts | where: 'post-id', '9' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}
-
-{% assign subpage = site.posts | where: 'post-id', '4' %}{% for post in subpage %} {% include rec-articles.html %}{% endfor %}

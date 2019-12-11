@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-				<section class="featured-articles full" aria-labelledby="post-list-heading">
+				<section class="featured-articles horizontal magazine" aria-labelledby="post-list-heading">
 					<div class="container container-overflow">
 					{%- if site.posts.size > 0 %}
 						<div class="featured-article-header">
 							<h2 id="post-list-heading" class="post-list-heading">Latest Articles</h2>
 							<p class="see-more" aria-hidden="true">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
 						</div>
-						<div class="article-container">
+						<div class="article-card-container">
 							<ul class="post-list" aria-label="Latest articles">
 								{% assign i = 0 %}{%- for post in site.posts -%}{%- unless post.categories contains "casestudy" -%}
 								<li class="article-{{ i }}">
@@ -31,7 +31,7 @@ layout: default
 													{{ post.title | escape }}
 												{%- endif -%}
 											</a></h3>
-											<p itemprop="alternativeHeadline">
+											<p itemprop="alternativeHeadline" class="description">
 												{%- if post.display-description -%}
 													{{ post.display-description | escape }}
 												{%- else -%}

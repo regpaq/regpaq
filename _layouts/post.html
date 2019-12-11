@@ -36,6 +36,7 @@ layout: default
 {{ content }}
 
 					</div>
+{% assign postCategory = page.categories[0] %}{% include article-card-list.html%}
 {% include subscribe.html %}
 					<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
 						<meta itemprop="name" content="Reggie Paquette">

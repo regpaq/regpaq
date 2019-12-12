@@ -48,7 +48,7 @@ function convertToWebp() {
 
     return gulp
         .src(['assets/images/*.{jpeg,jpg,png}','!assets/images/*{-250,-572,-790,-880,-1600,-2450,-3200,-4000}.*'])
-        .pipe(newer(out))
+        // .pipe(newer(out))
         .pipe(webp(),
         { verbose: true }
         )
@@ -63,7 +63,7 @@ function makeResponsive() {
 
     return gulp
         .src('assets/images/*.{jpeg,jpg,png}')
-        .pipe(newer(out))
+        // .pipe(newer(out))
         .pipe(responsive(
             {
                 '*.{jpeg,jpg,png}': [
@@ -112,7 +112,7 @@ function makeResponsiveWebp() {
 
     return gulp
         .src(images)
-        .pipe(newer(out))
+        // .pipe(newer(out))
         .pipe(responsive(
             {
                 '*.webp': [

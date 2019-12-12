@@ -631,14 +631,15 @@ a:hover {
 .post-meta #post-categories {
   margin-top: .25rem;
 }
-.post-meta #post-categories a {
+.post-meta #post-categories a, .post-meta #post-categories div {
+  display: initial;
   border-radius: 3px;
   font-weight: normal;
   padding: .15rem .25rem;
   background-color: var(--color-highlight);
   color: var(--color-text-lighter);
 }
-.post-meta #post-categories a:not(:first-child) {
+.post-meta #post-categories a:not(:first-child), .post-meta #post-categories div:not(:first-child) {
   margin-left: .2rem;
 }
 @media screen and (min-width: 568px) {
@@ -832,6 +833,7 @@ img {
 }
 .feat-img img {
   margin: 0 auto;
+  width: 100%;
 }
 
 /* Fixed Aspect Raiot Featured image - applies only on post */

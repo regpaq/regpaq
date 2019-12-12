@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: Increased Agency Leads 120%
-description: Helped grow the agency through content creation and inbounc marketing. 
+description: Helped grow the agency through content creation and inbound marketing. 
 date: '2017-05-14T21:21:14.015Z'
 categories: [casestudy,eyemagine]
 slug: /inbound-marketing-case-study

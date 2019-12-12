@@ -1,11 +1,14 @@
+{%- assign j = 0 -%}{%- for post in site.categories.[postCategory] -%}{%- unless post.title contains page.title  -%}{%- assign j = j | plus:1 -%}{%- if j == 4 -%}{%- break -%}{%- endif -%}{%- endunless -%}{%- endfor -%}
+{%- unless j == 0 %}
 <section class="featured-articles horizontal" aria-labelledby="post-list-heading">
     <div class="container container-overflow">
         <div class="featured-article-header">
             <h2 id="post-list-heading" class="post-list-heading">You might also enjoy</h2>
+            {%- unless j == 1 %}
             <p class="see-more" aria-hidden="true">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
+            {%- endunless %}
         </div>
-        <div class="article-card-container">
-                {% assign j = 0 %}{% for post in site.categories.[postCategory] %}{% unless post.title contains page.title  %}{% assign j = j | plus:1 -%}{% if j == 4 %}{% break %}{% endif %}{% endunless %}{%- endfor -%}
+        <div class="article-card-container">                
             <ul class="post-list" aria-label="Recommended articles" {{ 'style="min-width: calc(' | append: j | append: ' * (286px + 16px) + 48px);"' }}>
                 {% assign i = 0 %}{% for post in site.categories.[postCategory] %}{% unless post.title contains page.title  %}
                 <li class="article-{{ i }}">
@@ -39,3 +42,4 @@
         </div>
     </div>
 </section>
+{%- endunless -%}

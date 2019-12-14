@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Illusion of Free Will Explained
-description: Arguments and an examination into free will vs determinism and what that means.
+description: Arguments for determinishm vs free will and why it matters.
 date: '2019-12-13T06:30:00-08:00'
 categories: [philosophy]
 category: [all]

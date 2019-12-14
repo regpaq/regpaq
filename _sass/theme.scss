@@ -50,7 +50,7 @@ $dark-colors: (
 	brand-darkest-faded:	#27251f,
 	alt:					#9E2D3A,
 	text:					#aeaca9,
-	text-lighter:			#7F7F7F,
+	text-lighter:			#3B3B3B,
 	bold:           		#BBBBBB,
 	heading:				#efefef,
 	blockquote:				#7e2b34,
@@ -92,6 +92,19 @@ $mod_2:                     1.6; // Desktop
     }
     @media screen and (min-width: $max-vw) {
         font-size: $max-font-size;
+    }
+}
+//for SVGs
+@mixin fluid-size($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    width: $min-font-size;
+    height: $min-font-size;
+    @media screen and (min-width: $min-vw) {
+        width: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+        height: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+    }
+    @media screen and (min-width: $max-vw) {
+        width: $max-font-size;
+        height: $max-font-size;
     }
 }
 
@@ -245,6 +258,7 @@ $mod_2:                     1.6; // Desktop
 // --------------------------------------------------------
 
 @import
+	"theme/normalize",
 	"theme/base",
 	"theme/layout",
 	"theme/styles",

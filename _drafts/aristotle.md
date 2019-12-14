@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Niccomachean Ethics by Aristotle - Summary, Notes, + Quotes
-description: The Stoics saw virtue as life's highest objective. I'm starting to see why.
+title: Nicomachean Ethics by Aristotle - Summary, Notes, + Quotes
+description: The ancients' guide to virtue.
 date: '2019-11-29T06:30:00-08:00'
 categories: [philosophy,booknotes]
 category: [all]

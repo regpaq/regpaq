@@ -179,9 +179,9 @@ a {
         margin-right: 1.5rem;        
     }
 }
-.hashtag-nav a {
+.hashtag a {
     margin: 0;
-    color: v(text-light);
+    color: v(text);
     background-color: v(highlight);
     border-radius: 3px;
     padding: .15rem .25rem;
@@ -189,7 +189,7 @@ a {
     &:hover {
         color: v(heading);
     }
-    &:first-child {
+    &:nth-child(2) {
         margin-left: .5rem;
     }
     &:not(:last-child) {
@@ -324,17 +324,6 @@ a {
     }
     #post-categories {
         margin-top: .25rem;
-        a, div {
-            display: initial;
-            border-radius: 3px;
-            font-weight: normal;
-            padding: .15rem .25rem;
-            background-color: v(highlight);
-            color: v(text-lighter);
-            &:not(:first-child) {
-                margin-left: .2rem;
-            }
-        }
         @include media-query($shmedium) {
             grid-row: 2;
         }

@@ -14,9 +14,9 @@ permalink: /resume
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />August 2019 — Present (3 mo)</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://revealbot.com/" target="_blank">revealbot.com</a></div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">Revealbot.com</a></p>
 </div>
 
 Revealbot is a digital ad automation tool.
@@ -24,7 +24,7 @@ Revealbot is a digital ad automation tool.
 ### Marketing Manager
 
 <div class="position-info">
-<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />August 2019 — Present (3 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
 </div>
 
 <div class="accordion-wrapper">
@@ -44,9 +44,9 @@ Revealbot is a digital ad automation tool.
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.chilipiper.com/" target="_blank">chilipiper.com</a></div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>November 2018 — June 2019 (8 mo)</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.chilipiper.com/" target="_blank">Chilipiper.com</a></p>
 </div>
 
 Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies.
@@ -54,7 +54,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 ### Senior Marketing Manager
 
 <div class="position-info">
-<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />November 2018 — June 2019 (8 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>November 2018 — June 2019 (8 mo)</p>
 </div>
 
 {% include case-studies-list.html company="chilipiper" %}  
@@ -78,9 +78,9 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />April 2016 — October 2018 (2 years 6 mo)</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Glendale, California</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>April 2016 — October 2018 (2 years 6 mo)</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Glendale, California</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.servicetitan.com/" target="_blank">Servicetitan.com</a></p>
 </div>
 
 ServiceTitan is the #1 management software for residential home service companies.
@@ -88,13 +88,13 @@ ServiceTitan is the #1 management software for residential home service companie
 ### Digital Marketing Manager — Demand Generation
 
 <div class="position-info">
-<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />August 2017 — October 2018 (1 year 2 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2017 — October 2018 (1 year 2 mo)</p>
 </div>
 
 ### Inbound Marketing Manager
 
 <div class="position-info">
-<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />April 2016 — August 2017 (1 year 4 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>April 2016 — August 2017 (1 year 4 mo)</p>
 </div>
 
 {% include case-studies-list.html company="servicetitan" %}
@@ -124,9 +124,9 @@ ServiceTitan is the #1 management software for residential home service companie
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Irvine, California</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>January 2015 — February 2016 (1 year 1 mo)</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Irvine, California</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.eyemaginetech.com/" target="_blank">Eyemaginetech.com</a></p>
 </div>
 
 eCommerce web development and inbound marketing agency.
@@ -134,7 +134,7 @@ eCommerce web development and inbound marketing agency.
 ### Inbound Marketing Specialist
 
 <div class="position-info">
-<p><img class="no-dark-filter svg-small" src="/assets/images/svg/cal-grey.svg" />January 2015 — February 2016 (1 year 1 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>January 2015 — February 2016 (1 year 1 mo)</p>
 </div>
 
 {% include case-studies-list.html company="eyemagine" %}
@@ -159,9 +159,9 @@ eCommerce web development and inbound marketing agency.
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />May 2012 — Present (7 years+)</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Remote</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>May 2012 — Present (7 years+)</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://paquettemarketing.com" target="_blank">Paquettemarketing.com</a></p>
 </div>
 
 Self-started marketing agency offering website development and marketing services
@@ -188,10 +188,10 @@ Self-started marketing agency offering website development and marketing service
 </div>
 
 <div class="job-info">
-<div class="job-time"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/cal-grey.svg" />2013</div>
-<div class="job-loc"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/location-grey.svg" />Fullerton</div>
-<div class="job-url"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/link-grey.svg" /><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></div>
-<div class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/school-grey.svg" />BA Business Administration, Entrepreneurship</div>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>2013</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Fullerton</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://www.fullerton.edu/" target="_blank">Fullerton.edu</a></p>
+<p class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/school-grey.svg" />BA Business Administration, Entrepreneurship</p>
 </div>
 
 {%- if site.recommendations.size > 0 -%}

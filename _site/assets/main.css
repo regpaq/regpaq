@@ -1215,8 +1215,8 @@ img.svg-reg--left {
 -------------------------------------------------------- */
 .featured-articles {
   background-color: var(--color-bg-highlight);
-  margin: 0 0 5rem 0;
-  padding: 2rem 0;
+  margin: 2rem 0;
+  padding: 1rem 0 0 0;
 }
 .featured-articles .container {
   max-width: 1400px;
@@ -1419,6 +1419,8 @@ img.svg-reg--left {
 .horizontal .article-card-container {
   grid-column: 1 / 17;
   /* Allows overflow cards to reach edge of left screen on horizontal scroll */
+  padding-left: 5.88vw;
+  /* 1/17th of vw because of 17 col grid */
   position: relative;
   overflow-x: scroll;
   scroll-behavior: smooth;
@@ -1428,14 +1430,6 @@ img.svg-reg--left {
   scroll-snap-points-x: repeat(100%);
   scroll-padding-left: 16px;
   scroll-padding-right: 16px;
-}
-@media screen and (min-width: 375px) {
-  .horizontal .article-card-container {
-    grid-column: 2 / 17;
-  }
-  .horizontal .article-card-container ul.post-list li:first-child {
-    margin-left: 0;
-  }
 }
 @media screen and (min-width: 1440px) {
   .horizontal .article-card-container {
@@ -1448,6 +1442,7 @@ img.svg-reg--left {
 }
 .horizontal ul.post-list li {
   scroll-snap-align: start end;
+  margin-left: 0;
 }
 
 /* --------------------------------------------------------
@@ -1510,6 +1505,7 @@ img.svg-reg--left {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    padding-left: 0;
   }
   .magazine .article-card-container article {
     height: 264px;
@@ -1592,6 +1588,7 @@ img.svg-reg--left {
     position: absolute;
     bottom: 1rem;
     width: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (min-width: 1024px) {

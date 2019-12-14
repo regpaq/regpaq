@@ -1,3 +1,18 @@
+---
+layout: post
+title: Niccomachean Ethics by Aristotle - Summary, Notes, + Quotes
+description: The Stoics saw virtue as life's highest objective. I'm starting to see why.
+date: '2019-11-29T06:30:00-08:00'
+categories: [philosophy,booknotes]
+category: [all]
+slug: /aristotle-niccomachean-ethics
+image: /assets/images/moral-virtue.jpeg
+image-alt: Virtue is its own reward
+author: Reggie Paquette
+post-id: 30
+seo:
+    date_modified: '2019-11-29T06:30:00-08:00'
+---
 As I read more about philosophy through Bertrand Russell's [History of Western Philosophy](https://amzn.to/2Olnlgo){:target="_blank"}, and in particular learning about Aristotle and his work on ethics, I'm beginning to understand the practical benefits of virtue. Before I get any further, here's the main virtues from Aristotle.
 
 ## List of Virtues and Vices from Aristotle

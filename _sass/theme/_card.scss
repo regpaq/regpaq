@@ -34,10 +34,10 @@
         font-family: $Monospace;
         font-size: 1rem;
         padding-right: 16px;
-        color: v(alt);
+        color: v(alt-text);
         margin: 0;            
         svg { /* `Arrow` */ 
-            fill: v(alt);
+            fill: v(alt-text);
             position: relative;
             top: 4px;
             width: 1rem;

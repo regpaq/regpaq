@@ -557,6 +557,7 @@ html[data-theme="dark"] {
   --color-brand-highlight: #353022;
   --color-brand-darkest-faded: #27251f;
   --color-alt: #9E2D3A;
+  --color-alt-text: #e63d50;
   --color-text: #aeaca9;
   --color-text-lighter: #3B3B3B;
   --color-bold: #BBBBBB;
@@ -1593,12 +1594,12 @@ img.svg-reg--left {
   font-family: Overpass Mono, monospace;
   font-size: 1rem;
   padding-right: 16px;
-  color: var(--color-alt);
+  color: var(--color-alt-text);
   margin: 0;
 }
 .featured-article-header .see-more svg {
   /* `Arrow` */
-  fill: var(--color-alt);
+  fill: var(--color-alt-text);
   position: relative;
   top: 4px;
   width: 1rem;
@@ -2064,7 +2065,7 @@ img.svg-reg--left {
 .rec-art .rec-container .rec-info .heading {
   font-size: 12px;
   line-height: .85rem;
-  color: var(--color-alt);
+  color: var(--color-alt-text);
   font-weight: 900;
   font-family: Overpass Mono, monospace;
   margin-bottom: .4rem;

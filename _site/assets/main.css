@@ -2586,6 +2586,11 @@ aside.many {
   margin-bottom: .8rem;
   padding: 0;
 }
+.resume .featured-article-header .post-list-heading {
+  margin: 0;
+  color: var(--color-text-lighter);
+  font-size: .85rem;
+}
 .resume .article-card-container {
   padding-left: 0;
   grid-column: 1 / 17;

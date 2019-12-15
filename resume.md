@@ -16,7 +16,7 @@ permalink: /resume
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">Revealbot.com</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">revealbot.com</a></p>
 </div>
 
 Revealbot is a digital ad automation tool.
@@ -46,7 +46,7 @@ Revealbot is a digital ad automation tool.
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>November 2018 — June 2019 (8 mo)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.chilipiper.com/" target="_blank">Chilipiper.com</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.chilipiper.com/" target="_blank">chilipiper.com</a></p>
 </div>
 
 Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies.
@@ -80,7 +80,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>April 2016 — October 2018 (2 years 6 mo)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Glendale, California</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.servicetitan.com/" target="_blank">Servicetitan.com</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></p>
 </div>
 
 ServiceTitan is the #1 management software for residential home service companies.
@@ -126,7 +126,7 @@ ServiceTitan is the #1 management software for residential home service companie
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>January 2015 — February 2016 (1 year 1 mo)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Irvine, California</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.eyemaginetech.com/" target="_blank">Eyemaginetech.com</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></p>
 </div>
 
 eCommerce web development and inbound marketing agency.
@@ -161,7 +161,7 @@ eCommerce web development and inbound marketing agency.
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>May 2012 — Present (7 years+)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Remote</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://paquettemarketing.com" target="_blank">Paquettemarketing.com</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></p>
 </div>
 
 Self-started marketing agency offering website development and marketing services
@@ -190,7 +190,7 @@ Self-started marketing agency offering website development and marketing service
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>2013</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Fullerton</p>
-<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://www.fullerton.edu/" target="_blank">Fullerton.edu</a></p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></p>
 <p class="job-degree"><svg class="no-dark-filter"><use xlink:href="#star" /></svg>BA Business Administration, Entrepreneurship</p>
 </div>
 

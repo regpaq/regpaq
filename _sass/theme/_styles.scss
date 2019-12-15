@@ -108,25 +108,29 @@ h1, h2, h3, h4, h5 {
     font-weight: 900;
     font-family: $SansSerif;
     line-height: 1.2;
-    color: v(heading);
+    color: v(heading);    
     }
 h1 {  
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
     margin-bottom: .5rem;
+    letter-spacing: -.08rem;
 }
 h2 {  
     @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
     margin-top: 4rem;
     margin-bottom: .8rem;
+    letter-spacing: -.06rem;
 }
 h3 { 
     @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
     margin-bottom: .5rem;
+    letter-spacing: -.04rem;
 }
 h5 {
     font-family: $Monospace;
     color: v(alt);
     margin-bottom: .4rem;
+    letter-spacing: -.04rem;
 }
 a {
     color: v(brand);
@@ -226,7 +230,7 @@ a {
             display: inline-block;
             vertical-align: middle;
             &:not(:last-child) {
-                margin-right: 1rem;
+                margin-right: 1.35rem
             }
             a {
                 color: v(text);
@@ -241,10 +245,14 @@ a {
     text-align: center;
     font-size: .75rem;
     a {
-        color: v(text);
+        color: v(text-lighter);
         &:hover {
-            color: v(brand);
+            color: v(text);
         }     
+    }
+    svg {
+        width: .75rem;
+        height: .75rem;
     }
 }
 /* --------------------------------------------------------
@@ -359,8 +367,8 @@ a {
     }
     /* Bigger First Paragraph */
     > p:first-child {
-        font-size: 1.4rem;
-        line-height: 1.5;
+        font-size: 1.25rem;
+        line-height: 1.45;
         font-style: italic;
         a {
             font-size: 1.25rem;

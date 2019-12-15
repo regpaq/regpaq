@@ -317,8 +317,7 @@
 		color: v(brand);
 		fill: v(brand);
 		svg {
-			height: 36px;
-			width: 36px;
+			fill: v(brand);
 			padding-left: 12px;
 			vertical-align: middle;
 		}
@@ -346,6 +345,9 @@
 		@include media-query($xxlarge) {
 			grid-column: 7 / 17;
 		}
+	}
+	.container {
+		margin: 0;
 	}
 	.featured-article-header {
 		grid-column: 1 / 17;

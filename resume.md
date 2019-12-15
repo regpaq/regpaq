@@ -21,7 +21,7 @@ permalink: /resume
 
 Revealbot is a digital ad automation tool.
 
-### Marketing Manager
+#### Marketing Manager
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
@@ -29,7 +29,7 @@ Revealbot is a digital ad automation tool.
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Leading marketing as the sole marketer at the company</li>
@@ -51,7 +51,7 @@ Revealbot is a digital ad automation tool.
 
 Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies.
 
-### Senior Marketing Manager
+#### Senior Marketing Manager
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>November 2018 — June 2019 (8 mo)</p>
@@ -61,7 +61,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Grew Direct Mail program (branded hot sauce) to become the most cost efficient paid acquisition channel</li>
@@ -85,13 +85,13 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 
 ServiceTitan is the #1 management software for residential home service companies.
 
-### Digital Marketing Manager — Demand Generation
+#### Digital Marketing Manager — Demand Generation
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2017 — October 2018 (1 year 2 mo)</p>
 </div>
 
-### Inbound Marketing Manager
+#### Inbound Marketing Manager
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>April 2016 — August 2017 (1 year 4 mo)</p>
@@ -101,7 +101,7 @@ ServiceTitan is the #1 management software for residential home service companie
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Launched Paid Facebook and grew to become source of 20.2% of all pipeline from paid channels with a $200k monthly budget.</li>
@@ -131,7 +131,7 @@ ServiceTitan is the #1 management software for residential home service companie
 
 eCommerce web development and inbound marketing agency.
 
-### Inbound Marketing Specialist
+#### Inbound Marketing Specialist
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>January 2015 — February 2016 (1 year 1 mo)</p>
@@ -141,7 +141,7 @@ eCommerce web development and inbound marketing agency.
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Executed and managed digital marketing strategies and content calendars for five clients at a time.</li>
@@ -168,7 +168,7 @@ Self-started marketing agency offering website development and marketing service
 
 <div class="accordion-wrapper">
 <div class="accordion-item close">
-<p class="accordion-item-heading">see more details<img class="no-dark-filter svg-reg" src="/assets/images/svg/expand-brand.svg" /></p>
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Launched a marketing service for local businesses to drive brand awareness, traffic, and leads.</li>
@@ -191,33 +191,19 @@ Self-started marketing agency offering website development and marketing service
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>2013</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#flag" /></svg>Fullerton</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://www.fullerton.edu/" target="_blank">Fullerton.edu</a></p>
-<p class="job-degree"><img class="no-dark-filter svg-tiny" src="/assets/images/svg/school-grey.svg" />BA Business Administration, Entrepreneurship</p>
+<p class="job-degree"><svg class="no-dark-filter"><use xlink:href="#star" /></svg>BA Business Administration, Entrepreneurship</p>
 </div>
 
 {%- if site.recommendations.size > 0 -%}
 ##### RECOMMENDATIONS<a name="recommendations"></a>
 
 <div class="testimonials">
-{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}{% if i == 1 %}
-    <div id="t{{ i }}" class="testimonial visible">
-{%- else -%}
-    <div id="t{{ i }}" class="testimonial hidden">
-{%- endif -%}
-        {{ item.content }}
-        <ul class="testimonial-author">
-            <li>{{ item.Name }}</li>
-            <li>{{ item.Company }}</li>
-            <li class="text-lighter">{{ item.Title }}</li>
-            <li class="text-lighter">{{ item.Relationship }}</li>
-        </ul>
-    </div>
-{%- endfor -%}
     <div class="testimonial-author-photos">{% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}
-{% if i == 1 %}
+        {% if i == 1 %}
         <div id="{{ i }}" class="author-photo selected">
-{%- else -%}
+        {%- else -%}
         <div id="{{ i }}" class="author-photo unselected">
-{%- endif -%}
+        {%- endif -%}
             <svg class="coin"><use xlink:href="#coin-gold-ring" /></svg>
             <figure>
                 <picture>
@@ -228,7 +214,22 @@ Self-started marketing agency offering website development and marketing service
                 <img src= />
             </figure>
         </div>
-{%- endfor -%}
+    {%- endfor -%}
     </div>
+    {% assign i = 0 %}{%- for item in site.recommendations -%}{% assign i = i | plus:1 %}{% if i == 1 %}
+    <div id="t{{ i }}" class="testimonial visible">
+    {%- else -%}
+    <div id="t{{ i }}" class="testimonial hidden">
+    {%- endif -%}
+        {{ item.content }}
+        <ul class="testimonial-author">
+            <li>{{ item.Name }}</li>
+            <li>{{ item.Company }}</li>
+            <li class="text-lighter">{{ item.Title }}</li>
+            <li class="text-lighter">{{ item.Relationship }}</li>
+        </ul>
+    </div>
+    {%- endfor -%}
+    
 </div>
 {%- endif -%}

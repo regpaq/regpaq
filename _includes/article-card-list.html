@@ -5,7 +5,7 @@
         <div class="featured-article-header">
             <h2 id="post-list-heading" class="post-list-heading">You might also enjoy</h2>
             {%- unless j == 1 %}
-            <p class="see-more" aria-hidden="true">MORE<img class="no-dark-filter svg-reg" src="/assets/images/svg/right-arrow-alt.svg" alt="" /></p>
+            <p class="see-more" aria-hidden="true">MORE<svg class="no-dark-filter svg-reg--left"><use xlink:href="#arrow-right" /></svg></p>
             {%- endunless %}
         </div>
         <div class="article-card-container">                
@@ -33,7 +33,7 @@
                                 {%- endif -%}
                             </p>
                             {%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
-                            <p class="post-meta"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#post-grey" /></svg>{{ post.date | date: date_format }}</p>
+                            <p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal" /></svg>{{ post.date | date: date_format }}</p>
                         </div>
                     </article>
                 </li>

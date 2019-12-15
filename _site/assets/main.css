@@ -670,6 +670,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 27.648px;
   margin-bottom: .5rem;
+  letter-spacing: -.08rem;
 }
 @media screen and (min-width: 320px) {
   h1 {
@@ -686,6 +687,7 @@ h2 {
   font-size: 23.04px;
   margin-top: 4rem;
   margin-bottom: .8rem;
+  letter-spacing: -.06rem;
 }
 @media screen and (min-width: 320px) {
   h2 {
@@ -701,6 +703,7 @@ h2 {
 h3 {
   font-size: 19.2px;
   margin-bottom: .5rem;
+  letter-spacing: -.04rem;
 }
 @media screen and (min-width: 320px) {
   h3 {
@@ -717,6 +720,7 @@ h5 {
   font-family: Overpass Mono, monospace;
   color: var(--color-alt);
   margin-bottom: .4rem;
+  letter-spacing: -.04rem;
 }
 
 a {
@@ -822,7 +826,7 @@ a:hover {
   vertical-align: middle;
 }
 #bottom-foot ul li:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: 1.35rem;
 }
 #bottom-foot ul li a {
   color: var(--color-text);
@@ -836,10 +840,14 @@ a:hover {
   font-size: .75rem;
 }
 #bottom-line a {
-  color: var(--color-text);
+  color: var(--color-text-lighter);
 }
 #bottom-line a:hover {
-  color: var(--color-brand);
+  color: var(--color-text);
+}
+#bottom-line svg {
+  width: .75rem;
+  height: .75rem;
 }
 
 /* --------------------------------------------------------
@@ -1009,8 +1017,8 @@ a:hover {
   background-color: var(--color-brand-highlight);
 }
 .post-content > p:first-child {
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.25rem;
+  line-height: 1.45;
   font-style: italic;
 }
 .post-content > p:first-child a {
@@ -1589,6 +1597,7 @@ img.svg-reg--left {
   top: 4px;
   width: 1rem;
   height: 1rem;
+  margin-left: .25rem;
 }
 @media screen and (min-width: 768px) {
   .featured-article-header .see-more {
@@ -1599,6 +1608,11 @@ img.svg-reg--left {
 .article-card-container {
   height: 255px;
   /* Based on height of li item (article card) */
+}
+@media screen and (min-width: 768px) {
+  .article-card-container {
+    height: 285px;
+  }
 }
 .article-card-container ul.post-list {
   list-style: none;
@@ -1802,6 +1816,7 @@ img.svg-reg--left {
 .full .article-card-container {
   grid-column: 2 / 16;
   height: auto;
+  padding-bottom: 30px;
 }
 .full .article-card-container figure img {
   width: 100%;
@@ -2528,8 +2543,7 @@ aside.many {
   fill: var(--color-brand);
 }
 .accordion-wrapper p.accordion-item-heading svg {
-  height: 36px;
-  width: 36px;
+  fill: var(--color-brand);
   padding-left: 12px;
   vertical-align: middle;
 }
@@ -2563,6 +2577,9 @@ aside.many {
   .resume .featured-articles {
     grid-column: 7 / 17;
   }
+}
+.resume .container {
+  margin: 0;
 }
 .resume .featured-article-header {
   grid-column: 1 / 17;

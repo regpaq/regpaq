@@ -42,6 +42,7 @@
             top: 4px;
             width: 1rem;
             height: 1rem;
+            margin-left: .25rem;
         }
         @include media-query($medium) {
             display: none;
@@ -49,10 +50,13 @@
     }
 }
 .article-card-container {
-    height: 255px; /* Based on height of li item (article card) */    
+    height: 255px; /* Based on height of li item (article card) */
+    @include media-query($medium) {
+        height: 285px;
+    }    
     ul.post-list {
         list-style: none;        
-        margin: 0;
+        margin: 0;        
     }                             
     li {
         width: 286px;
@@ -196,6 +200,7 @@
 .full .article-card-container {
     grid-column: 2 / 16;
     height: auto;
+    padding-bottom: 30px;
     figure img {
         width: 100%;
     }

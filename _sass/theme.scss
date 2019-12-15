@@ -114,10 +114,10 @@ $mod_2:                     1.6; // Desktop
 @mixin coinphoto {
 	border-radius: 100%;
 	grid-column: 1 / 2;
-	grid-row: 1 / 4;
+	grid-row: 1 / 3;
 	max-height: 55px;
 	max-width: 55px;
-	margin: 0 0 0 3.3px;
+	margin: 0 0 0 3px;
 	clip-path: url(#coin-path-tiny);
 	-webkit-clip-path: url(#coin-path-tiny);
 	@include media-query($medium) {

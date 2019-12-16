@@ -559,7 +559,7 @@ html[data-theme="dark"] {
   --color-alt: #9E2D3A;
   --color-alt-text: #e63d50;
   --color-text: #aeaca9;
-  --color-text-lighter: #3B3B3B;
+  --color-text-lighter: #aeaca9ad;
   --color-bold: #BBBBBB;
   --color-heading: #efefef;
   --color-blockquote: #7e2b34;

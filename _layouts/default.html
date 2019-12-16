@@ -10,4 +10,7 @@
 		</main>
 {% include footer.html %}
 	</body>
+	{% if jekyll.environment == 'production' -%}
+	{% include js/fathom-analytics.html %}  
+	{%- endif %}
 </html>

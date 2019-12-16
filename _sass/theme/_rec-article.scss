@@ -41,7 +41,7 @@
                 margin-bottom: .4rem;
             }
             .post-title {
-                color: v(brand);
+                color: v(link);
                 @include fluid-type($min_width, $max_width, $min_font, $max_font);
                 font-weight: 900;
                 font-family: $SansSerif;

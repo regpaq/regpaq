@@ -3,7 +3,6 @@
             For Mobile and Above
 -------------------------------------------------------- */
 .featured-articles {
-    background-color: v(bg-highlight);
     margin: 2rem 0;
     padding: 1rem 0 0 0;
         .container {
@@ -61,9 +60,8 @@
     li {
         width: 286px;
         height: 225px;
-        background-color: v(bg);
+        background-color: v(bg-highlight);
         border-radius: 3px;
-        // padding-bottom: $spacing-unit;
         margin: 0 $spacing-unit * 2 0 0;
         display: inline-block;
         vertical-align: top;

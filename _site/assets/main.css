@@ -539,16 +539,17 @@ pre > code {
 -------------------------------------------------------- */
 html[data-theme="light"] {
   --color-bg: #FFFFFF;
-  --color-bg-highlight: #F5F2EC;
-  --color-brand: #BEA761;
-  --color-brand-highlight: #f6ead1;
-  --color-text: #6f6f7c;
-  --color-text-lighter: #7F7F7F;
+  --color-bg-highlight: #F7F4F4;
+  --color-brand: #906B00;
+  --color-brand-highlight: #fbf3db;
+  --color-link: #222234;
   --color-alt: #9E2D3A;
   --color-alt-text: #e63d50;
-  --color-heading: #1E152A;
+  --color-text: #6e6e7a;
+  --color-text-lighter: #6d6d7a;
+  --color-heading: #222234;
   --color-blockquote: #9E2D3A;
-  --color-highlight: #F5F2EC;
+  --color-highlight: #F7F4F4;
 }
 
 html[data-theme="dark"] {
@@ -557,10 +558,11 @@ html[data-theme="dark"] {
   --color-brand: #BEA761;
   --color-brand-highlight: #353022;
   --color-brand-darkest-faded: #27251f;
+  --color-link: #BEA761;
   --color-alt: #9E2D3A;
   --color-alt-text: #e63d50;
   --color-text: #aeaca9;
-  --color-text-lighter: #aeaca9ad;
+  --color-text-lighter: #807e7f;
   --color-bold: #BBBBBB;
   --color-heading: #efefef;
   --color-blockquote: #7e2b34;
@@ -726,11 +728,11 @@ h5 {
 }
 
 a {
-  color: var(--color-brand);
+  color: var(--color-link);
   text-decoration: none;
 }
 a:hover {
-  color: var(--color-brand);
+  color: var(--color-link);
   text-decoration: none;
 }
 
@@ -1508,7 +1510,7 @@ img.svg-reg--left {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  color: var(--color-brand-darkest-faded);
+  color: var(--color-bg);
   background-color: var(--color-brand);
   box-sizing: border-box;
   padding: 4px 16px;
@@ -1558,7 +1560,6 @@ img.svg-reg--left {
             For Mobile and Above
 -------------------------------------------------------- */
 .featured-articles {
-  background-color: var(--color-bg-highlight);
   margin: 2rem 0;
   padding: 1rem 0 0 0;
 }
@@ -1629,7 +1630,7 @@ img.svg-reg--left {
 .article-card-container li {
   width: 286px;
   height: 225px;
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-highlight);
   border-radius: 3px;
   margin: 0 16px 0 0;
   display: inline-block;
@@ -2082,7 +2083,7 @@ img.svg-reg--left {
   }
 }
 .rec-art .rec-container .rec-info .post-title {
-  color: var(--color-brand);
+  color: var(--color-link);
   font-size: 16px;
   font-weight: 900;
   font-family: Overpass, sans-serif;
@@ -2616,7 +2617,7 @@ aside.many {
 }
 .resume ul.post-list a {
   padding: 0;
-  color: var(--color-brand);
+  color: var(--color-link);
 }
 
 /* --------------------------------------------------------

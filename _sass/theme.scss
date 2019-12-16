@@ -31,16 +31,17 @@ $xxlarge:					1700px !default;
 // Color Themes
 $light-colors: (
 	bg:						#FFFFFF,
-	bg-highlight:			#F5F2EC,
-	brand:					#BEA761,
-	brand-highlight:		#f6ead1,
-	text:					#6f6f7c,
-	text-lighter:			#7F7F7F,
+	bg-highlight:			#F7F4F4,
+	brand:					#906B00,
+	brand-highlight:		#fbf3db,	
+	link:					#222234,
 	alt:                 	#9E2D3A,
 	alt-text:				#e63d50,
-	heading:				#1E152A,
+	text:					#6e6e7a,
+	text-lighter:			#6d6d7a,
+	heading:				#222234,
 	blockquote:				#9E2D3A,
-	highlight:				#F5F2EC,
+	highlight:				#F7F4F4,
 );
 
 $dark-colors: (
@@ -49,10 +50,11 @@ $dark-colors: (
 	brand:					#BEA761,
 	brand-highlight:		#353022,
 	brand-darkest-faded:	#27251f,
+	link:					#BEA761,
 	alt:					#9E2D3A,
 	alt-text:				#e63d50,	
 	text:					#aeaca9,
-	text-lighter:			#aeaca9ad,
+	text-lighter:			#807e7f,
 	bold:           		#BBBBBB,
 	heading:				#efefef,
 	blockquote:				#7e2b34,

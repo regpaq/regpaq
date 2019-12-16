@@ -133,10 +133,10 @@ h5 {
     letter-spacing: -.04rem;
 }
 a {
-    color: v(brand);
+    color: v(link);
     text-decoration: none;
     &:hover {
-      color: v(brand);
+      color: v(link);
       text-decoration: none;
     }
 }

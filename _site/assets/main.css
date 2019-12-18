@@ -973,7 +973,7 @@ a:hover {
 @media screen and (min-width: 375px) {
   .post-meta #post-categories {
     grid-row: 2 / 3;
-    margin-top: -.1rem;
+    margin-top: -.15rem;
   }
 }
 

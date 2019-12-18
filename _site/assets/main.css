@@ -463,7 +463,7 @@ pre > code {
   margin: 0;
 }
 .site-header .site-title {
-  grid-column: 2 / 14;
+  grid-column: 2 / 5;
 }
 .site-header #lightswitch {
   grid-column: 14 / 16;
@@ -538,18 +538,18 @@ pre > code {
 			Colors
 -------------------------------------------------------- */
 html[data-theme="light"] {
-  --color-bg: #FFFFFF;
+  --color-bg: #FEFCFC;
   --color-bg-highlight: #F7F4F4;
-  --color-brand: #906B00;
-  --color-brand-highlight: #fbf3db;
+  --color-brand: #9E2D3A;
+  --color-brand-highlight: #ede8e8;
   --color-link: #222234;
   --color-alt: #9E2D3A;
-  --color-alt-text: #e63d50;
-  --color-text: #6e6e7a;
+  --color-alt-text: #9E2D3A;
+  --color-text: #6c6c71;
   --color-text-lighter: #6d6d7a;
   --color-heading: #222234;
   --color-blockquote: #9E2D3A;
-  --color-highlight: #F7F4F4;
+  --color-highlight: #f7f1eb;
 }
 
 html[data-theme="dark"] {
@@ -584,17 +584,8 @@ svg {
 html[data-theme="light"] {
   /* Resume specific changes */
 }
-html[data-theme="light"] #lightswitch #moon {
-  transform: translate(420px, 420px);
-}
 html[data-theme="light"] #lightswitch #sun {
-  transform: translate(1px, 20px);
-}
-html[data-theme="light"] #lightswitch:hover #moon {
-  transform: translate(1px, 20px);
-}
-html[data-theme="light"] #lightswitch:hover #sun {
-  transform: translate(420px, 420px);
+  transform: translate(-420px, 420px);
 }
 html[data-theme="light"] .resume .article-subtitle {
   color: var(--color-text);
@@ -626,17 +617,8 @@ html[data-theme="dark"] img:not(.no-dark-filter) {
 html[data-theme="dark"] .dark-bg-wrapper {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] #lightswitch #sun {
-  transform: translate(420px, 420px);
-}
 html[data-theme="dark"] #lightswitch #moon {
-  transform: translate(1px, 20px);
-}
-html[data-theme="dark"] #lightswitch:hover #moon {
   transform: translate(420px, 420px);
-}
-html[data-theme="dark"] #lightswitch:hover #sun {
-  transform: translate(1px, 20px);
 }
 html[data-theme="dark"] #servicetitan {
   background-image: url(/assets/images/svg/servicetitan-white.svg);
@@ -753,7 +735,7 @@ a:hover {
 
 #logo {
   margin: 0;
-  max-width: 5rem;
+  max-width: 3.5rem;
 }
 #logo:hover #LetterP {
   transform: translatex(50px);
@@ -765,17 +747,20 @@ a:hover {
 
 #lightswitch {
   align-self: center;
-  height: 2.5rem;
-  width: 2.5rem;
-  fill: var(--color-text);
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: var(--color-text-lighter);
 }
 #lightswitch :hover {
   cursor: pointer;
 }
 #lightswitch #sun, #lightswitch #moon {
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
+.site-nav a {
+  transition: color 0.5s ease-out 0s;
+}
 .site-nav a:not(:last-child) {
   margin-right: 1.5rem;
 }
@@ -788,6 +773,7 @@ a:hover {
   border-radius: 3px;
   padding: .15rem .25rem;
   line-height: 2;
+  transition: background-color 0.5s ease-out 0s;
 }
 .hashtag div:nth-child(2), .hashtag a:nth-child(2) {
   margin-left: .5rem;
@@ -966,9 +952,6 @@ a:hover {
   grid-column: 2 / 4;
   align-self: end;
 }
-.post-meta span a:hover {
-  color: var(--color-brand);
-}
 .post-meta svg {
   color: var(--color-text);
   width: .75rem;
@@ -1014,7 +997,6 @@ a:hover {
   border-radius: 3px;
   font-weight: normal;
   padding: .15rem .25rem;
-  font-size: .85rem;
   background-color: var(--color-highlight);
 }
 .post-content strong {
@@ -1409,13 +1391,16 @@ img.svg-reg--left {
   grid-template-rows: 1fr;
   grid-auto-flow: row;
   grid-gap: .75rem;
-  margin: 1.5rem auto;
+  margin: 2rem auto 1rem auto;
   padding: 0 1rem;
   text-align: center;
 }
 .subscribe > * {
   margin-top: 0;
   margin-bottom: 0;
+}
+.subscribe h2 {
+  margin-top: 0;
 }
 @media screen and (min-width: 768px) {
   .subscribe p {
@@ -1560,14 +1545,13 @@ img.svg-reg--left {
             For Mobile and Above
 -------------------------------------------------------- */
 .featured-articles {
-  margin: 2rem 0;
   padding: 1rem 0 0 0;
 }
 .featured-articles .container {
   max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  margin: 1rem auto;
+  margin: 0 auto;
   width: 100%;
 }
 .featured-articles .container > * {

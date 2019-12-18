@@ -29,18 +29,19 @@ svg {
 html[data-theme="light"] {    
     #lightswitch {
         #moon {
-            transform: translate(420px, 420px);            
+            // transform: translate(420px, 420px);
         }
         #sun {
-            transform: translate(1px, 20px);
+            // transform: translate(1px, 20px);
+            transform: translate(-420px, 420px);
         }
     }
     #lightswitch:hover {
         #moon {
-            transform: translate(1px, 20px);
+            // transform: translate(1px, 20px);
         }
         #sun {
-            transform: translate(420px, 420px);
+            // transform: translate(420px, 420px);
         }
     }
     /* Resume specific changes */
@@ -75,18 +76,19 @@ html[data-theme="dark"] {
     /* Theme switcher icon animation animation while in dark mode */
     #lightswitch {
         #sun {
-            transform: translate(420px, 420px);
+            // transform: translate(420px, 420px);
         }
         #moon {
-            transform: translate(1px, 20px);
+            // transform: translate(1px, 20px);
+            transform: translate(420px, 420px);
         }
     }
     #lightswitch:hover {
         #moon {
-            transform: translate(420px, 420px);
+            // transform: translate(420px, 420px);
         }
         #sun {
-            transform: translate(1px, 20px);
+            // transform: translate(1px, 20px);
         }
     }
     /* Resume logo compatability with dark mode */
@@ -155,7 +157,7 @@ a {
 }
 #logo {
     margin: 0;
-    max-width: 5rem;    
+    max-width: 3.5rem;    
     &:hover {
         #LetterP {
             transform: translatex(50px);
@@ -168,17 +170,18 @@ a {
 }
 #lightswitch {
     align-self: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    fill: v(text);
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: v(text-lighter);
     :hover {
         cursor: pointer;
     }
     #sun, #moon {
-        transition: all 0.4s;
+        transition: all 0.3s;
     }
 }
 .site-nav a {
+    @include theme-transition(color);
     &:not(:last-child) {
         margin-right: 1.5rem;        
     }
@@ -190,7 +193,8 @@ a {
     background-color: v(highlight);
     border-radius: 3px;
     padding: .15rem .25rem;
-    line-height: 2;    
+    line-height: 2;
+    @include theme-transition(background-color);    
     &:nth-child(2) {
         margin-left: .5rem;
     }
@@ -313,9 +317,6 @@ a {
     span {
         grid-column: 2 / 4;
         align-self: end;
-        a:hover {
-          color: v(brand);
-        }
     }
     svg {
         color: v(text);
@@ -356,7 +357,6 @@ a {
         border-radius: 3px;
         font-weight: normal;
         padding: .15rem .25rem;
-        font-size: .85rem;
         background-color: v(highlight);
     }
     strong {        

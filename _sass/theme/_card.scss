@@ -3,13 +3,12 @@
             For Mobile and Above
 -------------------------------------------------------- */
 .featured-articles {
-    margin: 2rem 0;
     padding: 1rem 0 0 0;
         .container {
         max-width: 1400px;
         display: grid;
         grid-template-columns: repeat(16, 1fr);
-        margin: 1rem auto;
+        margin: 0 auto;
         width: 100%;
         > * {
             grid-column: 2 / 17;

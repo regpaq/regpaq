@@ -1,52 +1,69 @@
 <script>
 			// New prefers-color-scheme media query to detect OS light/dark mode setting
-			var prefers_light = window.matchMedia('(prefers-color-scheme: light)')
-			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)')
-			var root = document.documentElement
+			var prefers_light = window.matchMedia('(prefers-color-scheme: light)');
+			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');
+			var root = document.documentElement;
+			const coins = document.getElementsByClassName("coin");
 
 			// Change to dark
 			function darkmode() {
-			root.setAttribute('data-theme', 'dark');
+				root.setAttribute('data-theme', 'dark');
+				// coinChange();
 			}
 
 			// Change to light
-			function lightmode() {;  
-			root.setAttribute('data-theme', 'light');
+			function lightmode() {  
+				root.setAttribute('data-theme', 'light');
+				// coinChange();
 			}
 
 			// Initialization triggers light/dark mode based on prior preference, then OS setting
 			if(localStorage.getItem("mode")=="dark") {
-			darkmode();
+				darkmode();
 			} else if(localStorage.getItem("mode")=="light") {
-			lightmode();
+				lightmode();
 			} else if(prefers_light.matches) {
-			lightmode();
+				lightmode();
 			} else if(prefers_dark.matches) {
-			darkmode();
+				darkmode();
 			}
 
 			// Fires when user clicks light/dark mode switch in top right
 			function handleThemeUpdate() {
-			if (localStorage.getItem('mode')=="light") {
-				darkmode();
-				localStorage.setItem('mode', 'dark');
-			} else {
-				lightmode();
-				localStorage.setItem('mode', 'light');
-			}
+				if (localStorage.getItem('mode')=="light") {
+					darkmode();
+					localStorage.setItem('mode', 'dark');
+				} else {
+					lightmode();
+					localStorage.setItem('mode', 'light');
+				}
 			}
 
 			// Runs when OS changes light/dark mode. Changes only if you were on default
 			// color state (light on light mode, dark on dark mode).
 			function OSColorChange() {
-			if (prefers_light.matches) {
-				lightmode();
-				localStorage.setItem("mode", "light");
-			} else if (prefers_dark.matches) {
-				darkmode();
-				localStorage.setItem("mode", "dark");
+				if (prefers_light.matches) {
+					lightmode();
+					localStorage.setItem("mode", "light");
+				} else if (prefers_dark.matches) {
+					darkmode();
+					localStorage.setItem("mode", "dark");
+				}
 			}
-			}
+
+			// HTML elements that need to change in dark and light mode - Note: doesn't load correct color because js fires before html is loaded
+			// function coinChange() {
+			// 	console.log(coins);				
+			// 	for (var i = 0; i < coins.length; i++ ) {
+			// 		if (coins[i].childNodes[0].getAttribute("xlink:href") === "#coin-gold-ring") {
+			// 			coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");
+			// 			console.log("gold ring matched");
+			// 		} else {
+			// 			coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");
+			// 			console.log("silver ring matched");
+			// 		}
+			// 	}
+			// }
 
 			// Listeners for when you change OS setting for light/dark mode
 			prefers_light.addListener(OSColorChange)

@@ -1,72 +1,85 @@
-const gulp = require('gulp');
-const newer = require('gulp-newer');
-const imagemin = require('gulp-imagemin');
-const mozjpeg = require('imagemin-mozjpeg');
-const webp = require('gulp-webp');
-const pngquant = require('gulp-pngquant');
-const responsive = require('gulp-responsive');
+const gulp = require('gulp'),
+    newer = require('gulp-newer'),
+    imagemin = require('gulp-imagemin'),
+    mozjpeg = require('imagemin-mozjpeg'),
+    webp = require('gulp-webp'),
+    pngquant = require('gulp-pngquant'),
+    responsive = require('gulp-responsive');
 
 
 // jpg image processing
-function compressJpg() {
+function optimizeJpg() {
 
     let jpgImages = '_src/*.jp*';
     let out = 'assets/images/';
+    let webpOut = 'assets/images/webp/';
 
     return gulp
         .src(jpgImages)
         .pipe(newer(out))
-        .pipe(imagemin([
-            mozjpeg({quality: 75}),   
-        ],
-        { verbose: true }
+        .pipe(imagemin(
+            [mozjpeg({quality: 75})],
+            {verbose: true }))
+        .pipe(gulp.dest(out))
+        .pipe(responsive(
+            {
+                '*': [
+                    {
+                        width: 250,
+                        rename: { suffix: '-250' }
+                    },{
+                        width: 572,
+                        rename: { suffix: '-572' }
+                    },{
+                        width: 790,
+                        rename: { suffix: '-790' }
+                    },{
+                        width: 880,
+                        rename: { suffix: '-880' }
+                    },{
+                        width: 1600,
+                        rename: { suffix: '-1600' }
+                    },{
+                        width: 2450,
+                        rename: { suffix: '-2450' }
+                    },{
+                        width: 3200,
+                        rename: { suffix: '-3200' }
+                    },{
+                        width: 4000,
+                        rename: { suffix: '-4000' }
+                    }
+                ]                
+            },{
+                errorOnEnlargement: false,
+                withMetadata: false,
+                skipOnEnlargement: true,
+                errorOnUnusedConfig: false,
+                errorOnUnusedImage: false
+            }
         ))
-        .pipe(gulp.dest(out));
+        .pipe(gulp.dest(out))
+        .pipe(webp(
+            { verbose: true }))
+        .pipe(gulp.dest(webpOut));    
 }
-exports.compressJpg = compressJpg;
 
 // png image processing
-function compressPng() {
+function optimizePng() {
 
     let pngImages = '_src/*.png';
     let out = 'assets/images/';
+    let webpOut = 'assets/images/webp/';
 
     return gulp
         .src(pngImages)
         .pipe(newer(out))
-        .pipe(pngquant({ quality: 75 }),
-        { verbose: true }
-        )
-        .pipe(gulp.dest(out));
-}
-exports.compressPng = compressPng;
-
-// webp image conversion
-function convertToWebp() {
-
-    let out = 'assets/images/webp/';
-
-    return gulp
-        .src(['assets/images/*.{jpeg,jpg,png}','!assets/images/*{-250,-572,-790,-880,-1600,-2450,-3200,-4000}.*'])
-        // .pipe(newer(out))
-        .pipe(webp(),
-        { verbose: true }
-        )
-        .pipe(gulp.dest(out));
-}
-exports.convertToWebp = convertToWebp;
-
-// make jp* and png images responsive
-function makeResponsive() {
-
-    let out = 'assets/images/';
-
-    return gulp
-        .src('assets/images/*.{jpeg,jpg,png}')
-        // .pipe(newer(out))
+        .pipe(pngquant({
+            quality: '75'}))
+        .pipe(gulp.dest(out))
         .pipe(responsive(
             {
-                '*.{jpeg,jpg,png}': [
+                '*': [
                     {
                         width: 250,
                         rename: { suffix: '-250' }
@@ -101,70 +114,30 @@ function makeResponsive() {
                 errorOnUnusedImage: false
             }
         ))
-        .pipe(gulp.dest(out))        
+        .pipe(gulp.dest(out))
+        .pipe(webp())
+        .pipe(gulp.dest(webpOut));    
 }
-exports.makeResponsive = makeResponsive;
 
-function makeResponsiveWebp() {
+function originalWebp() {
 
-    let out = 'assets/images/webp/';
-    let images = 'assets/images/webp/*'; 
+    let images = ['_src/*.jp*','_src/*.png'];
+    let webpOut = 'assets/images/webp/';
 
     return gulp
         .src(images)
-        // .pipe(newer(out))
-        .pipe(responsive(
-            {
-                '*.webp': [
-                    {
-                        width: 250,
-                        rename: { suffix: '-250' }
-                    },{
-                        width: 572,
-                        rename: { suffix: '-572' }
-                    },{
-                        width: 790,
-                        rename: { suffix: '-790' }
-                    },{
-                        width: 880,
-                        rename: { suffix: '-880' }
-                    },{
-                        width: 1600,
-                        rename: { suffix: '-1600' }
-                    },{
-                        width: 2450,
-                        rename: { suffix: '-2450' }
-                    },{
-                        width: 3200,
-                        rename: { suffix: '-3200' }
-                    },{
-                        width: 4000,
-                        rename: { suffix: '-4000' }
-                    }
-                ]                
-            },{
-                errorOnEnlargement: false,
-                withMetadata: false,
-                skipOnEnlargement: true,
-                errorOnUnusedConfig: false,
-                errorOnUnusedImage: false
-            }
-        ))
-        .pipe(gulp.dest(out))        
+        .pipe(newer(webpOut))
+        .pipe(webp([{
+            quality: 75
+        }]))
+        .pipe(gulp.dest(webpOut)); 
 }
-exports.makeResponsiveWebp = makeResponsiveWebp;
-exports.build = gulp.series(exports.compressJpg, exports.compressPng, exports.convertToWebp, exports.makeResponsive, exports.makeResponsiveWebp)
 
-/* 
-1. just process this and dump in existing images folder (figure out webp folder though)
-2. test to see if it works correctly with feature images at least
-3. then see how to implement for regular pages
-4. must figure out liquid code to make not display broken image links (check MM post)
+function watch(cb) {
+    gulp.watch('_src/*.jp*', optimizeJpg);
+    gulp.watch('_src/*.png', optimizePng);
+    gulp.watch('_src/*.png', originalWebp);
+    cb();
+}
 
-issues
-1. max size of any image in build folder is the image size it meets in breakdown - solved by using original
-2. since we're not scaling up, the higher resolution pixels won't be found - solved by unless statements
-3. need the optimized images (excluding webp) included in /assets to be the fall back.
-
-if I don't separate images by type, I'll have a lot of duplicates, but I could always worry about that later
-*/
+exports.default = watch;

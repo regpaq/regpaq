@@ -1,11 +1,13 @@
 {%- assign img = include.image | split: '.' -%}
-{%- assign bigImagePath = img[0] | remove_first: "/" | append: "-3200" | append: "." | append: img[1] -%}
-{%- assign smlImagePath = img[0] | remove_first: "/" | append: "-2450" | append: "." | append: img[1] %}
+{%- assign lgImagePath = img[0] | remove_first: "/" | append: "-3200" | append: "." | append: img[1] -%}
+{%- assign mdImagePath = img[0] | remove_first: "/" | append: "-2450" | append: "." | append: img[1] %}
+{%- assign smImagePath = img[0] | remove_first: "/" | append: "-1600" | append: "." | append: img[1] %}
 <figure class="feat-img">
     <picture>
-        {%- capture bigImage -%}{%- file_exists {{bigImagePath}} -%}{%- endcapture -%}
-        {%- capture smlImage -%}{%- file_exists {{smlImagePath}} -%}{%- endcapture -%}
-        {%- if bigImage == 'true' %}
+        {%- capture lgImage -%}{%- file_exists {{lgImagePath}} -%}{%- endcapture -%}
+        {%- capture mdImage -%}{%- file_exists {{mdImagePath}} -%}{%- endcapture -%}
+        {%- capture smImage -%}{%- file_exists {{smImagePath}} -%}{%- endcapture -%}
+        {%- if lgImage == 'true' %}
         <source            
             sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
             srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
@@ -28,7 +30,7 @@
                 {{ img[0] }}-4000.{{ img[1] }} 4000w"
             type="image/{{ img[1] }}"
         />
-        {%- elsif smlImage == 'true' -%}
+        {%- elsif mdImage == 'true' -%}
         <source            
             sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
             srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
@@ -47,7 +49,7 @@
                 {{ img[0] }}-2450.{{ img[1] }} 2450w"
             type="image/{{ img[1] }}"
         />
-        {%- else -%}
+        {%- elsif smImage == 'true' -%}
         <source            
             sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
             srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
@@ -64,7 +66,24 @@
                 {{ img[0] }}-880.{{ img[1] }} 880w,
                 {{ img[0] }}-1600.{{ img[1] }} 1600w,
             type="image/{{ img[1] }}"
-        />        
+        />
+        {%- else -%}
+        <source            
+            sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
+            srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-790.webp 790w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-880.webp 880w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-880.webp 1600w,
+                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-880.webp 2000w"
+            type="image/webp"
+        />
+        <source
+            sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px"
+            srcset="{{ img[0] }}-572.{{ img[1] }} 572w,
+                {{ img[0] }}-790.{{ img[1] }} 790w,
+                {{ img[0] }}-880.{{ img[1] }} 880w,
+            type="image/{{ img[1] }}"
+        />         
         {%- endif %}      
         <img
             itemprop="image"

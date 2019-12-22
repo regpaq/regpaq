@@ -22,9 +22,11 @@
     "gulp-jpeg-2000": "^1.1.2",
     "gulp-newer": "^1.4.0",
     "gulp-responsive": "^3.0.1",
+    "gulp-watch": "^5.0.1",
     "gulp-webp": "^4.0.1"
   },
   "dependencies": {
+    "braces": "^3.0.2",
     "gulp-pngquant": "^1.0.12",
     "imagemagick": "^0.1.3",
     "imagemin-mozjpeg": "^8.0.0",

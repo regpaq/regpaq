@@ -42,6 +42,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-target-blank
 
 feed:
   categories:

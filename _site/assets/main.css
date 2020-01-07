@@ -704,6 +704,9 @@ h3 {
 
 h5 {
   font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   color: var(--color-alt);
   margin-bottom: .4rem;
   letter-spacing: -.04rem;
@@ -773,6 +776,10 @@ a:hover {
   border-radius: 3px;
   padding: .15rem .25rem;
   line-height: 2;
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   transition: background-color 0.5s ease-out 0s;
 }
 .hashtag div:nth-child(2), .hashtag a:nth-child(2) {
@@ -879,6 +886,10 @@ a:hover {
 .post-meta {
   font-size: .75rem;
   color: var(--color-text-lighter);
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   position: relative;
   /* for #ring */
   grid-row: 3;
@@ -1026,7 +1037,6 @@ a:hover {
   box-shadow: 0.35rem 0.35rem 0 var(--color-blockquote);
   border-radius: 3px;
   padding: 0;
-  font-weight: 200;
   color: inherit;
 }
 .post-content blockquote > p {
@@ -1051,6 +1061,9 @@ a:hover {
   border-top: 0.1rem solid var(--color-blockquote);
   border-radius: 0;
   font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   font-style: normal;
   font-weight: bold;
   font-size: .75rem;
@@ -1067,6 +1080,7 @@ a:hover {
   border: none;
   box-shadow: none;
   color: var(--color-heading);
+  font-weight: 200;
   font-size: 1.75rem;
   line-height: 1.2;
 }
@@ -1578,6 +1592,9 @@ img.svg-reg--left {
 }
 .featured-article-header .see-more {
   font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   font-size: 1rem;
   padding-right: 16px;
   color: var(--color-alt-text);
@@ -1692,12 +1709,23 @@ img.svg-reg--left {
 .article-card-container .article-info .description {
   flex: 1 1 auto;
 }
-.article-card-container .post-meta {
+.article-card-container .article-info .post-meta {
   display: inline;
   margin: 0;
   color: var(--color-text-lighter);
+  font-size: 13px;
 }
-.article-card-container .post-meta svg {
+@media screen and (min-width: 320px) {
+  .article-card-container .article-info .post-meta {
+    font-size: calc(13px + 1 * ((100vw - 320px) / 960));
+  }
+}
+@media screen and (min-width: 1280px) {
+  .article-card-container .article-info .post-meta {
+    font-size: 14px;
+  }
+}
+.article-card-container .article-info .post-meta svg {
   fill: var(--color-text-lighter);
   color: var(--color-text-lighter);
   position: relative;
@@ -1707,13 +1735,13 @@ img.svg-reg--left {
   height: 13px;
 }
 @media screen and (min-width: 320px) {
-  .article-card-container .post-meta svg {
+  .article-card-container .article-info .post-meta svg {
     width: calc(13px + 2 * ((100vw - 320px) / 960));
     height: calc(13px + 2 * ((100vw - 320px) / 960));
   }
 }
 @media screen and (min-width: 1280px) {
-  .article-card-container .post-meta svg {
+  .article-card-container .article-info .post-meta svg {
     width: 15px;
     height: 15px;
   }
@@ -2054,6 +2082,9 @@ img.svg-reg--left {
   color: var(--color-alt-text);
   font-weight: 900;
   font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   margin-bottom: .4rem;
 }
 @media screen and (min-width: 320px) {
@@ -2155,7 +2186,11 @@ aside.many {
     margin-right: auto;
   }
 }
-.resume .post-meta {
+.resume .post-header .post-meta {
+  font-family: Overpass, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-weight: normal;
   max-width: 980px;
   margin-left: 0;
   grid-template-columns: 1fr;
@@ -2163,14 +2198,14 @@ aside.many {
   grid-row-gap: .5rem;
 }
 @media screen and (min-width: 568px) {
-  .resume .post-meta {
+  .resume .post-header .post-meta {
     grid-template-columns: 140px 3fr;
     grid-template-rows: .3fr .3fr .2fr;
     grid-column-gap: 3rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .resume .post-meta {
+  .resume .post-header .post-meta {
     margin-left: auto;
     margin-right: auto;
     grid-column-gap: 1.5rem;
@@ -2273,6 +2308,10 @@ aside.many {
   vertical-align: baseline;
 }
 .resume .info {
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   grid-column: 1;
   grid-row: 4 / 5;
 }
@@ -2369,6 +2408,10 @@ aside.many {
 -------------------------------------------------------- */
 .resume .toc-aside {
   display: none;
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   position: relative;
   opacity: .4;
   transition: .3s;
@@ -2409,7 +2452,6 @@ aside.many {
 .resume .toc-aside nav li {
   font-size: .65rem;
   margin-left: .65rem;
-  font-family: Overpass Mono, monospace;
 }
 .resume .toc-aside nav li:before {
   margin-top: .35rem;
@@ -2473,6 +2515,10 @@ aside.many {
 
 .job-info p, .position-info p {
   font-size: .85rem;
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
 }
 .job-info svg, .position-info svg {
   vertical-align: baseline;
@@ -2634,6 +2680,9 @@ aside.many {
 }
 .resume ul.testimonial-author li {
   font-family: Overpass Mono, monospace;
+  letter-spacing: -.25px;
+  word-spacing: -3px;
+  font-weight: bold;
   font-size: .65rem;
   margin: 0;
   padding-right: .5rem;

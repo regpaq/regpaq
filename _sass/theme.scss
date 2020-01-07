@@ -70,6 +70,20 @@ $dark-colors: (
 	@return var(--color-#{$color-name});
 }
 
+// Monospace font builder
+@mixin Monospace-font {
+	font-family: $Monospace;
+	letter-spacing: -.25px;
+	word-spacing: -3px;
+	font-weight: bold;
+}
+@mixin Base-font {
+	font-family: $SansSerif;
+	letter-spacing: normal;
+	word-spacing: normal;
+	font-weight: normal;
+}
+
 // 			Media Queries
 // --------------------------------------------------------
 @mixin media-query($device) {

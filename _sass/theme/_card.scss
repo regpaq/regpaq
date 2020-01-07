@@ -29,7 +29,7 @@
         margin-top: 0;                
     }
     .see-more {
-        font-family: $Monospace;
+        @include Monospace-font;
         font-size: 1rem;
         padding-right: 16px;
         color: v(alt-text);
@@ -110,18 +110,19 @@
         .description {
             flex: 1 1 auto;
         }
-    }
-    .post-meta {
-        display: inline;
-        margin: 0;
-        color: v(text-lighter);
-        svg {
-            fill: v(text-lighter);
-            color: v(text-lighter);
-            position: relative;
+        .post-meta {
+            display: inline;
             margin: 0;
-            top: 0;
-            @include fluid-size($min_width, $max_width, 13px, 15px);
+            color: v(text-lighter);
+            @include fluid-type($min_width, $max_width, 13px, 14px);
+            svg {
+                fill: v(text-lighter);
+                color: v(text-lighter);
+                position: relative;
+                margin: 0;
+                top: 0;
+                @include fluid-size($min_width, $max_width, 13px, 15px);
+            }
         }
     }
     li:first-child {

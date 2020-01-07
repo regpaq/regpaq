@@ -51,6 +51,8 @@ People will shout, “you can do anything you set your mind to” or “you just
 > While we do need to have ruthless discipline to reach our greatest potential, we cannot ignore the limits imposed on us by the cards we’re dealt or we will forever be dissatisfied with who we are and what we’ve accomplished.
 {: .big-quote}
 
+{% assign subpage = site.posts | where: 'post-id', '29' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
+
 Here’s another reason why it doesn’t make sense to compare ourselves to others: luck. **No one’s success is ever only down to luck, but we can’t ignore the role luck plays in success as an “x” factor — it’s unmanageable and unpredictable.** The only thing in your control is to continually put yourself in positions to catch lucky breaks. And remember: luck is not distributed evenly.
 
 In a Q&A with White House interns, President Obama gave advice on the subject luck has with success and what to focus on instead:
@@ -67,6 +69,8 @@ Productivity is worthless if you’re on a false path. Your goal and motivation 
 >
 > > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 {: .big-quote}
+
+{% assign subpage = site.posts | where: 'post-id', '28' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 Your true path is doing what you were made for — what you feel you have an inclination and natural ability for. This inclination is a reflection of your unique genetic code, deep underlying preferences for particular activities or forms of expression. When you find your true path, you’ll be less inclined to compare your success with someone else. **You will quickly realize their path isn’t a good fit for you.** And you won’t be as inclined to envy their money, attention, or whatever, because craving those things is a false path.
 

@@ -37,7 +37,7 @@
                 line-height: .85rem;
                 color: v(alt-text);
                 font-weight: 900;
-                font-family: $Monospace;
+                @include Monospace-font;
                 margin-bottom: .4rem;
             }
             .post-title {

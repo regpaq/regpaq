@@ -19,23 +19,24 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-	}
-	.post-meta {
-		max-width: 980px; 
-		margin-left: 0;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr;
-		grid-row-gap: .5rem;		
-		@include media-query($shmedium) {
-			grid-template-columns: 140px 3fr;
-			grid-template-rows: .3fr .3fr .2fr;
-			grid-column-gap: 3rem;
-		}
-		@include media-query($medium) {
-			margin-left: auto;
-			margin-right: auto;
-			grid-column-gap: 1.5rem;
-			grid-template-columns: 8.5rem auto 1fr auto;
+		.post-meta {
+			@include Base-font;
+			max-width: 980px; 
+			margin-left: 0;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr;
+			grid-row-gap: .5rem;		
+			@include media-query($shmedium) {
+				grid-template-columns: 140px 3fr;
+				grid-template-rows: .3fr .3fr .2fr;
+				grid-column-gap: 3rem;
+			}
+			@include media-query($medium) {
+				margin-left: auto;
+				margin-right: auto;
+				grid-column-gap: 1.5rem;
+				grid-template-columns: 8.5rem auto 1fr auto;
+			}
 		}
 	}
 	.coin { 
@@ -114,6 +115,7 @@
 		}
 	}
 	.info {
+		@include Monospace-font;
 		grid-column: 1;
 		grid-row: 4 / 5;
 		@include media-query($shmedium) {
@@ -184,6 +186,7 @@
 .resume {
 	.toc-aside {
 		@include grid-offset-sidebar;
+		@include Monospace-font;
 		position: relative;
 		opacity: .4;
 		transition: .3s;		
@@ -199,7 +202,6 @@
 			li {
 				font-size: .65rem;
 				margin-left: .65rem;
-				font-family: $Monospace;
 				&:before {
 					margin-top: .35rem;
 					margin-left: -.65rem;
@@ -257,6 +259,7 @@
 .job-info, .position-info {
 	p {
 		font-size: .85rem;
+		@include Monospace-font;
 	}
 	svg {
 		vertical-align: baseline;
@@ -463,7 +466,7 @@
 			display: none;		
 		}
 		li {
-			font-family: $Monospace;
+			@include Monospace-font;
 			font-size: .65rem;
 			margin: 0;
 			padding-right: .5rem;

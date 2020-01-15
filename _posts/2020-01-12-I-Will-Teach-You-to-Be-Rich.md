@@ -165,7 +165,7 @@ Then your paycheck gets deposited into your checking account and from there you 
 
 Here's what the flow looks like:
 
-{% include figure.html image="/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg" width="wide" caption="How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ." %}
+{% include figure.html image="assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg" width="wide" caption="How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ." %}
 
 > "By setting up an automatic payment plan you actually make it difficult to stop the contributions to your retirement account! Not because you can't - you can adjust your system any time - but because you're lazy and you won't."
 > > Ramit Sethi

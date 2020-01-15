@@ -71,7 +71,7 @@ pre {
   color: v(text);
   font-size: .75rem;
   border-collapse: collapse;
-  white-space: nowrap;
+  white-space: normal;
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }

@@ -405,7 +405,6 @@ pre > code {
 -------------------------------------------------------- */
 .post-content table {
   grid-column: 2 / 16;
-  margin-bottom: 8px;
   width: 100%;
   text-align: left;
   color: var(--color-text);
@@ -413,19 +412,24 @@ pre > code {
   border-collapse: collapse;
   white-space: nowrap;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 568px) {
   .post-content table {
     grid-column: 3 / 15;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .post-content table {
     grid-column: 4 / 14;
   }
 }
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1440px) {
   .post-content table {
     grid-column: 5 / 13;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .post-content table {
+    grid-column: 6 / 12;
   }
 }
 .post-content table th, .post-content table td {
@@ -642,7 +646,7 @@ html, body, .site-title > h1 > a {
   }
 }
 
-p, ol, ul, blockquote {
+p, ol, ul, blockquote, table {
   margin-bottom: 2rem;
 }
 
@@ -700,6 +704,11 @@ h3 {
   h3 {
     font-size: 25.6px;
   }
+}
+
+h4 {
+  margin-bottom: .5rem;
+  letter-spacing: -.04rem;
 }
 
 h5 {

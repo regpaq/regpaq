@@ -65,20 +65,13 @@ pre {
 			Tables
 -------------------------------------------------------- */
 .post-content table {
-  @include grid-wide;
-  margin-bottom: $spacing-unit;
+  @include grid-normal;
   width: 100%;
   text-align: $table-text-align;
   color: v(text);
   font-size: .75rem;
   border-collapse: collapse;
   white-space: nowrap;
-  // border: 1px solid v(alt);
-  // tr {
-  //   &:nth-child(even) {
-  //     background-color: v(text);
-  //   }
-  // }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }

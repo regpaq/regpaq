@@ -103,7 +103,7 @@ html, body, .site-title > h1 > a {
     font: $base-font-weight #{$base-size}/#{$base-line-height} $SansSerif;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
-p, ol, ul, blockquote {
+p, ol, ul, blockquote, table {
     margin-bottom: 2rem;
 }
 h1, h2, h3, h4, h5 {
@@ -118,13 +118,17 @@ h1 {
     letter-spacing: -.08rem;
 }
 h2 {  
-    @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+    @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$min_font, $mod_2*$mod_2 *$min_font);
     margin-top: 4rem;
     margin-bottom: .8rem;
     letter-spacing: -.06rem;
 }
 h3 { 
-    @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font);
+    @include fluid-type($min_width, $max_width, $mod_1*$min_font, $mod_2*$min_font);
+    margin-bottom: .5rem;
+    letter-spacing: -.04rem;
+}
+h4 { 
     margin-bottom: .5rem;
     letter-spacing: -.04rem;
 }

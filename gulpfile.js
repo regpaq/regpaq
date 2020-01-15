@@ -137,6 +137,7 @@ function watch(cb) {
     gulp.watch('_src/*.jp*', optimizeJpg);
     gulp.watch('_src/*.png', optimizePng);
     gulp.watch('_src/*.png', originalWebp);
+    gulp.watch('_src/*.jp*', originalWebp);
     cb();
 }
 

@@ -79,7 +79,7 @@ Chili Piper is a scheduling and buyer enablement platform for B2B SaaS companies
 
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>April 2016 — October 2018 (2 years 6 mo)</p>
-<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Glendale, California</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Glendale, CA</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.servicetitan.com/" target="_blank">servicetitan.com</a></p>
 </div>
 
@@ -125,7 +125,7 @@ ServiceTitan is the #1 management software for residential home service companie
 
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>January 2015 — February 2016 (1 year 1 mo)</p>
-<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Irvine, California</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Irvine, CA</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.eyemaginetech.com/" target="_blank">eyemaginetech.com</a></p>
 </div>
 
@@ -189,7 +189,7 @@ Self-started marketing agency offering website development and marketing service
 
 <div class="job-info">
 <p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>2013</p>
-<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Fullerton</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Fullerton, CA</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://www.fullerton.edu/" target="_blank">fullerton.edu</a></p>
 <p class="job-degree"><svg class="no-dark-filter"><use xlink:href="#star" /></svg>BA Business Administration, Entrepreneurship</p>
 </div>

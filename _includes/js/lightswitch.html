@@ -1,20 +1,27 @@
 <script>
 			// New prefers-color-scheme media query to detect OS light/dark mode setting
 			var prefers_light = window.matchMedia('(prefers-color-scheme: light)');
-			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');
+			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');			
 			var root = document.documentElement;
 			const coins = document.getElementsByClassName("coin");
 
 			// Change to dark
 			function darkmode() {
+				console.log('darkmode ran');  
 				root.setAttribute('data-theme', 'dark');
-				// coinChange();
+				for (let i = 0; i < coins.length; i++) {
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");
+				}
 			}
 
 			// Change to light
-			function lightmode() {  
+			function lightmode() {
+				console.log('lightmode ran');  
+				console.log(coins);  
 				root.setAttribute('data-theme', 'light');
-				// coinChange();
+				for (let i = 0; i < coins.length; i++) {
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");
+				}
 			}
 
 			// Initialization triggers light/dark mode based on prior preference, then OS setting
@@ -50,20 +57,6 @@
 					localStorage.setItem("mode", "dark");
 				}
 			}
-
-			// HTML elements that need to change in dark and light mode - Note: doesn't load correct color because js fires before html is loaded
-			// function coinChange() {
-			// 	console.log(coins);				
-			// 	for (var i = 0; i < coins.length; i++ ) {
-			// 		if (coins[i].childNodes[0].getAttribute("xlink:href") === "#coin-gold-ring") {
-			// 			coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");
-			// 			console.log("gold ring matched");
-			// 		} else {
-			// 			coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");
-			// 			console.log("silver ring matched");
-			// 		}
-			// 	}
-			// }
 
 			// Listeners for when you change OS setting for light/dark mode
 			prefers_light.addListener(OSColorChange)

@@ -713,7 +713,7 @@ h4 {
 
 h5 {
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   color: var(--color-alt);
@@ -772,6 +772,7 @@ a:hover {
 
 .site-nav a {
   transition: color 0.5s ease-out 0s;
+  color: var(--color-text);
 }
 .site-nav a:not(:last-child) {
   margin-right: 1.5rem;
@@ -786,16 +787,18 @@ a:hover {
   padding: .15rem .25rem;
   line-height: 2;
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   transition: background-color 0.5s ease-out 0s;
 }
-.hashtag div:nth-child(2), .hashtag a:nth-child(2) {
-  margin-left: .5rem;
-}
-.hashtag div:not(:last-child), .hashtag a:not(:last-child) {
-  margin-right: .2rem;
+@media screen and (min-width: 568px) {
+  .hashtag div:nth-child(2), .hashtag a:nth-child(2) {
+    margin-left: .25rem;
+  }
+  .hashtag div:not(:last-child), .hashtag a:not(:last-child) {
+    margin-right: .2rem;
+  }
 }
 
 .hashtag a:hover {
@@ -896,7 +899,7 @@ a:hover {
   font-size: .75rem;
   color: var(--color-text-lighter);
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   position: relative;
@@ -1070,7 +1073,7 @@ a:hover {
   border-top: 0.1rem solid var(--color-blockquote);
   border-radius: 0;
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   font-style: normal;
@@ -1521,7 +1524,7 @@ img.svg-reg--left {
   color: var(--color-bg);
   background-color: var(--color-brand);
   box-sizing: border-box;
-  padding: 4px 16px;
+  padding: 6px 24px;
   display: inline-block;
   margin: 0;
   transition: all 0.08s ease-in-out 0.08s;
@@ -1601,7 +1604,7 @@ img.svg-reg--left {
 }
 .featured-article-header .see-more {
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   font-size: 1rem;
@@ -2091,7 +2094,7 @@ img.svg-reg--left {
   color: var(--color-alt-text);
   font-weight: 900;
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   margin-bottom: .4rem;
@@ -2318,7 +2321,7 @@ aside.many {
 }
 .resume .info {
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   grid-column: 1;
@@ -2418,7 +2421,7 @@ aside.many {
 .resume .toc-aside {
   display: none;
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   position: relative;
@@ -2525,7 +2528,7 @@ aside.many {
 .job-info p, .position-info p {
   font-size: .85rem;
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
 }
@@ -2689,7 +2692,7 @@ aside.many {
 }
 .resume ul.testimonial-author li {
   font-family: Overpass Mono, monospace;
-  letter-spacing: -.25px;
+  letter-spacing: -.85px;
   word-spacing: -3px;
   font-weight: bold;
   font-size: .65rem;

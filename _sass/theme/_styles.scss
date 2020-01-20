@@ -186,6 +186,7 @@ a {
 }
 .site-nav a {
     @include theme-transition(color);
+    color: v(text);
     &:not(:last-child) {
         margin-right: 1.5rem;        
     }
@@ -199,12 +200,14 @@ a {
     padding: .15rem .25rem;
     line-height: 2;
     @include Monospace-font;
-    @include theme-transition(background-color);    
-    &:nth-child(2) {
-        margin-left: .5rem;
-    }
-    &:not(:last-child) {
-        margin-right: .2rem;
+    @include theme-transition(background-color);
+    @include media-query($shmedium) {    
+        &:nth-child(2) {
+            margin-left: .25rem;
+        }
+        &:not(:last-child) {
+            margin-right: .2rem;
+        }
     }
 }
 .hashtag a:hover {

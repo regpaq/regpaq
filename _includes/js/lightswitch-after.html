@@ -1,0 +1,12 @@
+<script>
+                // Needs to run again after all elements loaded
+                if(localStorage.getItem("mode")=="dark") {
+                    darkmode();
+                } else if(localStorage.getItem("mode")=="light") {
+                    lightmode();
+                } else if(prefers_light.matches) {
+                    lightmode();
+                } else if(prefers_dark.matches) {
+                    darkmode();
+                }
+            </script>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-14T20:40:59-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I Will Teach You to Be Rich—Summary, Notes, + Quotes</title><link href="http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes" rel="alternate" type="text/html" title="I Will Teach You to Be Rich—Summary, Notes, + Quotes" /><published>2020-01-14T06:30:00-08:00</published><updated>2020-01-14T06:30:00-08:00</updated><id>http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes</id><content type="html" xml:base="http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes">&lt;p&gt;It’s unfortunate I Will Teach You To Be Rich has an off-putting title because it’s a fantastic introduction to personal finance.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-19T16:54:10-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">I Will Teach You to Be Rich—Summary, Notes, + Quotes</title><link href="http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes" rel="alternate" type="text/html" title="I Will Teach You to Be Rich—Summary, Notes, + Quotes" /><published>2020-01-14T06:30:00-08:00</published><updated>2020-01-14T06:30:00-08:00</updated><id>http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes</id><content type="html" xml:base="http://localhost:4000/i-will-teach-you-to-be-rich-summary-notes-quotes">&lt;p&gt;It’s unfortunate I Will Teach You To Be Rich has an off-putting title because it’s a fantastic introduction to personal finance.&lt;/p&gt;
 
 &lt;p&gt;Ramit Sethi’s goal is to make personal finance exciting and rewarding, a stark contrast from the dry, guilt-inducing material you typically would associate to the personal finance space.&lt;/p&gt;
 
@@ -280,7 +280,7 @@
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It’s unfortunate I Will Teach You To Be Rich has an off-putting title because it’s a fantastic introduction to personal finance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Free Will Doesn’t Exist</title><link href="http://localhost:4000/free-will-doesnt-exist" rel="alternate" type="text/html" title="Free Will Doesn’t Exist" /><published>2020-01-06T06:30:00-08:00</published><updated>2020-01-06T06:30:00-08:00</updated><id>http://localhost:4000/free-will-doesnt-exist</id><content type="html" xml:base="http://localhost:4000/free-will-doesnt-exist">&lt;p&gt;It seems we have control of our thoughts. It seems we choose our beliefs. It seems we have the capacity to make our own choices. It seems we control our actions.&lt;/p&gt;
 
-&lt;p&gt;It seems everything we think and do is of our own free will and this is all seems quite obvious.&lt;/p&gt;
+&lt;p&gt;It seems everything we think and do is of our own free will and this all seems quite obvious.&lt;/p&gt;
 
 &lt;p&gt;But there does exist the opposite belief that we don’t have free will to choose all those things ourselves and rather our thoughts, beliefs, choices, and actions are determined only by a result of previous causes that could not have resulted in any other outcome. &lt;strong&gt;This philosophical belief is called determinism.&lt;/strong&gt;&lt;/p&gt;
 
@@ -463,9 +463,9 @@
                     &lt;picture&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/stop-comparing-yourself-to-others-250.webp 250w,
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.jpeg 250w,
-                                /assets/images/stop-comparing-yourself-to-others-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.jpeg&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
+                                /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -528,11 +528,11 @@
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
                     &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary-250.webp 250w,
-                                /assets/images/webp/meditations-marcus-aurelius-summary-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary-250.jpeg 250w,
-                                /assets/images/meditations-marcus-aurelius-summary-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary2-250.webp 250w,
+                                /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
+                                /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -599,7 +599,7 @@
 
 &lt;p&gt;Although some critics say there isn’t much of a practical difference between free will and the illusion of it, there are clear implications to the understanding of ourselves, other people, and the world around us.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Challenge yourself to be aware of the influences on your thoughts, beliefs, and behavior. Challenge yourself to accept and be grateful for who you are, what you have, and what you’ve accomplished. Challenge yourself to feel affection for other people even when they make mistakes.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It seems we have control of our thoughts. It seems we choose our beliefs. It seems we have the capacity to make our own choices. It seems we control our actions.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/sam-harris.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/sam-harris.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before I got &lt;a href=&quot;/philosophy&quot;&gt;interested in philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenge yourself to be aware of the influences on your thoughts, beliefs, and behavior. Challenge yourself to accept and be grateful for who you are, what you have, and what you’ve accomplished. Challenge yourself to feel affection for other people even when they make mistakes.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It seems we have control of our thoughts. It seems we choose our beliefs. It seems we have the capacity to make our own choices. It seems we control our actions.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before I got &lt;a href=&quot;/philosophy&quot;&gt;interested in philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -680,11 +680,11 @@
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
                     &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary-250.webp 250w,
-                                /assets/images/webp/meditations-marcus-aurelius-summary-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary-250.jpeg 250w,
-                                /assets/images/meditations-marcus-aurelius-summary-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary.jpeg&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/meditations-marcus-aurelius-summary2-250.webp 250w,
+                                /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
+                                /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -719,9 +719,9 @@
                     &lt;picture&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/stop-comparing-yourself-to-others-250.webp 250w,
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.jpeg 250w,
-                                /assets/images/stop-comparing-yourself-to-others-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.jpeg&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
+                                /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        

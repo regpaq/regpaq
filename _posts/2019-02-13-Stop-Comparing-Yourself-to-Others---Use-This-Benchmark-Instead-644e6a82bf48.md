@@ -6,7 +6,7 @@ date: '2019-02-13T20:11:11.378Z'
 categories: [philosophy]
 category: [all]
 slug: /stop-comparing-yourself-to-others
-image: /assets/images/stop-comparing-yourself-to-others.jpeg
+image: /assets/images/stop-comparing-yourself-to-others.png
 image-alt: stop comparing yourself to others
 author: Reggie Paquette
 post-id: 14

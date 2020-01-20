@@ -6,7 +6,7 @@ date: '2019-01-21T16:44:36.213Z'
 categories: [practical]
 category: [all]
 slug: /how-to-make-habits-stick
-image: /assets/images/how-to-make-new-habits-stick.jpeg
+image: /assets/images/how-to-make-new-habits-stick.png
 image-alt: how to make new habits stick
 author: Reggie Paquette
 post-id: 8

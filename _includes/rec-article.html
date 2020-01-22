@@ -32,11 +32,16 @@
                             sizes="(min-width: 1024px) 274px, 198px"
                             srcset="{{ pimg[0] }}-250.{{ pimg[1] }} 250w,
                                 {{ pimg[0] }}-572.{{ pimg[1] }} 572w"
-                            type="image/{{ pimg[1] }}"
+                            type="image/
+                                {%- if pimg[1] == "jpg" -%}
+                                    jpeg"
+                                {%- else -%}
+                                    {{ pimg[1] }}"
+                                {%- endif %}
                         />
                         <img
                             itemprop="image"
-                            src="/assets/images/{{ post.image }}"
+                            src="{{ post.image }}"
                             alt="{{ post.image-alt }}"
                         />
                     </picture>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T18:08:24-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2019 Year Review</title><link href="http://localhost:4000/2019-year-review" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-21T03:00:11-08:00</published><updated>2020-01-21T03:00:11-08:00</updated><id>http://localhost:4000/2019-year-review</id><content type="html" xml:base="http://localhost:4000/2019-year-review">&lt;h2 id=&quot;goals-from-2018&quot;&gt;Goals From 2018&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T23:05:20-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2019 Year Review</title><link href="http://localhost:4000/2019-year-review" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-21T03:00:11-08:00</published><updated>2020-01-21T03:00:11-08:00</updated><id>http://localhost:4000/2019-year-review</id><content type="html" xml:base="http://localhost:4000/2019-year-review">&lt;h2 id=&quot;goals-from-2018&quot;&gt;Goals From 2018&lt;/h2&gt;
 
 &lt;h3 id=&quot;read-one-book-a-month&quot;&gt;Read one book a month&lt;/h3&gt;
 
@@ -22,8 +22,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/peter-drucker-250.webp 250w,
                                 /assets/images/webp/peter-drucker-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/peter-drucker-250.jpg 250w,
-                                /assets/images/peter-drucker-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/peter-drucker.jpg&quot; alt=&quot;Peter Drucker author of The Effective Executive&quot; /&gt;
+                                /assets/images/peter-drucker-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/peter-drucker.jpg&quot; alt=&quot;Peter Drucker author of The Effective Executive&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -61,8 +61,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/moral-virtue-250.webp 250w,
                                 /assets/images/webp/moral-virtue-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/moral-virtue-250.jpg 250w,
-                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
+                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -85,7 +85,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -143,7 +143,7 @@
                                 /assets/images/webp/stoic-journal-topics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stoic-journal-topics-250.jpeg 250w,
                                 /assets/images/stoic-journal-topics-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -201,7 +201,7 @@
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpeg 250w,
                                 /assets/images/google-sheets-budget-template-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -227,8 +227,8 @@
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-chili-piper.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-chili-piper.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-chili-piper.jpeg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; /&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-chili-piper.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -279,8 +279,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/medium-vs-self-hosted-blog-250.webp 250w,
                                 /assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/medium-vs-self-hosted-blog-250.jpg 250w,
-                                /assets/images/medium-vs-self-hosted-blog-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                                /assets/images/medium-vs-self-hosted-blog-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -299,7 +299,7 @@
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/regpaq/todo-material&quot;&gt;A simple to-do app using Google’s Inbox design&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;I also &lt;a href=&quot;/resume&quot;&gt;wrote several case studies of work I’ve done&lt;/a&gt; at ServiceTitan and Chili Piper to build a portfolio. I’m not sure how effective it was at helping me land an interview or secure an offer, but it helped me get me some confidence back of the good work I’ve done.&lt;/p&gt;
+&lt;p&gt;I also &lt;a href=&quot;/resume&quot;&gt;wrote several case studies of work I’ve done&lt;/a&gt; at ServiceTitan and Chili Piper to build a portfolio. I’m not sure how effective it was at helping me land an interview or secure an offer, but it helped me get me some confidence back by remembering the good work I’ve done.&lt;/p&gt;
 
 &lt;h3 id=&quot;new-job&quot;&gt;New job&lt;/h3&gt;
 
@@ -640,7 +640,7 @@
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpeg 250w,
                                 /assets/images/google-sheets-budget-template-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -856,8 +856,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/moral-virtue-250.webp 250w,
                                 /assets/images/webp/moral-virtue-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/moral-virtue-250.jpg 250w,
-                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
+                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -890,7 +890,7 @@
                                 /assets/images/webp/atomic-habits-summary-review-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/atomic-habits-summary-review-250.png 250w,
                                 /assets/images/atomic-habits-summary-review-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -937,7 +937,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1004,7 +1004,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1053,7 +1053,7 @@
                                 /assets/images/webp/stoic-journal-topics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stoic-journal-topics-250.jpeg 250w,
                                 /assets/images/stoic-journal-topics-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1156,7 +1156,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1193,7 +1193,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1723,8 +1723,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
                                 /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
-                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1798,8 +1798,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/sam-harris-free-will-250.webp 250w,
                                 /assets/images/webp/sam-harris-free-will-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/sam-harris-free-will-250.jpg 250w,
-                                /assets/images/sam-harris-free-will-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/sam-harris-free-will.jpg&quot; alt=&quot;Sam Harris on free will&quot; /&gt;
+                                /assets/images/sam-harris-free-will-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/sam-harris-free-will.jpg&quot; alt=&quot;Sam Harris on free will&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1845,8 +1845,8 @@
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/moral-virtue-250.webp 250w,
                                 /assets/images/webp/moral-virtue-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/moral-virtue-250.jpg 250w,
-                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
+                                /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1891,7 +1891,7 @@
                                 /assets/images/webp/stoic-journal-topics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stoic-journal-topics-250.jpeg 250w,
                                 /assets/images/stoic-journal-topics-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1985,7 +1985,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2062,7 +2062,7 @@
                                 /assets/images/webp/atomic-habits-summary-review-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/atomic-habits-summary-review-250.png 250w,
                                 /assets/images/atomic-habits-summary-review-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2325,7 +2325,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images//assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        

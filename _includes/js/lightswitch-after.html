@@ -1,12 +1,19 @@
 <script>
                 // Needs to run again after all elements loaded
+                const coins = document.getElementsByClassName("coin");
+                const logo = document.getElementById("LetterR").childNodes[0];
+            
                 if(localStorage.getItem("mode")=="dark") {
                     darkmode();
+                    darkmodeAfter();
                 } else if(localStorage.getItem("mode")=="light") {
                     lightmode();
+                    lightmodeAfter();
                 } else if(prefers_light.matches) {
                     lightmode();
+                    lightmodeAfter();
                 } else if(prefers_dark.matches) {
                     darkmode();
+                    darkmodeAfter();
                 }
             </script>

@@ -2,25 +2,27 @@
 			// New prefers-color-scheme media query to detect OS light/dark mode setting
 			var prefers_light = window.matchMedia('(prefers-color-scheme: light)');
 			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');			
-			var root = document.documentElement;
-			const coins = document.getElementsByClassName("coin");
+			var root = document.documentElement;			
 
 			// Change to dark
-			function darkmode() {
-				console.log('darkmode ran');  
-				root.setAttribute('data-theme', 'dark');
+			function darkmode() {				
+				root.setAttribute('data-theme', 'dark');				
+			}
+			function darkmodeAfter() {
+				// logo.setAttribute('fill','#bea761');								
 				for (let i = 0; i < coins.length; i++) {
-					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");					
 				}
 			}
 
 			// Change to light
-			function lightmode() {
-				console.log('lightmode ran');  
-				console.log(coins);  
-				root.setAttribute('data-theme', 'light');
+			function lightmode() {				
+				root.setAttribute('data-theme', 'light');				
+			}
+			function lightmodeAfter() {
+				// logo.setAttribute('fill','#a1a1b3'); 				
 				for (let i = 0; i < coins.length; i++) {
-					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");					
 				}
 			}
 
@@ -39,9 +41,11 @@
 			function handleThemeUpdate() {
 				if (localStorage.getItem('mode')=="light") {
 					darkmode();
+					darkmodeAfter();
 					localStorage.setItem('mode', 'dark');
 				} else {
 					lightmode();
+					lightmodeAfter();
 					localStorage.setItem('mode', 'light');
 				}
 			}
@@ -51,9 +55,11 @@
 			function OSColorChange() {
 				if (prefers_light.matches) {
 					lightmode();
+					lightmodeAfter()
 					localStorage.setItem("mode", "light");
 				} else if (prefers_dark.matches) {
 					darkmode();
+					darkmodeAfter()
 					localStorage.setItem("mode", "dark");
 				}
 			}

@@ -75,25 +75,27 @@
 			// New prefers-color-scheme media query to detect OS light/dark mode setting
 			var prefers_light = window.matchMedia('(prefers-color-scheme: light)');
 			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');			
-			var root = document.documentElement;
-			const coins = document.getElementsByClassName("coin");
+			var root = document.documentElement;			
 
 			// Change to dark
-			function darkmode() {
-				console.log('darkmode ran');  
-				root.setAttribute('data-theme', 'dark');
+			function darkmode() {				
+				root.setAttribute('data-theme', 'dark');				
+			}
+			function darkmodeAfter() {
+				// logo.setAttribute('fill','#bea761');								
 				for (let i = 0; i < coins.length; i++) {
-					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");					
 				}
 			}
 
 			// Change to light
-			function lightmode() {
-				console.log('lightmode ran');  
-				console.log(coins);  
-				root.setAttribute('data-theme', 'light');
+			function lightmode() {				
+				root.setAttribute('data-theme', 'light');				
+			}
+			function lightmodeAfter() {
+				// logo.setAttribute('fill','#a1a1b3'); 				
 				for (let i = 0; i < coins.length; i++) {
-					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");					
 				}
 			}
 
@@ -112,9 +114,11 @@
 			function handleThemeUpdate() {
 				if (localStorage.getItem('mode')=="light") {
 					darkmode();
+					darkmodeAfter();
 					localStorage.setItem('mode', 'dark');
 				} else {
 					lightmode();
+					lightmodeAfter();
 					localStorage.setItem('mode', 'light');
 				}
 			}
@@ -124,9 +128,11 @@
 			function OSColorChange() {
 				if (prefers_light.matches) {
 					lightmode();
+					lightmodeAfter()
 					localStorage.setItem("mode", "light");
 				} else if (prefers_dark.matches) {
 					darkmode();
+					darkmodeAfter()
 					localStorage.setItem("mode", "dark");
 				}
 			}
@@ -141,7 +147,7 @@
 			<div class="site-title">
 				<a rel="author" href="/" aria-label="Go to Regpaq Homepage">					
 					<svg xmlns="http://www.w3.org/2000/svg" id="logo" viewbox="0 0 323 156.06" aria-labelledby="logo-title" role="img"><title id="logo-title">Reggie Paquette's Writing and Portfolio</title>
-<g id="LetterP"><path d="M273.06,51c-.12-6.69-.36-19.86-9.56-31.66C253,5.84,237.45,2.69,231.28,1.43A61.56,61.56,0,0,0,217.35.23H149l-30.51,156h36.58l8.29-42.82h41.1a74.33,74.33,0,0,0,33-7.5c6.28-3.08,20.79-10.21,29.4-26.87A57.82,57.82,0,0,0,273.06,51ZM229.58,71.46c-7.6,10.66-19.78,12-21.68,12.13H168.8q5.64-26.28,11.3-52.54h29.8c1,0,14.3-.28,21.28,10.08A22.72,22.72,0,0,1,234.9,54,29.35,29.35,0,0,1,229.58,71.46Z" transform="translate(0 -0.17)" fill="#302e28"></path></g><g id="LetterR"><path d="M123.79.23C115.52.18,99.05.12,82.11.23c-5.94,0-12.56.1-21.06.33C55.35.72,50.83.85,48.53,1,45,1.24,23.39,2.72,10,19.17-3.74,36.05.36,57.5,1.31,62.42A60.9,60.9,0,0,0,15.05,90.24a62.77,62.77,0,0,0,29.6,19l-27,47h39l23.5-42.82h30.37l8,42.82h36.58ZM68,83.59a30.68,30.68,0,0,1-30.71-29A23.14,23.14,0,0,1,42.65,39a23.48,23.48,0,0,1,17.07-8H94l10.09,52.54Z" transform="translate(0 -0.17)" fill="#bea761"></path></g></svg>
+<g id="LetterP"><path d="M273.06,51c-.12-6.69-.36-19.86-9.56-31.66C253,5.84,237.45,2.69,231.28,1.43A61.56,61.56,0,0,0,217.35.23H149l-30.51,156h36.58l8.29-42.82h41.1a74.33,74.33,0,0,0,33-7.5c6.28-3.08,20.79-10.21,29.4-26.87A57.82,57.82,0,0,0,273.06,51ZM229.58,71.46c-7.6,10.66-19.78,12-21.68,12.13H168.8q5.64-26.28,11.3-52.54h29.8c1,0,14.3-.28,21.28,10.08A22.72,22.72,0,0,1,234.9,54,29.35,29.35,0,0,1,229.58,71.46Z" transform="translate(0 -0.17)" fill="#302e28"></path></g><g id="LetterR"><path d="M123.79.23C115.52.18,99.05.12,82.11.23c-5.94,0-12.56.1-21.06.33C55.35.72,50.83.85,48.53,1,45,1.24,23.39,2.72,10,19.17-3.74,36.05.36,57.5,1.31,62.42A60.9,60.9,0,0,0,15.05,90.24a62.77,62.77,0,0,0,29.6,19l-27,47h39l23.5-42.82h30.37l8,42.82h36.58ZM68,83.59a30.68,30.68,0,0,1-30.71-29A23.14,23.14,0,0,1,42.65,39a23.48,23.48,0,0,1,17.07-8H94l10.09,52.54Z" transform="translate(0 -0.17)"></path></g></svg>
 				</a>
 			</div>
 			<a id="lightswitch" onclick="handleThemeUpdate()" aria-hidden="true">
@@ -180,6 +186,33 @@
 						<div class="article-card-container">
 							<ul class="post-list">
 								<li class="article-0">
+									<a href="/2019-year-review">
+<figure class="feat-img">
+    <picture>
+        <source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/2019-year-review-572.webp 572w,
+                /assets/images/webp/2019-year-review-790.webp 790w,
+                /assets/images/webp/2019-year-review-880.webp 880w,
+                /assets/images/webp/2019-year-review-1600.webp 1600w,
+                /assets/images/webp/2019-year-review-2450.webp 2450w,
+                /assets/images/webp/2019-year-review-3200.webp 3200w,
+                /assets/images/webp/2019-year-review-4000.webp 4000w" type="image/webp"></source>
+        <source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/2019-year-review-572.jpeg 572w,
+                /assets/images/2019-year-review-790.jpeg 790w,
+                /assets/images/2019-year-review-880.jpeg 880w,
+                /assets/images/2019-year-review-1600.jpeg 1600w,
+                /assets/images/2019-year-review-2450.jpeg 2450w,
+                /assets/images/2019-year-review-3200.jpeg 3200w,
+                /assets/images/2019-year-review-4000.jpeg 4000w" type="image/jpeg"></source>      
+        <img itemprop="image" src="/assets/images/2019-year-review.jpeg" alt="2019 year review">
+    </picture>
+</figure></a>
+									<div class="article-info">
+										<h3><a class="post-link" href="/2019-year-review">2019 Year Review</a></h3>
+										<p class="description">Getting fired, learning the hard way, finding a new job, vacationing in Barcelona</p>
+										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 21, '20</p>
+									</div>
+								</li>
+								<li class="article-1">
 									<a href="/i-will-teach-you-to-be-rich-summary-notes-quotes">
 <figure class="feat-img">
     <picture>
@@ -206,7 +239,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 14, '20</p>
 									</div>
 								</li>
-								<li class="article-1">
+								<li class="article-2">
 									<a href="/free-will-doesnt-exist">
 <figure class="feat-img">
     <picture>
@@ -233,7 +266,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 6, '20</p>
 									</div>
 								</li>
-								<li class="article-2">
+								<li class="article-3">
 									<a href="/virtue-is-its-own-reward">
 <figure class="feat-img">
     <picture>
@@ -260,7 +293,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Nov 29, '19</p>
 									</div>
 								</li>
-								<li class="article-3">
+								<li class="article-4">
 									<a href="/effective-executive-summary-quotes-peter-drucker">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/peter-drucker-572.webp 572w,
@@ -282,7 +315,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Aug 12, '19</p>
 									</div>
 								</li>
-								<li class="article-4">
+								<li class="article-5">
 									<a href="/netlify-analytics-review">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/netlify-analytics-572.webp 572w,
@@ -304,7 +337,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jul 24, '19</p>
 									</div>
 								</li>
-								<li class="article-5">
+								<li class="article-6">
 									<a href="/blogging-on-medium-vs-self-hosted-blog">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w,
@@ -326,7 +359,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jul 19, '19</p>
 									</div>
 								</li>
-								<li class="article-6">
+								<li class="article-7">
 									<a href="/stop-comparing-yourself-to-others">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w,
@@ -348,7 +381,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Feb 13, '19</p>
 									</div>
 								</li>
-								<li class="article-7">
+								<li class="article-8">
 									<a href="/stoic-journal-topics">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/stoic-journal-topics-572.webp 572w,
@@ -370,7 +403,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Feb 7, '19</p>
 									</div>
 								</li>
-								<li class="article-8">
+								<li class="article-9">
 									<a href="/mastery-summary-quotes-robert-greene">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/mastery-book-summary-572.webp 572w,
@@ -392,7 +425,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Feb 5, '19</p>
 									</div>
 								</li>
-								<li class="article-9">
+								<li class="article-10">
 									<a href="/google-sheets-budget-template">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/google-sheets-budget-template-572.webp 572w,
@@ -414,7 +447,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Feb 1, '19</p>
 									</div>
 								</li>
-								<li class="article-10">
+								<li class="article-11">
 									<a href="/2018-year-review">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/2018-year-review-572.webp 572w,
@@ -432,11 +465,11 @@
 </figure></a>
 									<div class="article-info">
 										<h3><a class="post-link" href="/2018-year-review">2018 Year Review</a></h3>
-										<p class="description">A look back on 2018’s biggest moments, failures, and accomplishments</p>
+										<p class="description">Making $100k, leaving ServiceTitan, getting a new job, going to Paris and Amsterdam</p>
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 25, '19</p>
 									</div>
 								</li>
-								<li class="article-11">
+								<li class="article-12">
 									<a href="/how-to-break-bad-habits">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/how-to-break-bad-habits-572.webp 572w,
@@ -458,7 +491,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 24, '19</p>
 									</div>
 								</li>
-								<li class="article-12">
+								<li class="article-13">
 									<a href="/how-to-make-habits-stick">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/how-to-make-new-habits-stick-572.webp 572w,
@@ -480,7 +513,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 21, '19</p>
 									</div>
 								</li>
-								<li class="article-13">
+								<li class="article-14">
 									<a href="/meditations-from-marcus-aurelius-summary-notes-quotes">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w,
@@ -502,7 +535,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Dec 6, '18</p>
 									</div>
 								</li>
-								<li class="article-14">
+								<li class="article-15">
 									<a href="/gymaholic-app-review-the-best-gym-app-for-workout-tracking">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/gymaholic-review-572.webp 572w,
@@ -524,7 +557,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Nov 29, '18</p>
 									</div>
 								</li>
-								<li class="article-15">
+								<li class="article-16">
 									<a href="/done-review-of-my-favorite-habit-tracking-app">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/done-app-review-572.webp 572w,
@@ -546,7 +579,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Nov 22, '18</p>
 									</div>
 								</li>
-								<li class="article-16">
+								<li class="article-17">
 									<a href="/atomic-habits-review-notes-lessons">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/atomic-habits-summary-review-572.webp 572w,
@@ -568,7 +601,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Nov 12, '18</p>
 									</div>
 								</li>
-								<li class="article-17">
+								<li class="article-18">
 									<a href="/i-got-this-from-a-client-i-was-expecting-a-lot-more-from-you">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/i-was-exepecting-a-lot-more-from-you-572.webp 572w,
@@ -590,7 +623,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Nov 13, '15</p>
 									</div>
 								</li>
-								<li class="article-18">
+								<li class="article-19">
 									<a href="/i-made-317-per-month-from-two-amazon-niche-sites-last-year-and-heres-how-i-did-it">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/niche-site-amazon-affiliate-572.webp 572w,
@@ -612,7 +645,7 @@
 										<p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 5, '15</p>
 									</div>
 								</li>
-								<li class="article-19">
+								<li class="article-20">
 									<a href="/does-the-hoth-really-work-a-5-month-review-and-analysis">
 <figure class="feat-img">
     <picture><source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/the-hoth-review-572.webp 572w,
@@ -772,14 +805,21 @@
             </symbol></symbol></svg>
 			<script>
                 // Needs to run again after all elements loaded
+                const coins = document.getElementsByClassName("coin");
+                const logo = document.getElementById("LetterR").childNodes[0];
+            
                 if(localStorage.getItem("mode")=="dark") {
                     darkmode();
+                    darkmodeAfter();
                 } else if(localStorage.getItem("mode")=="light") {
                     lightmode();
+                    lightmodeAfter();
                 } else if(prefers_light.matches) {
                     lightmode();
+                    lightmodeAfter();
                 } else if(prefers_dark.matches) {
                     darkmode();
+                    darkmodeAfter();
                 }
             </script>
 			<script>

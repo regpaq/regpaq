@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T23:05:20-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2019 Year Review</title><link href="http://localhost:4000/2019-year-review" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-21T03:00:11-08:00</published><updated>2020-01-21T03:00:11-08:00</updated><id>http://localhost:4000/2019-year-review</id><content type="html" xml:base="http://localhost:4000/2019-year-review">&lt;h2 id=&quot;goals-from-2018&quot;&gt;Goals From 2018&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-28T23:10:47-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Fathom Analytics Review (From a Marketer)</title><link href="http://localhost:4000/fathom-analytics-review" rel="alternate" type="text/html" title="Fathom Analytics Review (From a Marketer)" /><published>2020-01-27T17:02:48-08:00</published><updated>2020-01-27T17:02:48-08:00</updated><id>http://localhost:4000/fathom-analytics-review</id><content type="html" xml:base="http://localhost:4000/fathom-analytics-review">&lt;p&gt;Fathom Analytics is a cookie-less analytics platform that values user privacy above all.&lt;/p&gt;
+
+&lt;p&gt;Most marketers default to using Google Analytics for every website. It’s free, powerful, and the industry standard. Why try anything else, &lt;em&gt;right?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-i-wanted-an-alternative-to-google-analytics&quot;&gt;Why I Wanted an Alternative to Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;There’s three reasons I wanted something different than Google Analytics:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It adds load time to a website&lt;/li&gt;
+  &lt;li&gt;It uses cookies and requires a GDPR notice&lt;/li&gt;
+  &lt;li&gt;It tracks users for Google’s own data gain&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;When rebuilding this site from scratch, one of my big focuses was on speed.&lt;/strong&gt; Since I was using Netlify to host and deploy my site from GitHub, I first tried their server-side analytics called &lt;a href=&quot;/netlify-analytics-review&quot;&gt;Netlify Analytics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Netlify Analytics is cool because it tracks users on the server side vs the client side. That means it adds zero weight and load time to a website, doesn’t use cookies, and doesn’t track users. &lt;em&gt;Great!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But the product isn’t nearly detailed enough to offer any actionable insights, especially at $9/month as I explained in my review:&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
+        &lt;div class=&quot;rec-container&quot;&gt;        
+            &lt;div class=&quot;rec-info&quot;&gt;
+                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review (From a Marketer)&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;rec-img&quot;&gt;
+                &lt;figure&gt;
+                    &lt;picture&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
+                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
+                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
+                    &lt;/picture&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;So still interested in other analytics platforms, I heard about Fathom through Twitter. Although it’s not server-side analytics, it is cookie-less and doesn’t add much more load time than Google Analytics does.&lt;/p&gt;
+
+&lt;p&gt;The idea of Fathom started in 2018 from a tweet by &lt;a href=&quot;https://twitter.com/pjrvs/&quot;&gt;Paul Jarvis&lt;/a&gt; who asked:&lt;/p&gt;
+
+&lt;blockquote class=&quot;big-quote&quot;&gt;
+  &lt;p&gt;“What if website analytics software didn’t take your users data to line their pockets for advertising?”&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;Paul Jarvis&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;I love the idea behind this.&lt;/strong&gt; But a problem I couldn’t deal with when switching to Netlify Analytics was, as a marketer, not being able to take away enough actionable insights to improve my content and website.&lt;/p&gt;
+
+&lt;p&gt;Would Fathom Analytics be any different? &lt;strong&gt;Because I don’t want to pay for vanity metrics.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only is Fathom Analytics more expensive than Netlify Analytics, but it will add to my website’s load time. If I’m going to have to pay more and deal with the load time, it will have to be worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So far, I’ve been using and paying for Fathom for seven months now and here’s what I think of it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-review-of-fathom-analytics-can-it-replace-google-analytics-for-marketers&quot;&gt;My Review of Fathom Analytics: Can it Replace Google Analytics for Marketers?&lt;/h2&gt;
+
+&lt;p&gt;Fathom analytics has two types of customers: personal blogs (like this website), and businesses.&lt;/p&gt;
+
+&lt;p&gt;For personal blogs, the message is simple: Google is kind of a bully and you don’t want to give them data on all your users. And their analytics is complicated to use. So here’s an analytics platform that just gives you the data you need and keeps your user data private.&lt;/p&gt;
+
+&lt;p&gt;For businesses (and marketers), it’s a different story. We actually know how to use Google Analytics and rely on that data to help drive our SEO, content, and website strategy. &lt;strong&gt;Do most marketers care about their user privacy? Aren’t marketers the ones who are always trying to identify their users?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a much tougher sell. In my opinion, the only companies who are going to ditch Google Analytics for privacy-focused analytics like Fathom are ones with founders who already value data privacy. If they don’t, no chance in hell.&lt;/p&gt;
+
+&lt;p&gt;And I don’t think Paul Jarvis or his co-founder &lt;a href=&quot;https://twitter.com/jackellis/&quot;&gt;Jack Ellis&lt;/a&gt; care. They don’t want those types of customers anyway.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The way we run our business is ridiculously simple (not the norm in tech): we charge a fair amount of money for our product, use that money to keep the business running indefinitely, and remain small so that we don’t need a lot of money to be profitable and sustainable.”&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;a href=&quot;https://usefathom.com/about&quot;&gt;Fathom Analytics About Page&lt;/a&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you, as a marketer, don’t value data-privacy for your users, you’re probably not going to like Fathom Analytics. If you do, it’s then it’s the best privacy-focused analytics solution available.&lt;/p&gt;
+
+&lt;p&gt;If you can’t decide whether you value data-privacy or tracking users more, then read on.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/ethical-marketing-dilemma.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; alt=&quot;The ethical marketer's dilemma.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The ethical marketer's dilemma.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;what-data-can-you-see-from-fathom-analytics&quot;&gt;What Data Can You See from Fathom Analytics?&lt;/h2&gt;
+
+&lt;p&gt;If you want to know what kind of data you can see in Fathom, you can &lt;a href=&quot;https://app.usefathom.com/share/xcyerepi/regpaq&quot;&gt;check out my website’s analytics&lt;/a&gt;. With Fathom, you can choose to make your analytics public like I did, and you can see everything that I can.&lt;/p&gt;
+
+&lt;p&gt;Here’s a list of what you get:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;live, real-time data that doesn’t expire like Netlify Analytics&lt;/li&gt;
+  &lt;li&gt;custom date range picker to filter data&lt;/li&gt;
+  &lt;li&gt;total unique visits (equivalent to sessions in Google Analytics, I think), page views, average time on site, and bounce rate&lt;/li&gt;
+  &lt;li&gt;list of your site’s URLs with the percent of total and number of unique visits and page views&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usefathom.com/support/goals&quot;&gt;unlimited goal creation&lt;/a&gt; by link click, page load, or form submission&lt;/li&gt;
+  &lt;li&gt;list of referrers (actual page referring URL) with the percent of total and number of unique visits and page views (also shows the individual tweets sending you traffic)&lt;/li&gt;
+  &lt;li&gt;device type, browser, and country&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This all sounds good, but when I dug in, I found some shortcomings.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-i-want-from-fathom-analytics&quot;&gt;What I Want From Fathom Analytics&lt;/h2&gt;
+
+&lt;p&gt;There’s a few things I’d like to see built in future releases. I’m not sure if it’s possible based on &lt;a href=&quot;https://usefathom.com/news/anonymization&quot;&gt;their way of measuring traffic&lt;/a&gt;, but if it is, I would be so happy.&lt;/p&gt;
+
+&lt;p&gt;With Fathom Analytics, you can’t:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;filter traffic by referrer to see what pages are being viewed by that referring traffic&lt;/li&gt;
+  &lt;li&gt;or filter traffic by device type, browser, or country (no equivalent to Google Analytics’ dimensions)&lt;/li&gt;
+  &lt;li&gt;filter metrics by looking at a one page URL at a time to see the referrers, device type, country, and goals for any given page&lt;/li&gt;
+  &lt;li&gt;see bounce rate, average time spent on site, or goal completions by page URL&lt;/li&gt;
+  &lt;li&gt;or see the above by the first page URL of a unique visit (equivalent to Google Analytics’ Landing Page dimension)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If these were added, this would give me about 90% of what I use Google Analytics for as a marketer and would be sufficient for a personal blog, but still don’t think it could suffice for a growth-focused company’s website.&lt;/p&gt;
+
+&lt;p&gt;If they can’t add these features without sacrificing user privacy, Fathom is the type of company to stand its ground and say &lt;em&gt;no.&lt;/em&gt; &lt;a href=&quot;https://github.com/usefathom/fathom/issues/283&quot;&gt;Paul Jarvis already denied my request to work with AMP.&lt;/a&gt; I get it…&lt;/p&gt;
+
+&lt;h2 id=&quot;other-cool-things-you-can-do-with-fathom-analytics&quot;&gt;Other Cool Things You Can Do With Fathom Analytics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can choose to make your analytics public if you want to have a transparent website (&lt;a href=&quot;https://app.usefathom.com/share/xcyerepi/regpaq&quot;&gt;see my Fathom Analytics dashboard&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;They do have an affiliate program where you can &lt;a href=&quot;https://usefathom.com/ref/W2AU06&quot;&gt;get 25% lifetime commissions and people you refer will get $10 off their first month&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;They’re working on an API - I’m going to use it to display page view counts on articles for social proof&lt;/li&gt;
+  &lt;li&gt;You can set up weekly and monthly reports and also set up client reports&lt;/li&gt;
+  &lt;li&gt;You can use it on unlimited domains and &lt;a href=&quot;https://usefathom.com/ref/W2AU06&quot;&gt;their pricing is based on total page views&lt;/a&gt; not by domain&lt;/li&gt;
+  &lt;li&gt;You can get a &lt;a href=&quot;https://usefathom.com/ref/W2AU06&quot;&gt;7-day free trial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;is-fathom-analytics-worth-it&quot;&gt;Is Fathom Analytics Worth It?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Fathom Analytics costs $14/month and right now, I do feel like I’m paying for vanity metrics.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/fathom-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/fathom-analytics-pricing.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/fathom-analytics-pricing.png&quot; alt=&quot;Fathom Analytics starts at $14/month with unlimited domains.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Fathom Analytics starts at $14/month with unlimited domains.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;That said, I enjoy paying for it and using it on this site. It’s rare to come across a company that sticks to its mission which radiates in everything they do - their roadmap, design, content, and podcast. And they’re upfront about charging more than the industry standard so they can afford to stick to their principles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I just love it when companies do that. And I’m a sucker for it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So should you make the switch? Well it comes down to whether you can get behind the mission of the company:&lt;/p&gt;
+
+&lt;blockquote class=&quot;big-quote&quot;&gt;
+  &lt;p&gt;“Our goal is huge but simple: to make as many websites as possible black holes for data to Google.”&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;Paul Jarvis&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you vibe with that, &lt;a href=&quot;https://usefathom.com/ref/W2AU06&quot;&gt;give it a shot&lt;/a&gt;.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Fathom Analytics is a cookie-less analytics platform that values user privacy above all.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/fathom-analytics-review.png" /><media:content medium="image" url="http://localhost:4000/assets/images/fathom-analytics-review.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2019 Year Review</title><link href="http://localhost:4000/2019-year-review" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-21T03:00:11-08:00</published><updated>2020-01-21T03:00:11-08:00</updated><id>http://localhost:4000/2019-year-review</id><content type="html" xml:base="http://localhost:4000/2019-year-review">&lt;h2 id=&quot;goals-from-2018&quot;&gt;Goals From 2018&lt;/h2&gt;
 
 &lt;h3 id=&quot;read-one-book-a-month&quot;&gt;Read one book a month&lt;/h3&gt;
 
@@ -1573,7 +1739,7 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;“A superior has responsibility for the work of others. He also has power over the careers of others. Making strengths productive is therefore much more than an essential of effectiveness. It is a moral imperative, a responsibility of authority and position. To focus on weakness is not only foolish; it is irresponsible. A superior owes it to his organization to make the strength of every one of his subordinates as productive as it can be. But even more does he owe it to the human beings over whom he exercises authority to help them get the most out of whatever strength they may have.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">According to Peter Drucker, there are eight practices that make effective executives:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/peter-drucker.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/peter-drucker.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Netlify Analytics Review</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">According to Peter Drucker, there are eight practices that make effective executives:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/peter-drucker.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/peter-drucker.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Netlify Analytics Review (From a Marketer)</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review (From a Marketer)" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
 
 &lt;p&gt;Released in July 2019, &lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; is a new add-on to Netlify’s popular hosting and deployment platform. Starting at $9/month, it’s an “expensive” alternative to the analytics king, Google Analytics, which is free. But is it worth it?&lt;/p&gt;
 
@@ -1623,13 +1789,38 @@
 &lt;h2 id=&quot;alternatives-to-netlify-analytics&quot;&gt;Alternatives to Netlify Analytics&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom Analytics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/fathom-analytics-review&quot;&gt;Fathom Analytics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://simpleanalytics.com/&quot;&gt;Simple Analytics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
 
-&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 1/28//2020:&lt;/strong&gt; I’ve been using Fathom Analytics for seven months now. Although it’s not server-side analytics, it’s a cookie-less, privacy-focused Google Analytics alternative.&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
+        &lt;div class=&quot;rec-container&quot;&gt;        
+            &lt;div class=&quot;rec-info&quot;&gt;
+                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review (From a Marketer)&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;rec-img&quot;&gt;
+                &lt;figure&gt;
+                    &lt;picture&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
+                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
+                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
+                    &lt;/picture&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%</title><link href="http://localhost:4000/servicetitan-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Inbound Monthly Recurring Revenue with SEO by 130%" /><published>2019-07-23T19:37:27-07:00</published><updated>2019-07-23T19:37:27-07:00</updated><id>http://localhost:4000/servicetitan-seo-case-study</id><content type="html" xml:base="http://localhost:4000/servicetitan-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;At the time, most of our customers acquired from marketing efforts were from paid channels. My goal was to increase leads and revenue generated with content and SEO. Our website was very thin on content and most of our visitors were from branded search queries. We weren’t generating any new demand. &lt;strong&gt;We were only capturing existing demand.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1897,7 +2088,7 @@
         &lt;div class=&quot;rec-container&quot;&gt;        
             &lt;div class=&quot;rec-info&quot;&gt;
                 &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review (From a Marketer)&lt;/p&gt;
                 &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
@@ -1907,7 +2098,7 @@
                                 /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
                                 /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1958,84 +2149,4 @@
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-cold-outbound-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
             &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; alt=&quot;Cold outbound booked meeting and pipeline improvement.&quot; /&gt;
         &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Revenue From Inbound 282%</title><link href="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1" rel="alternate" type="text/html" title="Grew Revenue From Inbound 282%" /><published>2019-06-10T11:42:47-07:00</published><updated>2019-06-10T11:42:47-07:00</updated><id>http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1</id><content type="html" xml:base="http://localhost:4000/grew-revenue-from-inbound-282-in-q2-19-over-q1">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
-
-&lt;p&gt;We had a &lt;a href=&quot;/created-a-forecast-model-to-double-customer-acquisition-growth&quot;&gt;goal to double new business monthly revenue&lt;/a&gt; in less than 12 months and it was going to take massive effort from both our cold prospecting and demand gen efforts. Additionally, we wanted to increase market awareness of our flagship product, Concierge, which allowed qualified leads to schedule their own sales meeting while filling out a demo request form — a step toward being more self-serve for B2B companies that require prospects to go through sales to become a customer.&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-1refresh-linkedinads&quot;&gt;Step 1 — Refresh LinkedIn Ads&lt;/h3&gt;
-
-&lt;p&gt;We started LinkedIn ads with great success in the last two quarters of 2018, but we began to experience some audience decay as costs-per-click and costs-per-booked meeting started to rise dramatically. What was once a fresh product for a new audience became a stale product for an audience who’s seen our ads and product several dozen times — if they didn’t convert already, we would need to do something different to convert them now. Here’s the type of ads we had ran when first starting LinkedIn Ads:&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-1.jpeg&quot; alt=&quot;Old Chili Piper LinkedIn ads that worked when first starting the channel.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old Chili Piper LinkedIn ads that worked when first starting the channel.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Since we were spending ~$10k+ on LinkedIn to reach our audience every month, I decided our next move was to run more visually engaging ads that showed and explained the product so even if people didn’t click through, they could see what our product had to offer. The “secret weapon” would now be revealed into their news feeds, which also made impressions much more valuable. Here’s what they looked like:&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-2.jpeg&quot; alt=&quot;New image ads.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New image ads.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-3.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-3.jpeg&quot; alt=&quot;New LinkedIn carousel ad to increase engagement and show how Concierge works.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New LinkedIn carousel ad to increase engagement and show how Concierge works.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-4.gif&quot; type=&quot;image/gif&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-4.gif&quot; alt=&quot;New video ad.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New video ad.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;And I tested video ads showing how it works right on the landing page this ad led to.&lt;/p&gt;
-
-&lt;p&gt;I tested several different messaging to each of our main personas and kept a log of what type of messaging (e.g. pain points, value benefits) resonated with our different personas the best. The plan was to take these learnings and apply them to all of our marketing and messaging across our teams.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-2new-landingpages&quot;&gt;Step 2 — New Landing Pages&lt;/h3&gt;
-
-&lt;p&gt;In addition to increasing the value of ad impressions on LinkedIn, I also overhauled our landing page with improved copy, branding, and design:&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-5.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-5.jpeg&quot; alt=&quot;Old landing page on the left; new on the right.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Old landing page on the left; new on the right.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;The new landing page converted 84% better (4.94% vs 2.68%) than the old one. A big reason for this improvement was the new ads were sending less clicks than the old ads, but the traffic was higher quality because the new ads showed what the product was about.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-3launch-google-ads-search-and-retargeting&quot;&gt;Step 3 — Launch Google Ads Search and Retargeting&lt;/h3&gt;
-
-&lt;p&gt;Up until this point, we never had invested a lot of resources into developing our Google Ads program.&lt;/p&gt;
-
-&lt;h4 id=&quot;search-campaigns&quot;&gt;Search Campaigns&lt;/h4&gt;
-
-&lt;p&gt;I started with 3 core search campaigns: competitors, non-brand, and brand. The competitors campaign bid on several queries like “{alternatives, competitors, similar to, like} [competitor name]”. To grab the attention of our target market, we made sure to include “B2B” in our ad copy at least once in every ad. The non-brand campaign consisted of targeting search queries around “scheduling for B2B” or “scheduling for sales.” In the brand campaign, we bid on keywords that included our brand name, but which we weren’t ranking #1 in Google for, such as “Chili Piper Reviews”, “Chili Piper plugin”, etc.&lt;/p&gt;
-
-&lt;h4 id=&quot;retargeting-campaigns&quot;&gt;Retargeting Campaigns&lt;/h4&gt;
-
-&lt;p&gt;Then I set up a retargeting campaign to all website visitors, including those who visited our landing pages from LinkedIn and AdWords. The ads looked like this:&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-inbound-6.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-inbound-6.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-inbound-6.jpeg&quot; alt=&quot;New Chili Piper Google retargeting ads.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New Chili Piper Google retargeting ads.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now anyone who visited our website or our landing pages and didn’t convert would see our product, branding, and main value prop. Anyone who visited our website and is in the sales process with an account executive would see these ads, too.&lt;/p&gt;
-
-&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
-
-&lt;p&gt;Closed-won revenue from inbound demo requests jumped 155% in April and May ’19 compared to all of Q1. Using an average of April and May’19 for a simple June forecast, revenue growth will increase to 282%.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-inbound-2.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-inbound-2.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

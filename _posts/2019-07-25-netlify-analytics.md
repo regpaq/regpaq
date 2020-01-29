@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Netlify Analytics Review
+title: Netlify Analytics Review (From a Marketer)
 description: Is it everything the industry has been waiting for?
 date: '2019-07-25T01:02:48.485Z'
 categories: [marketing]
 category: [all]
 slug: /netlify-analytics-review
 image: /assets/images/netlify-analytics.jpg
-image-alt: netlify analytics review
+image-alt: netlify analytics review from a marketer
 author: Reggie Paquette
 post-id: 26
 seo:
-    date_modified: '2019-07-25T01:02:48.485Z'
+    date_modified: '2020-01-28T01:02:48.485Z'
 ---
 
 Netlify Analytics is a server side analytics tool that doesn't slow down your website, protects the privacy of your users, and is GDPR compliant.
@@ -54,9 +54,13 @@ But remember, this is version one of Netlify Analytics. If Netlify can improve t
 
 ## Alternatives to Netlify Analytics
 
-*   [Fathom Analytics](https://usefathom.com/)
+*   [Fathom Analytics](/fathom-analytics-review)
 *   [Simple Analytics](https://simpleanalytics.com/)
 
 Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.
 
 I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.
+
+**Update 1/28//2020:** I've been using Fathom Analytics for seven months now. Although it's not server-side analytics, it's a cookie-less, privacy-focused Google Analytics alternative.
+
+{% assign subpage = site.posts | where: 'post-id', '26' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}

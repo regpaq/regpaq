@@ -5,9 +5,8 @@
         {% if page.categories contains "casestudy" -%}
         <meta name=“robots” content=“noindex”>
         {%- endif -%}        
-        <title>{% if page.title != site.title %}{{ page.title }}{% endif -%}</title>
+        <title>{% if page.title != site.title %}{{ page.title }} | {{ site.title %}}{% endif -%}</title>
         
-    {% seo title=false %}
         
         {% feed_meta %}
         <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

@@ -184,6 +184,22 @@ $mod_2:                     1.6; // Desktop
 		grid-column: 6 / 12;
 	}
 }
+// 1 track less than full width
+@mixin grid-thin-width { 
+	grid-column: 2 / 16;
+	@include media-query($shmedium) {
+		grid-column: 4 / 14;
+	}
+	@include media-query($regular) {
+		grid-column: 5 / 13;
+	}
+	@include media-query($xlarge) {
+		grid-column: 6 / 12;
+	}
+	@include media-query($xxlarge) {
+		grid-column: 7 / 11;
+	}
+}
 // Normal width such as main content paragraphs
 @mixin grid-normal {
 	grid-column: 2 / 16;

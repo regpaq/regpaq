@@ -619,7 +619,7 @@ html[data-theme="dark"] .no-dark-filter {
 html[data-theme="dark"] .no-dark-filter div {
   background-color: #c8ba90;
 }
-html[data-theme="dark"] img:not(.no-dark-filter) {
+html[data-theme="dark"] img:not(.no-dark-filter), html[data-theme="dark"] video:not(.no-dark-filter) {
   mix-blend-mode: multiply;
 }
 html[data-theme="dark"] .dark-bg-wrapper {
@@ -1297,6 +1297,30 @@ Unique styling based on the different `include figure.html` attributes below. */
   max-width: 10rem;
 }
 
+.figure--thin {
+  grid-column: 2 / 16;
+}
+@media screen and (min-width: 568px) {
+  .figure--thin {
+    grid-column: 4 / 14;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .figure--thin {
+    grid-column: 5 / 13;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .figure--thin {
+    grid-column: 6 / 12;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .figure--thin {
+    grid-column: 7 / 11;
+  }
+}
+
 .figure--full {
   grid-column: 1 / 17;
 }
@@ -1400,6 +1424,13 @@ img.svg-reg--left {
 /* --------------------------------------------------------
             Video Styles
 -------------------------------------------------------- */
+video {
+  max-width: 100%;
+  border-radius: 3px;
+  padding: 0;
+  display: block;
+}
+
 .video {
   position: relative;
   width: 100%;

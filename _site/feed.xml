@@ -1,4 +1,437 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-29T22:21:28-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Fathom Analytics Review (From a Marketer)</title><link href="http://localhost:4000/fathom-analytics-review" rel="alternate" type="text/html" title="Fathom Analytics Review (From a Marketer)" /><published>2020-01-27T17:02:48-08:00</published><updated>2020-01-27T17:02:48-08:00</updated><id>http://localhost:4000/fathom-analytics-review</id><content type="html" xml:base="http://localhost:4000/fathom-analytics-review">&lt;p&gt;Fathom Analytics is a cookie-less analytics platform that values user privacy above all.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-07T15:35:34-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">My Google Sheets Budget Template (for Millennials)</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template (for Millennials)" /><published>2020-02-07T00:51:34-08:00</published><updated>2020-02-07T00:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using for over five years.&lt;/p&gt;
+
+&lt;p&gt;You can make your own copy by clicking the link below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy&quot;&gt;Make a copy: My Google Sheets Budget Template&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The template is based off the principles and concepts from Ramit Sethi’s personal finance book, &lt;em&gt;“I Will Teach You to Be Rich.”&lt;/em&gt; I’ll cover everything you need to know in this post, but if you want to learn more about it, you can read my summary of the book below.&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;a href=&quot;/i-will-teach-you-to-be-rich-summary-notes-quotes&quot;&gt;
+        &lt;div class=&quot;rec-container&quot;&gt;        
+            &lt;div class=&quot;rec-info&quot;&gt;
+                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;I Will Teach You to Be Rich—Summary, Notes, + Quotes&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;The best introduction to personal finance and how to enjoy spending your money.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;rec-img&quot;&gt;
+                &lt;figure&gt;
+                    &lt;picture&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-250.webp 250w,
+                                /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich-250.jpg 250w,
+                                /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg&quot; alt=&quot;Ramit Sethi I Will Teach You to Be Rich&quot; /&gt;
+                    &lt;/picture&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;what-makes-this-google-sheets-budget-template-better-than-the-others-out-there&quot;&gt;What Makes This Google Sheets Budget Template Better Than The Others Out There&lt;/h2&gt;
+
+&lt;h3 id=&quot;all-the-setup-is-on-one-page&quot;&gt;All the setup is on one page&lt;/h3&gt;
+
+&lt;p&gt;In just one configuration tab, you’ll fill out all your info: income, account names, budget, etc. All the other tabs pull data from this &lt;strong&gt;Config&lt;/strong&gt; tab so you never have to enter in any information twice.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-one-page-settings.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; alt=&quot;Once you set up this Config tab, just enter expenses and account balances. That's it!&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Once you set up this Config tab, just enter expenses and account balances. That's it!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;built-in-guided-setup&quot;&gt;Built-in guided setup&lt;/h3&gt;
+
+&lt;p&gt;Opening up a new Google Sheets budget template with all these numbers and tabs can be daunting.&lt;/p&gt;
+
+&lt;p&gt;That’s why I wanted to create a guided setup to make it super simple for anyone to get started. When you open up the template, you’ll be greeted with easy-to-follow prompts so you know exactly what you need to do next.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/guided-tour.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Bright orange prompts make this the easiest Google Sheets budget template to get set up on.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;setup-checklist&quot;&gt;Setup checklist&lt;/h3&gt;
+
+&lt;p&gt;After completing the configuration settings, the checklist shows you where to go next in the template to enter your expenses and account balances.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-setup-checklist.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; alt=&quot;The setup checklist will automatically mark things complete as you finish each step.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The setup checklist will automatically mark things complete as you finish each step.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;one-dashboard-to-rule-them-all&quot;&gt;One dashboard to rule them all&lt;/h3&gt;
+
+&lt;p&gt;My Google Sheets budget template has four tabs:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Dashboard&lt;/strong&gt; - the main tab where you can see your spending vs budget for the current month and analyze previous months’ spending. All the data is pulled from the other tabs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expenses&lt;/strong&gt; - where you enter all your expenses.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Balance Sheet&lt;/strong&gt; - to record your bank account, retirement account, credit card and loan balances, etc. This data is used to help measure whether your net worth is increasing or shrinking.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Config&lt;/strong&gt; - as explained above, this is where you fill out your income, name your accounts, and set your budgets, which is used in all the other tabs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You’ll spend most of your time in the &lt;strong&gt;Dashboard&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; alt=&quot;The dashboard is the clearest way to see where you're spending your money.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The dashboard is the clearest way to see where you're spending your money.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;always-know-how-much-of-your-monthly-budget-you-have-left&quot;&gt;Always know how much of your monthly budget you have left&lt;/h3&gt;
+
+&lt;p&gt;As you fill out your expenses, there’s a “module” where you can see exactly how much of a budget category you’ve used so far in the current month and know exactly how much you have left.&lt;/p&gt;
+
+&lt;p&gt;If you’ve overspent in one budget category, the template will let you take remaining budget from another category to cover it.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/budget-module.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;This makes it fun to fill out your expenses everyday and it's easy to temporarily take budget from another category to cover one you've overspent in.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;budget-and-keep-track-of-annual-irregular-expenses&quot;&gt;Budget and keep track of annual, irregular expenses&lt;/h3&gt;
+
+&lt;p&gt;The template is also built to accomodate irregular expenses that you might only spend money on or have to pay for a few times a year. Once you enter a list of the things you want to create an annual budget for, the template will calculate how much you need to save per month to cover it. And that amount is deducted before you set up your monthly budget.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-annual-budget-module.png&quot; alt=&quot;This template helps you plan for irregular or annual expenses.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;This template helps you plan for irregular or annual expenses.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;spend-your-money-without-feeling-guilty&quot;&gt;Spend your money without feeling guilty&lt;/h3&gt;
+
+&lt;p&gt;I call the monthly budget the &lt;em&gt;“guilt-free budget,”&lt;/em&gt; which is a concept taken from the book &lt;a href=&quot;https://regpaq.com/i-will-teach-you-to-be-rich-summary-notes-quotes&quot;&gt;&lt;em&gt;“I Will Teach You to Be Rich.”&lt;/em&gt;&lt;/a&gt; Since the budget template is built to help you put aside money for savings before creating your monthly budget, it means you don’t ever have to feel guilty about spending the money you do have left over.&lt;/p&gt;
+
+&lt;p&gt;This has been a fundamental shift in my perspective about personal finance Ramit calls &lt;em&gt;paying yourself first.&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;built-to-drive-behavioral-change&quot;&gt;Built to drive behavioral change&lt;/h3&gt;
+
+&lt;p&gt;Most of my friends use a budgeting app like Mint and I’ve tried them, too. But these apps don’t really help me spend less money - they just tell me where I spend my money and try to guess (poorly) the category.&lt;/p&gt;
+
+&lt;p&gt;And that’s why I love budgets built on spreadsheets. I can customize it exactly the way I need to actually help me spend my money more thoughtfully. On less of things I care little about, and more on the things I care a lot about.&lt;/p&gt;
+
+&lt;blockquote class=&quot;big-quote&quot;&gt;
+  &lt;p&gt;A bad budget system only shows you where your money is going. A good budget system will create a change in your behavior.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you want to &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy&quot;&gt;try my Google Sheets budget template&lt;/a&gt;, make a copy of it and try it out.&lt;/p&gt;
+
+&lt;p&gt;There are simple and clear instructions with extra notes on cells that have an asterisk(*) - just hover over those cells to the see note.&lt;/p&gt;
+
+&lt;p&gt;If you’re stuck and need more info to get going, read on to get the details.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-my-google-sheets-budget-template&quot;&gt;How to Use My Google Sheets Budget Template&lt;/h2&gt;
+
+&lt;p&gt;Start on the &lt;strong&gt;Config&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;Remember, cells with an asterisk(*) mean there is a note on that cell with more information. Hover over it to see what it says.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-enter-your-income&quot;&gt;I. Enter your income&lt;/h3&gt;
+
+&lt;p&gt;In the top left box on the &lt;strong&gt;Config&lt;/strong&gt; tab, enter your income. Follow the orange colored cells as cues for which part to fill out next. If you don’t &lt;strong&gt;contribute to a 401k&lt;/strong&gt; or typically receive any &lt;strong&gt;extra monthly income&lt;/strong&gt;, enter $0.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-income.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-income.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-income.png&quot; alt=&quot;Enter your income data in the Income Breakdown box on the Dashbord tab&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your income data in the Income Breakdown box on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This budget template is only made for two sources of income. If you have more than one additional source of income, you can count them together and enter the total as one number for your &lt;strong&gt;extra monthly income&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;All income entered here will be available for your budget. Before leaving the &lt;strong&gt;Config&lt;/strong&gt; tab, you’ll be able to choose how much of it will go into savings, additional retirement accounts, loans, etc, but first you have to name your accounts.&lt;/p&gt;
+
+&lt;h3 id=&quot;ii-name-your-accounts&quot;&gt;II. Name your accounts&lt;/h3&gt;
+
+&lt;p&gt;You’ll need to give a &lt;strong&gt;nickname&lt;/strong&gt; for every type of bank account, asset, and liability you have. The &lt;strong&gt;type&lt;/strong&gt; is very important to formulas in in the &lt;strong&gt;Dashboard&lt;/strong&gt; and &lt;strong&gt;Balance Sheet&lt;/strong&gt; tabs and cannot be changed. If you don’t have an account with the listed &lt;strong&gt;type&lt;/strong&gt;, leave it blank and skip it.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-bank-account-names.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-asset-names.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-liability-names.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Giving each account you have a nickname tells the budget template you have those accounts.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you have more accounts than what the &lt;strong&gt;types&lt;/strong&gt; have you can count them together as one. For example, if you have four credit cards, you can count two of them together and give &lt;strong&gt;credit card #3&lt;/strong&gt; the nickname &lt;strong&gt;Amex &amp;amp; Citi cards&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;iii-create-your-annual-budget&quot;&gt;III. Create your annual budget&lt;/h3&gt;
+
+&lt;p&gt;The reason why you create your budget for annual expenses before monthly expenses is so that you’re encouraged to set aside money to be better prepared for irregular expenses.&lt;/p&gt;
+
+&lt;p&gt;Start by adding things you pay for once a year or irregularly in the &lt;strong&gt;Annual Budget&lt;/strong&gt; box. You can find examples and suggestions by hovering over the &lt;strong&gt;budget category*&lt;/strong&gt; cell.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; alt=&quot;Enter your annual and irregular expenses to prepare for the future.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your annual and irregular expenses to prepare for the future.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;After you enter in all the annual and irregular expenses you can think of, the budget template will divide the &lt;strong&gt;total&lt;/strong&gt; into a monthly amount inside the &lt;strong&gt;Fixed Monthly Costs&lt;/strong&gt; box.&lt;/p&gt;
+
+&lt;h3 id=&quot;iv-enter-your-fixed-monthly-costs&quot;&gt;IV. Enter your fixed monthly costs&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Fixed Monthly Costs&lt;/strong&gt; are recurring monthly expenses that you don’t expect to change month-to-month.&lt;/p&gt;
+
+&lt;p&gt;At the top of the list is the monthly amount to set aside for your &lt;strong&gt;annual budget&lt;/strong&gt; and the second item is your &lt;strong&gt;after tax retirement&lt;/strong&gt; account. If you have one and gave it a nickname in the &lt;strong&gt;Asset Names&lt;/strong&gt; box, the nickname will be used for this line item.&lt;/p&gt;
+
+&lt;p&gt;If you don’t have one or don’t plan on contributing to the one you do have, enter $0 for it.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-fixed-monthly-costs.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; alt=&quot;Enter your fixed monthly costs.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your fixed monthly costs.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;There is room for eight additional fixed monthly costs. There are suggestions in the note on the &lt;strong&gt;budget category*&lt;/strong&gt; cell. Along with budgeting for annual expenses and retirement, I highly recommend setting more money aside for extra savings.&lt;/p&gt;
+
+&lt;p&gt;This is the &lt;em&gt;pay yourself first&lt;/em&gt; concept described in &lt;em&gt;“I Will Teach You to Be Rich.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The goal [of pay yourself first] is to make sure that enough income is first saved or invested before monthly expenses or discretionary purchases are made.”&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.investopedia.com/terms/p/payyourselffirst.asp&quot; target=&quot;_blank&quot;&gt;Investopedia&lt;/a&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now you’re left with your &lt;strong&gt;total for guilt-free budget&lt;/strong&gt;, which is how much you have left for discretionary spending.&lt;/p&gt;
+
+&lt;h3 id=&quot;iv-create-your-guilt-free-monthly-budget&quot;&gt;IV. Create your guilt-free, monthly budget&lt;/h3&gt;
+
+&lt;p&gt;As explained earlier, it’s called your guilt-free budget because this is what is left over after setting money aside for savings, retiremenet, and future annual expenses. This is your money to spend however you want.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;strong&gt;Guilt-Free Budget&lt;/strong&gt; box, enter categories of expenses and an allotted amount. Again, there are suggestions in the note on the &lt;strong&gt;budget category*&lt;/strong&gt; cell.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you’ve budgeted over what you have available in your &lt;strong&gt;total for guilt-free budget&lt;/strong&gt; from the &lt;strong&gt;Fixed Monthly Costs&lt;/strong&gt; box, this &lt;strong&gt;total&lt;/strong&gt; number will turn red and. The number below the &lt;strong&gt;total&lt;/strong&gt; number is how much you have left from your &lt;strong&gt;guilt-free budget&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your monthly and annual budget is now set up! The next step is setting up the &lt;strong&gt;Balance Sheet&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;v-setting-up-the-balance-sheet&quot;&gt;V. Setting up the balance sheet&lt;/h3&gt;
+
+&lt;p&gt;Before going deep into the &lt;strong&gt;Balance Sheet&lt;/strong&gt;, you just need to enter your start date in the orange cell.&lt;/p&gt;
+
+&lt;p&gt;The start date is the first of a month, current or in the past, written as &lt;em&gt;“1/1/2020”&lt;/em&gt;. Once you enter your start date, it will reformat to &lt;em&gt;“Jan ‘20”&lt;/em&gt; and fill the rest of the range for you.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/dates-on-balance-sheet.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Write the start date in the format of 1/1/2020.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;There’s more to do here, but it makes sense to first record your expenses.&lt;/p&gt;
+
+&lt;h3 id=&quot;v-how-to-record-expenses&quot;&gt;V. How to record expenses&lt;/h3&gt;
+
+&lt;p&gt;In the &lt;strong&gt;Expenses&lt;/strong&gt; tab you’ll record your monthly and annual expenses - one row per one expense.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest presumable downsides of doing your budget in Google Sheets is you have to enter in your expenses manually, but this is a blessing in disguise. Entering your expenses manually has a big and positive psychological effect on your spending behavior. It makes you “feel the pain” of every dollar you spend.&lt;/p&gt;
+
+&lt;blockquote class=&quot;big-quote&quot;&gt;
+  &lt;p&gt;Manually recording your expenses every week will force you to review every transaction, to feel the pain of every dollar spent, and make you think “was that really necessary?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another benefit is you can easily split an expense into two different budget categories, which I’ve found helpful many times.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/entering-expenses.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of how fast you can enter expenses by using the 'tab' and 'enter' keys&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Across the heading, you’ll see your &lt;strong&gt;guilt-free budget&lt;/strong&gt; and &lt;strong&gt;annual budget&lt;/strong&gt; categories from the &lt;strong&gt;Config&lt;/strong&gt; tab. When you enter an expense, start with the date in &lt;strong&gt;column a&lt;/strong&gt;, the name of the place you spend the money in &lt;strong&gt;column b&lt;/strong&gt;, and then tab over to the column with the right budget category for that expense.&lt;/p&gt;
+
+&lt;p&gt;Go ahead and enter all your expenses beginning from the start date you entered on the &lt;strong&gt;Balance Sheet&lt;/strong&gt;. Don’t enter expenses or transfers you already accounted for in the &lt;strong&gt;Fixed Monthly Costs&lt;/strong&gt; box on the &lt;strong&gt;Config&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;h3 id=&quot;vi-filling-out-the-balance-sheet&quot;&gt;VI. Filling out the balance sheet&lt;/h3&gt;
+
+&lt;p&gt;Once at the beginning of every month you’ll fill out the &lt;strong&gt;Balance Sheet&lt;/strong&gt; tab for the previous month. This is where you will add up all the money you have and owe in your accounts so you can see if your wealth and net worth are increasing or shrinking.&lt;/p&gt;
+
+&lt;p&gt;Before moving on, make sure the first three items are marked complete in the &lt;strong&gt;Setup&lt;/strong&gt; checklist on the &lt;strong&gt;Config&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;strong&gt;Balance Sheet’s&lt;/strong&gt; sidebar, you’ll see the accounts you’ve named on the &lt;strong&gt;Config&lt;/strong&gt; tab. At the beginning of the month when you fill this out, you’ll enter the balances of each account in the previous month’s column. For example, if I was filling this out today on February 7th, I’d enter the balances under the &lt;strong&gt;Jan ‘20&lt;/strong&gt; column. So if you’re starting date is the first of this month, you don’t have to fill out anything until the month is over.&lt;/p&gt;
+
+&lt;p&gt;You only need to enter balances in the white rows. You can skip the greyed out columns (don’t delete them) and don’t overwrite anything with a &lt;strong&gt;-&lt;/strong&gt; in the cell. The dashes indicate a placeholder for a formula and will populate if and when it makes sense.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; alt=&quot;Enter the previous months' ending balances in each row for the indicated month.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter the previous months' ending balances in each row for the indicated month.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the &lt;strong&gt;Liabilities&lt;/strong&gt; section, you’ll do the same thing as you do with your bank accounts but for your rent/mortgage, loans, and credit cards. If you don’t have a mortgage, enter $0 for the &lt;strong&gt;rent&lt;/strong&gt;. Rent is paid on the 1st of the month so by the end of the month, which these totals are representing, you don’t owe anymore rent. So actually, &lt;strong&gt;rent&lt;/strong&gt; should be $0 for every month in the &lt;strong&gt;Balance Sheet&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you pay a mortgage, then you can enter the mortgage payoff amount in the &lt;strong&gt;mortgage&lt;/strong&gt; row. I do the same with my &lt;strong&gt;car loan&lt;/strong&gt;. When filling out your credit card balances, make sure any pending credit card payments are already reflected in your bank account balance.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-liabilities.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; alt=&quot;Example of the Liabilities secion with sample data on the Balance Sheet tab.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Liabilities secion with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Monthly Expenses&lt;/strong&gt; and &lt;strong&gt;Annual Expenses&lt;/strong&gt; sections automatically sum your expenses for that month for each budget category. You can analyze this easier in the the &lt;strong&gt;Dashboard&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-expenses.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The last section is the &lt;strong&gt;Totals&lt;/strong&gt; section, which brings everything together to calculate your &lt;strong&gt;net checking balance&lt;/strong&gt; (money in checking minus current credit card balances) and your &lt;strong&gt;net worth&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the last row you can leave notes for yourself if something noteworthy occurred that you might want to come back to. The word “Notes” will auto populate in each month, but to leave an actual note, right-click the &lt;strong&gt;Notes&lt;/strong&gt; cell and select “Insert note.”&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-totals.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Totals section with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;And that’s all you need to do on the &lt;strong&gt;Balance Sheet&lt;/strong&gt; tab. As you use this Google Sheets budget template each month, more data on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab will start to populate and be more useful.&lt;/p&gt;
+
+&lt;h3 id=&quot;vii-using-the-dashboard&quot;&gt;VII. Using the dashboard&lt;/h3&gt;
+
+&lt;p&gt;On to the best part - the &lt;strong&gt;Dashboard&lt;/strong&gt;. This is where you can see the most useful insights for your budget. Except for a small part that I’ll explain below, everything on the &lt;strong&gt;Dashboard&lt;/strong&gt; is automated and you shouldn’t have to change anything.&lt;/p&gt;
+
+&lt;p&gt;At the top is an &lt;strong&gt;Overview&lt;/strong&gt; box with just a few pieces of information to get your overall personal finance health. It’s updated every time a month is filled out on the &lt;strong&gt;Balance Sheet&lt;/strong&gt; so if your start date is the first of the current month, you won’t see anything here yet.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-overview.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; alt=&quot;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;To the right of your &lt;strong&gt;Overview&lt;/strong&gt; box is a graph of your &lt;strong&gt;Net Worth&lt;/strong&gt; growth. This is pulling the last seven months of data from the &lt;strong&gt;Balance Sheet&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-net-worth.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; alt=&quot;Visualize the grow of your net worth over time.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Visualize the grow of your net worth over time.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Next is my favorite part of the &lt;strong&gt;Dashboard&lt;/strong&gt;, the &lt;strong&gt;This Month’s Budget Spent So Far*&lt;/strong&gt; box. This shows how your spending is doing for the current month compared to your budget for each category. Since I update my &lt;strong&gt;Expenses&lt;/strong&gt; tab every morning, I can see my updated budget here every day so I know exactly how much of my budget I have left for each category.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/budget-module.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;This makes it fun to fill out your expenses everyday and it's easy to temporarily take budget from another category to cover one you overspent in.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you overspent in one category, you can subtract &lt;strong&gt;Remaining&lt;/strong&gt; budget from another budget category by subtracting an amount from it in the &lt;strong&gt;Cut Remaining*&lt;/strong&gt; column.&lt;/p&gt;
+
+&lt;p&gt;There is also the same module for annual expenses below the monthly one.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-annual-budget-module.png&quot; alt=&quot;Always know exactly how much of your budget you have left of your annual budget for each category.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Always know exactly how much of your budget you have left of your annual budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Both the monthly and the annual &lt;strong&gt;Budget Spent So Far&lt;/strong&gt; boxes will update automatically every month and year respectively.&lt;/p&gt;
+
+&lt;p&gt;Next is the &lt;strong&gt;Spent vs Budget Previous 7 Months*&lt;/strong&gt; box. This is a dynamic graph that compares your spending to your budget for each category. Use the dropdown selector in the top right of the box to look at a specific budget category or look at the total.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide&quot;&gt;
+    &lt;div&gt;
+        &lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot;&gt;
+            &lt;source src=&quot;assets/videos/spent-vs-budget.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Spent vs Budget box on the Dashbord tab visualizes your spending for each category.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Again, this graph is only looking at the previous seven completed months. It doesn’t take into account the current months’s spending because it’s not over yet.&lt;/p&gt;
+
+&lt;p&gt;Last on the &lt;strong&gt;Dashboard&lt;/strong&gt; tab is the &lt;strong&gt;Expenses Table Previous 7 Months*&lt;/strong&gt; box. This provides the same data as the graph above, but in a table format. Amounts will turn red if you overspent your budget in that category that month. This is a great way to quickly see how you’re doing staying under budget at a glance.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-expense-table.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; alt=&quot;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;bonus-budgeting-tips&quot;&gt;Bonus Budgeting Tips&lt;/h2&gt;
+
+&lt;p&gt;A budget is only good if you update it consistently, keep it accurate, and spend time analyzing your spending. That’s why I made it a point to make this budget template in Google Sheets look nice, be easy to use, and be rewarding to use.&lt;/p&gt;
+
+&lt;p&gt;But sometimes that’s still not enough. &lt;strong&gt;There’s definitely been times where I don’t do it for a few weeks at a time and the more you wait, the more work you’ll have to do, and the more you won’t look forward to doing it&lt;/strong&gt;. I‘ve made it a habit to enter my expenses every morning instead of once a week or month.&lt;/p&gt;
+
+&lt;p&gt;If you believe a budget will help you get control of your spending, read this guide on how to stick to new habits:&lt;/p&gt;
+
+&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
+    &lt;a href=&quot;/how-to-make-habits-stick&quot;&gt;
+        &lt;div class=&quot;rec-container&quot;&gt;        
+            &lt;div class=&quot;rec-info&quot;&gt;
+                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;How to Make New Habits Stick When Motivation Runs Out&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;The 6 best tips from Atomic Habits on building habits that last&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;rec-img&quot;&gt;
+                &lt;figure&gt;
+                    &lt;picture&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/how-to-make-new-habits-stick-250.webp 250w,
+                                /assets/images/webp/how-to-make-new-habits-stick-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/how-to-make-new-habits-stick-250.png 250w,
+                                /assets/images/how-to-make-new-habits-stick-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/how-to-make-new-habits-stick.png&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                    &lt;/picture&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;        
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Another tip is to use a credit card for all transactions when possible. Using a credit card makes it much easier to keep track of your spending and at the same time protects your bank account from fraud, builds your credit, and you can earn points and rewards.&lt;/p&gt;
+
+&lt;p&gt;Let me know what you think of the spreadsheet. If you found some places where I messed up or have ideas for new functionality, let me know on &lt;a href=&quot;https://twitter.com/regpaq&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using for over five years.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/google-sheets-budget-template.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fathom Analytics Review (From a Marketer)</title><link href="http://localhost:4000/fathom-analytics-review" rel="alternate" type="text/html" title="Fathom Analytics Review (From a Marketer)" /><published>2020-01-27T17:02:48-08:00</published><updated>2020-01-27T17:02:48-08:00</updated><id>http://localhost:4000/fathom-analytics-review</id><content type="html" xml:base="http://localhost:4000/fathom-analytics-review">&lt;p&gt;Fathom Analytics is a cookie-less analytics platform that values user privacy above all.&lt;/p&gt;
 
 &lt;p&gt;Most marketers default to using Google Analytics for every website. It’s free, powerful, and the industry standard. Why try anything else, &lt;em&gt;right?&lt;/em&gt;&lt;/p&gt;
 
@@ -357,17 +790,17 @@
         &lt;div class=&quot;rec-container&quot;&gt;        
             &lt;div class=&quot;rec-info&quot;&gt;
                 &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;My Google Sheets Budget Template - Simple &amp;amp; Beautiful&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Fix your bad spending habits by following a budget.&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;My Google Sheets Budget Template (for Millennials)&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;Here&amp;#39;s the spreadshet budget I made to make budgeting fun.&lt;/p&gt;
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
                     &lt;picture&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/google-sheets-budget-template-250.webp 250w,
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpeg 250w,
-                                /assets/images/google-sheets-budget-template-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpg 250w,
+                                /assets/images/google-sheets-budget-template-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -796,17 +1229,17 @@
         &lt;div class=&quot;rec-container&quot;&gt;        
             &lt;div class=&quot;rec-info&quot;&gt;
                 &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;My Google Sheets Budget Template - Simple &amp;amp; Beautiful&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Fix your bad spending habits by following a budget.&lt;/p&gt;
+                &lt;p class=&quot;post-title&quot;&gt;My Google Sheets Budget Template (for Millennials)&lt;/p&gt;
+                &lt;p class=&quot;post-desc&quot;&gt;Here&amp;#39;s the spreadshet budget I made to make budgeting fun.&lt;/p&gt;
             &lt;/div&gt;
             &lt;div class=&quot;rec-img&quot;&gt;
                 &lt;figure&gt;
                     &lt;picture&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/google-sheets-budget-template-250.webp 250w,
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpeg 250w,
-                                /assets/images/google-sheets-budget-template-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpeg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpg 250w,
+                                /assets/images/google-sheets-budget-template-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -916,9 +1349,9 @@
   &lt;blockquote&gt;
     &lt;p&gt;Ramit Sethi&lt;/p&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It’s unfortunate I Will Teach You To Be Rich has an off-putting title because it’s a fantastic introduction to personal finance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Free Will Doesn’t Exist</title><link href="http://localhost:4000/free-will-doesnt-exist" rel="alternate" type="text/html" title="Free Will Doesn’t Exist" /><published>2020-01-06T06:30:00-08:00</published><updated>2020-01-06T06:30:00-08:00</updated><id>http://localhost:4000/free-will-doesnt-exist</id><content type="html" xml:base="http://localhost:4000/free-will-doesnt-exist">&lt;p&gt;It seems we have control of our thoughts. It seems we choose our beliefs. It seems we have the capacity to make our own choices. It seems we control our actions.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It’s unfortunate I Will Teach You To Be Rich has an off-putting title because it’s a fantastic introduction to personal finance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Free Will Doesn’t Exist</title><link href="http://localhost:4000/free-will-doesnt-exist" rel="alternate" type="text/html" title="Free Will Doesn’t Exist" /><published>2020-01-06T06:30:00-08:00</published><updated>2020-01-06T06:30:00-08:00</updated><id>http://localhost:4000/free-will-doesnt-exist</id><content type="html" xml:base="http://localhost:4000/free-will-doesnt-exist">&lt;p&gt;It seems we have control of our actions. It seems we make our own choices. It seems we choose our beliefs. It seems we can think about what we want, when we want.&lt;/p&gt;
 
-&lt;p&gt;It seems everything we think and do is of our own free will and this all seems quite obvious.&lt;/p&gt;
+&lt;p&gt;It seems everything we do is of our own free will and this all seems quite obvious.&lt;/p&gt;
 
 &lt;p&gt;But there does exist the opposite belief that we don’t have free will to choose all those things ourselves and rather our thoughts, beliefs, choices, and actions are determined only by a result of previous causes that could not have resulted in any other outcome. &lt;strong&gt;This philosophical belief is called determinism.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1237,7 +1670,7 @@
 
 &lt;p&gt;Although some critics say there isn’t much of a practical difference between free will and the illusion of it, there are clear implications to the understanding of ourselves, other people, and the world around us.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Challenge yourself to be aware of the influences on your thoughts, beliefs, and behavior. Challenge yourself to accept and be grateful for who you are, what you have, and what you’ve accomplished. Challenge yourself to feel affection for other people even when they make mistakes.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It seems we have control of our thoughts. It seems we choose our beliefs. It seems we have the capacity to make our own choices. It seems we control our actions.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before I got &lt;a href=&quot;/philosophy&quot;&gt;interested in philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenge yourself to be aware of the influences on your thoughts, beliefs, and behavior. Challenge yourself to accept and be grateful for who you are, what you have, and what you’ve accomplished. Challenge yourself to feel affection for other people even when they make mistakes.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">It seems we have control of our actions. It seems we make our own choices. It seems we choose our beliefs. It seems we can think about what we want, when we want.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/sam-harris-free-will.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Virtue is a Better Goal Than Legacy</title><link href="http://localhost:4000/virtue-is-its-own-reward" rel="alternate" type="text/html" title="Virtue is a Better Goal Than Legacy" /><published>2019-11-29T06:30:00-08:00</published><updated>2019-11-29T06:30:00-08:00</updated><id>http://localhost:4000/virtue-is-its-own-reward</id><content type="html" xml:base="http://localhost:4000/virtue-is-its-own-reward">&lt;p&gt;Before I got &lt;a href=&quot;/philosophy&quot;&gt;interested in philosophy&lt;/a&gt;, I used to believe the amount of impact one has on the world was the highest objective we should aim to achieve in life.&lt;/p&gt;
 
 &lt;p&gt;Or in other words, build the biggest legacy. &lt;strong&gt;And if my life ended without a legacy, if there wasn’t a large subset of people who remembered me or knew who I was even just 50 years after I died, my life was… well meaningless.&lt;/strong&gt;&lt;/p&gt;
 
@@ -2114,39 +2547,4 @@
 
 &lt;p&gt;&lt;strong&gt;I won’t miss Medium’s distribution. I never got any meaningful distribution. I could have written more content for more claps, but I didn’t want to play that game.&lt;/strong&gt; I want to write what I want to write about.&lt;/p&gt;
 
-&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grew Cold Outbound Booked Meetings by 49%</title><link href="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18" rel="alternate" type="text/html" title="Grew Cold Outbound Booked Meetings by 49%" /><published>2019-06-10T19:37:27-07:00</published><updated>2019-06-10T19:37:27-07:00</updated><id>http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18</id><content type="html" xml:base="http://localhost:4000/helped-increase-cold-outbound-booked-meetings-by-49-in-q1-19-over-q4-18">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
-
-&lt;p&gt;When I joined Chili Piper, we had just one full cycle account executive (AE) on the sales team and the plan was to hire eight more in seven months. The challenge was to (1) develop instrumentation to determine what part of our outreach was working, (2) reliably scale it to other sales reps as they joined the team, and (3) improve the conversion rate of accounts worked to meetings booked so we wouldn’t burn through our target accounts.&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-1build-instrumentation-to-measure-cadence-performance&quot;&gt;Step 1 — Build Instrumentation to Measure Cadence Performance&lt;/h3&gt;
-
-&lt;p&gt;Because we were using SalesLoft and it integrates with Salesforce (SFDC), I was able to build automated dashboards that tracked over 140 different metrics for each cadence. Read about how I did this &lt;a href=&quot;/automating-salesloft-cadence-metrics-into-google-sheets&quot;&gt;here&lt;/a&gt;. Now I could look at our cold outbound performance and see exactly which meetings were booked from what cadences.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-2figure-out-whatworks&quot;&gt;Step 2 — Figure Out What Works&lt;/h3&gt;
-
-&lt;h4 id=&quot;measure-content-and-messaging&quot;&gt;Measure content and messaging&lt;/h4&gt;
-
-&lt;p&gt;With the instrumentation in place, I started making new cadences and adding keywords to our email step names which we could use to break out performance. For example, we started with persuasion factors (liking, consistency, social proof, etc). Then I started adding keywords for content that we’d include — a certain GIF, an image, etc. From this, I determined what type of approach worked best and what content was most effective at getting our value across.&lt;/p&gt;
-
-&lt;h4 id=&quot;optimize-strategy-and-approach-to-target-accounts&quot;&gt;Optimize strategy and approach to target accounts&lt;/h4&gt;
-
-&lt;p&gt;Next I looked at our strategy of which accounts to target. We previously were just working accounts our AE had found on online lists like the Cloud 100. Because we had Clearbit Enrichment, I wanted to use some of the data it provided on accounts we had in SFDC. First, I made a list of target accounts that were using Drift. The logic here was that if they were using Drift, they have already bought into the idea that they need to empower their buyers and make it easier for them to connect with sales (which aligned very closely with Chili Piper). I wrote a cadence piggybacking on this belief and positioned our product as an additional way to make it easier for their buyers to connect with them. I did the same for target accounts using intercom and we saw a 71% increase in the rate of accounts worked to meetings booked.&lt;/p&gt;
-
-&lt;p&gt;In attempt to replicate this strategy, I wrote a cadence targeting accounts who had a conversion rate optimization tool (VWO, Optimizely, etc). This time, I piggybacked on the idea that if they care about their conversion rate on their website and landing pages, they should also care about the conversion rate after the form submission to a closed deal. As expected, this didn’t perform as well as piggybacking off a chat tool, but still better than our original cadence by 22%.&lt;/p&gt;
-
-&lt;h4 id=&quot;customize-cadences-to-the-account&quot;&gt;Customize cadences to the account&lt;/h4&gt;
-
-&lt;p&gt;The problem with these types of cadences were we couldn’t scale them, but they remained in our back pocket when we could use them. For accounts that weren’t using either of these identified tools, we needed a different approach. Since we were signing new accounts who are vertical leaders, we customized which customers we name dropped as social proof by aligning them as much as possible to the prospect’s industry. Additionally, I had our reps take a screenshot of the prospect’s lead/demo form to put in the first email. This account personalized cadence was a huge 107% improvement over our original cadence and we scaled this to rest of the team and our new hires.&lt;/p&gt;
-
-&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
-
-&lt;p&gt;As a team, we were able to increase productivity and efficiency that resulted in a 49% increase in cold outbound booked meetings in Q1 ’19 compared to Q4 ’18 and a 118% jump in pipeline generated. We were trending to improve booked meetings in Q2 ’19 by another 18% and pipeline by 9%.&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/chili-cold-outbound-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/chili-cold-outbound-1.jpeg&quot; alt=&quot;Cold outbound booked meeting and pipeline improvement.&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Cold outbound booked meeting and pipeline improvement.&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/chili-cold-outbound-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

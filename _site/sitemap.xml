@@ -49,10 +49,6 @@
 <lastmod>2019-01-25T09:46:11-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/google-sheets-budget-template</loc>
-<lastmod>2019-02-01T15:51:34-08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/mastery-summary-quotes-robert-greene</loc>
 <lastmod>2019-02-05T22:48:39-08:00</lastmod>
 </url>
@@ -127,6 +123,10 @@
 <url>
 <loc>http://localhost:4000/fathom-analytics-review</loc>
 <lastmod>2020-01-27T17:02:48-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/google-sheets-budget-template</loc>
+<lastmod>2020-02-07T00:51:34-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404</loc>

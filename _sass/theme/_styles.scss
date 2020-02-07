@@ -67,7 +67,7 @@ html[data-theme="dark"] {
         }
     }
     /* Prevents image color overlay in dark mode on SVGs */
-    img:not(.no-dark-filter) {
+    img:not(.no-dark-filter), video:not(.no-dark-filter) {
         mix-blend-mode: multiply;
     }
     .dark-bg-wrapper {
@@ -611,6 +611,9 @@ Unique styling based on the different `include figure.html` attributes below. */
         max-width: 10rem;    
     }
 }
+.figure--thin {
+    @include grid-thin-width;
+}
 .figure--full {
     @include grid-full-width-normal;
 }
@@ -662,6 +665,13 @@ img.svg-reg--left {
 /* --------------------------------------------------------
             Video Styles
 -------------------------------------------------------- */
+
+video {
+    max-width: 100%;
+    border-radius: 3px;
+    padding: 0;
+    display: block;
+}
 .video {
     position: relative;
     width: 100%;

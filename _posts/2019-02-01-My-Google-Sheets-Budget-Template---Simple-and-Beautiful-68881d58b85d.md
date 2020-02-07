@@ -157,7 +157,7 @@ As explained earlier, it's called your guilt-free budget because this is what is
 
 In the **Guilt-Free Budget** box, enter categories of expenses and an allotted amount. Again, there are suggestions in the note on the **budget category\*** cell.
 
-{% include figure.html image="assets/google-sheets-budget-template-guilt-free-budget.png" caption="After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free." width="thin" %}
+{% include figure.html image="assets/images/google-sheets-budget-template-guilt-free-budget.png" caption="After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free." width="thin" %}
 
 If you've budgeted over what you have available in your **total for guilt-free budget** from the **Fixed Monthly Costs** box, this **total** number will turn red and. The number below the **total** number is how much you have left from your **guilt-free budget**
 
@@ -240,7 +240,7 @@ If you overspent in one category, you can subtract **Remaining** budget from ano
 
 There is also the same module for annual expenses below the monthly one.
 
-{% include figure.html image="/assets/images/google-sheets-annual-budget-module.png" caption="Always know exactly how much of your budget you have left of your annual budget for each category." width="wide" %}
+{% include figure.html image="/assets/images/google-sheets-budget-template-annual-budget-module.png" caption="Always know exactly how much of your budget you have left of your annual budget for each category." width="wide" %}
 
 Both the monthly and the annual **Budget Spent So Far** boxes will update automatically every month and year respectively.
 

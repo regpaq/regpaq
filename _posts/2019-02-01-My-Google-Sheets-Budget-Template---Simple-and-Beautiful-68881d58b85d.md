@@ -72,7 +72,7 @@ If you've overspent in one budget category, the template will let you take remai
 
 The template is also built to accomodate irregular expenses that you might only spend money on or have to pay for a few times a year. Once you enter a list of the things you want to create an annual budget for, the template will calculate how much you need to save per month to cover it. And that amount is deducted before you set up your monthly budget.
 
-{% include figure.html image="assets/images/google-sheets-annual-budget-module.png" caption="This template helps you plan for irregular or annual expenses." width="wide" %}
+{% include figure.html image="assets/images/google-sheets-budget-template-annual-budget-module.png" caption="This template helps you plan for irregular or annual expenses." width="wide" %}
 
 ### Spend your money without feeling guilty
 

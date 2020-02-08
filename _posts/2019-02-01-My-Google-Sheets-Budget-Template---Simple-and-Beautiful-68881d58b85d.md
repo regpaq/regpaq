@@ -15,7 +15,7 @@ post-id: 11
 seo:
     date_modified: '2020-2-07T00:40:36-08:00'
 ---
-I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I've been using for over five years.
+I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I've been using and building for over five years.
 
 You can make your own copy by clicking the link below:
 

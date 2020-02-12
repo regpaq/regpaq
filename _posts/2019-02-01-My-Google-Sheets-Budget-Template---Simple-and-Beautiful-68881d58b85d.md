@@ -3,7 +3,7 @@ layout: post
 title: My Google Sheets Budget Template (for Millennials)
 display-title: My Google Sheets Budget Template (for Millennials)
 description: Make budgeting fun while fixing your bad spending habits. Use this hand-crafted, simple, and beautiful Google Sheets budget template.
-display-description: Here's the spreadshet budget I made to make budgeting fun.
+display-description: Here's the spreadsheet budget I made to make budgeting fun.
 date: '2020-02-07T00:51:34-08:00'
 categories: [practical]
 category: [all]

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-12T13:09:15-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">My Google Sheets Budget Template (for Millennials)</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template (for Millennials)" /><published>2020-02-07T00:51:34-08:00</published><updated>2020-02-07T00:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using and building for over five years.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-13T11:56:08-08:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">My Google Sheets Budget Template (for Millennials)</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template (for Millennials)" /><published>2020-02-07T00:51:34-08:00</published><updated>2020-02-07T00:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using and building for over five years.&lt;/p&gt;
 
 &lt;p&gt;You can make your own copy by clicking the link below:&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-one-page-settings.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; alt=&quot;Once you set up this Config tab, just enter expenses and account balances. That's it!&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; alt=&quot;Once you set up this Config tab, just enter expenses and account balances. That's it!&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Once you set up this Config tab, just enter expenses and account balances. That's it!&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -62,7 +62,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-setup-checklist.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; alt=&quot;The setup checklist will automatically mark things complete as you finish each step.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; alt=&quot;The setup checklist will automatically mark things complete as you finish each step.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The setup checklist will automatically mark things complete as you finish each step.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -82,7 +82,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; alt=&quot;The dashboard is the clearest way to see where you're spending your money.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; alt=&quot;The dashboard is the clearest way to see where you're spending your money.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The dashboard is the clearest way to see where you're spending your money.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -106,7 +106,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;This template helps you plan for irregular or annual expenses.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;This template helps you plan for irregular or annual expenses.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;This template helps you plan for irregular or annual expenses.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -119,7 +119,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -152,7 +152,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-income.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-income.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-income.png&quot; alt=&quot;Enter your income data in the Income Breakdown box on the Dashbord tab&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-income.png&quot; alt=&quot;Enter your income data in the Income Breakdown box on the Dashbord tab&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your income data in the Income Breakdown box on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -167,19 +167,19 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-bank-account-names.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-asset-names.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-liability-names.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Giving each account you have a nickname tells the budget template you have those accounts.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -194,7 +194,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; alt=&quot;Enter your annual and irregular expenses to prepare for the future.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; alt=&quot;Enter your annual and irregular expenses to prepare for the future.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your annual and irregular expenses to prepare for the future.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -211,7 +211,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-fixed-monthly-costs.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; alt=&quot;Enter your fixed monthly costs.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; alt=&quot;Enter your fixed monthly costs.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your fixed monthly costs.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -238,7 +238,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -297,7 +297,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; alt=&quot;Enter the previous months' ending balances in each row for the indicated month.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; alt=&quot;Enter the previous months' ending balances in each row for the indicated month.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter the previous months' ending balances in each row for the indicated month.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -308,7 +308,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-liabilities.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; alt=&quot;Example of the Liabilities section with sample data on the Balance Sheet tab.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; alt=&quot;Example of the Liabilities section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Liabilities section with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -317,7 +317,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-expenses.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -328,7 +328,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-totals.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Totals section with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -343,7 +343,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-overview.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; alt=&quot;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; alt=&quot;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -352,7 +352,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-net-worth.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; alt=&quot;Visualize the grow of your net worth over time.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; alt=&quot;Visualize the grow of your net worth over time.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Visualize the grow of your net worth over time.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -372,7 +372,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;Always know exactly how much of your budget you have left of your annual budget for each category.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;Always know exactly how much of your budget you have left of your annual budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Always know exactly how much of your budget you have left of your annual budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -394,7 +394,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-expense-table.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; alt=&quot;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; alt=&quot;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -521,7 +521,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/ethical-marketing-dilemma.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; alt=&quot;The ethical marketer's dilemma.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; alt=&quot;The ethical marketer's dilemma.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The ethical marketer's dilemma.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -579,7 +579,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/fathom-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/fathom-analytics-pricing.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/fathom-analytics-pricing.png&quot; alt=&quot;Fathom Analytics starts at $14/month with unlimited domains.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/fathom-analytics-pricing.png&quot; alt=&quot;Fathom Analytics starts at $14/month with unlimited domains.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Fathom Analytics starts at $14/month with unlimited domains.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -701,25 +701,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-meditating.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-meditating.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-meditating.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-meditating.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-journaling.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-journaling.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-journaling.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-journaling.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-flossing.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-flossing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-flossing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-flossing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-working-out.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-working-out.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-working-out.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-working-out.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -757,25 +757,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-coding.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-coding.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-coding.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-coding.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-reading.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-reading.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-reading.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-reading.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-publishing.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-publishing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-publishing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-publishing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-finances.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-finances.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-finances.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-finances.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -827,7 +827,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-chili-piper.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -894,7 +894,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-to-do.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-to-do.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-to-do.png&quot; alt=&quot;A simple to-do app using Google’s Inbox design&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-to-do.png&quot; alt=&quot;A simple to-do app using Google’s Inbox design&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/regpaq/todo-material&quot;&gt;A simple to-do app using Google’s Inbox design&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -926,7 +926,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; alt=&quot;A group of us went to Camp Nou&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; alt=&quot;A group of us went to Camp Nou&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;A group of us went to Camp Nou&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -935,25 +935,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-3.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-4.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-9.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The places we went in Barcelona, including the Picasso museum&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -962,25 +962,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-6.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-8.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-7.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The food we ate in Barcelona&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -993,14 +993,14 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-utah.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-utah.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah.jpeg&quot; alt=&quot;With my sister and her kids&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah.jpeg&quot; alt=&quot;With my sister and her kids&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;With my sister and her kids&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-utah-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; alt=&quot;Love how everything is so green in Utah&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; alt=&quot;Love how everything is so green in Utah&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Love how everything is so green in Utah&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1013,7 +1013,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-san-francisco.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; alt=&quot;San Francisco's China town at night&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; alt=&quot;San Francisco's China town at night&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;San Francisco's China town at night&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1026,7 +1026,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-mexico.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico.jpeg&quot; alt=&quot;Sunset in Rosarito, Mexico&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico.jpeg&quot; alt=&quot;Sunset in Rosarito, Mexico&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Sunset in Rosarito, Mexico&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1035,13 +1035,13 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-2&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; alt=&quot;The tacos were delicious&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico-3.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; alt=&quot;The tacos were delicious&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The tacos were delicious&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1054,7 +1054,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-wheels.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-wheels.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-wheels.jpeg&quot; alt=&quot;19” BBS CHRs&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-wheels.jpeg&quot; alt=&quot;19” BBS CHRs&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;19” BBS CHRs&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1087,7 +1087,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--sml gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/i-will-teach-you-to-be-rich-cover.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; alt=&quot;Buy I Will Teach You to be Rich on Amazon&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; alt=&quot;Buy I Will Teach You to be Rich on Amazon&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/Will-Teach-You-Rich-Second-ebook/dp/B07GNXPP4P/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=victoriou-20&amp;amp;linkId=e52afa785fde06ed59be0365987f513d&amp;amp;language=en_US&quot;&gt;Buy I Will Teach You to be Rich on Amazon&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1299,7 +1299,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; alt=&quot;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; alt=&quot;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2209,7 +2209,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/netlify-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2275,7 +2275,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-stats.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-stats.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2286,7 +2286,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-referrers.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-referrers.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2307,25 +2307,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; /&gt;
+            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
 

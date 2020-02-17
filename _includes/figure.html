@@ -31,7 +31,7 @@
         <picture>
             <source srcset="/assets/images/webp/{{ include.image4 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
             <source srcset="{{ include.image4 }}" type="image/{{ include.image4 | split: "." | last }}" />
-            <img class="image" src="{{ include.image4 }}" alt="{{ include.caption }}" loading="lazy" />
+            <img class="image" src="{{ include.image4 }}" alt="{{ include.caption }}" loading="lazy"/>
         </picture>
     </div>
     {%- endif -%}

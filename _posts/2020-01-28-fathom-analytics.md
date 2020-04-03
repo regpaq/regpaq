@@ -11,7 +11,7 @@ image-alt: fathom analytics review from a marketer
 author: Reggie Paquette
 post-id: 32
 seo:
-    date_modified: '2020-01-28T01:02:48.485Z'
+    date_modified: '2020-04-03T01:02:48.485Z'
 ---
  
 Fathom Analytics is a cookie-less analytics platform that values user privacy above all.
@@ -75,8 +75,6 @@ If you can’t decide whether you value data-privacy or tracking users more, the
 
 ## What Data Can You See from Fathom Analytics?
 
-If you want to know what kind of data you can see in Fathom, you can [check out my website’s analytics](https://app.usefathom.com/share/xcyerepi/regpaq). With Fathom, you can choose to make your analytics public like I did, and you can see everything that I can. 
-
 Here’s a list of what you get:
 
 - live, real-time data that doesn’t expire like Netlify Analytics
@@ -107,7 +105,7 @@ If they can’t add these features without sacrificing user privacy, Fathom is t
 
 ## Other Cool Things You Can Do With Fathom Analytics
 
-- You can choose to make your analytics public if you want to have a transparent website ([see my Fathom Analytics dashboard](https://app.usefathom.com/share/xcyerepi/regpaq))
+- You can choose to make your analytics public if you want to have a transparent website
 - They do have an affiliate program where you can [get 25% lifetime commissions and people you refer will get $10 off their first month](https://usefathom.com/ref/W2AU06)
 - They’re working on an API - I’m going to use it to display page view counts on articles for social proof
 - You can set up weekly and monthly reports and also set up client reports
@@ -132,3 +130,18 @@ So should you make the switch? Well it comes down to whether you can get behind 
 {: .big-quote}
 
 If you vibe with that, [give it a shot](https://usefathom.com/ref/W2AU06).
+
+## Update April 2020
+
+I made the decision to switch back to Google Analytics. Because my site isn't big enough and I don't write as much as I'd like to, I don't get enough value from premium analytics.
+
+While I enjoy what Fathom is doing, I'm going to pause for now and come back soon.
+
+For the fun of it, I tested the difference in my site speed.
+
+|                  | Requests | Data over network | Resources on page | Load time |
+|------------------|----------|-------------------|-------------------|-----------|
+| Fathom           | 12       | 233 KB            | 312 KB            | 623 ms    |
+| Google Analytics | 13       | 277 KB            | 430 KB            | 384 ms    |
+
+Surprisingly, Google Analytics added more weight to the page, but was quicker to load. And since I don't have any third party embeds or sending this data to any third party websites, I still don't need a cookie consent notice.

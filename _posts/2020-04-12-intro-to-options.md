@@ -6,7 +6,7 @@ description: An introduction to stock options trading for beginners. Learn how t
 date: '2020-04-12T12:02:48.485Z'
 categories: [money]
 category: [all]
-slug: /trading-stock-options-explained
+slug: /trading-stock-options-101-beginners
 image: /assets/images/basics-stock-options-trading.jpg
 image-alt: Stock Options Trading 101
 author: Reggie Paquette

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Options Trading 101: Options Explained in Plain English | regpaq</title>
+        
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Options Trading 101: Options Explained in Plain English" />
+<meta name="author" content="Reggie Paquette" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An introduction to stock options trading for beginners. Learn how trading options work, why options exist, and how to trade options in your broker." />
+<meta property="og:description" content="An introduction to stock options trading for beginners. Learn how trading options work, why options exist, and how to trade options in your broker." />
+<link rel="canonical" href="http://localhost:4000/trading-stock-options-explained" />
+<meta property="og:url" content="http://localhost:4000/trading-stock-options-explained" />
+<meta property="og:site_name" content="regpaq" />
+<meta property="og:image" content="http://localhost:4000/assets/images/basics-stock-options-trading.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-12T05:02:48-07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/basics-stock-options-trading.jpg" />
+<meta property="twitter:title" content="Options Trading 101: Options Explained in Plain English" />
+<meta name="twitter:site" content="@regpaq" />
+<meta name="twitter:creator" content="@Reggie Paquette" />
+<script type="application/ld+json">
+{"description":"An introduction to stock options trading for beginners. Learn how trading options work, why options exist, and how to trade options in your broker.","@type":"BlogPosting","url":"http://localhost:4000/trading-stock-options-explained","headline":"Options Trading 101: Options Explained in Plain English","dateModified":"2020-04-12T05:02:48-07:00","datePublished":"2020-04-12T05:02:48-07:00","image":"http://localhost:4000/assets/images/basics-stock-options-trading.jpg","author":{"@type":"Person","name":"Reggie Paquette"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/trading-stock-options-explained"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Reggie Paquette"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+        
+        <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="regpaq" />
+        <link rel="stylesheet" href="/assets/main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        <style>
+    @font-face {
+    font-family: 'Overpass';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Overpass ExtraLight Italic'), local('Overpass-ExtraLightItalic'), url(https://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81GgaxbL0hgojnA4PLA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Overpass Regular'), local('Overpass-Regular'), url(https://fonts.gstatic.com/s/overpass/v4/qFdH35WCmI96Ajtm81GlU9vgwBcI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+    font-family: 'Overpass';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Overpass Light Italic'), local('Overpass-LightItalic'), url(https://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81Gga3LI0hgojnA4PLA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Overpass Black'), local('Overpass-Black'), url(https://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81kmdM7N4hoiiVI6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Overpass Mono Bold'), local('OverpassMono-Bold'), url(https://fonts.gstatic.com/s/overpassmono/v5/_Xm3-H86tzKDdAPa-KPQZ-AC3pSRo_CXBlRc4EU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style> 
+        <script>
+			// New prefers-color-scheme media query to detect OS light/dark mode setting
+			var prefers_light = window.matchMedia('(prefers-color-scheme: light)');
+			var prefers_dark = window.matchMedia('(prefers-color-scheme: dark)');			
+			var root = document.documentElement;			
+
+			// Change to dark
+			function darkmode() {				
+				root.setAttribute('data-theme', 'dark');				
+			}
+			function darkmodeAfter() {
+				// logo.setAttribute('fill','#bea761');								
+				for (let i = 0; i < coins.length; i++) {
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-gold-ring");					
+				}
+			}
+
+			// Change to light
+			function lightmode() {				
+				root.setAttribute('data-theme', 'light');				
+			}
+			function lightmodeAfter() {
+				// logo.setAttribute('fill','#a1a1b3'); 				
+				for (let i = 0; i < coins.length; i++) {
+					coins[i].childNodes[0].setAttribute("xlink:href", "#coin-silver-ring");					
+				}
+			}
+
+			// Initialization triggers light/dark mode based on prior preference, then OS setting
+			if(localStorage.getItem("mode")=="dark") {
+				darkmode();
+			} else if(localStorage.getItem("mode")=="light") {
+				lightmode();
+			} else if(prefers_light.matches) {
+				lightmode();
+			} else if(prefers_dark.matches) {
+				darkmode();
+			}
+
+			// Fires when user clicks light/dark mode switch in top right
+			function handleThemeUpdate() {
+				if (localStorage.getItem('mode')=="light") {
+					darkmode();
+					darkmodeAfter();
+					localStorage.setItem('mode', 'dark');
+				} else {
+					lightmode();
+					lightmodeAfter();
+					localStorage.setItem('mode', 'light');
+				}
+			}
+
+			// Runs when OS changes light/dark mode. Changes only if you were on default
+			// color state (light on light mode, dark on dark mode).
+			function OSColorChange() {
+				if (prefers_light.matches) {
+					lightmode();
+					lightmodeAfter()
+					localStorage.setItem("mode", "light");
+				} else if (prefers_dark.matches) {
+					darkmode();
+					darkmodeAfter()
+					localStorage.setItem("mode", "dark");
+				}
+			}
+
+			// Listeners for when you change OS setting for light/dark mode
+			prefers_light.addListener(OSColorChange)
+			prefers_dark.addListener(OSColorChange)
+		</script>
+    </head>
+	<body>
+		<header class="site-header">
+			<div class="site-title">
+				<a rel="author" href="/" aria-label="Go to Regpaq Homepage">					
+					<svg xmlns="http://www.w3.org/2000/svg" id="logo" viewbox="0 0 323 156.06" aria-labelledby="logo-title" role="img"><title id="logo-title">Reggie Paquette's Writing and Portfolio</title>
+<g id="LetterP"><path d="M273.06,51c-.12-6.69-.36-19.86-9.56-31.66C253,5.84,237.45,2.69,231.28,1.43A61.56,61.56,0,0,0,217.35.23H149l-30.51,156h36.58l8.29-42.82h41.1a74.33,74.33,0,0,0,33-7.5c6.28-3.08,20.79-10.21,29.4-26.87A57.82,57.82,0,0,0,273.06,51ZM229.58,71.46c-7.6,10.66-19.78,12-21.68,12.13H168.8q5.64-26.28,11.3-52.54h29.8c1,0,14.3-.28,21.28,10.08A22.72,22.72,0,0,1,234.9,54,29.35,29.35,0,0,1,229.58,71.46Z" transform="translate(0 -0.17)" fill="#302e28"></path></g><g id="LetterR"><path d="M123.79.23C115.52.18,99.05.12,82.11.23c-5.94,0-12.56.1-21.06.33C55.35.72,50.83.85,48.53,1,45,1.24,23.39,2.72,10,19.17-3.74,36.05.36,57.5,1.31,62.42A60.9,60.9,0,0,0,15.05,90.24a62.77,62.77,0,0,0,29.6,19l-27,47h39l23.5-42.82h30.37l8,42.82h36.58ZM68,83.59a30.68,30.68,0,0,1-30.71-29A23.14,23.14,0,0,1,42.65,39a23.48,23.48,0,0,1,17.07-8H94l10.09,52.54Z" transform="translate(0 -0.17)"></path></g></svg>
+				</a>
+			</div>
+			<a id="lightswitch" onclick="handleThemeUpdate()" aria-hidden="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" role="img">
+    <title id="change-theme">Change theme</title>
+    <g id="sun">
+        <path fill-rule="evenodd" d="M10 13a3 3 0 100-6 3 3 0 000 6zm0 1a4 4 0 100-8 4 4 0 000 8zm0-12a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 0110 2zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2a.5.5 0 01.5-.5zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM5 10a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zm10.657-5.657a.5.5 0 010 .707l-1.414 1.414a.5.5 0 11-.707-.707l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L5.05 15.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM6.464 6.464a.5.5 0 01-.707 0L4.343 5.05a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707z" clip-rule="evenodd"></path>
+    </g>
+    <g id="moon">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.002 8.002 0 1010.586 10.586z"></path>
+    </g>
+</svg>
+			</a>
+			<nav class="site-nav" aria-label="Navigate main website pages">
+				<a class="page-link" href="/" aria-label="Go to homepage">Home</a>
+				<a class="page-link" href="/about" aria-label="Go to learn about Reggie">About</a>
+				<a class="page-link" href="/resume" aria-label="Go to Reggie's Résumé">Résumé</a>
+			</nav>
+			<nav class="hashtag" aria-label="Navigate articles by their category">
+				<span aria-hidden="true">Articles:</span>
+				<a class="page-link" href="/all-articles" aria-label="Go to all latest articles in every category">#all</a>
+				<a class="page-link" href="/philosophy" aria-label="Go to philosophy articles">#philosophy</a>
+				<a class="page-link" href="/money" aria-label="Go to money articles">#money</a>
+				<a class="page-link" href="/practical" aria-label="Go to practical articles">#practical</a>
+				<a class="page-link" href="/booknotes" aria-label="Go to book notes articles">#booknotes</a>
+				<a class="page-link" href="/marketing" aria-label="Go to marketing articles">#marketing</a>
+				<a class="page-link" href="/self" aria-label="Go to self development articles">#self</a>
+			</nav>
+		</header>
+		<main class="page-content" aria-label="Content">
+			<div class="content-container">
+				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">	
+					<header class="post-header container">
+						<h1 class="post-title" itemprop="name headline">Options Trading 101: Options Explained in Plain English</h1>
+						<p class="article-subtitle">An introduction to stock options trading for beginners.</p>
+						<div class="post-meta">
+							<svg class="coin"><use xlink:href="#coin-gold-ring"></use></svg>
+<figure>
+    <picture>
+        <source sizes="(min-width: 768px) 85px, 55px" srcset="assets/images/webp/reggie-paquette-250.webp 250w,
+                assets/images/webp/reggie-paquette.webp 400w" type="image/webp"></source>
+        <source sizes="(min-width: 768px) 85px, 55px" srcset="assets/images/reggie-paquette-250.jpeg 250vw,
+                assets/images/reggie-paquette.jpeg 400vw" type="image/jpeg"></source>
+        <img class="author" src="/assets/images/reggie-paquette.jpeg" alt="Reggie Paquette photo">
+    </picture>
+</figure>
+							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">Reggie Paquette</a></span></span>
+							<meta itemprop="datePublished" content="Apr 12, 2020">
+							<time itemprop="dateModified" datetime="2020-04-12T05:02:48-07:00"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal"></use></svg>Apr 12, '20</time>
+							<div itemprop="articleSection" id="post-categories" class="hashtag"><a href="/money">#money</a></div>
+						</div>
+					</header>
+					
+<figure class="feat-img">
+    <picture>
+        <source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/webp/basics-stock-options-trading-572.webp 572w,
+                /assets/images/webp/basics-stock-options-trading-790.webp 790w,
+                /assets/images/webp/basics-stock-options-trading-880.webp 880w,
+                /assets/images/webp/basics-stock-options-trading-1600.webp 1600w,
+                /assets/images/webp/basics-stock-options-trading-2450.webp 2450w,
+                /assets/images/webp/basics-stock-options-trading-3200.webp 3200w,
+                /assets/images/webp/basics-stock-options-trading-4000.webp 4000w" type="image/webp"></source>
+        <source sizes="(max-width: 1999px) 100vw, (min-width: 2000px) 2000px" srcset="/assets/images/basics-stock-options-trading-572.jpg 572w,
+                /assets/images/basics-stock-options-trading-790.jpg 790w,
+                /assets/images/basics-stock-options-trading-880.jpg 880w,
+                /assets/images/basics-stock-options-trading-1600.jpg 1600w,
+                /assets/images/basics-stock-options-trading-2450.jpg 2450w,
+                /assets/images/basics-stock-options-trading-3200.jpg 3200w,
+                /assets/images/basics-stock-options-trading-4000.jpg 4000w" type="image/jpg"></source>      
+        <img itemprop="image" src="/assets/images/basics-stock-options-trading.jpg" alt="Stock Options Trading 101">
+    </picture>
+</figure>
+					<div class="post-content" itemprop="articleBody">
+
+<p>Stock options are just like coupons. And if you know how to use a coupon, you’ll know how trading stock options work.</p>
+
+<h2 id="stock-options-101-how-options-work">Stock Options 101: How Options Work</h2>
+
+<p>To explain how options work, let’s start with looking at something you’re already familiar with - a coupon.</p>
+
+<p>Take this one for example - get ten-piece nuggets for $1.99 before March 15, 2020.</p>
+
+<figure class="figure no-dark-filter figure--full gtc-1">
+    <div>
+        <picture><source srcset="/assets/images/webp/basics-stock-options-tendies.webp" type="image/webp"></source><source srcset="assets/images/basics-stock-options-tendies.jpg" type="image/jpg"></source>
+            <img class="image " src="assets/images/basics-stock-options-tendies.jpg" alt="Coupons are exactly like stock options" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Coupons are exactly like stock options</figcaption></figure>
+
+<p>Although coupons are free, options are not. You have to buy them. I’ll cover more on this later so for now, just assume you bought this coupon for $0.50.</p>
+
+<p>Now with this coupon, you have the choice to buy ten-piece nuggets at a guaranteed price of $1.99 before March 15th, but you don’t have to use it if you don’t want to. You have the <em>option</em> to, but not the obligation. This coupon has essentially the same makeup as a stock option:</p>
+
+<ul>
+  <li>The ten-piece nuggets are the <strong>underlying asset</strong>, the thing which you have an option to buy</li>
+  <li>$1.99 is what’s called the <strong>strike price</strong>, the price you and the seller <em>struck</em> a deal on</li>
+  <li>March 15, 2020 is the <strong>expiration date</strong>, the last day you have the option available to use it</li>
+  <li>The $0.50 you paid for the coupon is called the <strong>premium</strong>
+</li>
+</ul>
+
+<p>An investor would buy this coupon if they think the price of chicken will go up before the expiration date so they can buy ten-piece nuggets at a guaranteed price of $1.99.</p>
+
+<p>Let’s say there’s been a global chicken shortage and now the cost for ten-piece nuggets went up from $1.99 ($2 for simplicity’s sake) to $6. Now the investor can <strong>exercise</strong> their option to use the coupon and buy ten-piece nuggets for the $2 price and resell them on the open market for $6. After factoring in the premium paid of the coupon ($0.50), the investor profited $3.50.</p>
+
+<p>What if instead veganism has taken over and now ten-piece nuggets only cost $1? Since the investor could now buy ten-piece nuggets for $1 on the open market, they have no reason to use the coupon to buy them for $2. This makes the coupon worthless. In this scenario, the investor wouldn’t exercise their option to use the coupon and their loss is only the $0.50 premium they paid for the coupon.</p>
+
+<p>Options, at their core, are really this simple. Although they can get more complex when it comes to buying, selling, and using them in various investment strategies, they aren’t impossible to understand. Let’s leave behind the coupon analogy and now look at the two different types of option contracts and their makeup.</p>
+
+<h2 id="what-is-an-options-contract">What is an Options Contract?</h2>
+<p>An options contract is an agreement that gives the purchaser an option to buy or sell a stock at a later date at a predetermined price. The agreement is always between two parties, a buyer (a.k.a. the holder or owner) and a seller (a.k.a. the writer).</p>
+
+<p>The expiration date is when the option expires. When you’re the buyer, you can exercise an option on or before the expiration date. When you’re the seller, you can be <strong>assigned</strong> to fulfill your obligation of the contract on or before the expiration date.</p>
+
+<p>There are only two main types of option contracts, call options and put options.</p>
+
+<p><strong>Call options</strong>, or “calls” for short, give the buyer the right to <em>call</em> the underlying asset away from the option seller and buy it at a predetermined price up to a predetermined date. An investor purchases a call option contract when they think the price of the underlying asset will <em>increase</em> in value beyond the agreed upon strike price before the expiration date.</p>
+
+<p><strong>Put options</strong>, or “puts” for short, give the buyer the right to <em>put</em> the underlying asset up for sale and sell it to the option seller at a predetermined price up to a predetermined date. An investor purchases a put option contract when they think the price of the underlying asset will <em>decrease</em> in value beyond the the agreed upon strike price before the expiration date.</p>
+
+<p>Both call and put options are contracts that give the buyer <em>the right</em> to buy or sell the underlying asset, and not <em>the obligation</em> to do so. Therefore, the seller of the contract is giving up <em>their right</em> and control. So what’s in it for the seller? Since the option contract has value, the buyer has to pay the seller for it. This payment is called the <strong>premium</strong>. The price for the underlying asset that the two parties agreed upon is called the <strong>strike price</strong> because that’s the price they “struck” a deal on.</p>
+
+<h3 id="ways-to-exit-an-options-trade">Ways to exit an options trade</h3>
+<p>If the underlying asset’s value moves <em>in favor</em> of the option buyer before the expiration date, they can sell the option contract itself to another buyer at a higher premium for a profit. At expiration, if the price of the underlying asset has moved beyond the strike price (this is called <strong>in the money</strong>), they can exercise their option of the contract to buy the underlying asset at the strike price.</p>
+
+<p>If the underlying asset’s value moves <em>out of favor</em> of the buyer before expiration, they can sell the option at a lower premium for a loss or continue to hold it to see if the underlying asset’s value changes to be in their favor in time for expiration. If at expiration the value of the underlying asset is still below the strike price (this is called <strong>out of the money</strong>), the buyer can let the option contract expire worthless.</p>
+
+<p>The option seller (the contract writer) can also sell the contract to another investor to close their position before expiration. At expiration, if the option is in the money, they will still be able to keep the premium but they will be assigned to buy or sell (depends on the option they wrote) the underlying asset. If the option is out of the money, their position is automatically closed and their capital is no longer at risk.</p>
+
+<p>So there are three ways to close out an options trade:</p>
+
+<ol>
+  <li>prior to expiration, you can buy or sell the contract itself to close your position (for profit or loss)</li>
+  <li>prior to or at expiration, the buyer can exercise their option in which the seller would get assigned</li>
+  <li>at expiration, the buyer can let the contract expire worthless</li>
+</ol>
+
+<p>I’ll discuss closing an options trade in more detail in a future article about option contract pricing.</p>
+
+<h2 id="how-to-read-an-options-contract">How to Read an Options Contract</h2>
+<p>Now that you know how option contracts work and their makeup, you can now learn to “read” an option. Here’s an example of an options contract:</p>
+
+<p><code class="highlighter-rouge">SPY MARCH 15 ’20 $260 CALL</code></p>
+
+<ul>
+  <li>
+<strong>SPY</strong> is the ticker for the underlying asset, in this case the S&amp;P 500 ETF</li>
+  <li>
+<strong>MARCH 15 ’20</strong> is the expiration date</li>
+  <li>
+<strong>$260</strong> is the strike price</li>
+  <li>
+<strong>Call</strong> is the type of option, in this case a call</li>
+</ul>
+
+<p>Every broker is different and may display the elements of an options contract in different orders and formats, but they are all generally the same. Sometimes you will see an option in shorthand that can look confusing, but it’s all the same information, just more compact. For example, this is the same option as above but for a put instead of a call:</p>
+
+<p><code class="highlighter-rouge">SPY051520P220</code></p>
+
+<p><strong>SPY</strong> is the ticker, <strong>051520</strong> is the expiration date (5/15/2020), <strong>P</strong> is the option type (in this case a put, or could be <strong>C</strong> for call), and <strong>220</strong> is the strike price.</p>
+
+<h2 id="why-trade-option-contracts-instead-of-stocks-directly">Why Trade Option Contracts Instead of Stocks Directly?</h2>
+<p>With trading stocks (or any equity), you have limited leverage and flexibility. For the most part, you can only <em>buy</em> a stock or <em>short</em> a stock. With trading options, you have much more leverage and flexibility.</p>
+
+<p>Let’s look first at how an option provides more leverage. <strong>A single options contract (almost) always controls 100 shares of the underlying asset.</strong> So in other words, you can control 100 shares for the price of the option’s premium without having to buy 100 shares of the stock outright. For example, SPY is currently trading at $240. You could buy 100 shares outright for $24,000 or you could buy one call option contract for a fraction of the price, which could be anywhere from, say, $400 to upwards of $1,000 depending on the strike price and expiration. Or, you can invest $24,000 to buy 40 call option contracts with a $6 premium ($600 total per contract) to instead control 4,000 shares of SPY worth $960,000. This is how options provide more leverage.</p>
+
+<p>In terms of flexibility, trading stocks is one directional, up or down, and your profit and loss is directly tied 1:1 with the stock. Here is the profit and loss payoff chart for going long on a stock and shorting a stock.</p>
+
+<figure class="figure no-dark-filter figure--wide gtc-2">
+    <div>
+        <picture><source srcset="/assets/images/webp/buy-stock-payoff-diagram.webp" type="image/webp"></source><source srcset="assets/images/buy-stock-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/buy-stock-payoff-diagram.png" alt="Payoff diagrams for buying and shorting a stock" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/short-stock-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/short-stock-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/short-stock-payoff-diagram.png" alt="Payoff diagrams for buying and shorting a stock" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Payoff diagrams for buying and shorting a stock</figcaption></figure>
+
+<p>When you buy a stock (a.k.a. go “long”), you profit when the stock’s price increases and incur a loss when the stock’s price decreases. When you short a stock, you profit when the stock’s price decreases and incur a loss when the stock’s price increases.</p>
+
+<p>And here are the payoff charts for buying and selling a call option contract and buying and selling a put option contract.</p>
+
+<figure class="figure no-dark-filter figure--wide gtc-4">
+    <div>
+        <picture><source srcset="/assets/images/webp/buy-call-payoff-diagram.webp" type="image/webp"></source><source srcset="assets/images/buy-call-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/buy-call-payoff-diagram.png" alt="Payoff diagrams for buying and selling call and put option contracts" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/buy-put-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/buy-put-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/buy-put-payoff-diagram.png" alt="Payoff diagrams for buying and selling call and put option contracts" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/sell-call-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/sell-call-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/sell-call-payoff-diagram.png" alt="Payoff diagrams for buying and selling call and put option contracts" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/sell-put-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/sell-put-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/sell-put-payoff-diagram.png" alt="Payoff diagrams for buying and selling call and put option contracts" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Payoff diagrams for buying and selling call and put option contracts</figcaption></figure>
+
+<p>You’ll notice immediately the differences. Each of the above option strategies either have a limit to how much loss you can incur or a limit to how much profit you can gain. Behind the scenes, they each have their own levels of risk and probability of making a profit to tolerate with these limits.</p>
+
+<p>Buying and selling call or put option contracts are just scratching the surface, too. By combining different types of options with different strike prices, you can create unique option strategies to profit in any kind of market movement. Here’s some examples:</p>
+
+<figure class="figure no-dark-filter figure--wide gtc-4">
+    <div>
+        <picture><source srcset="/assets/images/webp/bull-call-spread-option-payoff-diagram.webp" type="image/webp"></source><source srcset="assets/images/bull-call-spread-option-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/bull-call-spread-option-payoff-diagram.png" alt="Payoff diagrams for various advanced option strategies" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/bear-put-spread-option-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/bear-put-spread-option-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/bear-put-spread-option-payoff-diagram.png" alt="Payoff diagrams for various advanced option strategies" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/long-butterfly-option-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/long-butterfly-option-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/long-butterfly-option-payoff-diagram.png" alt="Payoff diagrams for various advanced option strategies" loading="lazy">
+        </picture>
+    </div>
+<div>
+        <picture>
+            <source srcset="/assets/images/webp/long-straddle-option-payoff-diagram.webp" type="image/webp"></source>
+            <source srcset="assets/images/long-straddle-option-payoff-diagram.png" type="image/png"></source>
+            <img class="image no-dark-filter" src="assets/images/long-straddle-option-payoff-diagram.png" alt="Payoff diagrams for various advanced option strategies" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Payoff diagrams for various advanced option strategies</figcaption></figure>
+
+<p>Don’t worry about these for now. Just understand that with options, you have the ability to limit both profit and loss in a single trade, profit if there is little movement in an equity, or profit if there is a lot of movement regardless if it’s up or down. This is how options provide more flexibility.</p>
+
+<h2 id="how-to-read-the-options-chain">How to Read the Options Chain</h2>
+<p>Pull up a stock or ETF and you should see a link for “options.” Clicking this will take you to what’s called the <strong>options chain</strong>, which is a scary looking table full of numbers you won’t understand. But don’t worry, here’s how to read it.</p>
+
+<p>Each broker will display their options chain differently, but they will all have the same essential information, and some will offer more. Here’s an example of options chain from E*Trade.</p>
+
+<figure class="figure no-dark-filter figure--wide gtc-1">
+    <div>
+        <picture><source srcset="/assets/images/webp/basics-stock-options-option-chain.webp" type="image/webp"></source><source srcset="assets/images/basics-stock-options-option-chain.png" type="image/png"></source>
+            <img class="image " src="assets/images/basics-stock-options-option-chain.png" alt="Example of a simple options chain (from E*Trade)" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Example of a simple options chain (from E*Trade)</figcaption></figure>
+
+<p>I pulled up the options chain for the symbol <strong>SPY</strong> as indicated in the top left and the type of options chain we’re looking at is the default <strong>Calls &amp; Puts</strong> chain (don’t worry about the others for now). In the next section is some standard quote information and immediately below that is where the information for the options chain begins.</p>
+
+<p>The option chains are divided into different sections by the various <strong>expiration dates</strong> shown as tabs. You’ll see I have <em>April 9 ’20</em> selected. Clicking on the various expiration dates will change the data in the table beneath it.</p>
+
+<p>Each row in this table is an individual options contract you can buy or sell. Splitting the table down the middle is the <strong>strike price</strong> column. By default, option chains will show a certain number of available contracts with a strike price below and above the current price of the underlying asset (again, SPY in this case). The current price of SPY at the time of this screenshot is $272 as seen in the quote section. You can change which strike prices are shown by entering a desired strike price at the top in the “Near” box.</p>
+
+<p>On the left side of the strike price column in the table are <strong>call option contracts</strong> and to the right of the strike price are <strong>put option contracts</strong>. Since the current price of SPY is $272, all the call option contracts with a strike price below $272 are shaded blue because they are <strong>in the money</strong> (often abbreviated as ITM). You can see the same thing on the right side for put option contracts with strike prices above $272. Contracts that are not shaded blue are considered <strong>out of the money</strong> (OTM). When an option contract’s strike price is the same as the underlying asset’s current price (or within a few cents), it’s considered an <strong>at the money</strong> option (ATM). ITM, ATM, and OTM are the three types of <strong>option moneyness</strong>.</p>
+
+<p>In the table you’ll see lots of numbers. Here’s the breakdown of each column:</p>
+
+<ul>
+  <li>
+<strong>Open Interest</strong> is the total number of these contracts that are currently active and open</li>
+  <li>
+<strong>Vol</strong>, short for volume, is the number of these contracts that were opened just today</li>
+  <li>
+<strong>Change</strong> is today’s price (premium) movement of that contract since the closing price of the previous trading day</li>
+  <li>
+<strong>Last</strong> is the price (also called the <strong>mark</strong>) of the contract’s last completed transaction, whether opened or closed</li>
+  <li>
+<strong>Bid</strong> is the current maximum price buyers are willing to pay for that contract</li>
+  <li>
+<strong>Ask</strong> is the current minimum price sellers are willing sell that contract for</li>
+</ul>
+
+<p>Here’s a more advanced options chain table from Power E*Trade, their more advanced options trading platform.</p>
+
+<figure class="figure no-dark-filter figure--wide gtc-1">
+    <div>
+        <picture><source srcset="/assets/images/webp/basics-stock-options-advanced-options-chain.webp" type="image/webp"></source><source srcset="assets/images/basics-stock-options-advanced-options-chain.png" type="image/png"></source>
+            <img class="image " src="assets/images/basics-stock-options-advanced-options-chain.png" alt="Example of the options chain from a more advanced broker (from Power E*Trade)" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Example of the options chain from a more advanced broker (from Power E*Trade)</figcaption></figure>
+
+<p>Let me first point out these options chains are <em>only</em> looking at call option contracts - notice the strike price column is not in the middle anymore but all the way to the right. That’s because with more advanced option trading platforms, you can hide one side or the other to see more columns of information for a contract all at once.</p>
+
+<p>Although these options chains look completely different on the surface, it’s still mostly the same information. Take a minute to compare this screenshot to the previous one and try to spot what’s the same and what’s new.</p>
+
+<p>The first difference you might notice is I’ve selected multiple expiration dates, <em>Apr-09-20</em> and <em>Apr-15-20</em> and you can see both option chains displayed below at once.</p>
+
+<p>Here’s a breakdown of the data in the new columns in the table.</p>
+
+<ul>
+  <li>
+<strong>Bid Size</strong> is the number of contracts buyers have placed buy orders for that are waiting to be filled at the current bid price</li>
+  <li>
+<strong>Ask Size</strong> is the number of contracts sellers have placed sell orders for that are waiting to be filled at the current ask price</li>
+  <li>
+<strong>Delta</strong>, <strong>Gamma</strong>, <strong>Theta</strong>, and <strong>Vega</strong> (along with <strong>Rho</strong> which isn’t shown) are referred to as the <strong>Greeks</strong> and I’m going to cover this in another article - don’t worry about them for now</li>
+  <li>
+<strong>Implied Volatility</strong> or IV is a measurement of how volatile the price of that contract is</li>
+  <li>
+<strong>Prob ITM Exp ATM IV</strong> is the probability that contract will be ITM at it’s expiration date (this is calculated using the IV from the same expiration date contract that’s currently ATM)</li>
+  <li>
+<strong>Intrinsic Value</strong> is the dollar value worth per contract if it expired right now. Only contracts ITM have an intrinsic value greater than 0</li>
+  <li>
+<strong>Extrinsic Value</strong> is the dollar value worth per contract investors give an option based on its profit potential at expiration that has not yet been realized</li>
+</ul>
+
+<h2 id="how-to-buy-to-open-an-option-trade">How to Buy to Open an Option Trade</h2>
+<p>Before you can buy to open an options contract, you will need to get option approval from your brokerage. How to accomplish this is different with each broker, but should be easy to figure out. There are typically four levels of option access, with each level permitting different types of option strategies. Apply for at least level two. Your broker will tell you what each level grants access to. Once you submit your request, it may take a few trading days to be approved.</p>
+
+<p>There are various ways for each broker to <em>open a new position</em> for an options contract, but you can most likely click a contract’s ask price to buy it or the bid price to write (sell) it. Here’s what it looks like in Power E*Trade to buy the April 15th $268 contract.</p>
+
+<figure class="figure no-dark-filter figure--full gtc-1">
+    <div>
+        <picture><source srcset="/assets/images/webp/basics-stock-options-order.webp" type="image/webp"></source><source srcset="assets/images/basics-stock-options-order.png" type="image/png"></source>
+            <img class="image " src="assets/images/basics-stock-options-order.png" alt="Example of an option order window (from Power E*Trade)" loading="lazy">
+        </picture>
+    </div>
+<figcaption class="caption">Example of an option order window (from Power E*Trade)</figcaption></figure>
+
+<ul>
+  <li>at the very top, confirm you have the right account selected</li>
+  <li>below that, confirm the symbol is correct, in this case SPY</li>
+  <li>confirm whether you want to buy or write the option using the <strong>Action</strong> toggle</li>
+  <li>select the number of contracts you want to buy under <strong>Qty</strong>
+</li>
+  <li>confirm your <strong>Expiration</strong> date is correct</li>
+  <li>confirm your <strong>Strike</strong> price is correct</li>
+  <li>
+<strong>Price Type</strong> let’s you choose how you want your order executed, I recommend to always use limit to secure your desired price</li>
+  <li>set your desired price under <strong>Limit Price</strong>. To the right, you can see the bid and ask price for the contract change in real time as you’re placing your order</li>
+  <li>set how long you want your order to stay open under <strong>Duration</strong>
+</li>
+  <li>set whether you want your order to process only if it can buy or write all the contracts at your limit price under <strong>Special Handling</strong>
+</li>
+</ul>
+
+<p>After everything looks correct, clicking the <strong>Preview</strong> button will allow you to do one final confirmation of your trade before placing an order.</p>
+
+<h2 id="how-to-sell-to-close-an-option-trade">How to Sell to Close an Option Trade</h2>
+<p>To close an open position, go to your open positions list in your broker and find the position you want to close. There should be a <em>close</em> button or link when you hover over it or select it. This is the best way, at least for me, to ensure you’re closing a position, instead of <em>selling to open</em> a new position.</p>
+
+<p>And that’s an overview of what options are, how they work, why options can be a useful instrument for investors, and how to open and close an option trade.</p>
+
+<p>In the next article, I’ll cover what affects a contract’s price, dive deeper into the definitions of some of the items in this article (e.g. IV, Prob ITM, etc), and explain what each of the Greeks mean.</p>
+
+
+					</div>
+
+<section class="featured-articles horizontal" aria-labelledby="post-list-heading">
+    <div class="container container-overflow">
+        <div class="featured-article-header">
+            <h2 id="post-list-heading" class="post-list-heading">You might also enjoy</h2>
+            <p class="see-more" aria-hidden="true">MORE<svg class="no-dark-filter svg-reg--left"><use xlink:href="#arrow-right"></use></svg></p>
+        </div>
+        <div class="article-card-container">                
+            <ul class="post-list" aria-label="Recommended articles" style="min-width: calc(2 * (286px + 16px) + 48px);">
+                
+                <li class="article-0">
+                    <article>
+                        <a href="/google-sheets-budget-template">
+                                <figure class="feat-img">
+    <picture>        
+        <source sizes="(min-width: 1024px) 394px, (min-width: 768px) 438px, 286px" srcset="/assets/images/webp/google-sheets-budget-template-572.webp 572w,
+                /assets/images/webp/google-sheets-budget-template-790.webp 790w,
+                /assets/images/webp/google-sheets-budget-template-880.webp 880w,
+                /assets/images/webp/google-sheets-budget-template-1600.webp 1600w,
+                /assets/images/webp/google-sheets-budget-template-2450.webp 2450w" type="image/webp"></source>
+        <source sizes="(min-width: 1024px) 394px, (min-width: 768px) 438px, 286px" srcset="/assets/images/google-sheets-budget-template-572.jpg 572w,
+                /assets/images/google-sheets-budget-template-790.jpg 790w,
+                /assets/images/google-sheets-budget-template-880.jpg 880w,
+                /assets/images/google-sheets-budget-template-1600.jpg 1600w,
+                /assets/images/google-sheets-budget-template-2450.jpg 2450w" type="image/jpg"></source>     
+        <img itemprop="image" src="/assets/images/google-sheets-budget-template.jpg" alt="google sheets budget template" loading="lazy">
+    </picture>
+</figure>
+                        </a>
+                        <div class="article-info">
+                            <h3 itemprop="headline"><a class="post-link" href="/google-sheets-budget-template">My Google Sheets Budget Template (for Millennials)</a></h3>
+                            <p itemprop="alternativeHeadline" class="description">Here's the spreadsheet budget I made to make budgeting fun.</p>
+                            <p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Feb 7, '20</p>
+                        </div>
+                    </article>
+                </li>
+                
+                <li class="article-1">
+                    <article>
+                        <a href="/i-will-teach-you-to-be-rich-summary-notes-quotes">
+                                <figure class="feat-img">
+    <picture>        
+        <source sizes="(min-width: 1024px) 394px, (min-width: 768px) 438px, 286px" srcset="/assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-572.webp 572w,
+                /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-790.webp 790w,
+                /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-880.webp 880w,
+                /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-1600.webp 1600w,
+                /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-2450.webp 2450w" type="image/webp"></source>
+        <source sizes="(min-width: 1024px) 394px, (min-width: 768px) 438px, 286px" srcset="/assets/images/ramit-sethi-i-will-teach-you-to-be-rich-572.jpg 572w,
+                /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-790.jpg 790w,
+                /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-880.jpg 880w,
+                /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-1600.jpg 1600w,
+                /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-2450.jpg 2450w" type="image/jpg"></source>     
+        <img itemprop="image" src="/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg" alt="Ramit Sethi I Will Teach You to Be Rich" loading="lazy">
+    </picture>
+</figure>
+                        </a>
+                        <div class="article-info">
+                            <h3 itemprop="headline"><a class="post-link" href="/i-will-teach-you-to-be-rich-summary-notes-quotes">I Will Teach You to Be Rich—Summary, Notes, + Quotes</a></h3>
+                            <p itemprop="alternativeHeadline" class="description">The best introduction to personal finance and how to enjoy spending your money.</p>
+                            <p class="post-meta"><svg class="no-dark-filter"><use xlink:href="#cal"></use></svg>Jan 14, '20</p>
+                        </div>
+                    </article>
+                </li>
+                </ul>
+        </div>
+    </div>
+</section>
+                <section class="subscribe container" aria-label="Subscribe to email updates">
+                    <h2>Never Miss an Article</h2>
+                    <p>Get notified by email when I publish a new article.</p>
+                    <a href="https://regpaq.substack.com/" target="_blank" rel="noopener noreferrer"><button class="primary">Subscribe</button></a>
+                </section>
+					<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+						<meta itemprop="name" content="Reggie Paquette">
+						<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<meta itemprop="url" content="/assets/images/logo.png">
+							<meta itemprop="width" content="272">
+							<meta itemprop="height" content="155">
+						</span>
+					</span>
+					<meta itemprop="mainEntityOfPage" content="" itemscope itemtype="https://schema.org/WebPage" itemid="http://localhost:4000/trading-stock-options-explained">
+				</article>
+			</div>
+		</main>
+		<footer class="site-footer" aria-label="Social profile links">
+			<div class="container">
+				<div id="bottom-foot">
+					<ul>
+						<li><a href="/" aria-label="Go to the homepage">regpaq.com</a></li>						
+						<li><a href="https://twitter.com/regpaq" target="_blank" rel="noopener noreferrer" aria-label="Go to Reggie's Twitter profile"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#twitter"></use></svg></a></li>						
+						<li><a href="https://www.reddit.com/user/regpaq" target="_blank" rel="noopener noreferrer" aria-label="Go to Reggie's Reddit profile"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#reddit"></use></svg></a></li>
+						<li><a href="https://github.com/regpaq" target="_blank" rel="noopener noreferrer" aria-label="Go to Reggie's GitHub profile"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#github"></use></svg></a></li>
+						<li><a href="https://www.linkedin.com/in/reggiepaquette/" target="_blank" rel="noopener noreferrer" aria-label="Go to Reggie's LinkedIn profile"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#linkedin"></use></svg></a></li>
+						<li><a href="https://medium.com/@regpaq" target="_blank" rel="noopener noreferrer" aria-label="Go to Reggie's Medium profile"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#medium"></use></svg></a></li>									
+					</ul>
+				</div>				
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><clippath id="coin-path"><path d="M135.74,71.9a70.75,70.75,0,0,1-3.3,14.38A89.92,89.92,0,0,1,127.12,99a75.9,75.9,0,0,1-18.92,23.87,46,46,0,0,1-15.13,7,58.71,58.71,0,0,1-10.89,1.32l-2.1.15c-2.65.17-5.31.38-8,.64-2.15.16-4.32.24-6.47.24-1.09,0-2.17,0-3.24-.07a70,70,0,0,1-14.77-2,54.74,54.74,0,0,1-12-4.81,76.13,76.13,0,0,1-23.17-18.77A53.69,53.69,0,0,1,2.39,88.16,68.06,68.06,0,0,1,.46,62.36,66.34,66.34,0,0,1,5.81,44.17c1-2.07,2-4.08,3-6.11s2.13-4,3.27-6c1.33-1.73,2.72-3.35,4.19-5,2.07-2.29,4.27-4.52,6.56-6.64a57.44,57.44,0,0,1,6.25-5.2,61.18,61.18,0,0,1,5.55-3.46,56.48,56.48,0,0,1,7.88-4,55.78,55.78,0,0,1,7.3-2.43,47.73,47.73,0,0,1,7.81-1.87A45.78,45.78,0,0,1,66.49,3c1.59,0,3.15.1,4.72.25s3.13.34,4.67.62A59.32,59.32,0,0,1,87.69,7.54a85.06,85.06,0,0,1,14.61,7.89,86,86,0,0,1,12.5,10.18,115.75,115.75,0,0,1,9.52,11.23c4.93,6.45,8,11.79,9.72,16.78A48.86,48.86,0,0,1,135.53,59,58.22,58.22,0,0,1,135.74,71.9Z" transform="translate(0.5 -2.5)" fill="none" stroke="#000" stroke-miterlimit="10"></path></clippath></svg>
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><defs><clippath id="coin-path-tiny"><path d="M50.9,26.84a26.33,26.33,0,0,1-1.24,5.39,32.54,32.54,0,0,1-2,4.76,28.38,28.38,0,0,1-7.1,8.95,16.93,16.93,0,0,1-5.67,2.61,22.42,22.42,0,0,1-4.08.5L30,49.1l-3,.24q-1.21.09-2.43.09c-.41,0-.81,0-1.21,0a26.46,26.46,0,0,1-5.54-.73,20.51,20.51,0,0,1-4.48-1.81,28.46,28.46,0,0,1-8.69-7A20.37,20.37,0,0,1,.89,32.93a25.64,25.64,0,0,1-.72-9.67,24.86,24.86,0,0,1,1-4.16,23.26,23.26,0,0,1,1-2.66c.37-.78.74-1.53,1.14-2.29s.8-1.5,1.23-2.24,1-1.25,1.56-1.87c.78-.86,1.61-1.7,2.46-2.49A21.9,21.9,0,0,1,10.92,5.6,22.44,22.44,0,0,1,13,4.31a20.55,20.55,0,0,1,3-1.5A21.46,21.46,0,0,1,18.7,1.9a17.24,17.24,0,0,1,2.92-.7A17.57,17.57,0,0,1,24.94,1a17.14,17.14,0,0,1,1.76.1c.59,0,1.18.13,1.76.23A22.61,22.61,0,0,1,32.88,2.7a32.16,32.16,0,0,1,5.48,3,31.82,31.82,0,0,1,4.69,3.82,43.39,43.39,0,0,1,3.57,4.21A23.26,23.26,0,0,1,50.27,20a18.06,18.06,0,0,1,.55,2A21.58,21.58,0,0,1,50.9,26.84Z" transform="translate(0.5 -0.5)" fill="none" stroke="#000" stroke-miterlimit="10"></path></clippath></defs></svg>
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;"><defs><clippath id="coin-path-small"><path d="M81.85,43.54a43,43,0,0,1-2,8.67,54.57,54.57,0,0,1-3.2,7.66A46.14,46.14,0,0,1,65.24,74.26a27.74,27.74,0,0,1-9.12,4.2,35.43,35.43,0,0,1-6.57.8l-1.27.09c-1.6.1-3.2.23-4.84.38-1.3.1-2.6.14-3.9.14-.66,0-1.31,0-1.95,0a41.77,41.77,0,0,1-8.91-1.17,33.37,33.37,0,0,1-7.21-2.9,45.92,45.92,0,0,1-14-11.32,32.43,32.43,0,0,1-6.07-11.1A41,41,0,0,1,.28,37.79a39,39,0,0,1,1.55-6.68A41.38,41.38,0,0,1,3.5,26.82c.6-1.25,1.2-2.46,1.84-3.68s1.28-2.4,2-3.6c.8-1,1.64-2,2.52-3,1.25-1.39,2.58-2.73,4-4A33.2,33.2,0,0,1,17.56,9.4a36.08,36.08,0,0,1,3.35-2.09,34.54,34.54,0,0,1,4.74-2.4,33,33,0,0,1,4.41-1.46A28.43,28.43,0,0,1,40.09,2c1,0,1.9.07,2.85.15s1.89.21,2.81.38a35.33,35.33,0,0,1,7.12,2.19,50.54,50.54,0,0,1,8.81,4.75,52.94,52.94,0,0,1,7.54,6.14A72.55,72.55,0,0,1,75,22.4a37.39,37.39,0,0,1,5.86,10.12,31,31,0,0,1,.9,3.27A35.86,35.86,0,0,1,81.85,43.54Z" transform="translate(0.5 -1.5)" fill="none" stroke="#000" stroke-miterlimit="10"></path></clippath></defs></svg>			
+			<svg xmlns="http://www.w3.ord/3000/svg" style="display: none;">
+                <symbol id="coin-gold-ring" viewbox="0 0 105.41 100.25">
+                    <path d="M357,399.24a53.41,53.41,0,0,1-2.49,10.83,67.93,67.93,0,0,1-4,9.56,57.71,57.71,0,0,1-4.7,7.71,56.94,56.94,0,0,1-9.55,10.26,34.56,34.56,0,0,1-11.39,5.24,44.3,44.3,0,0,1-8.2,1l-1.58.11c-2,.13-4,.29-6.05.48-1.62.12-3.25.18-4.87.18-.82,0-1.63,0-2.44-.05a52.47,52.47,0,0,1-11.12-1.47,41.32,41.32,0,0,1-9-3.62,57.28,57.28,0,0,1-17.44-14.13,40.6,40.6,0,0,1-7.58-13.86,51.34,51.34,0,0,1-1.45-19.42,48.65,48.65,0,0,1,1.94-8.35,49.78,49.78,0,0,1,2.09-5.35c.74-1.56,1.49-3.07,2.29-4.6s1.6-3,2.46-4.49c1-1.3,2.05-2.52,3.15-3.75,1.56-1.73,3.22-3.41,4.94-5a43.12,43.12,0,0,1,4.71-3.92A45.24,45.24,0,0,1,280.9,354a42.64,42.64,0,0,1,5.93-3,42.21,42.21,0,0,1,5.5-1.83,36,36,0,0,1,5.88-1.41,35.25,35.25,0,0,1,6.65-.37c1.19,0,2.37.08,3.55.19s2.36.26,3.52.47a44.75,44.75,0,0,1,8.89,2.73,64.07,64.07,0,0,1,11,5.94,64.92,64.92,0,0,1,9.41,7.67,87.82,87.82,0,0,1,7.17,8.45c3.71,4.86,6,8.88,7.32,12.64a37.82,37.82,0,0,1,1.12,4.08A44,44,0,0,1,357,399.24Z" transform="translate(-253.29 -345.87)" fill="none" stroke="#BEA761" stroke-miterlimit="10" stroke-width="3"></path>
+                </symbol>
+                <symbol id="coin-silver-ring" viewbox="0 0 105.41 100.25">
+                    <path d="M357,399.24a53.41,53.41,0,0,1-2.49,10.83,67.93,67.93,0,0,1-4,9.56,57.71,57.71,0,0,1-4.7,7.71,56.94,56.94,0,0,1-9.55,10.26,34.56,34.56,0,0,1-11.39,5.24,44.3,44.3,0,0,1-8.2,1l-1.58.11c-2,.13-4,.29-6.05.48-1.62.12-3.25.18-4.87.18-.82,0-1.63,0-2.44-.05a52.47,52.47,0,0,1-11.12-1.47,41.32,41.32,0,0,1-9-3.62,57.28,57.28,0,0,1-17.44-14.13,40.6,40.6,0,0,1-7.58-13.86,51.34,51.34,0,0,1-1.45-19.42,48.65,48.65,0,0,1,1.94-8.35,49.78,49.78,0,0,1,2.09-5.35c.74-1.56,1.49-3.07,2.29-4.6s1.6-3,2.46-4.49c1-1.3,2.05-2.52,3.15-3.75,1.56-1.73,3.22-3.41,4.94-5a43.12,43.12,0,0,1,4.71-3.92A45.24,45.24,0,0,1,280.9,354a42.64,42.64,0,0,1,5.93-3,42.21,42.21,0,0,1,5.5-1.83,36,36,0,0,1,5.88-1.41,35.25,35.25,0,0,1,6.65-.37c1.19,0,2.37.08,3.55.19s2.36.26,3.52.47a44.75,44.75,0,0,1,8.89,2.73,64.07,64.07,0,0,1,11,5.94,64.92,64.92,0,0,1,9.41,7.67,87.82,87.82,0,0,1,7.17,8.45c3.71,4.86,6,8.88,7.32,12.64a37.82,37.82,0,0,1,1.12,4.08A44,44,0,0,1,357,399.24Z" transform="translate(-253.29 -345.87)" fill="none" stroke="#a1a1b3" stroke-miterlimit="10" stroke-width="3"></path>
+                </symbol>
+                <symbol id="home" viewbox="1 -1 18 18">
+                    <path fill-rule="evenodd" d="M9.646 3.146a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4.5a.5.5 0 01-.5-.5v-4H9v4a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6zM4.5 9.707V16H8v-4a.5.5 0 01.5-.5h3a.5.5 0 01.5.5v4h3.5V9.707l-5.5-5.5-5.5 5.5z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="geo" viewbox="1 1 17 17">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path d="M9.5 6h1v9a.5.5 0 01-1 0V6z"></path>
+                    <path fill-rule="evenodd" d="M8.489 14.095a.5.5 0 01-.383.594c-.565.123-1.003.292-1.286.472-.302.192-.32.321-.32.339 0 .013.005.085.146.21.14.124.372.26.701.383.655.245 1.593.407 2.653.407s1.998-.162 2.653-.407c.329-.124.56-.259.701-.383.14-.125.146-.197.146-.21 0-.018-.018-.147-.32-.339-.283-.18-.721-.35-1.286-.472a.5.5 0 11.212-.977c.63.137 1.193.34 1.61.606.4.253.784.645.784 1.182 0 .402-.219.724-.483.958-.264.235-.618.423-1.013.57-.793.298-1.855.472-3.004.472s-2.21-.174-3.004-.471c-.395-.148-.749-.337-1.013-.571-.264-.234-.483-.556-.483-.958 0-.537.384-.929.783-1.182.418-.266.98-.47 1.611-.606a.5.5 0 01.595.383z" clip-rule="evenodd"></path>
+                <symbol>
+                <symbol id="arrow-right" viewbox="3 4.2 13 13">
+                    <path fill-rule="evenodd" d="M12.146 6.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L14.793 10l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M4 10a.5.5 0 01.5-.5H15a.5.5 0 010 1H4.5A.5.5 0 014 10z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="cal" viewbox="0 -2 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16 2H4a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2zM3 5.857C3 5.384 3.448 5 4 5h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H4c-.552 0-1-.384-1-.857V5.857z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M8.5 9a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm-9 3a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm-9 3a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="location" viewbox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                    <path d="M4 11.5v4c0 .83.67 1.5 1.5 1.5S7 16.33 7 15.5v-4c0-.83-.67-1.5-1.5-1.5S4 10.67 4 11.5zm6 0v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM3.5 22h16c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5h-16c-.83 0-1.5.67-1.5 1.5S2.67 22 3.5 22zM16 11.5v4c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5zM10.57 1.49l-7.9 4.16c-.41.21-.67.64-.67 1.1C2 7.44 2.56 8 3.25 8h16.51C20.44 8 21 7.44 21 6.75c0-.46-.26-.89-.67-1.1l-7.9-4.16c-.58-.31-1.28-.31-1.86 0z"></path>
+                </symbol>
+                <symbol id="document" viewbox="1 -1 18 18">
+                    <path fill-rule="evenodd" d="M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M6.5 14a.5.5 0 01.5-.5h3a.5.5 0 010 1H7a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h6a.5.5 0 010 1H7a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h6a.5.5 0 010 1H7a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h6a.5.5 0 010 1H7a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h6a.5.5 0 010 1H7a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="envelope" viewbox="2 2 16 15">
+                    <path fill-rule="evenodd" d="M16 5H4a1 1 0 00-1 1v8a1 1 0 001 1h12a1 1 0 001-1V6a1 1 0 00-1-1zM4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M2.071 6.243a.5.5 0 01.686-.172L10 10.417l7.243-4.346a.5.5 0 11.514.858L10 11.583 2.243 6.93a.5.5 0 01-.172-.686z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="twitter" viewbox="-1 -1 25 25">
+                    <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path>
+                </symbol>
+                <symbol id="github" viewbox="-2 -2 28 28">
+                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+                </symbol>
+                <symbol id="medium" viewbox="-3 -1 30 24">
+                    <path d="M0 0v24h24V0H0zm19.938 5.686L18.651 6.92a.376.376 0 0 0-.143.362v9.067a.376.376 0 0 0 .143.361l1.257 1.234v.271h-6.322v-.27l1.302-1.265c.128-.128.128-.165.128-.36V8.99l-3.62 9.195h-.49L6.69 8.99v6.163a.85.85 0 0 0 .233.707l1.694 2.054v.271H3.815v-.27L5.51 15.86a.82.82 0 0 0 .218-.707V8.027a.624.624 0 0 0-.203-.527L4.019 5.686v-.27h4.674l3.613 7.923 3.176-7.924h4.456v.271z"></path>
+                </symbol>
+                <symbol id="reddit" viewbox="-1 -1 26 26">
+                    <path d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z"></path>
+                </symbol>
+                <symbol id="linkedin" viewbox="-3 -1 30 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                </symbol>
+                <symbol id="link" viewbox="0 0 17 17">
+                    <path fill-rule="evenodd" d="M3.5 15A1.5 1.5 0 005 16.5h8a1.5 1.5 0 001.5-1.5v-4a.5.5 0 00-1 0v4a.5.5 0 01-.5.5H5a.5.5 0 01-.5-.5V7a.5.5 0 01.5-.5h4a.5.5 0 000-1H5A1.5 1.5 0 003.5 7v8zm7-11a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V4.5H11a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M16.354 3.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="star" viewbox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M4.866 16.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696-2.184-4.327a.513.513 0 00-.927 0L7.354 7.12l-4.898.696c-.441.062-.612.636-.282.95l3.522 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 00-.163-.505L3.71 8.745l4.052-.576a.525.525 0 00.393-.288l1.847-3.658 1.846 3.658c.08.157.226.264.393.288l4.053.575-2.907 2.77a.564.564 0 00-.163.506l.694 3.957-3.686-1.894a.503.503 0 00-.461 0z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="down" viewbox="2 2 16 16">
+                    <path fill-rule="evenodd" d="M3.646 6.646a.5.5 0 01.708 0L10 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"></path>
+                </symbol>
+                <symbol id="fathomicon" viewbox="0 -8 27 27">
+                    <defs><clippath id="A"><path fill="none" d="M0 0h20v20H0z"></path></clippath></defs><g clip-path="url(#A)"><path d="M0 6.667L10 10 8 4z" fill="#a89ef5"></path><path d="M16.667 10L20 0 8 4l2 6 6 2z" fill="#533feb"></path><path d="M16 12l-6-2 3.333 10z" fill="#8efdd2"></path></g>
+                </symbol>
+            </symbol></symbol></svg>
+			<script>
+                // Needs to run again after all elements loaded
+                const coins = document.getElementsByClassName("coin");
+                const logo = document.getElementById("LetterR").childNodes[0];
+            
+                if(localStorage.getItem("mode")=="dark") {
+                    darkmode();
+                    darkmodeAfter();
+                } else if(localStorage.getItem("mode")=="light") {
+                    lightmode();
+                    lightmodeAfter();
+                } else if(prefers_light.matches) {
+                    lightmode();
+                    lightmodeAfter();
+                } else if(prefers_dark.matches) {
+                    darkmode();
+                    darkmodeAfter();
+                }
+            </script>
+			<script>
+                let recContent = document.querySelectorAll('.testimonial');
+                let recPhoto = document.querySelectorAll('.author-photo');
+                for (i = 0; i < recPhoto.length; i++) {
+                    recPhoto[i].addEventListener('click', toggleRec, false);
+                }
+                function unselectRest() {    
+                    let selectedPhoto = document.querySelector('.selected');
+                    let selectedContent= document.querySelector('.visible');
+                    selectedPhoto.classList.remove('selected');
+                    selectedPhoto.classList.add('unselected');
+                    selectedContent.classList.remove('visible');
+                    selectedContent.classList.add('hidden');
+                }
+                function toggleRec() {
+                    let recId = this.id;
+                    unselectRest();
+                    if (this.classList.contains('unselected')) {
+                        this.classList.remove('unselected');
+                        this.classList.add('selected');
+                        let recIdContent = 't' + recId;
+                        document.getElementById(recIdContent).classList.remove('hidden');
+                        document.getElementById(recIdContent).classList.add('visible');
+                    }
+                }
+            </script>
+		</footer>
+	</body>
+	
+</html>

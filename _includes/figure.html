@@ -5,7 +5,7 @@
             <source srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
             {%- endunless -%}
             <source srcset="{{ include.image }}" type="image/{{ include.image | split: "." | last }}" />
-            <img class="image" src="{{ include.image }}" alt="{{ include.caption }}" loading="lazy" />
+            <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
     </div>
     {%- if include.image2 -%}
@@ -13,7 +13,7 @@
         <picture>
             <source srcset="/assets/images/webp/{{ include.image2 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
             <source srcset="{{ include.image2 }}" type="image/{{ include.image2 | split: "." | last }}" />
-            <img class="image" src="{{ include.image2 }}" alt="{{ include.caption }}" loading="lazy" />
+            <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image2 }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
     </div>    
     {%- endif -%}
@@ -22,7 +22,7 @@
         <picture>
             <source srcset="/assets/images/webp/{{ include.image3 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
             <source srcset="{{ include.image3 }}" type="image/{{ include.image3 | split: "." | last }}" />
-            <img class="image" src="{{ include.image3 }}" alt="{{ include.caption }}" loading="lazy" />
+            <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image3 }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
     </div>
     {%- endif -%}
@@ -31,7 +31,7 @@
         <picture>
             <source srcset="/assets/images/webp/{{ include.image4 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
             <source srcset="{{ include.image4 }}" type="image/{{ include.image4 | split: "." | last }}" />
-            <img class="image" src="{{ include.image4 }}" alt="{{ include.caption }}" loading="lazy"/>
+            <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image4 }}" alt="{{ include.caption }}" loading="lazy"/>
         </picture>
     </div>
     {%- endif -%}

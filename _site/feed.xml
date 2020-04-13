@@ -1,4 +1,256 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-03T08:42:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">My Google Sheets Budget Template (for Millennials)</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template (for Millennials)" /><published>2020-02-07T00:51:34-08:00</published><updated>2020-02-07T00:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using and building for over five years.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-12T17:41:34-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Options Trading 101: Options Explained in Plain English</title><link href="http://localhost:4000/trading-stock-options-explained" rel="alternate" type="text/html" title="Options Trading 101: Options Explained in Plain English" /><published>2020-04-12T05:02:48-07:00</published><updated>2020-04-12T05:02:48-07:00</updated><id>http://localhost:4000/trading-stock-options-explained</id><content type="html" xml:base="http://localhost:4000/trading-stock-options-explained">&lt;p&gt;Stock options are just like coupons. And if you know how to use a coupon, you’ll know how trading stock options work.&lt;/p&gt;
+
+&lt;h2 id=&quot;stock-options-101-how-options-work&quot;&gt;Stock Options 101: How Options Work&lt;/h2&gt;
+
+&lt;p&gt;To explain how options work, let’s start with looking at something you’re already familiar with - a coupon.&lt;/p&gt;
+
+&lt;p&gt;Take this one for example - get ten-piece nuggets for $1.99 before March 15, 2020.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/basics-stock-options-tendies.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/basics-stock-options-tendies.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/basics-stock-options-tendies.jpg&quot; alt=&quot;Coupons are exactly like stock options&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Coupons are exactly like stock options&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Although coupons are free, options are not. You have to buy them. I’ll cover more on this later so for now, just assume you bought this coupon for $0.50.&lt;/p&gt;
+
+&lt;p&gt;Now with this coupon, you have the choice to buy ten-piece nuggets at a guaranteed price of $1.99 before March 15th, but you don’t have to use it if you don’t want to. You have the &lt;em&gt;option&lt;/em&gt; to, but not the obligation. This coupon has essentially the same makeup as a stock option:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The ten-piece nuggets are the &lt;strong&gt;underlying asset&lt;/strong&gt;, the thing which you have an option to buy&lt;/li&gt;
+  &lt;li&gt;$1.99 is what’s called the &lt;strong&gt;strike price&lt;/strong&gt;, the price you and the seller &lt;em&gt;struck&lt;/em&gt; a deal on&lt;/li&gt;
+  &lt;li&gt;March 15, 2020 is the &lt;strong&gt;expiration date&lt;/strong&gt;, the last day you have the option available to use it&lt;/li&gt;
+  &lt;li&gt;The $0.50 you paid for the coupon is called the &lt;strong&gt;premium&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An investor would buy this coupon if they think the price of chicken will go up before the expiration date so they can buy ten-piece nuggets at a guaranteed price of $1.99.&lt;/p&gt;
+
+&lt;p&gt;Let’s say there’s been a global chicken shortage and now the cost for ten-piece nuggets went up from $1.99 ($2 for simplicity’s sake) to $6. Now the investor can &lt;strong&gt;exercise&lt;/strong&gt; their option to use the coupon and buy ten-piece nuggets for the $2 price and resell them on the open market for $6. After factoring in the premium paid of the coupon ($0.50), the investor profited $3.50.&lt;/p&gt;
+
+&lt;p&gt;What if instead veganism has taken over and now ten-piece nuggets only cost $1? Since the investor could now buy ten-piece nuggets for $1 on the open market, they have no reason to use the coupon to buy them for $2. This makes the coupon worthless. In this scenario, the investor wouldn’t exercise their option to use the coupon and their loss is only the $0.50 premium they paid for the coupon.&lt;/p&gt;
+
+&lt;p&gt;Options, at their core, are really this simple. Although they can get more complex when it comes to buying, selling, and using them in various investment strategies, they aren’t impossible to understand. Let’s leave behind the coupon analogy and now look at the two different types of option contracts and their makeup.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-an-options-contract&quot;&gt;What is an Options Contract?&lt;/h2&gt;
+&lt;p&gt;An options contract is an agreement that gives the purchaser an option to buy or sell a stock at a later date at a predetermined price. The agreement is always between two parties, a buyer (a.k.a. the holder or owner) and a seller (a.k.a. the writer).&lt;/p&gt;
+
+&lt;p&gt;The expiration date is when the option expires. When you’re the buyer, you can exercise an option on or before the expiration date. When you’re the seller, you can be &lt;strong&gt;assigned&lt;/strong&gt; to fulfill your obligation of the contract on or before the expiration date.&lt;/p&gt;
+
+&lt;p&gt;There are only two main types of option contracts, call options and put options.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Call options&lt;/strong&gt;, or “calls” for short, give the buyer the right to &lt;em&gt;call&lt;/em&gt; the underlying asset away from the option seller and buy it at a predetermined price up to a predetermined date. An investor purchases a call option contract when they think the price of the underlying asset will &lt;em&gt;increase&lt;/em&gt; in value beyond the agreed upon strike price before the expiration date.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Put options&lt;/strong&gt;, or “puts” for short, give the buyer the right to &lt;em&gt;put&lt;/em&gt; the underlying asset up for sale and sell it to the option seller at a predetermined price up to a predetermined date. An investor purchases a put option contract when they think the price of the underlying asset will &lt;em&gt;decrease&lt;/em&gt; in value beyond the the agreed upon strike price before the expiration date.&lt;/p&gt;
+
+&lt;p&gt;Both call and put options are contracts that give the buyer &lt;em&gt;the right&lt;/em&gt; to buy or sell the underlying asset, and not &lt;em&gt;the obligation&lt;/em&gt; to do so. Therefore, the seller of the contract is giving up &lt;em&gt;their right&lt;/em&gt; and control. So what’s in it for the seller? Since the option contract has value, the buyer has to pay the seller for it. This payment is called the &lt;strong&gt;premium&lt;/strong&gt;. The price for the underlying asset that the two parties agreed upon is called the &lt;strong&gt;strike price&lt;/strong&gt; because that’s the price they “struck” a deal on.&lt;/p&gt;
+
+&lt;h3 id=&quot;ways-to-exit-an-options-trade&quot;&gt;Ways to exit an options trade&lt;/h3&gt;
+&lt;p&gt;If the underlying asset’s value moves &lt;em&gt;in favor&lt;/em&gt; of the option buyer before the expiration date, they can sell the option contract itself to another buyer at a higher premium for a profit. At expiration, if the price of the underlying asset has moved beyond the strike price (this is called &lt;strong&gt;in the money&lt;/strong&gt;), they can exercise their option of the contract to buy the underlying asset at the strike price.&lt;/p&gt;
+
+&lt;p&gt;If the underlying asset’s value moves &lt;em&gt;out of favor&lt;/em&gt; of the buyer before expiration, they can sell the option at a lower premium for a loss or continue to hold it to see if the underlying asset’s value changes to be in their favor in time for expiration. If at expiration the value of the underlying asset is still below the strike price (this is called &lt;strong&gt;out of the money&lt;/strong&gt;), the buyer can let the option contract expire worthless.&lt;/p&gt;
+
+&lt;p&gt;The option seller (the contract writer) can also sell the contract to another investor to close their position before expiration. At expiration, if the option is in the money, they will still be able to keep the premium but they will be assigned to buy or sell (depends on the option they wrote) the underlying asset. If the option is out of the money, their position is automatically closed and their capital is no longer at risk.&lt;/p&gt;
+
+&lt;p&gt;So there are three ways to close out an options trade:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;prior to expiration, you can buy or sell the contract itself to close your position (for profit or loss)&lt;/li&gt;
+  &lt;li&gt;prior to or at expiration, the buyer can exercise their option in which the seller would get assigned&lt;/li&gt;
+  &lt;li&gt;at expiration, the buyer can let the contract expire worthless&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ll discuss closing an options trade in more detail in a future article about option contract pricing.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-read-an-options-contract&quot;&gt;How to Read an Options Contract&lt;/h2&gt;
+&lt;p&gt;Now that you know how option contracts work and their makeup, you can now learn to “read” an option. Here’s an example of an options contract:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SPY MARCH 15 ’20 $260 CALL&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;SPY&lt;/strong&gt; is the ticker for the underlying asset, in this case the S&amp;amp;P 500 ETF&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MARCH 15 ’20&lt;/strong&gt; is the expiration date&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$260&lt;/strong&gt; is the strike price&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Call&lt;/strong&gt; is the type of option, in this case a call&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Every broker is different and may display the elements of an options contract in different orders and formats, but they are all generally the same. Sometimes you will see an option in shorthand that can look confusing, but it’s all the same information, just more compact. For example, this is the same option as above but for a put instead of a call:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SPY051520P220&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SPY&lt;/strong&gt; is the ticker, &lt;strong&gt;051520&lt;/strong&gt; is the expiration date (5/15/2020), &lt;strong&gt;P&lt;/strong&gt; is the option type (in this case a put, or could be &lt;strong&gt;C&lt;/strong&gt; for call), and &lt;strong&gt;220&lt;/strong&gt; is the strike price.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-trade-option-contracts-instead-of-stocks-directly&quot;&gt;Why Trade Option Contracts Instead of Stocks Directly?&lt;/h2&gt;
+&lt;p&gt;With trading stocks (or any equity), you have limited leverage and flexibility. For the most part, you can only &lt;em&gt;buy&lt;/em&gt; a stock or &lt;em&gt;short&lt;/em&gt; a stock. With trading options, you have much more leverage and flexibility.&lt;/p&gt;
+
+&lt;p&gt;Let’s look first at how an option provides more leverage. &lt;strong&gt;A single options contract (almost) always controls 100 shares of the underlying asset.&lt;/strong&gt; So in other words, you can control 100 shares for the price of the option’s premium without having to buy 100 shares of the stock outright. For example, SPY is currently trading at $240. You could buy 100 shares outright for $24,000 or you could buy one call option contract for a fraction of the price, which could be anywhere from, say, $400 to upwards of $1,000 depending on the strike price and expiration. Or, you can invest $24,000 to buy 40 call option contracts with a $6 premium ($600 total per contract) to instead control 4,000 shares of SPY worth $960,000. This is how options provide more leverage.&lt;/p&gt;
+
+&lt;p&gt;In terms of flexibility, trading stocks is one directional, up or down, and your profit and loss is directly tied 1:1 with the stock. Here is the profit and loss payoff chart for going long on a stock and shorting a stock.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-2&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/buy-stock-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/buy-stock-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/buy-stock-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and shorting a stock&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/short-stock-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/short-stock-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/short-stock-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and shorting a stock&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Payoff diagrams for buying and shorting a stock&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;When you buy a stock (a.k.a. go “long”), you profit when the stock’s price increases and incur a loss when the stock’s price decreases. When you short a stock, you profit when the stock’s price decreases and incur a loss when the stock’s price increases.&lt;/p&gt;
+
+&lt;p&gt;And here are the payoff charts for buying and selling a call option contract and buying and selling a put option contract.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/buy-call-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/buy-call-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/buy-call-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and selling call and put option contracts&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/buy-put-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/buy-put-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/buy-put-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and selling call and put option contracts&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/sell-call-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/sell-call-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/sell-call-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and selling call and put option contracts&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/sell-put-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/sell-put-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/sell-put-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for buying and selling call and put option contracts&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Payoff diagrams for buying and selling call and put option contracts&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;You’ll notice immediately the differences. Each of the above option strategies either have a limit to how much loss you can incur or a limit to how much profit you can gain. Behind the scenes, they each have their own levels of risk and probability of making a profit to tolerate with these limits.&lt;/p&gt;
+
+&lt;p&gt;Buying and selling call or put option contracts are just scratching the surface, too. By combining different types of options with different strike prices, you can create unique option strategies to profit in any kind of market movement. Here’s some examples:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/bull-call-spread-option-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/bull-call-spread-option-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/bull-call-spread-option-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for various advanced option strategies&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/bear-put-spread-option-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/bear-put-spread-option-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/bear-put-spread-option-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for various advanced option strategies&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/long-butterfly-option-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/long-butterfly-option-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/long-butterfly-option-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for various advanced option strategies&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;div&gt;
+        &lt;picture&gt;
+            &lt;source srcset=&quot;/assets/images/webp/long-straddle-option-payoff-diagram.webp&quot; type=&quot;image/webp&quot; /&gt;
+            &lt;source srcset=&quot;assets/images/long-straddle-option-payoff-diagram.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image no-dark-filter&quot; src=&quot;assets/images/long-straddle-option-payoff-diagram.png&quot; alt=&quot;Payoff diagrams for various advanced option strategies&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Payoff diagrams for various advanced option strategies&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Don’t worry about these for now. Just understand that with options, you have the ability to limit both profit and loss in a single trade, profit if there is little movement in an equity, or profit if there is a lot of movement regardless if it’s up or down. This is how options provide more flexibility.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-read-the-options-chain&quot;&gt;How to Read the Options Chain&lt;/h2&gt;
+&lt;p&gt;Pull up a stock or ETF and you should see a link for “options.” Clicking this will take you to what’s called the &lt;strong&gt;options chain&lt;/strong&gt;, which is a scary looking table full of numbers you won’t understand. But don’t worry, here’s how to read it.&lt;/p&gt;
+
+&lt;p&gt;Each broker will display their options chain differently, but they will all have the same essential information, and some will offer more. Here’s an example of options chain from E*Trade.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/basics-stock-options-option-chain.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/basics-stock-options-option-chain.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/basics-stock-options-option-chain.png&quot; alt=&quot;Example of a simple options chain (from E*Trade)&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of a simple options chain (from E*Trade)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I pulled up the options chain for the symbol &lt;strong&gt;SPY&lt;/strong&gt; as indicated in the top left and the type of options chain we’re looking at is the default &lt;strong&gt;Calls &amp;amp; Puts&lt;/strong&gt; chain (don’t worry about the others for now). In the next section is some standard quote information and immediately below that is where the information for the options chain begins.&lt;/p&gt;
+
+&lt;p&gt;The option chains are divided into different sections by the various &lt;strong&gt;expiration dates&lt;/strong&gt; shown as tabs. You’ll see I have &lt;em&gt;April 9 ’20&lt;/em&gt; selected. Clicking on the various expiration dates will change the data in the table beneath it.&lt;/p&gt;
+
+&lt;p&gt;Each row in this table is an individual options contract you can buy or sell. Splitting the table down the middle is the &lt;strong&gt;strike price&lt;/strong&gt; column. By default, option chains will show a certain number of available contracts with a strike price below and above the current price of the underlying asset (again, SPY in this case). The current price of SPY at the time of this screenshot is $272 as seen in the quote section. You can change which strike prices are shown by entering a desired strike price at the top in the “Near” box.&lt;/p&gt;
+
+&lt;p&gt;On the left side of the strike price column in the table are &lt;strong&gt;call option contracts&lt;/strong&gt; and to the right of the strike price are &lt;strong&gt;put option contracts&lt;/strong&gt;. Since the current price of SPY is $272, all the call option contracts with a strike price below $272 are shaded blue because they are &lt;strong&gt;in the money&lt;/strong&gt; (often abbreviated as ITM). You can see the same thing on the right side for put option contracts with strike prices above $272. Contracts that are not shaded blue are considered &lt;strong&gt;out of the money&lt;/strong&gt; (OTM). When an option contract’s strike price is the same as the underlying asset’s current price (or within a few cents), it’s considered an &lt;strong&gt;at the money&lt;/strong&gt; option (ATM). ITM, ATM, and OTM are the three types of &lt;strong&gt;option moneyness&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the table you’ll see lots of numbers. Here’s the breakdown of each column:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Open Interest&lt;/strong&gt; is the total number of these contracts that are currently active and open&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vol&lt;/strong&gt;, short for volume, is the number of these contracts that were opened just today&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Change&lt;/strong&gt; is today’s price (premium) movement of that contract since the closing price of the previous trading day&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Last&lt;/strong&gt; is the price (also called the &lt;strong&gt;mark&lt;/strong&gt;) of the contract’s last completed transaction, whether opened or closed&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bid&lt;/strong&gt; is the current maximum price buyers are willing to pay for that contract&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ask&lt;/strong&gt; is the current minimum price sellers are willing sell that contract for&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a more advanced options chain table from Power E*Trade, their more advanced options trading platform.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/basics-stock-options-advanced-options-chain.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/basics-stock-options-advanced-options-chain.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/basics-stock-options-advanced-options-chain.png&quot; alt=&quot;Example of the options chain from a more advanced broker (from Power E*Trade)&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the options chain from a more advanced broker (from Power E*Trade)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Let me first point out these options chains are &lt;em&gt;only&lt;/em&gt; looking at call option contracts - notice the strike price column is not in the middle anymore but all the way to the right. That’s because with more advanced option trading platforms, you can hide one side or the other to see more columns of information for a contract all at once.&lt;/p&gt;
+
+&lt;p&gt;Although these options chains look completely different on the surface, it’s still mostly the same information. Take a minute to compare this screenshot to the previous one and try to spot what’s the same and what’s new.&lt;/p&gt;
+
+&lt;p&gt;The first difference you might notice is I’ve selected multiple expiration dates, &lt;em&gt;Apr-09-20&lt;/em&gt; and &lt;em&gt;Apr-15-20&lt;/em&gt; and you can see both option chains displayed below at once.&lt;/p&gt;
+
+&lt;p&gt;Here’s a breakdown of the data in the new columns in the table.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bid Size&lt;/strong&gt; is the number of contracts buyers have placed buy orders for that are waiting to be filled at the current bid price&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ask Size&lt;/strong&gt; is the number of contracts sellers have placed sell orders for that are waiting to be filled at the current ask price&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delta&lt;/strong&gt;, &lt;strong&gt;Gamma&lt;/strong&gt;, &lt;strong&gt;Theta&lt;/strong&gt;, and &lt;strong&gt;Vega&lt;/strong&gt; (along with &lt;strong&gt;Rho&lt;/strong&gt; which isn’t shown) are referred to as the &lt;strong&gt;Greeks&lt;/strong&gt; and I’m going to cover this in another article - don’t worry about them for now&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implied Volatility&lt;/strong&gt; or IV is a measurement of how volatile the price of that contract is&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prob ITM Exp ATM IV&lt;/strong&gt; is the probability that contract will be ITM at it’s expiration date (this is calculated using the IV from the same expiration date contract that’s currently ATM)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intrinsic Value&lt;/strong&gt; is the dollar value worth per contract if it expired right now. Only contracts ITM have an intrinsic value greater than 0&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extrinsic Value&lt;/strong&gt; is the dollar value worth per contract investors give an option based on its profit potential at expiration that has not yet been realized&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-buy-to-open-an-option-trade&quot;&gt;How to Buy to Open an Option Trade&lt;/h2&gt;
+&lt;p&gt;Before you can buy to open an options contract, you will need to get option approval from your brokerage. How to accomplish this is different with each broker, but should be easy to figure out. There are typically four levels of option access, with each level permitting different types of option strategies. Apply for at least level two. Your broker will tell you what each level grants access to. Once you submit your request, it may take a few trading days to be approved.&lt;/p&gt;
+
+&lt;p&gt;There are various ways for each broker to &lt;em&gt;open a new position&lt;/em&gt; for an options contract, but you can most likely click a contract’s ask price to buy it or the bid price to write (sell) it. Here’s what it looks like in Power E*Trade to buy the April 15th $268 contract.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/basics-stock-options-order.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/basics-stock-options-order.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/basics-stock-options-order.png&quot; alt=&quot;Example of an option order window (from Power E*Trade)&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of an option order window (from Power E*Trade)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;at the very top, confirm you have the right account selected&lt;/li&gt;
+  &lt;li&gt;below that, confirm the symbol is correct, in this case SPY&lt;/li&gt;
+  &lt;li&gt;confirm whether you want to buy or write the option using the &lt;strong&gt;Action&lt;/strong&gt; toggle&lt;/li&gt;
+  &lt;li&gt;select the number of contracts you want to buy under &lt;strong&gt;Qty&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;confirm your &lt;strong&gt;Expiration&lt;/strong&gt; date is correct&lt;/li&gt;
+  &lt;li&gt;confirm your &lt;strong&gt;Strike&lt;/strong&gt; price is correct&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price Type&lt;/strong&gt; let’s you choose how you want your order executed, I recommend to always use limit to secure your desired price&lt;/li&gt;
+  &lt;li&gt;set your desired price under &lt;strong&gt;Limit Price&lt;/strong&gt;. To the right, you can see the bid and ask price for the contract change in real time as you’re placing your order&lt;/li&gt;
+  &lt;li&gt;set how long you want your order to stay open under &lt;strong&gt;Duration&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;set whether you want your order to process only if it can buy or write all the contracts at your limit price under &lt;strong&gt;Special Handling&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After everything looks correct, clicking the &lt;strong&gt;Preview&lt;/strong&gt; button will allow you to do one final confirmation of your trade before placing an order.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-sell-to-close-an-option-trade&quot;&gt;How to Sell to Close an Option Trade&lt;/h2&gt;
+&lt;p&gt;To close an open position, go to your open positions list in your broker and find the position you want to close. There should be a &lt;em&gt;close&lt;/em&gt; button or link when you hover over it or select it. This is the best way, at least for me, to ensure you’re closing a position, instead of &lt;em&gt;selling to open&lt;/em&gt; a new position.&lt;/p&gt;
+
+&lt;p&gt;And that’s an overview of what options are, how they work, why options can be a useful instrument for investors, and how to open and close an option trade.&lt;/p&gt;
+
+&lt;p&gt;In the next article, I’ll cover what affects a contract’s price, dive deeper into the definitions of some of the items in this article (e.g. IV, Prob ITM, etc), and explain what each of the Greeks mean.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Stock options are just like coupons. And if you know how to use a coupon, you’ll know how trading stock options work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/basics-stock-options-trading.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/basics-stock-options-trading.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Google Sheets Budget Template (for Millennials)</title><link href="http://localhost:4000/google-sheets-budget-template" rel="alternate" type="text/html" title="My Google Sheets Budget Template (for Millennials)" /><published>2020-02-07T00:51:34-08:00</published><updated>2020-02-07T00:51:34-08:00</updated><id>http://localhost:4000/google-sheets-budget-template</id><content type="html" xml:base="http://localhost:4000/google-sheets-budget-template">&lt;p&gt;I have a strange love for spreadsheets and I want to share the budget template I made on Google Sheets that I’ve been using and building for over five years.&lt;/p&gt;
 
 &lt;p&gt;You can make your own copy by clicking the link below:&lt;/p&gt;
 
@@ -38,7 +290,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-one-page-settings.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; alt=&quot;Once you set up this Config tab, just enter expenses and account balances. That's it!&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-one-page-settings.png&quot; alt=&quot;Once you set up this Config tab, just enter expenses and account balances. That's it!&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Once you set up this Config tab, just enter expenses and account balances. That's it!&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -62,7 +314,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-setup-checklist.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; alt=&quot;The setup checklist will automatically mark things complete as you finish each step.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-setup-checklist.png&quot; alt=&quot;The setup checklist will automatically mark things complete as you finish each step.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The setup checklist will automatically mark things complete as you finish each step.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -82,7 +334,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; alt=&quot;The dashboard is the clearest way to see where you're spending your money.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-dashboard.png&quot; alt=&quot;The dashboard is the clearest way to see where you're spending your money.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The dashboard is the clearest way to see where you're spending your money.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -106,7 +358,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;This template helps you plan for irregular or annual expenses.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;This template helps you plan for irregular or annual expenses.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;This template helps you plan for irregular or annual expenses.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -119,7 +371,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -152,7 +404,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-income.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-income.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-income.png&quot; alt=&quot;Enter your income data in the Income Breakdown box on the Dashbord tab&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-income.png&quot; alt=&quot;Enter your income data in the Income Breakdown box on the Dashbord tab&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your income data in the Income Breakdown box on the Dashbord tab&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -167,19 +419,19 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-bank-account-names.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-bank-account-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-asset-names.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-asset-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-liability-names.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-liability-names.png&quot; alt=&quot;Giving each account you have a nickname tells the budget template you have those accounts.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Giving each account you have a nickname tells the budget template you have those accounts.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -194,7 +446,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; alt=&quot;Enter your annual and irregular expenses to prepare for the future.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget.png&quot; alt=&quot;Enter your annual and irregular expenses to prepare for the future.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your annual and irregular expenses to prepare for the future.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -211,7 +463,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-fixed-monthly-costs.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; alt=&quot;Enter your fixed monthly costs.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-fixed-monthly-costs.png&quot; alt=&quot;Enter your fixed monthly costs.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter your fixed monthly costs.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -238,7 +490,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-guilt-free-budget.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/google-sheets-budget-template-guilt-free-budget.png&quot; alt=&quot;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;After budgeting money for savings and annual expenses, you can budget your discretionary spending, guilt-free.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -297,7 +549,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; alt=&quot;Enter the previous months' ending balances in each row for the indicated month.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet.png&quot; alt=&quot;Enter the previous months' ending balances in each row for the indicated month.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Enter the previous months' ending balances in each row for the indicated month.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -308,7 +560,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-liabilities.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; alt=&quot;Example of the Liabilities section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-liabilities.png&quot; alt=&quot;Example of the Liabilities section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Liabilities section with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -317,7 +569,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-expenses.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-expenses.png&quot; alt=&quot;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Monthly and Annual Expenses secions with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -328,7 +580,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-balance-sheet-totals.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-balance-sheet-totals.png&quot; alt=&quot;Example of the Totals section with sample data on the Balance Sheet tab.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Example of the Totals section with sample data on the Balance Sheet tab.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -343,7 +595,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-overview.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; alt=&quot;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-overview.png&quot; alt=&quot;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Overview box on the Dashbord tab shows your personal finance health from a bird's eye view.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -352,7 +604,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--thin gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-net-worth.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; alt=&quot;Visualize the grow of your net worth over time.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-net-worth.png&quot; alt=&quot;Visualize the grow of your net worth over time.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Visualize the grow of your net worth over time.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -372,7 +624,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-annual-budget-module.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;Always know exactly how much of your budget you have left of your annual budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-annual-budget-module.png&quot; alt=&quot;Always know exactly how much of your budget you have left of your annual budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Always know exactly how much of your budget you have left of your annual budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -394,7 +646,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/google-sheets-budget-template-dashboard-expense-table.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; alt=&quot;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/google-sheets-budget-template-dashboard-expense-table.png&quot; alt=&quot;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The Expenses Last 7 Months box shows a table of your spending vs your budget for each category.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -521,7 +773,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/ethical-marketing-dilemma.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; alt=&quot;The ethical marketer's dilemma.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/ethical-marketing-dilemma.jpg&quot; alt=&quot;The ethical marketer's dilemma.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The ethical marketer's dilemma.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -577,7 +829,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/fathom-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/fathom-analytics-pricing.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/fathom-analytics-pricing.png&quot; alt=&quot;Fathom Analytics starts at $14/month with unlimited domains.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/fathom-analytics-pricing.png&quot; alt=&quot;Fathom Analytics starts at $14/month with unlimited domains.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Fathom Analytics starts at $14/month with unlimited domains.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -737,25 +989,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-meditating.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-meditating.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-meditating.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-meditating.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-journaling.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-journaling.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-journaling.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-journaling.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-flossing.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-flossing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-flossing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-flossing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-working-out.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-working-out.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-working-out.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-working-out.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -793,25 +1045,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-coding.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-coding.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-coding.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-coding.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-reading.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-reading.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-reading.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-reading.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-publishing.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-publishing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-publishing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-publishing.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-finances.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-finances.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-finances.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-finances.jpg&quot; alt=&quot;Habit progress recorded in Done.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;/done-review-of-my-favorite-habit-tracking-app&quot;&gt;Habit progress recorded in Done.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -863,7 +1115,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-chili-piper.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-chili-piper.jpg&quot; alt=&quot;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Coincidentally, writing this now while wearing my Chili Piper sweatshirt&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -930,7 +1182,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-to-do.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-to-do.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-to-do.png&quot; alt=&quot;A simple to-do app using Google’s Inbox design&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-to-do.png&quot; alt=&quot;A simple to-do app using Google’s Inbox design&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/regpaq/todo-material&quot;&gt;A simple to-do app using Google’s Inbox design&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -962,7 +1214,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; alt=&quot;A group of us went to Camp Nou&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-barcelona-1.jpeg&quot; alt=&quot;A group of us went to Camp Nou&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;A group of us went to Camp Nou&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -971,25 +1223,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-2.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-3.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-3.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-4.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-4.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-9.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-9.jpeg&quot; alt=&quot;The places we went in Barcelona, including the Picasso museum&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The places we went in Barcelona, including the Picasso museum&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -998,25 +1250,25 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-4&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-5.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-5.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-6.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-6.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-8.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-8.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-barcelona-7.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2019-year-review-barcelona-7.jpeg&quot; alt=&quot;The food we ate in Barcelona&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The food we ate in Barcelona&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1029,14 +1281,14 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-utah.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-utah.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah.jpeg&quot; alt=&quot;With my sister and her kids&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-utah.jpeg&quot; alt=&quot;With my sister and her kids&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;With my sister and her kids&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-utah-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; alt=&quot;Love how everything is so green in Utah&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-utah-2.jpeg&quot; alt=&quot;Love how everything is so green in Utah&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Love how everything is so green in Utah&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1049,7 +1301,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-san-francisco.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; alt=&quot;San Francisco's China town at night&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-san-francisco.jpeg&quot; alt=&quot;San Francisco's China town at night&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;San Francisco's China town at night&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1062,7 +1314,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-mexico.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico.jpeg&quot; alt=&quot;Sunset in Rosarito, Mexico&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-mexico.jpeg&quot; alt=&quot;Sunset in Rosarito, Mexico&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Sunset in Rosarito, Mexico&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1071,13 +1323,13 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-2&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-mexico-2.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2019-year-review-mexico-3.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-mexico-3.jpeg&quot; alt=&quot;The tacos were delicious&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;The tacos were delicious&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1090,7 +1342,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/2019-year-review-wheels.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/2019-year-review-wheels.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/2019-year-review-wheels.jpeg&quot; alt=&quot;19” BBS CHRs&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/2019-year-review-wheels.jpeg&quot; alt=&quot;19” BBS CHRs&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;19” BBS CHRs&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1123,7 +1375,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--sml gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/i-will-teach-you-to-be-rich-cover.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; alt=&quot;Buy I Will Teach You to be Rich on Amazon&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/i-will-teach-you-to-be-rich-cover.jpeg&quot; alt=&quot;Buy I Will Teach You to be Rich on Amazon&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/Will-Teach-You-Rich-Second-ebook/dp/B07GNXPP4P/ref=as_li_ss_tl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=victoriou-20&amp;amp;linkId=e52afa785fde06ed59be0365987f513d&amp;amp;language=en_US&quot;&gt;Buy I Will Teach You to be Rich on Amazon&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -1335,7 +1587,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; alt=&quot;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;assets/images/always-pay-yourself-first-ramit-sethi-teach-you-to-be-rich.jpg&quot; alt=&quot;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;How to automate your finances. Automatically transfer to savings first. Your percentage allocation may differ.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2245,7 +2497,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/netlify-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2298,7 +2550,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-1.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-1.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-seo-1.png&quot; alt=&quot;Original ServiceTitan sitemap.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Original ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2319,7 +2571,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-2.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-2.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-seo-2.png&quot; alt=&quot;New ServiceTitan sitemap.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;New ServiceTitan sitemap.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2338,19 +2590,19 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-hvac-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-hvac-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-electrical-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-electrical-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-plumbing-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-plumbing-software.jpg&quot; alt=&quot;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/hvac-software&quot;&gt;Click here to view the live pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2359,7 +2611,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-old-product-tour.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-old-product-tour.jpg&quot; alt=&quot;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/solutions&quot;&gt;Click here to view the live page. Note: Page may have been deleted since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2368,57 +2620,57 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-dispatch-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-dispatch-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-scheduling-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-scheduling-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-call-booking-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-call-booking-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-marketing-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-marketing-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-field-reporting-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-mobile-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-mobile-software.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-3&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-financing-software.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-financing-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-financing-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-field-reporting-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-field-reporting-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/servicetitan-quickbooks-software.webp&quot; type=&quot;image/webp&quot; /&gt;
             &lt;source srcset=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-quickbooks-software.jpg&quot; alt=&quot;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/dispatch-software&quot;&gt;Click here to view the lives pages. Note: Design on live pages may have changed since the publishing of this case study.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2429,7 +2681,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-schema.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-schema.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-schema.png&quot; alt=&quot;Review data used from Capterra.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.capterra.com/p/150053/ServiceTitan/&quot;&gt;Review data used from Capterra.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2438,7 +2690,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-homepage.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-homepage.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-homepage.jpg&quot; alt=&quot;Links on the homepage to the new Industry pages.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.servicetitan.com/&quot;&gt;Links on the homepage to the new Industry pages.&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2457,7 +2709,7 @@
 &lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-serp-performance.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-serp-performance.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-serp-performance.png&quot; alt=&quot;Growth of impressions and clicks from Google Search Console.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of impressions and clicks from Google Search Console.&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -2468,119 +2720,8 @@
 &lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
     &lt;div&gt;
         &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/servicetitan-seo-results.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/servicetitan-seo-results.png&quot; type=&quot;image/png&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/servicetitan-seo-results.png&quot; alt=&quot;Growth of attributable pipeline and revenue from organic search in 2018.&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Growth of attributable pipeline and revenue from organic search in 2018.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" /><media:content medium="image" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blogging on Medium vs Self Hosted Blog</title><link href="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog" rel="alternate" type="text/html" title="Blogging on Medium vs Self Hosted Blog" /><published>2019-07-19T11:02:48-07:00</published><updated>2019-07-19T11:02:48-07:00</updated><id>http://localhost:4000/blogging-on-medium-vs-self-hosted-blog</id><content type="html" xml:base="http://localhost:4000/blogging-on-medium-vs-self-hosted-blog">&lt;p&gt;Most people stop blogging on Medium because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You don’t “own” your traffic because your blog is on medium.com&lt;/li&gt;
-  &lt;li&gt;You have less control of converting traffic&lt;/li&gt;
-  &lt;li&gt;Medium promotes other peoples’ articles on your own articles&lt;/li&gt;
-  &lt;li&gt;More readers are dedicated to Medium than dedicated to you&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For me, the switch wasn’t about the “building a house on rented land” aspect. I was early to Medium publications so I could use my custom domain (regpaq.com) on Medium. Thankfully I got in before they removed this feature so I shouldn’t lose any rankings since I’m still on the same domain.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;So what made me want to stop blogging on Medium? The stats.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Medium’s stats are broken and very limited. I want to be able to see three things for a given period of my choosing. How much is my traffic growing? What’s the distribution of traffic between pages? Where is that traffic coming from? This isn’t possible on Medium.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-problems-with-medium-stats&quot;&gt;The Problems with Medium Stats&lt;/h2&gt;
-
-&lt;p&gt;There’s one huge problem with Medium stats. &lt;strong&gt;They include views of your comments on other people’s articles in your view count!&lt;/strong&gt; And there is no way to filter them out. So no, you can’t see how many total views just your articles received over time.&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-stats.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-stats.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-stats.jpg&quot; alt=&quot;My last 30 days blogging on Medium for all articles... and comments.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My last 30 days blogging on Medium for all articles... and comments.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The other major problem is you can only view your traffic in 30 day windows.&lt;/strong&gt; If you got a lot of views one day, you can’t look at just that day’s traffic and see what pages got the most views or where that traffic came from.&lt;/p&gt;
-
-&lt;p&gt;Above the graph, Medium suggests you can click a story to see stats for just that story. Unfortunately, when you click on a story it loads a new page and takes five seconds to load. &lt;strong&gt;So you have to click each individual story one by one to uncover which story went “viral” and racked up the most views on a big traffic day.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-referrers.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-referrers.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-referrers.jpg&quot; alt=&quot;Limited referrer data for a blog post on Medium.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Limited referrer data for a blog post on Medium.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Inside an individual story’s stats, you can see the list of referrers. But only the domain.&lt;/strong&gt; In the above example, I can’t see which Reddit threads are talking about my article! Which means I can’t see what people are saying and jump in the conversation.&lt;/p&gt;
-
-&lt;p&gt;When I first started blogging on Medium, I knew the stats were limited, but I didn’t know by how much. The reason I moved to Medium in the first place was because I wanted simplicity. I wanted simple metrics. I didn’t want to fiddle with the design. I didn’t want to mess with plugins. I wanted a better editor than WordPress. I just wanted to write. But now things have changed.&lt;/p&gt;
-
-&lt;h2 id=&quot;limited-customization-on-medium&quot;&gt;Limited Customization on Medium&lt;/h2&gt;
-
-&lt;p&gt;One of the biggest pros of blogging on Medium is that the design is all done for you. You don’t have to worry about it. It’s always better to write and publish more than to fiddle with the design. What changed for me was a massive increase in interest in learning HTML and CSS. &lt;strong&gt;By moving off of Medium, my blog is now a showcase for my design and dev skills.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s why I didn’t go back to WordPress and instead used &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a static site generator. It was a much bigger process than I anticipated. I designed the site in Adobe XD then developed it. &lt;strong&gt;The end result is a blog I designed and I developed with articles I wrote and I illustrated. It’s a culmination of many of my skills in a single project.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;static-sites-are-fast&quot;&gt;Static Sites are Fast&lt;/h2&gt;
-
-&lt;p&gt;Another benefit to a static site is the speed. Because WordPress and Medium use a database, it loads much slower. Here is the Pingdom page speed and Google score comparison of the same article on Medium versus the current static site.&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-old.jpg&quot; alt=&quot;Medium article page speed from Pingdom.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-old.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-old.jpg&quot; alt=&quot;Medium article page speed score from Google.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Medium article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-pingdom-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-pingdom-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-pingdom-new.jpg&quot; alt=&quot;Static article page speed from Pingdom.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed from Pingdom.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/medium-google-new.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/medium-google-new.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image&quot; src=&quot;/assets/images/medium-google-new.jpg&quot; alt=&quot;Static article page speed score from Google.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Static article page speed score from Google.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The static site is a massive improvement for speed&lt;/strong&gt; - even without any image optimization. This should improve the bounce rate and thus increase organic rankings. But because people know what to expect when they land on a Medium-designed article, it’s possible the new design increases the bounce rate. I’ll never know for certain because you can’t measure the bounce rate on Medium. &lt;/p&gt;
-
-&lt;p&gt;There’s one catch here about the speed of my site. I’m using &lt;a href=&quot;/netlify-analytics-review&quot;&gt;Netlify’s new Analytics&lt;/a&gt;, which is a server side analytics solution. It measures at the server level so it’s not adding an extra request to the page, like Google Analytics would. The problem is Netlify’s Analytics is even worse than Medium’s so I’ll be switching to Google Analytics or Clicky.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review (From a Marketer)&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
-                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
-                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;
-
-&lt;h2 id=&quot;what-ill-miss-about-blogging-on-medium&quot;&gt;What I’ll Miss About Blogging on Medium&lt;/h2&gt;
-
-&lt;p&gt;Medium’s coolest social feature is “claps.” If people like your article, they can clap for it up to 50 times. It’s nice to get and give claps, but it does have a downside. Medium syndicates and recommends articles to other users based on how many claps it gets. &lt;strong&gt;This made me too focused on claps. I even joined three Facebook groups where people just clap for each others’ articles. It’s a stupid game.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ll also miss comments until I can figure out a solution. Because static sites don’t have databases, comments are difficult to add. I don’t want to use something like Disqus, which increases load time and prevents me from “owning” the content.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I won’t miss Medium’s distribution. I never got any meaningful distribution. I could have written more content for more claps, but I didn’t want to play that game.&lt;/strong&gt; I want to write what I want to write about.&lt;/p&gt;
-
-&lt;p&gt;Now onto finding which analytics tool I’m going to use.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Most people stop blogging on Medium because:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/medium-vs-self-hosted-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;New customer monthly recurring revenue from organic search grew 130% by the beginning of Q4 ‘18 compared to the average month in Q1. As more links are built and more content added over time, the rankings, leads, and customers generated will continue to improve.&lt;/p&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" /><media:content medium="image" url="http://localhost:4000/assets/images/servicetitan-seo-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

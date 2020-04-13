@@ -45,12 +45,11 @@ main {
 pre,
 code {
   // @include relative-font-size(0.9375);
-  border: 1px solid v(text);
   border-radius: 3px;
-  background-color: #eef;
-}
-code {
-  padding: 1px 5px;
+  background-color: v(highlight);
+  padding: .15rem .25rem;
+  @include Monospace-font;
+  color: v(alt-text);
 }
 pre {
   padding: 8px 12px;

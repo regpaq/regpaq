@@ -381,13 +381,14 @@ main {
 -------------------------------------------------------- */
 pre,
 code {
-  border: 1px solid var(--color-text);
   border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
+  background-color: var(--color-highlight);
+  padding: .15rem .25rem;
+  font-family: Overpass Mono, monospace;
+  letter-spacing: -.85px;
+  word-spacing: -3px;
+  font-weight: bold;
+  color: var(--color-alt-text);
 }
 
 pre {

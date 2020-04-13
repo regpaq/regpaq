@@ -3,7 +3,7 @@ layout: post
 title: I Will Teach You to Be Rich—Summary, Notes, + Quotes
 description: The best introduction to personal finance and how to enjoy spending your money.
 date: '2020-01-14T06:30:00-08:00'
-categories: [booknotes]
+categories: [booknotes, money]
 category: [all]
 slug: /i-will-teach-you-to-be-rich-summary-notes-quotes
 image: /assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg

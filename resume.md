@@ -14,7 +14,7 @@ permalink: /resume
 </div>
 
 <div class="job-info">
-<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Remote</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">revealbot.com</a></p>
 </div>
@@ -24,7 +24,7 @@ Revealbot is a digital ad automation tool.
 #### Marketing Manager
 
 <div class="position-info">
-<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present (3 mo)</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present</p>
 </div>
 
 <div class="accordion-wrapper">

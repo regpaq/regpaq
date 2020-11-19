@@ -18,7 +18,8 @@ layout: default
 						</p>
 						<div class="post-meta">
 							{% include author-photo.html %}
-							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span>							
+							<!-- <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span> author name with link -->
+							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
 							{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
 							{%- if page.seo.date_modified %}
 							<meta itemprop="datePublished" content="{{ page.date | date: date_format }}">

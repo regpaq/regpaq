@@ -18,3 +18,4 @@ By making a commit, Netlify is notified and will pull most recent commit files.
 1. Click the Source Control icon in VSC (Third 'branch-looking' icon in far left seide bar)
 2. Type commit message - what changed?
 3. Click checkmark icon
+4. Click elipses drop down menu, then choose push

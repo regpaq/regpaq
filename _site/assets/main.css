@@ -1962,6 +1962,35 @@ button:hover {
 }
 
 /* --------------------------------------------------------
+            Library Card Layout
+-------------------------------------------------------- */
+.library ul.post-list {
+  /* Modifier for all articles shown in 1 col, then 2 when room */
+}
+@media screen and (min-width: 568px) {
+  .library ul.post-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.library ul.post-list li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.library ul.post-list li a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.library ul.post-list li a img {
+  margin: 0;
+  border-radius: 3px 0 0 3px;
+  max-height: 255px;
+}
+.library ul.post-list li .article-info {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* --------------------------------------------------------
             For Recommended Articles at End of Post
             For Mobile and Above
 -------------------------------------------------------- */

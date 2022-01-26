@@ -32,6 +32,7 @@ author:
 # Collections
 collections:
   - recommendations
+  - library
 
 # Build settings
 markdown: kramdown

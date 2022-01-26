@@ -149,6 +149,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/library</loc>
+</url>
+<url>
 <loc>http://localhost:4000/marketing</loc>
 </url>
 <url>

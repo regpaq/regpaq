@@ -1,0 +1,31 @@
+---
+layout: default
+---
+				<div class="featured-articles full library">
+					<div class="container">
+						{%- if site.library.size > 0 -%}
+						<div class="featured-article-header">
+							<h2 class="post-list-heading">Library</h2>
+						</div>
+						<div class="article-card-container">
+							<ul class="post-list">
+								{%- assign i = 0 -%}{% for item in site.library %}
+								<li class="article-{{ i }}">
+									{% assign i = i | plus:1 %}
+									{%- if item.image -%}<a href="{{ item.url | relative_url }}"><img src="{{ item.image }}"></a>{% endif %}
+									<div class="article-info">
+										<h3>
+											<a class="post-link" href="{{ item.url | relative_url }}">{%- if item.title -%}{{ item.title | escape }}{%- endif -%}</a>
+										</h3>
+										<p class="author">{%- if item.author -%}{{ item.author | escape }}{%- endif -%}</p>
+										<p class="description">{%- if item.description -%}{{ item.description | escape }}{%- endif -%}</p>
+									</div>
+								</li>
+								{% endfor %}
+							</ul>
+						</div>
+						{%- endif %}
+					</div>
+				</div>
+
+{% include subscribe.html %}

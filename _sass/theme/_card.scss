@@ -367,6 +367,34 @@
     }
 }
 
+/* --------------------------------------------------------
+            Library Card Layout
+-------------------------------------------------------- */
+
+.library ul.post-list { /* Modifier for all articles shown in 1 col, then 2 when room */
+    @include media-query($shmedium) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    li {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        a {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            img {
+                margin: 0;
+                border-radius: 3px 0 0 3px;
+                max-height: 255px;
+            }
+        }
+        .article-info {
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+    }
+      
+}
 
 /* --------------------------------------------------------
             For Recommended Articles at End of Post

@@ -3,6 +3,7 @@
 1. `ls` lists items in current directory. Should be in Mac OS user folder
 2. `cd regpaq` will change directories to the regpaq folder where website files live
 3. `bundle exec jekyll serve` will create the local server and you can visit the site at http://localhost:4000/
+    Or use `bundle exec jekyll serve -l` will auto refresh the browser when a file is saved.
 4. `ctrl+c` to stop serving
 
 ## How to use Gulp for image processing in Terminal

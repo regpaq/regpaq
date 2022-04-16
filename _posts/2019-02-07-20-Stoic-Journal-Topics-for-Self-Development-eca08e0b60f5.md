@@ -29,29 +29,31 @@ People to consider: significant other, family, friends, coworkers, and people wh
 1. What value has \[person\] added to my life? What wisdom, achievements, or fortunate events of mine can I give them some credit for?
 2. What value do I (or can I) add to \[person’s\] life in return?
 3. How does \[person\] affect and influence my life decisions, feelings, and behavior?
-4. What characteristics does \[person\] have that I admire?
+4. What part of this \[person's\] character do I admire? If I adopted that part to my character, how would that change my actions?
 5. What are my best characteristics and who influenced me to develop them?
 
 You can also reflect on your achievements, major events, and material things in your life to establish gratitude for you’ve done and what you have, which will suppress feelings of unhappiness and cravings for new and better things.
 
 6. What is an accomplishment I’m very proud of? Why am I proud of it? What can I do to do more things like that?
 7. What is one of my most cherished memories and why?
-8. Think of an item in your possession you want to upgrade. Is your current item functioning well enough? What do you appreciate about it? What sustained value will an upgrade add to your life?
-9. Look at what you have and the things you value most. How much would you crave them if you didn’t have them?
+8. Think of a thing, item, or product I've been wanting to replace or upgrade. Is what I currently have functioning well enough? What do I appreciate about it? What sustained value will an upgrade or replacement add to my life?
+9. Look at what I have and the things I value most. How much would I crave these things if I didn’t have them?
 {: .counter-reset}
+
+{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
 
 ## Journal Topics to Suppress Negative Thoughts
 
 Negative and low value thoughts are fuel for chaos, passivity, and unhappiness. These topics can help control your negative thoughts by thinking through them rationally.
 
-> “Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice,… Perceptions like that — latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time… to lay them bare and see how pointless they are…”
+> “Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice,… Perceptions like that - latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time… to lay them bare and see how pointless they are…”
 >
 > > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
-10. Think of an item you craved to have and eventually purchased. How do you feel about that item now? Was the craving warranted?
-11. What do you really want to buy right now? What value will that add to your life? What value will be lost if you don’t buy it? Is there a better use for the money you would have to spend to acquire it?
-12. Think of something you‘ve done that you regret. Write an apology to yourself and a response of forgiveness.
-13. Is your mind being held hostage by someone else's exciting life, better skills, or bigger accomplishments? Why should you be happy for them and why should you [not compare yourself to them](/stop-comparing-yourself-to-others)? 
+10. Think of something I desperately wanted to have and eventually purchased. How do I feel about this item now? Was the craving warranted?
+11. What do I really want to buy right now? What value will that add to my life? What value will be lost if I don’t buy it? Is there a better use for the money I would have to spend to acquire it?
+12. Think of something I‘ve done that I regret. Write myself an apology and my own response of forgiveness.
+13. Is my mind being held hostage by someone else's exciting life, better skills, or bigger accomplishments? Why should I be happy for them and why should I [not compare myself to them](/stop-comparing-yourself-to-others)? 
 {: .counter-reset}
 
 {% assign subpage = site.posts | where: 'post-id', '14' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
@@ -60,19 +62,19 @@ Negative and low value thoughts are fuel for chaos, passivity, and unhappiness. 
 
 In his journal, it was apparent that Marcus Aurelius wrote about recurring philosophical tenets in order to continually practice his philosophy. Try doing the same for yourself.
 
-> “To feel grief, anger, or fear is to try to escape from something decreed by the ruler of all things, now or in the past or in the future. And that ruler is law, which governs what happens to each of us. To feel grief or anger or fear is to become a fugitive — a fugitive from justice.”
+> “To feel grief, anger, or fear is to try to escape from something decreed by the ruler of all things, now or in the past or in the future. And that ruler is law, which governs what happens to each of us. To feel grief or anger or fear is to become a fugitive - a fugitive from justice.”
 >
 > > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
-14. Think of a philosophical or ethical tenet that you struggle to live by. Write down the tenet and again in your own words. Try crafting your own analogy. Do this as often as you need to.
+14. Write down a philosophical or ethical tenet that I struggle to live by in my own words. Try crafting my own analogy. Do this as often as I need to.
+15. Think of someone I admire. Write myself advice I think they would give me from their point-of-view.
+16. Think of 12 year-old me. What “secrets of life” have I acquired that I would want to share with myself?
+17. Did someone annoy or upset me today? What good or harm do I think they intended? Or was it ignorance? How could I have better empathized with them and their actions in the moment? 
 {: .counter-reset}
 
-{% assign subpage = site.posts | where: 'post-id', '7' %}{% for post in subpage %} {% include rec-article.html %}{% endfor %}
-
-15. Think of someone you admire. Write yourself advice you think they would give you from their point-of-view.
-16. Think of 12 year-old you. What “secrets of life” have you acquired that you would want to share with yourself?
-17. Think of a friend, family member, or someone you're close with. What part of their character do you admire? If you adopted that part to your character, how would that change your actions?
-{: .counter-reset}
+> “To feel affection for people even when they make mistakes is uniquely human. You can do it, if you simply recognize: that they're human too, that they act out of ignorance, against their will, and that you'll both be dead before long. And, above all, that they haven't really hurt you. They haven't diminished your ability to choose.”
+>
+> > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 
 ## Journal Topics for Daily Reflection & Improvement
 
@@ -83,10 +85,10 @@ Our daily behavior is the best indicator of the type of person we are. Work on i
 > > Marcus Aurelius, [Meditations](/meditations-from-marcus-aurelius-summary-notes-quotes)
 {: .big-quote}
 
-18. How did you help someone yesterday? And how can you help someone today?
+18. How did I help someone today? And how can I help someone tomorrow?
 19. Did I lose control of my emotions today? What triggered it? Was that a reasonable response?
 20. What did I do today that was out of character? What triggered it? Was that a reasonable response?
-21. What did you do today that was not a good use of your time?
-22. Did you miss accomplishing an important habit or step in your routine today? What do you think was the reason for it and how can you prevent it from happening again?
-23. What did I crave today? Describe what you craved in its most simplistic form. Did it warrant that level of craving?
+21. What did I do today that was not a good use of my time?
+22. Did I miss accomplishing an important habit or step in my routine today? What was the reason for it and how can I prevent it from happening again?
+23. What did I crave today? Describe it in its most simplistic form. Did it warrant that level of craving?
 {: .counter-reset}

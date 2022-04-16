@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-14T18:57:08-07:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-15T16:21:13-07:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
 
 &lt;p&gt;Last year, I only posted five articles. I stopped working out. I stopped reading. The world had gone mad. I’d spent 99% of time in my apartment and a lot of that was spent playing video games again.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
                                 /assets/images/webp/basics-stock-options-trading-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/basics-stock-options-trading-250.jpg 250w,
                                 /assets/images/basics-stock-options-trading-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/basics-stock-options-trading.jpg&quot; alt=&quot;Stock Options Trading 101&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/basics-stock-options-trading.jpg&quot; alt=&quot;Stock Options Trading 101&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -142,7 +142,7 @@
                                 /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich-250.jpg 250w,
                                 /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg&quot; alt=&quot;Ramit Sethi I Will Teach You to Be Rich&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg&quot; alt=&quot;Ramit Sethi I Will Teach You to Be Rich&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -180,7 +180,7 @@
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpg 250w,
                                 /assets/images/google-sheets-budget-template-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -506,7 +506,7 @@
                                 /assets/images/webp/ramit-sethi-i-will-teach-you-to-be-rich-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich-250.jpg 250w,
                                 /assets/images/ramit-sethi-i-will-teach-you-to-be-rich-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg&quot; alt=&quot;Ramit Sethi I Will Teach You to Be Rich&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/ramit-sethi-i-will-teach-you-to-be-rich.jpg&quot; alt=&quot;Ramit Sethi I Will Teach You to Be Rich&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -906,7 +906,7 @@
                                 /assets/images/webp/how-to-make-new-habits-stick-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/how-to-make-new-habits-stick-250.png 250w,
                                 /assets/images/how-to-make-new-habits-stick-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/how-to-make-new-habits-stick.png&quot; alt=&quot;how to make new habits stick&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/how-to-make-new-habits-stick.png&quot; alt=&quot;how to make new habits stick&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -951,7 +951,7 @@
                                 /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
                                 /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1143,7 +1143,7 @@
                                 /assets/images/webp/peter-drucker-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/peter-drucker-250.jpg 250w,
                                 /assets/images/peter-drucker-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/peter-drucker.jpg&quot; alt=&quot;Peter Drucker author of The Effective Executive&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/peter-drucker.jpg&quot; alt=&quot;Peter Drucker author of The Effective Executive&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1182,7 +1182,7 @@
                                 /assets/images/webp/moral-virtue-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/moral-virtue-250.jpg 250w,
                                 /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1205,7 +1205,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1263,7 +1263,7 @@
                                 /assets/images/webp/stoic-journal-topics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stoic-journal-topics-250.jpeg 250w,
                                 /assets/images/stoic-journal-topics-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1321,7 +1321,7 @@
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpg 250w,
                                 /assets/images/google-sheets-budget-template-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1400,7 +1400,7 @@
                                 /assets/images/webp/medium-vs-self-hosted-blog-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/medium-vs-self-hosted-blog-250.jpg 250w,
                                 /assets/images/medium-vs-self-hosted-blog-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/medium-vs-self-hosted-blog.jpg&quot; alt=&quot;medium vs self hosted blog&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1760,7 +1760,7 @@
                                 /assets/images/webp/google-sheets-budget-template-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/google-sheets-budget-template-250.jpg 250w,
                                 /assets/images/google-sheets-budget-template-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/google-sheets-budget-template.jpg&quot; alt=&quot;google sheets budget template&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -1977,7 +1977,7 @@
                                 /assets/images/webp/moral-virtue-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/moral-virtue-250.jpg 250w,
                                 /assets/images/moral-virtue-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/moral-virtue.jpg&quot; alt=&quot;Virtue is its own reward&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2010,7 +2010,7 @@
                                 /assets/images/webp/atomic-habits-summary-review-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/atomic-habits-summary-review-250.png 250w,
                                 /assets/images/atomic-habits-summary-review-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/atomic-habits-summary-review.png&quot; alt=&quot;atomic habits summary review&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2057,7 +2057,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2124,7 +2124,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2173,7 +2173,7 @@
                                 /assets/images/webp/stoic-journal-topics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stoic-journal-topics-250.jpeg 250w,
                                 /assets/images/stoic-journal-topics-572.jpeg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stoic-journal-topics.jpeg&quot; alt=&quot;stoic journal topics&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2276,7 +2276,7 @@
                                 /assets/images/webp/meditations-marcus-aurelius-summary2-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/meditations-marcus-aurelius-summary2-250.png 250w,
                                 /assets/images/meditations-marcus-aurelius-summary2-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/meditations-marcus-aurelius-summary2.png&quot; alt=&quot;meditations marcus aurelius summary&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2313,7 +2313,7 @@
                                 /assets/images/webp/stop-comparing-yourself-to-others-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/stop-comparing-yourself-to-others-250.png 250w,
                                 /assets/images/stop-comparing-yourself-to-others-572.png 572w&quot; type=&quot;image/png&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/stop-comparing-yourself-to-others.png&quot; alt=&quot;stop comparing yourself to others&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        
@@ -2768,7 +2768,7 @@
                                 /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
                         &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
                                 /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; /&gt;
+                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; loading=&quot;lazy&quot; /&gt;
                     &lt;/picture&gt;
                 &lt;/figure&gt;
             &lt;/div&gt;        

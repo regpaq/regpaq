@@ -57,10 +57,6 @@
 <lastmod>2019-02-07T06:52:48-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/stop-comparing-yourself-to-others</loc>
-<lastmod>2019-02-13T12:11:11-08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/automating-salesloft-cadence-metrics-into-google-sheets</loc>
 <lastmod>2019-05-26T20:04:01-07:00</lastmod>
 </url>
@@ -135,6 +131,10 @@
 <url>
 <loc>http://localhost:4000/2020-year-review</loc>
 <lastmod>2021-02-09T03:00:11-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/stop-comparing-yourself-to-others</loc>
+<lastmod>2022-04-14T13:11:11-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404</loc>

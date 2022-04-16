@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stop Comparing Yourself to Others Or Who You Were Yesterday
-description: Here’s what you can do instead.
-date: '2022-04-14T20:11:11.378Z'
+description: Why these comparisons don't make sense and how it improved my mental health.
+date: '2019-02-13T20:11:11.378Z'
 categories: [philosophy]
 category: [all]
 slug: /stop-comparing-yourself-to-others
@@ -11,7 +11,7 @@ image-alt: stop comparing yourself to others
 author: Reggie Paquette
 post-id: 14
 seo:
-    date_modified: '2019-02-13T20:11:11.378Z'
+    date_modified: '2022-04-14T20:11:11.378Z'
 ---
 
 No, this is not about comparing yourself to who you were yesterday.

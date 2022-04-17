@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <rect id="Rectangle-3" fill="#3C2ABF" x="0" y="8" width="24" height="24"></rect>
+            <rect id="Rectangle-4" fill="#3C2ABF" x="28" y="28" width="12" height="4"></rect>
+            <path d="M11.8055556,16.1286307 C9.91666667,16.1286307 8.61111111,17.5580913 8.61111111,19.5 C8.61111111,21.4419087 9.91666667,22.8713693 11.8055556,22.8713693 C13.1388889,22.8713693 14.1388889,22.1431535 14.6111111,20.9834025 L18,22.0082988 C17.1666667,24.4626556 14.6666667,26 11.7777778,26 C8,26 5,23.2759336 5,19.5 C5,15.7240664 8,13 11.7777778,13 C14.6666667,13 17.1666667,14.5643154 18,17.0186722 L14.6111111,18.0165975 C14.1388889,16.8838174 13.1388889,16.1286307 11.8055556,16.1286307 Z" id="c" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

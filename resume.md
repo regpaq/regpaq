@@ -3,18 +3,50 @@ layout: resume
 title: Résumé
 display-title: Résumé
 author: Reggie Paquette
-description: Multi-skilled B2B marketer with seven years of experience. Leading marketing at Revealbot. Formerly at Chili Piper, ServiceTitan.
+description: Multi-skilled B2B marketer with ten years of experience. Leading B2B demand gen at Codecademy. Formerly at Revealbot, Chili Piper, ServiceTitan.
 permalink: /resume
 ---
 
 ##### WORK EXPERIENCE<a name="work-experience"></a>
+
+<div class="job-title" id="codecademy">
+<h2>Codecademy</h2>
+</div>
+
+<div class="job-info">
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>July 2021 - Present</p>
+<p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Remote</p>
+<p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://www.codecademy.com/" target="_blank">codecademy.com</a></p>
+</div>
+
+Codecademy teaches web and software development skills for new learners and experienced engineers.
+
+#### Senior Paid Marketing Manager
+
+<div class="position-info">
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>July 2021 - Present</p>
+</div>
+
+<div class="accordion-wrapper">
+<div class="accordion-item close">
+<p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
+<div class="accordion-item-content">
+<ul>
+<li>Lead paid marketing/demand gen for the B2B side of Codecademy’s business</li>
+<li>Launched consumer upsell program through identifying consumer learners who already work in engineering roles at large companies and working with sales to generate qualified meetings with DMs</li>
+<li>Managed and coached one SDR to book meetings with DMs for sales from both the consumer upsell program and paid ad programs through email cadences, LinkedIn, and cold calling</li>
+<li>Managed paid channels including LinkedIn, Google Ads, and Facebook with a $50k monthly budget</li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class="job-title" id="revealbot">
 <h2>Revealbot</h2>
 </div>
 
 <div class="job-info">
-<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present</p>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 - July 2021</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Remote</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">revealbot.com</a></p>
 </div>
@@ -32,8 +64,9 @@ Revealbot is a digital ad automation tool.
 <p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
-<li>Leading marketing as the sole marketer at the company</li>
-<li>Doubled organic traffic in the first three months</li>
+<li>Helped contribute to the 62% growth in MRR as Head of Marketing since joining the team</li>
+<li>DGrew organic traffic 1,044% through content and SEO program</li>
+<li>Improved website conversion rate by 10% with redesigned website</li>
 </ul>
 </div>
 </div>
@@ -159,7 +192,7 @@ eCommerce web development and inbound marketing agency.
 </div>
 
 <div class="job-info">
-<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>May 2012 — Present (7 years+)</p>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>May 2012 — Present (10 years+)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Remote</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="http://paquettemarketing.com" target="_blank">paquettemarketing.com</a></p>
 </div>

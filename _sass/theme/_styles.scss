@@ -168,12 +168,18 @@ a {
     }    
     &:hover {
         #LetterP {
-            transform: translatex(50px);
-            transition: 0.2s;
+            transform: translatex(40px);
+            transition: 0.3s;
+        }
+        #LetterR {
+            transform: scale(-1, 1);
+            transition: 0.3s;
+            transform-origin: 25% 50%;
         }
     }
     #LetterP {
-        transition: 0.4s;
+        @include theme-transition(fill);
+        fill: v(dark-gold-and-silver);
     }
 }
 #lightswitch {

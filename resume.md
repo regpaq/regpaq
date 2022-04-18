@@ -46,7 +46,7 @@ Codecademy teaches web and software development skills for new learners and expe
 </div>
 
 <div class="job-info">
-<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 - July 2021</p>
+<p class="job-time"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 - July 2021 (2 years)</p>
 <p class="job-loc"><svg class="no-dark-filter"><use xlink:href="#geo" /></svg>Remote</p>
 <p class="job-url"><svg class="no-dark-filter"><use xlink:href="#link" /></svg><a href="https://revealbot.com/" target="_blank">revealbot.com</a></p>
 </div>

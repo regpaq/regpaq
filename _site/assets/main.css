@@ -756,21 +756,23 @@ a:hover {
   margin: 0;
   max-width: 3.5rem;
 }
+#logo #LetterR, #logo #LetterP {
+  transition: 0.5s;
+  transition-delay: .25s;
+}
 #logo #LetterR {
-  transition: fill 0.5s ease-out 0s;
   fill: var(--color-gold-and-silver);
 }
 #logo:hover #LetterP {
   transform: translatex(40px);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 #logo:hover #LetterR {
   transform: scale(-1, 1);
-  transition: 0.3s;
+  transition: 0.5s;
   transform-origin: 25% 50%;
 }
 #logo #LetterP {
-  transition: fill 0.5s ease-out 0s;
   fill: var(--color-dark-gold-and-silver);
 }
 

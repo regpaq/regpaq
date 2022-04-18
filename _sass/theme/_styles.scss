@@ -162,23 +162,27 @@ a {
 #logo {
     margin: 0;
     max-width: 3.5rem;
+    #LetterR, #LetterP {
+        transition: 0.5s;
+        transition-delay: .25s;
+    }
     #LetterR {
-        @include theme-transition(fill);
+        // @include theme-transition(fill);
         fill: v(gold-and-silver);
     }    
     &:hover {
         #LetterP {
             transform: translatex(40px);
-            transition: 0.3s;
+            transition: 0.5s;
         }
         #LetterR {
             transform: scale(-1, 1);
-            transition: 0.3s;
+            transition: 0.5s;
             transform-origin: 25% 50%;
         }
     }
     #LetterP {
-        @include theme-transition(fill);
+        // @include theme-transition(fill);
         fill: v(dark-gold-and-silver);
     }
 }

@@ -56,7 +56,7 @@ Revealbot is a digital ad automation tool.
 #### Marketing Manager
 
 <div class="position-info">
-<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 - July 2021</p>
 </div>
 
 {% include case-studies-list.html company="revealbot" %} 

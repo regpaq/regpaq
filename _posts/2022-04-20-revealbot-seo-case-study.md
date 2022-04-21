@@ -18,7 +18,7 @@ seo:
 
 When I joined Revealbot, we had several blog posts that were ranking on the bottom of page one and two in Google's Search Result Pages (SERPs) because our website already had a very strong and healthy backlink profile.
 
-Although our posts and pages were ranking relatively well, we weren't getting much traffic to them. They needed to be in the top five results in the SERPs to get meaningfull traffic. At the start of committing to improving our organic traffic, we were averaging ~500 organic users per month.
+Although our posts and pages were ranking relatively well, we weren't getting much traffic to them. They needed to be in the top five results in the SERPs to get meaningful traffic. At the start of committing to improving our organic traffic, we were averaging ~500 organic users per month.
 
 ## Solution
 
@@ -43,13 +43,13 @@ Once the data sources were pulled together, we could immediately identify opport
 
 1. Establish a keyword for every URL
 2. Update titles - unique, under max character count, included the keyword, yet written for humans
-3. Update descriptions - unique, included the keyword, written to generate curiousity
+3. Update descriptions - unique, included the keyword, written to generate curiosity
 4. Change page URL to one that includes the keyword and implement 301 redirects from the old URL
 
 Then we did some more advanced optimizations:
 
 5. Combine pages/posts which were competing for the same keyword
-6. Edit main website's and blog template's HTML to ensure they are following the correct HTML structure best practices
+6. Edit main website and blog template's HTML to ensure they are following the correct HTML structure best practices
 7. Identify what stage of the buyer's journey each page is serving, TOFU, MOFU, or BOFU (or Brand) to quantify opportunity and prioritize pages to update
 8. Add more internal links from pages with the highest page ranking to pages with the highest opportunity for leads and traffic that are not ranking in the top three of the SERPs
 9. Add and refine content to pages starting with ones with the highest opportunity to bring in more leads and traffic
@@ -61,7 +61,7 @@ After making the quick fixes discovered in the SEO audit, it was time to invest 
 
 From the audit, we labeled each page and post with their respective stage of the buyer's journey based on its content and primary keyword: TOFU, MOFU, or BOFU. Roughly, if it was about accomplishing what the product does, it was BOFU; the challenges people had close to our product, MOFU; not related to the solutions or challenges of our product area but industry relevant, TOFU.
 
-Then we identified the top ranking competing URL for each page's target keyword that we could reasonably expect to beat (e.g. excluding facebook.com). We analayzed these pages to see what others were doing in terms of how they met the searcher's intent, content quality, and length that helped them rank so high. This was our standard to beat.
+Then we identified the top ranking competing URL for each page's target keyword that we could reasonably expect to beat (e.g. excluding facebook.com). We analyzed these pages to see what others were doing in terms of how they met the searcher's intent, content quality, and length that helped them rank so high. This was our standard to beat.
 
 There were two considerations for prioritizing which pages or posts to update first:
 
@@ -84,7 +84,7 @@ To test whether this idea would generate traffic and backlinks, we first pulled 
 
 {% include figure.html image="/assets/images/revealbot-seo-facebook-ad-cost-tool-old.png" caption="MVP of Revealbot's Facebook ad cost tool" width="wide" %}
 
-After a few months, our article reached the first page in the SERPs and up to position three. That's when we started getting a ton of traffic for search quereies like **facebook advertising costs**, **facebook ad costs**, **facebook cpm**, **facebook cpc**, etc. Not only that, we started getting backlinks from people referencing our data in their blog posts and even sharing our branded graphs in their article, too. This was the signal we needed to automate it and build it is a proper "mini app."
+After a few months, our article reached the first page in the SERPs and up to position three. That's when we started getting a ton of traffic for search queries like **facebook advertising costs**, **facebook ad costs**, **facebook cpm**, **facebook cpc**, etc. Not only that, we started getting backlinks from people referencing our data in their blog posts and even sharing our branded graphs in their article, too. This was the signal we needed to automate it and build it is a proper "mini app."
 
 Our engineering team built an [automatically updating Facebook and Instagram ad cost data tool](https://revealbot.com/facebook-advertising-costs). It updates every week and provides current and historical data for CPM, CPC, CPE, CPL, and CPI for both Facebook and Instagram ads. The cost data can even be broken down by campaign objective. Here's what the new tool looks like:
 
@@ -102,7 +102,7 @@ And on top of all that SEO goodness, it's been a consistent driver of new custom
 
 ### Revealbot Answers
 
-Sometimes answering a search query just doesn't need one to two thousands words to answer.
+Sometimes answering a search query just doesn't need one to two thousand words to answer.
 
 We created Revealbot Answers, a section on our blog, for short form content to target keywords in a question format. Here's what the section looked like on the blog:
 

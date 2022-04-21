@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-20T17:45:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Grew Organic Traffic 1,279% Through Content &amp;amp; SEO Program</title><link href="http://localhost:4000/revealbot-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Traffic 1,279% Through Content &amp; SEO Program" /><published>2022-04-17T19:37:27-07:00</published><updated>2022-04-17T19:37:27-07:00</updated><id>http://localhost:4000/revealbot-seo-case-study</id><content type="html" xml:base="http://localhost:4000/revealbot-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-21T13:09:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Grew Organic Traffic 1,279% Through Content &amp;amp; SEO Program</title><link href="http://localhost:4000/revealbot-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Traffic 1,279% Through Content &amp; SEO Program" /><published>2022-04-17T19:37:27-07:00</published><updated>2022-04-17T19:37:27-07:00</updated><id>http://localhost:4000/revealbot-seo-case-study</id><content type="html" xml:base="http://localhost:4000/revealbot-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;When I joined Revealbot, we had several blog posts that were ranking on the bottom of page one and two in Google’s Search Result Pages (SERPs) because our website already had a very strong and healthy backlink profile.&lt;/p&gt;
 
-&lt;p&gt;Although our posts and pages were ranking relatively well, we weren’t getting much traffic to them. They needed to be in the top five results in the SERPs to get meaningfull traffic. At the start of committing to improving our organic traffic, we were averaging ~500 organic users per month.&lt;/p&gt;
+&lt;p&gt;Although our posts and pages were ranking relatively well, we weren’t getting much traffic to them. They needed to be in the top five results in the SERPs to get meaningful traffic. At the start of committing to improving our organic traffic, we were averaging ~500 organic users per month.&lt;/p&gt;
 
 &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
 
@@ -34,7 +34,7 @@
 &lt;ol&gt;
   &lt;li&gt;Establish a keyword for every URL&lt;/li&gt;
   &lt;li&gt;Update titles - unique, under max character count, included the keyword, yet written for humans&lt;/li&gt;
-  &lt;li&gt;Update descriptions - unique, included the keyword, written to generate curiousity&lt;/li&gt;
+  &lt;li&gt;Update descriptions - unique, included the keyword, written to generate curiosity&lt;/li&gt;
   &lt;li&gt;Change page URL to one that includes the keyword and implement 301 redirects from the old URL&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -42,7 +42,7 @@
 
 &lt;ol class=&quot;counter-reset&quot;&gt;
   &lt;li&gt;Combine pages/posts which were competing for the same keyword&lt;/li&gt;
-  &lt;li&gt;Edit main website’s and blog template’s HTML to ensure they are following the correct HTML structure best practices&lt;/li&gt;
+  &lt;li&gt;Edit main website and blog template’s HTML to ensure they are following the correct HTML structure best practices&lt;/li&gt;
   &lt;li&gt;Identify what stage of the buyer’s journey each page is serving, TOFU, MOFU, or BOFU (or Brand) to quantify opportunity and prioritize pages to update&lt;/li&gt;
   &lt;li&gt;Add more internal links from pages with the highest page ranking to pages with the highest opportunity for leads and traffic that are not ranking in the top three of the SERPs&lt;/li&gt;
   &lt;li&gt;Add and refine content to pages starting with ones with the highest opportunity to bring in more leads and traffic&lt;/li&gt;
@@ -54,7 +54,7 @@
 
 &lt;p&gt;From the audit, we labeled each page and post with their respective stage of the buyer’s journey based on its content and primary keyword: TOFU, MOFU, or BOFU. Roughly, if it was about accomplishing what the product does, it was BOFU; the challenges people had close to our product, MOFU; not related to the solutions or challenges of our product area but industry relevant, TOFU.&lt;/p&gt;
 
-&lt;p&gt;Then we identified the top ranking competing URL for each page’s target keyword that we could reasonably expect to beat (e.g. excluding facebook.com). We analayzed these pages to see what others were doing in terms of how they met the searcher’s intent, content quality, and length that helped them rank so high. This was our standard to beat.&lt;/p&gt;
+&lt;p&gt;Then we identified the top ranking competing URL for each page’s target keyword that we could reasonably expect to beat (e.g. excluding facebook.com). We analyzed these pages to see what others were doing in terms of how they met the searcher’s intent, content quality, and length that helped them rank so high. This was our standard to beat.&lt;/p&gt;
 
 &lt;p&gt;There were two considerations for prioritizing which pages or posts to update first:&lt;/p&gt;
 
@@ -84,7 +84,7 @@
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;MVP of Revealbot's Facebook ad cost tool&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;After a few months, our article reached the first page in the SERPs and up to position three. That’s when we started getting a ton of traffic for search quereies like &lt;strong&gt;facebook advertising costs&lt;/strong&gt;, &lt;strong&gt;facebook ad costs&lt;/strong&gt;, &lt;strong&gt;facebook cpm&lt;/strong&gt;, &lt;strong&gt;facebook cpc&lt;/strong&gt;, etc. Not only that, we started getting backlinks from people referencing our data in their blog posts and even sharing our branded graphs in their article, too. This was the signal we needed to automate it and build it is a proper “mini app.”&lt;/p&gt;
+&lt;p&gt;After a few months, our article reached the first page in the SERPs and up to position three. That’s when we started getting a ton of traffic for search queries like &lt;strong&gt;facebook advertising costs&lt;/strong&gt;, &lt;strong&gt;facebook ad costs&lt;/strong&gt;, &lt;strong&gt;facebook cpm&lt;/strong&gt;, &lt;strong&gt;facebook cpc&lt;/strong&gt;, etc. Not only that, we started getting backlinks from people referencing our data in their blog posts and even sharing our branded graphs in their article, too. This was the signal we needed to automate it and build it is a proper “mini app.”&lt;/p&gt;
 
 &lt;p&gt;Our engineering team built an &lt;a href=&quot;https://revealbot.com/facebook-advertising-costs&quot;&gt;automatically updating Facebook and Instagram ad cost data tool&lt;/a&gt;. It updates every week and provides current and historical data for CPM, CPC, CPE, CPL, and CPI for both Facebook and Instagram ads. The cost data can even be broken down by campaign objective. Here’s what the new tool looks like:&lt;/p&gt;
 
@@ -112,7 +112,7 @@
 
 &lt;h3 id=&quot;revealbot-answers&quot;&gt;Revealbot Answers&lt;/h3&gt;
 
-&lt;p&gt;Sometimes answering a search query just doesn’t need one to two thousands words to answer.&lt;/p&gt;
+&lt;p&gt;Sometimes answering a search query just doesn’t need one to two thousand words to answer.&lt;/p&gt;
 
 &lt;p&gt;We created Revealbot Answers, a section on our blog, for short form content to target keywords in a question format. Here’s what the section looked like on the blog:&lt;/p&gt;
 

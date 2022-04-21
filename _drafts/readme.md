@@ -21,3 +21,33 @@ By making a commit, Netlify is notified and will pull most recent commit files.
 2. Type commit message - what changed?
 3. Click checkmark icon
 4. Click elipses drop down menu, then choose push
+
+## Images
+
+### Single Image
+
+To include images in pages and posts, use the following format:
+
+`{% include figure.html image="/assets/images/file-name.png/jpg" caption="" link="" width="" %}`
+
+You can use the following for width:
+
+- full - full width of content
+- wide - slightly exceeds width of content
+- vwide - very wide, further exceeds width of content, but not full width of window
+
+Links and captions are optional.
+
+### Multiple Images
+
+To include multiple images, use the following format:
+
+`{% include figure.html image="/assets/images/file-name.png/jpg" image2="/assets/images/file-name.png/jpg" image3="/assets/images/file-name.png/jpg" image4="/assets/images/file-name.png/jpg" caption="" link="" width="" %}`
+
+You can use up to 4 images at once. If using two or three images, they will be displayed on the same row whether on desktop or mobile. If using four, it will always display in two rows of two images.
+
+You can use the following for width:
+
+- full - full width of content
+- wide - exceeds width of content, but not full width
+- vwide - very wide, further exceeds width of content, but not full width of window

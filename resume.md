@@ -59,13 +59,15 @@ Revealbot is a digital ad automation tool.
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 — Present</p>
 </div>
 
+{% include case-studies-list.html company="revealbot" %} 
+
 <div class="accordion-wrapper">
 <div class="accordion-item close">
 <p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
 <li>Helped contribute to the 62% growth in MRR as Head of Marketing since joining the team</li>
-<li>DGrew organic traffic 1,044% through content and SEO program</li>
+<li>Grew organic traffic 1,044% through content and SEO program</li>
 <li>Improved website conversion rate by 10% with redesigned website</li>
 </ul>
 </div>

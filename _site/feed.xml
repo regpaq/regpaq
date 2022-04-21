@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-18T16:23:41-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-20T17:38:24-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">Grew Organic Traffic 1,279% Through Content &amp;amp; SEO Program</title><link href="http://localhost:4000/revealbot-seo-case-study" rel="alternate" type="text/html" title="Grew Organic Traffic 1,279% Through Content &amp; SEO Program" /><published>2022-04-17T19:37:27-07:00</published><updated>2022-04-17T19:37:27-07:00</updated><id>http://localhost:4000/revealbot-seo-case-study</id><content type="html" xml:base="http://localhost:4000/revealbot-seo-case-study">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;When I joined Revealbot, we had several blog posts that were ranking on the bottom of page one and two in Google’s Search Result Pages (SERPs) because our website already had a very strong and healthy backlink profile.&lt;/p&gt;
+
+&lt;p&gt;Although our posts and pages were ranking relatively well, we weren’t getting much traffic to them. They needed to be in the top five results in the SERPs to get meaningfull traffic. At the start of committing to improving our organic traffic, we were averaging ~500 organic users per month.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;We used three strategies to improve our organic traffic:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Find the opportunities with an SEO audit&lt;/li&gt;
+  &lt;li&gt;Update existing website pages and blog posts&lt;/li&gt;
+  &lt;li&gt;Strategically create new content&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-i---complete-an-seo-audit&quot;&gt;Part I - Complete an SEO Audit&lt;/h2&gt;
+
+&lt;p&gt;Using a combination of Screaming Frog, Ahrefs, Google Webmaster Tools, and Google Analytics, I ran a complete site audit to identify all opportunities for improvement on every page of the public-facing website.&lt;/p&gt;
+
+&lt;p&gt;Here’s what the main audit looked like in Google Sheets:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--vwide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-audit.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-audit.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-audit.png&quot; alt=&quot;Dynamic SEO audit spreadsheet for Revealbot&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Dynamic SEO audit spreadsheet for Revealbot&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Although everything couldn’t fit in this screenshot, the sheet incorporated data from all the data sources mentioned above held in different tabs. This main dashboard was built with formulas so I could always update one of the data sources in their respective tab, for example export the latest data from Webmaster Tools, and now the new data would populate automatically in this dashboard tab. This made the health of our SEO easy to frequently monitor.&lt;/p&gt;
+
+&lt;p&gt;Once the data sources were pulled together, we could immediately identify opportunities, including the foundational items, such as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Establish a keyword for every URL&lt;/li&gt;
+  &lt;li&gt;Update titles - unique, under max character count, included the keyword, yet written for humans&lt;/li&gt;
+  &lt;li&gt;Update descriptions - unique, included the keyword, written to generate curiousity&lt;/li&gt;
+  &lt;li&gt;Change page URL to one that includes the keyword and implement 301 redirects from the old URL&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then we did some more advanced optimizations:&lt;/p&gt;
+
+&lt;ol class=&quot;counter-reset&quot;&gt;
+  &lt;li&gt;Combine pages/posts which were competing for the same keyword&lt;/li&gt;
+  &lt;li&gt;Edit main website’s and blog template’s HTML to ensure they are following the correct HTML structure best practices&lt;/li&gt;
+  &lt;li&gt;Identify what stage of the buyer’s journey each page is serving, TOFU, MOFU, or BOFU (or Brand) to quantify opportunity and prioritize pages to update&lt;/li&gt;
+  &lt;li&gt;Add more internal links from pages with the highest page ranking to pages with the highest opportunity for leads and traffic that are not ranking in the top three of the SERPs&lt;/li&gt;
+  &lt;li&gt;Add and refine content to pages starting with ones with the highest opportunity to bring in more leads and traffic&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-ii---update-existing-website-pages-and-blog-posts&quot;&gt;Part II - Update existing website pages and blog posts&lt;/h2&gt;
+
+&lt;p&gt;After making the quick fixes discovered in the SEO audit, it was time to invest in the more significant updates to pages in order to get them to rank higher in the SERPs.&lt;/p&gt;
+
+&lt;p&gt;From the audit, we labeled each page and post with their respective stage of the buyer’s journey based on its content and primary keyword: TOFU, MOFU, or BOFU. Roughly, if it was about accomplishing what the product does, it was BOFU; the challenges people had close to our product, MOFU; not related to the solutions or challenges of our product area but industry relevant, TOFU.&lt;/p&gt;
+
+&lt;p&gt;Then we identified the top ranking competing URL for each page’s target keyword that we could reasonably expect to beat (e.g. excluding facebook.com). We analayzed these pages to see what others were doing in terms of how they met the searcher’s intent, content quality, and length that helped them rank so high. This was our standard to beat.&lt;/p&gt;
+
+&lt;p&gt;There were two considerations for prioritizing which pages or posts to update first:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;BOFU pages, because more traffic to BOFU pages should produce more leads&lt;/li&gt;
+  &lt;li&gt;Current ranking and perceived difficulty to get to a top three position in the SERPs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then we got to work updating the pages and posts knowing these would get us the quickest and most impactful results in 60-90 days. Over time, we rewrote, updated, and optimized every post and page on the website.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-iii---strategically-create-new-content&quot;&gt;Part III - Strategically create new content&lt;/h2&gt;
+
+&lt;p&gt;The final solution to increasing our organic traffic was creating new content around valuable search queries we don’t have existing content for. Of course, there were many new pages and posts, so here are my favorites.&lt;/p&gt;
+
+&lt;h3 id=&quot;facebook-ad-cost-tool&quot;&gt;Facebook Ad Cost Tool&lt;/h3&gt;
+
+&lt;p&gt;One of the best ways to generate passive backlinks is to create a report with proprietary data, or in other words be a source of original data. With content like this, journalists and other content writers will use our research as a source for their articles.&lt;/p&gt;
+
+&lt;p&gt;Revealbot’s proprietary data comes from our customers who need to connect their Facebook ad accounts to our platform to use the product. So we had access to hundreds of millions of dollars of Facebook ad spend data we could combine, anonymize, and analyze. With all this data, we decided to publish monthly reports of Facebook and Instagram advertising costs and its fluctuations over time.&lt;/p&gt;
+
+&lt;p&gt;To test whether this idea would generate traffic and backlinks, we first pulled this data ad-hoc every month and published it in a blog post format with charts of our data. Here’s what it looked like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-facebook-ad-cost-tool-old.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-facebook-ad-cost-tool-old.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-facebook-ad-cost-tool-old.png&quot; alt=&quot;MVP of Revealbot's Facebook ad cost tool&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;MVP of Revealbot's Facebook ad cost tool&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;After a few months, our article reached the first page in the SERPs and up to position three. That’s when we started getting a ton of traffic for search quereies like &lt;strong&gt;facebook advertising costs&lt;/strong&gt;, &lt;strong&gt;facebook ad costs&lt;/strong&gt;, &lt;strong&gt;facebook cpm&lt;/strong&gt;, &lt;strong&gt;facebook cpc&lt;/strong&gt;, etc. Not only that, we started getting backlinks from people referencing our data in their blog posts and even sharing our branded graphs in their article, too. This was the signal we needed to automate it and build it is a proper “mini app.”&lt;/p&gt;
+
+&lt;p&gt;Our engineering team built an &lt;a href=&quot;https://revealbot.com/facebook-advertising-costs&quot;&gt;automatically updating Facebook and Instagram ad cost data tool&lt;/a&gt;. It updates every week and provides current and historical data for CPM, CPC, CPE, CPL, and CPI for both Facebook and Instagram ads. The cost data can even be broken down by campaign objective. Here’s what the new tool looks like:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-facebook-ad-cost-tool.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-facebook-ad-cost-tool.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-facebook-ad-cost-tool.png&quot; alt=&quot;Completed form of Revealbot's Facebook ad cost tool&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Completed form of Revealbot's Facebook ad cost tool&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;And based on what information you’re viewing, for example Facebook CPM, the URL changes. The H1 changes. The supporting content below the graph changes. Everything was built with SEO in mind.&lt;/p&gt;
+
+&lt;p&gt;Then we started getting even more backlinks. We got links from competitors, like &lt;a href=&quot;https://blog.hunchads.com/facebook-ads-cost&quot; target=&quot;_blank&quot;&gt;Hunch Ads&lt;/a&gt;, &lt;a href=&quot;https://www.wordstream.com/blog/ws/2021/07/12/facebook-ads-cost&quot; target=&quot;_blank&quot;&gt;Wordstream&lt;/a&gt;, and &lt;a href=&quot;https://www.adzooma.com/blog/how-much-does-facebook-marketing-cost/&quot; target=&quot;_blank&quot;&gt;AdZooma&lt;/a&gt;. Respectable Facebook ad agencies, like &lt;a href=&quot;https://klientboost.com/facebook/how-to-run-facebook-ads/&quot; target=&quot;_blank&quot;&gt;KlientBoost&lt;/a&gt;. And huge companies like &lt;a href=&quot;https://www.shopify.com/blog/facebook-ads-cost&quot; target=&quot;_blank&quot;&gt;Shopify&lt;/a&gt; (&lt;a href=&quot;https://www.shopify.com/blog/instagram-ads&quot; target=&quot;_blank&quot;&gt;twice&lt;/a&gt;), &lt;a href=&quot;https://blog.hubspot.com/insiders/how-to-shift-your-marketing-from-traditional-to-inbound&quot; target=&quot;_blank&quot;&gt;HubSpot&lt;/a&gt;, &lt;a href=&quot;https://gizmodo.com/the-butt-pajamas-will-follow-you-forever-1845929307&quot; target=&quot;_blank&quot;&gt;Gizmodo&lt;/a&gt;, &lt;a href=&quot;https://arstechnica.com/tech-policy/2021/08/facebook-reveals-top-posts-but-still-wont-share-key-data-about-disinformation/&quot; target=&quot;_blank&quot;&gt;Ars Technica&lt;/a&gt;, and &lt;a href=&quot;https://seekingalpha.com/article/4476242-shopify-the-future-of-retail&quot; target=&quot;_blank&quot;&gt;Seeking Alpha&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As of writing this case study, the tool has generated backlinks from over 380 domains, over 100k unique visitors, and increased the awareness of our brand and product in the industry. It has boosted the SEO of our entire revealbot.com domain helping to improve the rankings of all our other pages.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-ad-cost-tool-backlinks.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-ad-cost-tool-backlinks.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-ad-cost-tool-backlinks.png&quot; alt=&quot;Number of domains linking to Revealbot's Facebook ad cost tool&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Number of domains linking to Revealbot's Facebook ad cost tool&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;And on top of all that SEO goodness, it’s been a consistent driver of new customers.&lt;/p&gt;
+
+&lt;h3 id=&quot;revealbot-answers&quot;&gt;Revealbot Answers&lt;/h3&gt;
+
+&lt;p&gt;Sometimes answering a search query just doesn’t need one to two thousands words to answer.&lt;/p&gt;
+
+&lt;p&gt;We created Revealbot Answers, a section on our blog, for short form content to target keywords in a question format. Here’s what the section looked like on the blog:&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-answers.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-answers.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-answers.png&quot; alt=&quot;Dedicated section on the blog for Revealbot answers&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Dedicated section on the blog for Revealbot answers&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Some examples of the content we wrote for Revealbot Answers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://revealbot.com/blog/how-much-should-i-spend-on-facebook-ads/&quot; target=&quot;_blank&quot;&gt;How much should I spend on Facebook ads?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://revealbot.com/blog/facebook-ad-scheduling/&quot; target=&quot;_blank&quot;&gt;What is Facebook ad scheduling?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://revealbot.com/blog/facebook-automated-rules-broken-not-working/&quot; target=&quot;_blank&quot;&gt;Are Facebook automated rules broken after iOS 14.5?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are much less resource heavy articles, which means we can create many of them quickly. Plus, because these are usually long tailed keywords, we have a great chance of ranking well and quickly.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-serp-example.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-serp-example.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-serp-example.png&quot; alt=&quot;Search result page for a Revealbot answers blog post&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Search result page for a Revealbot answers blog post&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This was such a success that I think every B2B blog needs an “answers” section to take advantage of long-tailed keywords written in a question.&lt;/p&gt;
+
+&lt;h3 id=&quot;facebook-and-instagram-ads-updates-and-changes&quot;&gt;Facebook and Instagram Ads Updates and Changes&lt;/h3&gt;
+
+&lt;p&gt;In addition to being a resource for Facebook and Instagram ad cost data, I wanted Revealbot to be a resource for the ever changing ad platform and algorithm changes.&lt;/p&gt;
+
+&lt;p&gt;We created two blog posts, one for &lt;a href=&quot;https://revealbot.com/blog/facebook-update-changes-news/&quot; target=&quot;_blank&quot;&gt;Facebook ad updates&lt;/a&gt; and another for &lt;a href=&quot;https://revealbot.com/blog/instagram-algorithm-update-news/&quot; target=&quot;_blank&quot;&gt;Instagram ad updates&lt;/a&gt;. These pieces of content were extremely resource heavy. They not only required a lot of research to be a reliable source of information, but they also required those updates to be timely. When a big update happens, Facebook ad advertisers look for answers immediately. We couldn’t update the post every day, but we did get to a point where we could update them monthly.&lt;/p&gt;
+
+&lt;p&gt;Despite our timing challenges, we were able to get them up to position three or four in the SERPs and became our second biggest driver of traffic behind our Facebook ad cost tool.&lt;/p&gt;
+
+&lt;p&gt;If we were able to invest more resources into producing this content, we really could have been a go-to source of Facebook ad update information with a unique design (similar again to a “mini app”) that sets it apart from any other blog post you can find on the internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;At the time I joined Revealbot in August 2019, we were averaging 580 organic users per week. Just about two years later, traffic grew 1,279% to around 8,000 users per week.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo results-full.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo results-full.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo results-full.png&quot; alt=&quot;Results in Google Analytics of 1,000% organic search growth&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Results in Google Analytics of 1,000% organic search growth&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Organic clicks from non brand search queries.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-non-brand-organic-traffic-growth.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-non-brand-organic-traffic-growth.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-non-brand-organic-traffic-growth.png&quot; alt=&quot;Organic, non-brand traffic growth results in Google Webmaster Tools&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Organic, non-brand traffic growth results in Google Webmaster Tools&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Along with the traffic, our domain strength and SEO profile grew tremendously as well.&lt;/p&gt;
+
+&lt;figure class=&quot;figure no-dark-filter figure--full gtc-1&quot;&gt;
+    &lt;div&gt;
+        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/revealbot-seo-ahrefs-domain-strength.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/revealbot-seo-ahrefs-domain-strength.png&quot; type=&quot;image/png&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/revealbot-seo-ahrefs-domain-strength.png&quot; alt=&quot;Backlinks, traffic, and keyword growth from Ahrefs&quot; loading=&quot;lazy&quot; /&gt;
+        &lt;/picture&gt;
+    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Backlinks, traffic, and keyword growth from Ahrefs&lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Reggie Paquette</name></author><summary type="html">Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/revealbot-seo-results.png" /><media:content medium="image" url="http://localhost:4000/assets/images/revealbot-seo-results.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
 
 &lt;p&gt;Last year, I only posted five articles. I stopped working out. I stopped reading. The world had gone mad. I’d spent 99% of time in my apartment and a lot of that was spent playing video games again.&lt;/p&gt;
 
@@ -2693,85 +2874,4 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;“A superior has responsibility for the work of others. He also has power over the careers of others. Making strengths productive is therefore much more than an essential of effectiveness. It is a moral imperative, a responsibility of authority and position. To focus on weakness is not only foolish; it is irresponsible. A superior owes it to his organization to make the strength of every one of his subordinates as productive as it can be. But even more does he owe it to the human beings over whom he exercises authority to help them get the most out of whatever strength they may have.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">According to Peter Drucker, there are eight practices that make effective executives:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/peter-drucker.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/peter-drucker.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Netlify Analytics Review (From a Marketer)</title><link href="http://localhost:4000/netlify-analytics-review" rel="alternate" type="text/html" title="Netlify Analytics Review (From a Marketer)" /><published>2019-07-24T18:02:48-07:00</published><updated>2019-07-24T18:02:48-07:00</updated><id>http://localhost:4000/netlify-analytics-review</id><content type="html" xml:base="http://localhost:4000/netlify-analytics-review">&lt;p&gt;Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.&lt;/p&gt;
-
-&lt;p&gt;Released in July 2019, &lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; is a new add-on to Netlify’s popular hosting and deployment platform. Starting at $9/month, it’s an “expensive” alternative to the analytics king, Google Analytics, which is free. But is it worth it?&lt;/p&gt;
-
-&lt;p&gt;I bought it to find out.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-good-about-netlify-analytics&quot;&gt;What is Good About Netlify Analytics?&lt;/h2&gt;
-
-&lt;p&gt;Netlify Analytics doesn’t slow down your website at all since you don’t need to add any code to your site. Installation was as easy as clicking a button in my Netlify backend. And since it’s anonymous and doesn’t use javascript or cookies, users with adblock are still counted and I didn’t need to add any cookie warnings on my site for GDPR.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-you-can-see-in-netlify-analytics&quot;&gt;What You Can See in Netlify Analytics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pageviews&lt;/li&gt;
-  &lt;li&gt;unique visitors&lt;/li&gt;
-  &lt;li&gt;top viewed pages&lt;/li&gt;
-  &lt;li&gt;top pages/resources not found&lt;/li&gt;
-  &lt;li&gt;top sources/referrers (with path)&lt;/li&gt;
-  &lt;li&gt;bandwidth used&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-cant-you-see-in-netlify-analytics&quot;&gt;What Can’t You See in Netlify Analytics?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;you can’t see beyond the last 30 days&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;you can’t filter by page or change the date range&lt;/li&gt;
-  &lt;li&gt;you can’t look at the top sources for an individual page&lt;/li&gt;
-  &lt;li&gt;you can’t see the bounce rate or average time on site&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;is-netlify-analytics-worth-it&quot;&gt;Is Netlify Analytics Worth It?&lt;/h2&gt;
-
-&lt;p&gt;No. Not right now. At $9/month for a product whose competitors are free and more capable, everyone was expecting more from this release.&lt;/p&gt;
-
-&lt;figure class=&quot;figure no-dark-filter figure--wide gtc-1&quot;&gt;
-    &lt;div&gt;
-        &lt;picture&gt;&lt;source srcset=&quot;/assets/images/webp/netlify-analytics-pricing.webp&quot; type=&quot;image/webp&quot; /&gt;&lt;source srcset=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; type=&quot;image/jpg&quot; /&gt;
-            &lt;img class=&quot;image &quot; src=&quot;/assets/images/netlify-analytics-pricing.jpg&quot; alt=&quot;Netlify Analytics starts at $9/month.&quot; loading=&quot;lazy&quot; /&gt;
-        &lt;/picture&gt;
-    &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;Netlify Analytics starts at $9/month.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;You only have one “screen” without a single filter to segment your data.&lt;/strong&gt; Most egregious though is they delete data older than 30 days (or at least it’s not accessible). Second, I need to be able to break down referrer and pageviews by URL so I can see from where and how much traffic specific pages are getting.&lt;/p&gt;
-
-&lt;p&gt;As it is now, Netlify Analytics is a great product for people who have a simple curiosity for a site or project’s stats. And if you really care about shaving milliseconds off load times or capturing ad block users, Netlify Analytics could be for you. But if you just casually need analytics, are you going to pay $9/month for it? I’m not sure it’s worth it, but many people are happy to give Netlify $9/month for Analytics because their free hosting and deployment platform is so good that they just want to support them. It’s not all bad news for Netlify.&lt;/p&gt;
-
-&lt;p&gt;But remember, this is version one of Netlify Analytics. If Netlify can improve the product by adding the above features, it very well could be a game changer - something I’m eagerly anticipating.&lt;/p&gt;
-
-&lt;h2 id=&quot;alternatives-to-netlify-analytics&quot;&gt;Alternatives to Netlify Analytics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/fathom-analytics-review&quot;&gt;Fathom Analytics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://simpleanalytics.com/&quot;&gt;Simple Analytics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Although both Fathom and Simple Analytics are not server-side analytics, they are both GDPR compliant and focused on user privacy.&lt;/p&gt;
-
-&lt;p&gt;I just signed up for Fathom and will do a review soon to see how it compares to Netlify Analytics.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update 1/28//2020:&lt;/strong&gt; I’ve been using Fathom Analytics for seven months now. Although it’s not server-side analytics, it’s a cookie-less, privacy-focused Google Analytics alternative.&lt;/p&gt;
-
-&lt;aside class=&quot;rec-art&quot; aria-label=&quot;Recommended Article&quot;&gt;
-    &lt;a href=&quot;/netlify-analytics-review&quot;&gt;
-        &lt;div class=&quot;rec-container&quot;&gt;        
-            &lt;div class=&quot;rec-info&quot;&gt;
-                &lt;p class=&quot;heading&quot;&gt;RECOMMENDED&lt;/p&gt;
-                &lt;p class=&quot;post-title&quot;&gt;Netlify Analytics Review (From a Marketer)&lt;/p&gt;
-                &lt;p class=&quot;post-desc&quot;&gt;Is it everything the industry has been waiting for?&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;rec-img&quot;&gt;
-                &lt;figure&gt;
-                    &lt;picture&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/webp/netlify-analytics-250.webp 250w,
-                                /assets/images/webp/netlify-analytics-572.webp 572w&quot; type=&quot;image/webp&quot; /&gt;
-                        &lt;source sizes=&quot;(min-width: 1024px) 274px, 198px&quot; srcset=&quot;/assets/images/netlify-analytics-250.jpg 250w,
-                                /assets/images/netlify-analytics-572.jpg 572w&quot; type=&quot;image/jpeg&quot; /&gt;
-                        &lt;img itemprop=&quot;image&quot; src=&quot;/assets/images/netlify-analytics.jpg&quot; alt=&quot;netlify analytics review from a marketer&quot; loading=&quot;lazy&quot; /&gt;
-                    &lt;/picture&gt;
-                &lt;/figure&gt;
-            &lt;/div&gt;        
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/aside&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">Netlify Analytics is a server side analytics tool that doesn’t slow down your website, protects the privacy of your users, and is GDPR compliant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/netlify-analytics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/netlify-analytics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/blockquote&gt;</content><author><name>Reggie Paquette</name></author><category term="[&quot;all&quot;]" /><summary type="html">According to Peter Drucker, there are eight practices that make effective executives:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/peter-drucker.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/peter-drucker.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

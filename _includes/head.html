@@ -17,4 +17,7 @@
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
         {% include google-fonts.html %} 
         {% include js/lightswitch.html %}
+        {% if jekyll.environment == 'production' -%}
+        {% include js/google-tag-manager.html %}  
+        {%- endif %}
     </head>

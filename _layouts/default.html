@@ -2,6 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" data-theme="light">
 {% include head.html %}
 	<body>
+{% if jekyll.environment == 'production' -%}
+{% include js/google-tag-manager-body.html %}  
+{%- endif %}
 {% include header.html %}
 		<main class="page-content" aria-label="Content">
 			<div class="content-container">
@@ -10,7 +13,7 @@
 		</main>
 {% include footer.html %}
 	</body>
-	{% if jekyll.environment == 'production' -%}
+	<!-- {% if jekyll.environment == 'production' -%}
 	{% include js/google-analytics.html %}  
-	{%- endif %}
+	{%- endif %} -->
 </html>

@@ -19,7 +19,7 @@ I have a strange love for spreadsheets and I want to share the budget template I
 
 You can make your own copy by clicking the link below:
 
-[Make a copy: My Google Sheets Budget Template](https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy)
+<a href="https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy" target="_blank" id="budget_download">Make a copy: My Google Sheets Budget Template</a>
 
 The template is based off the principles and concepts from Ramit Sethi's personal finance book, *"I Will Teach You to Be Rich."* I'll cover everything you need to know in this post, but if you want to learn more about it, you can read my summary of the book below.
 
@@ -91,7 +91,7 @@ And that's why I love budgets built on spreadsheets. I can customize it exactly 
 > A bad budget system only shows you where your money is going. A good budget system will create a change in your behavior.
 {: .big-quote}
 
-If you want to [try my Google Sheets budget template](https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy), make a copy of it and try it out.
+<p>If you want to <a href="https://docs.google.com/spreadsheets/d/1FyZvG4UI11Kd-kaVPpUiV5mRjgPz4OERfxak_KXCsgU/copy" target="_blank" id="budget_download">try my Google Sheets budget template</a>, make a copy of it and try it out.</p>
 
 There are simple and clear instructions with extra notes on cells that have an asterisk(*) - just hover over those cells to the see note.
 

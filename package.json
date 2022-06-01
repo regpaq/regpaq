@@ -34,6 +34,6 @@
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "minimist": "^1.2.6",
-    "sharp": "^0.23.4"
+    "sharp": "^0.30.5"
   }
 }

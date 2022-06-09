@@ -32,8 +32,8 @@ Codecademy teaches web and software development skills for new learners and expe
 <p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
-<li>Lead paid marketing/demand gen for the B2B side of Codecademy’s business</li>
-<li>Launched consumer upsell program through identifying consumer learners who already work in engineering roles at large companies and working with sales to generate qualified meetings with DMs</li>
+<li>Lead paid marketing/demand gen for the B2B side of Codecademy</li>
+<li>Launched consumer upsell program through identifying consumer learners who already work in technical roles at large companies and working with sales to generate qualified meetings with DMs</li>
 <li>Managed and coached one SDR to book meetings with DMs for sales from both the consumer upsell program and paid ad programs through email cadences, LinkedIn, and cold calling</li>
 <li>Managed paid channels including LinkedIn, Google Ads, and Facebook with a $50k monthly budget</li>
 </ul>
@@ -53,7 +53,7 @@ Codecademy teaches web and software development skills for new learners and expe
 
 Revealbot is a digital ad automation tool.
 
-#### Marketing Manager
+#### Marketing Manager, Head of Marketing
 
 <div class="position-info">
 <p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>August 2019 - July 2021</p>

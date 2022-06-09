@@ -45,7 +45,7 @@ This type of content is a definitive example of bottom of the funnel (BOFU) cont
 
 **At Revealbot, we built six competitor pages plus a competitor "homepage" where we compare Revealbot to all our competitors and link to each separate competitor page.** Here's what they looked like:
 
-{% include figure.html image="/assets/images/revealbot-madgicx-alternative.png" image2="/assets/images/revealbot-adespresso-alternative.png" image3="/assets/images/revealbot-alternative.png" caption="ONE: Madgicx competitor page. TWO: Adespresso competitor page. THREE: Competitor 'homepage.'" width="wide" %}
+{% include figure.html image="/assets/images/revealbot-madgicx-alternative.png" image2="/assets/images/revealbot-adespresso-alternative.png" image3="/assets/images/revealbot-alternative.png" caption="ONE: Madgicx competitor page. TWO: AdEspresso competitor page. THREE: Competitor 'homepage.'" width="wide" %}
 
 
 You'll see they target keywords such as **[competitor] alternative** and **Revealbot vs [competitor]**, while our competitor homepages targets keywords like **revealbot alternative**. All our competitor pages use the same layout, but each one is customized to highlight the benefits and features that make Revealbot stand out from the competitor and of course data in the feature comparison tables. You'll also notice that we don't just trash talk our competitors. We give the user a fair review of the competitor and the use case that makes the most sense to choose the competitor over us. This builds trust in the eyes of our customers.

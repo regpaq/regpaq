@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-08T21:17:12-07:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/all.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-13T21:37:45-07:00</updated><id>http://localhost:4000/feed/all.xml</id><title type="html">regpaq | All</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2020 Year Review</title><link href="http://localhost:4000/2020-year-review" rel="alternate" type="text/html" title="2020 Year Review" /><published>2021-02-09T03:00:11-08:00</published><updated>2021-02-09T03:00:11-08:00</updated><id>http://localhost:4000/2020-year-review</id><content type="html" xml:base="http://localhost:4000/2020-year-review">&lt;p&gt;I don’t even know where to begin.&lt;/p&gt;
 
 &lt;p&gt;Last year, I only posted five articles. I stopped working out. I stopped reading. The world had gone mad. I’d spent 99% of time in my apartment and a lot of that was spent playing video games again.&lt;/p&gt;
 
@@ -112,8 +112,8 @@
     &lt;/div&gt;&lt;div&gt;
         &lt;picture&gt;
             &lt;source srcset=&quot;/assets/images/webp/2020-year-review-pop2.webp&quot; type=&quot;image/webp&quot; /&gt;
-            &lt;source srcset=&quot;/assets/images/2020-year-review-pop2.jpeg&quot; type=&quot;image/jpeg&quot; /&gt;
-            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2020-year-review-pop2.jpeg&quot; alt=&quot;ONE: How I'm Feeling Now. TWO: Charli. THREE: Pop 2&quot; loading=&quot;lazy&quot; /&gt;
+            &lt;source srcset=&quot;/assets/images/2020-year-review-pop2.jpg&quot; type=&quot;image/jpg&quot; /&gt;
+            &lt;img class=&quot;image &quot; src=&quot;/assets/images/2020-year-review-pop2.jpg&quot; alt=&quot;ONE: How I'm Feeling Now. TWO: Charli. THREE: Pop 2&quot; loading=&quot;lazy&quot; /&gt;
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;ONE: How I'm Feeling Now. TWO: Charli. THREE: Pop 2&lt;/figcaption&gt;&lt;/figure&gt;
 

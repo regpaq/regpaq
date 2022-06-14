@@ -244,7 +244,7 @@ Self-started marketing agency offering website development and marketing service
                 <picture>
                     <source srcset="/assets/images/webp/{{ item.Photo | split: "." | first }}.webp" type="image/webp" />
                     <source srcset="/assets/images/{{ item.Photo }}" type="image/{{ item.Photo | split: "." | last }}" />
-                    <img itemprop="image" src="/assets/images/{{ item.Photo }}" alt="{{ post.image-alt }}" loading="lazy" />
+                    <img itemprop="image" src="/assets/images/{{ item.Photo }}" alt="{{ item.Photo-alt }}" loading="lazy" />
                 </picture>
                 <!-- <img src= /> -->
             </figure>

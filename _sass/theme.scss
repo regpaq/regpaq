@@ -32,18 +32,18 @@ $xxlarge:					1700px !default;
 $light-colors: (
 	bg:						#FEFCFC,
 	bg-highlight:			#F7F4F4,
-	brand:					#9E2D3A,
+	brand:					#8a6800, //#9E2D3A
 	brand-highlight:		#ede8e8,	
 	gold-and-silver:		#302e28, //#a1a1b3
 	dark-gold-and-silver:   #a1a1b3,
 	link:					#222234,
-	alt:                 	#9E2D3A,
-	alt-text:				#9E2D3A,
-	text:					#6c6c71,
-	text-lighter:			#6d6d7a,
+	alt:                 	#947000, //#9E2D3A
+	alt-text:				#c93546, //#9E2D3A,
+	text:					#31302e,
+	text-lighter:			#444340,
 	text-much-lighter:		#a1a1b3,
 	heading:				#222234,
-	blockquote:				#9E2D3A,
+	blockquote:				#9E2D3A, //#9E2D3A,
 	highlight:				#f7f1eb,
 );
 
@@ -82,12 +82,21 @@ $dark-colors: (
 	letter-spacing: -.85px;
 	word-spacing: -3px;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 @mixin Base-font {
 	font-family: $SansSerif;
 	letter-spacing: normal;
 	word-spacing: normal;
 	font-weight: normal;
+	text-transform: none;
+}
+
+@mixin highlighted {
+	background-color: v(highlight);
+    border-radius: 3px;
+    padding: .15rem .25rem;
+    @include theme-transition(background-color);
 }
 
 // 			Media Queries

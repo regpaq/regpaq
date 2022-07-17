@@ -134,7 +134,7 @@ h4 {
 }
 h5 {
     @include Monospace-font;
-    color: v(alt);
+    color: v(alt-text);
     margin-bottom: .4rem;
     letter-spacing: -.04rem;
 }
@@ -148,6 +148,25 @@ a {
 }
 .text-lighter {
     color: v(text-lighter);
+}
+.highlighted {
+	background-color: v(highlight);
+    border-radius: 3px;
+    padding: .15rem .25rem;
+    @include theme-transition(background-color);
+}
+@-moz-document url-prefix() {
+    .highlighted,
+    .post-content strong,
+    .post-content a {
+       padding: .35rem .4rem .15rem .4rem !important;
+    }
+    .post-content aside > a,
+    .post-content article > a,
+    .resume .post-link,
+    .resume .job-info a {
+        padding: 0 !important;
+    }
 }
 /* --------------------------------------------------------
             Main Header and Nav Styles
@@ -209,12 +228,8 @@ a {
     display: inline;
     margin: 0;
     color: v(text);
-    background-color: v(highlight);
-    border-radius: 3px;
-    padding: .15rem .25rem;
     line-height: 2;
     @include Monospace-font;
-    @include theme-transition(background-color);
     @include media-query($shmedium) {    
         &:nth-child(2) {
             margin-left: .25rem;
@@ -306,7 +321,7 @@ a {
 }
 .post-meta {
     font-size: .75rem;
-    color: v(text-lighter);
+    color: v(text);
     @include Monospace-font;
     position: relative; /* for #ring */
     grid-row: 3;
@@ -377,10 +392,8 @@ a {
         }
     }
     strong, a {    
-        border-radius: 3px;
         font-weight: normal;
-        padding: .15rem .25rem;
-        background-color: v(highlight);
+        @include highlighted;
     }
     strong {        
         color: v(text);

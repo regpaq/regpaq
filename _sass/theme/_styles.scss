@@ -136,7 +136,7 @@ h5 {
     @include Monospace-font;
     color: v(alt-text);
     margin-bottom: .4rem;
-    letter-spacing: -.04rem;
+    // letter-spacing: -.04rem;
 }
 a {
     color: v(link);
@@ -159,7 +159,7 @@ a {
     .highlighted,
     .post-content strong,
     .post-content a {
-       padding: .35rem .4rem .15rem .4rem !important;
+       padding: .3rem .4rem .2rem .4rem !important
     }
     .post-content aside > a,
     .post-content article > a,
@@ -230,6 +230,7 @@ a {
     color: v(text);
     line-height: 2;
     @include Monospace-font;
+    @include fluid-type($min_width, $max_width, $min_font - $mod_1, $min_font * $mod_1);
     @include media-query($shmedium) {    
         &:nth-child(2) {
             margin-left: .25rem;
@@ -432,7 +433,7 @@ a {
             a {
                 background-color: unset;
                 color: v(brand);
-                font-weight: bold;
+                font-weight: 500;
                 &:hover {
                     background-color: unset;
                 }
@@ -447,7 +448,6 @@ a {
             border-radius: 0;
             @include Monospace-font;
             font-style: normal;
-            font-weight: bold;
             font-size: .75rem;
             > p {
                 padding: .75rem 0 1rem;

@@ -5,7 +5,7 @@
 // --------------------------------------------------------
 
 // Font
-$Monospace: 				Overpass Mono, monospace;
+$Monospace: 				Spline Sans Mono, monospace;
 $SansSerif: 				Overpass, sans-serif;
 $base-font-size:            13px !default;
 $base-font-weight:          400 !default;
@@ -79,10 +79,10 @@ $dark-colors: (
 // Monospace font builder
 @mixin Monospace-font {
 	font-family: $Monospace;
-	letter-spacing: -.85px;
-	word-spacing: -3px;
-	font-weight: bold;
-	text-transform: uppercase;
+	// letter-spacing: -.85px;
+	// word-spacing: -3px;
+	font-weight: 500;
+	// text-transform: uppercase;
 }
 @mixin Base-font {
 	font-family: $SansSerif;

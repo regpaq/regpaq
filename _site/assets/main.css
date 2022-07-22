@@ -384,11 +384,8 @@ code {
   border-radius: 3px;
   background-color: var(--color-highlight);
   padding: .15rem .25rem;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   color: var(--color-alt-text);
 }
 
@@ -720,14 +717,10 @@ h4 {
 }
 
 h5 {
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   color: var(--color-alt-text);
   margin-bottom: .4rem;
-  letter-spacing: -.04rem;
 }
 
 a {
@@ -754,7 +747,7 @@ a:hover {
   .highlighted,
   .post-content strong,
   .post-content a {
-    padding: .35rem .4rem .15rem .4rem !important;
+    padding: 0.3rem 0.4rem 0.2rem 0.4rem !important;
   }
 
   .post-content aside > a,
@@ -825,11 +818,19 @@ a:hover {
   margin: 0;
   color: var(--color-text);
   line-height: 2;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
+  font-size: 14.8px;
+}
+@media screen and (min-width: 320px) {
+  .hashtag div, .hashtag a {
+    font-size: calc(14.8px + 4.4 * ((100vw - 320px) / 960));
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hashtag div, .hashtag a {
+    font-size: 19.2px;
+  }
 }
 @media screen and (min-width: 568px) {
   .hashtag div:nth-child(2), .hashtag a:nth-child(2) {
@@ -937,11 +938,8 @@ a:hover {
 .post-meta {
   font-size: .75rem;
   color: var(--color-text);
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   position: relative;
   /* for #ring */
   grid-row: 3;
@@ -1100,7 +1098,7 @@ a:hover {
 .post-content blockquote > p a {
   background-color: unset;
   color: var(--color-brand);
-  font-weight: bold;
+  font-weight: 500;
 }
 .post-content blockquote > p a:hover {
   background-color: unset;
@@ -1113,13 +1111,9 @@ a:hover {
   box-shadow: none;
   border-top: 0.1rem solid var(--color-blockquote);
   border-radius: 0;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   font-style: normal;
-  font-weight: bold;
   font-size: .75rem;
 }
 .post-content blockquote > blockquote > p {
@@ -1575,11 +1569,8 @@ button:hover {
   margin-top: 0;
 }
 .featured-article-header .see-more {
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   font-size: 1rem;
   padding-right: 16px;
   color: var(--color-alt-text);
@@ -2095,11 +2086,8 @@ button:hover {
   line-height: .85rem;
   color: var(--color-alt-text);
   font-weight: 900;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   margin-bottom: .4rem;
 }
 @media screen and (min-width: 320px) {
@@ -2327,11 +2315,8 @@ aside.many {
   cursor: default;
 }
 .resume .info {
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   grid-column: 1;
   grid-row: 4 / 5;
 }
@@ -2428,11 +2413,8 @@ aside.many {
 -------------------------------------------------------- */
 .resume .toc-aside {
   display: none;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   position: relative;
   opacity: .4;
   transition: .3s;
@@ -2540,11 +2522,8 @@ aside.many {
 
 .job-info p, .position-info p {
   font-size: .85rem;
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
 }
 .job-info svg, .position-info svg {
   vertical-align: baseline;
@@ -2705,11 +2684,8 @@ aside.many {
   display: none;
 }
 .resume ul.testimonial-author li {
-  font-family: Overpass Mono, monospace;
-  letter-spacing: -.85px;
-  word-spacing: -3px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   font-size: .65rem;
   margin: 0;
   padding-right: .5rem;

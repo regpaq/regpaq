@@ -30,21 +30,21 @@ $xxlarge:					1700px !default;
 
 // Color Themes
 $light-colors: (
-	bg:						#FEFCFC,
-	bg-highlight:			#F7F4F4,
-	brand:					#8a6800, //#9E2D3A
-	brand-highlight:		#ede8e8,	
-	gold-and-silver:		#302e28, //#a1a1b3
-	dark-gold-and-silver:   #a1a1b3,
+	bg:						#EBE7DD,
+	bg-highlight:			#F4F1E9,
+	brand:					#806100, //#9E2D3A
+	brand-highlight:		#D9D1B9,	
+	gold-and-silver:		#28261f, //#a1a1b3
+	dark-gold-and-silver:   #d0c9b9,
 	link:					#222234,
 	alt:                 	#947000, //#9E2D3A
 	alt-text:				#c93546, //#9E2D3A,
-	text:					#31302e,
-	text-lighter:			#444340,
+	text:					#444340, //#31302e,
+	text-lighter:			#6a6862,
 	text-much-lighter:		#a1a1b3,
-	heading:				#222234,
+	heading:				#29261f,
 	blockquote:				#9E2D3A, //#9E2D3A,
-	highlight:				#f7f1eb,
+	highlight:				#d9d4c9, //#D9D1B9,
 );
 
 $dark-colors: (
@@ -95,7 +95,7 @@ $dark-colors: (
 @mixin highlighted {
 	background-color: v(highlight);
     border-radius: 3px;
-    padding: .15rem .25rem;
+    padding: .125rem .3rem;
     @include theme-transition(background-color);
 }
 

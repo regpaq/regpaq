@@ -149,7 +149,7 @@
 		}
 	}
 	svg {
-		fill: v(text);
+		fill: v(text-lighter);
 		width: 1rem;
 		height: 1rem;
 		border-radius: 0;
@@ -159,7 +159,7 @@
 		&:hover {
 			cursor: pointer;
 		}		
-	}	
+	}
 }
 /* --------------------------------------------------------
 			Resume Content

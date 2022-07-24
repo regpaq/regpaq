@@ -38,7 +38,7 @@ layout: default
 													{{ post.description | escape }}
 												{%- endif -%}
 											</p>
-											{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" %}
+											{%- assign date_format = site.minima.date_format | default: "%m/%-d/%Y" %}
 											<p class="post-meta"><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>{{ post.date | date: date_format }}</p>
 										</div>
 									</article>

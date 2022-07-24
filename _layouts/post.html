@@ -20,12 +20,12 @@ layout: default
 							{% include author-photo.html %}
 							<!-- <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about">{{ page.author }}</a></span></span> author name with link -->
 							<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-							{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
+							{%- assign date_format = site.minima.date_format | default: '%m/%-d/%Y' -%}
 							{%- if page.seo.date_modified %}
 							<meta itemprop="datePublished" content="{{ page.date | date: date_format }}">
-							<time itemprop="dateModified" datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>{{ page.seo.date_modified | date: date_format }}</time>							
+							<time itemprop="dateModified" datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{%- assign date_format = site.minima.date_format | default: "%m/%-d/%Y" -%}<svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>{{ page.seo.date_modified | date: date_format }}</time>							
 							{%- else -%}
-							<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%b %-d, '%y" -%}<svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>{{ page.date | date: date_format }}</time>
+							<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{%- assign date_format = site.minima.date_format | default: "%m/%-d/%Y" -%}<svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>{{ page.date | date: date_format }}</time>
 							<meta itemprop="dateModified" content="{{ page.date | date: date_format }}">
 							{%- endif %}
 							<div itemprop="articleSection" id="post-categories" class="hashtag">{% for category in page.categories %}{%- unless category contains "all" -%}<a href="/{{ category }}">#{{ category }}</a>{%- endunless -%}{% endfor %}</div>

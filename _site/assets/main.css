@@ -541,21 +541,21 @@ pre > code {
 			Colors
 -------------------------------------------------------- */
 html[data-theme="light"] {
-  --color-bg: #FEFCFC;
-  --color-bg-highlight: #F7F4F4;
-  --color-brand: #8a6800;
-  --color-brand-highlight: #ede8e8;
-  --color-gold-and-silver: #302e28;
-  --color-dark-gold-and-silver: #a1a1b3;
+  --color-bg: #EBE7DD;
+  --color-bg-highlight: #F4F1E9;
+  --color-brand: #806100;
+  --color-brand-highlight: #D9D1B9;
+  --color-gold-and-silver: #28261f;
+  --color-dark-gold-and-silver: #d0c9b9;
   --color-link: #222234;
   --color-alt: #947000;
   --color-alt-text: #c93546;
-  --color-text: #31302e;
-  --color-text-lighter: #444340;
+  --color-text: #444340;
+  --color-text-lighter: #6a6862;
   --color-text-much-lighter: #a1a1b3;
-  --color-heading: #222234;
+  --color-heading: #29261f;
   --color-blockquote: #9E2D3A;
-  --color-highlight: #f7f1eb;
+  --color-highlight: #d9d4c9;
 }
 
 html[data-theme="dark"] {
@@ -739,7 +739,7 @@ a:hover {
 .highlighted {
   background-color: var(--color-highlight);
   border-radius: 3px;
-  padding: .15rem .25rem;
+  padding: .125rem .3rem;
   transition: background-color 0.5s ease-out 0s;
 }
 
@@ -757,6 +757,17 @@ a:hover {
     padding: 0 !important;
   }
 }
+.highlighted-thick {
+  background-color: var(--color-highlight);
+  border-radius: 3px;
+  padding: .25rem .35rem;
+  transition: background-color 0.5s ease-out 0s;
+}
+
+.cursor-default:hover {
+  cursor: default !important;
+}
+
 /* --------------------------------------------------------
             Main Header and Nav Styles
 -------------------------------------------------------- */
@@ -1058,7 +1069,7 @@ a:hover {
   font-weight: normal;
   background-color: var(--color-highlight);
   border-radius: 3px;
-  padding: .15rem .25rem;
+  padding: .125rem .3rem;
   transition: background-color 0.5s ease-out 0s;
 }
 .post-content strong {
@@ -2350,7 +2361,7 @@ aside.many {
   margin-left: 0;
 }
 .resume svg {
-  fill: var(--color-text);
+  fill: var(--color-text-lighter);
   width: 1rem;
   height: 1rem;
   border-radius: 0;

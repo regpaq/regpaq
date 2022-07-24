@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Meditations by Marcus Aurelius - Summary, Notes, + Quotes'
+title: 'Meditations by Marcus Aurelius—Summary, Notes, + Quotes'
 description: Lessons on life from an ancient Roman Emperor.
 date: '2018-12-07T05:36:59.794Z'
 categories: [philosophy, booknotes]

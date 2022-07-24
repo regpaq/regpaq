@@ -152,7 +152,7 @@ a {
 .highlighted {
 	background-color: v(highlight);
     border-radius: 3px;
-    padding: .15rem .25rem;
+    padding: .125rem .3rem;
     @include theme-transition(background-color);
 }
 @-moz-document url-prefix() {
@@ -166,6 +166,17 @@ a {
     .resume .post-link,
     .resume .job-info a {
         padding: 0 !important;
+    }
+}
+.highlighted-thick {
+	background-color: v(highlight);
+    border-radius: 3px;
+    padding: .25rem .35rem;
+    @include theme-transition(background-color);
+}
+.cursor-default {
+    &:hover {
+        cursor: default !important;
     }
 }
 /* --------------------------------------------------------

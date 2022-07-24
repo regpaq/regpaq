@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Effective Executive — Summary, Notes, + Quotes
+title: The Effective Executive—Summary, Notes, + Quotes
 description: The essential handbook to learn leadership and effectiveness at work.
 date: '2019-08-12T06:30:00-08:00'
 categories: [booknotes]

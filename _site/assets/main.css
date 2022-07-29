@@ -406,6 +406,8 @@ pre > code {
   grid-column: 2 / 16;
   width: 100%;
   text-align: left;
+  font-family: Spline Sans Mono, monospace;
+  font-weight: 500;
   color: var(--color-text);
   font-size: .75rem;
   border-collapse: collapse;
@@ -437,7 +439,7 @@ pre > code {
 .post-content table thead tr {
   background-color: var(--color-highlight);
   color: var(--color-heading);
-  font-weight: 900;
+  font-weight: bold;
 }
 .post-content table th {
   border-bottom: 2px solid var(--color-alt);
@@ -447,6 +449,17 @@ pre > code {
 }
 .post-content table td {
   border-bottom: 2px solid var(--color-alt);
+}
+.post-content table strong {
+  background-color: initial;
+  border-radius: 0;
+  padding: 0 !important;
+  font-weight: bold;
+}
+
+table.table-2nd-col-right th:last-child,
+table.table-2nd-col-right td:last-child {
+  text-align: right;
 }
 
 /* 

@@ -67,6 +67,7 @@ pre {
   @include grid-normal;
   width: 100%;
   text-align: $table-text-align;
+  @include Monospace-font;
   color: v(text);
   font-size: .75rem;
   border-collapse: collapse;
@@ -77,7 +78,7 @@ pre {
   thead tr {
     background-color: v(highlight);
     color: v(heading);
-    font-weight: 900;
+    font-weight: bold;
   }
   th {
     border-bottom: 2px solid v(alt);
@@ -87,5 +88,16 @@ pre {
   }
   td {
     border-bottom: 2px solid v(alt);
+  }
+  strong {
+    @include highlight-reset;
+    font-weight: bold;
+  }
+}
+
+table.table-2nd-col-right {
+  th:last-child,
+  td:last-child {
+    text-align: right;
   }
 }

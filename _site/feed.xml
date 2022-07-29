@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-27T19:31:32-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2021 Year Review</title><link href="http://localhost:4000/2021-year-review" rel="alternate" type="text/html" title="2021 Year Review" /><published>2022-07-22T04:00:11-07:00</published><updated>2022-07-22T04:00:11-07:00</updated><id>http://localhost:4000/2021-year-review</id><content type="html" xml:base="http://localhost:4000/2021-year-review">&lt;p&gt;2021 has been one of the hardest years of my life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-28T20:48:49-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">regpaq</title><subtitle>B2B Marketer. Avid reader &amp; writer.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;regpaq&quot;}</name></author><entry><title type="html">2021 Year Review</title><link href="http://localhost:4000/2021-year-review" rel="alternate" type="text/html" title="2021 Year Review" /><published>2022-07-22T04:00:11-07:00</published><updated>2022-07-22T04:00:11-07:00</updated><id>http://localhost:4000/2021-year-review</id><content type="html" xml:base="http://localhost:4000/2021-year-review">&lt;p&gt;2021 has been one of the hardest years of my life.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;In June, I hurt my back from incorrectly massaging a knot out of my back with a foam roller&lt;/strong&gt;, as silly as it sounds. I believe I pinched a nerve (I never did an MRI to confirm).&lt;/p&gt;
 
@@ -65,7 +65,7 @@
         &lt;/picture&gt;
     &lt;/div&gt;&lt;figcaption class=&quot;caption&quot;&gt;My new Rocket Appartamento and Niche coffee grinder&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-2nd-col-right&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Item&lt;/th&gt;
@@ -75,7 +75,7 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Rocket Appartamento Espresso Machine&lt;/td&gt;
-      &lt;td&gt;$1,750&lt;/td&gt;
+      &lt;td&gt;$1,750.00&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Niche Coffee Grinder&lt;/td&gt;
@@ -90,8 +90,8 @@
       &lt;td&gt;$141.10&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Total&lt;/td&gt;
-      &lt;td&gt;$2,869.31&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;$2,869.31&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -117,19 +117,19 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;MSI B550 Motherboard&lt;/td&gt;
+      &lt;td&gt;MSI Z490-A Pro Motherboard&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Intel 10850k CPU&lt;/td&gt;
+      &lt;td&gt;Intel Core i9-10850k CPU&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;NVIDIA GeForce RTX 3090 GPU&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Corsair Ram 64GB&lt;/td&gt;
+      &lt;td&gt;4x 16GB Corsair DDR4 3200MHz Memory&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Storage 2TB SSD&lt;/td&gt;
+      &lt;td&gt;2x 2TB M.2 NVME SSD Storage&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Corsair 1000W PSU&lt;/td&gt;
@@ -137,7 +137,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-2nd-col-right&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Item&lt;/th&gt;
@@ -146,7 +146,7 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;Corsair Vengeance Pre-Built PC&lt;/td&gt;
+      &lt;td&gt;Corsair i7200 Vengeance Pre-Built PC&lt;/td&gt;
       &lt;td&gt;$4,740.99&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -166,8 +166,8 @@
       &lt;td&gt;$103.43&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Total&lt;/td&gt;
-      &lt;td&gt;$5,551.20&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;$5,551.20&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

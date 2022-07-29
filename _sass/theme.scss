@@ -99,6 +99,12 @@ $dark-colors: (
     @include theme-transition(background-color);
 }
 
+@mixin highlight-reset {
+	background-color: initial;
+	border-radius: 0;
+	padding: 0 !important;
+}
+
 // 			Media Queries
 // --------------------------------------------------------
 @mixin media-query($device) {

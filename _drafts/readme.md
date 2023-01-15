@@ -51,3 +51,45 @@ You can use the following for width:
 - full - full width of content
 - wide - exceeds width of content, but not full width
 - vwide - very wide, further exceeds width of content, but not full width of window
+
+## Videos
+
+### YouTube
+
+To include a YouTube video, use the following format:
+
+`{% include video.html video-id="C1vW9iSpLLk" %}`
+
+The YouTube video ID can be found in the YouTube URL.
+
+### Local MP4
+
+To include a video file, make sure it's a .mp4 and located in the /Assets/videos directory. Then use the following format:
+
+`{% include mp4.html source="assets/videos/file-name.mp4" width="" caption="" link="" %}`
+
+## Text formatting
+
+### Quotes
+
+There are two different styles of quotes:
+
+1. small box quote
+2. large quote
+
+#### small box quote
+
+```
+> "Quote text.”
+>
+> "Line breaks are compatible."
+> > Author name, [Work where quote is from](link)
+```
+
+### large quote
+
+```
+> "Quote text.”
+> > Author name, [Work where quote is from](link)
+{: .big-quote}
+```

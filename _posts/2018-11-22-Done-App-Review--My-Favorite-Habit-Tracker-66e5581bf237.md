@@ -14,7 +14,9 @@ seo:
     date_modified: '2018-11-22T18:17:19.083Z'
 ---
 
-I’ve always had miserable success with tracking habits until I found an app called [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"}. I would always start off strong, then the number of days in a row I would log would taper off until I stopped completely.
+**2023 Update: I no longer recommend Done. The new owners of the app have removed features and forced an expensive subscription model, even on people who have previously purchased the one-time premium upgrade. I am currently using [DayStamp](https://apps.apple.com/us/app/daystamp-habit-tracker/id1456241316){:target="_blank"} instead.**
+
+I’ve always had miserable success with tracking habits until I found an app called Done. I would always start off strong, then the number of days in a row I would log would taper off until I stopped completely.
 
 I’ve tried spreadsheets, a pen and planner system, and a variety of apps, but I couldn’t stick to any of them (until Done).
 
@@ -37,7 +39,7 @@ The other systems and apps didn’t work because they were either too much work 
 
 ## Design
 
-First, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"} has dark mode. Already a huge winner there.
+First, Done has dark mode. Already a huge winner there.
 
 The app has an awesome design. I like the icon, I like the bright colors, and I like how the home screen looks on both my iPhone and on my Apple Watch.
 
@@ -75,7 +77,7 @@ For habits with a goal of 3_x_ per week for example, Done thought of a neat litt
 
 {% include figure.html image="assets/images/done6.jpeg" image2="assets/images/done7.jpeg" caption="ONE: A grey background means the habit is incomplete. TWO: A bright color means the habit is complete or in progress of being completed." width="full" %}
 
-On the app’s home screen, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"} gives you two different customization choices to display the information you care about most: 1) the big number on the left of the habit to display streaks, count, or left-to-goal, and 2) a line of text below the habit name for motivational notes or time since last completed.
+On the app’s home screen, Done gives you two different customization choices to display the information you care about most: 1) the big number on the left of the habit to display streaks, count, or left-to-goal, and 2) a line of text below the habit name for motivational notes or time since last completed.
 
 For me, I care most about my streaks so I display it in a large number. Streaks are the number of days in a row you complete a habit (weekly habit streaks are counted as weeks in a row). So each day I complete a habit, I can see the streak rise by one which is also pretty rewarding.
 
@@ -97,8 +99,8 @@ You have both a calendar view of your habits and a chart view so you can see whe
 
 Their reporting system makes it super easy to compare how I did week-over-week and month-over-month. And it’s all in there automatically.
 
-Without [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"}, I don’t think I’d be able to keep up my habits, because visually seeing the progress is extremely powerful. I rate their reporting features a 9/10.
+Without Done, I don’t think I’d be able to keep up my habits, because visually seeing the progress is extremely powerful. I rate their reporting features a 9/10.
 
 ## Price
 
-Luckily, [Done](https://itunes.apple.com/us/app/done-a-simple-habit-tracker/id1103961876?mt=8){:target="_blank"} is not using a subscription model. They have a free tier that lets you track just a few habits and the premium tier for only $5.99 lets you add unlimited habits.
+Luckily, Done is not using a subscription model. They have a free tier that lets you track just a few habits and the premium tier for only $5.99 lets you add unlimited habits.

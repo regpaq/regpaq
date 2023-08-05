@@ -7,10 +7,10 @@ date: '2023-08-06T12:02:48.485Z'
 categories: [books]
 category: [all]
 slug: /war-on-normal-people-summary-notes-quotes
-image: /assets/images/basics-stock-options-trading.jpg
+image: /assets/images/andrew-yang-war-on-normal-people.jpg
 image-alt: Andrew Yang illustration
 author: Reggie Paquette
-post-id: 33
+post-id: 39
 seo:
     date_modified: '2023-08-06T012:02:48.485Z'
 ---

@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "War on Normal People - Summary, Notes, & Quotes"
-display-description: An introduction to stock options trading for beginners.
-description: An introduction to stock options trading for beginners. Learn how trading options work, why options exist, and how to trade options in your broker.
-date: '2020-04-12T12:02:48.485Z'
-categories: [money]
+display-description: Is universal basic income the answer?
+description: How UBI and human-centered capitalism can save America's deteriorating quality of life.
+date: '2023-08-06T12:02:48.485Z'
+categories: [books]
 category: [all]
-slug: /trading-stock-options-101-beginners
+slug: /war-on-normal-people-summary-notes-quotes
 image: /assets/images/basics-stock-options-trading.jpg
-image-alt: Stock Options Trading 101
+image-alt: Andrew Yang illustration
 author: Reggie Paquette
 post-id: 33
 seo:
-    date_modified: '2020-04-12T012:02:48.485Z'
+    date_modified: '2023-08-06T012:02:48.485Z'
 ---
 
 

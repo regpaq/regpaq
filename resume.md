@@ -21,10 +21,16 @@ permalink: /resume
 
 Codecademy teaches web and software development skills for new learners and experienced engineers.
 
+#### Performance Marketing Lead
+
+<div class="position-info">
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>March 2023 - Present</p>
+</div>
+
 #### Senior Paid Marketing Manager
 
 <div class="position-info">
-<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>July 2021 - Present</p>
+<p><svg class="no-dark-filter svg-reg--left"><use xlink:href="#cal" /></svg>July 2021 - March 2023</p>
 </div>
 
 <div class="accordion-wrapper">
@@ -32,10 +38,12 @@ Codecademy teaches web and software development skills for new learners and expe
 <p class="accordion-item-heading">see more details<svg class="no-dark-filter"><use xlink:href="#down" /></svg></p>
 <div class="accordion-item-content">
 <ul>
-<li>Lead paid marketing/demand gen for the B2B side of Codecademy</li>
-<li>Launched consumer upsell program through identifying consumer learners who already work in technical roles at large companies and working with sales to generate qualified meetings with DMs</li>
-<li>Managed and coached one SDR to book meetings with DMs for sales from both the consumer upsell program and paid ad programs through email cadences, LinkedIn, and cold calling</li>
-<li>Managed paid channels including LinkedIn, Google Ads, and Facebook with a $50k monthly budget</li>
+<li>Manage $1.5M/mo performance media budget across Meta, Google, Bing, YouTube, DV360, CTV, TikTok, and more</li>
+<li>Conduct consistent conversion lift studies on all channels to measure incremental impact</li>
+<li>Optimize budget allocation across channels based on incremental ROAS and multi-touch attribution model</li>
+<li>Directly manage $500k/mo Meta ads budget and improved Meta's incremental ROAS by 112%</li>
+<li>Manage a direct report and agencies for paid media channels outside of Meta in a strategic role</li>
+<li>Work cross functionally to launch multichannel paid media campaigns for promos, product launches, etc</li>
 </ul>
 </div>
 </div>

@@ -117,6 +117,9 @@
 			cursor: default;
 		}
 	}
+	.resume-meta.social svg {
+		vertical-align: middle;
+	}
 	.info {
 		@include Monospace-font;
 		grid-column: 1;

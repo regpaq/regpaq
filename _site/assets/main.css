@@ -2338,6 +2338,9 @@ aside.many {
 .resume .resume-meta svg {
   cursor: default;
 }
+.resume .resume-meta.social svg {
+  vertical-align: middle;
+}
 .resume .info {
   font-family: Spline Sans Mono, monospace;
   font-weight: 500;

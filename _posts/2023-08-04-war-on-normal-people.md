@@ -1,6 +1,6 @@
 ---
 layout: post
-title: War on Normal People - Summary, Notes, & Quotes
+title: War on Normal People—Summary, Notes, & Quotes
 display-description: Is universal basic income the answer?
 description: How UBI and human-centered capitalism can save America's deteriorating quality of life.
 date: '2023-08-29T12:02:48.485Z'

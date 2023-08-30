@@ -134,16 +134,16 @@ The [five largest occupational groups in the US](https://www.bls.gov/emp/tables/
 > ”Although the seriousness of [automation] has not reached the mainstream yet, […] many Americans are in danger of losing their job right now due to automation. Not in 10 or 15 years. Right now.”  
 > > Andrew Yang  
 
-Here is a table of the number of employees in these occupational groups from 2000, 2016, and 2021 compared to the total workforce.
+Here is a table of the number of employees in these occupational groups from 2016 and 2021 compared to the total workforce.
 
-| Occupational group      | Total number of employees (2000) | Total number of employees (2016) | Total number of employees (2021) | Change (2000-2021) | Change (2016-2021) |
-|-------------------------|----------------------------------|----------------------------------|----------------------------------|--------------------|--------------------|
-| All occupations         | 129.7M                           | 140.4M                           | 158.1M                           | 22%                | 13%                |
-| Office & admin. support | 22.9M                            | 22.0M                            | 19.6M                            | -14%               | -11%               |
-| Sales & retail          | 13.5M                            | 14.5M                            | 14.7M                            | 6%                 | -1%                |
-| Food prep. & serving    | 10.0M                            | 13.0M                            | 11.8M                            | 9%                 | -9%                |
-| Transportation          | 9.6M                             | 9.7M                             | 13.3M                            | 39%                | 37%                |
-| Production              | 12.4M                            | 9.1M                             | 8.8M                             | -29%               | -3%                |
+| Occupational group      | Total number of employees (2016) | Total number of employees (2021) | Change             |
+|-------------------------|----------------------------------|----------------------------------|--------------------|
+| All occupations         | 140.4M                           | 158.1M                           | 13%                |
+| Office & admin. support | 22.0M                            | 19.6M                            | -11%               |
+| Sales & retail          | 14.5M                            | 14.7M                            | -1%                |
+| Food prep. & serving    | 13.0M                            | 11.8M                            | -9%                |
+| Transportation          | 9.7M                             | 13.3M                            | 37%                |
+| Production              | 9.1M                             | 8.8M                             | -3%                |
 
 In 2021, only one group did not decline in job count since 2016: transportation increased 37%. It’s difficult to say the decline in office and admin jobs was due mainly to automation without significant research. Transportation jobs jumped, but the decline of jobs in transportation is not expected until full autonomous trucks are ready for the market.
 

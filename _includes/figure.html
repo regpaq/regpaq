@@ -2,26 +2,56 @@
     <div>
         <picture>
             {%- unless include.image contains ".gif" -%}
-            <source srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
+            <source
+                srcset="/.netlify/images?url={{ include.image }}&w=572&fm=avif 572w,
+                    /.netlify/images?url={{ include.image }}&w=880&fm=avif 880w,
+                    /.netlify/images?url={{ include.image }}&w=1600&fm=avif 1600w"
+                type="image/avif"
+            />
+            <source
+                srcset="/.netlify/images?url={{ include.image }}&w=572&fm=webp 572w,
+                    /.netlify/images?url={{ include.image }}&w=880&fm=webp 880w,
+                    /.netlify/images?url={{ include.image }}&w=1600&fm=webp 1600w"
+                type="image/webp"
+            />
             {%- endunless -%}
-            <source srcset="{{ include.image }}" type="image/{{ include.image | split: "." | last }}" />
             <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
     </div>
     {%- if include.image2 -%}
     <div>
         <picture>
-            <source srcset="/assets/images/webp/{{ include.image2 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
-            <source srcset="{{ include.image2 }}" type="image/{{ include.image2 | split: "." | last }}" />
+            <source
+                srcset="/.netlify/images?url={{ include.image2 }}&w=572&fm=avif 572w,
+                    /.netlify/images?url={{ include.image2 }}&w=880&fm=avif 880w,
+                    /.netlify/images?url={{ include.image2 }}&w=1600&fm=avif 1600w"
+                type="image/avif"
+            />
+            <source
+                srcset="/.netlify/images?url={{ include.image2 }}&w=572&fm=webp 572w,
+                    /.netlify/images?url={{ include.image2 }}&w=880&fm=webp 880w,
+                    /.netlify/images?url={{ include.image2 }}&w=1600&fm=webp 1600w"
+                type="image/webp"
+            />
             <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image2 }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
-    </div>    
+    </div>
     {%- endif -%}
     {%- if include.image3 -%}
     <div>
         <picture>
-            <source srcset="/assets/images/webp/{{ include.image3 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
-            <source srcset="{{ include.image3 }}" type="image/{{ include.image3 | split: "." | last }}" />
+            <source
+                srcset="/.netlify/images?url={{ include.image3 }}&w=572&fm=avif 572w,
+                    /.netlify/images?url={{ include.image3 }}&w=880&fm=avif 880w,
+                    /.netlify/images?url={{ include.image3 }}&w=1600&fm=avif 1600w"
+                type="image/avif"
+            />
+            <source
+                srcset="/.netlify/images?url={{ include.image3 }}&w=572&fm=webp 572w,
+                    /.netlify/images?url={{ include.image3 }}&w=880&fm=webp 880w,
+                    /.netlify/images?url={{ include.image3 }}&w=1600&fm=webp 1600w"
+                type="image/webp"
+            />
             <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image3 }}" alt="{{ include.caption }}" loading="lazy" />
         </picture>
     </div>
@@ -29,8 +59,18 @@
     {%- if include.image4 -%}
     <div>
         <picture>
-            <source srcset="/assets/images/webp/{{ include.image4 | split: "/" | last | split: "." | first }}.webp" type="image/webp" />
-            <source srcset="{{ include.image4 }}" type="image/{{ include.image4 | split: "." | last }}" />
+            <source
+                srcset="/.netlify/images?url={{ include.image4 }}&w=572&fm=avif 572w,
+                    /.netlify/images?url={{ include.image4 }}&w=880&fm=avif 880w,
+                    /.netlify/images?url={{ include.image4 }}&w=1600&fm=avif 1600w"
+                type="image/avif"
+            />
+            <source
+                srcset="/.netlify/images?url={{ include.image4 }}&w=572&fm=webp 572w,
+                    /.netlify/images?url={{ include.image4 }}&w=880&fm=webp 880w,
+                    /.netlify/images?url={{ include.image4 }}&w=1600&fm=webp 1600w"
+                type="image/webp"
+            />
             <img class="image {% if include.filter %}no-dark-filter{% endif %}" src="{{ include.image4 }}" alt="{{ include.caption }}" loading="lazy"/>
         </picture>
     </div>

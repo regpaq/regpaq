@@ -1,28 +1,27 @@
-{%- assign img = include.image | split: '.' -%}
 <figure class="feat-img">
-    <picture>        
-        <source            
+    <picture>
+        <source
             sizes="(min-width: 1024px) 1225px, (min-width: 768px) 895px, 286px"
-            srcset="/assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-572.webp 572w,
-                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-790.webp 790w,
-                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-880.webp 880w,
-                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-1600.webp 1600w,
-                /assets/images/webp/{{ include.image | split: "/" | last | split: "." | first }}-2450.webp 2450w"
-            type="image/webp"
+            srcset="/.netlify/images?url={{ include.image }}&w=572&fm=avif 572w,
+                /.netlify/images?url={{ include.image }}&w=790&fm=avif 790w,
+                /.netlify/images?url={{ include.image }}&w=880&fm=avif 880w,
+                /.netlify/images?url={{ include.image }}&w=1600&fm=avif 1600w,
+                /.netlify/images?url={{ include.image }}&w=2450&fm=avif 2450w"
+            type="image/avif"
         />
         <source
             sizes="(min-width: 1024px) 1225px, (min-width: 768px) 895px, 286px"
-            srcset="{{ img[0] }}-572.{{ img[1] }} 572w,
-                {{ img[0] }}-790.{{ img[1] }} 790w,
-                {{ img[0] }}-880.{{ img[1] }} 880w,
-                {{ img[0] }}-1600.{{ img[1] }} 1600w,
-                {{ img[0] }}-2450.{{ img[1] }} 2450w"
-            type="image/{{ img[1] }}"
-        />     
+            srcset="/.netlify/images?url={{ include.image }}&w=572&fm=webp 572w,
+                /.netlify/images?url={{ include.image }}&w=790&fm=webp 790w,
+                /.netlify/images?url={{ include.image }}&w=880&fm=webp 880w,
+                /.netlify/images?url={{ include.image }}&w=1600&fm=webp 1600w,
+                /.netlify/images?url={{ include.image }}&w=2450&fm=webp 2450w"
+            type="image/webp"
+        />
         <img
             itemprop="image"
             src="{{ include.image }}"
-            alt="{{ include.alt }}"            
+            alt="{{ include.alt }}"
             width=2000
             height=1500
         />

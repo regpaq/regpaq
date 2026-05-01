@@ -21,23 +21,17 @@
             <div class="rec-img">
                 <figure>
                     <picture>
-                        {%- assign pimg = post.image | split: '.' %}
                         <source
                             sizes="(min-width: 1024px) 274px, 198px"
-                            srcset="/assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}-250.webp 250w,
-                                /assets/images/webp/{{ post.image | split: "/" | last | split: "." | first }}-572.webp 572w"
-                            type="image/webp"
+                            srcset="/.netlify/images?url={{ post.image }}&w=250&fm=avif 250w,
+                                /.netlify/images?url={{ post.image }}&w=572&fm=avif 572w"
+                            type="image/avif"
                         />
                         <source
                             sizes="(min-width: 1024px) 274px, 198px"
-                            srcset="{{ pimg[0] }}-250.{{ pimg[1] }} 250w,
-                                {{ pimg[0] }}-572.{{ pimg[1] }} 572w"
-                            type="image/
-                                {%- if pimg[1] == "jpg" -%}
-                                    jpeg"
-                                {%- else -%}
-                                    {{ pimg[1] }}"
-                                {%- endif %}
+                            srcset="/.netlify/images?url={{ post.image }}&w=250&fm=webp 250w,
+                                /.netlify/images?url={{ post.image }}&w=572&fm=webp 572w"
+                            type="image/webp"
                         />
                         <img
                             itemprop="image"

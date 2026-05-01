@@ -250,8 +250,8 @@ Self-started marketing agency offering website development and marketing service
             <svg class="coin"><use xlink:href="#coin-gold-ring" /></svg>
             <figure>
                 <picture>
-                    <source srcset="/assets/images/webp/{{ item.Photo | split: "." | first }}.webp" type="image/webp" />
-                    <source srcset="/assets/images/{{ item.Photo }}" type="image/{{ item.Photo | split: "." | last }}" />
+                    <source srcset="/.netlify/images?url=/assets/images/{{ item.Photo }}&w=400&fm=avif" type="image/avif" />
+                    <source srcset="/.netlify/images?url=/assets/images/{{ item.Photo }}&w=400&fm=webp" type="image/webp" />
                     <img itemprop="image" src="/assets/images/{{ item.Photo }}" alt="{{ item.Photo-alt }}" loading="lazy" />
                 </picture>
                 <!-- <img src= /> -->
